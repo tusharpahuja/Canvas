@@ -2,6 +2,8 @@
 
 Refer file `/src/App.tsx` which uses HTML Canvas to measure width of text in different languages.
 
+For results refer - `/Results/Testing Results.xlsx`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
