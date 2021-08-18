@@ -1,0 +1,4 @@
+{
+  "lpc_timeAgoHours": "{{duration}}h ang nakalipas",
+  "lpc_timeAgoMinutes": "{{duration}}m ang nakalipas"
+}

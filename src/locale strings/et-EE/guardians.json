@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Emaloendi laadimine",
+  "guardians_table": "Klassi {{classTeam}} vanemaloend",
+  "students": "Õppurid",
+  "guardians": "Vanemad/hooldajad",
+  "chatButton": "Vestluse nupp",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{Veel # vanem või hooldaja. Loendi avamiseks laienda} one {Veel # vanemat või hooldajat. Loendi avamiseks laienda} other{Veel # vanemat või hooldajat. Loendi avamiseks laienda} }",
+  "guardians_student_label": "{{studentName}}, olek {{status}}, avab profiilikaardi",
+  "guardians_user_unknown_label": "Tundmatu kasutaja",
+  "guardians_status_unknown_label": "Teadmata",
+  "guardians_overflow_members": "{{studentName}} täiendavad vanemad või hooldajad: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Alusta vestlust {studentName} hooldajaga} one {Alusta vestlust {studentName} hooldajatega} other{Alusta vestlust {studentName} hooldajatega}}",
+  "guardians_chat_button_disabled_title": "Administraator on välisjuurdepääsu keelanud",
+  "guardians_chat_button_disabled_alt_title": "Paluge oma administraatoril lisada hooldaja kontaktteave, et vestlus oleks saadaval",
+  "empty_state_title": "Vanemaid ja hooldajaid pole lisatud",
+  "empty_state_subtitle": "Paluge oma IT-administraatoril nad lisada, et saaksite nendega siin kiiresti ühendust võtta. <0></0>",
+  "empty_state_link": "Vaata rohkem",
+  "error_state_title": "Midagi läks valesti. Proovi hiljem uuesti.",
+  "not_owner_error_state_title": "Ainult klassi töörühma omanikud saavad vaadata vanemate ja hooldajate teavet. Paluge töörühma omanikul anda teile juurdepääs.",
+  "retry_button_title": "Proovi uuesti",
+  "transient_error_state_title": "Midagi läks valesti. Proovi uuesti.",
+  "notification_banner_content": "Vanemate ja eestkostjate teabe laadimisel ilmnes probleem. Proovi hiljem uuesti."
+}

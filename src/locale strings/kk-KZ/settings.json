@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Жүйе",
+  "general_settings_system_auto_start_toggle": "Teams бағдарламасын автоматты түрде іске қосу",
+  "notification_settings_details_message_preview_header_text": "Хабарды алдын ала қарау",
+  "notification_settings_edit_chat_button_aria_label": "Чаттың хабарландыруларын өңдеу",
+  "notification_settings_details_chat_messages_text": "Хабарлар",
+  "notification_settings_warning_windows_tfw": "Teams хабарландыруларын ала алатындығыңызға көз жеткізу үшін Windows хабарландыру параметрлерін қайта тексеріңіз. <0></0>",
+  "settings_loader_text": "Мазмұн жүктелуде...",
+  "dropdown_settings_selected_text": "{{value}} мәні таңдалды",
+  "read_receipts_title": "Оқылғаны туралы хабарландыру",
+  "read_receipts_description": "Адамдарға олардың хабарларын көргеніңізді айтыңыз және олар сіздің хабарларыңызды көргендерін біліп алыңыз. Осы чатта параметрдің жұмыс істеуі үшін, барлық чат терезелерін жауып, қайта ашыңыз.",
+  "read_receipts_label": "Оқылғаны туралы хабарландыру"
+}

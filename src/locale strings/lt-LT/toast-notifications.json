@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} jus paminėjo",
+  "toast_messaging_reaction": "{{sender}} reagavo į jūsų pranešimą",
+  "toast_messaging_default_group_topic": "Nežinoma",
+  "toast_messaging_default_user_given_name": "Nežinoma",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} ir dar {{count}}",
+  "toast_messaging_quickreply_button_text": "Siųsti",
+  "toast_messaging_quickreply_placeholder_text": "Siųsti spartųjį atsakymą",
+  "toast_messaging_activity_text": "Pokalbis su {{participants}}",
+  "toast_messaging_activity_text_with_count": "Kalbėtis su {{participants}} ir dar {{count}}"
+}

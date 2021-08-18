@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "登出",
+  "me_control_sign_out_button_aria_label": "登出 Microsoft",
+  "me_control_my_microsoft_account_button_text": "我的 Microsoft 帳戶",
+  "me_control_my_microsoft_account_button_aria_label": "我的 Microsoft 帳戶",
+  "me_control_change_picture_aria_label": "變更設定檔相片",
+  "me_control_trigger_aria_label": "設定檔",
+  "me_control_menu_aria_label": "設定檔功能表",
+  "app_bar_activity_app_name": "活動",
+  "app_bar_activity_app_arialabel": "活動",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# 個新活動} other{# 個新活動}}",
+  "app_bar_activity_app_tooltip": "活動",
+  "app_bar_chat_app_name": "聊天",
+  "app_bar_chat_app_arialabel": "聊天",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# 個聊天有新訊息} other{# 個聊天有新訊息}}",
+  "app_bar_chat_app_tooltip": "聊天",
+  "app_bar_calendar_app_name": "行事曆",
+  "app_bar_calendar_app_arialabel": "行事曆",
+  "app_bar_calendar_app_tooltip": "行事曆",
+  "app_bar_calls_app_name": "通話",
+  "app_bar_calls_app_arialabel": "通話",
+  "app_bar_calls_app_tooltip": "通話"
+}

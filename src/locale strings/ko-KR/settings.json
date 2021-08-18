@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "시스템",
+  "general_settings_system_auto_start_toggle": "Teams 자동 시작",
+  "notification_settings_details_message_preview_header_text": "메시지 미리 보기",
+  "notification_settings_edit_chat_button_aria_label": "채팅 알림 편집",
+  "notification_settings_details_chat_messages_text": "메시지",
+  "notification_settings_warning_windows_tfw": "Windows 알림 설정을 다시 확인하여 Teams 알림을 받을 수 있는지 확인하세요. <0></0>",
+  "settings_loader_text": "콘텐츠 로드 중...",
+  "dropdown_settings_selected_text": "{{value}} 선택됨",
+  "read_receipts_title": "영수증 읽기",
+  "read_receipts_description": "사람들에게 그들의 메시지를 언제 보았는지, 그리고 그들이 사용자의 메시지를 언제 보았는지 알립니다. 설정이 해당 채팅에 적용되도록 채팅 창을 닫았다가 다시 엽니다.",
+  "read_receipts_label": "영수증 읽기"
+}

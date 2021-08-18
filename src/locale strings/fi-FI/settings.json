@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Järjestelmä",
+  "general_settings_system_auto_start_toggle": "Käynnistä Teams automaattisesti",
+  "notification_settings_details_message_preview_header_text": "Viestin esikatselu",
+  "notification_settings_edit_chat_button_aria_label": "Muokkaa keskusteluilmoituksia",
+  "notification_settings_details_chat_messages_text": "Viestit",
+  "notification_settings_warning_windows_tfw": "Tarkista Windows-ilmoitusasetukset ja varmista, että pystyt vastaanottamaan Teamsin ilmoitukset. <0></0>",
+  "settings_loader_text": "Ladataan sisältöä...",
+  "dropdown_settings_selected_text": "{{value}} valittu",
+  "read_receipts_title": "Lukukuittaukset",
+  "read_receipts_description": "Anna muiden nähdä, kun olet nähnyt heidän viestinsä, ja tiedä milloin he ovat nähneet sinun viestisi. Sulje ja avaa uudelleen kaikki keskusteluikkunat, jotta asetus tulee voimaan näissä keskusteluissa.",
+  "read_receipts_label": "Lukukuittaukset"
+}

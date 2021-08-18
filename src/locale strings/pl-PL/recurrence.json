@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Odbywa się codziennie} =2{Odbywa się co drugi dzień} one {Odbywa się co # dni} few {Odbywa się co # dni} many {Odbywa się co # dni} other{Odbywa się co # dni}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Odbywa się w dniach: {days}} =2{Odbywa się co drugi tydzień w dniach: {days}} one {Odbywa się co # tyg. w dniu: {days}} few {Odbywa się co # tyg. w dniu: {days}} many {Odbywa się co # tyg. w dniu: {days}} other{Odbywa się co # tyg. w dniu: {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Odbywa się co miesiąc w dniu: {day}} =2{Odbywa się co drugi miesiąc w dniu {day}} one {Odbywa się co # mies. w dniu: {day}} few {Odbywa się co # mies. w dniu: {day}} many {Odbywa się co # mies. w dniu: {day}} other{Odbywa się co # mies. w dniu: {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Odbywa się co miesiąc w dniu: {weekInMonthIndex} {weekday}} =2{Odbywa się co drugi miesiąc w dniu: {weekInMonthIndex} {weekday}} one {Odbywa się co # mies., w dniu: {weekInMonthIndex} {weekday}} few {Odbywa się co # mies., w dniu: {weekInMonthIndex} {weekday}} many {Odbywa się co # mies., w dniu: {weekInMonthIndex} {weekday}} other{Odbywa się co # mies., w dniu: {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Występuje zawsze w tym dniu: {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Występuje co rok w dniu: {{dayOfTheWeekIndex}} {{dayOfTheWeek}} miesiąca: {{month}}"
+}

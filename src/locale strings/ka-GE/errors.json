@@ -1,0 +1,18 @@
+{
+  "default_app_description": "სამწუხაროდ, რაღაც პრობლემაა!",
+  "default_app_title": "სამწუხაროდ, უცნობი შეფერხებაა! (აპის შეცდომები)",
+  "default_network_error_description": "სამწუხაროდ, ქსელის პრობლემაა!",
+  "default_network_error_title": "სამწუხაროდ, ქსელის პრობლემაა!",
+  "default_unknown_description": "სამწუხაროდ, რაღაც პრობლემაა!",
+  "default_unknown_title": "სამწუხაროდ, რაღაც პრობლემაა!",
+  "default_authentication_title": "სამწუხაროდ, თქვენი სისტემაში შესვლა ვერ ხერხდება",
+  "default_authentication_description": "უცნობი შეფერხებაა.",
+  "default_core_error_description": "სამწუხაროდ, უცნობი შეფერხებაა! (ბირთვის შეცდომები)",
+  "default_core_error_title": "შეცდომის კოდი: ძირითადი შეცდომები",
+  "default_fetch_description": "სამწუხაროდ, უცნობი შეფერხებაა! (CDL-ის გადმოტანის შეცდომები)",
+  "default_fetch_title": "შეცდომის კოდი: CDL-ის გადმოტანის შეცდომები",
+  "default_service_description": "სამწუხაროდ, უცნობი შეფერხებაა! (CDL სერვისის შეცდომები)",
+  "default_service_title": "შეცდომის კოდი: CDL სერვისის შეცდომები",
+  "error_forbidden_text": "სამწუხაროდ, თქვენი ორგანიზაციის ლიცენზიასთან დაკავშირებული პრობლემაა.",
+  "error_nonetwork_text": "სამწუხაროდ, ქსელი ვერ მოიძებნა. ხელახლა დაუკავშირდით და კიდევ სცადეთ."
+}

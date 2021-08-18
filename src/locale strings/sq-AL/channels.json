@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Për: {user1}} =1{Për: {user1} dhe 1 tjetër} one {Për: {user1} dhe # të tjerë} other{Për: {user1} dhe # të tjerë}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Për: {user1}, {user2}} =1{Për: {user1}, {user2} dhe 1 tjetër} one {Për: {user1}, {user2} dhe # të tjerë} other{Për: {user1}, {user2} dhe # të tjerë}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Për: {user1}, {user2}, {user3}} =1{Për: {user1}, {user2}, {user3} dhe 1 tjetër} one {Për: {user1}, {user2}, {user3} dhe # të tjerë} other{Për: {user1}, {user2}, {user3} dhe # të tjerë}}",
+  "new_message_label": "I ri",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} përgjigje nga {user1}} =1{{repliesCount} përgjigje nga {user1} dhe 1 tjetër} one {{repliesCount} përgjigje nga {user1} dhe # të tjerë} other{{repliesCount} përgjigje nga {user1} dhe # të tjerë}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} përgjigje nga {user1} dhe {user2}} =1{{repliesCount} përgjigje nga {user1}, {user2} dhe 1 tjetër} one {{repliesCount} përgjigje nga {user1}, {user2} dhe # të tjerë} other{{repliesCount} përgjigje nga {user1}, {user2} dhe # të tjerë}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} përgjigje nga {user1}, {user2} dhe {user3}} =1{{repliesCount} përgjigje nga {user1}, {user2}, {user3} dhe 1 tjetër} one {{repliesCount} përgjigje nga {user1}, {user2}, {user3} dhe # të tjerë} other{{repliesCount} përgjigje nga {user1}, {user2}, {user3} dhe # të tjerë}}",
+  "tmp_view_chat_button_text": "Shiko përgjigjet",
+  "tmp_go_to_channel_button_text": "Shko te kanali"
+}

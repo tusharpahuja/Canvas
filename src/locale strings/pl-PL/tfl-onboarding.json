@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Użyj innego konta",
+  "tflFre_Learn_More_Link_caption": "Kto może to widzieć",
+  "tflFre_OK_Button_caption": "Zaczynamy!",
+  "tflFre_dialog_Aria": "Witamy w aplikacji Teams. W jaki sposób Twój profil ma być wyświetlany? Inne osoby mogą Cię wyszukać za pośrednictwem tych informacji",
+  "tflFre_header": "Witaj",
+  "tflFre_phone_and_email_flyout": "Odwiedź konto Microsoft, aby zarządzać swoim numerem telefonu i pocztą e-mail.",
+  "tflFre_who_can_see_this_flyout": "Twoje imię i nazwisko oraz obraz konta Microsoft będą widoczne dla innych użytkowników aplikacji Teams. Inni mogą też wyszukiwać Cię w aplikacji Teams przy użyciu numeru telefonu i adresu e-mail.",
+  "tflFre_learn_more_link_text": "Dowiedz się więcej",
+  "tflFre_sync_contacts_checkbox": "Synchronizuj moje kontakty ze Skype'a i programu Outlook, aby znajdować osoby, które znam, w aplikacji Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Osoby mogą wyszukiwać Cię za pomocą:",
+  "tflFre_loading_spinner_text": "Trwa ładowanie...",
+  "tflFre_stamping_error_dialog_header": "Nie można zaktualizować Twojego profilu",
+  "tflFre_stamping_error_dialog_body": "Nie można zaktualizować informacji o Twoim profilu. Wybierz pozycję „Użyj innego konta”, aby wylogować się i użyć innego konta. Wybierz pozycję „Ponów próbę”, aby ponowić próbę zaktualizowania profilu",
+  "tflFre_error_dialog_retry_button": "Spróbuj ponownie",
+  "tflFre_error_dialog_sign_out_button": "Użyj innego konta",
+  "tflFre_fetch_error_dialog_header": "Nie można pobrać Twojego profilu",
+  "tflFre_fetch_error_dialog_body": "Nie można pobrać informacji o Twoim profilu. Wybierz pozycję „Użyj innego konta”, aby wylogować się i użyć innego konta. Wybierz pozycję „Ponów próbę”, aby ponowić próbę pobrania profilu",
+  "tflFre_welcome_edit_header": "Witamy w aplikacji Teams",
+  "tflFre_welcome_edit_second_header": "Jak chcesz się, żeby się pojawiało?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "Adres e-mail"
+}

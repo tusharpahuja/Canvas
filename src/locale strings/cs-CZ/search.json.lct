@@ -1,0 +1,2538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="search.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="cs-CZ" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";allPageDomainNoResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No <0></0> were found that match '<1></1>'.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nenalezla se žádná <0></0>, které odpovídá <1></1>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[No <0></0> were found that match '<1></1>']]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to be displayed when there are no results for a particular domain in the all page. {{domain}} is the the domain for which there are no results found. {{queryString}} is the query string for which there were no results founnd]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";allPageEntitiesError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong while loading more results. <0>Let's try again</0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Při načítání dalších výsledků došlo k chybě. <0>Zkuste to znovu</0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to be displayed if the call to the entities in all page fails but the answer exists]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";allPageOnlyAnswersPresent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No message, people or file results were found for '<0></0>'.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pro dotaz <0></0> se nenalezla žádná zpráva, uživatel ani soubor.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[No message, people or file results were found for '<0></0>']]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to be displayed when only answers is present in the all page. {{queryString}} is the query for which this scenario happens]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";allPageOnlyAnswersPresentSpeller" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No message, people or file results were found for '<0></0>'. Did you mean <1></1>?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pro dotaz <0></0> se nenalezla žádná zpráva, uživatel ani soubor. Neměli jste na mysli <1></1>?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to be displayed when only answers is present in the all page and speller suggestion is present.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";allPagePeopleNoResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No one by the name of '<0></0>' was found.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nenalezlo se žádné jméno <0></0>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[No one by the name of '<0></0>' was found]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to be displayed when there are no people to be displayed in the all page. {{queryString}} is the query for which no people results were found]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";allResultsLoading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Fetching Results]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Načítání výsledků]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Loading label for searched All result ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";allTabMenuItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vše]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[All tab menu string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";appBotFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hide apps & bots]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Skrýt aplikace a roboty]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Hide apps & bots label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";appsTabMenuItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Apps]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aplikace]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Apps tab menu string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attachmentFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Has attachment]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Má přílohu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Attachment Filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";audioCallHoverActionContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Audio call]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hlasový hovor]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the audio call hover action on the people carousel cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";bookmarkHoverActionContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save this message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Uložit tuto zprávu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the bookmark hover action on message cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";bookmarkHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save this message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Uložit tuto zprávu]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[bookmark]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for bookmark hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";callHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Audio Call]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hlasový hovor]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[call]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for call hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";carouselArrow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{direction}} carousel arrow{{isActive}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{direction}} karuselová šipka{{isActive}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Carousel arrow announcements. {{direction}} represents the side of arrow. {{isActive}} is the boolean to check which arrow is active]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";channel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kanál]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Type filter channel object option]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Type filter chat object option]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatHoverActionContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the chat hover action on the people carousel cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start a Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Začít chatovat]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[chat]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for chat hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatTitleSplitSubstring" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[and]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[a]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[the group chat title will be split on the basis of this substring if the number of people in group chat is 3 including you]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";clearAllFilters" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear all]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vymazat vše]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The clear all button clears all applied filters]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";closePreview" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close Preview]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zavřít náhled]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close Preview action tooltip string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";copyEmailHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy email address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopírovat e-mailovou adresu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for copy email address hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateCustomFilterFocus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Date filter select from the pre-defined options or filter by a custom date range by selecting start and end dates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filtr podle předdefinovaného datového rozsahu, nebo podle rozsahu vlastního, který určíte zadáním počátečního a koncového data.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Date filter select from the pre-defined options or a custom date range by specifying start and end dates]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader will announce this on date filter focus]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Datum]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterApplyBtnAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Apply the Selected Date Range]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Používat vybraný rozsah dat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when the selected Custom Date Range is applied]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterClearBtnAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear the Selected Date Range]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vymazat vybraný rozsah dat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when the selected Custom Date Range is cleared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterCustomApply" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Apply]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Použít]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The apply button applies the selected custom date range]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterCustomClear" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vymazat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The clear button clears the selected custom date range]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterCustomFromInputLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Od]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for From input in Custom Date Range]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterCustomInput" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select a Date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vyberte datum.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for calendar input in Custom Date Range]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterCustomToInputLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Do]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for To input in Custom Date Range]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterFocus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Date filter]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filtr kalendářních dat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader will announce this on date filter focus]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateFilterInputRangeDateAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select end date between {{fromDate}} and {{maxToDate}} to filter results by this date range. Press the Enter key to open calendar]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pokud chcete filtrovat výsledky podle tohoto rozsahu dat, vyberte koncové datum mezi {{fromDate}} a {{maxToDate}}. Stisknutím kláves Enter otevřete kalendář.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label to select {{fromDate}} and {{maxToDate}} for Custom Date Range]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateItemRemovedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{header}} was removed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Došlo k odebrání: {{header}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{header}} gets removed from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateItemSelectedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Date {{header}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Datum {{header}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{header}} was selected.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{header}} gets selected from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateNavigateAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{results}}, use up and down arrow keys to navigate. Press the Enter key to select a date.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{results}}. K procházení použijte klávesy se šipkami nahoru a dolů. Stisknutím klávesy Enter vyberete datum.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the date {{results}}.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateNoResultAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No results available.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[K dispozici nejsou žádné výsledky.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when no results are found in date filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateResultsAvailableAriaLabel_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many date options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateResultsAvailableAriaLabel_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many date options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateResultsAvailableAriaLabel_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many date options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateResultsAvailableAriaLabel_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many date options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateResultsAvailableAriaLabel_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many date options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateResultsAvailableAriaLabel_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# result is available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici # výsledek]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many date options are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateResultsAvailableAriaLabel_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many date options are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dateResultsAvailableAriaLabel_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{resultCount, plural, =1 {# result is available} other{# results are available} }]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{resultCount, plural, =1 {# result is available} other{# results are available} }]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many date options are available.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";datefilterEndMaxDateAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select end date ending {{toDate}} to filter results by this date range. Press the Enter key to open calendar]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pokud chcete filtrovat výsledky podle tohoto rozsahu dat, vyberte koncové datum do {{toDate}}. Stisknutím kláves Enter otevřete kalendář.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label to select end date ending {{toDate}} for Custom Date Range]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";datefilterStartMaxDateAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select start date ending {{toDate}} to filter results by this date range. Press the Enter key to open calendar]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pokud chcete filtrovat výsledky podle tohoto rozsahu dat, vyberte počáteční datum do {{toDate}}. Stisknutím kláves Enter otevřete kalendář.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label to select start date ending {{toDate}} for Custom Date Range]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";defaultChannelNameFileResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Shared Documents]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sdílené dokumenty]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default channel name label to show in the file results]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";downloadHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download File]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Stáhnout soubor]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[download]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for download hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";e2eLatencyLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search took]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hledání trvalo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[e2eLatencyLabel to show in search diagnostic panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emailHoverActionContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy E-mail Address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopírovat e-mailovou adresu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for copy email address hover action menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";errorInFetching" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error in fetching data]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chyba při načítání dat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message that we show when data fetching fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";errorInLoadingResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong while loading the results.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Při načítání výsledků došlo k chybě.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[primary text shown when there was an error loading the results]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";errorInLoadingResultsTryAgain" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<0>Let's try again</0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<0>Zkusme to znovu</0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link suggesting the user to try searching again]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";externalUserDisplayName" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{displayName}} (External)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}} (externí uživatel)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name in people card when the user is an external user. {{displayName}} is the name of the user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fetchingData" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Fetching Data...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Načítání dat...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[placeholder to be shown when data is getting fetched]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fileModifiedByText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Modified]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Změněno]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Modified - user action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fileSharedByText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Shared]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sdíleno]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Shared - user action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fileTypeFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[File Type]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Typ souboru]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File Type filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fileTypeFilterFocus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[File Type filter]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filtr typu souborů]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader will announce this on file type filter focus]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Soubory]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files domain title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filesContextText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{personAction}} by {{personName}} on {{month}}/{{date}}/{{year}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{personAction}} uživatelem {{personName}} dne {{date}}/{{month}}/{{year}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Modified by {{personName}} on {{month}}/{{date}}/{{year}}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File context text containing info about file share or modification. {{personAction}} is the user action whether file was shared or modified, {{personName}} is the person who modified the file, {{month}}, {{date}}, {{year}} are there to symbolise date of modification]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filesDomain" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[soubory]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[files domain string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filesTabMenuItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Soubory]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files tab menu string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filters" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filters]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filtry]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Filters toolbar landmark]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filtersCleared" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All filters cleared]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Všechny filtry jsou vymazány.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announcement after the Clear All button is pressed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";gotoMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Přejít na zprávu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Deep link to the associated message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You, {member1}, {member2}{restMemberLength}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vy, {member1}, {member2}{restMemberLength}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{restMemberLength}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You, {member1}, {member2}{restMemberLength}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vy, {member1}, {member2}{restMemberLength}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{restMemberLength}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You, {member1}, {member2}{restMemberLength}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vy, {member1}, {member2}{restMemberLength}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{restMemberLength}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[You, {member1}, {member2}{restMemberLength}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You, {member1}, {member2}{restMemberLength}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{restMemberLength}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[You, {member1}, {member2}{restMemberLength}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You, {member1}, {member2}{restMemberLength}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{restMemberLength}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chat schůzky]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You and {member1}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vy a {member1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people (ICU){PlaceHolder="{member1}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#Plural.=2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You, {member1} and {member2}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vy, {member1} a {member2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You, {member1}, {member2}{restMemberLength}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vy, {member1}, {member2}{restMemberLength}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{restMemberLength}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";groupChatContext_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{memberCount, plural, =0 {Meeting chat} =1 {You and {member1}} =2 {You, {member1} and {member2}} other {You, {member1}, {member2}{restMemberLength}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{memberCount, plural, =0 {Meeting chat} =1 {You and {member1}} =2 {You, {member1} and {member2}} other {You, {member1}, {member2}{restMemberLength}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[group chat context {memberCount} represents number of people in group chat {member1} {member2} and {member3} are the members of the group chat {restMemberLength} represents the number of unlisted people{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";guest" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Guest]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Host]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text indicating the user is a guest user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";guestUserDisplayName" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{displayName}} (Guest)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}} (Host)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name in people card when the user is a guest. {{displayName}} is the name of the user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";hybrid_all_result_tag" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All results]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Všechny výsledky]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Most recent]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display String for Hybrid search results All Results in SERP]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";hybrid_latest_result_tag" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Latest results]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nejnovější výsledky]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display String for Hybrid search results Latest Results in SERP]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";hybrid_top_result_tag" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Top results]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nejlepší výsledky]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Most relevant]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display String for Hybrid search results Top Results in SERP]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";inChat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[v chatu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[in chat sender action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";inConversationWith" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[In conversation with {{name}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Konverzace s uživatelem {{name}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the name with which the  1:1 chat is found. {{name}} is the name of the person with which you have a 1:1 chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";inactiveButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[, inactive]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[, neaktivní]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Inactive button announcement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lastMonth" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last month]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minulý měsíc]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for last month]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lastWeek" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last week]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minulý týden]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for last week]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lastYear" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last year]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minulý rok]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for last year]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";leftDirection" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vlevo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Left direction for carousel arrow]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";linkHoverActionContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopírovat odkaz]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the link hover action on the message cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";linkHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopírovat odkaz]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[link]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for link hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";loadingSearch" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Načítání...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Loader label to be shown whilst fetching data]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mentionFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[@mentions me]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[@zmiňuje mě]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[My @mention]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Mention filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";menuItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{searchMenu}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{searchMenu}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Verticals in search menu. {{searchMenu}} represents the vertical in the menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageLinkSignature" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in {{team}} / {{channel}}, {{timeString}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[v {{team}} / {{channel}}, {{timeString}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Signature for copy link action {{team}} is the team, {{channel}} is the channel and {{timeString}} is the time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageReplyCountText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{messageCount}} replies]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Počet odpovědí: {{messageCount}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Gives the number of replies in a thread. Visible only in expanded card. {{messageCount}} is the count of messages in reply chain]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageReplyToText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[In reply to {{personName}}'s post]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[V odpovědi na příspěvek {{personName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text containing info about whose post is the message a reply to. {{personName}} is the author of the original post]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTabMenuItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zprávy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Messages tab menu string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeFilterFocus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Message Type filter]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filtr typu zpráv]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader will announce this on message type filter focus]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeItemRemovedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{header}} filter was removed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Byl odebrán filtr {{header}}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{header}} was removed.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{header}} gets removed from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeItemSelectedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Type {{header}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Typ {{header}}.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{header}} was selected.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{header}} gets selected from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeNavigateAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{results}}, use up and down arrow keys to navigate. Press the Enter key to select a message type.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{results}}. K procházení použijte klávesy se šipkami nahoru a dolů. Stisknutím klávesy Enter vyberete typ zprávy.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the message type {{results}}.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeNoResultAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No results available.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[K dispozici nejsou žádné výsledky.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when no results are found in message type filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeResultsAvailableAriaLabel_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many message type options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeResultsAvailableAriaLabel_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many message type options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeResultsAvailableAriaLabel_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many message type options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeResultsAvailableAriaLabel_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many message type options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeResultsAvailableAriaLabel_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many message type options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeResultsAvailableAriaLabel_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# result is available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici # výsledek]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many message type options are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeResultsAvailableAriaLabel_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many message type options are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messageTypeResultsAvailableAriaLabel_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{resultCount, plural, =1 {# result is available} other{# results are available} }]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{resultCount, plural, =1 {# result is available} other{# results are available} }]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many message type options are available.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zprávy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message domain title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messagesDomain" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[zprávy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[messages domain string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";modifiedByFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Modified by]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Upravil(a)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Modified by filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";moreFiles" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Další soubory]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More File action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";moreHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Další]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[more]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for more hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";moreMessages" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Další zprávy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More messages action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";morePeople" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More people]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Další lidé]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More people action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_pages" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[…]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More pages that are hidden in pagination]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";next" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Next]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Další]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Next page action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";noResultsFound" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No results found]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nenašly se žádné výsledky.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message that we show when API returns an empty response]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";noResultsPromptWithFilters" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't find any results for '{{searchTerm}}' with the applied filters.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pro „{{searchTerm}}“ nemůžeme najít žádné výsledky s aplikovanými filtry.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Prompt that appears when no results are found with {{searchTerm}} as the search term and filters are applied]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";noResultsPromptWithoutFilters" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't find any results for '{{searchTerm}}']]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nepovedlo se nám najít žádné výsledky pro „{{searchTerm}}“]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Prompt that appears when no results are found with {{searchTerm}} as the search term and no filters are applied]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";noResultsSearch" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't find any matches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nepovedlo se nám najít žádnou shodu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[No results message when the dropdown is empty]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";noResultsSuggestionWithFilters" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Try searching for another term or <0>Clear all filters</0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zkuste hledat jiný termín nebo <0>vymazat všechny filtry</0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second line of text that appears when no results are found and filters are applied]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";noResultsSuggestionWithoutFilters" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check for spelling or try searching for another term]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zkontrolujte si pravopis nebo zkuste vyhledávat jiný termín.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Try searching for another term]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second line of text that appears when no results are found and no filters are applied]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";openFile" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open file]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otevřít soubor]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Open file action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";pageNumber" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{pageNumber}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{pageNumber}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Page Number for pagination]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";people" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lidé]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[People domain title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peopleFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Od]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[People Filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peopleFilterSelectedItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From {{selectedItem}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Z {{selectedItem}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announcement on selected people filter. {{selectedItem}} is the name of the person selected as filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peopleLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter by person]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filtrovat podle osoby]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[People filter Placeholder]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peopleOrTeamChannelFilterAnnouncement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{filterName}} filter]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filtr {{filterName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announcement on people or tandc filter. {{filterName}} is the respective filter's name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peopleTabMenuItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lidé]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[People tab menu string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";popoutHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pop out chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chat v novém okně]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for popping out chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";popoutWindowActionContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pop out chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chat v novém okně]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for pop out chat hover action menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";postMessageLinkPreviewWithNoSubject" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{senderName}} posted]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{senderName}} publikoval(a)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Post message copy link preview header when subject is not present and message is sent by {{senderName}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";postMessageLinkPreviewWithSubject" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{senderName}} posted: {{subject}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{senderName}} publikoval(a): {{subject}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Post message copy link preview when {{subject}} is present and message is sent by {{senderName}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";posted" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[posted]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[zveřejněno]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[posted sender action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";previous" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Previous]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Předchozí]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Previous page action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replied" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[replied]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[odpověděl(a)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[replied sender action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[from {member1}, {member2}, {member3} and {restNumber} others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[od uživatele {member1}, {member2}, {member3} a dalších ({restNumber})]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{member3}"} (ICU){PlaceHolder="{restNumber}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[from {member1}, {member2}, {member3} and {restNumber} others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[od uživatele {member1}, {member2}, {member3} a dalších ({restNumber})]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{member3}"} (ICU){PlaceHolder="{restNumber}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[from {member1}, {member2}, {member3} and {restNumber} others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[od uživatele {member1}, {member2}, {member3} a dalších ({restNumber})]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{member3}"} (ICU){PlaceHolder="{restNumber}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[from {member1}, {member2}, {member3} and {restNumber} others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[from {member1}, {member2}, {member3} and {restNumber} others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{member3}"} (ICU){PlaceHolder="{restNumber}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[from {member1}, {member2}, {member3} and {restNumber} others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[from {member1}, {member2}, {member3} and {restNumber} others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{member3}"} (ICU){PlaceHolder="{restNumber}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[from {member1}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[od uživatele {member1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#Plural.=2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[from {member1} and {member2}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[od uživatele {member1} a {member2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#Plural.=3" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[from {member1}, {member2} and {member3}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[od uživatele {member1}, {member2} a dalších ({member3})]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{member3}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[from {member1}, {member2}, {member3} and {restNumber} others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[od uživatele {member1}, {member2}, {member3} a dalších ({restNumber})]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people (ICU){PlaceHolder="{member1}"} (ICU){PlaceHolder="{member2}"} (ICU){PlaceHolder="{member3}"} (ICU){PlaceHolder="{restNumber}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyChainContext_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{memberCount, plural, =1 {from {member1}} =2 {from {member1} and {member2}} =3 {from {member1}, {member2} and {member3}} other {from {member1}, {member2}, {member3} and {restNumber} others}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{memberCount, plural, =1 {from {member1}} =2 {from {member1} and {member2}} =3 {from {member1}, {member2} and {member3}} other {from {member1}, {member2}, {member3} and {restNumber} others}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[reply chain context {memberCount} represents number of people replied {member1} {member2} and {member3} are the people who replied {restNumber} represents the number of unlisted people{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Reply to this message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odpovědět na tuto zprávu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for for reply to hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyMessageLinkPreview" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{senderName}} replied to {{postAuthor}}'s post]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{senderName}} odpověděl(a) na příspěvek {{postAuthor}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Reply message copy link preview header when {{senderName}} replied in {{postAuthor}}'s post]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replyMessageLinkPreviewWithoutAuthor" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{senderName}} replied]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{senderName}} odpověděl(a)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Reply message copy link preview when post author is not present and reply was added by {{senderName}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";rightDirection" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vpravo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Right direction for carousel arrow]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";search" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hledat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Property of the search button and Placeholder string in search textbox]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";searchCarouselArrowToolbarFocus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[search carousel]]></Val>
+          <Tgt Cat="Text" Stat="Update" Orig="New">
+            <Val><![CDATA[search carousel]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Entering search carousel toolbar]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader will announce this on entering search carousel toolbar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";searchFilePreviewTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search file preview]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Preview verze vyhledávání v souborech]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The title for search file preview element]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";searchFiltersToolbarFocus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[search filters]]></Val>
+          <Tgt Cat="Text" Stat="Update" Orig="New">
+            <Val><![CDATA[search filters]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Entering search filters toolbar]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader will announce this on entering search filters toolbar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";searchMessageTitleOpenLink" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open Link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otevřít odkaz]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Open Link action click deeplinks to desired location]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";searchNoAdjacentRepliesInfo" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We are unable to show adjacent messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nedaří se zobrazit sousední zprávy.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The info text to be displayed when there are no adjacent messages in chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";searchPaginationToolbarFocus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[search pagination]]></Val>
+          <Tgt Cat="Text" Stat="Update" Orig="New">
+            <Val><![CDATA[search pagination]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Entering search pagination toolbar]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader will announce this on entering search pagination toolbar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";searchResultsUpdated" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search done, results updated]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hledání bylo dokončeno, výsledky byly aktualizovány.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announced when the search results are fetched and rendered]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";searchTabsToolbarFocus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[search verticals]]></Val>
+          <Tgt Cat="Text" Stat="Update" Orig="New">
+            <Val><![CDATA[search verticals]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Entering search verticals toolbar]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader will announce this on entering search verticals toolbar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";search_feedback_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Provide feedback]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odeslat názor]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Provide Search Feedback]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the 3s search feedback button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";seeLess" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See Less]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zobrazit méně]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The see less button to show collapsed text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";seeMore" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zobrazit více]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The see more button to show expanded text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sharedByFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Shared by]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nasdíleno]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Shared by filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";showLess" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show less]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zobrazit méně]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show (action) less title text for chevron up button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";showMore" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zobrazit více]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show (action) more title text for chevron down button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";showPreview" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open Preview]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otevřít náhled]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Open Preview action tooltip string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";spellerSuggestion" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Did you mean <0></0>?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Měli jste na mysli <0></0>?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displays the suggested query in case of a misspelled query]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabsComment" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{tabName}}]]></Val>
+          <Tgt Cat="Text" Stat="Update" Orig="New">
+            <Val><![CDATA[{{tabName}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{tabName}} tab, Tab {{index}} of {{totalItems}}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The screen reader text for a focussed tab. {{tabName}} is the name of the tab, {{selected}} is the boolean to check if the focused tab is selected, {{index}} is the tab index, {{totalItems}} is the length of the menuItems array]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Teams and channels]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Týmy a kanály]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Team and Channel]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Team and Channel Filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelFilterResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results updated. Total of {{itemLength}} items. Use the up and down arrow key to navigate, and enter to select]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Výsledky hledání byly aktualizovány. Celkový počet položek: {{itemLength}}. K procházení použijte klávesu se šipkou nahoru nebo dolů. K výběru použijte klávesu Enter.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announcement for updated team and channel filter search items. {{itemLength}} is the length of items available]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelFilterSelectedItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Team {{teamName}}, Channel {{channelName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tým {{teamName}}, kanál {{channelName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announcement on selected team and channel filter. {{teamName}} is the name of the team selected and {{channelName}} is the name of the channel selected as filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelItemRemovedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{channel}} channel from {{team}} team was removed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odebral se kanál {{channel}} z týmu {{team}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{channel}} channel from {{team}} team gets removed from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelItemSelectedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{channel}} channel from {{team}} team was selected.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vybral se kanál {{channel}} z týmu {{team}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{channel}} channel from {{team}} team gets selected from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start typing a name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Začněte psát jméno]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Search for a team or channel]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Team and Channel Filter Placeholder]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelNavigateAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{results}}, use up and down arrow keys to navigate. Press the Enter key to select a channel.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{results}}. Položky můžete procházet pomocí kláves se šipkami nahoru a dolů. Stisknutím klávesy Enter vyberete kanál.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the channel {{results}}.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelNoResultAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No results available.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[K dispozici nejsou žádné výsledky.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when no results are found in date filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelResultsAvailableAriaLabel#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many channel options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelResultsAvailableAriaLabel#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many channel options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelResultsAvailableAriaLabel#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many channel options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelResultsAvailableAriaLabel#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many channel options are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelResultsAvailableAriaLabel#Plural.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# result is available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici # výsledek]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many channel options are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelResultsAvailableAriaLabel#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Je k dispozici tento počet výsledků: #]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many channel options are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamAndChannelResultsAvailableAriaLabel.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{resultCount, plural, one{# result is available} other{# results are available} }]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{resultCount, plural, one{# result is available} other{# results are available} }]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how many channel options are available.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamChannelNotFound" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No Team or Channel found. Check spelling or try another name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nenašel se žádný tým ani kanál. Zkontrolujte pravopis nebo zkuste jiný název]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message indicating that the team/channel searched for in the filter has no results]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Team]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tým]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Team filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search for a team]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vyhledejte tým.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Any team]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Team Filter Placeholder]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamNotFound" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No Team found. Check spelling or try another name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nenašel se žádný tým. Zkontrolujte pravopis nebo zkuste jiný název]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message indicating that the team searched for in the filter has no results]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";thisMonth" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This month]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tento měsíc]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for this month]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";thisWeek" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This week]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tento týden]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for this week]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";thisYear" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This year]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tento rok]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for this year]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";today" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Today]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dnes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for today]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";top_result_tag" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Top result]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nejlepší výsledek]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Top Result]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display string to indicate top result in serp results]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";twoWeeksAgo" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Two weeks ago]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Před dvěma týdny]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for two weeks ago]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";typeFilter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Type]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Typ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Type filter label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";videoCallHoverActionContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Video call]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Videohovor]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the video call hover action on the people carousel cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";videoHoverActionTooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Video Call]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Videohovor]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[video]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for video hover action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";yesterday" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Yesterday]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Včera]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Date filter option for yesterday]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

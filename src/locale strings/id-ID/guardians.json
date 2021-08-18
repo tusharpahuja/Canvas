@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Memuat Daftar induk",
+  "guardians_table": "Daftar orang tua untuk {{classTeam}}",
+  "students": "Siswa",
+  "guardians": "Orang tua / Wali",
+  "chatButton": "Tombol obrolan",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# orang tua atau wali lainnya. Perluas untuk membuka daftar} other{# orang tua atau wali lainnya. Perluas untuk membuka daftar} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, membuka kartu profil",
+  "guardians_user_unknown_label": "Pengguna tidak diketahui",
+  "guardians_status_unknown_label": "Tidak diketahui",
+  "guardians_overflow_members": "Orang tua atau wali {{studentName}} lainnya: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Mulai mengobrol dengan wali {studentName}} other{Mulai mengobrol dengan wali {studentName}}}",
+  "guardians_chat_button_disabled_title": "Akses eksternal dinonaktifkan oleh Admin",
+  "guardians_chat_button_disabled_alt_title": "Minta admin untuk menambahkan informasi kontak wali agar obrolan tersedia",
+  "empty_state_title": "Orang tua dan wali belum ditambahkan",
+  "empty_state_subtitle": "Minta Admin TI untuk menambahkan mereka agar Anda dapat menghubunginya dengan cepat dari sini. <0></0>",
+  "empty_state_link": "Lihat selengkapnya",
+  "error_state_title": "Terjadi kesalahan. Periksa lagi nanti.",
+  "not_owner_error_state_title": "Hanya pemilik tim kelas yang dapat melihat informasi orang tua dan wali. Minta pemilik tim untuk memberi Anda akses.",
+  "retry_button_title": "Coba lagi",
+  "transient_error_state_title": "Terjadi kesalahan. Coba lagi.",
+  "notification_banner_content": "Terjadi masalah saat memuat informasi selengkapnya terkait orang tua dan wali. Silakan coba lagi nanti."
+}

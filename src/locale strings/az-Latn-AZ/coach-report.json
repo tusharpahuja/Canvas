@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Toplantıda Məşqçi Hesabatı mövcud deyil",
+  "coach_report_no_data_too_short": "Hesabatınıza 1 dəqiqədən çox daxil olmaq üçün Toplantı Məşqçisini aktiv edin",
+  "coach_report_no_data_too_long": "Təəssüf ki, Toplantı Məşqçisi 2 saatdan artıq davam edən toplantıları dəstəkləmir",
+  "coach_report_title": "Toplantınızdakı Məşqçinin Analitik məlumatları",
+  "coach_report_private_label": "Şəxsi",
+  "coach_report_settings": "Parametrlər",
+  "coach_report_subtitle": "* Məşqçinizin hesabatını yalnız siz görə bilirsiniz.",
+  "coach_report_chart_title": "Toplantınızdan təkliflər",
+  "coach_report_card_checkbox": "Həmişə saxlayın və gələcək seanslar üçün bu ekranı hələlik ötürün",
+  "coach_report_save_button": "Saxla",
+  "coach_report_delete_button": "Sil",
+  "coach_report_save_button_tooltip": "Daha sonra toplantı səhifəsində tap",
+  "coach_report_feedback_before_submit": "Bu faydalı oldu?",
+  "coach_report_feedback_after_submit": "Əks-əlaqə üçün təşəkkür edirik",
+  "coach_report_feedback_yes_button": "Bəli",
+  "coach_report_feedback_no_button": "Xeyr",
+  "coach_report_critique_navigation_text": "{{critiqueTotalCount}} {{critiqueCurrentCount}}",
+  "coach_report_previous_critique_button": "Əvvəlki",
+  "coach_report_next_critique_button": "Növbəti"
+}

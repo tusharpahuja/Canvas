@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Shto njerëz",
+  "embed_go_back_button": "Shko prapa",
+  "embed_provide_feedback": "Jep komentet e tua:",
+  "embed_go_to": "Shko te {{title}}",
+  "embed_open_inside": "Hap brenda",
+  "embed_participants_in_chat": "Pjesëmarrësit ({{membersCount}})",
+  "embed_pop_out_chat": "Bisedë në dritare më vete",
+  "embed_pop_in_back": "Ktheje në dritaren parësore",
+  "embed_error_page_message": "Na vjen keq - kemi ndeshur një problem",
+  "embed_error_page_try_again_button": "Provo sërish",
+  "embed_chats": "Biseda në Microsoft Teams",
+  "embed_chat": "Bisedë në Microsoft Teams"
+}

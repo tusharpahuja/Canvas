@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Ander account gebruiken",
+  "tflFre_Learn_More_Link_caption": "Wie kunnen dit zien?",
+  "tflFre_OK_Button_caption": "Aan de slag",
+  "tflFre_dialog_Aria": "Welkom bij Teams. Hoe wilt u worden weergegeven in Teams? Personen kunnen naar u zoeken met behulp van deze informatie",
+  "tflFre_header": "Welkom",
+  "tflFre_phone_and_email_flyout": "Ga naar uw Microsoft-account om uw telefoonnummer en e-mailadres te beheren.",
+  "tflFre_who_can_see_this_flyout": "Uw naam en Microsoft-accountafbeelding zijn zichtbaar voor anderen in Teams. Mensen kunnen ook naar u zoeken in Teams met behulp van uw telefoonnummer en e-mailadres.",
+  "tflFre_learn_more_link_text": "Meer informatie",
+  "tflFre_sync_contacts_checkbox": "Mijn Skype- en Outlook-contacten synchroniseren om personen te vinden die ik ken in Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Personen kunnen u zoeken met behulp van:",
+  "tflFre_loading_spinner_text": "Laden...",
+  "tflFre_stamping_error_dialog_header": "Profiel bijwerken mislukt",
+  "tflFre_stamping_error_dialog_body": "Uw profielgegevens konden niet worden bijgewerkt. Selecteer Ander account gebruiken om af te melden en gebruik een ander account. Selecteer Opnieuw proberen om nogmaals te proberen uw profiel bij te werken",
+  "tflFre_error_dialog_retry_button": "Opnieuw proberen",
+  "tflFre_error_dialog_sign_out_button": "Ander account gebruiken",
+  "tflFre_fetch_error_dialog_header": "Profiel ophalen mislukt",
+  "tflFre_fetch_error_dialog_body": "Uw profielgegevens konden niet worden opgehaald. Selecteer Ander account gebruiken om af te melden en gebruik een ander account. Selecteer Opnieuw proberen om nogmaals te proberen uw profiel op te halen",
+  "tflFre_welcome_edit_header": "Welkom bij Teams",
+  "tflFre_welcome_edit_second_header": "Hoe wilt u worden weergegeven?",
+  "tflFre_phone_field_header": "Telefoon",
+  "tflFre_email_field_header": "E-mail"
+}

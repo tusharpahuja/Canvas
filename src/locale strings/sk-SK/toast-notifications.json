@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "Používateľ {{sender}} sa o vás zmienil",
+  "toast_messaging_reaction": "Používateľ {{sender}} reagoval na vašu správu",
+  "toast_messaging_default_group_topic": "Neznáme",
+  "toast_messaging_default_user_given_name": "Neznáme",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Odoslať",
+  "toast_messaging_quickreply_placeholder_text": "Odoslať rýchlu odpoveď",
+  "toast_messaging_activity_text": "Chatujte s používateľmi {{participants}}",
+  "toast_messaging_activity_text_with_count": "Chatujte s používateľmi {{participants}} +{{count}}"
+}

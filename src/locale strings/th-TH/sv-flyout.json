@@ -1,0 +1,9 @@
+{
+  "value_prop": "จัดระเบียบและเชื่อมต่อกับเพื่อนๆ ครอบครัว และผู้ร่วมงาน",
+  "initializing_message": "โปรดรอสักครู่ขณะที่เราเตรียมสิ่งต่างๆ ให้พร้อม...",
+  "open_teams_on_web": "เปิด Teams บนเว็บ",
+  "error_message_header": "เราพบปัญหา",
+  "setup_error_message": "เกิดปัญหาขึ้นระหว่างการตั้งค่า",
+  "troubleshoot_issue": "ปัญหาการแก้ไขปัญหา",
+  "retry_flyout_launch": "ลองใหม่"
+}

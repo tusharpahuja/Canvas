@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Nori: {user1}} =1{Nori: {user1}, eta 1 gehiago} one {Nori: {user1} eta # gehiago} other{Nori: {user1} eta # gehiago}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Nori: {user1}, {user2}} =1{Nori: {user1} {user2} eta 1 gehiago} one {Nori: {user1} {user2} eta # gehiago} other{Nori: {user1} {user2} eta # gehiago}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Nori: {user1}, {user2}, {user3}} =1{Nori: {user1}, {user2}, {user3} eta 1 gehiago} one {Nori: {user1}, {user2}, {user3} eta # gehiago} other{Nori: {user1}, {user2}, {user3} eta # gehiago}}",
+  "new_message_label": "Berria",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{user1} erabiltzailearen {repliesCount} erantzun} =1{{user1} eta beste erabiltzaile baten {repliesCount} erantzun} one {{user1} eta beste # erabiltzaileren {repliesCount} erantzun} other{{user1} eta beste # erabiltzaileren {repliesCount} erantzun}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{user1} eta {user2} erabiltzaileen {repliesCount} erantzun} =1{{user1}, {user2} eta beste erabiltzaile baten {repliesCount} erantzun} one {{user1}, {user2} eta beste # erabiltzaileren {repliesCount} erantzun} other{{user1}, {user2} eta beste # erabiltzaileren {repliesCount} erantzun}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{user1}, {user2} eta {user3} erabiltzaileen {repliesCount} erantzun} =1{{user1}, {user2}, {user3} eta beste erabiltzaile baten {repliesCount} erantzun} one {{user1}, {user2}, {user3} eta beste # erabiltzaileren {repliesCount} erantzun} other{{user1}, {user2}, {user3} eta beste # erabiltzaileren {repliesCount} erantzun}}",
+  "tmp_view_chat_button_text": "Ikusi erantzunak",
+  "tmp_go_to_channel_button_text": "Joan kanalera"
+}

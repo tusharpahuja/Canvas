@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL-ul fluxului",
+  "stream_url_placeholder": "Introduceți URL-ul fluxului",
+  "stream_key_label": "Cheia fluxului",
+  "stream_key_placeholder": "Introduceți cheia fluxului",
+  "start_streaming_button_text": "Porniți redarea în flux",
+  "stop_streaming_button_text": "Opriți redarea în flux",
+  "custom_streaming_config_page_description": "Redarea în flux particularizată este instrumentul dvs. de redare în flux a întâlnirii Teams către platforme publice, pe platformă RTMP",
+  "custom_streaming_config_page_first_greeting": "Bun venit la redarea în flux particularizată!",
+  "custom_streaming_config_page_second_greeting": "Ne bucurăm că sunteți aici",
+  "custom_streaming_error_meeting_limit_reached": "Această întâlnire nu poate fi redată în flux în setările sale curente. Restricționați participanții la sub 1000.",
+  "custom_streaming_error_permission_denied": "Nu aveți permisiuni de redare în flux. Contactați administratorul IT sau organizatorul pentru a reda în flux acest conținut",
+  "custom_streaming_error_outdated_client": "Teams are nevoie de actualizări pentru a continua. Reporniți aplicația pentru a vă asigura că aveți cele mai recente caracteristici.",
+  "custom_streaming_error_unknown": "Ceva nu a funcționat corect, încercați din nou.",
+  "custom_streaming_error_unsupported_platform": "Această caracteristică nu este acceptată încă în browser. Încercați din nou din versiunea desktop de Teams.",
+  "custom_streaming_tab_title": "Redare în flux particularizată"
+}

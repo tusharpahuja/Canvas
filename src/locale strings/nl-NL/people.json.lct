@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="people.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="nl-NL" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";contacts_sync_action_details" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Details]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts source sync control details action button title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_action_remove" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Verwijderen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts source sync control unsync action button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_action_sync" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Synchroniseren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts source sync control sync action button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_title_outlook" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From Outlook]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Van Outlook]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Outlook contacts sync control title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_title_phone_or_device" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From your phone or device]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vanaf uw telefoon of apparaat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Phone or Device contacts sync control title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_title_skype" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From Skype]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Van Skype]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Skype contacts sync control title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";edit_profile_picture_info_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Changes will be reflected in your Microsoft account.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Wijzigingen worden overgenomen in uw Microsoft-account.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to indicate that change to profile picture will be reflected in the Microsoft Account.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";edit_profile_picture_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Profile picture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Profielafbeelding]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the edit profile picture dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_alias_privacy_loading_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laden]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text announced when we show loading icon]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_alias_privacy_update_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Update failed for {{settingAlias}}. Please try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bijwerken is mislukt voor {{settingAlias}}. Probeer het opnieuw]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text announced when the update fails for {{settingAlias}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_alias_privacy_visit_msa_account_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you want to add, delete or edit any of these contact details, please go to]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Als u een van deze contactgegevens wilt toevoegen, verwijderen of bewerken, gaat u naar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Pre text for telling user about the addition/deletion of contact details in the link which will be followed by this text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";msa_edit_name_dialog_cancel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Annuleren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for cancel button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";msa_edit_name_dialog_close_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sluiten]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the Close button on the dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";msa_edit_name_dialog_save" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opslaan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for save button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";msa_edit_name_dialog_sub_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Changes will be reflected in your Microsoft account.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Wijzigingen worden overgenomen in uw Microsoft-account.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dialog sub title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";msa_edit_name_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naam bewerken]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dialog title, property]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";msa_edit_name_first_name_input_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[First name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Voornaam]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for first name input]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";msa_edit_name_last_name_input_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Achternaam]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for last name input]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_contacts_sync_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't process your request now. Please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Uw aanvraag is niet verwerkt. Probeer het later opnieuw.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[string to show when there is any error applying the sync settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_details_info_page_link_short" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Meer informatie]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link to contacts sync info page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_details_info_page_link_short_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contacts sync settings, Learn More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Synchronisatie-instellingen voor contactpersonen, meer informatie]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link to contacts sync info page aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_how_to_export_contacts_page_link_short" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[How can I export contacts?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hoe kan ik contactpersonen exporteren?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link text which will open an external URL to learn more about exporting contacts]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_manage_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Beheren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for manage sync contact button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_manage_blocked_users_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage blocked users]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Geblokkeerde gebruikers beheren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for blocked users button which navigates to the blocked users management page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_manage_blocked_users_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[They won't be able to call you or see your presense in Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ze kunnen u niet bellen of uw aanwezigheid zien in Teams.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Short description for blocked users setting section]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_manage_blocked_users_page_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Blocking a user prevents you from seeing their messages. They will still be able to see any content you send in a group with them, including messages, files, and live location.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Als u een gebruiker blokkeert, kunt u hun berichten niet zien. Zij kunnen wel nog steeds inhoud zien die u in een groep hebt verzonden, zoals berichten, bestanden en livelocatie.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for manage blocked users page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_manage_blocked_users_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage blocked users]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Geblokkeerde gebruikers beheren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for blocked users settings section]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_manage_searchability_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage contact information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Contactgegevens beheren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for manage searchability button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_manage_searchability_sub_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage how people can find your profile on Teams by choosing which email addresses and phone number show up in search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Beheren hoe mensen uw profiel in Teams kunnen vinden door te kiezen welke e-mailadressen en welk telefoonnummer worden weergegeven in de zoekresultaten.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub text for managing searchability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_manage_searchability_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage how people can find you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Beheren hoe personen u kunnen vinden]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Group label for managing searchability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_sync_contacts_sub_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage contact sync settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Synchronisatie-instellingen voor contactpersonen beheren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub text for manage contact sync settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_sync_contacts_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync contacts]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Contactpersonen synchroniseren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for manage sync contacts settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_unblock_user_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unblock]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Deblokkeren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for unblock user button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_settings_unsync_details_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can unsync your contacts anytime. When you unsync, all contacts that you’ve not started a chat with will be removed. The contacts that are not on Teams will be deleted after a mobile device is inactive for 30 days.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[U kunt op elk gewenst moment de synchronisatie van uw contactpersonen ongedaan maken. Wanneer u de synchronisatie ongedaan maakt, worden alle contactpersonen verwijderd met wie u niet hebt gechat. De contactpersonen die zich niet in Teams bevinden, worden verwijderd wanneer een mobiel apparaat gedurende 30 dagen inactief is.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Detailed text to educate user about unsync]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sync_contacts_settings_already_synced_sub_test" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Already synced]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Al gesynchroniseerd]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String indicating synced already done status]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sync_contacts_settings_select_source_sub_test" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose where you'd like to sync your contacts from]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kies waarvandaan u uw contactpersonen wilt synchroniseren]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String indicating the text to choose the sync source]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

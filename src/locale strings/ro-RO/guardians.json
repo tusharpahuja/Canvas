@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Se încarcă lista părinte",
+  "guardians_table": "Lista de părinți pentru {{classTeam}}",
+  "students": "Elevi",
+  "guardians": "Părinți/tutori",
+  "chatButton": "Butonul de chat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{Încă # părinte sau tutore. Extindeți pentru a deschide lista} one {Încă # părinte sau tutore. Extindeți pentru a deschide lista} few {Încă # părinți sau tutori. Extindeți pentru a deschide lista} other{Încă # de părinți sau tutori. Extindeți pentru a deschide lista} }",
+  "guardians_student_label": "{{studentName}}, stare {{status}}, deschide fișa de profil",
+  "guardians_user_unknown_label": "Utilizator necunoscut",
+  "guardians_status_unknown_label": "Necunoscut",
+  "guardians_overflow_members": "Părinții suplimentari sau tutorii lui {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Începeți un chat cu tutorele lui {studentName}} one {Începeți un chat cu tutorii lui {studentName}} few {Începeți un chat cu tutorii lui {studentName}} other{Începeți un chat cu tutorii lui {studentName}}}",
+  "guardians_chat_button_disabled_title": "Accesul extern este dezactivat de administrator",
+  "guardians_chat_button_disabled_alt_title": "Cereți administratorului dvs. să adauge informații de contact pentru tutore, pentru a face chatul disponibil",
+  "empty_state_title": "Părinții și tutorii nu au fost adăugați",
+  "empty_state_subtitle": "Cereți administratorului IT să-i adauge, astfel încât să-i puteți contacta rapid de aici. <0></0>",
+  "empty_state_link": "Vedeți mai multe",
+  "error_state_title": "Ceva nu a funcționat corect. Reveniți mai târziu.",
+  "not_owner_error_state_title": "Numai proprietarii echipelor de clase pot vedea informații despre părinți și tutori. Cereți proprietarului echipei să vă ofere acces.",
+  "retry_button_title": "Reîncercați",
+  "transient_error_state_title": "Ceva nu a funcționat corect. Încercați din nou.",
+  "notification_banner_content": "A apărut o problemă la încărcarea mai multor informații despre părinte și tutore. Încercați din nou mai târziu."
+}

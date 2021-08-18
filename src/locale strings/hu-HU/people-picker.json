@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Valami történt, és nem sikerült hozzáadni a csoportot.",
+  "peoplePicker_dlTooManyMembers": "Nem sikerült hozzáadni {{dlName}} ({{dlMemberCount}}). Csak {{maxSize}} vagy kevesebb személlyel lehet csevegést indítani.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Az eltávolításhoz nyomja meg a Backspace vagy a Delete billentyűt. A csevegés többi résztvevőjének kijelöléséhez használja a Balra vagy a Jobbra billentyűt.",
+  "peoplePicker_loadingMessage": "Betöltés folyamatban...",
+  "peoplePicker_newAddGroupNameButtonContent": "Írja be a csoport nevét",
+  "peoplePicker_collapseGroupNameButtonContent": "Csoportnév összecsukása",
+  "peoplePicker_federationWarning": "A nagyvállalati vagy iskolai fiókokkal rendelkező csevegés még nem érhető el. További információ.",
+  "peoplePicker_noResults": "Nincs találat.",
+  "peoplePicker_resultsUpdationAriaLabel": "Frissítettük a találatokat. A Fel és a Le billentyűvel mozoghat közöttük, az Enter billentyűvel pedig kiválaszthatja őket.",
+  "peoplePicker_search_externally_btn_text": "{{email}} külső keresése",
+  "peoplePicker_tflToLinePlaceholder": "Adja meg a nevet, e-mail-címet vagy telefonszámot",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Eltávolítás",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} kiválasztva a listáról.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{resultCount}}/{{index}}. találat.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} eltávolítva a listáról."
+}

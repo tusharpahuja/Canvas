@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "כתובת URL של Stream",
+  "stream_url_placeholder": "הזן את כתובת ה- URL של Stream",
+  "stream_key_label": "מפתח Stream",
+  "stream_key_placeholder": "הזן את מפתח ההזרמה",
+  "start_streaming_button_text": "התחל הזרמה",
+  "stop_streaming_button_text": "עצור הזרמה",
+  "custom_streaming_config_page_description": "הזרמה מותאמת אישית היא הכלי שלך להזרים את פגישת Teams לפלטפורמות ציבוריות מופעלות באמצעות RTMP",
+  "custom_streaming_config_page_first_greeting": "ברוך הבא להזרמה מותאמת אישית!",
+  "custom_streaming_config_page_second_greeting": "אנו שמחים שאתה כאן",
+  "custom_streaming_error_meeting_limit_reached": "אין אפשרות להזרים פגישה זו בהגדרות הנוכחיות שלה. הגבל משתתפים לפחות מ-1000.",
+  "custom_streaming_error_permission_denied": "אין לך הרשאות מזרימות. פנה למנהל ה-IT או למארגן כדי להזרים תוכן זה",
+  "custom_streaming_error_outdated_client": "Teams זקוק לעדכונים כדי להמשיך. הפעל מחדש את היישום כדי לוודא שיש לך את התכונות העדכניות ביותר.",
+  "custom_streaming_error_unknown": "משהו השתבש. נסה שוב.",
+  "custom_streaming_error_unsupported_platform": "תכונה זו אינה נתמכת עדיין בדפדפן. נסה שוב מגירסת שולחן העבודה של Teams.",
+  "custom_streaming_tab_title": "הזרמה מותאמת אישית"
+}

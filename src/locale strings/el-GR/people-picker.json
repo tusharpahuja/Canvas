@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Κάτι συνέβη και δεν ήταν δυνατή η προσθήκη της ομάδας.",
+  "peoplePicker_dlTooManyMembers": "Δεν ήταν δυνατή η προσθήκη του {{dlName}} ({{dlMemberCount}}). Μπορείτε να ξεκινήσετε μια συνομιλία μόνο με {{maxSize}} άτομα ή λιγότερο.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Χρησιμοποιήστε Backspace ή Delete για κατάργηση. Χρησιμοποιήστε το αριστερό ή το δεξιό πλήκτρο για άλλους συμμετέχοντες στη συνομιλίας.",
+  "peoplePicker_loadingMessage": "Φόρτωση...",
+  "peoplePicker_newAddGroupNameButtonContent": "Προσθήκη ονόματος ομάδας",
+  "peoplePicker_collapseGroupNameButtonContent": "Όνομα σύμπτυξης ομάδας",
+  "peoplePicker_federationWarning": "Η συνομιλία με εταιρικούς ή σχολικούς λογαριασμούς δεν είναι ακόμα διαθέσιμη. Μάθετε περισσότερα.",
+  "peoplePicker_noResults": "Δεν ήταν δυνατή η εύρεση αντιστοιχιών.",
+  "peoplePicker_resultsUpdationAriaLabel": "Τα αποτελέσματα αναζήτησης ενημερώθηκαν. Χρησιμοποιήστε τα πλήκτρα επάνω και κάτω βέλους για περιήγηση και το πλήκτρο Enter για επιλογή.",
+  "peoplePicker_search_externally_btn_text": "Εξωτερική αναζήτηση {{email}}",
+  "peoplePicker_tflToLinePlaceholder": "Προσθήκη ονόματος, email ή αριθμού τηλεφώνου",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Κατάργηση",
+  "peoplePicker_userAdditionAriaLabel": "Ο χρήστης {{username}} επιλέχθηκε από τη λίστα.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} από {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Ο χρήστης {{username}} καταργήθηκε από τη λίστα."
+}

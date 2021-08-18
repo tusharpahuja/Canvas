@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Auto-start Teams",
+  "notification_settings_details_message_preview_header_text": "Message preview",
+  "notification_settings_edit_chat_button_aria_label": "Edit chat notifications",
+  "notification_settings_details_chat_messages_text": "Messages",
+  "notification_settings_warning_windows_tfw": "Double check your Windows notification settings to ensure you're able to receive Teams notifications. <0></0>",
+  "settings_loader_text": "Loading content...",
+  "dropdown_settings_selected_text": "{{value}} selected",
+  "read_receipts_title": "Read receipts",
+  "read_receipts_description": "Let people know when you’ve seen their messages and know when they’ve seen yours. Close and reopen any chat windows for the setting to take effect in those chats.",
+  "read_receipts_label": "Read receipts"
+}

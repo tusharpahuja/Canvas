@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Систем",
+  "general_settings_system_auto_start_toggle": "Автоматско активирање на Teams",
+  "notification_settings_details_message_preview_header_text": "Преглед на порака",
+  "notification_settings_edit_chat_button_aria_label": "Уредете ги известувањата за разговорите",
+  "notification_settings_details_chat_messages_text": "Пораки",
+  "notification_settings_warning_windows_tfw": "Добро проверете ги параметрите за известување на Windows за да проверите дали може да примате известувања на Teams.<0></0>",
+  "settings_loader_text": "Содржината се вчитува...",
+  "dropdown_settings_selected_text": "Се избра {{value}}",
+  "read_receipts_title": "Потврди за прочитаност",
+  "read_receipts_description": "Овозможете им на луѓето да знаат кога сте ги виделе нивните пораки, а и вие да знаете кога тие ги виделе вашите. Затворете ги и повторно отворете ги прозорците од разговорите за да се применат параметрите во тие разговори.",
+  "read_receipts_label": "Потврди за прочитаност"
+}

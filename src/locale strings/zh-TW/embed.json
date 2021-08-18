@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "新增人員",
+  "embed_go_back_button": "返回",
+  "embed_provide_feedback": "提供您的意見反應:",
+  "embed_go_to": "移至 {{title}}",
+  "embed_open_inside": "在內部開啟",
+  "embed_participants_in_chat": "參與者 ({{membersCount}})",
+  "embed_pop_out_chat": "彈出聊天",
+  "embed_pop_in_back": "彈回主視窗",
+  "embed_error_page_message": "很抱歉，我們遇到問題",
+  "embed_error_page_try_again_button": "重試",
+  "embed_chats": "Microsoft Teams 聊天",
+  "embed_chat": "Microsoft Teams 聊天"
+}

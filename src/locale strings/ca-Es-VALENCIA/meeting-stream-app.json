@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Adreça URL de l’emissió",
+  "stream_url_placeholder": "Introdueix l'adreça URL de l’emissió",
+  "stream_key_label": "Clau de l’emissió",
+  "stream_key_placeholder": "Introdueix la clau de l’emissió",
+  "start_streaming_button_text": "Inicia l'emissió",
+  "stop_streaming_button_text": "Para l'emissió",
+  "custom_streaming_config_page_description": "L’emissió personalitzada és la vostra eina per a transmetre les reunions del Teams en plataformes públiques amb la tecnologia RTMP",
+  "custom_streaming_config_page_first_greeting": "Vos donem la benvinguda a l'emissió personalitzada!",
+  "custom_streaming_config_page_second_greeting": "Ens alegra de que hages vingut",
+  "custom_streaming_error_meeting_limit_reached": "Esta reunió no es pot transmetre amb la configuració actual. Restringiu els assistents a menys de 1000.",
+  "custom_streaming_error_permission_denied": "No teniu permisos per a transmetre. Poseu-vos en contacte amb l'administrador de TI o amb l'organitzador per a transmetre este contingut.",
+  "custom_streaming_error_outdated_client": "El Teams necessita actualitzacions per a continuar. Reinicieu l'aplicació per a assegurar-vos que teniu les característiques més recents.",
+  "custom_streaming_error_unknown": "S'ha produït un error. Torneu-ho a provar.",
+  "custom_streaming_error_unsupported_platform": "El navegador encara no admet esta característica. Proveu-ho des de la versió d'escriptori del Teams.",
+  "custom_streaming_tab_title": "Emissió personalitzada"
+}

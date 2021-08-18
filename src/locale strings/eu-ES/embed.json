@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Gehitu jendea",
+  "embed_go_back_button": "Itzuli",
+  "embed_provide_feedback": "Eman iritzia:",
+  "embed_go_to": "Joan hona: {{title}}",
+  "embed_open_inside": "Ireki barruan",
+  "embed_participants_in_chat": "Parte-hartzaileak ({{membersCount}})",
+  "embed_pop_out_chat": "Atera txata beste leiho batera",
+  "embed_pop_in_back": "Itzuli leiho nagusira",
+  "embed_error_page_message": "Sentitzen dugu — arazo bat izan dugu.",
+  "embed_error_page_try_again_button": "Saiatu berriro",
+  "embed_chats": "Microsoft Teams-eko txatak",
+  "embed_chat": "Microsoft Teams-eko txata"
+}

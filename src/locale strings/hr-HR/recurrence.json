@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Događa se svakog dana} =2{Događa se svaki drugi dan} one {Ponavlja se svakih # dana} few {Ponavlja se svakih # dana} other{Ponavlja se svakih # dana}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Ponavlja se svakog {days}} =2{Ponavlja se svakog drugog {days}} one {Javlja se svakih ovoliko tjedana: #, u {days}} few {Javlja se svakih ovoliko tjedana: #, u {days}} other{Javlja se svakih ovoliko tjedana: #, u {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Ponavlja se svakog mjeseca na dan {day}} =2{Događa se svaki drugi mjesec na dan {day}} one {Javlja se svakih ovoliko mjeseci: #, na dan {day}} few {Javlja se svakih ovoliko mjeseci: #, na dan {day}} other{Javlja se svakih ovoliko mjeseci: #, na dan {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Događa se svakog mjeseca {weekInMonthIndex} {weekday}} =2{Ponavlja se svakog drugog mjeseca u {weekInMonthIndex}{weekday}} one {Javlja se svakih ovoliko mjeseci: #, na dan {weekInMonthIndex} {weekday}} few {Javlja se svakih ovoliko mjeseci: #, na dan {weekInMonthIndex} {weekday}} other{Javlja se svakih ovoliko mjeseci: #, na dan {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Pojavljuje se svaki put na {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Ponavlja se svaki put kad je {{dayOfTheWeekIndex}}. {{dayOfTheWeek}} u mjesecu {{month}}"
+}

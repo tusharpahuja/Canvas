@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{매일 발생} =2{2일마다 발생} other{#일마다 발생}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{{days}마다 발생} =2{매번 {days} 걸러서 발생} other{# 주 간마다 {days}에 발생}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{매월 {day}일에 발생} =2{2달마다 {day}일에 발생} other{#개월마다 {day} 날짜에 발생}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{매월 {weekInMonthIndex} {weekday}에 발생} =2{2개월마다 {weekInMonthIndex}{weekday}에 발생} other{#개월마다 {weekInMonthIndex} {weekday}에 발생}}",
+  "meeting_recurrence_pattern_yearly": "{{date}}마다 발생",
+  "meeting_recurrence_pattern_relativeyearly": "{{month}} {{dayOfTheWeekIndex}} {{dayOfTheWeek}}마다 발생"
+}

@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Có",
+  "instant_answers_reaction_yes_aria_label": "Thông tin này có hữu ích không? -- Có",
+  "instant_answers_reaction_no": "Không",
+  "instant_answers_reaction_no_aria_label": "Thông tin này có hữu ích không? --Không",
+  "instant_answers_header_text": "Cảm ơn bạn đã phản hồi!",
+  "instant_answers_header_subtext": "Dựa trên phản hồi của bạn, dưới đây là một số thông tin có thể hữu ích đối với bạn:",
+  "instant_answers_footer_text": "Thông tin này có hữu ích không?",
+  "include_screenshot_text": "Bao gồm ảnh chụp màn hình",
+  "customer_feedback_dialog_email_label": "Địa chỉ email của bạn (không bắt buộc)",
+  "customer_feedback_dialog_email_placeholder": "Thêm địa chỉ email",
+  "customer_feedback_dialog_email_aria_label": "Địa chỉ email của bạn (không bắt buộc)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Bằng cách nhấn gửi, phản hồi của bạn sẽ được sử dụng để cải thiện các sản phẩm và dịch vụ của Microsoft. Quản trị viên CNTT của bạn sẽ có thể thu thập dữ liệu này. Dựa trên phản hồi của bạn, chúng tôi có thể cung cấp thông tin bổ sung để trợ giúp bạn với sự cố hỗ trợ của bạn.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Tuyên bố về Quyền riêng tư.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Đóng hộp thoại phản hồi",
+  "customer_feedback_dialog_adhoc_window_title": "Gửi phản hồi"
+}

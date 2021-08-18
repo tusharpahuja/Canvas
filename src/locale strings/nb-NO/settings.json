@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Start Teams automatisk",
+  "notification_settings_details_message_preview_header_text": "Forhåndsvisning av melding",
+  "notification_settings_edit_chat_button_aria_label": "Rediger chatvarsler",
+  "notification_settings_details_chat_messages_text": "Meldinger",
+  "notification_settings_warning_windows_tfw": "Dobbeltsjekk innstillingene for Windows Notification for å sikre at du kan motta Teams-varsler<0></0>",
+  "settings_loader_text": "Laster inn innhold...",
+  "dropdown_settings_selected_text": "{{value}} valgt",
+  "read_receipts_title": "Lesebekreftelser",
+  "read_receipts_description": "La andre få vite når du har sett meldingene fra dem, og få vite når de har sett dine. Lukk alle chatvinduer og åpne dem på nytt for at innstillingen skal tre i kraft i disse samtalene.",
+  "read_receipts_label": "Lesebekreftelser"
+}

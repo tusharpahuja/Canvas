@@ -1,0 +1,4 @@
+{
+  "lpc_timeAgoHours": "{{duration}} u geleden",
+  "lpc_timeAgoMinutes": "{{duration}} m geleden"
+}

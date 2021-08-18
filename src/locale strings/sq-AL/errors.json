@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Diçka nuk shkoi mirë!",
+  "default_app_title": "Mos, diçka nuk shkoi mirë! (Gabime të aplikacionit)",
+  "default_network_error_description": "Mos, problem i rrjetit!",
+  "default_network_error_title": "Mos, problem i rrjetit!",
+  "default_unknown_description": "Diçka nuk shkoi mirë!",
+  "default_unknown_title": "Diçka nuk shkoi mirë!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Mos, diçka nuk shkoi mirë! (Gabime themelore)",
+  "default_core_error_title": "Kodi i gabimit: gabime themelore",
+  "default_fetch_description": "Mos, diçka nuk shkoi mirë! (Gabime të marrjes të CDL)",
+  "default_fetch_title": "Kodi i gabimit: gabime të marrjes të CDL",
+  "default_service_description": "Mos, diçka nuk shkoi mirë! (Gabime të shërbimit të CDL)",
+  "default_service_title": "Kodi i gabimit: gabime të shërbimit të CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

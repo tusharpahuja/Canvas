@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Si è verificato un problema e non è stato possibile aggiungere il gruppo.",
+  "peoplePicker_dlTooManyMembers": "Non è stato possibile aggiungere {{dlName}} ({{dlMemberCount}}). Puoi avviare una chat al massimo con {{maxSize}} persone.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Usa BACKSPACE o CANC per rimuovere l'utente. Usa i tasti freccia DESTRA o SINISTRA per altri destinatari della chat.",
+  "peoplePicker_loadingMessage": "Caricamento in corso...",
+  "peoplePicker_newAddGroupNameButtonContent": "Aggiungi il nome del gruppo",
+  "peoplePicker_collapseGroupNameButtonContent": "Comprimi il nome del gruppo",
+  "peoplePicker_federationWarning": "La chat con account aziendali o dell'istituto di istruzione non è ancora disponibile. Altre informazioni.",
+  "peoplePicker_noResults": "Non è stato possibile trovare alcun risultato.",
+  "peoplePicker_resultsUpdationAriaLabel": "I risultati della ricerca sono stati aggiornati. Usa la freccia GIÙ o SU per spostarti e INVIO per selezionare.",
+  "peoplePicker_search_externally_btn_text": "Cerca {{email}} all'esterno",
+  "peoplePicker_tflToLinePlaceholder": "Immetti nome, e-mail o numero di telefono",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Rimuovi",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} è stato selezionato dall'elenco.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} su {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} è stato rimosso dall'elenco."
+}

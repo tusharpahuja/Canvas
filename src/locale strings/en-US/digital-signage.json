@@ -1,0 +1,10 @@
+{
+  "digital_signage_admin_wizard_back_button": "Back",
+  "_digital_signage_admin_wizard_back_button.comment": "Button text that will trigger the wizard to go back a step",
+  "digital_signage_admin_wizard_cancel_button": "Cancel",
+  "_digital_signage_admin_wizard_cancel_button.comment": "Button text that will cancel the wizard",
+  "digital_signage_admin_wizard_next_button": "Next",
+  "_digital_signage_admin_wizard_next_button.comment": "Button text that will trigger the wizard to go forward a step",
+  "digital_signage_admin_wizard_submit_button": "Submit",
+  "_digital_signage_admin_wizard_submit_button.comment": "Button text that will trigger the wizard to submit"
+}

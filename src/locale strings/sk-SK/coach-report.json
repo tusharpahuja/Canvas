@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Nie je dostupná žiadna správa kouča schôdze",
+  "coach_report_no_data_too_short": "Ak chcete získať prístup k vašej zostave, zapnite Meeting Coach na viac ako 1 minútu",
+  "coach_report_no_data_too_long": "Ľutujeme, Meeting Coach nepodporuje schôdze dlhšie ako 2 hodiny",
+  "coach_report_title": "Prehľady kouča schôdze",
+  "coach_report_private_label": "Súkromný",
+  "coach_report_settings": "Nastavenia",
+  "coach_report_subtitle": "* Správa kouča je viditeľná iba pre vás.",
+  "coach_report_chart_title": "Návrhy z vašej schôdze",
+  "coach_report_card_checkbox": "Vždy uložiť a vynechať túto obrazovku pre budúce relácie",
+  "coach_report_save_button": "Uložiť",
+  "coach_report_delete_button": "Odstrániť",
+  "coach_report_save_button_tooltip": "Nájsť neskôr na stránke schôdze",
+  "coach_report_feedback_before_submit": "Boli tieto informácie užitočné?",
+  "coach_report_feedback_after_submit": "Ďakujeme za odoslanie pripomienok",
+  "coach_report_feedback_yes_button": "Áno",
+  "coach_report_feedback_no_button": "Nie",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} of {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Predchádzajúce",
+  "coach_report_next_critique_button": "Ďalšie"
+}

@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "AR МОБИЛЬДІ ТЕХНОЛОГИЯСЫ",
+  "toolbar_arrow": "Көрсеткіні орналастыру",
+  "toolbar_ink": "Қолжазбалық мәтін",
+  "toolbar_color_picker": "Түс таңдау",
+  "toolbar_color_yellow": "Сары",
+  "toolbar_color_blue": "Көк",
+  "toolbar_color_gray": "Сұр",
+  "toolbar_color_green": "Жасыл",
+  "toolbar_color_red": "Қызыл",
+  "toolbar_insert_file": "Файлды кірістіру",
+  "toolbar_undo": "Болдырмау",
+  "toolbar_erase_all_current_session": "Ағымдағы өңдеу сеансынан барлығын өшіру",
+  "toolbar_erase_all": "Барлығын өшіру",
+  "toolbar_start_editing": "Өңдеуді бастау",
+  "toolbar_stop_editing": "Өңдеуді тоқтату"
+}

@@ -1,0 +1,4 @@
+{
+  "lpc_timeAgoHours": "منذ {{duration}} من الساعات",
+  "lpc_timeAgoMinutes": "منذ {{duration}} من الدقائق"
+}

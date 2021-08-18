@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Defnyddio cyfrif arall",
+  "tflFre_Learn_More_Link_caption": "Pwy all weld hyn",
+  "tflFre_OK_Button_caption": "Bant â ni",
+  "tflFre_dialog_Aria": "Croeso i Teams. Sut hoffech chi ymddangos ar Teams? Gall pobl chwilio amdanoch chi gan ddefnyddio'r wybodaeth hon",
+  "tflFre_header": "Croeso",
+  "tflFre_phone_and_email_flyout": "Ewch i'ch cyfrif Microsoft i reoli eich rhif ffôn a'ch e-bost.",
+  "tflFre_who_can_see_this_flyout": "Bydd pobl eraill ar Teams yn gallu gweld eich enw a llun eich cyfrif Microsoft. Bydd pobl hefyd yn gallu chwilio amdanoch chi ar Teams drwy ddefnyddio eich rhif ffôn a'ch e-bost.",
+  "tflFre_learn_more_link_text": "Dysgu rhagor",
+  "tflFre_sync_contacts_checkbox": "Cysoni fy nghysylltiadau Skype ac Outlook er mwyn dod o hyd i bobl rwy’n eu hadnabod ar Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Gall pobl chwilio amdanoch gan ddefnyddio:",
+  "tflFre_loading_spinner_text": "Wrthi'n llwytho...",
+  "tflFre_stamping_error_dialog_header": "Wedi methu Diweddaru eich Proffil",
+  "tflFre_stamping_error_dialog_body": "Doeddwn ni ddim yn medru diweddaru eich gwybodaeth proffil. Dewiswch \"Defnyddio cyfrif arall\" i allgofnodi a defnyddio cyfrif arall. Dewiswch \"Ailgynnig\" i roi cynnig arall ar ddiweddaru eich proffil",
+  "tflFre_error_dialog_retry_button": "Ailgynnig",
+  "tflFre_error_dialog_sign_out_button": "Defnyddio cyfrif arall",
+  "tflFre_fetch_error_dialog_header": "Wedi methu Nôl eich Proffil",
+  "tflFre_fetch_error_dialog_body": "Doeddwn ni ddim yn medru nôl eich gwybodaeth proffil. Dewiswch \"Defnyddio cyfrif arall\" i allgofnodi a defnyddio cyfrif arall. Dewiswch \"Ailgynnig\" i roi cynnig arall ar nôl eich proffil",
+  "tflFre_welcome_edit_header": "Croeso i Teams",
+  "tflFre_welcome_edit_second_header": "Sut hoffech chi ymuno?",
+  "tflFre_phone_field_header": "Ffôn",
+  "tflFre_email_field_header": "E-bost"
+}

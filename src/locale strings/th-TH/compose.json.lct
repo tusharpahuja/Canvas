@@ -1,0 +1,1071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="compose.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="th-TH" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";compose_addASubject" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a subject]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เพิ่มชื่อเรื่อง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Post compose subject placeholder]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_disabled_claimed_banner_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[SMS user has joined Teams. Do you want to continue chatting with the new Teams user?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ผู้ใช้ SMS ได้เข้าร่วม Teams แล้ว คุณต้องการสนทนากับผู้ใช้ Teams ใหม่ต่อไปหรือไม่]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Compose banner text: deprovisioning happened due to user's claim]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_disabled_claimed_cta" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send a message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ส่งข้อความ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to send a message to the TFL user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_disabled_deprovisioned_banner_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA['{{name}}' has been deactivated due to inactivity. To continue chatting, please start a new chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[‘{{name}}’ ถูกปิดใช้งานแล้วเนื่องจากไม่ได้ใช้งาน เมื่อต้องการแชทต่อ โปรดเริ่มการแชทใหม่]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Compose banner text: deprovisioning happened due to inactivity. name = user's display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_disabled_deprovisioned_cta" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[การแชทใหม่]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to start a new chat, as current one was disabled]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_disabled_opted_out_banner_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA['{{name}}' has opted out of SMS messages from Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[“{{name}}” ได้เลือกไม่รับข้อความ SMS จาก Teams แล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Compose banner text: deprovisioning happened due to user's opt out message. name = user's display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_body_unable_to_add_participant" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You do not have permission to add one or more selected participants to this chat. Please contact your IT administrator for more information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณไม่มีสิทธิ์ในการเพิ่มผู้เข้าร่วมที่เลือกไว้อย่างน้อยหนึ่งคนลงในการสนทนานี้ โปรดติดต่อผู้ดูแลระบบไอทีของคุณสำหรับข้อมูลเพิ่มเติม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body text for chat permission add user rejection]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_body_unable_to_create_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You do not have permission to create a new chat with one or more selected participants. Please contact your IT administrator for more information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณไม่มีสิทธิ์สร้างการแชทใหม่กับผู้เข้าร่วมที่เลือกตั้งแต่หนึ่งคนขึ้นไป โปรดติดต่อผู้ดูแลระบบไอทีของคุณสำหรับข้อมูลเพิ่มเติม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body text for chat permission new group creation rejection]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_body_unable_to_leave_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You are not permitted to leave this chat due to your assigned role in this chat. Please contact your IT administrator for more information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณไม่ได้รับอนุญาตให้ออกจากการแชทนี้เนื่องจากบทบาทที่กำหนดไว้ของคุณในการแชทนี้ โปรดติดต่อผู้ดูแลระบบไอทีของคุณสำหรับข้อมูลเพิ่มเติม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body text for chat permission leave chat rejection]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_body_unable_to_remove_participant" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You do not have permission to remove this participant from the chat. Please contact your IT administrator for more information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณไม่มีสิทธิ์ในการเอาผู้เข้าร่วมนี้ออกจากการแชท โปรดติดต่อผู้ดูแลระบบไอทีของคุณสำหรับข้อมูลเพิ่มเติม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body text for chat permission remove user rejection]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_confirm" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OK]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ตกลง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Chat permission rejection confirm]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_learn_more" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เรียนรู้เพิ่มเติม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Chat error learn more option]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_title_unable_to_add_participant" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to add participant]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่สามารถเพิ่มผู้เข้าร่วม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for chat permission add user rejection]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_title_unable_to_create_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to create chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่สามารถสร้างการแชทได้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for chat permission new group creation rejection]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_title_unable_to_leave_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to leave chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่สามารถออกจากแชทได้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for chat permission leave chat rejection]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_error_title_unable_to_remove_participant" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to remove participant]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่สามารถนำผู้เข้าร่วมออกได้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for chat permission remove user rejection]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_unable_to_add_member_due_to_permission_violations_tfl_error_body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Because of policies in place to make school chats safer, you don’t have permission to add people to the chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เนื่องจากมีการบังคับใช้นโยบายเพื่อทำให้การแชทในโรงเรียนปลอดภัยยิ่งขึ้น คุณจึงไม่มีสิทธิ์ในการเพิ่มบุคคลในแชท]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body for chat permissions error on add member TFL parent user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_unable_to_add_member_due_to_permission_violations_tfl_error_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to add people]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่สามารถเพิ่มบุคคลได้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for chat permissions error on add member for TFL parent user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_unable_to_create_chat_due_to_permission_violations_tfl_error_body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Because of policies in place to make school chats safer, you don’t have permission to create a new chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เนื่องจากมีการบังคับใช้นโยบายเพื่อทำให้การแชทในโรงเรียนปลอดภัยยิ่งขึ้น คุณจึงไม่มีสิทธิ์ในการสร้างแชทใหม่]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body for chat permissions error when TFL parent user tries to create the chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_unable_to_create_chat_due_to_permission_violations_tfl_error_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to create a chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่สามารถสร้างแชทได้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for chat permissions error on create chat for TFL parent user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_unable_to_leave_due_to_permission_violations_tfl_error_body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ask the teacher or person who started this chat to remove you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ขอให้ครูหรือบุคคลที่เริ่มการแชทนี้นำคุณออก]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body for chat permissions error when TFL parent user tries to leave the chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_unable_to_leave_due_to_permission_violations_tfl_error_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to leave the chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่สามารถออกจากแชทได้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for chat permissions error on leave chat for TFL parent user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_unable_to_remove_user_due_to_permission_violations_tfl_error_body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Because of policies in place to make school chats safer, you don’t have permission to remove this person from the chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เนื่องจากมีการบังคับใช้นโยบายเพื่อทำให้การแชทในโรงเรียนปลอดภัยยิ่งขึ้น คุณจึงไม่มีสิทธิ์ในการนำบุคคลนี้ออกจากแชท]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body for chat permissions error on member to remove is TFL parent user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_chat_unable_to_remove_user_due_to_permission_violations_tfl_error_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to remove this person]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่สามารถนำบุคคลนี้ออกได้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for chat permissions error on member to remove is TFL parent user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_code_snippet_confirmclose" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Are you sure you want to close without saving your changes?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณแน่ใจหรือไม่ว่าต้องการปิดโดยไม่บันทึกการเปลี่ยนแปลงของคุณ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for discarding code snippet changes]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_code_snippet_confirmclose_no" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Don't discard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ไม่ละทิ้ง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Cancel text button to NOT close the dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_code_snippet_confirmclose_yes" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Discard changes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ละทิ้งการเปลี่ยนแปลง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Confirmation text on button to close the code snippet dialog without saving the changes]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_blue00_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Polo blue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีฟ้าโปโล]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color polo blue (dark faded blue) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_darkOrange02_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copper]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีทองแดง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color copper to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_darkOrange08" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tuscan orange]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีส้มทัสคานี]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color tuscan orange (reddish orange) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_greenApple00_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Vista blue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีฟ้าวิสตา]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color vista blue (aquamarine) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_greenApple04" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Eucalyptus]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเขียวยูคาลิปตัส]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color eucalyptus (green) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_greenApple10" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mantis]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเขียวตั๊กแตน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color mantis (faded green) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_greenApple10_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sea green]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเขียวน้ำทะเล]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color sea green to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_lightTeal00_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cruise]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเขียวอมฟ้า]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color cruise (bluish green) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_lightTeal02" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Faded jade]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเขียวหยกอ่อน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color faded jade (dark blue-green) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_lightTeal10" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Regent St. blue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีฟ้าอความารีนอ่อน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color Regent Street blue (faded aquamarine) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_lightTeal10_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Paradiso green]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเขียวพาราดิโซ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color paradiso green (dark green) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_maroon02_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Viola]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีแดงวิโอลา]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color red to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_maroon06" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tyrian purple]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีม่วงไทเรี่ยน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color tyrian purple to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_maroon12" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pale rose]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีชมพูกุหลาบอ่อน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color pale rose (faded pink) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_maroon12_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Merlot]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีม่วงเมอร์ลอท]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color merlot (wine-like purple) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_navyBlue04_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Endeavour blue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีน้ำเงินเอนเดฟเวอร์]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color endeavour blue to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_navyBlue08" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Fun blue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีฟ้าฟันบลู]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color fun blue to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_navyBlue12" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Periwinkle gray]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเทาอมม่วง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color periwinkle gray (faded purple) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_neon01" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Primrose]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเหลืองอ่อนพริมโรส]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color primrose (faded yellowish green) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_neon01_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Olive green]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเขียวมะกอก]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color olive green to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_neon04" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pear]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเขียวลูกแพร์]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color pear (yellowish green) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_neon04_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mindaro]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเหลืองอมเขียวมินดาโร]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color mindaro (greenish yellow) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_orange10" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rose bud]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีแดงปนส้มอ่อน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color rose bud (faded orangish red) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_orange10_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sepia]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีซีเปีย]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color sepia to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_red" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Red]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีแดง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color red to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_red00_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Dust pink]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีชมพูหม่น]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color dust pink to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_red10" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Kobi red]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีแดงอมชมพูอ่อน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color kobi red (faded pinkish red) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_red10_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Lotus red]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีแดงเข้มกลีบบัว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color lotus red (dark red) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_yellow00_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cream Brulee]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเหลืองแครมบรูว์เล]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color cream brulee (dark yellow) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_yellow08" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sunglow]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีเหลืองแสงอาทิตย์]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color sunglow (reddish yellow) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_yellow10" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Goldenrod]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีน้ำตาลทอง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color goldenrod (faded yellow) to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_color_yellow10_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Brass]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สีทองเหลือง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The color brass to be used to set the font color]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_continueYourDraft" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue your draft]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สร้างแบบร่างของคุณต่อ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Post compose draft mode label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_channel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[แชนเนล]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When mentioning, the current channel will match a search of 'Channel']]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_general" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[General]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ทั่วไป]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The name given to a team when represented as a channel in Teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_tag_label_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# people have this tag]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# people have this tag]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the at-mention dropdown when the picker item is of type tag (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_tag_label_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# people have this tag]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# people have this tag]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the at-mention dropdown when the picker item is of type tag (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_tag_label_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# people have this tag]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# people have this tag]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the at-mention dropdown when the picker item is of type tag (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_tag_label_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# people have this tag]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# people have this tag]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the at-mention dropdown when the picker item is of type tag (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_tag_label_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# people have this tag]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# people have this tag]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the at-mention dropdown when the picker item is of type tag (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_tag_label_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1 person has this tag]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[1 คนมีแท็กนี้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the at-mention dropdown when the picker item is of type tag]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_tag_label_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# people have this tag]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[# คนมีแท็กนี้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the at-mention dropdown when the picker item is of type tag (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_tag_label_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{number, plural, =1 {1 person has this tag} other{# people have this tag}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{number, plural, =1 {1 person has this tag} other{# people have this tag}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the at-mention dropdown when the picker item is of type tag{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_mention_team" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Team]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ทีม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When mentioning, the current team will match a search of 'Team']]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";compose_startANewDraft" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start a new post]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เริ่มโพสต์ใหม่]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Post compose collapsed mode label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_availableInMainWindow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name}}, available in main window]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}} พร้อมใช้งานในหน้าต่างหลัก]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip text for the disabled extensions that are available in the main window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_bot_status_disabled_compose_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You cannot send messages to this bot]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[คุณไม่สามารถส่งข้อความไปยังบอทนี้ได้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The placeholder text in the disabled chat compose box to notif-only or user/tenant blocked bot]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_comingSoonTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Coming soon]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เร็วๆ นี้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for the disabled extensions that are in progress]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeBoxFilePickerTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attach Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[แนบไฟล์]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the attach file picker button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeBoxFluidPasteDisabled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tip: Paste into a blank message to show the live component instead of a link.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เคล็ดลับ: วางลงในข้อความว่างเพื่อแสดงคอมโพเนนต์สดแทนลิงก์]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[To paste a live component, start with an empty message.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text specifying to only be able to paste and hydrate Fluid component starting with an empty message.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeBoxInsertTableHeaderLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Insert {{columns}} by {{rows}} table]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[แทรกตารางขนาด {{columns}} คอลัมน์คูณ {{rows}} แถว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers when the user selects the table size. columns = number of columns to be inserted, rows = number of rows to be inserted]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeBoxItemSelectedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{title}} selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือก {{title}} แล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers when a emoji is selected]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeBoxSemoPicker" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Insert live component]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[แทรกคอมโพเนนต์สด]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Insert Fluid Component]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for semantic object picker button in compose box]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeBoxSemoPickerDisabled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To insert a live component, start with an empty message.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ในการแทรกคอมโพเนนต์สดให้ขึ้นต้นด้วยข้อความว่าง]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[To insert a Fluid component, start with an empty message.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text specifying to only be able to insert Fluid component starting with an empty message.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_emojiPickerTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Emojis]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[อีโมจิ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the popup that displays a list of emojis for a user to insert into their message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_emoticonPickerTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Emoticons]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[อิโมติคอน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the popup that displays a list of emoticons for a user to insert into their message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_ib_disabled_compose_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Administrator has disabled chat for this user]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ผู้ดูแลระบบได้ปิดใช้งานการแชทสำหรับผู้ใช้รายนี้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The placeholder text in the disabled chat compose box due to information barrrier policy]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_meeting_disabled_compose_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat is turned off for this meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[การสนทนาถูกปิดสำหรับการประชุมนี้]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The organizer has turned off chat for this meeting]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for compose box when organizer turned off chat for a meeting if the option is set to disabled]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_meeting_disabled_inmeeting_compose_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat is only available during the meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[แชทจะมีให้ใช้งานเฉพาะในระหว่างการประชุม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for compose box when organizer turned off chat for a meeting if the option is set to in-meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_sms_disabled_compose_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Administrator has disabled SMS for you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ผู้ดูแลระบบปิดใช้งาน SMS สำหรับคุณแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The placeholder text in the disabled SMS compose box due to SMS policy]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

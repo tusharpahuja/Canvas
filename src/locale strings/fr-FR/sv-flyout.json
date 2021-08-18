@@ -1,0 +1,9 @@
+{
+  "value_prop": "Organisez-vous et communiquez avec vos amis, votre famille et vos collègues",
+  "initializing_message": "Veuillez patientez quelques instants pendant que nous nous préparerons...",
+  "open_teams_on_web": "Ouvrir Teams sur le web",
+  "error_message_header": "Désolé... Nous avons rencontré un problème",
+  "setup_error_message": "Un problème est survenu lors de la configuration",
+  "troubleshoot_issue": "Résolution du problème",
+  "retry_flyout_launch": "Réessayer"
+}

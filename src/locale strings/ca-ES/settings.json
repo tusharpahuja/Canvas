@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistema",
+  "general_settings_system_auto_start_toggle": "Inicieu el Teams automàticament",
+  "notification_settings_details_message_preview_header_text": "Visualització prèvia del missatge",
+  "notification_settings_edit_chat_button_aria_label": "Edita les notificacions del xat",
+  "notification_settings_details_chat_messages_text": "Missatges",
+  "notification_settings_warning_windows_tfw": "Comproveu la configuració de notificacions del Windows per assegurar-vos que podeu rebre notificacions del Teams.<0></0>",
+  "settings_loader_text": "S'està carregant el contingut...",
+  "dropdown_settings_selected_text": "S’ha seleccionat {{value}}",
+  "read_receipts_title": "Confirmacions de recepció",
+  "read_receipts_description": "Permeteu que els usuaris sàpiguen quan heu vist els seus missatges i quan han vist els vostres. Tanqueu i torneu a obrir les finestres de xat perquè la configuració tingui efecte en aquests xats.",
+  "read_receipts_label": "Confirmacions de recepció"
+}

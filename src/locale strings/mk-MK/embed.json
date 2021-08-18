@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Додајте луѓе",
+  "embed_go_back_button": "Врати се",
+  "embed_provide_feedback": "Наведете повратни информации:",
+  "embed_go_to": "Појди до {{title}}",
+  "embed_open_inside": "Отвори внатре",
+  "embed_participants_in_chat": "Учесници ({{membersCount}})",
+  "embed_pop_out_chat": "Муабет во скок-прозорец",
+  "embed_pop_in_back": "Вратете се на главниот прозорец",
+  "embed_error_page_message": "Извинете ‒ се појави проблем",
+  "embed_error_page_try_again_button": "Обидете се повторно",
+  "embed_chats": "Муабети на Microsoft Teams",
+  "embed_chat": "Муабет на Microsoft Teams"
+}

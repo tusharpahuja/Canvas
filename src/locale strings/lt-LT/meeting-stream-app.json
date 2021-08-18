@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "„Stream“ URL",
+  "stream_url_placeholder": "Įveskite „Stream“ URL",
+  "stream_key_label": "„Stream“ raktas",
+  "stream_key_placeholder": "Įveskite „Stream“ raktą",
+  "start_streaming_button_text": "Pradėti srautinį perdavimą",
+  "stop_streaming_button_text": "Stabdyti srautinį perdavimą",
+  "custom_streaming_config_page_description": "Pasirinktinis srautinis perdavimas yra jūsų įrankis srautui perduoti „Teams“ susitikimus į viešąsias platformas, teikiamas naudojant RTMP",
+  "custom_streaming_config_page_first_greeting": "Sveiki! Čia pasirinktinis srautinis perdavimas!",
+  "custom_streaming_config_page_second_greeting": "Džiaugiamės, kad esate čia",
+  "custom_streaming_error_meeting_limit_reached": "Šio susitikimo negalima perduoti srautu pagal dabartinius parametrus. Apribokite dalyvius iki 1000.",
+  "custom_streaming_error_permission_denied": "Neturite srautinio perdavimo teisių. Susisiekite su IT administratoriumi arba organizatoriumi, kad galėtumėte šį turinį perduoti srautu",
+  "custom_streaming_error_outdated_client": "Norint tęsti, „Teams“ reikia atnaujinti. Paleiskite programą iš naujo ir įsitikinkite, kad turite naujausias funkcijas.",
+  "custom_streaming_error_unknown": "Kažkas nepavyko. Bandykite dar kartą.",
+  "custom_streaming_error_unsupported_platform": "Ši funkcija dar nepalaikoma naršyklėje. Bandykite dar kartą naudodami „Teams“ darbalaukio versiją.",
+  "custom_streaming_tab_title": "Pasirinktinis srautinis perdavimas"
+}

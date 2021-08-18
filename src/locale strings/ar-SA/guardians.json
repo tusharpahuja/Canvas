@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "يتم الآن تحميل القائمة الأصل",
+  "guardians_table": "قائمة آباء {{classTeam}}",
+  "students": "الطلاب",
+  "guardians": "الآباء / أولياء الأمور",
+  "chatButton": "زر \"دردشة\"",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{والد أو ولي أمر # إضافي. قم بالتوسيع لفتح القائمة} zero {# من الوالدين أو أولياء الأمور الإضافيين. قم بالتوسيع لفتح القائمة} one {والد أو ولي أمر # إضافي. قم بالتوسيع لفتح القائمة} two {والدان أو وليا أمر # إضافيان. قم بالتوسيع لفتح القائمة} few {# والدين أو أولياء أمور إضافيين. قم بالتوسيع لفتح القائمة} many {# والداً أو ولي أمر إضافياً. قم بالتوسيع لفتح القائمة} other{# من الوالدين أو أولياء الأمور الإضافيين. قم بالتوسيع لفتح القائمة} }",
+  "guardians_student_label": "{{studentName}}, الحالة {{status}}، يفتح بطاقة ملف التعريف",
+  "guardians_user_unknown_label": "المستخدم غير معروف",
+  "guardians_status_unknown_label": "غير معروف",
+  "guardians_overflow_members": "الآباء أو أولياء الأمور الإضافيون لـ {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{بدء دردشة مع ولي أمر {studentName}} zero {بدء دردشة مع أولياء أمور {studentName}} one {بدء دردشة مع أولياء أمور {studentName}} two {بدء دردشة مع أولياء أمور {studentName}} few {بدء دردشة مع أولياء أمور {studentName}} many {بدء دردشة مع أولياء أمور {studentName}} other{بدء دردشة مع أولياء أمور {studentName}}}",
+  "guardians_chat_button_disabled_title": "تعطيل الوصول الخارجي بواسطة \"المسؤول\"",
+  "guardians_chat_button_disabled_alt_title": "اطلب من المسؤول إضافة معلومات جهة اتصال ولي الأمر لجعل الدردشة متاحة",
+  "empty_state_title": "الوالدون وأولياء الأمور غير مضافين",
+  "empty_state_subtitle": "اطلب من مسؤول تكنولوجيا المعلومات إضافتهم لتتمكن من الاتصال بهم سريعاً من هنا. <0></0>",
+  "empty_state_link": "عرض المزيد",
+  "error_state_title": "حدث خطأ ما. الرجاء معاودة التحقق مجدداً لاحقاً.",
+  "not_owner_error_state_title": "بإمكان ملاك فريق الفصل الدراسي وحدهم الاطلاع على معلومات الوالدين وأولياء الأمور. اطلب من مالك الفريق منحك حق الوصول.",
+  "retry_button_title": "إعادة محاولة",
+  "transient_error_state_title": "حدث خطأ ما. الرجاء المحاولة مجدداً.",
+  "notification_banner_content": "حدثت مشكلة أثناء تحميل مزيد من معلومات الوالدين وأولياء الأمور. الرجاء المحاولة مجدداً لاحقاً."
+}

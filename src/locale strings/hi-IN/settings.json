@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "सिस्टम",
+  "general_settings_system_auto_start_toggle": "Teams को स्वत: प्रारंभ करें",
+  "notification_settings_details_message_preview_header_text": "संदेश पूर्वावलोकन",
+  "notification_settings_edit_chat_button_aria_label": "चैट सूचनाएँ संपादन करें",
+  "notification_settings_details_chat_messages_text": "संदेश",
+  "notification_settings_warning_windows_tfw": "यह सुनिश्चित करने के लिए कि आप Teams सूचनाएँ प्राप्त कर सकते हैं, अपनी Windows अधिसूचना सेटिंग फिर से जाँचें. <0></0>",
+  "settings_loader_text": "सामग्री लोड हो रही है...",
+  "dropdown_settings_selected_text": "{{value}} चयनित",
+  "read_receipts_title": "पठन रसीद",
+  "read_receipts_description": "लोगों को जानने दें कि आपने उनके संदेश कब देखे हैं और उन्हें आपके संदेश कब देखे गए हैं. उन चैट में सेटिंग को प्रभावी बनाने के लिए किसी भी चैट विंडो को बंद करें और दुबारा खोलें.",
+  "read_receipts_label": "पठन रसीद"
+}

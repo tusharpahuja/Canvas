@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Hay aksi, bir sorun oluştu!",
+  "default_app_title": "Hay aksi, bir sorun oluştu! (Uygulama hataları)",
+  "default_network_error_description": "Hay aksi, ağ sorunu!",
+  "default_network_error_title": "Hay aksi, ağ sorunu!",
+  "default_unknown_description": "Hay aksi, bir sorun oluştu!",
+  "default_unknown_title": "Hay aksi, bir sorun oluştu!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Hay aksi, bir sorun oluştu! (Çekirdek hataları)",
+  "default_core_error_title": "Hata Kodu : Çekirdek hatalar",
+  "default_fetch_description": "Hay aksi, bir sorun oluştu! (CDL getirme hataları)",
+  "default_fetch_title": "Hata Kodu: CDL getirme hataları",
+  "default_service_description": "Hay aksi, bir sorun oluştu! (CDL hizmet hataları)",
+  "default_service_title": "Hata Kodu: CDL hizmeti hataları",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

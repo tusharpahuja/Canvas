@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "發生問題，因此無法新增此群組。",
+  "peoplePicker_dlTooManyMembers": "無法新增 {{dlName}} ({{dlMemberCount}})。您只能開始與 {{maxSize}} 名或更少的人員聊天。",
+  "peoplePicker_focusSelectedUser": "{{username}}。使用退格鍵或 Delete 來移除。使用向左鍵或向右鍵來移至其他聊天收件者。",
+  "peoplePicker_loadingMessage": "正在載入...",
+  "peoplePicker_newAddGroupNameButtonContent": "新增群組名稱",
+  "peoplePicker_collapseGroupNameButtonContent": "摺疊群組名稱",
+  "peoplePicker_federationWarning": "尚無法與企業或學校帳戶聊天。了解更多資訊。",
+  "peoplePicker_noResults": "找不到任何相符項目。",
+  "peoplePicker_resultsUpdationAriaLabel": "搜尋結果已更新。使用向上鍵和向下鍵來瀏覽，並使用 Enter 來選取。",
+  "peoplePicker_search_externally_btn_text": "從外部搜尋 {{email}}",
+  "peoplePicker_tflToLinePlaceholder": "輸入名稱、電子郵件或電話號碼",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "移除",
+  "peoplePicker_userAdditionAriaLabel": "已選取清單中的「{{username}}」。",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}，{{description}}，{{resultCount}} 個中的第 {{index}} 個。",
+  "peoplePicker_userRemovalAriaLabel": "已從清單移除「{{username}}」。"
+}

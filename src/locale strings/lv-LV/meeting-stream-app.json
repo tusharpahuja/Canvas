@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Straumes vietrādis URL",
+  "stream_url_placeholder": "Ievadiet straumes vietrādi URL",
+  "stream_key_label": "Straumes atslēga",
+  "stream_key_placeholder": "Ievadiet straumes atslegu",
+  "start_streaming_button_text": "Sākt straumēšanu",
+  "stop_streaming_button_text": "Pārtraukt straumēšanu",
+  "custom_streaming_config_page_description": "Pielāgotā straumēšana ir jūsu rīks, lai straumētu Teams sapulci publiskajās platformās, ko nodrošina RTMP",
+  "custom_streaming_config_page_first_greeting": "Esiet sveicināts lapā Pielāgotā straumēšana!",
+  "custom_streaming_config_page_second_greeting": "Priecājamies jūs redzēt!",
+  "custom_streaming_error_meeting_limit_reached": "Šo sapulci nevar straumēt tās pašreizējos iestatījumos. Lūdzu, ierobežojiet dalībnieku skaitu līdz 1000.",
+  "custom_streaming_error_permission_denied": "Jums nav straumēšanas atļauju. Lai straumētu šo saturu, sazinieties ar savu IT administratoru vai rīkotāju",
+  "custom_streaming_error_outdated_client": "Lai turpinātu, Teams ir nepieciešami atjauninājumi. Restartējiet lietojumprogrammu, lai nodrošinātu, ka jums ir jaunākie līdzekļi.",
+  "custom_streaming_error_unknown": "Radās problēma. Lūdzu, mēģiniet vēlreiz.",
+  "custom_streaming_error_unsupported_platform": "Šis līdzeklis vēl netiek atbalstīts pārlūkprogrammā. Mēģiniet vēlreiz no Teams datora versijas.",
+  "custom_streaming_tab_title": "Pielāgota straumēšana"
+}

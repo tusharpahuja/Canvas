@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Dodaj osobe",
+  "embed_go_back_button": "Vratite se",
+  "embed_provide_feedback": "Navedite povratne informacije:",
+  "embed_go_to": "Idi na {{title}}",
+  "embed_open_inside": "Otvori unutra",
+  "embed_participants_in_chat": "Sudionici ({{membersCount}})",
+  "embed_pop_out_chat": "Otvorite čavrljanje u skočnom prozoru",
+  "embed_pop_in_back": "Vrati se natrag u glavni prozor",
+  "embed_error_page_message": "Nažalost, naišli smo na problem",
+  "embed_error_page_try_again_button": "Pokušajte ponovno",
+  "embed_chats": "Čavrljanja putem aplikacije Microsoft Teams",
+  "embed_chat": "Čavrljanje putem aplikacije Microsoft Teams"
+}

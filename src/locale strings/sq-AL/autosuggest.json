@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} në {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Asnjë sugjerim.||1->2::{0} sugjerim në dispozicion: ||2->3::{0} sugjerime në dispozicion: ||3->INF::{0} sugjerime në dispozicion:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Asnjë sugjerim për {0}.||1->2::{1} sugjerim në dispozicion për {0}: ||2->3::{1} sugjerime në dispozicion për {0}: ||3->INF::{1} sugjerime në dispozicion për {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grup pa emër",
+  "autosuggest_sb_search_box_clear_button_label": "Pastro kutinë e kërkimit",
+  "autosuggest_sb_search_box_submit_button_label": "Kërkimi",
+  "autosuggest_sb_search_box_view_all_results_label": "Shtyp Enter për të paraqitur të gjitha rezultatet",
+  "autosuggest_people_group_heading": "Kontaktet",
+  "autosuggest_chats_group_heading": "Bisedat në grup",
+  "autosuggest_zero_term_group_aria_label": "Kërkimet e fundit"
+}

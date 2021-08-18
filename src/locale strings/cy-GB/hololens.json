@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AT",
+  "indicator_mobile_long": "AT SYMUDOL",
+  "toolbar_arrow": "Gosod saeth",
+  "toolbar_ink": "Inc",
+  "toolbar_color_picker": "Dewiswch liw",
+  "toolbar_color_yellow": "Melyn",
+  "toolbar_color_blue": "Glas",
+  "toolbar_color_gray": "Llwyd",
+  "toolbar_color_green": "Gwyrdd",
+  "toolbar_color_red": "Coch",
+  "toolbar_insert_file": "Mewnosod ffeil",
+  "toolbar_undo": "Dad-wneud",
+  "toolbar_erase_all_current_session": "Dileu'r cyfan o'r sesiwn olygu bresennol",
+  "toolbar_erase_all": "Dileu'r cyfan",
+  "toolbar_start_editing": "Ddechrau golygu",
+  "toolbar_stop_editing": "Rhoi'r gorau i olygu"
+}

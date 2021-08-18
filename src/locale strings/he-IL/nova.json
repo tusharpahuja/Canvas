@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "יציאה",
+  "me_control_sign_out_button_aria_label": "צא מ- Microsoft",
+  "me_control_my_microsoft_account_button_text": "חשבון Microsoft שלי",
+  "me_control_my_microsoft_account_button_aria_label": "חשבון Microsoft שלי",
+  "me_control_change_picture_aria_label": "שנה תמונת פרופיל",
+  "me_control_trigger_aria_label": "פרופיל",
+  "me_control_menu_aria_label": "תפריט פרופיל",
+  "app_bar_activity_app_name": "פעילות",
+  "app_bar_activity_app_arialabel": "פעילות",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{פעילות חדשה #} one {# פעילויות חדשות} two {# פעילויות חדשות} many {# פעילויות חדשות} other{# פעילויות חדשות}}",
+  "app_bar_activity_app_tooltip": "פעילות",
+  "app_bar_chat_app_name": "צ\\'אט",
+  "app_bar_chat_app_arialabel": "צ\\'אט",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{צ\\'אט # עם הודעות חדשות} one {# צ\\'אטים עם הודעות חדשות} two {# צ\\'אטים עם הודעות חדשות} many {# צ\\'אטים עם הודעות חדשות} other{# צ\\'אטים עם הודעות חדשות}}",
+  "app_bar_chat_app_tooltip": "צ\\'אט",
+  "app_bar_calendar_app_name": "לוח שנה",
+  "app_bar_calendar_app_arialabel": "לוח שנה",
+  "app_bar_calendar_app_tooltip": "לוח שנה",
+  "app_bar_calls_app_name": "שיחות",
+  "app_bar_calls_app_arialabel": "שיחות",
+  "app_bar_calls_app_tooltip": "שיחות"
+}

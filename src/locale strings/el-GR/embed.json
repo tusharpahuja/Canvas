@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Προσθήκη ατόμων",
+  "embed_go_back_button": "Επιστροφή",
+  "embed_provide_feedback": "Αναφέρετε τα σχόλιά σας:",
+  "embed_go_to": "Μετάβαση σε: {{title}}",
+  "embed_open_inside": "Άνοιγμα εσωτερικά",
+  "embed_participants_in_chat": "Συμμετέχοντες ({{membersCount}})",
+  "embed_pop_out_chat": "Άνοιγμα συνομιλίας σε νέο παράθυρο",
+  "embed_pop_in_back": "Σύμπτυξη ξανά στο κύριο παράθυρο",
+  "embed_error_page_message": "Μας συγχωρείτε - παρουσιάστηκε ένα πρόβλημα",
+  "embed_error_page_try_again_button": "Δοκιμάστε ξανά",
+  "embed_chats": "Συνομιλίες του Microsoft Teams",
+  "embed_chat": "Συνομιλία του Microsoft Teams"
+}

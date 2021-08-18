@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "IR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "Pijl plaatsen",
+  "toolbar_ink": "Inkt",
+  "toolbar_color_picker": "Een kleur kiezen",
+  "toolbar_color_yellow": "Geel",
+  "toolbar_color_blue": "Blauw",
+  "toolbar_color_gray": "Grijs",
+  "toolbar_color_green": "Groen",
+  "toolbar_color_red": "Rood",
+  "toolbar_insert_file": "Bestand invoegen",
+  "toolbar_undo": "Ongedaan maken",
+  "toolbar_erase_all_current_session": "Alle aantekeningen van de huidige bewerkingssessie wissen",
+  "toolbar_erase_all": "Alles wissen",
+  "toolbar_start_editing": "Beginnen met bewerken",
+  "toolbar_stop_editing": "Stoppen met bewerken"
+}

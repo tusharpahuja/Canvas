@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Tapahtui virhe.",
+  "default_app_title": "Hups, tapahtui virhe. (Sovellusvirheet)",
+  "default_network_error_description": "Hups, verkko-ongelma.",
+  "default_network_error_title": "Hups, verkko-ongelma.",
+  "default_unknown_description": "Tapahtui virhe.",
+  "default_unknown_title": "Tapahtui virhe.",
+  "default_authentication_title": "Sisäänkirjautuminen epäonnistui",
+  "default_authentication_description": "tapahtui virhe.",
+  "default_core_error_description": "Hups, tapahtui virhe. (Ydinvirheet)",
+  "default_core_error_title": "Virhekoodi: Ydinvirheet",
+  "default_fetch_description": "Hups, tapahtui virhe. (CDL-noutovirheet)",
+  "default_fetch_title": "Virhekoodi: CDL-noutovirheet",
+  "default_service_description": "Hups, tapahtui virhe. (CDL-palveluvirheet)",
+  "default_service_title": "Virhekoodi: CDL-palveluvirheet",
+  "error_forbidden_text": "Pahoittelut. Organisaation käyttöoikeudesta löytyi ongelma",
+  "error_nonetwork_text": "Pahoittelut. Verkkoa ei löytynyt. Yritä uudelleen, kun yhteys on muodostettu uudelleen."
+}

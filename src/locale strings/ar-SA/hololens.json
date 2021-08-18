@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "الحقيقة المختلطة",
+  "indicator_mobile_long": "الحقيقة المختلطة (AR) للأجهزة المحمولة",
+  "toolbar_arrow": "وضع سهم",
+  "toolbar_ink": "حبر",
+  "toolbar_color_picker": "انتقاء لون",
+  "toolbar_color_yellow": "أصفر",
+  "toolbar_color_blue": "أزرق",
+  "toolbar_color_gray": "رمادي",
+  "toolbar_color_green": "أخضر",
+  "toolbar_color_red": "أحمر",
+  "toolbar_insert_file": "إدراج ملف",
+  "toolbar_undo": "تراجع",
+  "toolbar_erase_all_current_session": "مسح الكل من جلسة عمل التحرير الحالية",
+  "toolbar_erase_all": "مسح الكل",
+  "toolbar_start_editing": "بدء التحرير",
+  "toolbar_stop_editing": "إيقاف التحرير"
+}

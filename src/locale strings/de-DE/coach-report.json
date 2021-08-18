@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Kein Besprechungsbericht Ihres Coachs verfügbar",
+  "coach_report_no_data_too_short": "Aktivieren Sie den Besprechungstrainer für mehr als 1 Minute, um auf Ihren Bericht zuzugreifen",
+  "coach_report_no_data_too_long": "Der Besprechungstrainer unterstützt leider keine Besprechungen, die länger als 2 Stunden dauern",
+  "coach_report_title": "Einblicke von Ihrem Besprechungs-Coach",
+  "coach_report_private_label": "Privates",
+  "coach_report_settings": "Einstellungen",
+  "coach_report_subtitle": "* Der Bericht Ihres Coachs ist nur für Sie sichtbar.",
+  "coach_report_chart_title": "Vorschläge aus Ihrer Besprechung",
+  "coach_report_card_checkbox": "Diesen Bildschirm immer für zukünftige Sitzungen speichern und überspringen",
+  "coach_report_save_button": "Speichern",
+  "coach_report_delete_button": "Löschen",
+  "coach_report_save_button_tooltip": "Später auf der Besprechungsseite suchen",
+  "coach_report_feedback_before_submit": "Ist das hilfreich?",
+  "coach_report_feedback_after_submit": "Vielen Dank für das Feedback",
+  "coach_report_feedback_yes_button": "Ja",
+  "coach_report_feedback_no_button": "Nein",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} von {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Zurück",
+  "coach_report_next_critique_button": "Weiter"
+}

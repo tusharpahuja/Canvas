@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Para: {user1}} =1{Para: {user1} e 1 outro} one {Para: {user1} e # outros} other{Para: {user1} e # outros}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Para: {user1}, {user2}} =1{Para: {user1}, {user2} e 1 outro} one {Para: {user1}, {user2} e # outros} other{Para: {user1}, {user2} e # outros}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Para: {user1}, {user2}, {user3}} =1{Para: {user1}, {user2}, {user3}, e 1 outro} one {Para: {user1}, {user2}, {user3}, e # outros} other{Para: {user1}, {user2}, {user3}, e # outros}}",
+  "new_message_label": "Novo",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} respostas de {user1}} =1{{repliesCount} respostas de {user1} e 1 outra pessoa} one {{repliesCount} respostas de {user1} e outras # pessoas.} other{{repliesCount} respostas de {user1} e outras # pessoas.}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} respostas de {user1}, {user2}} =1{{repliesCount} respostas de {user1}, {user2} e uma outra pessoa} one {{repliesCount} respostas de {user1}, {user2} e outras # pessoas} other{{repliesCount} respostas de {user1}, {user2} e outras # pessoas}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} respostas de {user1}, {user2}, {user3}} =1{{repliesCount} respostas de {user1}, {user2}, {user3}, e uma outra pessoa} one {{repliesCount} respostas de {user1}, {user2}, {user3} e outras # pessoas.} other{{repliesCount} respostas de {user1}, {user2}, {user3} e outras # pessoas.}}",
+  "tmp_view_chat_button_text": "Exibir respostas",
+  "tmp_go_to_channel_button_text": "Ir para o canal"
+}

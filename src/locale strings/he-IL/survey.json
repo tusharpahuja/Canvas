@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "כן",
+  "instant_answers_reaction_yes_aria_label": "האם מידע זה הועיל לך? -- כן",
+  "instant_answers_reaction_no": "לא",
+  "instant_answers_reaction_no_aria_label": "האם מידע זה הועיל לך? -- לא",
+  "instant_answers_header_text": "תודה על המשוב!",
+  "instant_answers_header_subtext": "בהתבסס על המשוב שלך, להלן מידע שעשוי להועיל לך:",
+  "instant_answers_footer_text": "האם מידע זה הועיל לך?",
+  "include_screenshot_text": "כלול צילום מסך",
+  "customer_feedback_dialog_email_label": "כתובת הדואר האלקטרוני שלך (אופציונלי)",
+  "customer_feedback_dialog_email_placeholder": "הוסף כתובת דוא\"ל",
+  "customer_feedback_dialog_email_aria_label": "כתובת הדואר האלקטרוני שלך (אופציונלי)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "על ידי הקשה על 'שלח', המשוב שלך ישמש כדי לשפר את המוצרים והשירותים של Microsoft. מנהל ה- IT שלך יוכל לאסוף את הנתונים האלה. בהתבסס על המשוב שלך, ייתכן שנספק מידע נוסף כדי לעזור לך עם בעיית התמיכה שלך.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "הצהרת הפרטיות.",
+  "customer_feedback_dialog_close_button_text_aria_label": "סגור תיבת דו-שיח של משוב",
+  "customer_feedback_dialog_adhoc_window_title": "תן משוב"
+}

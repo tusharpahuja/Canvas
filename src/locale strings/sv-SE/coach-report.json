@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Det finns ingen mötescoachrapport tillgänglig",
+  "coach_report_no_data_too_short": "Aktivera mötescoachen i mer än 1 minut för att komma åt din rapport",
+  "coach_report_no_data_too_long": "Mötescoachen stöder inte möten som är längre än 2 timmar",
+  "coach_report_title": "Dina mötescoachinsikter",
+  "coach_report_private_label": "Privat",
+  "coach_report_settings": "Inställningar",
+  "coach_report_subtitle": "* Din coachrapport är bara synlig för dig.",
+  "coach_report_chart_title": "Förslag från ditt möte",
+  "coach_report_card_checkbox": "Spara alltid och hoppa över den här skärmen för framtida sessioner",
+  "coach_report_save_button": "Spara",
+  "coach_report_delete_button": "Ta bort",
+  "coach_report_save_button_tooltip": "Hitta det senare på mötessidan",
+  "coach_report_feedback_before_submit": "Var det här till hjälp?",
+  "coach_report_feedback_after_submit": "Tack för din feedback",
+  "coach_report_feedback_yes_button": "Ja",
+  "coach_report_feedback_no_button": "Nej",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} av {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Föregående",
+  "coach_report_next_critique_button": "Nästa"
+}

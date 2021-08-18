@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Använd ett annat konto",
+  "tflFre_Learn_More_Link_caption": "Vem kan se det här",
+  "tflFre_OK_Button_caption": "Nu kör vi",
+  "tflFre_dialog_Aria": "Välkommen till Teams. Hur vill du synas i Teams? Personer kan söka efter dig med den här informationen",
+  "tflFre_header": "Välkommen",
+  "tflFre_phone_and_email_flyout": "Besök ditt Microsoft-konto om du vill hantera ditt telefonnummer och din e-post.",
+  "tflFre_who_can_see_this_flyout": "Ditt namn och din Microsoft-profilbild är synlig för andra i Teams. Personer kan också söka efter dig i Teams med ditt telefonnummer och din e-post.",
+  "tflFre_learn_more_link_text": "Mer information",
+  "tflFre_sync_contacts_checkbox": "Synkronisera mina kontakter från Skype och Outlook för att hitta personer jag känner på Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Personer kan söka efter dig med hjälp av:",
+  "tflFre_loading_spinner_text": "Läser in...",
+  "tflFre_stamping_error_dialog_header": "Det gick inte att uppdatera din profil",
+  "tflFre_stamping_error_dialog_body": "Det gick inte att uppdatera din profilinformation. Välj Använd ett annat konto för att logga ut och använda ett annat konto. Välj Försök igen om du vill försöka uppdatera profilen igen",
+  "tflFre_error_dialog_retry_button": "Försök igen",
+  "tflFre_error_dialog_sign_out_button": "Använd ett annat konto",
+  "tflFre_fetch_error_dialog_header": "Det gick inte att hämta din profil",
+  "tflFre_fetch_error_dialog_body": "Vi kunde inte hämta din profilinformation. Välj Använd ett annat konto för att logga ut och använda ett annat konto. Välj Försök igen om du vill försöka hämta din profil igen",
+  "tflFre_welcome_edit_header": "Välkommen till Teams",
+  "tflFre_welcome_edit_second_header": "Hur vill du synas?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "E-post"
+}

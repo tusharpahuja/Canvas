@@ -1,0 +1,11 @@
+{
+  "createTeam_dataSublabelsTitle": "Sublabels",
+  "overflow_channels_view_hidden_section_header": "숨김",
+  "overflow_channels_view_shown_section_header": "표시함",
+  "team_dashboard_settings_details_description": "Edit team name, description, privacy and picture",
+  "team_dashboard_settings_details_title": "Team details",
+  "team_dashboard_settings_details_button_text": "Edit",
+  "team_context_menu_create_team": "팀 만들기",
+  "team_context_menu_join_team": "팀 참가",
+  "team_context_menu_join_team_with_code": "코드를 사용하여 팀 참가"
+}

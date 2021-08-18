@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Načítání...",
+  "lobby_screen_exit_message": "Opustit předsálí",
+  "calling_join_button_audio": "Připojit se k hovoru se zvukem",
+  "calling_join_button_video": "Připojit se k hovoru s videem",
+  "calling_screen_meeting_id": "ID schůzky: {{conferenceId}}",
+  "meeting_room_present_content": "Prezentovat",
+  "meeting_room_connected_device": "Připojené zařízení",
+  "meeting_room_content_camera": "Obsahová kamera",
+  "meeting_room_cortana_button_title": "Cortana"
+}

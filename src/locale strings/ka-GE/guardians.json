@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "მშობელთა სია იტვირთება",
+  "guardians_table": "{{classTeam}}-ის მშობელი სია",
+  "students": "სტუდენტები",
+  "guardians": "მშობლები / მეურვეები",
+  "chatButton": "საუბრის ღილაკი",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{კიდევ # მშობელი ან მეურვე. გახსენით სიის გასაშლელად} one {კიდევ # მშობელი ან მეურვე. გახსენით სიის გასაშლელად} other{კიდევ # მშობელი ან მეურვე. გახსენით სიის გასაშლელად} }",
+  "guardians_student_label": "{{studentName}}, სტატუსი {{status}}, ხსნის პროფილის ბარათს",
+  "guardians_user_unknown_label": "უცნობი მომხმარებელი",
+  "guardians_status_unknown_label": "უცნობი",
+  "guardians_overflow_members": "{{studentName}}-ის დამატებითი მშობლები ან მეურვეები: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{საუბრის წამოწყება {studentName}-ის მეურვესთან} one {საუბრის წამოწყება {studentName}-ის მეურვეებთან} other{საუბრის წამოწყება {studentName}-ის მეურვეებთან}}",
+  "guardians_chat_button_disabled_title": "გარე წვდომა გამორთულია ადმინისტრატორის მიერ",
+  "guardians_chat_button_disabled_alt_title": "სთხოვეთ თქვენს ადმინისტრატორს, დაამატოს მეურვეების საკონტაქტო ინფორმაცია, რათა შესაძლებელი გახადოს საუბარი",
+  "empty_state_title": "მშობლები და მეურვეები არ არის დამატებული",
+  "empty_state_subtitle": "სთხოვეთ თქვენს IT ადმინისტრატორს მათი დამატება, რომ შეძლოთ მათთან სწრაფად დაკავშირება აქედან. <0></0>",
+  "empty_state_link": "მეტის ნახვა",
+  "error_state_title": "უცნობი შეფერხებაა. შეამოწმეთ მოგვიანებით.",
+  "not_owner_error_state_title": "მხოლოდ საკლასო ჯგუფის მფლობელებს შეუძლიათ, ნახონ ინფორმაცია მშობლებისა და მეურვეების შესახებ. სთხოვეთ გუნდის მფლობელს, მოგანიჭოთ წვდომა.",
+  "retry_button_title": "ხელახლა ცდა",
+  "transient_error_state_title": "უცნობი შეფერხებაა. სცადეთ ხელახლა.",
+  "notification_banner_content": "მშობლის და მეურვის დამატებითი ინფორმაცია ვერ ჩაიტვირთა. მოგვიანებით სცადეთ ხელახლა."
+}

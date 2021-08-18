@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Para kay: {user1}} =1{Para kina: {user1}, at 1 pa} one {Para kina: {user1}, at # iba pa} other{Para kina: {user1}, at # iba pa}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Para kina: {user1}, {user2}} =1{Para kina: {user1}, {user2}, at 1 pa} one {Para kina: {user1}, {user2}, at # iba pa} other{Para kina: {user1}, {user2}, at # iba pa}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Para kina: {user1}, {user2}, {user3}} =1{Para kina: {user1}, {user2}, {user3}, at 1 pa} one {Para kina: {user1}, {user2}, {user3}, at # iba pa} other{Para kina: {user1}, {user2}, {user3}, at # iba pa}}",
+  "new_message_label": "Bago",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} (na) tugon mula kay {user1}} =1{{repliesCount} (na) tugon mula kay {user1}, at 1 pa} one {{repliesCount} (na) tugon mula kay {user1}, at # pa} other{{repliesCount} (na) tugon mula kay {user1}, at # pa}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} (na) tugon mula kay {user1}, {user2}} =1{{repliesCount} (na) tugon mula kay {user1}, {user2}, at 1 pa} one {{repliesCount} (na) tugon mula kay {user1}, {user2}, at # pa} other{{repliesCount} (na) tugon mula kay {user1}, {user2}, at # pa}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} (na) tugon mula kay {user1}, {user2}, {user3}} =1{{repliesCount} (na) tugon mula kay {user1}, {user2}, {user3}, at 1 pa} one {{repliesCount} (na) tugon mula kay {user1}, {user2}, {user3}, at # pa} other{{repliesCount} (na) tugon mula kay {user1}, {user2}, {user3}, at # pa}}",
+  "tmp_view_chat_button_text": "Tingnan ang mga tugon",
+  "tmp_go_to_channel_button_text": "Pumunta sa channel"
+}

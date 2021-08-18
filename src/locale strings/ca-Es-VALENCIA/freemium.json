@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Heu arribat al límit de membres a l'organització. Per a actualitzar la versió i poder afegir més gent, envieu un missatge a un dels administradors.} =1 {Heu arribat al límit de membres de la vostra organització. Demaneu a <0></0> que actualitze per a poder convidar més persones.} one {Heu arribat al límit de membres de la vostra organització. Demaneu a qualsevol dels <0></0> que actualitze per a poder convidar més persones.} other {Heu arribat al límit de membres de la vostra organització. Demaneu a qualsevol dels <0></0> que actualitze per a poder convidar més persones.}}"
+}

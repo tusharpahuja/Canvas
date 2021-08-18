@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "ใช่",
+  "instant_answers_reaction_yes_aria_label": "ข้อมูลนี้มีประโยชน์หรือไม่ -- ใช่",
+  "instant_answers_reaction_no": "ไม่ใช่",
+  "instant_answers_reaction_no_aria_label": "ข้อมูลนี้มีประโยชน์หรือไม่ -- ไม่",
+  "instant_answers_header_text": "ขอบคุณสำหรับคำติชมของคุณ!",
+  "instant_answers_header_subtext": "จากคำติชมของคุณ ต่อไปนี้คือข้อมูลบางส่วนที่คุณอาจพบว่ามีประโยชน์:",
+  "instant_answers_footer_text": "ข้อมูลนี้มีประโยชน์หรือไม่",
+  "include_screenshot_text": "รวมสกรีนช็อต",
+  "customer_feedback_dialog_email_label": "ที่อยู่อีเมลของคุณ (ไม่บังคับ)",
+  "customer_feedback_dialog_email_placeholder": "เพิ่มที่อยู่อีเมล",
+  "customer_feedback_dialog_email_aria_label": "ที่อยู่อีเมลของคุณ (ไม่บังคับ)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "เมื่อกดส่ง คำติชมของคุณจะถูกใช้เพื่อปรับปรุงผลิตภัณฑ์และบริการของ Microsoft โดยผู้ดูแลระบบ IT ของคุณจะสามารถรวบรวมข้อมูลนี้ได้ เราอาจจะให้ข้อมูลเพิ่มเติมเพื่อช่วยให้คุณได้รับปัญหาการสนับสนุนของคุณโดยยึดตามคำติชมของคุณ",
+  "customer_feedback_dialog_disclaimer_privacy_text": "คำชี้แจงสิทธิ์ส่วนบุคคล",
+  "customer_feedback_dialog_close_button_text_aria_label": "ปิดกล่องโต้ตอบคำติชม",
+  "customer_feedback_dialog_adhoc_window_title": "ให้คำติชม"
+}

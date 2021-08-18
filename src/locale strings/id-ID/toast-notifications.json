@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} menyebut Anda",
+  "toast_messaging_reaction": "{{sender}} bereaksi terhadap pesan Anda",
+  "toast_messaging_default_group_topic": "Tidak diketahui",
+  "toast_messaging_default_user_given_name": "Tidak diketahui",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Kirim",
+  "toast_messaging_quickreply_placeholder_text": "Kirim balasan cepat",
+  "toast_messaging_activity_text": "Mengobrol dengan {{participants}}",
+  "toast_messaging_activity_text_with_count": "Mengobrol dengan {{participants}} +{{count}}"
+}

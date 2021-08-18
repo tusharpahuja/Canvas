@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} trong {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Không có đề xuất.||1->2::{0} đề xuất sẵn có: ||2->3::{0} đề xuất sẵn có: ||3->INF::{0} đề xuất sẵn có:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Không có đề xuất cho {0}.||1->2::{1} đề xuất sẵn có cho {0}: ||2->3::{1} đề xuất sẵn có cho {0}: ||3->INF::{1} đề xuất sẵn có cho {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Nhóm chưa có tên",
+  "autosuggest_sb_search_box_clear_button_label": "Xóa hộp tìm kiếm",
+  "autosuggest_sb_search_box_submit_button_label": "Tìm kiếm",
+  "autosuggest_sb_search_box_view_all_results_label": "Nhấn enter để xem tất cả các kết quả",
+  "autosuggest_people_group_heading": "Mọi người",
+  "autosuggest_chats_group_heading": "Cuộc trò chuyện nhóm",
+  "autosuggest_zero_term_group_aria_label": "Tìm kiếm gần đây"
+}

@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Başka bir hesap kullan",
+  "tflFre_Learn_More_Link_caption": "Bunu kimler görebilir?",
+  "tflFre_OK_Button_caption": "Başlayalım",
+  "tflFre_dialog_Aria": "Teams’e hoş geldiniz. Teams’de nasıl görünmek istersiniz? İnsanlar bu bilgileri kullanarak sizin için arama yapabilir",
+  "tflFre_header": "Hoş Geldiniz",
+  "tflFre_phone_and_email_flyout": "Telefon numaranızı ve e-postanızı yönetmek için Microsoft hesabınızı ziyaret edin.",
+  "tflFre_who_can_see_this_flyout": "Adınız ve Microsoft hesabı resminiz Teams'deki diğer kişiler tarafından görünür. Kişiler ayrıca telefon numaranızı ve e-postanızı kullanarak sizi Teams'de arayabilir.",
+  "tflFre_learn_more_link_text": "Daha fazla bilgi edinin",
+  "tflFre_sync_contacts_checkbox": "Teams’de tanıdığım kişileri bulabilmem için Skype ve Outlook kişilerimi eşitle.",
+  "tflFre_people_Can_Search_For_You_Using": "Kişiler şunları kullanarak sizin için arama yapabilir:",
+  "tflFre_loading_spinner_text": "Yükleniyor...",
+  "tflFre_stamping_error_dialog_header": "Profiliniz Güncelleştirilemedi",
+  "tflFre_stamping_error_dialog_body": "Profil bilgileriniz güncelleştirilemedi. Oturumu kapatmak ve başka bir hesap kullanmak için \"Başka bir hesap kullan\" seçeneğini belirleyin. Profilinizi güncelleştirmeyi yeniden denemek için \"Yeniden dene\" seçeneğini belirleyin",
+  "tflFre_error_dialog_retry_button": "Yeniden dene",
+  "tflFre_error_dialog_sign_out_button": "Başka bir hesap kullan",
+  "tflFre_fetch_error_dialog_header": "Profiliniz Getirilemedi",
+  "tflFre_fetch_error_dialog_body": "Profil bilgileriniz getirilemedi. Oturumu kapatmak ve başka bir hesap kullanmak için \"Başka bir hesap kullan\" seçeneğini belirleyin. Profilinizi getirmeyi yeniden denemek için \"Yeniden dene\" seçeneğini belirleyin",
+  "tflFre_welcome_edit_header": "Teams’e Hoş Geldiniz",
+  "tflFre_welcome_edit_second_header": "Nasıl görünmek istersiniz?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "E-posta"
+}

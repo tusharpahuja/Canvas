@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "הוספת אנשים",
+  "embed_go_back_button": "חזור",
+  "embed_provide_feedback": "ספק את המשוב שלך:",
+  "embed_go_to": "עבור אל {{title}}",
+  "embed_open_inside": "פתח בפנים",
+  "embed_participants_in_chat": "משתתפים ({{membersCount}})",
+  "embed_pop_out_chat": "צ'אט בחלון נפרד",
+  "embed_pop_in_back": "הצג בתצוגה רגילה בחזרה לחלון הראשי",
+  "embed_error_page_message": "מצטערים - נתקלנו בבעיה",
+  "embed_error_page_try_again_button": "נסה שוב",
+  "embed_chats": "שיחות צ'אט של Microsoft Teams",
+  "embed_chat": "שיחת צ'אט של Microsoft Teams"
+}

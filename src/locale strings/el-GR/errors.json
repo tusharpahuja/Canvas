@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Παρουσιάστηκε ένα πρόβλημα!",
+  "default_app_title": "Προέκυψε ένα πρόβλημα! (Σφάλματα εφαρμογών)",
+  "default_network_error_description": "Πρόβλημα δικτύου!",
+  "default_network_error_title": "Πρόβλημα δικτύου!",
+  "default_unknown_description": "Παρουσιάστηκε ένα πρόβλημα!",
+  "default_unknown_title": "Παρουσιάστηκε ένα πρόβλημα!",
+  "default_authentication_title": "Όπα, δεν καταφέραμε να σας συνδέσουμε",
+  "default_authentication_description": "κάτι πήγε στραβά.",
+  "default_core_error_description": "Προέκυψε ένα πρόβλημα! (Βασικά σφάλματα)",
+  "default_core_error_title": "Κωδικός σφάλματος: Βασικά σφάλματα",
+  "default_fetch_description": "Προέκυψε ένα πρόβλημα! (Σφάλματα λήψης CDL)",
+  "default_fetch_title": "Κωδικός σφάλματος: Σφάλματα λήψης CDL",
+  "default_service_description": "Προέκυψε ένα πρόβλημα! (Σφάλματα υπηρεσίας CDL)",
+  "default_service_title": "Κωδικός σφάλματος: Σφάλματα υπηρεσίας CDL",
+  "error_forbidden_text": "Λυπούμαστε. Εντοπίσαμε ένα ζήτημα με την άδεια χρήσης του οργανισμού σας",
+  "error_nonetwork_text": "Λυπούμαστε. Δεν βρέθηκε δίκτυο. Προσπαθήστε ξανά όταν επανασυνδεθείτε."
+}

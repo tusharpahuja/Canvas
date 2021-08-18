@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="meeting-stream-app.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="sk-SK" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";custom_streaming_config_page_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom streaming is your tool to stream out Teams meeting to public platforms powered by RTMP]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vlastné streamovanie je váš nástroj na streamovanie schôdze v aplikácii Teams do verejných platforiem, ktoré používa RTMP]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[App description on the custom streaming config page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";custom_streaming_config_page_first_greeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Custom Streaming!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Víta vás vlastné streamovanie!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[First greeting on the custom streaming config page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";custom_streaming_config_page_second_greeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're glad you're here]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sme radi, že ste tu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second greeting on the custom streaming config page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";custom_streaming_error_meeting_limit_reached" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This meeting cannot be streamed in its current settings. Please restrict attendees to under 1000.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Táto schôdza sa nedá streamovať v jej aktuálnom nastavení. Obmedzte účastníkov na menej ako 1000.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message when streaming is not supported for meetings with > 1000 attendees]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";custom_streaming_error_outdated_client" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Teams needs updates to continue. Restart your application to ensure you have the latest features.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aplikácia Teams potrebuje aktualizácie, aby mohla pokračovať. Reštartujte aplikáciu, aby ste mali najnovšie funkcie.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message when user is on an outdated client which does not support streaming]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";custom_streaming_error_permission_denied" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have streaming permissions. Please contact your IT administrator or the organizer to stream this content]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nemáte povolenia na streamovanie. Ak chcete vysielať tento obsah, obráťte sa na správcu IT alebo organizátora.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message when user does not have permission to stream due to either policy being disabled or streaming not enabled for the user role]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";custom_streaming_error_unknown" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong, please try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vyskytla sa chyba, skúste to znova.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error message when streaming fails due to some unexpected reason]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";custom_streaming_error_unsupported_platform" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This feature isn't supported in the browser yet. Try again from the desktop version of Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Táto funkcia zatiaľ nie je podporovaná v prehliadači. Skúste to znova z počítačovej verzie aplikácie Teams.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message when user is on an unsupported platform (browser for now as streaming is only supported in Desktop client)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";custom_streaming_tab_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom Streaming]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vlastné streamovanie]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for custom streaming app tab in calling screen top toolbar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";start_streaming_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start streaming]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Spustiť streamovanie]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Start Streaming]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for action button that starts streaming]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";stop_streaming_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Stop streaming]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zastaviť streamovanie]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for action button that stops streaming]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";stream_key_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Stream key]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kľúč streamu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for stream key]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";stream_key_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter Stream key]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zadajte kľúč streamu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for stream key]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";stream_url_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Stream URL]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[URL adresa streamu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for Stream URL]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";stream_url_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter Stream URL]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zadajte URL adresu streamu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for stream url]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

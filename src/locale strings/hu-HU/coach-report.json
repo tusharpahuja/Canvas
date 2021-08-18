@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Nincs az értekezleti mentortól származó jelentés.",
+  "coach_report_no_data_too_short": "Kapcsolja be az értekezleti trénert több mint 1 perc múlva a jelentés eléréséhez",
+  "coach_report_no_data_too_long": "Sajnáljuk, az értekezleti tréner nem támogatja a 2 óránál hosszabb értekezleteket",
+  "coach_report_title": "Az értekezleti mentor elemzései",
+  "coach_report_private_label": "Privát",
+  "coach_report_settings": "Beállítások",
+  "coach_report_subtitle": "* A mentor jelentését csak Ön láthatja.",
+  "coach_report_chart_title": "Javaslat az Ön értekezletéből",
+  "coach_report_card_checkbox": "A jövőbeli munkamenetekben mindig mentsen, és hagyja ki ezt a képernyőt.",
+  "coach_report_save_button": "Mentés",
+  "coach_report_delete_button": "Törlés",
+  "coach_report_save_button_tooltip": "Később megtalálja az értekezlet lapján.",
+  "coach_report_feedback_before_submit": "Hasznosnak találta ezt?",
+  "coach_report_feedback_after_submit": "Köszönjük a visszajelzést.",
+  "coach_report_feedback_yes_button": "Igen",
+  "coach_report_feedback_no_button": "Nem",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}}. összesen {{critiqueTotalCount}} közül",
+  "coach_report_previous_critique_button": "Előző",
+  "coach_report_next_critique_button": "Következő"
+}

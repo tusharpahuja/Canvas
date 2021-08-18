@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Algo aconteceu e não foi possível adicionar o grupo.",
+  "peoplePicker_dlTooManyMembers": "Não foi possível adicionar {{dlName}} ({{dlMemberCount}}). Você só pode iniciar um chat com {{maxSize}} pessoas ou menos.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Use a tecla backspace ou delete para remover. Use as teclas para a esquerda ou para a direita para ver outros destinatários de chat.",
+  "peoplePicker_loadingMessage": "Carregando...",
+  "peoplePicker_newAddGroupNameButtonContent": "Adicionar nome do grupo",
+  "peoplePicker_collapseGroupNameButtonContent": "Recolher o nome do grupo",
+  "peoplePicker_federationWarning": "O bate-papo com contas corporativas ou de estudante ainda não está disponível. Saiba mais.",
+  "peoplePicker_noResults": "Não foi possível localizar correspondências.",
+  "peoplePicker_resultsUpdationAriaLabel": "Resultados da pesquisa atualizados. Use as teclas de seta para cima e para baixo para navegar, e Enter para selecionar.",
+  "peoplePicker_search_externally_btn_text": "Pesquisar {{email}} externamente",
+  "peoplePicker_tflToLinePlaceholder": "Inserir o nome, email ou número de telefone",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Remover",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} selecionado na lista.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}} {{index}} de {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} removido da lista."
+}

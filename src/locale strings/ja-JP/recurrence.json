@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{毎日開催} =2{1 日おきに開催} other{# 日おきに開催}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{毎週{days}に} =2{隔週の{days}に開催} other{# 週おきの{days}に開催}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{毎月 {day} 日に開催} =2{隔月の {day} 日に開催} other{# か月おきの {day} 日に開催}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{毎月{weekInMonthIndex}{weekday}に開催} =2{隔月の{weekInMonthIndex}{weekday}に開催} other{# か月おきの{weekInMonthIndex}{weekday}に開催}}",
+  "meeting_recurrence_pattern_yearly": "毎年 {{date}}に開催",
+  "meeting_recurrence_pattern_relativeyearly": "毎年 {{month}}の第 {{dayOfTheWeekIndex}} {{dayOfTheWeek}}に開催"
+}

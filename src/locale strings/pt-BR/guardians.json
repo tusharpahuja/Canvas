@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Carregando lista de Pais",
+  "guardians_table": "Lista de pais {{classTeam}}",
+  "students": "Alunos",
+  "guardians": "Pais / Guardiões",
+  "chatButton": "Botão Chat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{Mais # pai ou guardião. Expandir para abrir a lista} one {Mais # pais ou guardiões. Expandir para abrir a lista} other{Mais # pais ou guardiões. Expandir para abrir a lista} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, abrir o cartão de perfil",
+  "guardians_user_unknown_label": "Usuário desconhecido",
+  "guardians_status_unknown_label": "Desconhecido",
+  "guardians_overflow_members": "Pais ou responsáveis adicionais do {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Iniciar uma conversa com o responsável pelo {studentName}} one {Iniciar uma conversa com os responsáveis do {studentName}} other{Iniciar uma conversa com os responsáveis do {studentName}}}",
+  "guardians_chat_button_disabled_title": "Acesso externo desabilitado pelo Administrador",
+  "guardians_chat_button_disabled_alt_title": "Peça a seu administrador para adicionar informações de contato do responsável para tornar o chat disponível",
+  "empty_state_title": "Os pais e os guardiões ainda não foram adicionados",
+  "empty_state_subtitle": "Peça ao seu administrador de TI para adicioná-los para que você possa contatá-los rapidamente aqui. <0></0>",
+  "empty_state_link": "Ver mais",
+  "error_state_title": "Houve algum problema. Verifique novamente mais tarde.",
+  "not_owner_error_state_title": "Somente os proprietários da equipe de classe podem ver informações de pai e guardião. Peça ao proprietário da equipe que conceda a você acesso.",
+  "retry_button_title": "Repetir",
+  "transient_error_state_title": "Algo deu errado. Tente novamente.",
+  "notification_banner_content": "Ocorreu um problema ao carregar mais informações dos pais ou responsáveis. Tente novamente mais tarde."
+}

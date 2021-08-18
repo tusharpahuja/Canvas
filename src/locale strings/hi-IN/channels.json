@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{इसके लिए: {user1}} =1{इसके लिए: {user1}, और 1 अन्य} one {इसके लिए: {user1}, और # अन्य} other{इसके लिए: {user1}, और # अन्य}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{इसके लिए: {user1}, {user2}} =1{इसके लिए: {user1}, {user2}, और 1 अन्य} one {इसके लिए: {user1}, {user2}, और # अन्य} other{इसके लिए: {user1}, {user2}, और # अन्य}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{इसके लिए: {user1}, {user2}, {user3}} =1{इसके लिए: {user1}, {user2}, {user3}, और 1 अन्य} one {इसके लिए: {user1}, {user2}, {user3}, और # अन्य} other{इसके लिए: {user1}, {user2}, {user3}, और # अन्य}}",
+  "new_message_label": "नया",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} उत्तर {user1} से} =1{{repliesCount} उत्तर {user1} और 1 अन्य से} one {{repliesCount} उत्तर {user1} और # अन्य से} other{{repliesCount} उत्तर {user1} और # अन्य से}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} उत्तर {user1}, {user2} से} =1{{repliesCount} उत्तर {user1}, {user2} और 1 अन्य से} one {{repliesCount} उत्तर {user1}, {user2} और # अन्य से} other{{repliesCount} उत्तर {user1}, {user2} और # अन्य से}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} उत्तर {user1}, {user2}, {user3} से} =1{{repliesCount} उत्तर {user1}, {user2}, {user3} और 1 अन्य से} one {{repliesCount} उत्तर {user1}, {user2}, {user3} और # अन्य से} other{{repliesCount} उत्तर {user1}, {user2}, {user3} और # अन्य से}}",
+  "tmp_view_chat_button_text": "उत्तर देखें",
+  "tmp_go_to_channel_button_text": "चैनल पर जाएँ"
+}

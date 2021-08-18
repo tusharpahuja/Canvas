@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "无可用的“会议指导报告”",
+  "coach_report_no_data_too_short": "打开会议指导超过 1 分钟即可访问报告",
+  "coach_report_no_data_too_long": "很抱歉，会议指导不支持超过 2 小时的会议",
+  "coach_report_title": "你的“会议指导见解”",
+  "coach_report_private_label": "私人",
+  "coach_report_settings": "设置",
+  "coach_report_subtitle": "* 只有你能看到你的“指导报告”。",
+  "coach_report_chart_title": "会议的建议",
+  "coach_report_card_checkbox": "为了未来会话，始终保存并跳过此屏幕",
+  "coach_report_save_button": "保存",
+  "coach_report_delete_button": "删除",
+  "coach_report_save_button_tooltip": "稍后在会议页面中进行查找",
+  "coach_report_feedback_before_submit": "这有帮助吗?",
+  "coach_report_feedback_after_submit": "感谢你的反馈",
+  "coach_report_feedback_yes_button": "是",
+  "coach_report_feedback_no_button": "否",
+  "coach_report_critique_navigation_text": "{{critiqueTotalCount}} 的 {{critiqueCurrentCount}}",
+  "coach_report_previous_critique_button": "前一个",
+  "coach_report_next_critique_button": "下一个"
+}

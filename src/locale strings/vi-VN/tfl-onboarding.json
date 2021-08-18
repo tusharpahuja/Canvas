@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Sử dụng tài khoản khác",
+  "tflFre_Learn_More_Link_caption": "Ai có thể xem Điều này",
+  "tflFre_OK_Button_caption": "Hãy cùng bắt đầu",
+  "tflFre_dialog_Aria": "Chào mừng đến với Teams. Bạn muốn xuất hiện trên Teams như thế nào? Mọi người có thể tìm kiếm bạn bằng cách sử dụng thông tin này",
+  "tflFre_header": "Chào mừng",
+  "tflFre_phone_and_email_flyout": "Truy cập tài khoản Microsoft của bạn để quản lý số điện thoại và email của bạn.",
+  "tflFre_who_can_see_this_flyout": "Tên và ảnh tài khoản Microsoft của bạn sẽ được hiển thị với những người khác trên Teams. Mọi người cũng có thể tìm kiếm bạn trên Teams bằng cách sử dụng số điện thoại và email của bạn.",
+  "tflFre_learn_more_link_text": "Tìm hiểu thêm",
+  "tflFre_sync_contacts_checkbox": "Đồng bộ danh bạ Skype và Outlook của tôi để tìm những người tôi biết trên Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Mọi người có thể tìm kiếm bạn bằng cách sử dụng:",
+  "tflFre_loading_spinner_text": "Đang tải...",
+  "tflFre_stamping_error_dialog_header": "Không cập nhật được hồ sơ của bạn",
+  "tflFre_stamping_error_dialog_body": "Chúng tôi không thể cập nhật thông tin hồ sơ của bạn. Chọn \"Sử dụng tài khoản khác\" để đăng xuất và sử dụng tài khoản khác. Chọn \"Thử lại\" để thử cập nhật lại hồ sơ của bạn",
+  "tflFre_error_dialog_retry_button": "Hãy thử lại",
+  "tflFre_error_dialog_sign_out_button": "Sử dụng tài khoản khác",
+  "tflFre_fetch_error_dialog_header": "Không tìm nạp được hồ sơ của bạn",
+  "tflFre_fetch_error_dialog_body": "Chúng tôi không thể tìm nạp thông tin hồ sơ của bạn. Chọn \"Sử dụng tài khoản khác\" để đăng xuất và sử dụng tài khoản khác. Chọn \"Thử lại\" để thử tìm nạp lại hồ sơ của bạn",
+  "tflFre_welcome_edit_header": "Chào mừng bạn đến với Teams",
+  "tflFre_welcome_edit_second_header": "Bạn muốn xuất hiện như thế nào?",
+  "tflFre_phone_field_header": "Điện thoại",
+  "tflFre_email_field_header": "Email"
+}

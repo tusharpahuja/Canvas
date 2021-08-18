@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Occurs daily} =2{Occurs every other day} one {Occurs every # days} other{Occurs every # days}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Occurs every {days}} =2{Occurs every other {days}} one {Occurs every # weeks on {days}} other{Occurs every # weeks on {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Occurs every month on day {day}} =2{Occurs every other month on day {day}} one {Occurs every # months on day {day}} other{Occurs every # months on day {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Occurs every month on {weekInMonthIndex} {weekday}} =2{Occurs every other month on {weekInMonthIndex} {weekday}} one {Occurs every # months on {weekInMonthIndex} {weekday}} other{Occurs every # months on {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Occurs every {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Occurs every {{dayOfTheWeekIndex}} {{dayOfTheWeek}} of {{month}}"
+}

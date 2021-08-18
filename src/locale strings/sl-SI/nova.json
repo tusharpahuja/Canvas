@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Izpis",
+  "me_control_sign_out_button_aria_label": "Izpiši se iz Microsofta",
+  "me_control_my_microsoft_account_button_text": "Moj Microsoftov račun",
+  "me_control_my_microsoft_account_button_aria_label": "Moj Microsoftov račun",
+  "me_control_change_picture_aria_label": "Spremeni fotografijo profila",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Meni profila",
+  "app_bar_activity_app_name": "Dejavnost",
+  "app_bar_activity_app_arialabel": "Dejavnost",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# Nova dejavnost} one {Št. novih dejavnosti: #} two {Št. novih dejavnosti: #} few {Št. novih dejavnosti: #} other{Št. novih dejavnosti: #}}",
+  "app_bar_activity_app_tooltip": "Dejavnost",
+  "app_bar_chat_app_name": "Klepet",
+  "app_bar_chat_app_arialabel": "Klepet",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# klepet z novimi sporočili} one {Št. klepetov z novimi sporočili: #} two {Št. klepetov z novimi sporočili: #} few {Št. klepetov z novimi sporočili: #} other{Št. klepetov z novimi sporočili: #}}",
+  "app_bar_chat_app_tooltip": "Klepet",
+  "app_bar_calendar_app_name": "Koledar",
+  "app_bar_calendar_app_arialabel": "Koledar",
+  "app_bar_calendar_app_tooltip": "Koledar",
+  "app_bar_calls_app_name": "Klici",
+  "app_bar_calls_app_arialabel": "Klici",
+  "app_bar_calls_app_tooltip": "Klici"
+}

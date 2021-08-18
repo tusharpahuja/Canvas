@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Indlæser...",
+  "lobby_screen_exit_message": "Forlad lobbyen",
+  "calling_join_button_audio": "Deltag i opkaldet med lyd",
+  "calling_join_button_video": "Deltag i opkaldet med video",
+  "calling_screen_meeting_id": "Møde-ID: {{conferenceId}}",
+  "meeting_room_present_content": "Præsenter",
+  "meeting_room_connected_device": "Tilsluttet enhed",
+  "meeting_room_content_camera": "Indholdskamera",
+  "meeting_room_cortana_button_title": "Cortana"
+}

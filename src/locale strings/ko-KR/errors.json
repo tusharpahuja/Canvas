@@ -1,0 +1,18 @@
+{
+  "default_app_description": "문제가 발생했습니다.",
+  "default_app_title": "죄송합니다. 문제가 발생했습니다!(앱 오류)",
+  "default_network_error_description": "죄송합니다. 네트워크 문제입니다!",
+  "default_network_error_title": "죄송합니다. 네트워크 문제입니다!",
+  "default_unknown_description": "문제가 발생했습니다.",
+  "default_unknown_title": "문제가 발생했습니다.",
+  "default_authentication_title": "죄송합니다. 로그인할 수 없습니다.",
+  "default_authentication_description": "문제가 발생했습니다.",
+  "default_core_error_description": "죄송합니다. 문제가 발생했습니다!(코어 오류)",
+  "default_core_error_title": "오류 코드: 핵심 오류",
+  "default_fetch_description": "죄송합니다. 문제가 발생했습니다!(CDL 페치 오류)",
+  "default_fetch_title": "오류 코드: CDL 페치 오류",
+  "default_service_description": "죄송합니다. 문제가 발생했습니다!(CDL 서비스 오류)",
+  "default_service_title": "오류 코드: CDL 서비스 오류",
+  "error_forbidden_text": "죄송합니다. 조직의 라이선스에 문제가 있습니다.",
+  "error_nonetwork_text": "죄송합니다. 네트워크를 찾을 수 없습니다. 다시 연결되면 다시 시도하세요."
+}

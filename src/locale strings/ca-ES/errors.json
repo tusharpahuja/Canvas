@@ -1,0 +1,18 @@
+{
+  "default_app_description": "S'ha produït un error",
+  "default_app_title": "S’ha produït un error. (Errors de l’aplicació)",
+  "default_network_error_description": "Hi ha un problema amb la xarxa",
+  "default_network_error_title": "Hi ha un problema amb la xarxa",
+  "default_unknown_description": "S'ha produït un error",
+  "default_unknown_title": "S'ha produït un error",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "S’ha produït un error. (Errors principals)",
+  "default_core_error_title": "Codi d'error: errors principals",
+  "default_fetch_description": "S'ha produït un error. (Errors d’obtenció de CDL)",
+  "default_fetch_title": "Codi d'error: errors d’obtenció de CDL",
+  "default_service_description": "S'ha produït un error. (Errors del servei de CDL)",
+  "default_service_title": "Codi d'error: errors del servei CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

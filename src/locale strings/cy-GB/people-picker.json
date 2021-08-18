@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Digwyddodd rhywbeth, ac nid oeddem yn gallu ychwanegu'r grŵp.",
+  "peoplePicker_dlTooManyMembers": "Nid oeddem yn gallu ychwanegu {{dlName}} ({{dlMemberCount}}). Dim ond gyda phobl {{maxSize}} neu lai y gallwch chi ddechrau sgwrs.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Defnyddiwch ôl-fysell neu dileu i dynnu. Defnyddiwch y saethau chwith neu dde ar gyfer derbynwyr sgwrs eraill.",
+  "peoplePicker_loadingMessage": "Wrthi'n llwytho...",
+  "peoplePicker_newAddGroupNameButtonContent": "Ychwanegu enw grŵp",
+  "peoplePicker_collapseGroupNameButtonContent": "Cwympo enw'r grŵp",
+  "peoplePicker_federationWarning": "Nid yw sgwrsio â chyfrifon menter neu ysgol ar gael eto. Dysgu rhagor.",
+  "peoplePicker_noResults": "Heb ddod o hyd i unrhyw gyfatebiad.",
+  "peoplePicker_resultsUpdationAriaLabel": "Wedi diweddaru'r canlyniadau chwilio. Defnyddiwch y bysellau i fyny ac i lawr i fynd o un i’r llall, ac enter i ddewis.",
+  "peoplePicker_search_externally_btn_text": "Chwilio {{email}} yn allanol",
+  "peoplePicker_tflToLinePlaceholder": "Rhowch enw, cyfeiriad e-bost neu rif ffôn",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Tynnu",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} wedi ei ddewis o'r rhestr.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} o {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Wedi tynnu {{username}} oddi ar y rhestr."
+}

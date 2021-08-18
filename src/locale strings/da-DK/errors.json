@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Ups, noget gik galt!",
+  "default_app_title": "Ups, noget gik galt! (fejl i app)",
+  "default_network_error_description": "Ups, netværksproblem!",
+  "default_network_error_title": "Ups, netværksproblem!",
+  "default_unknown_description": "Ups, noget gik galt!",
+  "default_unknown_title": "Ups, noget gik galt!",
+  "default_authentication_title": "Ups, vi kunne ikke logge dig på",
+  "default_authentication_description": "noget gik galt.",
+  "default_core_error_description": "Ups, noget gik galt! (grundlæggende fejl)",
+  "default_core_error_title": "Fejlkode: Grundlæggende fejl",
+  "default_fetch_description": "Ups, noget gik galt! (CDL-hentningsfejl)",
+  "default_fetch_title": "Fejlkode: CDL-hentningsfejl",
+  "default_service_description": "Ups, noget gik galt! (CDL-tjenestefejl)",
+  "default_service_title": "Fejlkode: CDL-tjenestefejl",
+  "error_forbidden_text": "Vi beklager. Vi har stødt på et problem med din organisations licens",
+  "error_nonetwork_text": "Vi beklager. Der blev ikke fundet noget netværk. Prøv igen, når du har genoprettet forbindelsen."
+}

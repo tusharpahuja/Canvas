@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Laden...",
+  "lobby_screen_exit_message": "Lobby verlaten",
+  "calling_join_button_audio": "Met audio deelnemen aan gesprek",
+  "calling_join_button_video": "Met video deelnemen aan gesprek",
+  "calling_screen_meeting_id": "Vergaderings-id: {{conferenceId}}",
+  "meeting_room_present_content": "Presenteren",
+  "meeting_room_connected_device": "Verbonden apparaat",
+  "meeting_room_content_camera": "Inhoudscamera",
+  "meeting_room_cortana_button_title": "Cortana"
+}

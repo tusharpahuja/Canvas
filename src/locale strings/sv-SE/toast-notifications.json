@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} har nämnt dig",
+  "toast_messaging_reaction": "{{sender}} reagerade på ditt meddelande",
+  "toast_messaging_default_group_topic": "Okänd",
+  "toast_messaging_default_user_given_name": "Okänd",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} + {{count}}",
+  "toast_messaging_quickreply_button_text": "Skicka",
+  "toast_messaging_quickreply_placeholder_text": "Skicka ett snabbt svar",
+  "toast_messaging_activity_text": "Chatt med {{participants}}",
+  "toast_messaging_activity_text_with_count": "Chatt med {{participants}} + {{count}}"
+}

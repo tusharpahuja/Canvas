@@ -1,0 +1,18 @@
+{
+  "default_app_description": "ओह, कुछ गलत हुआ!",
+  "default_app_title": "ओह, कुछ गलत हुआ! (App त्रुटियाँ)",
+  "default_network_error_description": "ओह, नेटवर्क समस्या!",
+  "default_network_error_title": "ओह, नेटवर्क समस्या!",
+  "default_unknown_description": "ओह, कुछ गलत हुआ!",
+  "default_unknown_title": "ओह, कुछ गलत हुआ!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "ओह, कुछ गलत हुआ! (कोर त्रुटियाँ)",
+  "default_core_error_title": "त्रुटि कोड: कोर त्रुटियाँ",
+  "default_fetch_description": "ओह, कुछ गलत हुआ! (CDL फ़ेच त्रुटियाँ)",
+  "default_fetch_title": "त्रुटि कोड: CDL फ़ेच त्रुटियाँ",
+  "default_service_description": "ओह, कुछ गलत हुआ! (CDL सेवा त्रुटियाँ)",
+  "default_service_title": "त्रुटि कोड: CDL सेवा त्रुटियाँ",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

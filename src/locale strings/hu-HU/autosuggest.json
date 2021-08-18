@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} itt: {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Nincs javaslat.||1->2::{0} javaslat érhető el: ||2->3::{0} javaslat érhető el: ||3->INF::{0} javaslat érhető el:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Nincs javaslat erre: {0}.||1->2::{1} javaslat érhető el erre: {0}: ||2->3::{1} javaslat érhető el erre: {0}: ||3->INF::{1} javaslat érhető el erre: {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Névtelen csoport",
+  "autosuggest_sb_search_box_clear_button_label": "A keresőmező tartalmának törlése",
+  "autosuggest_sb_search_box_submit_button_label": "Keresés",
+  "autosuggest_sb_search_box_view_all_results_label": "Az Enter billentyűt megnyomva az összes találatot megnézheti",
+  "autosuggest_people_group_heading": "Személyek",
+  "autosuggest_chats_group_heading": "Csoportos csevegések",
+  "autosuggest_zero_term_group_aria_label": "Legutóbbi keresések"
+}

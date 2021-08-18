@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "行動裝置 AR",
+  "toolbar_arrow": "放置箭頭",
+  "toolbar_ink": "筆跡",
+  "toolbar_color_picker": "挑選色彩",
+  "toolbar_color_yellow": "黃色",
+  "toolbar_color_blue": "藍色",
+  "toolbar_color_gray": "灰色",
+  "toolbar_color_green": "綠色",
+  "toolbar_color_red": "紅色",
+  "toolbar_insert_file": "插入檔案",
+  "toolbar_undo": "復原",
+  "toolbar_erase_all_current_session": "從目前的編輯工作階段清除全部",
+  "toolbar_erase_all": "清除全部",
+  "toolbar_start_editing": "開始編輯",
+  "toolbar_stop_editing": "停止編輯"
+}

@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "ระบบ",
+  "general_settings_system_auto_start_toggle": "เริ่มต้น Teams โดยอัตโนมัติ",
+  "notification_settings_details_message_preview_header_text": "ตัวอย่างข้อความ",
+  "notification_settings_edit_chat_button_aria_label": "แก้ไขการแจ้งเตือนแชท",
+  "notification_settings_details_chat_messages_text": "ข้อความ",
+  "notification_settings_warning_windows_tfw": "ตรวจสอบการตั้งค่าการแจ้งเตือน Windows ของคุณอีกครั้งเพื่อให้แน่ใจว่าคุณสามารถรับการแจ้งเตือน Teams ได้<0></0>",
+  "settings_loader_text": "กำลังโหลดเนื้อหา...",
+  "dropdown_settings_selected_text": "เลือก {{value}} แล้ว",
+  "read_receipts_title": "การแจ้งเมื่อผู้รับเปิดอ่าน",
+  "read_receipts_description": "บอกให้คนอื่นรู้เมื่อคุณเห็นข้อความของพวกเขาและรู้ว่าพวกเขาเห็นข้อความของคุณเมื่อใด ปิดและเปิดหน้าต่างแชทใหม่เพื่อให้การตั้งค่ามีผลในการแชทเหล่านั้น",
+  "read_receipts_label": "การแจ้งเมื่อผู้รับเปิดอ่าน"
+}

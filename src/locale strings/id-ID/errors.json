@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Ups, terjadi kesalahan!",
+  "default_app_title": "Ups, terjadi kesalahan! (Kesalahan aplikasi)",
+  "default_network_error_description": "Ups, masalah jaringan!",
+  "default_network_error_title": "Ups, masalah jaringan!",
+  "default_unknown_description": "Ups, terjadi kesalahan!",
+  "default_unknown_title": "Ups, terjadi kesalahan!",
+  "default_authentication_title": "Maaf, kami tidak dapat memasukkan Anda",
+  "default_authentication_description": "terjadi kesalahan.",
+  "default_core_error_description": "Ups, terjadi kesalahan! (Kesalahan inti)",
+  "default_core_error_title": "Kode kesalahan: Kesalahan inti",
+  "default_fetch_description": "Ups, terjadi kesalahan! (Kesalahan pengambilan CDL)",
+  "default_fetch_title": "Kode kesalahan: Kesalahan pengambilan CDL",
+  "default_service_description": "Ups, terjadi kesalahan! (Kesalahan layanan CDL)",
+  "default_service_title": "Kode kesalahan: Kesalahan layanan CDL",
+  "error_forbidden_text": "Maaf, kami menemukan masalah terkait lisensi organisasi Anda",
+  "error_nonetwork_text": "Maaf, tidak ditemukan jaringan. Coba lagi setelah Anda tersambung kembali."
+}

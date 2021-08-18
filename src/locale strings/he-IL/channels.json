@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{אל: {user1}} =1{אל: {user1} ואל אדם נוסף אחד} one {אל: {user1} ואל # אחרים} two {אל: {user1} ואל # אחרים} many {אל: {user1} ואל # אחרים} other{אל: {user1} ואל # אחרים}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{אל: {user1}, {user2}} =1{אל: {user1}, {user2} ואל אחר #} one {אל: {user1}, {user2} ואל # אחרים} two {אל: {user1}, {user2} ואל # אחרים} many {אל: {user1}, {user2} ואל # אחרים} other{אל: {user1}, {user2} ואל # אחרים}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{אל: {user1}, {user2}, {user3}} =1{אל: {user1}, {user2}, {user3} ואל אחר #} one {אל: {user1}, {user2}, {user3} ואל # אחרים} two {אל: {user1}, {user2}, {user3} ואל # אחרים} many {אל: {user1}, {user2}, {user3} ואל # אחרים} other{אל: {user1}, {user2}, {user3} ואל # אחרים}}",
+  "new_message_label": "חדש",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} תשובות מ- {user1}} =1{{repliesCount} תשובות מ- {user1} ואחד נוסף} one {{repliesCount} תשובות מ- {user1} ו- # אחרים} two {{repliesCount} תשובות מ- {user1} ו- # אחרים} many {{repliesCount} תשובות מ- {user1} ו- # אחרים} other{{repliesCount} תשובות מ- {user1} ו- # אחרים}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} תשובות מ- {user1} , {user2}} =1{{repliesCount} תשובות מ- {user1} , {user2} ואחד נוסף} one {{repliesCount} תשובות מ- {user1} , {user2} ו- # אחרים} two {{repliesCount} תשובות מ- {user1} , {user2} ו- # אחרים} many {{repliesCount} תשובות מ- {user1} , {user2} ו- # אחרים} other{{repliesCount} תשובות מ- {user1} , {user2} ו- # אחרים}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} תשובות מ- {user1} , {user2} , {user3}} =1{{repliesCount} תשובות מ- {user1} , {user2} , {user3} ואחד נוסף} one {{repliesCount} תשובות מ- {user1} , {user2} , {user3} ו- # אחרים} two {{repliesCount} תשובות מ- {user1} , {user2} , {user3} ו- # אחרים} many {{repliesCount} תשובות מ- {user1} , {user2} , {user3} ו- # אחרים} other{{repliesCount} תשובות מ- {user1} , {user2} , {user3} ו- # אחרים}}",
+  "tmp_view_chat_button_text": "הצג תשובות",
+  "tmp_go_to_channel_button_text": "עבור לערוץ"
+}

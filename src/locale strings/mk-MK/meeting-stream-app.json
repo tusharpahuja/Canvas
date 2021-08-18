@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "УРЛ на Stream",
+  "stream_url_placeholder": "Внесете УРЛ на Stream",
+  "stream_key_label": "Клуч за Stream",
+  "stream_key_placeholder": "Внесете клуч за Stream",
+  "start_streaming_button_text": "Започни со емитување",
+  "stop_streaming_button_text": "Престани со снимање",
+  "custom_streaming_config_page_description": "Прилагоденoто споделување во живо е вашата алатка за споделување во живо на состаноците на Teams на јавни платформи овозможени од RTMP",
+  "custom_streaming_config_page_first_greeting": "Добре дојдовте во Приспособено емитување!",
+  "custom_streaming_config_page_second_greeting": "Мило ни е што сте тука",
+  "custom_streaming_error_meeting_limit_reached": "Овој состанок не може да се емитува со тековните параметри. Ограничете го бројот на присутните до 1000.",
+  "custom_streaming_error_permission_denied": "Немате дозволи за споделување во живо. Контактирајте со ИТ-администраторот или организаторот за да ја емитувате оваа содржина",
+  "custom_streaming_error_outdated_client": "Teams бара ажурирања за да продолжи. Престартувајте ја апликацијата за да проверите дали ги имате најновите функции.",
+  "custom_streaming_error_unknown": "Нешто не е во ред, обидете се повторно.",
+  "custom_streaming_error_unsupported_platform": "Оваа функција сѐ уште не е поддржана во прегледувачот. Обидете се повторно со десктоп-верзијата на Teams.",
+  "custom_streaming_tab_title": "Приспособено емитување"
+}

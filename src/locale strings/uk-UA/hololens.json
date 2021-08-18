@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "ДОПОВНЕНА РЕАЛЬНІСТЬ",
+  "indicator_mobile_long": "МОБІЛЬНА ДОПОВНЕНА РЕАЛЬНІСТЬ",
+  "toolbar_arrow": "Розмістити стрілку",
+  "toolbar_ink": "Рукописний ввід",
+  "toolbar_color_picker": "Вибрати колір",
+  "toolbar_color_yellow": "Жовтий",
+  "toolbar_color_blue": "Темно-блакитний",
+  "toolbar_color_gray": "Сірий",
+  "toolbar_color_green": "Зелений",
+  "toolbar_color_red": "Червоний",
+  "toolbar_insert_file": "Вставити файл",
+  "toolbar_undo": "Скасувати",
+  "toolbar_erase_all_current_session": "Видалити все в поточному сеансі редагування",
+  "toolbar_erase_all": "Видалити все",
+  "toolbar_start_editing": "Почати редагування",
+  "toolbar_stop_editing": "Припинити редагування"
+}

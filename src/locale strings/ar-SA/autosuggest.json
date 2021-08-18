@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} في {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::لا توجد اقتراحات.||1->2::{0} الاقتراحات المتوفرة: ||2->3::{0} الاقتراحات المتوفرة: ||3->INF::{0} الاقتراحات المتوفرة:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::لا توجد اقتراحات لـ {0}.||1->2::{1} اقتراح متوفر لـ {0}: ||2->3::{1} الاقتراحات المتوفرة لـ {0}: ||3->INF::{1} الاقتراحات المتوفرة لـ {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "مجموعة بلا اسم",
+  "autosuggest_sb_search_box_clear_button_label": "مسح محتوى مربع البحث",
+  "autosuggest_sb_search_box_submit_button_label": "بحث",
+  "autosuggest_sb_search_box_view_all_results_label": "اضغط على مفتاح الإدخال لعرض كل النتائج",
+  "autosuggest_people_group_heading": "الأشخاص",
+  "autosuggest_chats_group_heading": "دردشات جماعية",
+  "autosuggest_zero_term_group_aria_label": "عمليات البحث الأخيرة"
+}

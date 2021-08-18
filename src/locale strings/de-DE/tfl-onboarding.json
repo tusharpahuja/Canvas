@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Verwenden eines anderen Kontos",
+  "tflFre_Learn_More_Link_caption": "Wer kann das sehen",
+  "tflFre_OK_Button_caption": "Los geht's",
+  "tflFre_dialog_Aria": "Willkommen bei Teams. Wie möchten Sie auf Teams erscheinen? Personen können mit diesen Informationen nach Ihnen suchen",
+  "tflFre_header": "Willkommen",
+  "tflFre_phone_and_email_flyout": "Besuchen Sie Ihr Microsoft-Konto, um Ihre Telefonnummer und e-Mail-Adresse zu verwalten.",
+  "tflFre_who_can_see_this_flyout": "Ihr Name und das Bild Ihres Microsoft-Kontos werden anderen Benutzern in Teams angezeigt. Personen können in Teams auch über Ihre Telefonnummer und e-Mail-Adresse nach Ihnen suchen.",
+  "tflFre_learn_more_link_text": "Weitere Informationen",
+  "tflFre_sync_contacts_checkbox": "Synchronisieren meiner Skype- und Outlook-Kontakte, um nach Personen zu suchen, die ich in Teams kenne.",
+  "tflFre_people_Can_Search_For_You_Using": "Personen können nach Ihnen suchen über:",
+  "tflFre_loading_spinner_text": "Wird geladen...",
+  "tflFre_stamping_error_dialog_header": "Fehler beim Aktualisieren Ihres Profils",
+  "tflFre_stamping_error_dialog_body": "Ihre Profilinformationen konnten nicht aktualisiert werden. Wählen Sie \"Anderes Konto verwenden\" aus, um sich abzumelden und ein anderes Konto zu verwenden. Wählen Sie \"Wiederholen\" aus, um erneut zu versuchen, Ihr Profil zu aktualisieren.",
+  "tflFre_error_dialog_retry_button": "Wiederholen",
+  "tflFre_error_dialog_sign_out_button": "Verwenden eines anderen Kontos",
+  "tflFre_fetch_error_dialog_header": "Fehler beim Abrufen Ihres Profils",
+  "tflFre_fetch_error_dialog_body": "Wir konnten Ihre Profilinformationen nicht abrufen. Wählen Sie \"Anderes Konto verwenden\" aus, um sich abzumelden und ein anderes Konto zu verwenden. Wählen Sie \"Wiederholen\" aus, um erneut zu versuchen, Ihr Profil abzurufen.",
+  "tflFre_welcome_edit_header": "Willkommen bei Teams",
+  "tflFre_welcome_edit_second_header": "Wie möchten Sie angezeigt werden?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "E-Mail"
+}

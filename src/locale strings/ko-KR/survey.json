@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "예",
+  "instant_answers_reaction_yes_aria_label": "이 정보가 유용한가요? -- 예",
+  "instant_answers_reaction_no": "아니요",
+  "instant_answers_reaction_no_aria_label": "이 정보가 유용한가요? -- 아니요",
+  "instant_answers_header_text": "피드백을 보내주셔서 감사합니다!",
+  "instant_answers_header_subtext": "다음은 여러분의 피드백을 기반으로 하는 도움이 될 수 있는 몇 가지 정보입니다.",
+  "instant_answers_footer_text": "이 정보가 유용한가요?",
+  "include_screenshot_text": "스크린샷 포함",
+  "customer_feedback_dialog_email_label": "전자 메일 주소(선택 사항)",
+  "customer_feedback_dialog_email_placeholder": "전자 메일 주소 추가",
+  "customer_feedback_dialog_email_aria_label": "전자 메일 주소(선택 사항)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "제출을 누르면 피드백이 Microsoft 제품 및 서비스를 개선하는 데 사용됩니다. IT 관리자는 이 데이터를 수집할 수 있습니다. 피드백을 기반으로 지원 문제 관련 도움을 드리기 위해 추가 정보가 제공될 수 있습니다.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "개인정보처리방침",
+  "customer_feedback_dialog_close_button_text_aria_label": "피드백 대화 상자 닫기",
+  "customer_feedback_dialog_adhoc_window_title": "피드백 제공"
+}

@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="meeting-flyout.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="lv-LV" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";meeting_flyout_meet_now" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meet now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tūlītēja sapulce]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for a button to start an adhoc private meeting from calendar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_code_view_code_field_error_too_long" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The ID you entered is too long.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ievadītais ID ir pārāk garš.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[meeting ID field error label, code too long]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_code_view_code_field_error_too_short" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The ID you entered is too short.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ievadītais ID ir pārāk īss.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[meeting ID field error label, code too short]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_code_view_code_field_only_numbers_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Type a numeric meeting ID]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ierakstiet sapulces ID ar cipariem]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for the meeting ID field numbers only]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_code_view_code_field_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Type a meeting ID]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ierakstiet sapulces ID]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for the meeting ID field]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_code_view_info" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll find the meeting ID with the other join info near the bottom of the meeting invite.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sapulces uzaicinājuma apakšdaļā atradīsit sapulces ID ar citu pievienošanās informāciju.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the banner message when user clicks on more info regarding meeting ID]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_code_view_info_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Info about the meeting ID]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Informācija par sapulces ID]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the info button for the meeting ID]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_code_view_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Join a meeting with an ID]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pievienoties sapulcei ar ID]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title the 'join meeting from code' panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_icons_close" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aizvērt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alt text for the close (X) icon]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_instant_meeting_default_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meet Now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tūlītēja sapulce]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default title for an instant meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_instant_meeting_title_prefix" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting with {{organizerName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sapulce ar rīkotāju {{organizerName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The default title of an instant meeting. {{organizerName}} is the name of the user that is starting the meeting.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_join_meeting_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Join meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pievienoties sapulcei]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for button action to start a meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_link_obtained_view_announce_copy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting link copied]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sapulces saite ir nokopēta]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement for link copied in clipboard]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_link_obtained_view_confirmation_copy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copied to clipboard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopēts starpliktuvē]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Callout text showed after the user copies the meeting link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_link_obtained_view_copy_action" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy Meeting Link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopēt sapulces saiti]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip text for the copy meeting link action button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_link_obtained_view_error_copy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error copying meeting link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopējot sapulces saiti, radās kļūda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Callout text showed after the user copies the meeting link with error]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_meeting_link_readonly_input" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Saite uz sapulci]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for text box containing the meeting link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_meeting_options_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Configure meeting options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Konfigurēt sapulces opcijas]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Configure Meeting options]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Action: Configure Meeting options button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_menu_create_meetnow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create a meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Izveidot sapulci]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for button action to create an instant meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_menu_join_from_code" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter a meeting ID]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ievadiet sapulces ID]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for button action to start a meeting from code]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_dialog_loading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ielādē...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Share dialog content while waiting to load data]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_dismiss_error_page_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OK]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Labi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the dismiss button of the share instant meeting panel in calendar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_get_link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get a link to share]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Iegūt saiti kopīgošanai]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description of the get meeting link action button in the adhoc meting panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_get_link_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't get the meeting link.]A;Please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Neizdevās iegūt sapulces saiti.]A;Lūdzu, vēlāk mēģiniet vēlreiz.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error text in case it is not possible to obtain a meeting link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_meeting_name_field_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter meeting name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ievadīt sapulces nosaukumu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description of the meeting name text field placeholder in the adhoc meting panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_meeting_name_field_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sapulces nosaukums]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description of the meeting name text field in the adhoc meting panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_share_email_subject" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Join Teams meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pievienoties Teams sapulcei]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Subject for the email to share the meeting link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_share_email_template" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're invited to join a Microsoft Teams meeting]D;]A;]D;]A;Use the link below to join]D;]A;]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Esat uzaicināts pievienoties Microsoft Teams sapulcei]D;]A;]D;]A;Lai pievienotos, izmantojiet tālāk norādīto saiti]D;]A;]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body for the email to share the meeting link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_share_invite" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share via email]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopīgot pa e-pastu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description of the share invite action button in the adhoc meting panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_share_panel_start" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sākt sapulci]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description of the Start adhoc meeting action button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start a private meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sākt privātu sapulci]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the meet now button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_flyout_meet_now_view_subtitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting ID]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sapulces ID]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Subtitle the 'join meeting from code' panel]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

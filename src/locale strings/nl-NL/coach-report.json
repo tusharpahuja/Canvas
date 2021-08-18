@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Er is geen coachrapport van de vergadering beschikbaar",
+  "coach_report_no_data_too_short": "Schakel Vergadercoach langer dan 1 minuut in om toegang te krijgen tot uw rapport",
+  "coach_report_no_data_too_long": "Vergadercoach ondersteunt geen vergaderingen die langer dan 2 uur duren",
+  "coach_report_title": "De coachinzichten van uw vergadering",
+  "coach_report_private_label": "Privé",
+  "coach_report_settings": "Instellingen",
+  "coach_report_subtitle": "* Uw coachrapport is alleen zichtbaar voor u.",
+  "coach_report_chart_title": "Suggesties van uw vergadering",
+  "coach_report_card_checkbox": "Altijd opslaan en dit scherm overslaan voor toekomstige sessies",
+  "coach_report_save_button": "Opslaan",
+  "coach_report_delete_button": "Verwijderen",
+  "coach_report_save_button_tooltip": "Later zoeken op de vergaderpagina",
+  "coach_report_feedback_before_submit": "Is dit nuttig?",
+  "coach_report_feedback_after_submit": "Bedankt voor de feedback",
+  "coach_report_feedback_yes_button": "Ja",
+  "coach_report_feedback_no_button": "Nee",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} van {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Vorige",
+  "coach_report_next_critique_button": "Volgende"
+}

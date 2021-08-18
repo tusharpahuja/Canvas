@@ -1,0 +1,9 @@
+{
+  "value_prop": "Rendszerezheti és kapcsolatba léphet barátaival, családtagjaival és munkatársaival",
+  "initializing_message": "Kis türelmet, amíg előkészítjük a dolgokat…",
+  "open_teams_on_web": "A webes Teams megnyitása",
+  "error_message_header": "Problémába ütköztünk",
+  "setup_error_message": "Hiba történt a telepítés közben",
+  "troubleshoot_issue": "Probléma hibaelhárítása",
+  "retry_flyout_launch": "Újra"
+}

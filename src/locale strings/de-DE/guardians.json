@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Laden der Elternliste",
+  "guardians_table": "Übergeordnete Liste für {{classTeam}}",
+  "students": "Lernende",
+  "guardians": "Eltern/Erziehungsberechtigte",
+  "chatButton": "Schaltfläche „Chat“",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# weiterer Elternteil oder Erziehungsberechtigter. Zum Öffnen der Liste erweitern} one {# weitere Eltern oder Erziehungsberechtigte. Zum Öffnen der Liste erweitern} other{# weitere Eltern oder Erziehungsberechtigte. Zum Öffnen der Liste erweitern} }",
+  "guardians_student_label": "{{studentName}}, Status {{status}}, öffnet die Profilkarte",
+  "guardians_user_unknown_label": "Unbekannter Benutzer",
+  "guardians_status_unknown_label": "Unbekannt",
+  "guardians_overflow_members": "Zusätzliche Eltern oder Erziehungsberechtigte von {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Starten Sie einen Chat mit dem Erziehungsberechtigten von {studentName}} one {Starten Sie einen Chat mit den Erziehungsberechtigten von {studentName}} other{Starten Sie einen Chat mit den Erziehungsberechtigten von {studentName}}}",
+  "guardians_chat_button_disabled_title": "Externer Zugriff vom Administrator deaktiviert",
+  "guardians_chat_button_disabled_alt_title": "Bitten Sie Ihren Administrator, Kontaktinformationen für den Erziehungsberechtigten hinzuzufügen, um den Chat verfügbar zu machen",
+  "empty_state_title": "Eltern und Erziehungsberechtigte wurden nicht hinzugefügt",
+  "empty_state_subtitle": "Bitten Sie Ihren IT-Administrator, sie hinzuzufügen, damit Sie sie von hier aus schnell kontaktieren können. <0></0>",
+  "empty_state_link": "Mehr anzeigen",
+  "error_state_title": "Etwas ist schief gegangen. Versuchen Sie es bitte später erneut.",
+  "not_owner_error_state_title": "Nur Klassenteambesitzer können Informationen zu Eltern und Erziehungsberechtigten anzeigen. Bitten Sie den Teambesitzer, Ihnen Zugriff zu erteilen.",
+  "retry_button_title": "Wiederholen",
+  "transient_error_state_title": "Etwas ist schief gegangen. Bitte versuchen Sie es erneut.",
+  "notification_banner_content": "Beim Laden weiterer Informationen zu Eltern und Erziehungsberechtigten ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut."
+}

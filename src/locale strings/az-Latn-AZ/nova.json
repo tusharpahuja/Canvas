@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Çıx",
+  "me_control_sign_out_button_aria_label": "Microsoft-dan çıx",
+  "me_control_my_microsoft_account_button_text": "Microsoft hesabım",
+  "me_control_my_microsoft_account_button_aria_label": "Microsoft hesabım",
+  "me_control_change_picture_aria_label": "Profil fotosunu dəyiş",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Profili menyusu",
+  "app_bar_activity_app_name": "Fəaliyyət",
+  "app_bar_activity_app_arialabel": "Fəaliyyət",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# yeni fəaliyyət} one {# yeni fəaliyyət} other{# yeni fəaliyyət}}",
+  "app_bar_activity_app_tooltip": "Fəaliyyət",
+  "app_bar_chat_app_name": "Söhbət",
+  "app_bar_chat_app_arialabel": "Söhbət",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{yeni mesajlar ilə # söhbət} one {yeni mesajlar ilə # söhbət} other{yeni mesajlar ilə # söhbət}}",
+  "app_bar_chat_app_tooltip": "Söhbət",
+  "app_bar_calendar_app_name": "Təqvim",
+  "app_bar_calendar_app_arialabel": "Təqvim",
+  "app_bar_calendar_app_tooltip": "Təqvim",
+  "app_bar_calls_app_name": "Zənglər",
+  "app_bar_calls_app_arialabel": "Zənglər",
+  "app_bar_calls_app_tooltip": "Zənglər"
+}

@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Duke ngarkuar listën e prindërve",
+  "guardians_table": "Lista e prindërve për {{classTeam}}",
+  "students": "Nxënësit",
+  "guardians": "Prindërit / Kujdestarët",
+  "chatButton": "Butoni i bisedës",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# prind ose kujdestar tjetër. Zgjero për të hapur listën} one {# prindër ose kujdestarë të tjerë. Zgjero për të hapur listën} other{# prindër ose kujdestarë të tjerë. Zgjero për të hapur listën} }",
+  "guardians_student_label": "{{studentName}}, statusi {{status}}, hap kartën e profilit",
+  "guardians_user_unknown_label": "Përdorues i panjohur",
+  "guardians_status_unknown_label": "I panjohur",
+  "guardians_overflow_members": "Prindërit ose kujdestarët e tjerë të {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Nis një bisedë me kujdestarin e {studentName}} one {Nis një bisedë me kujdestarët e {studentName}} other{Nis një bisedë me kujdestarët e {studentName}}}",
+  "guardians_chat_button_disabled_title": "Qasja e jashtme e çaktivizuar nga administratori",
+  "guardians_chat_button_disabled_alt_title": "Kërkoji administratorit që ta shtojë informacionin e kontaktit të kujdestarit për ta vënë në dispozicion bisedën",
+  "empty_state_title": "Prindërit dhe kujdestarët nuk janë shtuar",
+  "empty_state_subtitle": "Kërkoji administratorit të TI-së t’i shtojë, që të mund t’i kontaktosh shpejt nga këtu. <0></0>",
+  "empty_state_link": "Shiko më shumë",
+  "error_state_title": "Diçka nuk shkoi mirë. Kthehu më vonë.",
+  "not_owner_error_state_title": "Vetëm pronarët e skuadrave të klasës mund të shikojnë informacionin e prindërve dhe kujdestarëve. Kërkoji pronarit të skuadrës të të japë të drejtë qasjeje.",
+  "retry_button_title": "Provo sërish",
+  "transient_error_state_title": "Diçka nuk shkoi mirë. Provo sërish.",
+  "notification_banner_content": "Pati një problem gjatë ngarkimit të më shumë informacioneve për prindërit dhe kujdestarët. Provo sërish më vonë."
+}

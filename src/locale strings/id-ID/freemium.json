@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Anda telah mencapai batas anggota untuk organisasi Anda. Untuk memutakhirkan dan menambahkan lebih banyak orang, kirim pesan ke salah satu admin Anda.} =1 {Anda telah mencapai batas anggota untuk organisasi. Minta <0></0> untuk melakukan peningkatan agar Anda dapat mengundang lebih banyak orang.} other {Anda telah mencapai batas anggota untuk organisasi. Minta salah satu dari <0></0> untuk melakukan peningkatan agar Anda dapat mengundang lebih banyak orang.}}"
+}

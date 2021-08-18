@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Aan: {user1}} =1{Aan: {user1} en 1 ander} one {Aan: {user1} en # anderen} other{Aan: {user1} en # anderen}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Aan: {user1}, {user2}} =1{Aan: {user1}, {user2} en 1 ander} one {Aan: {user1}, {user2} en # anderen} other{Aan: {user1}, {user2} en # anderen}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Aan: {user1}, {user2}, {user3}} =1{Aan: {user1}, {user2}, {user3} en 1 ander} one {Aan: {user1}, {user2}, {user3} en # anderen} other{Aan: {user1}, {user2}, {user3} en # anderen}}",
+  "new_message_label": "Nieuw",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} antwoorden van {user1}} =1{{repliesCount} antwoorden van {user1} en 1 andere} one {{repliesCount} antwoorden van {user1} en # anderen} other{{repliesCount} antwoorden van {user1} en # anderen}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} antwoorden van {user1}, {user2}} =1{{repliesCount} antwoorden van {user1}, {user2} en 1 andere} one {{repliesCount} antwoorden van {user1}, {user2} en # anderen} other{{repliesCount} antwoorden van {user1}, {user2} en # anderen}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} antwoorden van {user1}, {user2}, {user3}} =1{{repliesCount} antwoorden van {user1}, {user2}, {user3}, en 1 andere} one {{repliesCount} antwoorden van {user1}, {user2}, {user3}, en # anderen} other{{repliesCount} antwoorden van {user1}, {user2}, {user3}, en # anderen}}",
+  "tmp_view_chat_button_text": "Antwoorden weergeven",
+  "tmp_go_to_channel_button_text": "Ga naar kanaal"
+}

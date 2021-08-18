@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Izrakstīties",
+  "me_control_sign_out_button_aria_label": "Izrakstīties no Microsoft",
+  "me_control_my_microsoft_account_button_text": "Mans Microsoft konts",
+  "me_control_my_microsoft_account_button_aria_label": "Mans Microsoft konts",
+  "me_control_change_picture_aria_label": "Mainīt profila fotoattēlu",
+  "me_control_trigger_aria_label": "Profils",
+  "me_control_menu_aria_label": "Profila izvēlne",
+  "app_bar_activity_app_name": "Darbība",
+  "app_bar_activity_app_arialabel": "Darbība",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# jauna darbība} zero {# jaunas aktivitātes} one {# jaunas aktivitātes} other{# jaunas aktivitātes}}",
+  "app_bar_activity_app_tooltip": "Darbība",
+  "app_bar_chat_app_name": "Tērzēšana",
+  "app_bar_chat_app_arialabel": "Tērzēšana",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# tērzēšana ar jaunām ziņām} zero {# tērzēšanas ar jauniem ziņojumiem} one {# tērzēšanas ar jauniem ziņojumiem} other{# tērzēšanas ar jauniem ziņojumiem}}",
+  "app_bar_chat_app_tooltip": "Tērzēšana",
+  "app_bar_calendar_app_name": "Kalendārs",
+  "app_bar_calendar_app_arialabel": "Kalendārs",
+  "app_bar_calendar_app_tooltip": "Kalendārs",
+  "app_bar_calls_app_name": "Zvani",
+  "app_bar_calls_app_arialabel": "Zvani",
+  "app_bar_calls_app_tooltip": "Zvani"
+}

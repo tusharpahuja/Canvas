@@ -1,0 +1,9 @@
+{
+  "value_prop": "친구, 가족, 동료와 모여 교류",
+  "initializing_message": "준비 중입니다. 잠시만 기다려 주세요.",
+  "open_teams_on_web": "웹에서 Teams 열기",
+  "error_message_header": "문제가 발생했습니다.",
+  "setup_error_message": "설치 중 문제가 발생했습니다.",
+  "troubleshoot_issue": "문제 해결",
+  "retry_flyout_launch": "다시 시도"
+}

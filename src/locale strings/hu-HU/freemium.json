@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {A céghez már nem rendelhető hozzá több tag. A nagyobb csomagra való váltáshoz és további személyek felvételéhez küldjön üzenetet egy rendszergazdának.} =1 {A szervezethez már nem rendelhet hozzá több tagot. Kérje meg <0></0> felhasználót a frissítésre, hogy további személyeket hívhasson meg.} one {A szervezethez már nem rendelhet hozzá több tagot. Kérje meg bármelyik <0></0> felhasználót a frissítésre, hogy további személyeket hívhasson meg.} other {A szervezethez már nem rendelhet hozzá több tagot. Kérje meg bármelyik <0></0> felhasználót a frissítésre, hogy további személyeket hívhasson meg.}}"
+}

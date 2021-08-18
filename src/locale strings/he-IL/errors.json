@@ -1,0 +1,18 @@
+{
+  "default_app_description": "אופס. משהו השתבש!",
+  "default_app_title": "אופס, משהו השתבש (שגיאות אפליקציה)",
+  "default_network_error_description": "אופס, יש בעיה ברשת!",
+  "default_network_error_title": "אופס, יש בעיה ברשת!",
+  "default_unknown_description": "אופס. משהו השתבש!",
+  "default_unknown_title": "אופס. משהו השתבש!",
+  "default_authentication_title": "אופס, לא הייתה אפשרות להכניס אותך.",
+  "default_authentication_description": "סליחה, תקלה.",
+  "default_core_error_description": "אופס, משהו השתבש! (שגיאות ליבה)",
+  "default_core_error_title": "קוד שגיאה: שגיאות ליבה",
+  "default_fetch_description": "אופס, משהו השתבש! (שגיאות fetch CDL)",
+  "default_fetch_title": "קוד שגיאה: שגיאות fetch CDL",
+  "default_service_description": "אופס, משהו השתבש! (שגיאות שירות CDL)",
+  "default_service_title": "קוד שגיאה: שגיאות שירות CDL",
+  "error_forbidden_text": "מצטערים. מצאנו בעיה ברישיון הארגון שלך",
+  "error_nonetwork_text": "מצטערים. לא נמצאה רשת. נסה שוב כאשר תתחבר מחדש."
+}

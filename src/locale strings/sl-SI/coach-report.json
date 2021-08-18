@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Poročilo Mentorja za srečanja ni na voljo",
+  "coach_report_no_data_too_short": "Za dostop do poročila vklopite Mentorja srečanja za več kot 1 minuto",
+  "coach_report_no_data_too_long": "Mentor srečanja žal ne podpira srečanj, ki trajajo več kot 2 uri",
+  "coach_report_title": "Vpogledi v Mentorja za srečanja",
+  "coach_report_private_label": "Zasebno",
+  "coach_report_settings": "Nastavitve",
+  "coach_report_subtitle": "* Poročilo mentorja lahko vidite le vi.",
+  "coach_report_chart_title": "Predlogi iz vašega srečanja",
+  "coach_report_card_checkbox": "Vedno shrani in preskoči ta zaslon za prihodnje seje",
+  "coach_report_save_button": "Shrani",
+  "coach_report_delete_button": "Izbriši",
+  "coach_report_save_button_tooltip": "Poiščite pozneje na strani srečanja",
+  "coach_report_feedback_before_submit": "Ali je bilo to uporabno?",
+  "coach_report_feedback_after_submit": "Zahvaljujemo se vam za povratne informacije",
+  "coach_report_feedback_yes_button": "Da",
+  "coach_report_feedback_no_button": "Ne",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} od {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Nazaj",
+  "coach_report_next_critique_button": "Naprej"
+}

@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} ב- {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::אין הצעות.||1->2::הצעה {0} זמינה:||2->3::{0} הצעות זמינות: ||3->INF::‏{0} הצעות זמינות:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::אין הצעות עבור {0}.||1->2::הצעה {1} זמינה עבור {0}: ||2->3::{1} הצעות זמינות עבור {0}: ||3->INF:‏:{1} הצעות זמינות עבור {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "קבוצה ללא שם",
+  "autosuggest_sb_search_box_clear_button_label": "נקה את תיבת החיפוש",
+  "autosuggest_sb_search_box_submit_button_label": "חפש",
+  "autosuggest_sb_search_box_view_all_results_label": "הקש Enter כדי להציג את כל התוצאות",
+  "autosuggest_people_group_heading": "אנשים",
+  "autosuggest_chats_group_heading": "צ'אטים קבוצתיים",
+  "autosuggest_zero_term_group_aria_label": "חיפושים אחרונים"
+}

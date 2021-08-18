@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistema",
+  "general_settings_system_auto_start_toggle": "Abiarazi automatikoki Teams",
+  "notification_settings_details_message_preview_header_text": "Mezuaren aurrebista",
+  "notification_settings_edit_chat_button_aria_label": "Editatu txat-jakinarazpenak",
+  "notification_settings_details_chat_messages_text": "Mezuak",
+  "notification_settings_warning_windows_tfw": "Egiaztatu Windows sistemaren jakinarazpen-ezarpenetan eta ziurtatu Teams-en jakinarazpenak jaso ditzakezula. <0></0>",
+  "settings_loader_text": "Edukia kargatzen...",
+  "dropdown_settings_selected_text": "{{value}} hautatu da",
+  "read_receipts_title": "Irakurri agiriak",
+  "read_receipts_description": "Jendeak jakin dezala noiz ikusi dituzun mezuak eta jakin ezazu horiek zeureak noiz ikusi dituzten. Itxi eta ireki berriz edozein txat-leiho, konfigurazioak txat horietan eragina izan dezan.",
+  "read_receipts_label": "Irakurri agiriak"
+}

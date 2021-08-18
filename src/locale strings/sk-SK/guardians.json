@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Načítava sa nadradený zoznam",
+  "guardians_table": "Nadradený zoznam pre {{classTeam}}",
+  "students": "Študenti",
+  "guardians": "Rodičia/zákonní zástupcovia",
+  "chatButton": "Tlačidlo konverzácie",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# ďalší rodič alebo zákonný zástupca. Rozbalením otvoríte zoznam} one {# ďalších rodičov alebo zákonných zástupcov. Rozbalením otvoríte zoznam} few {# ďalších rodičov alebo zákonných zástupcov. Rozbalením otvoríte zoznam} many {# ďalších rodičov alebo zákonných zástupcov. Rozbalením otvoríte zoznam} other{# ďalších rodičov alebo zákonných zástupcov. Rozbalením otvoríte zoznam} }",
+  "guardians_student_label": "{{studentName}}, stav {{status}}, otvorí kartu profilu",
+  "guardians_user_unknown_label": "Neznámy používateľ",
+  "guardians_status_unknown_label": "Neznáme",
+  "guardians_overflow_members": "Ďalší rodičia alebo opatrovníci študenta {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Začnite chatovať s opatrovníkom študenta {studentName}} one {Začnite chatovať s opatrovníkmi študenta {studentName}} few {Začnite chatovať s opatrovníkmi študenta {studentName}} many {Začnite chatovať s opatrovníkmi študenta {studentName}} other{Začnite chatovať s opatrovníkmi študenta {studentName}}}",
+  "guardians_chat_button_disabled_title": "Správca zakázal externý prístup",
+  "guardians_chat_button_disabled_alt_title": "Požiadajte správcu, aby pridal kontaktné informácie opatrovníka a tak sprístupnil chat",
+  "empty_state_title": "Rodičia a opatrovníci neboli pridaní",
+  "empty_state_subtitle": "Požiadajte správcu IT, aby ich pridal a vy ich tak budete môcť odtiaľto rýchlo kontaktovať. <0></0>",
+  "empty_state_link": "Zobraziť viac",
+  "error_state_title": "Vyskytla sa chyba. Skúste to znova neskôr.",
+  "not_owner_error_state_title": "Informácie o rodičoch a opatrovníkoch môžu zobraziť iba vlastníci triedy. Požiadajte vlastníka tímu o udelenie prístupu.",
+  "retry_button_title": "Znova",
+  "transient_error_state_title": "Vyskytla sa chyba. Skúste to znova.",
+  "notification_banner_content": "Pri načítavaní ďalších informácií o rodičoch a opatrovníkom sa vyskytol problém. Skúste to znova neskôr."
+}

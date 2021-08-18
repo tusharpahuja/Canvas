@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Usar otra cuenta",
+  "tflFre_Learn_More_Link_caption": "Quién puede ver esto",
+  "tflFre_OK_Button_caption": "Empezar",
+  "tflFre_dialog_Aria": "Le damos la bienvenida a Teams. ¿Cómo le gustaría aparecer en Teams? Las personas pueden buscarle con esta información",
+  "tflFre_header": "Bienvenido",
+  "tflFre_phone_and_email_flyout": "Visite su cuenta de Microsoft para administrar su número de teléfono y el correo electrónico.",
+  "tflFre_who_can_see_this_flyout": "Su nombre y la imagen de la cuenta de Microsoft estarán visibles para otros usuarios de Teams. También pueden buscarle en Teams mediante su número de teléfono y correo electrónico.",
+  "tflFre_learn_more_link_text": "Obtener más información",
+  "tflFre_sync_contacts_checkbox": "Sincronizar mis contactos de Skype y Outlook para buscar gente que conozco en Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Las personas pueden buscarle para utilizar:",
+  "tflFre_loading_spinner_text": "Cargando...",
+  "tflFre_stamping_error_dialog_header": "No se pudo actualizar su Perfil",
+  "tflFre_stamping_error_dialog_body": "No pudimos actualizar la información del perfil. Seleccione \"Usar otra cuenta\" para cerrar la sesión y usar otra cuenta. Seleccione \"Reintentar\" para volver a actualizar el perfil",
+  "tflFre_error_dialog_retry_button": "Reintentar",
+  "tflFre_error_dialog_sign_out_button": "Usar otra cuenta",
+  "tflFre_fetch_error_dialog_header": "Error al obtener su Perfil",
+  "tflFre_fetch_error_dialog_body": "No pudimos capturar la información de su perfil. Seleccione \"Usar otra cuenta\" para cerrar la sesión y usar otra cuenta. Seleccione \"Reintentar\" para volver a capturar su perfil",
+  "tflFre_welcome_edit_header": "Le damos la bienvenida a Teams",
+  "tflFre_welcome_edit_second_header": "¿Cómo desea aparecer?",
+  "tflFre_phone_field_header": "Teléfono",
+  "tflFre_email_field_header": "Correo electrónico"
+}

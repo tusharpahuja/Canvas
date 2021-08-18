@@ -1,0 +1,6 @@
+{
+  "urlPreview_closeBtnLabel": "Remove URL Preview",
+  "_urlPreview_closeBtnLabel.comment": "Screen reader text for a button that when pressed, removes the URL Preview from the user's message, before or after sending",
+  "urlPreview_imageAlt": "Url Preview for {{title}}",
+  "_urlPreview_imageAlt.comment": "Alt text for the image included in the URL preview, {{title}} is the placeholder for the tile of the url being previewed"
+}

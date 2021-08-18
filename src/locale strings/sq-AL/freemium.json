@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Ke arritur numrin maksimal të anëtarëve për organizatën tënde. Për të përmirësuar dhe për të shtuar më shumë njerëz, dërgoi një mesazh te një prej administratorëve të tu.} =1 {Ke arritur numrin maksimal të anëtarëve për organizatën tënde. Kërkoji <0></0> të përmirësojë, që të mund të ftosh më shumë persona.} one {Ke arritur numrin maksimal të anëtarëve për organizatën tënde. Kërkoji kujtdo nga <0></0> të përmirësojë, që të mund të ftosh më shumë persona.} other {Ke arritur numrin maksimal të anëtarëve për organizatën tënde. Kërkoji kujtdo nga <0></0> të përmirësojë, që të mund të ftosh më shumë persona.}}"
+}

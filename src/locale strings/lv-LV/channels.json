@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Kam: {user1}} =1{Kam: {user1} un 1 citam} zero {Kam: {user1} un # citiem} one {Kam: {user1} un # citiem} other{Kam: {user1} un # citiem}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Kam: {user1}, {user2}} =1{Kam: {user1}, {user2} un 1 citam} zero {Kam: {user1}, {user2} un # citiem} one {Kam: {user1}, {user2} un # citiem} other{Kam: {user1}, {user2} un # citiem}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Kam: {user1}, {user2}, {user3}} =1{Kam: {user1}, {user2}, {user3} un 1 citam} zero {Kam: {user1}, {user2}, {user3} un # citiem} one {Kam: {user1}, {user2}, {user3} un # citiem} other{Kam: {user1}, {user2}, {user3} un # citiem}}",
+  "new_message_label": "Jauns",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} atbildes no {user1}} =1{{repliesCount} atbildes no {user1} un 1 cita} zero {{repliesCount} atbildes no {user1} un # citiem} one {{repliesCount} atbildes no {user1} un # citiem} other{{repliesCount} atbildes no {user1} un # citiem}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} atbildes no {user1}, {user2}} =1{{repliesCount} atbildes no {user1}, {user2} un 1 cita} zero {{repliesCount} atbildes no {user1}, {user2} un # citiem} one {{repliesCount} atbildes no {user1}, {user2} un # citiem} other{{repliesCount} atbildes no {user1}, {user2} un # citiem}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} atbildes no {user1}, {user2}, {user3}} =1{{repliesCount} atbildes no {user1}, {user2}, {user3} un 1 cita} zero {{repliesCount} atbildes no {user1}, {user2}, {user3} un # citiem} one {{repliesCount} atbildes no {user1}, {user2}, {user3} un # citiem} other{{repliesCount} atbildes no {user1}, {user2}, {user3} un # citiem}}",
+  "tmp_view_chat_button_text": "Skatīt atbildes",
+  "tmp_go_to_channel_button_text": "Doties uz kanālu"
+}

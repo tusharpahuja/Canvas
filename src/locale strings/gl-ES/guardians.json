@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Descargando a lista principal",
+  "guardians_table": "Lista de proxenitores de {{classTeam}}",
+  "students": "Estudantes",
+  "guardians": "Proxenitores ou titores",
+  "chatButton": "Botón de chat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# pai/nai ou titor máis. Expandir para abrir a lista} one {# pais/nais ou titores máis. Expandir para abrir a lista} other{# pais/nais ou titores máis. Expandir para abrir a lista} }",
+  "guardians_student_label": "{{studentName}}, estado {{status}}, abre a ficha de perfil",
+  "guardians_user_unknown_label": "Usuario descoñecido",
+  "guardians_status_unknown_label": "Descoñecido",
+  "guardians_overflow_members": "Pais adicionais ou titores de {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Iniciar un chat co titor de {studentName}} one {Iniciar un chat con dos titores de {studentName}} other{Iniciar un chat con dos titores de {studentName}}}",
+  "guardians_chat_button_disabled_title": "Acceso externo desactivado polo Administrador",
+  "guardians_chat_button_disabled_alt_title": "Pregúntalle ao administrador como engadir a información de contacto do titor para facer que o chat estea dispoñible",
+  "empty_state_title": "Aínda non se engadiron nin pais nin titores",
+  "empty_state_subtitle": "Pídelle ao Administrador de TI que os engada para que poidas rapidamente contactar con eles desde aquí. <0></0>",
+  "empty_state_link": "Ver máis",
+  "error_state_title": "Ocorreu un erro. Compróbao máis tarde.",
+  "not_owner_error_state_title": "Só os propietarios do equipo de clase poden ver información de pais e titores. Pídelle ao propietario do equipo que che conceda acceso.",
+  "retry_button_title": "Tentalo de novo",
+  "transient_error_state_title": "Produciuse un erro. Téntao de novo.",
+  "notification_banner_content": "Produciuse un problema ao cargar máis información sobre pais e titores. Téntao de novo máis tarde."
+}

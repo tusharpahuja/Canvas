@@ -1,0 +1,11 @@
+{
+  "createTeam_dataSublabelsTitle": "Sublabels",
+  "overflow_channels_view_hidden_section_header": "छुपा हुआ",
+  "overflow_channels_view_shown_section_header": "दिखाया गया",
+  "team_dashboard_settings_details_description": "Edit team name, description, privacy and picture",
+  "team_dashboard_settings_details_title": "Team details",
+  "team_dashboard_settings_details_button_text": "Edit",
+  "team_context_menu_create_team": "एक टीम बनाएँ",
+  "team_context_menu_join_team": "किसी टीम में शामिल हों",
+  "team_context_menu_join_team_with_code": "कोड के साथ टीम में शामिल हों"
+}

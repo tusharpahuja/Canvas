@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Naudoti kitą paskyrą",
+  "tflFre_Learn_More_Link_caption": "Kas gali tai matyti",
+  "tflFre_OK_Button_caption": "Pradėkime",
+  "tflFre_dialog_Aria": "Sveiki atvykę į „Teams“. Kaip norėtumėte būti matomu (-a) „Teams“? Žmonės gali jūsų ieškoti naudodamiesi šia informacija",
+  "tflFre_header": "Sveiki",
+  "tflFre_phone_and_email_flyout": "Norėdami valdyti savo telefono numerį ir el. paštą, apsilankykite „Microsoft“ paskyroje.",
+  "tflFre_who_can_see_this_flyout": "Jūsų vardas ir „Microsoft“ paskyros paveikslėlis bus matomas kitų „Teams“ vartotojų. Žmonės taip pat gali ieškoti jūsų taikomojoje programoje „Teams“ naudodami jūsų telefono numerį ir el. paštą.",
+  "tflFre_learn_more_link_text": "Sužinokite daugiau",
+  "tflFre_sync_contacts_checkbox": "Sinchronizuokite mano „Skype“ ir „Outlook“ kontaktus, kad galėčiau rasti žmones, kuriuos pažįstu programoje „Teams“.",
+  "tflFre_people_Can_Search_For_You_Using": "Žmonės gali ieškoti jūsų naudodami:",
+  "tflFre_loading_spinner_text": "Įkeliama...",
+  "tflFre_stamping_error_dialog_header": "Nepavyko atnaujinti jūsų profilio",
+  "tflFre_stamping_error_dialog_body": "Nepavyko atnaujinti jūsų profilio informacijos. Pasirinkite „Naudoti kitą paskyrą“, jei norite atsijungti ir naudoti kitą paskyrą. Pasirinkite „Kartoti“, kad pabandytumėte dar kartą atnaujinti savo profilį",
+  "tflFre_error_dialog_retry_button": "Kartoti",
+  "tflFre_error_dialog_sign_out_button": "Naudoti kitą paskyrą",
+  "tflFre_fetch_error_dialog_header": "Nepavyko gauti jūsų profilio",
+  "tflFre_fetch_error_dialog_body": "Nepavyko gauti jūsų profilio informacijos. Pasirinkite „Naudoti kitą paskyrą“, jei norite atsijungti ir naudoti kitą paskyrą. Pasirinkite „Kartoti“, kad pabandytumėte dar kartą gauti savo profilį",
+  "tflFre_welcome_edit_header": "Sveiki, tai – „Teams“",
+  "tflFre_welcome_edit_second_header": "Kaip norėtumėte pasirodyti?",
+  "tflFre_phone_field_header": "Telefonas",
+  "tflFre_email_field_header": "El. paštas"
+}

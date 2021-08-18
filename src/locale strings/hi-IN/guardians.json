@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "पेरेंट सूची लोड हो रही है",
+  "guardians_table": "{{classTeam}} के लिए पैरेंट सूची",
+  "students": "विद्यार्थी",
+  "guardians": "पैरेंट / अभिभावक",
+  "chatButton": "चैट बटन",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# अधिक पैरेंट या अभिभावक, सूची खोलने के लिए विस्तृत करें} one {# अधिक पैरेंट या अभिभावक. सूची खोलने के लिए विस्तृत करें} other{# अधिक पैरेंट या अभिभावक. सूची खोलने के लिए विस्तृत करें} }",
+  "guardians_student_label": "{{studentName}}, स्थिति {{status}}, व्यक्तिगत छवि कार्ड खुलता है",
+  "guardians_user_unknown_label": "अज्ञात उपयोगकर्ता",
+  "guardians_status_unknown_label": "अज्ञात",
+  "guardians_overflow_members": "{{studentName}} के अतिरिक्त पैरेंट या अभिभावक: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{{studentName} के अभिभावक के साथ एक चैट प्रारंभ करें} one {{studentName} के अभिभावकों के साथ एक चैट प्रारंभ करें} other{{studentName} के अभिभावकों के साथ एक चैट प्रारंभ करें}}",
+  "guardians_chat_button_disabled_title": "व्यवस्थापक द्वारा बाह्य पहुँच को अक्षम किया गया",
+  "guardians_chat_button_disabled_alt_title": "चैट उपलब्ध कराने के लिए अपने व्यवस्थापक से अभिभावक की संपर्क जानकारी जोड़ने के लिए पूछें",
+  "empty_state_title": "पैरेंट और अभिभावकों को जोड़ा नहीं गया है",
+  "empty_state_subtitle": "अपने IT व्यवस्थापक से उन्हें जोड़ने के लिए पूछें ताकि आप त्वरित रूप से यहाँ से उनसे संपर्क कर सकें. <0></0>",
+  "empty_state_link": "और देखें",
+  "error_state_title": "कुछ ग़लत हुआ. कृपया बाद में दोबारा जांचें.",
+  "not_owner_error_state_title": "केवल क्लास टीम स्वामी ही पेरेंट और अभिभावक जानकारी देख सकते हैं. टीम स्वामी से आपको पहुँच देने के लिए पूछें.",
+  "retry_button_title": "पुनः प्रयास करें",
+  "transient_error_state_title": "कुछ गलत हुआ. कृपया पुन: प्रयास करें.",
+  "notification_banner_content": "अभिभावक और संरक्षक की अधिक जानकारी लोड करने में कोई समस्या हुई. कृपया बाद में पुनः प्रयास करें."
+}

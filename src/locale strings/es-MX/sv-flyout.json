@@ -1,0 +1,9 @@
+{
+  "value_prop": "Organizar y conectar con amigos, familiares y colegas",
+  "initializing_message": "Espera un momento mientras lo preparamos todo...",
+  "open_teams_on_web": "Abrir Teams en la web",
+  "error_message_header": "Ha habido un problema",
+  "setup_error_message": "Hubo un problema durante la instalación.",
+  "troubleshoot_issue": "Solucionar problema",
+  "retry_flyout_launch": "Reintentar"
+}

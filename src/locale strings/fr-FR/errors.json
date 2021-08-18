@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Désolé... Une erreur s’est produite.",
+  "default_app_title": "Désolé, une erreur s’est produite ! (Erreurs d’application)",
+  "default_network_error_description": "Désolé, un problème réseau se pose",
+  "default_network_error_title": "Désolé, un problème réseau se pose",
+  "default_unknown_description": "Désolé... Une erreur s’est produite.",
+  "default_unknown_title": "Désolé... Une erreur s’est produite.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Désolé, une erreur s’est produite ! (Erreurs principales)",
+  "default_core_error_title": "Code d’erreur : erreurs principales",
+  "default_fetch_description": "Désolé, un problème est survenu ! (Erreurs de récupération de CDL)",
+  "default_fetch_title": "Code d’erreur : erreurs de récupération de CDL",
+  "default_service_description": "Désolé, un problème est survenu ! (Erreurs du service CDL)",
+  "default_service_title": "Code d’erreur : Erreurs du service CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

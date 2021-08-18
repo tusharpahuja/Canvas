@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Gumamit ng isa pang account",
+  "tflFre_Learn_More_Link_caption": "Sino ang makakakita nito",
+  "tflFre_OK_Button_caption": "Tara na",
+  "tflFre_dialog_Aria": "Welcome sa Teams. Ano ang gusto mong maging hitsura sa Teams? Puwede kang hanapin ng mga tao gamit ang impormasyong ito",
+  "tflFre_header": "Welcome",
+  "tflFre_phone_and_email_flyout": "Bisitahin ang iyong account sa Microsoft para pamahalaan ang numero ng telepono at email mo.",
+  "tflFre_who_can_see_this_flyout": "Makikita ng iba ang iyong pangalan at larawan sa account sa Microsoft sa Teams. Maaari ka ring mahanap ng mga tao sa Teams gamit ang iyong numero ng telepono at email.",
+  "tflFre_learn_more_link_text": "Alamin ang higit pa",
+  "tflFre_sync_contacts_checkbox": "I-sync ang aking mga contact sa Skype at Outlook para maghanap ng mga taong kilala ko sa Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Maaari kang hanapin ng mga tao gamit ang:",
+  "tflFre_loading_spinner_text": "Naglo-load...",
+  "tflFre_stamping_error_dialog_header": "Nabigong I-update ang Iyong Profile",
+  "tflFre_stamping_error_dialog_body": "Hindi namin ma-update ang impormasyon ng iyong profile. Piliin ang \"Gumamit ng ibang account\" para mag-log out at gumamit ng ibang account. Piliin ang \"Subukang muli\" para subukang muling i-update ang iyong profile",
+  "tflFre_error_dialog_retry_button": "Muling subukan",
+  "tflFre_error_dialog_sign_out_button": "Gumamit ng isa pang account",
+  "tflFre_fetch_error_dialog_header": "Hindi Nakuha ang Iyong Profile",
+  "tflFre_fetch_error_dialog_body": "Hindi namin makuha ang impormasyon ng iyong profile. Piliin ang \"Gumamit ng ibang account\" para mag-log out at gumamit ng ibang account. Piliin ang \"Subukang muli\" para subukang muling kunin ang iyong profile",
+  "tflFre_welcome_edit_header": "Maligayang Pagdating sa Teams",
+  "tflFre_welcome_edit_second_header": "Paano mo gustong magpakita?",
+  "tflFre_phone_field_header": "Telepono",
+  "tflFre_email_field_header": "Email"
+}

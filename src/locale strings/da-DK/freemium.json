@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Du har ramt medlemsgrænsen for din organisation. Hvis du vil opgradere og tilføje flere personer, kan du sende en besked til en af dine administratorer.} =1 {Du har ramt medlemsgrænsen for din organisation. Spørg <0></0> om at opgradere, så du kan invitere flere personer.} one {Du har nået medlemsgrænsen for din organisation. Bed en af dine <0></0> om at opgradere, så du kan invitere flere personer.} other {Du har nået medlemsgrænsen for din organisation. Bed en af dine <0></0> om at opgradere, så du kan invitere flere personer.}}"
+}

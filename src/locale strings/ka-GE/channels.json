@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{მიმღები: {user1}} =1{მიმღები: {user1} და 1 სხვა} one {მიმღები: {user1} და # სხვა} other{მიმღები: {user1} და # სხვა}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{მიმღები: {user1}, {user2}} =1{მიმღები: {user1}, {user2} და 1 სხვა} one {მიმღები: {user1}, {user2} და # სხვა} other{მიმღები: {user1}, {user2} და # სხვა}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{მიმღები: {user1}, {user2}, {user3}} =1{მიმღები: {user1}, {user2}, {user3} და 1 სხვა} one {მიმღები: {user1}, {user2}, {user3} და # სხვა} other{მიმღები: {user1}, {user2}, {user3} და # სხვა}}",
+  "new_message_label": "ახალი",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} პასუხი {user1}-სგან} =1{{repliesCount} პასუხი {user1}-ისა და 1 სხვისგან} one {{repliesCount} პასუხი {user1}-ისა და # სხვისგან} other{{repliesCount} პასუხი {user1}-ისა და # სხვისგან}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} პასუხი {user1}-ისა და {user2}-სგან} =1{{repliesCount} პასუხი {user1}-ის, {user2}-ისა და 1 სხვისგან} one {{repliesCount} პასუხი {user1}-ის, {user2}-ისა და # სხვისგან} other{{repliesCount} პასუხი {user1}-ის, {user2}-ისა და # სხვისგან}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} პასუხი {user1}-ის, {user2}-ისა და {user3}-სგან} =1{{repliesCount} პასუხი {user1}-ის, {user2}-ის, {user3}-ისა და 1 სხვისგან} one {{repliesCount} პასუხი {user1}-ის, {user2}-ის, {user3}-ისა და # სხვისგან} other{{repliesCount} პასუხი {user1}-ის, {user2}-ის, {user3}-ისა და # სხვისგან}}",
+  "tmp_view_chat_button_text": "პასუხების ნახვა",
+  "tmp_go_to_channel_button_text": "არხზე გადასვლა"
+}

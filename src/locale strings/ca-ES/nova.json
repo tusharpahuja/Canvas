@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Tanca la sessió",
+  "me_control_sign_out_button_aria_label": "Tanca la sessió de Microsoft",
+  "me_control_my_microsoft_account_button_text": "El meu compte de Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "El meu compte de Microsoft",
+  "me_control_change_picture_aria_label": "Canvia la foto de perfil",
+  "me_control_trigger_aria_label": "Perfil",
+  "me_control_menu_aria_label": "Menú del perfil",
+  "app_bar_activity_app_name": "Activitat",
+  "app_bar_activity_app_arialabel": "Activitat",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# activitat nova} one {# activitats noves} other{# activitats noves}}",
+  "app_bar_activity_app_tooltip": "Activitat",
+  "app_bar_chat_app_name": "Xat",
+  "app_bar_chat_app_arialabel": "Xat",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# xat amb missatges nous} one {# xats amb missatges nous} other{# xats amb missatges nous}}",
+  "app_bar_chat_app_tooltip": "Xat",
+  "app_bar_calendar_app_name": "Calendari",
+  "app_bar_calendar_app_arialabel": "Calendari",
+  "app_bar_calendar_app_tooltip": "Calendari",
+  "app_bar_calls_app_name": "Trucades",
+  "app_bar_calls_app_arialabel": "Trucades",
+  "app_bar_calls_app_tooltip": "Trucades"
+}

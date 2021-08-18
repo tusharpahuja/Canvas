@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} i {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Ingen forslag.||1->2::{0} tilgængeligt forslag: ||2->3::{0} tilgængelige forslag: ||3->INF::{0} tilgængelige forslag:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Ingen forslag til {0}.||1->2::{1} forslag tilgængeligt til {0}: ||2->3::{1} forslag tilgængelige til {0}: ||3->INF::{1} forslag tilgængelige til {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Ikke-navngivet gruppe",
+  "autosuggest_sb_search_box_clear_button_label": "Ryd søgefeltet",
+  "autosuggest_sb_search_box_submit_button_label": "Søg",
+  "autosuggest_sb_search_box_view_all_results_label": "Tryk på enter for at få vist alle resultater",
+  "autosuggest_people_group_heading": "Personer",
+  "autosuggest_chats_group_heading": "Gruppechatsamtaler",
+  "autosuggest_zero_term_group_aria_label": "Seneste søgninger"
+}

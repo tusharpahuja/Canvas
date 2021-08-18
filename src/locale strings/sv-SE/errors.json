@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Hoppsan, något gick snett!",
+  "default_app_title": "Något gick snett! (programfel)",
+  "default_network_error_description": "Hoppsan, nätverksproblem!",
+  "default_network_error_title": "Hoppsan, nätverksproblem!",
+  "default_unknown_description": "Hoppsan, något gick snett!",
+  "default_unknown_title": "Hoppsan, något gick snett!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Hoppsan, något gick snett! (grundläggande fel)",
+  "default_core_error_title": "Felkod: grundläggande fel",
+  "default_fetch_description": "Hoppsan, något gick snett! (CDL-hämtningsfel)",
+  "default_fetch_title": "Felkod: CDL-hämtningsfel",
+  "default_service_description": "Hoppsan, något gick snett! (Fel i CDL-tjänsten)",
+  "default_service_title": "Felkod: fel i CDL-tjänst",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

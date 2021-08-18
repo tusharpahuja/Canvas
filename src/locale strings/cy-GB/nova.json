@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Allgofnodi",
+  "me_control_sign_out_button_aria_label": "Mewngofnodi o Microsoft",
+  "me_control_my_microsoft_account_button_text": "Fy nghyfrif Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Fy nghyfrif Microsoft",
+  "me_control_change_picture_aria_label": "Newid llun proffil",
+  "me_control_trigger_aria_label": "Proffil",
+  "me_control_menu_aria_label": "Dewislen proffil",
+  "app_bar_activity_app_name": "Gweithgaredd",
+  "app_bar_activity_app_arialabel": "Gweithgaredd",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# gweithgaredd newydd} zero {# gweithgaredd newydd} one {# gweithgaredd newydd} two {# gweithgaredd newydd} few {# gweithgaredd newydd} many {# gweithgaredd newydd} other{# gweithgaredd newydd}}",
+  "app_bar_activity_app_tooltip": "Gweithgaredd",
+  "app_bar_chat_app_name": "Sgwrsio",
+  "app_bar_chat_app_arialabel": "Sgwrsio",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# sgwrs gyda negeseuon newydd} zero {# sgwrs gyda negeseuon newydd} one {# sgwrs gyda negeseuon newydd} two {# sgwrs gyda negeseuon newydd} few {# sgwrs gyda negeseuon newydd} many {# sgwrs gyda negeseuon newydd} other{# sgwrs gyda negeseuon newydd}}",
+  "app_bar_chat_app_tooltip": "Sgwrsio",
+  "app_bar_calendar_app_name": "Calendr",
+  "app_bar_calendar_app_arialabel": "Calendr",
+  "app_bar_calendar_app_tooltip": "Calendr",
+  "app_bar_calls_app_name": "Galwadau",
+  "app_bar_calls_app_arialabel": "Galwadau",
+  "app_bar_calls_app_tooltip": "Galwadau"
+}

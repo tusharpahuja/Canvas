@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "نعم",
+  "instant_answers_reaction_yes_aria_label": "هل كانت هذه المعلومات مفيدة؟ -- نعم",
+  "instant_answers_reaction_no": "لا",
+  "instant_answers_reaction_no_aria_label": "هل كانت هذه المعلومات مفيدة -- لا",
+  "instant_answers_header_text": "نشكرك على ملاحظاتك.",
+  "instant_answers_header_subtext": "استنادًا إلى ملاحظاتك، فيما يلي بعض المعلومات التي قد تجدها مفيدة:",
+  "instant_answers_footer_text": "هل كانت هذه المعلومات مفيدة؟",
+  "include_screenshot_text": "تضمين لقطة شاشة",
+  "customer_feedback_dialog_email_label": "عنوان بريدك الإلكتروني (اختياري)",
+  "customer_feedback_dialog_email_placeholder": "إضافة عنوان بريد إلكتروني",
+  "customer_feedback_dialog_email_aria_label": "عنوان بريدك الإلكتروني (اختياري)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "بالضغط علي \"إرسال\"، سيتم استخدام ملاحظاتك لتحسين منتجات Microsoft وخدماتها. سيتمكن مسؤول تكنولوجيا المعلومات الخاص بك من جمع هذه البيانات. استنادًا إلى ملاحظاتك، يمكننا توفير معلومات إضافية لمساعدتك في مشكله الدعم.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "بيان الخصوصية.",
+  "customer_feedback_dialog_close_button_text_aria_label": "إغلاق مربع حوار الملاحظات",
+  "customer_feedback_dialog_adhoc_window_title": "تقديم الملاحظات"
+}

@@ -1,0 +1,11 @@
+{
+  "home_page_message": "正在加载...",
+  "lobby_screen_exit_message": "退出大厅",
+  "calling_join_button_audio": "以音频方式加入通话",
+  "calling_join_button_video": "以视频方式加入通话",
+  "calling_screen_meeting_id": "会议 ID: {{conferenceId}}",
+  "meeting_room_present_content": "演示",
+  "meeting_room_connected_device": "已连接的设备",
+  "meeting_room_content_camera": "内容照相机",
+  "meeting_room_cortana_button_title": "Cortana"
+}

@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Dil",
+  "me_control_sign_out_button_aria_label": "Dil nga Microsoft",
+  "me_control_my_microsoft_account_button_text": "Llogaria ime e Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Llogaria ime e Microsoft",
+  "me_control_change_picture_aria_label": "Ndrysho fotografinë e profilit",
+  "me_control_trigger_aria_label": "Profili",
+  "me_control_menu_aria_label": "Menyja e profilit",
+  "app_bar_activity_app_name": "Aktiviteti",
+  "app_bar_activity_app_arialabel": "Aktiviteti",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# aktivitet i ri} one {# aktivitete të reja} other{# aktivitete të reja}}",
+  "app_bar_activity_app_tooltip": "Aktiviteti",
+  "app_bar_chat_app_name": "Biseda",
+  "app_bar_chat_app_arialabel": "Biseda",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# bisedë me mesazhe të reja} one {# biseda me mesazhe të reja} other{# biseda me mesazhe të reja}}",
+  "app_bar_chat_app_tooltip": "Biseda",
+  "app_bar_calendar_app_name": "Kalendari",
+  "app_bar_calendar_app_arialabel": "Kalendari",
+  "app_bar_calendar_app_tooltip": "Kalendari",
+  "app_bar_calls_app_name": "Thirrjet",
+  "app_bar_calls_app_arialabel": "Thirrjet",
+  "app_bar_calls_app_tooltip": "Thirrjet"
+}

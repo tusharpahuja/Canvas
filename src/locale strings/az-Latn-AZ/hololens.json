@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "Oxu yerləşdir",
+  "toolbar_ink": "Əlyazma",
+  "toolbar_color_picker": "Rəng seç",
+  "toolbar_color_yellow": "Sarı",
+  "toolbar_color_blue": "Mavi",
+  "toolbar_color_gray": "Boz",
+  "toolbar_color_green": "Yaşıl",
+  "toolbar_color_red": "Qırmızı",
+  "toolbar_insert_file": "Fayl əlavə et",
+  "toolbar_undo": "Qaytar",
+  "toolbar_erase_all_current_session": "Cari redaktə seansından hamısını sil",
+  "toolbar_erase_all": "Hamısını sil",
+  "toolbar_start_editing": "Redaktə etməyə başla",
+  "toolbar_stop_editing": "Redaktəni dayandır"
+}

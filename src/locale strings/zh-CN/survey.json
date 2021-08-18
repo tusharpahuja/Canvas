@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "是",
+  "instant_answers_reaction_yes_aria_label": "此信息是否有所帮助? - 是",
+  "instant_answers_reaction_no": "否",
+  "instant_answers_reaction_no_aria_label": "此信息是否有所帮助? - 否",
+  "instant_answers_header_text": "感谢你的反馈!",
+  "instant_answers_header_subtext": "根据你的反馈，以下一些信息可能会对你所有帮助:",
+  "instant_answers_footer_text": "此信息是否有所帮助?",
+  "include_screenshot_text": "包括屏幕截图",
+  "customer_feedback_dialog_email_label": "你的电子邮件地址(可选)",
+  "customer_feedback_dialog_email_placeholder": "添加电子邮件地址",
+  "customer_feedback_dialog_email_aria_label": "你的电子邮件地址(可选)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "按提交后，你的反馈将用于改进 Microsoft 产品和服务。你的 IT 管理员将能够收集此类数据。根据你的反馈，我们可能会提供其他信息来帮助你解决你的支持问题。",
+  "customer_feedback_dialog_disclaimer_privacy_text": "隐私声明。",
+  "customer_feedback_dialog_close_button_text_aria_label": "关闭反馈对话框",
+  "customer_feedback_dialog_adhoc_window_title": "提出反馈意见"
+}

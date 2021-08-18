@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Forekommer dagligt} =2{Forekommer hver anden dag} one {Forekommer hver #. dag} other{Forekommer hver #. dag}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Forekommer hver {days}} =2{Forekommer hver anden {days}} one {Forekommer hver #. uge om {days}} other{Forekommer hver #. uge om {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Forekommer hver måned på dag {day}} =2{Forekommer hver anden måned på dag {day}.} one {Forekommer hver #. måned på dag {day}} other{Forekommer hver #. måned på dag {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Forekommer hver måned den {weekInMonthIndex} {weekday}} =2{Forekommer hver anden måned den {weekInMonthIndex} {weekday}} one {Forekommer hver #. måned den {weekInMonthIndex} {weekday}} other{Forekommer hver #. måned den {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Sker hver {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Forekommer hver {{dayOfTheWeekIndex}} {{dayOfTheWeek}} i {{month}}"
+}

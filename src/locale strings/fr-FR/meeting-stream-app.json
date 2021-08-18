@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL du flux de données",
+  "stream_url_placeholder": "Entrez l'URL du flux",
+  "stream_key_label": "Clé de flux",
+  "stream_key_placeholder": "Clé d'entrée du flux",
+  "start_streaming_button_text": "Démarrer la diffusion en continu",
+  "stop_streaming_button_text": "Arrêt de la diffusion en continu",
+  "custom_streaming_config_page_description": "La diffusion en continu personnalisée est votre outil pour diffuser en continu des réunions Teams vers des plateformes publiques alimentées par RTMP",
+  "custom_streaming_config_page_first_greeting": "Bienvenue dans la diffusion en continu personnalisée !",
+  "custom_streaming_config_page_second_greeting": "Nous sommes heureux de vous voir ici",
+  "custom_streaming_error_meeting_limit_reached": "Cette réunion ne peut pas être diffusée en continu dans ses paramètres actuels. Veuillez limiter les participants à 1 000.",
+  "custom_streaming_error_permission_denied": "Vous ne disposez pas des autorisations de diffusion. Contactez votre administrateur ou l’organisateur pour diffuser ce contenu",
+  "custom_streaming_error_outdated_client": "Teams a besoin de mises à jour pour continuer. Redémarrez votre application pour vous assurer que vous disposez des dernières fonctionnalités.",
+  "custom_streaming_error_unknown": "Un problème est survenu. Veuillez réessayer.",
+  "custom_streaming_error_unsupported_platform": "Cette fonctionnalité n’est pas encore prise en charge dans le navigateur. Réessayez à partir de la version de bureau de Teams.",
+  "custom_streaming_tab_title": "Diffusion personnalisée"
+}

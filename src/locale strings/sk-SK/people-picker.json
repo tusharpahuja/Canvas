@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Vyskytol sa problém a nepodarilo sa nám pridať skupinu.",
+  "peoplePicker_dlTooManyMembers": "Nepodarilo sa nám pridať {{dlName}} ({{dlMemberCount}}). Konverzáciu môžete začať s maximálne {{maxSize}} ľuďmi.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Na odstránenie použite kláves Backspace alebo Delete. Pre ďalších príjemcov chatu použite klávesy so šípkami doľava a doprava.",
+  "peoplePicker_loadingMessage": "Načítava sa...",
+  "peoplePicker_newAddGroupNameButtonContent": "Pridať názov skupiny",
+  "peoplePicker_collapseGroupNameButtonContent": "Zbaliť názov skupiny",
+  "peoplePicker_federationWarning": "Konverzácia s podnikovými alebo školskými kontami zatiaľ nie je k dispozícii. Zistite viac.",
+  "peoplePicker_noResults": "Nepodarilo sa nám nájsť žiadne zhody.",
+  "peoplePicker_resultsUpdationAriaLabel": "Výsledky vyhľadávania sa aktualizovali. Na navigáciu použite kláves nahor a nadol, na výber položky použite kláves Enter.",
+  "peoplePicker_search_externally_btn_text": "Vyhľadať {{email}} externe",
+  "peoplePicker_tflToLinePlaceholder": "Zadajte meno, e-mail alebo tel. číslo",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Odstrániť",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} sa vybral/-a zo zoznamu.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} z {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} sa odstránil/-a zo zoznamu."
+}

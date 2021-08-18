@@ -1,0 +1,1497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="calendar.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="pt-PT" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";calendar_agenda" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Agenda]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Agenda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A label of a button which changes the view mode of the calendar to agenda]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_agenda_view_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Agenda view]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vista de agenda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for agenda view in calendar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_comingSoonTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Coming soon]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Disponível brevemente]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for Page of Tabs which are still not in Multi window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_content_not_available_multiwindow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This content is currently not available in the multiwindow experience]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Este conteúdo não está atualmente disponível na experiência de janelas múltiplas]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for content not available in the multiwindow experience]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_eventAttachmentDownloadButtonAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download attachment option for classical attachment]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Transferir a opção de anexos para anexos clássicos]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Event attachment download button aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_aria_label_attachments_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of attachments for the event. {attachmentCount} is the number of attachments attached to the event. (ICU){PlaceHolder="{attachmentCount}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_aria_label_attachments_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of attachments for the event. {attachmentCount} is the number of attachments attached to the event. (ICU){PlaceHolder="{attachmentCount}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_aria_label_attachments_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O evento tem {attachmentCount} anexos.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of attachments for the event. {attachmentCount} is the number of attachments attached to the event. (ICU){PlaceHolder="{attachmentCount}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_aria_label_attachments_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of attachments for the event. {attachmentCount} is the number of attachments attached to the event. (ICU){PlaceHolder="{attachmentCount}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_aria_label_attachments_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of attachments for the event. {attachmentCount} is the number of attachments attached to the event. (ICU){PlaceHolder="{attachmentCount}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_aria_label_attachments_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has an attachment.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O evento tem um anexo.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of attachments for the event. {attachmentCount} is the number of attachments attached to the event.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_aria_label_attachments_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {attachmentCount} attachments.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O evento tem {attachmentCount} anexos.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of attachments for the event. {attachmentCount} is the number of attachments attached to the event. (ICU){PlaceHolder="{attachmentCount}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_aria_label_attachments_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{attachmentCount, plural, =1{The event has an attachment.} other{The event has {attachmentCount} attachments.}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{attachmentCount, plural, =1{The event has an attachment.} other{The event has {attachmentCount} attachments.}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of attachments for the event. {attachmentCount} is the number of attachments attached to the event.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_attachments_see_more_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show {{numMoreFiles}} more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mostrar mais {{numMoreFiles}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for showing how many more attachments are hidden. {numMoreFiles} is the number of more attachments]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_card_empty_state_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have any meetings. Press enter to schedule a meeting.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Não tem reuniões. Prima Enter para agendar uma reunião.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for empty state card when there are no meetings.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_event_card_empty_state_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have any meetings.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Não tem reuniões.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for empty state card]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_aria_label_recommendations_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of recommendations for the event. {recommendationCount} is the number of recommendations attached to the event. (ICU){PlaceHolder="{recommendationCount}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_aria_label_recommendations_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of recommendations for the event. {recommendationCount} is the number of recommendations attached to the event. (ICU){PlaceHolder="{recommendationCount}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_aria_label_recommendations_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O evento tem {recommendationCount} recomendações.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of recommendations for the event. {recommendationCount} is the number of recommendations attached to the event. (ICU){PlaceHolder="{recommendationCount}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_aria_label_recommendations_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of recommendations for the event. {recommendationCount} is the number of recommendations attached to the event. (ICU){PlaceHolder="{recommendationCount}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_aria_label_recommendations_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of recommendations for the event. {recommendationCount} is the number of recommendations attached to the event. (ICU){PlaceHolder="{recommendationCount}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_aria_label_recommendations_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has a recommendation.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O evento tem uma recomendação.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of recommendations for the event. {recommendationCount} is the number of recommendations attached to the event.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_aria_label_recommendations_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event has {recommendationCount} recommendations.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O evento tem {recommendationCount} recomendações.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of recommendations for the event. {recommendationCount} is the number of recommendations attached to the event. (ICU){PlaceHolder="{recommendationCount}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_aria_label_recommendations_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{recommendationCount, plural, =1{The event has a recommendation.} other{The event has {recommendationCount} recommendations.}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{recommendationCount, plural, =1{The event has a recommendation.} other{The event has {recommendationCount} recommendations.}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label describing the number of recommendations for the event. {recommendationCount} is the number of recommendations attached to the event.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendation_feedback_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Is this useful?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Isto é útil?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for getting feedback from an organizer or attendee of a meeting on a recommendation that gets shown]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendation_feedback_no_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Não]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for indicating to the user that the recommendation shown is not useful]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendation_feedback_yes_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Yes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sim]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for indicating to the user that the recommendation shown is useful]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendation_user_modified_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[modified at]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[modificado às]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The recommendation was last modified by a user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendation_user_shared_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[sent at]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[enviada às]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The recommendation was shared by a user on a meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendations_category_files" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ficheiros]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files category of meeting recommendations displayed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendations_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Here's information that you might find relevant to this event. You'll only see content you have access to.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aqui estão informações que poderão ser relevantes para este evento. Só verá conteúdo ao qual tem acesso.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description of the meeting recommendations that are shown in the container]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendations_heading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting Insights]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Informações sobre Reuniões]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Top level heading of the meeting recommendations container]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_meeting_recommendations_see_more_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show {{numMoreFiles}} more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mostrar mais {{numMoreFiles}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for showing how many more recommendations are hidden. {numMoreFiles} is the number of more recommendations]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_open_in_main_window" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open in main window]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Abrir na janela principal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for button action to open the content in main window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_attendee_name_as_you_mf" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[si]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show attendees list. Appended with 'you' if current user is itself an attendee. Please make sure 'y' in you is small]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_mf" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<0></0> invited <1></1>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<0></0> convidado <1></1>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the invitaion in the calendar agenda view event card. First placeholder element is organizer and second placeholder is attendees list]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_organizer_name_as_you_mf" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O utilizador]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show organizer name as 'You' if current user is itself an organizer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_others_count_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ +# others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[ +# others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the count of other attendees that is not visible currently on the event card agenda view along with + sign prefixed. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_others_count_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ +# others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[ +# others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the count of other attendees that is not visible currently on the event card agenda view along with + sign prefixed. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_others_count_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ +# others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ +# pessoas]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[ + # others]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the count of other attendees that is not visible currently on the event card agenda view along with + sign prefixed. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_others_count_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ +# others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[ +# others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the count of other attendees that is not visible currently on the event card agenda view along with + sign prefixed. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_others_count_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ +# others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[ +# others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the count of other attendees that is not visible currently on the event card agenda view along with + sign prefixed. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_others_count_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ +# others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ +# pessoas]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[ + # others]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the count of other attendees that is not visible currently on the event card agenda view along with + sign prefixed. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_organizer_attendee_list_others_count_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{otherAttendeeCount, plural, =0{} other{ +# others}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{otherAttendeeCount, plural, =0{} other{ +# others}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show the count of other attendees that is not visible currently on the event card agenda view along with + sign prefixed.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_upcoming_time_label_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in # min]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[in # min]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text shows the difference between the current time and the meeting start time in mins. eg: 'in 28 min','in 1 min'. {duration} is the difference between the current time and start time of the event in minutes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_upcoming_time_label_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in # min]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[in # min]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text shows the difference between the current time and the meeting start time in mins. eg: 'in 28 min','in 1 min'. {duration} is the difference between the current time and start time of the event in minutes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_upcoming_time_label_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in # min]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[dentro de # min]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text shows the difference between the current time and the meeting start time in mins. eg: 'in 28 min','in 1 min'. {duration} is the difference between the current time and start time of the event in minutes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_upcoming_time_label_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in # min]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[in # min]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text shows the difference between the current time and the meeting start time in mins. eg: 'in 28 min','in 1 min'. {duration} is the difference between the current time and start time of the event in minutes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_upcoming_time_label_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in # min]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[in # min]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text shows the difference between the current time and the meeting start time in mins. eg: 'in 28 min','in 1 min'. {duration} is the difference between the current time and start time of the event in minutes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_upcoming_time_label_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in 1 min]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[daqui a 1 min]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text shows the difference between the current time and the meeting start time in mins. eg: 'in 28 min','in 1 min'. {duration} is the difference between the current time and start time of the event in minutes]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_upcoming_time_label_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[in # min]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[dentro de # min]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text shows the difference between the current time and the meeting start time in mins. eg: 'in 28 min','in 1 min'. {duration} is the difference between the current time and start time of the event in minutes (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar_upcoming_time_label_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{duration, plural, =1{in 1 min} other {in # min}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{duration, plural, =1{in 1 min} other {in # min}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text shows the difference between the current time and the meeting start time in mins. eg: 'in 28 min','in 1 min'. {duration} is the difference between the current time and start time of the event in minutes{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_end_date_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} and {endDate} refers to the start and end date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019 until 10/10/2019, Occurs every 3 days starting 1/1/2019 until 10/10/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_end_date_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} and {endDate} refers to the start and end date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019 until 10/10/2019, Occurs every 3 days starting 1/1/2019 until 10/10/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_end_date_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # dias a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} and {endDate} refers to the start and end date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019 until 10/10/2019, Occurs every 3 days starting 1/1/2019 until 10/10/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_end_date_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} and {endDate} refers to the start and end date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019 until 10/10/2019, Occurs every 3 days starting 1/1/2019 until 10/10/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_end_date_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} and {endDate} refers to the start and end date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019 until 10/10/2019, Occurs every 3 days starting 1/1/2019 until 10/10/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_end_date_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every day starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre todos os dias a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} and {endDate} refers to the start and end date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019 until 10/10/2019, Occurs every 3 days starting 1/1/2019 until 10/10/2019 (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_end_date_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # days starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # dias a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} and {endDate} refers to the start and end date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019 until 10/10/2019, Occurs every 3 days starting 1/1/2019 until 10/10/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_end_date_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every day starting {startDate} until {endDate}} other{Occurs every # days starting {startDate} until {endDate}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every day starting {startDate} until {endDate}} other{Occurs every # days starting {startDate} until {endDate}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} and {endDate} refers to the start and end date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019 until 10/10/2019, Occurs every 3 days starting 1/1/2019 until 10/10/2019{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_never_ending_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} refers to the start date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019, Occurs every 3 days starting 1/1/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_never_ending_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} refers to the start date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019, Occurs every 3 days starting 1/1/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_never_ending_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # dias a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} refers to the start date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019, Occurs every 3 days starting 1/1/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_never_ending_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} refers to the start date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019, Occurs every 3 days starting 1/1/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_never_ending_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} refers to the start date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019, Occurs every 3 days starting 1/1/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_never_ending_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every day starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre todos os dias a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} refers to the start date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019, Occurs every 3 days starting 1/1/2019 (ICU){PlaceHolder="{startDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_never_ending_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # days starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # dias a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} refers to the start date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019, Occurs every 3 days starting 1/1/2019 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{startDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_daily_never_ending_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every day starting {startDate}} other{Occurs every # days starting {startDate}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every day starting {startDate}} other{Occurs every # days starting {startDate}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen daily or after n days. {startDate} refers to the start date of recurrence, {interval} refers to meeting frequency. eg: Occurs every day starting 1/1/2019, Occurs every 3 days starting 1/1/2019{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_end_date_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019 until 10/10/2019, Occurs every 3 months on day 20 starting 1/1/2019 until 10/10/2019. {interval} is meeting frequency/interval, {day} is the day number when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_end_date_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019 until 10/10/2019, Occurs every 3 months on day 20 starting 1/1/2019 until 10/10/2019. {interval} is meeting frequency/interval, {day} is the day number when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_end_date_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # meses no dia {day} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019 until 10/10/2019, Occurs every 3 months on day 20 starting 1/1/2019 until 10/10/2019. {interval} is meeting frequency/interval, {day} is the day number when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_end_date_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019 until 10/10/2019, Occurs every 3 months on day 20 starting 1/1/2019 until 10/10/2019. {interval} is meeting frequency/interval, {day} is the day number when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_end_date_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019 until 10/10/2019, Occurs every 3 months on day 20 starting 1/1/2019 until 10/10/2019. {interval} is meeting frequency/interval, {day} is the day number when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_end_date_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every month on day {day} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre todos os meses no dia {day} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019 until 10/10/2019, Occurs every 3 months on day 20 starting 1/1/2019 until 10/10/2019. {interval} is meeting frequency/interval, {day} is the day number when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_end_date_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # meses no dia {day} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019 until 10/10/2019, Occurs every 3 months on day 20 starting 1/1/2019 until 10/10/2019. {interval} is meeting frequency/interval, {day} is the day number when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_end_date_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every month on day {day} starting {startDate} until {endDate}} other {Occurs every # months on day {day} starting {startDate} until {endDate}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every month on day {day} starting {startDate} until {endDate}} other {Occurs every # months on day {day} starting {startDate} until {endDate}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019 until 10/10/2019, Occurs every 3 months on day 20 starting 1/1/2019 until 10/10/2019. {interval} is meeting frequency/interval, {day} is the day number when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurence{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_never_ending_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019, Occurs every 3 months on day 20 starting 1/1/2019. {interval} is meeting frequency/interval, {day} is day when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_never_ending_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019, Occurs every 3 months on day 20 starting 1/1/2019. {interval} is meeting frequency/interval, {day} is day when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_never_ending_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # meses no dia {day} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019, Occurs every 3 months on day 20 starting 1/1/2019. {interval} is meeting frequency/interval, {day} is day when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_never_ending_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019, Occurs every 3 months on day 20 starting 1/1/2019. {interval} is meeting frequency/interval, {day} is day when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_never_ending_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019, Occurs every 3 months on day 20 starting 1/1/2019. {interval} is meeting frequency/interval, {day} is day when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_never_ending_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every month on day {day} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre todos os meses no dia {day} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019, Occurs every 3 months on day 20 starting 1/1/2019. {interval} is meeting frequency/interval, {day} is day when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurrence (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_never_ending_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on day {day} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # meses no dia {day} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019, Occurs every 3 months on day 20 starting 1/1/2019. {interval} is meeting frequency/interval, {day} is day when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} (ICU){PlaceHolder="{startDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_monthly_never_ending_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every month on day {day} starting {startDate}} other {Occurs every # months on day {day} starting {startDate}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every month on day {day} starting {startDate}} other {Occurs every # months on day {day} starting {startDate}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every month/ n months on specified day in month. eg: Occurs every month on day 20 starting 1/1/2019, Occurs every 3 months on day 20 starting 1/1/2019. {interval} is meeting frequency/interval, {day} is day when meeting occurs, {startDate} is start date of recurrence, {endDate} is end date of recurrence{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_end_date_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_end_date_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_end_date_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # meses na(o) {weekInMonthIndex} {weekday} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_end_date_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_end_date_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_end_date_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every month on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre todos os meses na(o) {weekInMonthIndex} {weekday} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_end_date_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # meses na(o) {weekInMonthIndex} {weekday} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_end_date_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every month on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}} other {Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every month on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}} other {Occurs every # months on the {weekInMonthIndex} {weekday} starting {startDate} until {endDate}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.){Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_never_ending_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_never_ending_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_never_ending_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # meses na(o) {weekInMonthIndex} {weekday} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_never_ending_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_never_ending_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_never_ending_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every month on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre todos os meses na(o) {weekInMonthIndex} {weekday} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_never_ending_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # meses na(o) {weekInMonthIndex} {weekday} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.) (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} (ICU){PlaceHolder="{startDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_relativemonthly_never_ending_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every month on {weekInMonthIndex} {weekday} starting {startDate}} other {Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every month on {weekInMonthIndex} {weekday} starting {startDate}} other {Occurs every # months on {weekInMonthIndex} {weekday} starting {startDate}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen after every n month on a day of week. eg: Occurs every 2 months on first Monday starting 1/1/2019. {interval} is meeting frequency/interval, {weekInMonthIndex} is week number of the month (eg: first, fourth, last), {weekday} is day of the week (eg: Monday, Friday etc.){Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_end_date_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days having an end date.  eg: 'Occurs every Monday starting 1/1/2019 until 10/10/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019 until 10/10/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_end_date_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days having an end date.  eg: 'Occurs every Monday starting 1/1/2019 until 10/10/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019 until 10/10/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_end_date_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # semanas na(o) {weekdays} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days having an end date.  eg: 'Occurs every Monday starting 1/1/2019 until 10/10/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019 until 10/10/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_end_date_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days having an end date.  eg: 'Occurs every Monday starting 1/1/2019 until 10/10/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019 until 10/10/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_end_date_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days having an end date.  eg: 'Occurs every Monday starting 1/1/2019 until 10/10/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019 until 10/10/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_end_date_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every {weekdays} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada {weekdays} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days having an end date.  eg: 'Occurs every Monday starting 1/1/2019 until 10/10/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019 until 10/10/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_end_date_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate} until {endDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # semanas na(o) {weekdays} a partir de {startDate} até {endDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days having an end date.  eg: 'Occurs every Monday starting 1/1/2019 until 10/10/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019 until 10/10/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence, {endDate} is end date of recurence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} (ICU){PlaceHolder="{endDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_end_date_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every {weekdays} starting {startDate} until {endDate}} other {Occurs every # weeks on {weekdays} starting {startDate} until {endDate}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every {weekdays} starting {startDate} until {endDate}} other {Occurs every # weeks on {weekdays} starting {startDate} until {endDate}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days having an end date.  eg: 'Occurs every Monday starting 1/1/2019 until 10/10/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019 until 10/10/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence, {endDate} is end date of recurence{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_never_ending_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days. eg: 'Occurs every Monday starting 1/1/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_never_ending_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days. eg: 'Occurs every Monday starting 1/1/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_never_ending_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # semanas à(ao) {weekdays} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days. eg: 'Occurs every Monday starting 1/1/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_never_ending_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days. eg: 'Occurs every Monday starting 1/1/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_never_ending_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days. eg: 'Occurs every Monday starting 1/1/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_never_ending_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every {weekdays} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada {weekdays} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days. eg: 'Occurs every Monday starting 1/1/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_never_ending_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # weeks on {weekdays} starting {startDate}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ocorre a cada # semanas à(ao) {weekdays} a partir de {startDate}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days. eg: 'Occurs every Monday starting 1/1/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekdays}"} (ICU){PlaceHolder="{startDate}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_new_summary_pattern_interval_weekly_never_ending_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every {weekdays} starting {startDate}} other {Occurs every # weeks on {weekdays} starting {startDate}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every {weekdays} starting {startDate}} other {Occurs every # weeks on {weekdays} starting {startDate}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string contains messageformat. This text is shown for the meeting that happen every week or after n no. of weeks on specified days. eg: 'Occurs every Monday starting 1/1/2019', 'Occurs every 3 weeks on Monday starting 1/1/2019'. {interval} is frequency, {weekdays} refers to the days when meeting will occur (eg: 'Monday', 'Sunday and Monday', 'Sunday, Tuesday and Friday'), {startDate} is start date of recurrence{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tfl_cc_add_dialog_confirm_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ligar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text for confirming connect disconnected calendar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tfl_cc_add_dialog_confirmation_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your {{provider}} contacts from {{email}} are synced to Teams. Would you like to connect your calendar from this {{provider}} account?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Os seus contactos {{provider}} de {{email}} estão sincronizados com o Teams. Pretende ligar o seu calendário a partir desta conta {{provider}}?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Confirmation message for dialog connect disconnected calendar, {{provider}} is the name of the placeholder for example provider can be google {{email}} is the email address of login user for example karinblair@gmail.com]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tfl_cc_add_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect {{provider}} Calendar]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ligar Calendário {{provider}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string indicate header information of different providers to connect with their own calendars, {{provider}} is the name of the placeholder for example provider can be google]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tfl_cc_cancel_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cancelar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text for cancelling connected calendar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tfl_cc_remove_dialog_confirm_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Disconnect]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Desligar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text for confirming disconnect connected calendar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tfl_cc_remove_dialog_confirmation_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Are you sure you want to disconnect your {{provider}} calendar? You'll no longer be able to see your existing meetings and join them from Teams. You can schedule new meetings on your Teams calendar.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tem a certeza de que pretende desligar o seu calendário {{provider}}? Deixará de poder ver as reuniões existentes e de participar nas mesmas a partir do Teams. Pode agendar novas reuniões no seu calendário no Teams.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Confirmation message for dialog disconnect connected calendar, {{provider}} is the name of the placeholder for example provider can be google]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tfl_cc_remove_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Disconnect {{provider}} Calendar?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Desligar Calendário {{provider}}?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This string indicate header information of different providers to disconnect with their own calendars, {{provider}} is the name of the placeholder for example provider can be google]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

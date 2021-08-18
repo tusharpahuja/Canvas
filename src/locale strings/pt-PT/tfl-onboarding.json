@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Utilizar outra conta",
+  "tflFre_Learn_More_Link_caption": "Quem pode ver isto",
+  "tflFre_OK_Button_caption": "Vamos começar",
+  "tflFre_dialog_Aria": "Bem-vindo ao Teams. Como gostaria de aparecer nas no Teams? As pessoas podem procurá-lo utilizando esta informação",
+  "tflFre_header": "Bem-vindo",
+  "tflFre_phone_and_email_flyout": "Aceda à sua conta Microsoft para gerir o número de telemóvel e o e-mail.",
+  "tflFre_who_can_see_this_flyout": "O seu nome e a sua imagem de conta Microsoft estarão visíveis para as outras pessoas no Teams. As pessoas também podem procurá-lo no Teams com o seu número de telemóvel e e-mail.",
+  "tflFre_learn_more_link_text": "Saiba mais",
+  "tflFre_sync_contacts_checkbox": "Sincronizar os meus contactos do Skype e do Outlook para localizar pessoas que conheço no Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "As pessoas podem procurá-lo através de:",
+  "tflFre_loading_spinner_text": "A carregar...",
+  "tflFre_stamping_error_dialog_header": "Falha ao Atualizar o Seu Perfil",
+  "tflFre_stamping_error_dialog_body": "Não foi possível atualizar as informações do seu perfil. Selecione \"Utilizar outra conta\" para terminar sessão e utilizar outra conta. Selecione \"Tentar novamente\" para tentar atualizar o seu perfil novamente",
+  "tflFre_error_dialog_retry_button": "Repetir",
+  "tflFre_error_dialog_sign_out_button": "Utilizar outra conta",
+  "tflFre_fetch_error_dialog_header": "Falha ao Obter o Seu Perfil",
+  "tflFre_fetch_error_dialog_body": "Não foi possível obter as informações do seu perfil. Selecione \"Utilizar outra conta\" para terminar sessão e utilizar outra conta. Selecione \"Tentar novamente\" para tentar obter o seu perfil novamente",
+  "tflFre_welcome_edit_header": "Bem-vindo ao Teams",
+  "tflFre_welcome_edit_second_header": "Como pretende aparecer?",
+  "tflFre_phone_field_header": "Telefone",
+  "tflFre_email_field_header": "E-mail"
+}

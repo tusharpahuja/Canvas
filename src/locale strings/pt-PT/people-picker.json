@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Ocorreu um problema e não foi possível adicionar o grupo.",
+  "peoplePicker_dlTooManyMembers": "Não conseguimos adicionar {{dlName}} ({{dlMemberCount}}). Só pode iniciar uma conversa com {{maxSize}} pessoas ou menos.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Utilize a Tecla de Retrocesso ou Delete para remover. Utilize a Seta Para a Esquerda ou Seta Para a Direita para aceder a outros destinatários de conversa.",
+  "peoplePicker_loadingMessage": "A carregar...",
+  "peoplePicker_newAddGroupNameButtonContent": "Adicionar o nome do grupo",
+  "peoplePicker_collapseGroupNameButtonContent": "Fechar nome do grupo",
+  "peoplePicker_federationWarning": "A conversa por chat com contas escolares ou profissionais ainda não está disponível. Saiba mais.",
+  "peoplePicker_noResults": "Não conseguimos encontrar correspondências.",
+  "peoplePicker_resultsUpdationAriaLabel": "Resultados da pesquisa atualizados. Utilize as teclas Seta Para Cima e Seta Para Baixo para navegar e prima Enter para selecionar.",
+  "peoplePicker_search_externally_btn_text": "Procurar {{email}} externamente",
+  "peoplePicker_tflToLinePlaceholder": "Introduzir nome, e-mail ou número de telefone",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Remover",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} selecionado(a) a partir da lista.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} de {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} foi removido(a) da lista."
+}

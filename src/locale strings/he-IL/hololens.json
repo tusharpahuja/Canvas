@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "חץ מקום",
+  "toolbar_ink": "דיו",
+  "toolbar_color_picker": "בחר צבע",
+  "toolbar_color_yellow": "צהוב",
+  "toolbar_color_blue": "כחול",
+  "toolbar_color_gray": "אפור",
+  "toolbar_color_green": "ירוק",
+  "toolbar_color_red": "אדום",
+  "toolbar_insert_file": "הוסף קובץ",
+  "toolbar_undo": "בטל",
+  "toolbar_erase_all_current_session": "מחק הכל מהפעלת העריכה הנוכחית",
+  "toolbar_erase_all": "מחק הכל",
+  "toolbar_start_editing": "התחל לערוך",
+  "toolbar_stop_editing": "הפסק עריכה"
+}

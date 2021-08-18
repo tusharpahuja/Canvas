@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "ストリーム URL",
+  "stream_url_placeholder": "ストリーム URL を入力する",
+  "stream_key_label": "ストリーム キー",
+  "stream_key_placeholder": "ストリーム キーを入力する",
+  "start_streaming_button_text": "ストリーミングを開始",
+  "stop_streaming_button_text": "ストリーミングを停止",
+  "custom_streaming_config_page_description": "カスタム ストリーミングは、RTMP を利用したパブリック プラットフォームに Teams 会議をストリームするためのツールです",
+  "custom_streaming_config_page_first_greeting": "カスタム ストリーミングへようこそ!",
+  "custom_streaming_config_page_second_greeting": "ご利用いただきありがとうございます",
+  "custom_streaming_error_meeting_limit_reached": "この会議は現在の設定ではストリームできません。出席者を 1000 人未満に制限してください。",
+  "custom_streaming_error_permission_denied": "ストリーミングのアクセス許可がありません。このコンテンツをストリームするには、IT 管理者または開催者にお問い合わせください",
+  "custom_streaming_error_outdated_client": "続行するには、Teams の更新が必要です。アプリケーションを再起動して、最新の機能があることを確認します。",
+  "custom_streaming_error_unknown": "問題が発生しました。もう一度やり直してください。",
+  "custom_streaming_error_unsupported_platform": "この機能はまだブラウザーでサポートされていません。デスクトップ版の Teams からもう一度お試しください。",
+  "custom_streaming_tab_title": "カスタム ストリーミング"
+}

@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Abmelden",
+  "me_control_sign_out_button_aria_label": "Bei Microsoft abmelden?",
+  "me_control_my_microsoft_account_button_text": "Mein Microsoft-Konto",
+  "me_control_my_microsoft_account_button_aria_label": "Mein Microsoft-Konto",
+  "me_control_change_picture_aria_label": "Profilfoto ändern",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Profilmenü",
+  "app_bar_activity_app_name": "Aktivität",
+  "app_bar_activity_app_arialabel": "Aktivität",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# neue Aktivität} one {# neue Aktivitäten} other{# neue Aktivitäten}}",
+  "app_bar_activity_app_tooltip": "Aktivität",
+  "app_bar_chat_app_name": "Chat",
+  "app_bar_chat_app_arialabel": "Chat",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# Chat mit neuen Nachrichten} one {# Chats mit neuen Nachrichten} other{# Chats mit neuen Nachrichten}}",
+  "app_bar_chat_app_tooltip": "Chat",
+  "app_bar_calendar_app_name": "Kalender",
+  "app_bar_calendar_app_arialabel": "Kalender",
+  "app_bar_calendar_app_tooltip": "Kalender",
+  "app_bar_calls_app_name": "Anrufe",
+  "app_bar_calls_app_arialabel": "Anrufe",
+  "app_bar_calls_app_tooltip": "Anrufe"
+}

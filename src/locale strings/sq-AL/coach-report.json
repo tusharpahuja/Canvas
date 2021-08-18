@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Nuk ka raport në dispozicion nga Trajneri i takimit",
+  "coach_report_no_data_too_short": "Aktivizo Trajnerin e takimit për më shumë se 1 minutë për tu qasur te raporti yt",
+  "coach_report_no_data_too_long": "Na vjen keq, Trajneri i takimit nuk mbështet takimet më të gjata se 2 orë",
+  "coach_report_title": "Njohuritë e Trajnerit tënd të takimit",
+  "coach_report_private_label": "privat",
+  "coach_report_settings": "Parametrat",
+  "coach_report_subtitle": "* Raporti i trajnerit është e dukshme vetëm për ty.",
+  "coach_report_chart_title": "Sugjerimet nga takimet e tua",
+  "coach_report_card_checkbox": "Gjithmonë ruaj dhe kapërce këtë ekran për seancat e ardhshme",
+  "coach_report_save_button": "Ruaj",
+  "coach_report_delete_button": "Fshi",
+  "coach_report_save_button_tooltip": "Gjeje më vonë në faqen e takimit",
+  "coach_report_feedback_before_submit": "A është e dobishme kjo?",
+  "coach_report_feedback_after_submit": "Faleminderit për komentet",
+  "coach_report_feedback_yes_button": "Po",
+  "coach_report_feedback_no_button": "Jo",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} nga {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Paraardhëse",
+  "coach_report_next_critique_button": "Pasardhës"
+}

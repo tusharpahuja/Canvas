@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Hoppá, hiba történt!",
+  "default_app_title": "Hoppá, hiba történt! (Alkalmazáshibák)",
+  "default_network_error_description": "Hoppá, hálózati hiba!",
+  "default_network_error_title": "Hoppá, hálózati hiba!",
+  "default_unknown_description": "Hoppá, hiba történt!",
+  "default_unknown_title": "Hoppá, hiba történt!",
+  "default_authentication_title": "Hoppá, nem sikerült bejelentkeztetni",
+  "default_authentication_description": "hiba történt.",
+  "default_core_error_description": "Hoppá, hiba történt! (Alapvető hibák)",
+  "default_core_error_title": "Hibakód: alapvető hibák",
+  "default_fetch_description": "Hoppá, hiba történt! (CDL-beolvasási hibák)",
+  "default_fetch_title": "Hibakód: CDL-beolvasási hibák",
+  "default_service_description": "Hoppá, hiba történt! (CDL-szolgáltatási hibák)",
+  "default_service_title": "Hibakód: CDL-szolgáltatási hibák",
+  "error_forbidden_text": "Sajnáljuk. Problémát találtunk a szervezet licencével kapcsolatban",
+  "error_nonetwork_text": "Sajnáljuk. Nem található hálózat. Kérjük, próbálkozzon újra, amikor újracsatlakozik."
+}

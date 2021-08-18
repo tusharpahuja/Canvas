@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Către: {user1}} =1{Către: {user1} și încă 1} one {Către: {user1} și încă #} few {Către: {user1} și încă #} other{Către: {user1} și încă #}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Către: {user1}, {user2}} =1{Către: {user1}, {user2} și încă 1} one {Către: {user1}, {user2} și încă #} few {Către: {user1}, {user2} și încă #} other{Către: {user1}, {user2} și încă #}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Către: {user1}, {user2}, {user3}} =1{Către: {user1}, {user2}, {user3} și încă 1} one {Către: {user1}, {user2}, {user3} și încă #} few {Către: {user1}, {user2}, {user3} și încă #} other{Către: {user1}, {user2}, {user3} și încă #}}",
+  "new_message_label": "Noi",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} răspunsuri de la {user1}} =1{{repliesCount} răspunsuri de la {user1} și de la încă 1} one {{repliesCount} răspunsuri de la {user1} și de la alți #} few {{repliesCount} răspunsuri de la {user1} și de la alți #} other{{repliesCount} răspunsuri de la {user1} și de la alți #}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} răspunsuri de la {user1}, {user2}} =1{{repliesCount} răspunsuri de la {user1}, {user2} și de la încă 1} one {{repliesCount} răspunsuri de la {user1}, {user2} și de la alți #} few {{repliesCount} răspunsuri de la {user1}, {user2} și de la alți #} other{{repliesCount} răspunsuri de la {user1}, {user2} și de la alți #}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} răspunsuri de la {user1}, {user2}, {user3}} =1{{repliesCount} răspunsuri de la {user1}, {user2}, {user3} și de la încă 1} one {{repliesCount} răspunsuri de la {user1}, {user2}, {user3} și de la alți #} few {{repliesCount} răspunsuri de la {user1}, {user2}, {user3} și de la alți #} other{{repliesCount} răspunsuri de la {user1}, {user2}, {user3} și de la alți #}}",
+  "tmp_view_chat_button_text": "Vedeți răspunsurile",
+  "tmp_go_to_channel_button_text": "Accesați canalul"
+}

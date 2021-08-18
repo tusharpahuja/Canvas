@@ -1,0 +1,9 @@
+{
+  "value_prop": "Koosolekute korraldamine ja suhtlemine sõprade, pereliikmete ja kolleegidega",
+  "initializing_message": "Oodake üks hetk, kuni seame asjad teie jaoks valmis...",
+  "open_teams_on_web": "Ava Teamsi veebiklient",
+  "error_message_header": "Ilmnes probleem",
+  "setup_error_message": "Häälestamisel ilmnes probleem",
+  "troubleshoot_issue": "Probleemi tõrkeotsing",
+  "retry_flyout_launch": "Proovi uuesti"
+}

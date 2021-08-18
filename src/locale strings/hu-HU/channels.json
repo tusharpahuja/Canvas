@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Címzett: {user1}} =1{Címzett: {user1} és további 1 személy} one {Címzett: {user1} és további # személy} other{Címzett: {user1} és további # személy}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Címzett: {user1}, {user2}} =1{Címzett: {user1}, {user2} és további 1 személy} one {Címzett: {user1}, {user2} és további # személy} other{Címzett: {user1}, {user2} és további # személy}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Címzett: {user1}, {user2}, {user3}} =1{Címzett: {user1}, {user2}, {user3} és további 1 személy} one {Címzett: {user1}, {user2}, {user3} és további # személy} other{Címzett: {user1}, {user2}, {user3} és további # személy}}",
+  "new_message_label": "Új",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} válasz {user1} felhasználótól} =1{{repliesCount} válasz {user1} és 1 további felhasználótól} one {{repliesCount} válasz {user1} és # további felhasználótól} other{{repliesCount} válasz {user1} és # további felhasználótól}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} válasz {user1}, {user2} felhasználótól} =1{{repliesCount} válasz {user1}, {user2} és 1 további felhasználótól} one {{repliesCount} válasz {user1}, {user2} és # további felhasználótól} other{{repliesCount} válasz {user1}, {user2} és # további felhasználótól}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} válasz {user1}, {user2} és {user3} felhasználótól} =1{{repliesCount} válasz {user1}, {user2}, {user3} és 1 további felhasználótól} one {{repliesCount} válasz {user1}, {user2}, {user3} és # további felhasználótól} other{{repliesCount} válasz {user1}, {user2}, {user3} és # további felhasználótól}}",
+  "tmp_view_chat_button_text": "Válaszok megtekintése",
+  "tmp_go_to_channel_button_text": "Ugrás a csatornára"
+}

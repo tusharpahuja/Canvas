@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Opakuje se každý den.} =2{Opakuje se každý druhý den.} one {Opakuje se každý # den.} few {Opakuje se každé # dny.} many {Opakuje se každých # dnů.} other{Opakuje se každých # dnů.}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Opakuje se každý {days}.} =2{Opakuje se každý druhý {days}.} one {Opakuje se každý # týden v(e) {days}.} few {Opakuje se každé # týdny v(e) {days}.} many {Opakuje se každých # měsíců v(e) {days}.} other{Opakuje se každých # týdnů v(e) {days}.}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Opakuje se {day}. dne každý měsíc.} =2{Opakuje se {day}. den každý druhý měsíc.} one {Opakuje se {day}. den každý # měsíc.} few {Opakuje se {day}. den každé # měsíce.} many {Opakuje se {day}. den každých # měsíců.} other{Opakuje se {day}. den každých # měsíců.}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Opakuje se každý měsíc {weekInMonthIndex} {weekday}.} =2{Opakuje se každý druhý měsíc {weekInMonthIndex} {weekday}.} one {Opakuje se každý # měsíc {weekInMonthIndex} {weekday}.} few {Opakuje se každé # měsíce {weekInMonthIndex} {weekday}.} many {Opakuje se každých # měsíců {weekInMonthIndex} {weekday}.} other{Opakuje se každých # měsíců {weekInMonthIndex} {weekday}.}}",
+  "meeting_recurrence_pattern_yearly": "Koná se vždy {{date}}.",
+  "meeting_recurrence_pattern_relativeyearly": "Probíhá každý {{dayOfTheWeekIndex}} {{dayOfTheWeek}} v měsíci {{month}}"
+}

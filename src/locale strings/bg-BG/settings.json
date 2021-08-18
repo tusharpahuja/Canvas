@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Система",
+  "general_settings_system_auto_start_toggle": "Стартирай автоматично Teams",
+  "notification_settings_details_message_preview_header_text": "Визуализация на съобщението",
+  "notification_settings_edit_chat_button_aria_label": "Редактиране на известията за чат",
+  "notification_settings_details_chat_messages_text": "Съобщения",
+  "notification_settings_warning_windows_tfw": "Проверете отново вашите настройки за известяване в Windows, за да сте сигурни, че можете да получавате известия за Teams. <0></0>",
+  "settings_loader_text": "Зареждане на съдържанието...",
+  "dropdown_settings_selected_text": "{{value}} избрано",
+  "read_receipts_title": "Разписки за прочитане",
+  "read_receipts_description": "Уведомете хората кога сте видели техните съобщения и кога са видели вашите. Затворете и отворете отново всички прозорци за чат, за да влезе в сила настройката в тези чатове.",
+  "read_receipts_label": "Разписки за прочитане"
+}

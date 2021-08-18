@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Нема достапни Извештаи за состаноци на тренери",
+  "coach_report_no_data_too_short": "Вклучете го тренерот за состаноци повеќе од 1 минута за да пристапите до извештајот",
+  "coach_report_no_data_too_long": "Извинете, тренерот за состаноци не дозволува состаноци подолги од 2 часа.",
+  "coach_report_title": "Вашите Согледувања за состаноци на тренери",
+  "coach_report_private_label": "Приватен",
+  "coach_report_settings": "Параметри",
+  "coach_report_subtitle": "* Извештајот за тренери е видлив само за вас.",
+  "coach_report_chart_title": "Предлози од состанокот",
+  "coach_report_card_checkbox": "Секогаш зачувај и прескокни го овој екран за идните сесии",
+  "coach_report_save_button": "Зачувај",
+  "coach_report_delete_button": "Избриши",
+  "coach_report_save_button_tooltip": "Најди го подоцна на страницата за состанокот",
+  "coach_report_feedback_before_submit": "Дали ова е корисно?",
+  "coach_report_feedback_after_submit": "Ви благодариме за повратните информации",
+  "coach_report_feedback_yes_button": "Да",
+  "coach_report_feedback_no_button": "Не",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} од {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Претходно",
+  "coach_report_next_critique_button": "Следно"
+}

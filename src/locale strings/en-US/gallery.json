@@ -1,0 +1,6 @@
+{
+  "gallery_galleryEmptyStateMessage": "Photos added to chat automatically show up here.",
+  "_gallery_galleryEmptyStateMessage.comment": "Text to show when there are no images to show for an empty photo gallery",
+  "gallery_galleryLoadingMessage": "Loading Photos...",
+  "_gallery_galleryLoadingMessage.comment": "Text to show when the photos in the image gallery are loading"
+}

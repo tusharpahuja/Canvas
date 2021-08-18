@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Stream URL",
+  "stream_url_placeholder": "Enter Stream URL",
+  "stream_key_label": "Stream key",
+  "stream_key_placeholder": "Enter Stream key",
+  "start_streaming_button_text": "Start streaming",
+  "stop_streaming_button_text": "Stop streaming",
+  "custom_streaming_config_page_description": "Customised streaming is your tool to stream out Teams meeting to public platforms powered by RTMP",
+  "custom_streaming_config_page_first_greeting": "Welcome to Customised Streaming!",
+  "custom_streaming_config_page_second_greeting": "We're glad you're here",
+  "custom_streaming_error_meeting_limit_reached": "This meeting cannot be streamed in its current settings. Please restrict attendees to under 1000.",
+  "custom_streaming_error_permission_denied": "You don't have streaming permissions. Please contact your IT administrator or the organiser to stream this content",
+  "custom_streaming_error_outdated_client": "Teams needs updates to continue. Restart your application to ensure you have the latest features.",
+  "custom_streaming_error_unknown": "Something went wrong, please try again.",
+  "custom_streaming_error_unsupported_platform": "This feature isn't supported in the browser yet. Try again from the desktop version of Teams.",
+  "custom_streaming_tab_title": "Customised streaming"
+}

@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ναι",
+  "instant_answers_reaction_yes_aria_label": "Ήταν χρήσιμες αυτές οι πληροφορίες; -- Ναι",
+  "instant_answers_reaction_no": "Όχι",
+  "instant_answers_reaction_no_aria_label": "Ήταν χρήσιμες αυτές οι πληροφορίες; -- Όχι",
+  "instant_answers_header_text": "Ευχαριστούμε για τα σχόλιά σας!",
+  "instant_answers_header_subtext": "Με βάση τα σχόλιά σας, ακολουθούν ορισμένες πληροφορίες που μπορεί να βρείτε χρήσιμες:",
+  "instant_answers_footer_text": "Ήταν χρήσιμες αυτές οι πληροφορίες;",
+  "include_screenshot_text": "Προσθήκη στιγμιότυπου οθόνης",
+  "customer_feedback_dialog_email_label": "Διεύθυνση ηλεκτρονικού ταχυδρομείου (προαιρετικό)",
+  "customer_feedback_dialog_email_placeholder": "Προσθήκη διεύθυνσης ηλεκτρονικού ταχυδρομείου",
+  "customer_feedback_dialog_email_aria_label": "Η διεύθυνση ηλεκτρονικού ταχυδρομείου σας (προαιρετικό)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Πατώντας \"Υποβολή\", τα σχόλιά σας θα χρησιμοποιηθούν για τη βελτίωση των προϊόντων και των υπηρεσιών της Microsoft. Ο διαχειριστής IT σας θα έχει τη δυνατότητα να συλλέξει αυτά τα δεδομένα. Με βάση τα σχόλιά σας, μπορούμε να παρέχουμε πρόσθετες πληροφορίες που θα σας βοηθήσουν με το ζήτημα υποστήριξης σας.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Δήλωση προστασίας προσωπικών δεδομένων.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Κλείσιμο παραθύρου διαλόγου σχολίων",
+  "customer_feedback_dialog_adhoc_window_title": "Πείτε μας τη γνώμη σας"
+}

@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} 提到了你",
+  "toast_messaging_reaction": "{{sender}} 回应了你的消息",
+  "toast_messaging_default_group_topic": "未知",
+  "toast_messaging_default_user_given_name": "未知",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "发送",
+  "toast_messaging_quickreply_placeholder_text": "发送快速回复.",
+  "toast_messaging_activity_text": "与 {{participants}} 聊天",
+  "toast_messaging_activity_text_with_count": "与 {{participants}} +{{count}} 聊天"
+}

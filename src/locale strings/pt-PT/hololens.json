@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "Colocar seta",
+  "toolbar_ink": "Tinta digital",
+  "toolbar_color_picker": "Escolher uma cor",
+  "toolbar_color_yellow": "Amarelo",
+  "toolbar_color_blue": "Azul",
+  "toolbar_color_gray": "Cinzento",
+  "toolbar_color_green": "Verde",
+  "toolbar_color_red": "Vermelho",
+  "toolbar_insert_file": "Inserir ficheiro",
+  "toolbar_undo": "Anular",
+  "toolbar_erase_all_current_session": "Apagar tudo da sessão de edição atual",
+  "toolbar_erase_all": "Apagar tudo",
+  "toolbar_start_editing": "Iniciar edição",
+  "toolbar_stop_editing": "Parar edição"
+}

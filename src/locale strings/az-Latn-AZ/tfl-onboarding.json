@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Başqa hesabdan istifadə et",
+  "tflFre_Learn_More_Link_caption": "Bunu kim görə bilər",
+  "tflFre_OK_Button_caption": "Başladıq",
+  "tflFre_dialog_Aria": "Teams-ə xoş gəlmisiniz. Teams-də görünmək istərdiniz? İnsanlar bu məlumatlardan istifadə edərək sizi axtara bilər",
+  "tflFre_header": "Xoş gəlmisiniz",
+  "tflFre_phone_and_email_flyout": "Telefon nömrəsi və e-poçtunuzu idarə etmək üçün Microsoft hesabınıza daxil olun.",
+  "tflFre_who_can_see_this_flyout": "Ad və Microsoft hesabı şəkli Teams-də başqaları üçün görünən olacaq. İnsanlar telefon nömrəsi və e-poçtdan istifadə etməklə də Teams-də sizi axtara bilər.",
+  "tflFre_learn_more_link_text": "Ətraflı öyrən",
+  "tflFre_sync_contacts_checkbox": "Teams-də tanıdığım insanları tapmaq üçün Skype və Outlook əlaqələrimi sinxronlaşdırın.",
+  "tflFre_people_Can_Search_For_You_Using": "İnsanlar bu məlumatdan istifadə edərək sizin üçün axtara bilər:",
+  "tflFre_loading_spinner_text": "Yüklənir...",
+  "tflFre_stamping_error_dialog_header": "Profilinizi Yeniləmək Mümkün Olmadı",
+  "tflFre_stamping_error_dialog_body": "Profiliniz haqqında məlumatları yeniləmək mümkün olmadı. Çıxmaq üçün “Başqa hesabdan istifadə et” seçimini edin və başqa hesabdan istifadə edin. Profilinizi yeniləməyə yenidən cəhd etmək üçün “Yenidən cəhd et” seçimini edin.",
+  "tflFre_error_dialog_retry_button": "Təkrar cəhd et",
+  "tflFre_error_dialog_sign_out_button": "Başqa hesabdan istifadə et",
+  "tflFre_fetch_error_dialog_header": "Profilinizi Əldə Etmək Mümkün Olmadı",
+  "tflFre_fetch_error_dialog_body": "Profiliniz haqqında məlumatları əldə etmək mümkün olmadı. Çıxmaq üçün “Başqa hesabdan istifadə et” seçimini edin və başqa hesabdan istifadə edin. Profilinizi əldə etməyə yenidən cəhd etmək üçün “Yenidən cəhd et” seçimini edin",
+  "tflFre_welcome_edit_header": "Teams-ə xoş gəlmisiniz",
+  "tflFre_welcome_edit_second_header": "Necə görünmək istərdiniz?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "E-poçt"
+}

@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="funstuff.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="es-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";emojione_footer" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Emoji provided free by <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Emojis proporcionados de forma gratuita por <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Footer text of the EmojiOne picker with a link to the EmojiOne website]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emojione_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[EmojiOne]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[EmojiOne]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link text that takes users to the EmojiOne website]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_aria_closing_parenthesis" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[right parenthesis]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[paréntesis de cierre]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[words to be read aloud by a screen reader for the ')' character]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_aria_combined_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name}}]A;Shortcut: {{openingParenthesis}} {{shortName}} {{closingParenthesis}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}}]A;Acceso directo: {{openingParenthesis}} {{shortName}} {{closingParenthesis}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{name}}]A;Shortcut {{openingParenthesis}} {{shortName}} {{closingParenthesis}}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text read by screen reader software describing an emoticon. {{name}} is the full name of the emoticon which is translated, {{shortName}} is the short name of the emoticon, which is not translated. {{openingParenthesis}} is the name of the '(' character and {{closingParenthesis}} is the name of the ')' character. The shortcut for an emoticon is its shortname surrounded by parenthesis, and since this string is read by screen reading software, we want to ensure that the parentheses are spoken aloud]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_aria_opening_parenthesis" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[left parenthesis]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[paréntesis de apertura]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[words to be read aloud by a screen reader for the '(' character]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_combined_skintone_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name}} with {{skinTone}} skin tone]A;Shortcut: {{shortName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}} con {{skinTone}} tono de máscara ]A;Acceso directo: {{shortName}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{name}}: {{skinTone}}]A;Shortcut: {{shortName}}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text used as the tooltip for an emoticon. {{name}} is the full name of the emoticon which is translated, {{shortName}} is the short name of the emoticon surrounded by parentheses, which is not translated, {{skinTone}} is the skin tone of the emoticon.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_combined_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name}}]A;Shortcut: {{shortName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}}.]A;Acceso directo, {{shortName}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{name}}]A;Shortcut {{shortName}}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text used as the tooltip for an emoticon. {{name}} is the full name of the emoticon which is translated, {{shortName}} is the short name of the emoticon surrounded by parentheses, which is not translated]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_name_with_skintone" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name}} with {{skinTone}} skin tone]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}} con tono de piel {{skinTone}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Used for accessibility - thumbs up with medium skin tone - {{name}} is the emoticon name and {{skinTone}} is the skin pigmentation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_skintone_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[dark]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[oscuro]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Used for dark skin tone]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_skintone_default" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[default]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[predeterminado]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The base yellow skin tone for default emoticons]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_skintone_light" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[light]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[claro]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Used for light skin tone]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_skintone_medium" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[medium]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[medio]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Used for medium skin tone]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_skintone_medium_dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[medium dark]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[medio-oscuro]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Used for medium dark skin tone]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emoticon_skintone_medium_light" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[medium light]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[suave-medio]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Used for medium light skin tone]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_categoriesAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sticker categories]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Categorías de adhesivos]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers when the user enters the sticker categories menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_customMemeAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select an image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Seleccionar una imagen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers when the user selected the load custome meme button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_editableStickerAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{stickerText}}. Editable.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{stickerText}}. Editable.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers when navigating to an editable sticker]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_editorAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit sticker]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Editar adhesivo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers when the user enters the sticker editor]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_editorErrorAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{errorMessage}}. Use Shift+Tab to select a different category]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{errorMessage}}. Use Mayús + Tab para seleccionar una categoría diferente]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers when an error occurs loading the sticker editor]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_editorTextAreaPlaceholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Caption]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Leyenda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the sticker editor text area (for custom stickers)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_giphyDefaultTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[GIF image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Imagen GIF]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers when selected giphy has no title information]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_search_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[An error occurred while getting results:]A;{{error}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Se ha producido un error al obtener los resultados:]A;{{error}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed and read aloud when an error is encountered in a search picker]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";funStuffPicker_search_resultsLoading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cargando]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be read by screen readers while waiting for results to load in a the giphy/sticker/emoticon picker]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";giphy_consent_accept_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Accept]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aceptar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the giphy consent accept button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";giphy_consent_decline_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Decline]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Rechazar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the giphy consent decline button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";giphy_consent_privacy_policy_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Directiva de privacidad]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for privacy policy link.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";giphy_consent_terms_of_service_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Terms of Service]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Términos del servicio]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for terms of service link.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";giphy_consent_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The GIF experience in Teams is powered by GIPHY.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[La experiencia de GIF en Teams está impulsada por GIPHY.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that explains the GIF experience in Teams is powered by GIPHY.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";giphy_consent_text_with_links" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using GIFs, you agree to GIPHY's <0>Privacy Policy</0> and <1>Terms of Service</1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Al usar GIF, aceptas la <0>Directiva de privacidad</0> y los <1>términos del servicio</1> de GIPHY.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that explains terms of use for giphy. <0></0> and <1></1> are external links to the full privacy policy and terms.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";giphy_learnMore" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you search for images, your search terms are sent to GIPHY. To learn more, see GIPHY's <0>Privacy Policy</0> and <1>Terms of Service</1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Al buscar imágenes, los términos de búsqueda se envían a GIPHY. Para obtener más información, consulte la <0>Directiva de privacidad</0> y los <1>Términos del servicio</1> de GIPHY.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[You are responsible for respecting others rights, including copyright. Learn more <0>here</0>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup text explains terms of use for giphy. <0></0> and <1></1> are external links to the full privacy policy and terms.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";giphy_learnMore_live" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you search for images, your search terms are sent to GIPHY. To learn more, see GIPHY's Privacy Policy link and Terms of Service link.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Al buscar imágenes, los términos de búsqueda se envían a GIPHY. Para obtener más información, consulte el vínculo de la Directiva de privacidad y el de los Términos del servicio de GIPHY.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[You are responsible for respecting others rights, including copyright. Learn more here link.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text read by screen reader to represent content of informational popup.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";image_alt" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[imagen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alt text for inline image]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

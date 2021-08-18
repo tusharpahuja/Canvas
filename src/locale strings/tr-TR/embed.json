@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Kişi ekle",
+  "embed_go_back_button": "Geri dön",
+  "embed_provide_feedback": "Geri bildiriminizi ekleyin:",
+  "embed_go_to": "{{title}} adresine git",
+  "embed_open_inside": "Şurada aç:",
+  "embed_participants_in_chat": "Katılımcılar ({{membersCount}})",
+  "embed_pop_out_chat": "Açılır sohbet",
+  "embed_pop_in_back": "Tekrar ana pencerede aç",
+  "embed_error_page_message": "Ne yazık ki bir sorunla karşılaşıldı",
+  "embed_error_page_try_again_button": "Yeniden dene",
+  "embed_chats": "Microsoft Teams Sohbetleri",
+  "embed_chat": "Microsoft Teams Sohbeti"
+}

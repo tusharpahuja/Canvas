@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Nu este disponibil niciun raport de Îndrumător de întâlnire",
+  "coach_report_no_data_too_short": "Activați Îndrumătorul pentru întâlniri pentru mai mult de 1 minut pentru a vă accesa raportul",
+  "coach_report_no_data_too_long": "Ne pare rău, Îndrumătorul pentru întâlniri nu acceptă întâlniri mai lungi de 2 ore",
+  "coach_report_title": "Detalii pentru Îndrumătorul de întâlnire",
+  "coach_report_private_label": "Privat",
+  "coach_report_settings": "Setări",
+  "coach_report_subtitle": "* Raportul de Îndrumător este vizibil doar pentru dvs.",
+  "coach_report_chart_title": "Sugestii de la întâlnire",
+  "coach_report_card_checkbox": "Salvați întotdeauna și omiteți acest ecran pentru sesiunile viitoare",
+  "coach_report_save_button": "Salvați",
+  "coach_report_delete_button": "Ștergeți",
+  "coach_report_save_button_tooltip": "Îl găsiți mai târziu în pagina întâlnirii",
+  "coach_report_feedback_before_submit": "Este util acest lucru?",
+  "coach_report_feedback_after_submit": "Vă mulțumim pentru feedback",
+  "coach_report_feedback_yes_button": "Da",
+  "coach_report_feedback_no_button": "Nu",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} din {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Înapoi",
+  "coach_report_next_critique_button": "Următorul"
+}

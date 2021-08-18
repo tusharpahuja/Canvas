@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "النظام",
+  "general_settings_system_auto_start_toggle": "التشغيل التلقائي لـ Teams",
+  "notification_settings_details_message_preview_header_text": "معاينة الرسائل",
+  "notification_settings_edit_chat_button_aria_label": "تحرير إعلامات الدردشة",
+  "notification_settings_details_chat_messages_text": "الرسائل",
+  "notification_settings_warning_windows_tfw": "تحقق مرتين من إعدادات إعلام Windows للتأكد من إمكانية تلقي إعلامات Teams. <0></0>",
+  "settings_loader_text": "جارٍ تحميل المحتوى...",
+  "dropdown_settings_selected_text": "تم تحديد {{value}}",
+  "read_receipts_title": "إيصالات بالقراءة",
+  "read_receipts_description": "يمكنك السماح للأشخاص بمعرفة وقت عرضك لرسائلهم وتمكّن من معرفة وقت عرضهم لرسائلك. أغلق أي نافذة دردشة وأعد فتحها لتطبيق الإعداد على تلك الدردشات.",
+  "read_receipts_label": "إيصالات بالقراءة"
+}

@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Terjadi setiap hari} =2{Terjadi setiap dua hari} other{Terjadi setiap # hari}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Terjadi setiap {days}} =2{Terjadi setiap dua {days}} other{Terjadi setiap # minggu pada tanggal {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Terjadi setiap bulan pada tanggal {day}} =2{Terjadi setiap dua bulan pada tanggal {day}} other{Terjadi setiap # bulan pada tanggal {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Terjadi setiap bulan pada tanggal{weekInMonthIndex} {weekday}} =2{Terjadi setiap bulan pada tanggal {weekInMonthIndex} {weekday}} other{Terjadi setiap # bulan pada tanggal {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Terjadi setiap {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Terjadi setiap {{dayOfTheWeekIndex}} {{dayOfTheWeek}} bulan {{month}}"
+}

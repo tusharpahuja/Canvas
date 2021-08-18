@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Notiek vecāku saraksta ielāde",
+  "guardians_table": "Vecāku saraksts {{classTeam}}",
+  "students": "Skolēni",
+  "guardians": "Vecāki/aizbildņi",
+  "chatButton": "Tērzēšanas poga",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# vēl vecāks vai aizbildnis. Izvērsiet, lai atvērtu sarakstu} zero {# vairāk vecāki vai aizbildņu. Izvērsiet, lai atvērtu sarakstu} one {# vairāk vecāki vai aizbildņu. Izvērsiet, lai atvērtu sarakstu} other{# vairāk vecāki vai aizbildņu. Izvērsiet, lai atvērtu sarakstu} }",
+  "guardians_student_label": "{{studentName}}, statuss {{status}}, atver profila kartīti",
+  "guardians_user_unknown_label": "Nezināms lietotājs",
+  "guardians_status_unknown_label": "Nezināma",
+  "guardians_overflow_members": "Papildu {{studentName}} vecāki vai aizbildņi: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Sāciet tērzēšanu ar {studentName} aizbildni} zero {Sāciet tērzēšanu ar {studentName} aizbildņiem} one {Sāciet tērzēšanu ar {studentName} aizbildņiem} other{Sāciet tērzēšanu ar {studentName} aizbildņiem}}",
+  "guardians_chat_button_disabled_title": "Administrators ir atspējojis ārējo piekļuvi",
+  "guardians_chat_button_disabled_alt_title": "Palūdziet savam administratoram pievienot aizbildņa kontaktinformāciju, lai tērzēšana būtu pieejama",
+  "empty_state_title": "Vecāki un aizbildņi vēl nav pievienoti",
+  "empty_state_subtitle": "Palūdziet savam IT administratoram pievienot tos, lai jūs varētu ātri sazināties no šejienes. <0></0>",
+  "empty_state_link": "Skatīt vēl",
+  "error_state_title": "Radās kļūda. Lūdzu, vēlāk pārbaudiet vēlreiz.",
+  "not_owner_error_state_title": "Tikai klases komandas īpašnieki var skatīt vecāku un aizbildņu informāciju. Lūdziet komandas īpašniekam piešķirt jums piekļuvi.",
+  "retry_button_title": "Mēģināt vēlreiz",
+  "transient_error_state_title": "Radās problēma. Lūdzu, mēģiniet vēlreiz.",
+  "notification_banner_content": "Ielādējot papildu vecāku un aizbildņu informāciju, radās problēma. Lūdzu, vēlāk mēģiniet vēlreiz."
+}

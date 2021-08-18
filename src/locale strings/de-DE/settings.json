@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Teams automatisch starten",
+  "notification_settings_details_message_preview_header_text": "Nachrichtenvorschau",
+  "notification_settings_edit_chat_button_aria_label": "Chatbenachrichtigungen bearbeiten",
+  "notification_settings_details_chat_messages_text": "Nachrichten",
+  "notification_settings_warning_windows_tfw": "Überprüfen Sie Ihre Windows-Benachrichtigungseinstellungen noch mal, um sicherzustellen, dass Sie Teams-Benachrichtigungen empfangen können.<0></0>",
+  "settings_loader_text": "Inhalt wird geladen...",
+  "dropdown_settings_selected_text": "{{value}} ausgewählt",
+  "read_receipts_title": "Lesebestätigungen",
+  "read_receipts_description": "Teilen Sie anderen Personen mit, ob Sie Ihre Nachrichten gesehen haben und erfahren Sie, wann diese Ihre Nachrichten gesehen haben. Schließen Sie alle Chatfenster, und öffnen Sie ein beliebiges Chatfenster erneut, damit die Einstellung in diesen Chats wirksam wird.",
+  "read_receipts_label": "Lesebestätigungen"
+}

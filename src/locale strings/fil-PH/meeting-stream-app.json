@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL ng Stream",
+  "stream_url_placeholder": "Ipasok ang URL ng Stream",
+  "stream_key_label": "Stream key",
+  "stream_key_placeholder": "Ipasok ang Stream key",
+  "start_streaming_button_text": "Simulan ang pagsi-stream",
+  "stop_streaming_button_text": "Ihinto ang pagsi-stream",
+  "custom_streaming_config_page_description": "Ang custom na streaming ay ang iyong tool para mag-stream ng mga pulong sa Teams papalabas sa mga pampublikong platform na pinapagana ng RTMP",
+  "custom_streaming_config_page_first_greeting": "Maligayang pagdating sa Custom na Streaming!",
+  "custom_streaming_config_page_second_greeting": "Ikinalulugod namin na narito ka",
+  "custom_streaming_error_meeting_limit_reached": "Hindi maaaring i-stream ang pulong na ito sa kasalukuyang mga setting nito. Mangyaring limitahan ang mga dadalo sa mas mababa sa 1000.",
+  "custom_streaming_error_permission_denied": "Wala kang mga pahintulot para sa streaming. Mangyaring makipag-ugnayan sa iyong IT administrator o sa organizer para i-stream ang nilalamang ito",
+  "custom_streaming_error_outdated_client": "Kailangan ng Teams ng mga update para magpatuloy. I-restart ang iyong application para matiyak na mayroon ka ng mga pinakabagong feature.",
+  "custom_streaming_error_unknown": "Nagkaroon ng problema, pakisubukang muli.",
+  "custom_streaming_error_unsupported_platform": "Ang feature na ito ay hindi pa suportado sa browser. Subukang muli mula sa desktop na bersyon ng Teams.",
+  "custom_streaming_tab_title": "Custom na Streaming"
+}

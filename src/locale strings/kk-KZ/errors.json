@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Белгісіз қате орын алды!",
+  "default_app_title": "Өкінішке орай, белгісіз қате орын алды! (Бағдарлама қателері)",
+  "default_network_error_description": "Желі ақаулығы!",
+  "default_network_error_title": "Желі ақаулығы!",
+  "default_unknown_description": "Белгісіз қате орын алды!",
+  "default_unknown_title": "Белгісіз қате орын алды!",
+  "default_authentication_title": "Ой, жүйеге кіруі мүмкін болмады",
+  "default_authentication_description": "белгісіз қате орын алды.",
+  "default_core_error_description": "Өкінішке орай, белгісіз қате орын алды! (Негізгі қателер)",
+  "default_core_error_title": "Қате коды: негізгі қателер",
+  "default_fetch_description": "Өкінішке орай, белгісіз қате орын алды! (CDL алу қателері)",
+  "default_fetch_title": "Қате коды: CDL алу қателері",
+  "default_service_description": "Өкінішке орай, белгісіз қате орын алды! (CDL қызмет қателері)",
+  "default_service_title": "Қате коды: CDL қызмет қателері",
+  "error_forbidden_text": "Кешірім өтінеміз. Ұйымыңыздың лицензиясына қатысты мәселе таптық",
+  "error_nonetwork_text": "Кешірім өтінеміз. Желі табылмады. Қайта байланыс орнатқаннан кейін қайталап көріңіз."
+}

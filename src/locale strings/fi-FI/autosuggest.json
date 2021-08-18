@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} kohteessa {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Ei ehdotuksia.||1->2::{0} ehdotus käytettävissä: ||2->3::{0} ehdotusta käytettävissä: ||3->INF::{0} ehdotusta käytettävissä:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Ei ehdotuksia kyselylle {0}.||1->2::{1} ehdotus käytettävissä kyselylle {0}: ||2->3::{1} ehdotusta käytettävissä kyselylle {0}: ||3->INF::{1} ehdotusta käytettävissä kyselylle {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Nimetön ryhmä",
+  "autosuggest_sb_search_box_clear_button_label": "Tyhjennä hakuruutu",
+  "autosuggest_sb_search_box_submit_button_label": "Haku",
+  "autosuggest_sb_search_box_view_all_results_label": "Näytä kaikki tulokset painamalla Enter-näppäintä",
+  "autosuggest_people_group_heading": "Ihmiset",
+  "autosuggest_chats_group_heading": "Ryhmäkeskustelut",
+  "autosuggest_zero_term_group_aria_label": "Viimeisimmät haut"
+}

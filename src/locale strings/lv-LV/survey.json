@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Jā",
+  "instant_answers_reaction_yes_aria_label": "Vai šī informācija bija noderīga? -- Jā",
+  "instant_answers_reaction_no": "Nē",
+  "instant_answers_reaction_no_aria_label": "Vai šī informācija bija noderīga? -- Nē",
+  "instant_answers_header_text": "Paldies par atsauksmēm!",
+  "instant_answers_header_subtext": "Pamatojoties uz jūsu atsauksmēm, lūk, nedaudz informācijas, kas varētu būt noderīga:",
+  "instant_answers_footer_text": "Vai šī informācija bija noderīga?",
+  "include_screenshot_text": "Iekļaut ekrānuzņēmumu",
+  "customer_feedback_dialog_email_label": "Jūsu e-pasta adrese (neobligāti)",
+  "customer_feedback_dialog_email_placeholder": "Pievienot e-pasta adresi",
+  "customer_feedback_dialog_email_aria_label": "Jūsu e-pasta adrese (neobligāti)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Nospiežot Iesniegt, jūsu atsauksmes tiks izmantotas, lai uzlabotu Microsoft produktus un pakalpojumus. Jūsu IT administrators varēs apkopot šos datus. Pamatojoties uz jūsu atsauksmēm, varam sniegt papildinformāciju, lai palīdzētu atrisināt jūsu atbalsta problēmu.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Paziņojums par konfidencialitāti.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Aizvērt atsauksmju dialogu",
+  "customer_feedback_dialog_adhoc_window_title": "Sniegt atsauksmes"
+}

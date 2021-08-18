@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "ユーザーを追加",
+  "embed_go_back_button": "戻る",
+  "embed_provide_feedback": "フィードバックをお寄せください:",
+  "embed_go_to": "{{title}} に移動する",
+  "embed_open_inside": "内部で開く",
+  "embed_participants_in_chat": "参加者 ({{membersCount}})",
+  "embed_pop_out_chat": "チャットをポップアップ表示する",
+  "embed_pop_in_back": "メインウィンドウへ戻る",
+  "embed_error_page_message": "申し訳ございません - 問題が発生しました",
+  "embed_error_page_try_again_button": "再試行",
+  "embed_chats": "Microsoft Teams でのチャット",
+  "embed_chat": "Microsoft Teams でのチャット"
+}

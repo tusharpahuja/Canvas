@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Bəli",
+  "instant_answers_reaction_yes_aria_label": "Bu məlumat faydalı idi? -- Bəli",
+  "instant_answers_reaction_no": "Xeyr",
+  "instant_answers_reaction_no_aria_label": "Bu məlumat faydalı idi? -- Xeyr",
+  "instant_answers_header_text": "Əks-əlaqənizə görə təşəkkür edirik!",
+  "instant_answers_header_subtext": "Əks-əlaqənizə əsaslanan bu məlumatlar faydalı ola bilər:",
+  "instant_answers_footer_text": "Bu məlumat faydalı idi?",
+  "include_screenshot_text": "Ekran şəklini daxil edin",
+  "customer_feedback_dialog_email_label": "E-poçt ünvanınız (istəyə görə)",
+  "customer_feedback_dialog_email_placeholder": "E-poçt ünvanı əlavə edin",
+  "customer_feedback_dialog_email_aria_label": "E-poçt ünvanınız (istəyə görə)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Göndər düyməsinə basmaqla əks-əlaqənizdən Microsoft məhsulları və xidmətlərini təkmilləşdirmək üçün istifadə olunacaq. İT inzibatçınız bu verilənləri toplaya biləcək. Əks-əlaqənizə əsasən dəstək probleminizlə əlaqədar sizə kömək etmək üçün əlavə məlumatlar təmin edə bilərik.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Məxfilik Bildirişi.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Əks-əlaqə dialoqunu bağla",
+  "customer_feedback_dialog_adhoc_window_title": "Əks-əlaqə bildirin"
+}

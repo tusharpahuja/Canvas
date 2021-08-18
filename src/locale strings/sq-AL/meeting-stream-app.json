@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Adresa URL e transmetimit të vazhdueshëm",
+  "stream_url_placeholder": "Fut URL-në e Stream",
+  "stream_key_label": "Çelësi i transmetimit të vazhdueshëm",
+  "stream_key_placeholder": "Fut çelësin e transmetimit të vazhdueshëm",
+  "start_streaming_button_text": "Nis transmetimin e vazhdueshëm",
+  "stop_streaming_button_text": "Ndalo transmetimin e vazhdueshëm",
+  "custom_streaming_config_page_description": "Transmetimi i përshtatur është mjeti yt për të transmetuar nga takimi i Teams në platformat publike të mundësuara nga RTMP",
+  "custom_streaming_config_page_first_greeting": "Mirë se vjen te Transmetimi i përshtatur!",
+  "custom_streaming_config_page_second_greeting": "Gëzohemi që ndodhesh këtu",
+  "custom_streaming_error_meeting_limit_reached": "Ky takim nuk mund të transmetohet me parametrat e tij aktuale. Kufizo numrin e pjesëmarrësve nën 1000.",
+  "custom_streaming_error_permission_denied": "Nuk ke lejet për transmetim. Kontakto administratorit tënd të IT-së ose organizuesin për të transmetuar këtë përmbajtje",
+  "custom_streaming_error_outdated_client": "Teams kërkon përditësime për të vazhduar. Rinis aplikacionin tënd për t'u siguruar që ke tiparet më të fundit.",
+  "custom_streaming_error_unknown": "Diçka nuk shkoi mirë. Provo sërish.",
+  "custom_streaming_error_unsupported_platform": "Ky tipar nuk mbështetet në shfletues ende. Provo sërish nga versioni i desktopit të Teams.",
+  "custom_streaming_tab_title": "Transmetimi i vazhdueshëm i përshtatur"
+}

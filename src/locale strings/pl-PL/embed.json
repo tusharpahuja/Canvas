@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Dodawanie osób",
+  "embed_go_back_button": "Wróć",
+  "embed_provide_feedback": "Prześlij opinię:",
+  "embed_go_to": "Przejdź do: {{title}}",
+  "embed_open_inside": "Otwórz wewnątrz",
+  "embed_participants_in_chat": "Uczestnicy ({{membersCount}})",
+  "embed_pop_out_chat": "Czat w oknie",
+  "embed_pop_in_back": "Wyświetl ponownie w oknie głównym",
+  "embed_error_page_message": "Niestety, wystąpił problem",
+  "embed_error_page_try_again_button": "Spróbuj ponownie",
+  "embed_chats": "Czaty w usłudze Microsoft Teams",
+  "embed_chat": "Czat w usłudze Microsoft Teams"
+}

@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Does dim Adroddiad Cyfarfod Hyfforddwr ar gael",
+  "coach_report_no_data_too_short": "Troi Meeting Coach ymlaen am fwy nag 1 munud er mwyn cael mynediad at eich adroddiad",
+  "coach_report_no_data_too_long": "Ymddiheuriadau, nid Meeting Coach yn cefnogi cyfarfodydd sy'n fwy na 2 awr o hyd",
+  "coach_report_title": "Craffu eich Hyfforddwr Cyfarfod",
+  "coach_report_private_label": "Preifat",
+  "coach_report_settings": "Gosodiadau",
+  "coach_report_subtitle": "* Dim ond chi sy'n gallu gweld eich adroddiad Hyfforddwr.",
+  "coach_report_chart_title": "Awgrymiadau ar gyfer eich cyfarfod",
+  "coach_report_card_checkbox": "Cadw a hepgor y sgrin hon bob tro ar gyfer sesiynau yn y dyfodol",
+  "coach_report_save_button": "Cadw",
+  "coach_report_delete_button": "Dileu",
+  "coach_report_save_button_tooltip": "Dod o hyd iddo’n nes ymlaen ar dudalen y cyfarfod",
+  "coach_report_feedback_before_submit": "Ydy hyn yn ddefnyddiol?",
+  "coach_report_feedback_after_submit": "Diolch am yr adborth",
+  "coach_report_feedback_yes_button": "Ie",
+  "coach_report_feedback_no_button": "Na",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} o {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Blaenorol",
+  "coach_report_next_critique_button": "Nesaf"
+}

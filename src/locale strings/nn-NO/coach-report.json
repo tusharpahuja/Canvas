@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Ingen møterettleiarrapport er tilgjengeleg",
+  "coach_report_no_data_too_short": "Slå på Meeting Coach i meir enn 1 minutt for å få tilgang til rapporten",
+  "coach_report_no_data_too_long": "Beklagar, men Meeting Coach støttar ikkje møte som er lengre enn 2 timar",
+  "coach_report_title": "Møterettleiarinnsikt for deg",
+  "coach_report_private_label": "Privat",
+  "coach_report_settings": "Innstillingar",
+  "coach_report_subtitle": "* Rettleiarrapporten er berre synleg for deg.",
+  "coach_report_chart_title": "Forslag frå møtene dine",
+  "coach_report_card_checkbox": "Lagre alltid og hopp over dette skjermbiletet for framtidige økter",
+  "coach_report_save_button": "Lagre",
+  "coach_report_delete_button": "Slett",
+  "coach_report_save_button_tooltip": "Finn han seinare på møtesida",
+  "coach_report_feedback_before_submit": "Er dette nyttig?",
+  "coach_report_feedback_after_submit": "Takk for tilbakemeldinga",
+  "coach_report_feedback_yes_button": "Ja",
+  "coach_report_feedback_no_button": "Nei",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} av {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Førre",
+  "coach_report_next_critique_button": "Neste"
+}

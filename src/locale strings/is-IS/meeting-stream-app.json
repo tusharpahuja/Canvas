@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Stream-vefslóð",
+  "stream_url_placeholder": "Slá inn Stream-vefslóð",
+  "stream_key_label": "Stream-lykill",
+  "stream_key_placeholder": "Slá inn Stream-lykil",
+  "start_streaming_button_text": "Hefja straum",
+  "stop_streaming_button_text": "Stöðva straum",
+  "custom_streaming_config_page_description": "Sérsniðin straumspilun er verkfærið þitt til að streyma Teams-fundi á opna vettvanga, knúin af RTMP",
+  "custom_streaming_config_page_first_greeting": "Velkomin(n) í sérsniðna straumspilun!",
+  "custom_streaming_config_page_second_greeting": "Það gleður okkur að þú sért hér",
+  "custom_streaming_error_meeting_limit_reached": "Ekki er hægt að streyma þessum fundi í núverandi stillingum. Takmarkaðu þátttakendur við 1000.",
+  "custom_streaming_error_permission_denied": "Þú hefur ekki heimildir til að streyma. Hafðu samband við kerfisstjóra eða skipuleggjanda til að streyma þessu efni",
+  "custom_streaming_error_outdated_client": "Teams þarf að nota uppfærslur til að halda áfram. Endurræstu forritið þitt til að ganga úr skugga um að hafa nýjustu eiginleikana.",
+  "custom_streaming_error_unknown": "Eitthvað fór úrskeiðis. Reyndu aftur.",
+  "custom_streaming_error_unsupported_platform": "Þessi vafri styður ekki þennan eiginleika eins og er. Reyndu aftur úr skjáborðsútgáfu af Teams.",
+  "custom_streaming_tab_title": "Sérsníða Stream"
+}

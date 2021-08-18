@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "משהו התרחש ולא הצלחנו להוסיף את הקבוצה.",
+  "peoplePicker_dlTooManyMembers": "לא הצלחנו להוסיף את {{dlName}} ({{dlMemberCount}}). באפשרותך להתחיל צ'אט רק עם {{maxSize}} אנשים או פחות.",
+  "peoplePicker_focusSelectedUser": "{{username}}. השתמש במקש Backspace כדי למחוק או להסיר. השתמש במקשים שמאלה או ימינה כדי לגשת לנמעני צ'אט אחרים.",
+  "peoplePicker_loadingMessage": "טוען...",
+  "peoplePicker_newAddGroupNameButtonContent": "הוסף שם קבוצה",
+  "peoplePicker_collapseGroupNameButtonContent": "כווץ שם קבוצה",
+  "peoplePicker_federationWarning": "שיחה בצ‘אט עם חשבונות ארגוניים או בית ספר עדיין אינה זמינה. למד עוד.",
+  "peoplePicker_noResults": "לא הצלחנו למצוא התאמות.",
+  "peoplePicker_resultsUpdationAriaLabel": "תוצאות החיפוש עודכנו. השתמש במקשי החצים למעלה ולמטה כדי לנווט, ו- Enter כדי לבחור.",
+  "peoplePicker_search_externally_btn_text": "חפש {{email}} באופן חיצוני",
+  "peoplePicker_tflToLinePlaceholder": "הזן שם, דואר אלקטרוני או מספר טלפון",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "הסרה",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} נבחר/ה מהרשימה.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}},‏ {{description}},‏ {{index}} מתוך {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} הוסר/ה מהרשימה."
+}

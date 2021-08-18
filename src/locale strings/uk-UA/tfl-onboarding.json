@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Використати інший обліковий запис",
+  "tflFre_Learn_More_Link_caption": "Хто може це переглядати",
+  "tflFre_OK_Button_caption": "Почнімо",
+  "tflFre_dialog_Aria": "Вас вітає Teams. Як би ви хотіли виглядати в Teams? Користувачі можуть шукати вас за допомогою цієї інформації",
+  "tflFre_header": "Ласкаво просимо!",
+  "tflFre_phone_and_email_flyout": "Відвідайте свій обліковий запис Microsoft, щоб керувати номером телефону та електронною поштою.",
+  "tflFre_who_can_see_this_flyout": "Ваше ім'я та зображення облікового запису Microsoft бачитимуть інші користувачі Teams. Вони також можуть шукати вас у Teams за допомогою вашого номера телефону та електронної пошти.",
+  "tflFre_learn_more_link_text": "Докладніше",
+  "tflFre_sync_contacts_checkbox": "Синхронізувати контакти Skype і Outlook, щоб знаходити знайомих у Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Користувачі можуть шукати вас за допомогою:",
+  "tflFre_loading_spinner_text": "Завантаження…",
+  "tflFre_stamping_error_dialog_header": "Не вдалось оновити профіль",
+  "tflFre_stamping_error_dialog_body": "Не вдалось оновити відомості профілю. Виберіть \"Використовувати інший обліковий запис\", щоб вийти та використати інший обліковий запис. Натисніть кнопку \"Спробувати знову\", щоб спробувати оновити профіль ще раз",
+  "tflFre_error_dialog_retry_button": "Спробувати знову",
+  "tflFre_error_dialog_sign_out_button": "Використовувати інший обліковий запис",
+  "tflFre_fetch_error_dialog_header": "Не вдалось отримати профіль",
+  "tflFre_fetch_error_dialog_body": "Не вдалось отримати відомості профілю. Виберіть \"Використовувати інший обліковий запис\", щоб вийти та використати інший обліковий запис. Натисніть кнопку \"Спробувати знову\", щоб спробувати отримати профіль ще раз",
+  "tflFre_welcome_edit_header": "Ласкаво просимо до Teams!",
+  "tflFre_welcome_edit_second_header": "Як би ви хотіли відображатися?",
+  "tflFre_phone_field_header": "Телефон",
+  "tflFre_email_field_header": "Адреса електронної пошти"
+}

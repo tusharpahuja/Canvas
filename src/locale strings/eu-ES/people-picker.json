@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Arazoren bat izan da, eta ezin izan dugu gehitu taldea.",
+  "peoplePicker_dlTooManyMembers": "Ezin izan ditugu gehitu {{dlName}} ({{dlMemberCount}}). {{maxSize}} pertsona edo gutxiagorekin soilik has dezakezu txata.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Erabili atzera tekla edo ezabatu kentzeko. Erabili ezkerrera edo eskuinera gezi-teklak beste txat-hartzaileentzat.",
+  "peoplePicker_loadingMessage": "Kargatzen...",
+  "peoplePicker_newAddGroupNameButtonContent": "Gehitu taldearen izena",
+  "peoplePicker_collapseGroupNameButtonContent": "Tolestu taldearen izena",
+  "peoplePicker_federationWarning": "Oraindik ezin da txateatu enpresa- edo eskola-kontuekin. Informazio gehiago.",
+  "peoplePicker_noResults": "Ezin izan dugu aurkitu emaitzarik.",
+  "peoplePicker_resultsUpdationAriaLabel": "Eguneratu dira bilaketa-emaitzak1. Erabili gora eta behera gezi-teklak nabigatzeko, eta sartu hautatzeko.",
+  "peoplePicker_search_externally_btn_text": "Bilatu {{email}} kanpoan",
+  "peoplePicker_tflToLinePlaceholder": "Idatzi izena, helbide elektronikoa edo telefono-zenbakia",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Kendu",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} hautatu da zerrendatik.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} / {{resultCount}}",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} kendu da zerrendatik."
+}

@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "გასვლა",
+  "me_control_sign_out_button_aria_label": "Microsoft-დან გამოსვლა",
+  "me_control_my_microsoft_account_button_text": "ჩემი Microsoft-ის ანგარიში",
+  "me_control_my_microsoft_account_button_aria_label": "ჩემი Microsoft-ის ანგარიში",
+  "me_control_change_picture_aria_label": "პროფილის ფოტოს შეცვლა",
+  "me_control_trigger_aria_label": "პროფილი",
+  "me_control_menu_aria_label": "პროფილის მენიუ",
+  "app_bar_activity_app_name": "აქტივობა",
+  "app_bar_activity_app_arialabel": "აქტივობა",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# ახალი აქტივობა} one {# ახალი აქტივობა} other{# ახალი აქტივობა}}",
+  "app_bar_activity_app_tooltip": "აქტივობა",
+  "app_bar_chat_app_name": "საუბარი",
+  "app_bar_chat_app_arialabel": "საუბარი",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# საუბარი ახალი შეტყობინებებით} one {# საუბარი ახალი შეტყობინებებით} other{# საუბარი ახალი შეტყობინებებით}}",
+  "app_bar_chat_app_tooltip": "საუბარი",
+  "app_bar_calendar_app_name": "კალენდარი",
+  "app_bar_calendar_app_arialabel": "კალენდარი",
+  "app_bar_calendar_app_tooltip": "კალენდარი",
+  "app_bar_calls_app_name": "ზარები",
+  "app_bar_calls_app_arialabel": "ზარები",
+  "app_bar_calls_app_tooltip": "ზარები"
+}

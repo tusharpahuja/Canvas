@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Sí",
+  "instant_answers_reaction_yes_aria_label": "Vos ha resultat útil esta informació? -- Sí",
+  "instant_answers_reaction_no": "No",
+  "instant_answers_reaction_no_aria_label": "Vos ha resultat útil esta informació? -- No",
+  "instant_answers_header_text": "Gràcies pels vostres comentaris",
+  "instant_answers_header_subtext": "En base als vostres comentaris, hem afegit una mica d'informació que vos pot resultar útil:",
+  "instant_answers_footer_text": "Vos ha resultat útil esta informació?",
+  "include_screenshot_text": "Incloeu una captura de pantalla",
+  "customer_feedback_dialog_email_label": "La vostra adreça electrònica (opcional)",
+  "customer_feedback_dialog_email_placeholder": "Afegiu l'adreça electrònica",
+  "customer_feedback_dialog_email_aria_label": "La vostra adreça electrònica (opcional)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "En prémer a enviar, els vostres comentaris s'utilitzaran per a millorar els productes i els serveis de Microsoft. L'administrador de TI podrà recopilar estes dades. En funció dels vostres comentaris, podem proporcionar-vos informació addicional per ajudar-vos amb el vostre problema tècnic.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Declaració de privacitat.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Tanca el diàleg de comentaris",
+  "customer_feedback_dialog_adhoc_window_title": "Envieu comentaris"
+}

@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Δεν υπάρχει διαθέσιμη αναφορά Καθοδήγησης συσκέψεων",
+  "coach_report_no_data_too_short": "Ενεργοποίηση της \"Καθοδήγησης συσκέψεων\" για περισσότερο από 1 λεπτό για να αποκτήσετε πρόσβαση στην αναφορά σας",
+  "coach_report_no_data_too_long": "Δυστυχώς, η \"Καθοδήγηση συσκέψεων\" δεν υποστηρίζει συσκέψεις που υπερβαίνουν τις 2 ώρες",
+  "coach_report_title": "Οι πληροφορίες της Καθοδήγησης σύσκεψής σας",
+  "coach_report_private_label": "Ιδιωτικό",
+  "coach_report_settings": "Ρυθμίσεις",
+  "coach_report_subtitle": "* Η αναφορά της Καθοδήγησής σας είναι ορατή μόνο σε εσάς.",
+  "coach_report_chart_title": "Προτάσεις από τη σύσκεψή σας",
+  "coach_report_card_checkbox": "Να αποθηκεύετε και να παραλείπετε πάντα αυτήν την οθόνη για μελλοντικές περιόδους λειτουργίας",
+  "coach_report_save_button": "Αποθήκευση",
+  "coach_report_delete_button": "Διαγραφή",
+  "coach_report_save_button_tooltip": "Βρείτε το αργότερα στη σελίδα της σύσκεψης",
+  "coach_report_feedback_before_submit": "Είναι χρήσιμο αυτό;",
+  "coach_report_feedback_after_submit": "Ευχαριστούμε για τα σχόλια",
+  "coach_report_feedback_yes_button": "Ναι",
+  "coach_report_feedback_no_button": "Όχι",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} του {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Προηγούμενο",
+  "coach_report_next_critique_button": "Επόμενο"
+}

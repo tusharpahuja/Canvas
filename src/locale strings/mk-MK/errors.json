@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Упс, нешто не е во ред!",
+  "default_app_title": "Упс, нешто не е во ред! (Грешки на апликацијата)",
+  "default_network_error_description": "Упс, мрежен проблем!",
+  "default_network_error_title": "Упс, мрежен проблем!",
+  "default_unknown_description": "Упс, нешто не е во ред!",
+  "default_unknown_title": "Упс, нешто не е во ред!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Упс, нешто не е во ред! (Основни грешки)",
+  "default_core_error_title": "Идентификатор на грешката: Основни грешки",
+  "default_fetch_description": "Упс, нешто не е во ред! (Грешки со земање на CDL)",
+  "default_fetch_title": "Идентификатор на грешката: Грешки со земање на CDL",
+  "default_service_description": "Упс, нешто не е во ред! (Грешки со CDL-услугата)",
+  "default_service_title": "Идентификатор на грешката: Грешки со CDL-услугата",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

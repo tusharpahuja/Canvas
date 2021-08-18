@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Üst liste yükleniyor",
+  "guardians_table": "{{classTeam}} için ebeveyn listesi",
+  "students": "Öğrenciler",
+  "guardians": "Ebeveynler/Veliler",
+  "chatButton": "Sohbet düğmesi",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# ebeveyn veya veli daha. Listeyi açmak için genişletin} one {# ebeveyn veya veli daha. Listeyi açmak için genişletin} other{# ebeveyn veya veli daha. Listeyi açmak için genişletin} }",
+  "guardians_student_label": "İletişim durumu {{status}} olan {{studentName}} profil kartını açıyor",
+  "guardians_user_unknown_label": "Bilinmeyen kullanıcı",
+  "guardians_status_unknown_label": "Bilinmiyor",
+  "guardians_overflow_members": "{{studentName}} adlı öğrencinin diğer ebeveynleri veya vasileri: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{{studentName} adlı öğrencinin velisi ile sohbet başlatın} one {{studentName} adlı öğrencinin velileriyle sohbet başlatın} other{{studentName} adlı öğrencinin velileriyle sohbet başlatın}}",
+  "guardians_chat_button_disabled_title": "Dış erişim Yönetici tarafından devre dışı bırakıldı",
+  "guardians_chat_button_disabled_alt_title": "Sohbet özelliğini kullanmak için yöneticinizden velilerin iletişim bilgilerini eklemesini isteyin",
+  "empty_state_title": "Ebeveynler ve koruyucular eklenmedi",
+  "empty_state_subtitle": "Buradan kolayca iletişim kurabilmeniz için BT yöneticinizden eklemesini isteyin. <0></0>",
+  "empty_state_link": "Daha fazlasını göster",
+  "error_state_title": "Bir sorun oluştu. Lütfen daha sonra yeniden kontrol edin.",
+  "not_owner_error_state_title": "Yalnızca sınıf ekip sahipleri ebeveyn ve koruyucu bilgilerini görüntüleyebilir. Ekip sahibinden size erişim vermesini isteyin.",
+  "retry_button_title": "Yeniden dene",
+  "transient_error_state_title": "Bir sorun oluştu. Lütfen yeniden deneyin.",
+  "notification_banner_content": "Diğer ebeveyn ve veli bilgileri yüklenirken bir sorun oluştu. Lütfen daha sonra yeniden deneyin."
+}

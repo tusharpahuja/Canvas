@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="biometric-enrollment.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="fi-FI" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";audio_meter_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Listening for your voice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Puheäänen kuunteleminen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text that is announced when audio meter shows]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biomentric_enrollment_complete_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've successfully enrolled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Rekisteröinti onnistui]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for enrollment success aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biometric_enrollment_almost_done_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Almost done!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Melkein valmis!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for finishing voice enrollment process]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biometric_enrollment_complete_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for letting us get to know you!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kiitokset siitä, että saimme oppia tuntemaan sinut.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for completing a biometric enrollment process]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";camera_not_found_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect a camera to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Liitä kamera ottaaksesi valokuvan.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Please connect a camera.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when no camera is detected]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Peruuta]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to cancel face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_voice_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Peruuta]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to cancel voice enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";close_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sulje]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close dialog for enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";end_voice_capture_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[End voice capture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lopeta puheen tallentaminen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to end voice capture action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";enrollment_privacy_policy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tietosuojakäytäntö]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to view the privacy policy for enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";error_voice_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn’t capture your voice. Try moving to a quieter area or using a different mic, and start your voice capture again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Puhetta ei voitu tallentaa. Siirry hiljaisemmalle alueelle tai käytä toista mikrofonia ja aloita puheen tallentaminen uudelleen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for when there is an error while capturing voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and hit the button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kallista päätäsi alas ja paina painiketta.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Now point your chin down and tap to take the picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Paina painiketta, kun olet valmis.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kallista päätäsi alas ja vasemmalle]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin down and to the same side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Paina painiketta, kun olet valmis.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kallista päätäsi alas ja oikealle]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Stay on that side and chin down]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Lower your chin]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laske leukasi]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin down]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've got what we need, but you might want to take a few more photos for even more reliable recognition. Tilt your head up and hit the button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Saimme tarvitsemamme, mutta sinun kannattaa ehkä ottaa vielä muutama kuva, jotta kasvot tunnistetaan vielä luotettavammin. Kallista päätäsi ylös ja napauta painiketta.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We’ve got what we need, but you can take a few more pictures for more accurate recognition.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tap the button to take another photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ota uusi valokuva napauttamalla painiketta.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head up and to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kallista päätäsi ylös ja vasemmalle]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up and to the side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards and towards to the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Paina painiketta, kun olet valmis.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head up and to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kallista päätäsi ylös ja oikealle]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up and to the other side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Raise your chin]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nosta leukasi]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_forward_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Make sure your face is centered in the circle, then click the camera button to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Varmista, että kasvosi ovat ympyrän keskellä, ja ota sitten kuva painamalla kameran painiketta.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Center your face in the circle. Look at the camera button, then click it to take a picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking forward]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_forward_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look straight ahead]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Katso suoraan eteenpäin]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face Forward]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when looking forward]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you're ready, click the camera button again to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kun olet valmis, ota kuva painamalla kameran painiketta uudelleen.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Look at the button and click it to take another picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking on the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Katso vasemmalle]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face to the side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when looking on the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you're ready, click the camera button again to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kun olet valmis, ota kuva painamalla kameran painiketta uudelleen.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the third picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking on the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Katso oikealle]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face the other side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture gace when looking on the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_camera_button_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Take a photo]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ota valokuva]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for face enrollment photo button aria text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_getting_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For even more reliable identification, set up face recognition with just a few photos.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vielä luotettavamman tunnistuksen saat määrittämällä kasvojentunnistuksen vain muutamalla kuvalla.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Get even more accurate recognition and identification by enrolling in face recognition, it only takes a few photos. We’ll only use this data within Teams, and you can always remove it later. Don’t worry: we won’t save the original photos.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and manage your Teams face information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teamsin kasvotietojen tarkasteleminen ja hallitseminen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to manage face enrollment settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Face recognition]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kasvojentunnistus]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text for face recognition]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";failed_to_learn_voice_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't capture your voice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Puheäänen tallentaminen ei onnistunut.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for error learning voice aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";finish_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Finish]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Valmis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to finish completing face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";get_started_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get Started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aloita]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to get started with face recognition]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";get_started_voice_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get Started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aloita]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to get started with voice enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";incorrect_face_capture_position" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn’t see your face. Give it another try.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kasvot eivät näy. Kokeile uudestaan.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We couldn’t see your face. Please try again.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error text when position for face capture is incorrect]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";learning_voice_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learning your voice...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opetellaan tunnistamaan puhettasi...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for learning voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";learning_voice_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learning your voice... Please wait]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opetellaan tunnistamaan puhettasi... Odota hetki]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for learning voice aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";no_microphone_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect a microphone]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Yhdistä mikrofoni]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displaying no microphone is connected]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ready_voice_capture_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start voice capture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aloita puheen tallentaminen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to start voice capture action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ready_voice_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you’re ready, start your voice capture and then read the text in the box.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kun olet valmis, voit aloittaa puheen tallentamisen ja sitten lukea tekstin ruudusta.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for when you are ready to capture voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";unmute_mic" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unmute your mic]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Poista mikrofonisi mykistys]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to unmute the mic]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hey there, Teams. I’ll talk for a few seconds to help you get to know me. It takes more than just a sentence or two, because there are lots of details about my voice that you need to learn to be able to recognize me when I speak up in a meeting. And it’s okay if I don’t read this perfectly—you can let me know if I need to start over.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hei, Teams. Puhun muutaman sekunnin, jotta opit tuntemaan minut. Siinä kestää kauemmin kuin vain virkkeen tai kaksi, koska puheessani on paljon yksityiskohtia, jotka sinun on opittava tunnistamaan, jotta voit tunnistaa minut kun puhun kokouksessa. Kerro, jos en lue tätä täydellisesti, jotta voin tarvittaessa aloittaa alusta.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for voice capture]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_getting_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Be recognized. Be heard. Help us identify you in meetings, even when you’re not joined on your device. We’ll only use this data within Teams, and you can remove it at any time.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tule tunnistetuksi. Tule kuulluksi. Auta meitä tunnistamaan sinut kokouksissa, vaikka et olisi yhdistettynä laitteeseesi. Käytämme näitä tietoja vain Teamsissa ja voit poistaa ne milloin tahansa.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for audio enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_microphone_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microphone]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mikrofoni]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for Microphone title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and manage your Teams voice information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teamsin äänitietojen tarkasteleminen ja hallitseminen]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Teams voice data.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to manage voice enrollment settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Voice recognition]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Puheen tunnistus]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for voice recognition]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

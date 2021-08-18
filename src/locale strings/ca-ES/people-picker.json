@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "S'ha produït un error i no hem pogut afegir el grup.",
+  "peoplePicker_dlTooManyMembers": "No hem pogut afegir {{dlName}} ({{dlMemberCount}}). Només podeu iniciar un xat amb un màxim de {{maxSize}} persones.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Feu servir la tecla Retrocés o Supr per suprimir l'element. Feu servir les tecles esquerra o dreta per anar a altres destinataris del xat.",
+  "peoplePicker_loadingMessage": "S'està carregant...",
+  "peoplePicker_newAddGroupNameButtonContent": "Afegeix el nom del grup",
+  "peoplePicker_collapseGroupNameButtonContent": "Redueix el nom del grup",
+  "peoplePicker_federationWarning": "El xat amb els comptes de l'empresa o de l'escola encara no està disponible. Més informació.",
+  "peoplePicker_noResults": "No hem trobat cap coincidència.",
+  "peoplePicker_resultsUpdationAriaLabel": "S'han actualitzat els resultats de la cerca. Utilitzeu les tecles de fletxa amunt i avall per navegar i la tecla Retorn per fer una selecció.",
+  "peoplePicker_search_externally_btn_text": "Cerca {{email}} externament",
+  "peoplePicker_tflToLinePlaceholder": "Introduïu el nom, l’adreça electrònica o el número de telèfon",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Suprimeix",
+  "peoplePicker_userAdditionAriaLabel": "S'ha seleccionat l'usuari {{username}} de la llista.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, resultat número {{index}} (n'hi ha {{resultCount}} en total).",
+  "peoplePicker_userRemovalAriaLabel": "S'ha suprimit l'usuari {{username}} de la llista."
+}

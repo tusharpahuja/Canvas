@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Προς: {user1}} =1{Προς: {user1} και 1 ακόμη} one {Προς: {user1} και # άλλους} other{Προς: {user1} και # άλλους}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Προς: {user1}, {user2}} =1{Προς: {user1}, {user2} και 1 ακόμη} one {Προς: {user1}, {user2} και # άλλους} other{Προς: {user1}, {user2} και # άλλους}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Προς: {user1}, {user2}, {user3}} =1{Προς: {user1}, {user2}, {user3} και 1 ακόμη} one {Προς: {user1}, {user2}, {user3} και # άλλους} other{Προς: {user1}, {user2}, {user3} και # άλλους}}",
+  "new_message_label": "Νέο",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} απαντήσεις από τον χρήστη {user1}} =1{{repliesCount} απαντήσεις από τον χρήστη {user1} και 1 ακόμη} one {{repliesCount} απαντήσεις από τον χρήστη {user1} και # ακόμη} other{{repliesCount} απαντήσεις από τον χρήστη {user1} και # ακόμη}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} απαντήσεις από τον χρήστη {user1}, {user2} και {user3}} =1{{repliesCount} απαντήσεις από τον χρήστη {user1}, {user2} και 1 ακόμη} one {{repliesCount} απαντήσεις από {user1}, {user2} και # ακόμη} other{{repliesCount} απαντήσεις από {user1}, {user2} και # ακόμη}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} απαντήσεις από τον χρήστη {user1}, {user2} και {user3}} =1{{repliesCount} απαντήσεις από τον χρήστη {user1}, {user2}, {user3} και 1 ακόμη} one {{repliesCount} απαντήσεις από τον χρήστη {user1}, {user2}, {user3} και # ακόμη} other{{repliesCount} απαντήσεις από τον χρήστη {user1}, {user2}, {user3} και # ακόμη}}",
+  "tmp_view_chat_button_text": "Προβολή απαντήσεων",
+  "tmp_go_to_channel_button_text": "Μετάβαση στο κανάλι"
+}

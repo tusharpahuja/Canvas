@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "عنوان URL للبث",
+  "stream_url_placeholder": "إدخال عنوان URL للبث",
+  "stream_key_label": "مفتاح البث",
+  "stream_key_placeholder": "إدخال مفتاح البث",
+  "start_streaming_button_text": "بدء البث",
+  "stop_streaming_button_text": "‏‏إنهاء البث",
+  "custom_streaming_config_page_description": "الدفق المخصص هو أداتك لبث اجتماع Teams إلى الأنظمة الأساسية العامة المشغلة بواسطة RTMP",
+  "custom_streaming_config_page_first_greeting": "مرحباً بك في البث المخصص!",
+  "custom_streaming_config_page_second_greeting": "نحن سعداء بوجودك هنا",
+  "custom_streaming_error_meeting_limit_reached": "لا يمكن دفق هذا الاجتماع في إعداداته الحالية. الرجاء تقييد الحضور إلى أقل من 1000.",
+  "custom_streaming_error_permission_denied": "ليس لديك أذونات دفق. الرجاء الاتصال بمسؤول تكنولوجيا المعلومات أو المنظم لبث هذا المحتوى",
+  "custom_streaming_error_outdated_client": "يحتاج Teams إلى التحديثات للمتابعة. أعد تشغيل التطبيق لضمان حصولك على أحدث الميزات.",
+  "custom_streaming_error_unknown": "حدث خطأ ما، الرجاء المحاولة مجدداً.",
+  "custom_streaming_error_unsupported_platform": "هذه الميزة غير معتمدة في المستعرض حتى الآن. حاول مرة أخرى من إصدار سطح المكتب من Teams.",
+  "custom_streaming_tab_title": "بث مخصص"
+}

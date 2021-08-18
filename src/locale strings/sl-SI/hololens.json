@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "PD",
+  "indicator_mobile_long": "MOBILNI PD",
+  "toolbar_arrow": "Postavi puščico",
+  "toolbar_ink": "Rokopis",
+  "toolbar_color_picker": "Izberi barvo",
+  "toolbar_color_yellow": "Rumena",
+  "toolbar_color_blue": "Modra",
+  "toolbar_color_gray": "Siva",
+  "toolbar_color_green": "Zelena",
+  "toolbar_color_red": "Rdeča",
+  "toolbar_insert_file": "Vstavi datoteko",
+  "toolbar_undo": "Razveljavi",
+  "toolbar_erase_all_current_session": "Izbriši vse iz trenutne seje urejanja",
+  "toolbar_erase_all": "Izbriši vse",
+  "toolbar_start_editing": "Začni urejati",
+  "toolbar_stop_editing": "Ustavi urejanje"
+}

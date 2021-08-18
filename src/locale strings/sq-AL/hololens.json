@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "AR CELULARE",
+  "toolbar_arrow": "Vendos shigjetën",
+  "toolbar_ink": "Boja",
+  "toolbar_color_picker": "Zgjidh një ngjyrë",
+  "toolbar_color_yellow": "E verdhë",
+  "toolbar_color_blue": "Blu",
+  "toolbar_color_gray": "Gri",
+  "toolbar_color_green": "E gjelbër",
+  "toolbar_color_red": "E kuqe",
+  "toolbar_insert_file": "Ndërfut skedarin",
+  "toolbar_undo": "Zhbëj",
+  "toolbar_erase_all_current_session": "Fshi të gjitha nga sesioni aktual i redaktimit",
+  "toolbar_erase_all": "Fshi të gjitha",
+  "toolbar_start_editing": "Nis redaktimin",
+  "toolbar_stop_editing": "Ndalo modifikimin"
+}

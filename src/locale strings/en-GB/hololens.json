@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "Place arrow",
+  "toolbar_ink": "Ink",
+  "toolbar_color_picker": "Pick a colour",
+  "toolbar_color_yellow": "Yellow",
+  "toolbar_color_blue": "Blue",
+  "toolbar_color_gray": "Grey",
+  "toolbar_color_green": "Green",
+  "toolbar_color_red": "Red",
+  "toolbar_insert_file": "Insert file",
+  "toolbar_undo": "Undo",
+  "toolbar_erase_all_current_session": "Erase all from current editing session",
+  "toolbar_erase_all": "Erase all",
+  "toolbar_start_editing": "Start editing",
+  "toolbar_stop_editing": "Stop editing"
+}

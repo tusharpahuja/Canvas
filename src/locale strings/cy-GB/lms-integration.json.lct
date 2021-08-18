@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="lms-integration.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="cy-GB" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";addEntireClassButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add entire class]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ychwanegu'r dosbarth cyfan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text button content to add entire class]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addEntireClassConfigError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't add the class. We had trouble getting the class information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ni allem ychwanegu'r dosbarth. Cawsom drafferth yn cael gwybodaeth y dosbarth.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when add entire class fails due to the meeting creator not owning any (members/owners/groups) for a given course id]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addEntireClassGenericError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't add the class.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ni allem ychwanegu'r dosbarth.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Failed to add course members as attendees.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error message displayed when add entire class fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addEntireClassRetryButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Rhowch gynnig arall arni]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text button asking user to retry adding class post failure]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addEntireClassSizeLimitError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't add the class. It has too many people to be added all at once.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ni allem ychwanegu'r dosbarth. Mae gormod o bobl ynddo i'w hychwanegu i gyd ar yr un pryd.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Failed to add course members as attendees because class size is larger than supported size.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when user attempts to add class whose size greater than currently supported.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addNewMeeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cyfarfod newydd]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Action button to launch scheduling form and create a new meeting in the lms course calendar app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addParticipantsInProgressCancelAction" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Canslo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Action button to cancel the addition of entire class to the scheduling form while in progress]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addParticipantsInProgressMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This may take a moment. This window will automatically close when the entire class is added. Cancel to add participants manually instead]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gall hyn gymryd eiliad. Bydd y ffenestr hon yn cau'n awtomatig pan ychwanegir y dosbarth cyfan. Canslo i ychwanegu cyfranogwyr â llaw yn lle]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to display when entire class is being added in the scheduling form]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addParticipantsInProgressTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Adding participants...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mae cyfranogwyr yn cael eu hychwanegu...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title to display when entire class is being added in the scheduling form]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";backgoundImageMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Background image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Delwedd gefndir]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility text to announce that there is a background image]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";continueButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Parhau]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for Continue Button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";courseCalendarHeaderTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Teams Meetings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cyfarfodydd Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header title in LMS integration course calendar app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";defaultHeaderTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default header title in LMS integration.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";educatorEmptyStateSecondaryErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your IT administrator needs to create a team, add you as a member and link it to your course on your behalf. Try contacting your IT administrator for help.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mae angen i'ch gweinyddwr TG greu tîm, eich ychwanegu chi fel aelod a chysylltu’r tîm â'ch cwrs ar eich rhan. Rhowch gynnig ar gysylltu â'ch gweinyddwr TG i gael help.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary message shown to an educator when there are no teams for the course]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emptyStatePrimaryErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have not been added to a team on this course yet.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nid ydych chi wedi cael eich ychwanegu at dîm ar y cwrs hwn eto.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Primary message shown when there are no teams for the course]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";experienceDisabledErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It looks like your account {{email}} is not set up to use Teams. Did you mean to sign in with a different Microsoft account?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mae’n debyg nad yw eich cyfrif {{email}} wedi’i osod i ddefnyddio Teams. Oeddech chi’n bwriadu mewngofnodi gyda chyfrif Microsoft gwahanol?]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[It looks like your account is not set up to use Teams. Did you mean to sign in with a different Microsoft account?]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user does not have access to the experience when feature flag is disabled. {{email}} is a placeholder for the user's email.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";experienceDisabledErrorMessageNoEmail" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It looks like your account is not set up to use Teams. Did you mean to sign in with a different Microsoft account?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mae'n edrych yn debyg nad yw eich cyfrif wedi'i osod i ddefnyddio Teams. Oeddech chi'n bwriadu mewngofnodi gyda chyfrif Microsoft gwahanol?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user does not have access to the experience when feature flag is disabled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";genericEmptyStateSecondaryErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[While you wait, you can use Teams to contact others at your school, organize clubs, and more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Wrth i chi aros, gallwch chi ddefnyddio Teams i gysylltu â phobl eraill yn eich ysgol, trefnu clybiau, a mwy.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary message shown to a non-educator when there are no teams for the course]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";genericErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please try again later]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Rhowch gynnig arall arni rywbryd eto]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message for generic errors]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";go_to_teams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mynd i Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action text when the user wants to go to the main teams client]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invalidLicenseTypeErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need an educator or student license to use Teams for Education. Try asking your IT administrator to assign the correct license to you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mae angen trwydded addysgwr neu fyfyriwr arnoch i ddefnyddio Teams for Education. Rhowch gynnig ar ofyn i'ch gweinyddwr TG neilltuo'r drwydded gywir i chi.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user does not have the required education license]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invalidUserRoleErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It looks like you have not been added to this course. Try asking your IT administrator or teacher to add you to this course.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mae'n edrych yn debyg nad ydych chi wedi cael eich ychwanegu at y cwrs hwn. Gofynnwch i’ch athro neu weinyddwr TG eich ychwanegu chi at y cwrs hwn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user has not been added to this course.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";launchTeamsButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launch Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lansio Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for button which user will click on to launch Teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";learnMoreAboutTeams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dysgu mwy am Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message of the link that will open resources to learn more about Teams for Education]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";logOutMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign out]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Allgofnodi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Action link to sign out user from teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";moreOptionsMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mwy o ddewisiadau]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for a button that shows a popup with the options for the teams header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";problemConnectingCourseToTeamErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem connecting your course to Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cafwyd problem wrth gysylltu eich cwrs â Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Primary error message when a course in the Learning Management System (LMS) cannot be connected to a team]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";problemCreatingTeamForCourse" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem creating your team]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cafwyd problem wrth greu’ch tîm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Primary error message when team sync for a course fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replaceAttendeesWithEntireClassConfirmationMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People you have already added to the invite will be removed when you add the class. You can add them again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Caiff y bobl rydych eisoes wedi’u hychwanegu at y gwahoddiad eu tynnu pan fyddwch yn ychwanegu’r dosbarth. Gallwch eu hychwanegu eto’n nes ymlaen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message explaining consequences of overriding existing attendees with entire class]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replaceAttendeesWithEntireClassConfirmationTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Replace attendees with the entire class?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Disodli mynychwyr â’r dosbarth cyfan?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for confirmation before over riding the existing attendees in a meeting with entire class]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";reportProblem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Report a problem]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Adrodd am broblem]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action text when the user wants to report a problem to EDU support.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamCardMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[List {{cardNumber}} of {{totalCards}}, {{name}} team, tap to open team in a separate tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Rhestr {{cardNumber}} o {{totalCards}}, {{name}} tîm, tarwch i agor tîm mewn tab ar wahân]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility text to announce when user is on a team card. {{cardNumber}}, {{totalCards}}, and {{name}} are place holders to describe the card position and team name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";thirdPartyNoticeMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third party notice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hysbysiad trydydd parti]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A link to a text file with licenses for all third party software used in the experience]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";unsupportedLmsErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unfortunately this learning tool does not support Teams for Education. Try contacting your IT administrator for help.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Yn anffodus, nid yw'r offeryn dysgu hwn yn cefnogi Teams for Education. Rhowch gynnig ar gysylltu â'ch gweinyddwr TG i gael cymorth.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user launches the experience from an unsupported 3rd party learning tool]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

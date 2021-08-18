@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Utilizați alt cont",
+  "tflFre_Learn_More_Link_caption": "Cine poate vedea aceasta",
+  "tflFre_OK_Button_caption": "Să începem",
+  "tflFre_dialog_Aria": "Bun venit la Teams. Cum doriți să apăreți în Teams? Utilizatorii vă pot căuta utilizând aceste informații",
+  "tflFre_header": "Bun venit",
+  "tflFre_phone_and_email_flyout": "Vizitați contul dvs. Microsoft pentru a vă gestiona numărul de telefon și adresa de e-mail.",
+  "tflFre_who_can_see_this_flyout": "Numele dvs. și imaginea de cont Microsoft vor fi vizibile celorlalți utilizatori din Teams. De asemenea, aceștia vă pot căuta pe Teams utilizând numărul de telefon și adresa de e-mail.",
+  "tflFre_learn_more_link_text": "Aflați mai multe",
+  "tflFre_sync_contacts_checkbox": "Sincronizează-mi contactele Skype și Outlook pentru a găsi persoane pe care le cunosc în Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Utilizatorii vă pot căuta, utilizând:",
+  "tflFre_loading_spinner_text": "Se încarcă...",
+  "tflFre_stamping_error_dialog_header": "Nu s-a putut actualiza profilul",
+  "tflFre_stamping_error_dialog_body": "Nu v-am putut actualiza informațiile de profil. Selectați „Utilizați alt cont” pentru a vă deconecta și a utiliza un alt cont. Selectați „Reîncercați” pentru a reîncerca actualizarea profilului",
+  "tflFre_error_dialog_retry_button": "Reîncercați",
+  "tflFre_error_dialog_sign_out_button": "Utilizați alt cont",
+  "tflFre_fetch_error_dialog_header": "Nu s-a putut prelua profilul",
+  "tflFre_fetch_error_dialog_body": "Nu v-am putut prelua informațiile de profil. Selectați „Utilizați alt cont” pentru a vă deconecta și a utiliza un alt cont. Selectați „Reîncercați” pentru a reîncerca preluarea profilului",
+  "tflFre_welcome_edit_header": "Bun venit la Teams",
+  "tflFre_welcome_edit_second_header": "Cum doriți să apăreți?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "E-mail"
+}

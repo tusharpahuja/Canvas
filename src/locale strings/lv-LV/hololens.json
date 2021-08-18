@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "IZ",
+  "indicator_mobile_long": "MOBILĀ AR",
+  "toolbar_arrow": "Novietot bultiņu",
+  "toolbar_ink": "Rokraksts",
+  "toolbar_color_picker": "Izvēlēties krāsu",
+  "toolbar_color_yellow": "Dzeltena",
+  "toolbar_color_blue": "Zila",
+  "toolbar_color_gray": "Pelēka",
+  "toolbar_color_green": "Zaļa",
+  "toolbar_color_red": "Sarkana",
+  "toolbar_insert_file": "Ievietot failu",
+  "toolbar_undo": "Atsaukt",
+  "toolbar_erase_all_current_session": "Dzēst visu pašreizējā rediģēšanas sesijā",
+  "toolbar_erase_all": "Izdzēst visu",
+  "toolbar_start_editing": "Sākt rediģēšanu",
+  "toolbar_stop_editing": "Apturēt rediģēšanu"
+}

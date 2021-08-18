@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Starta Teams automatiskt",
+  "notification_settings_details_message_preview_header_text": "Förhandsgranskning av meddelande",
+  "notification_settings_edit_chat_button_aria_label": "Redigera chattaviseringar",
+  "notification_settings_details_chat_messages_text": "Meddelanden",
+  "notification_settings_warning_windows_tfw": "Kontrollera dina inställningar för Windows-meddelanden för att säkerställa att du kan ta emot Teams-aviseringar. <0></0>",
+  "settings_loader_text": "Läser in innehåll...",
+  "dropdown_settings_selected_text": "{{value}} har valts",
+  "read_receipts_title": "Läskvitton",
+  "read_receipts_description": "Meddela andra när du har sett deras meddelanden och veta när de har sett ditt. Stäng och öppna i chattfönster igen för att inställningen ska gälla i de chattarna.",
+  "read_receipts_label": "Läskvitton"
+}

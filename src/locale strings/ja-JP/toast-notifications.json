@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} さんがあなたをメンションしました",
+  "toast_messaging_reaction": "{{sender}} さんがあなたのメッセージに応答しました",
+  "toast_messaging_default_group_topic": "不明",
+  "toast_messaging_default_user_given_name": "不明",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "送信",
+  "toast_messaging_quickreply_placeholder_text": "クイック返信を送信",
+  "toast_messaging_activity_text": "{{participants}} とチャットする",
+  "toast_messaging_activity_text_with_count": "{{participants}} +{{count}} とチャットする"
+}

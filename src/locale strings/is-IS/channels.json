@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Til: {user1}} =1{Til: {user1} og 1 í viðbót} one {Til: {user1} og # í viðbót} other{Til: {user1} og # í viðbót}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Til: {user1}, {user2}} =1{Til: {user1}, {user2} og 1 í viðbót} one {Til: {user1}, {user2} og # í viðbót} other{Til: {user1}, {user2} og # í viðbót}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Til: {user1}, {user2}, {user3}} =1{Til: {user1}, {user2}, {user3} og 1 í viðbót} one {Til: {user1}, {user2}, {user3} og # í viðbót} other{Til: {user1}, {user2}, {user3} og # í viðbót}}",
+  "new_message_label": "Nýtt",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svör frá {user1}} =1{{repliesCount} svör frá {user1} og 1 í viðbót} one {{repliesCount} svör frá {user1} og # í viðbót} other{{repliesCount} svör frá {user1} og # í viðbót}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svör frá {user1}, {user2}} =1{{repliesCount} svör frá {user1}, {user2}, og 1 í viðbót} one {{repliesCount} svör frá {user1}, {user2} og # í viðbót} other{{repliesCount} svör frá {user1}, {user2} og # í viðbót}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svör frá {user1}, {user2}, {user3}} =1{{repliesCount} svör frá {user1}, {user2}, {user3}, og 1 í viðbót} one {{repliesCount} svör frá {user1}, {user2}, {user3} og # í viðbót} other{{repliesCount} svör frá {user1}, {user2}, {user3} og # í viðbót}}",
+  "tmp_view_chat_button_text": "Sjá svör",
+  "tmp_go_to_channel_button_text": "Opna rás"
+}

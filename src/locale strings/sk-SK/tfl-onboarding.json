@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Použiť iné konto",
+  "tflFre_Learn_More_Link_caption": "Komu sa to zobrazuje",
+  "tflFre_OK_Button_caption": "Poďme na to",
+  "tflFre_dialog_Aria": "Víta vás aplikácia Teams. Ako sa chcete zobrazovať v aplikácii Teams? Ľudia vás môžu hľadať pomocou týchto informácií",
+  "tflFre_header": "Vitajte",
+  "tflFre_phone_and_email_flyout": "Navštívte svoje konto Microsoft a spravujte svoje telefónne číslo a e-mail.",
+  "tflFre_who_can_see_this_flyout": "Vaše meno a obrázok konta Microsoft sa bude zobrazovať ostatným v aplikácii Teams. Ľudia vás môžu v aplikácii Teams vyhľadávať aj pomocou vášho telefónneho čísla a e-mailu.",
+  "tflFre_learn_more_link_text": "Ďalšie informácie",
+  "tflFre_sync_contacts_checkbox": "Synchronizovať moje kontakty v aplikácii Skype a Outlook a nájsť ľudí, ktorých poznám, v aplikácii Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Ľudia vás môžu hľadať pomocou:",
+  "tflFre_loading_spinner_text": "Načítava sa...",
+  "tflFre_stamping_error_dialog_header": "Nepodarilo sa aktualizovať váš profil",
+  "tflFre_stamping_error_dialog_body": "Nepodarilo sa aktualizovať informácie o vašom profile. Výberom položky “Použiť iné konto“ sa odhláste a použite iné konto. Ak chcete skúsiť znova aktualizovať svoj profil, vyberte položku “Skúsiť znova“.",
+  "tflFre_error_dialog_retry_button": "Skúsiť znova",
+  "tflFre_error_dialog_sign_out_button": "Použiť iné konto",
+  "tflFre_fetch_error_dialog_header": "Nepodarilo sa načítať váš profil",
+  "tflFre_fetch_error_dialog_body": "Nepodarilo sa načítať informácie o vašom profile. Výberom položky “Použiť iné konto“ sa odhláste a použite iné konto. Ak chcete skúsiť znova spustiť načítanie svojho profilu, vyberte položku “Skúsiť znova“.",
+  "tflFre_welcome_edit_header": "Víta vás aplikácia Teams",
+  "tflFre_welcome_edit_second_header": "Ako by ste sa chceli zobrazovať?",
+  "tflFre_phone_field_header": "Telefón",
+  "tflFre_email_field_header": "E-mail"
+}

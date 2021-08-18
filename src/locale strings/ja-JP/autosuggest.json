@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{1} の {0}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::修正候補はありません。||1->2::{0} 個の修正候補があります: ||2->3::{0} 個の修正候補があります: ||3->INF::{0} 個の修正候補があります: ",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::{0} の正候補はありません。||1->2::{0} の {1} 個修正候補があります: ||2->3::{0} の {1} 個の修正候補があります: ||3->INF:: の {1} 個の修正候補があります{0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "名前のないグループ",
+  "autosuggest_sb_search_box_clear_button_label": "検索ボックスをクリア",
+  "autosuggest_sb_search_box_submit_button_label": "検索",
+  "autosuggest_sb_search_box_view_all_results_label": "Enter キーを押してすべての結果を表示",
+  "autosuggest_people_group_heading": "ユーザー",
+  "autosuggest_chats_group_heading": "グループ チャット",
+  "autosuggest_zero_term_group_aria_label": "最近の検索"
+}

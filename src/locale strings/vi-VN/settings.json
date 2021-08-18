@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Hệ thống",
+  "general_settings_system_auto_start_toggle": "Tự động khởi động Teams",
+  "notification_settings_details_message_preview_header_text": "Xem trước thư",
+  "notification_settings_edit_chat_button_aria_label": "Chỉnh sửa thông báo trò chuyện",
+  "notification_settings_details_chat_messages_text": "Tin nhắn",
+  "notification_settings_warning_windows_tfw": "Kiểm tra cài đặt thông báo Windows của bạn để đảm bảo bạn có thể nhận thông báo Teams. <0></0>",
+  "settings_loader_text": "Đang tải nội dung...",
+  "dropdown_settings_selected_text": "Đã chọn {{value}}",
+  "read_receipts_title": "Đọc biên nhận",
+  "read_receipts_description": "Hãy để mọi người biết khi nào bạn đã xem tin nhắn của họ và biết khi họ đã xem tin nhắn của bạn. Đóng và mở lại bất kỳ cửa sổ trò chuyện nào để cài đặt có hiệu lực trong các cuộc trò chuyện đó.",
+  "read_receipts_label": "Đọc biên nhận"
+}

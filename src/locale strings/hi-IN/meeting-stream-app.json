@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "स्ट्रीम URL",
+  "stream_url_placeholder": "स्ट्रीम URL दर्ज करें",
+  "stream_key_label": "स्ट्रीम कुंजी",
+  "stream_key_placeholder": "स्ट्रीम कुंजी दर्ज करें",
+  "start_streaming_button_text": "स्ट्रीम प्रारंभ करें",
+  "stop_streaming_button_text": "स्ट्रीमिंग बंद करें",
+  "custom_streaming_config_page_description": "कस्टम स्ट्रीमिंग RTMP द्वारा संचालित सार्वजनिक प्लेटफ़ॉर्म के लिए Teams मीटिंग को स्ट्रीम करने के लिए आपका उपकरण है",
+  "custom_streaming_config_page_first_greeting": "कस्टम स्ट्रीमिंग में आपका स्वागत है!",
+  "custom_streaming_config_page_second_greeting": "हमें खुशी है कि आप यहाँ हैं",
+  "custom_streaming_error_meeting_limit_reached": "इस मीटिंग को इसकी वर्तमान सेटिंग्स में स्ट्रीम नहीं किया जा सकता. कृपया सहभागियों को 1000 के अंतर्गत सीमित करें.",
+  "custom_streaming_error_permission_denied": "आपके पास स्ट्रीमिंग अनुमतियाँ नहीं हैं. इस सामग्री को स्ट्रीम करने के लिए कृपया अपने IT व्यवस्थापक या आयोजक से संपर्क करें",
+  "custom_streaming_error_outdated_client": "जारी रखने के लिए Teams को अद्यतन की आवश्यकता है. आपके पास नवीनतम सुविधाएँ हैं, यह सुनिश्चित करने के लिए अपने अनुप्रयोग को पुनरारंभ करें.",
+  "custom_streaming_error_unknown": "कुछ गलत हुआ. कृपया फिर से प्रयास करें.",
+  "custom_streaming_error_unsupported_platform": "यह सुविधा अभी तक ब्राउज़र में समर्थित नहीं है. Teams के डेस्‍कटॉप संस्करण से पुन: प्रयास करें.",
+  "custom_streaming_tab_title": "कस्टम रुप से स्ट्रीम करना"
+}

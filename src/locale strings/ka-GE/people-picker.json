@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "შეცდომა მოხდა და ჯგუფი ვერ დაემატა.",
+  "peoplePicker_dlTooManyMembers": "{{dlName}} ვერ დაემატა ({{dlMemberCount}}). თქვენ შეგიძლიათ საუბრის დაწყება მხოლოდ {{maxSize}} ან ნაკლებ ადამიანთან.",
+  "peoplePicker_focusSelectedUser": "{{username}}. წასაშლელად გამოიყენეთ უკუშლის ან წაშლის ღილაკები. საუბრის სხვა მონაწილეების სანახავად გამოიყენეთ მარცხენა ან მარჯვენა ისრები.",
+  "peoplePicker_loadingMessage": "იტვირთება...",
+  "peoplePicker_newAddGroupNameButtonContent": "დაამატეთ ჯგუფის სახელი",
+  "peoplePicker_collapseGroupNameButtonContent": "ჯგუფის სახელის აკეცვა",
+  "peoplePicker_federationWarning": "სასკოლო ან მსხვილი ორგანიზაციის ანგარიშებით საუბარი ჯერ არ არის ხელმისაწვდომი. შეიტყვეთ მეტი.",
+  "peoplePicker_noResults": "თანხვედრა ვერ მოიძებნა.",
+  "peoplePicker_resultsUpdationAriaLabel": "ძიების შედეგები განახლდა. ნავიგაციისთვის გამოიყენეთ ზედა და ქვედა ისრები, ასარჩევად - შეყვანის კლავიში.",
+  "peoplePicker_search_externally_btn_text": "მოძებნეთ {{email}} გარეთ",
+  "peoplePicker_tflToLinePlaceholder": "შეიყვანეთ სახელი, ელექტრონული ფოსტა ან ტელეფონის ნომერი",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "ამოშლა",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} შერჩეულია სიიდან.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} / {{resultCount}}-დან.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} წაიშალა სიიდან."
+}

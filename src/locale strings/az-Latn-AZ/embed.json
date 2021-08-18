@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "İnsan əlavə et",
+  "embed_go_back_button": "Geri qayıt",
+  "embed_provide_feedback": "Əks-əlaqə yazın:",
+  "embed_go_to": "{{title}} ünvanına keç",
+  "embed_open_inside": "Daxildə aç",
+  "embed_participants_in_chat": "İştirakçılar ({{membersCount}})",
+  "embed_pop_out_chat": "Söhbəti anidən görünən pəncərədə göstər",
+  "embed_pop_in_back": "Əsas pəncərəyə qayıt",
+  "embed_error_page_message": "Problemlə üzləşdik",
+  "embed_error_page_try_again_button": "Yenidən cəhd et",
+  "embed_chats": "Microsoft Teams Söhbətlər",
+  "embed_chat": "Microsoft Teams Söhbət"
+}

@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "किसी दूसरे खाते का उपयोग करें",
+  "tflFre_Learn_More_Link_caption": "इसे कौन देख सकता है",
+  "tflFre_OK_Button_caption": "आइए चलें",
+  "tflFre_dialog_Aria": "Teams में आपका स्वागत है. आप Teams में कैसे दिखाई देना चाहेंगे? लोग इस जानकारी का उपयोग कर आपको खोज सकते हैं",
+  "tflFre_header": "आपका स्वागत है",
+  "tflFre_phone_and_email_flyout": "अपने फ़ोन नंबर और ईमेल को प्रबंधित करने के लिए अपने Microsoft खाते पर जाएँ.",
+  "tflFre_who_can_see_this_flyout": "Teams पर अन्य लोग आपका नाम और Microsoft खाता चित्र देख सकेंगे. आपके फ़ोन नंबर और ईमेल का उपयोग करके भी लोग Teams पर आपको खोज सकते हैं.",
+  "tflFre_learn_more_link_text": "अधिक जानें",
+  "tflFre_sync_contacts_checkbox": "मेरे Skype और Outlook संपर्कों को उन लोगों को खोजने के लिए सिंक्रोनाइज़ करें जिन्हें मैं Teams पर जानता हूँ.",
+  "tflFre_people_Can_Search_For_You_Using": "लोग इस जानकारी का उपयोग करके आपको खोज सकते हैं:",
+  "tflFre_loading_spinner_text": "लोड हो रहा है...",
+  "tflFre_stamping_error_dialog_header": "आपकी प्रोफ़ाइल अपडेट करने में विफल",
+  "tflFre_stamping_error_dialog_body": "हम आपकी प्रोफ़ाइल जानकारी अपडेट नहीं कर सके. लॉग आउट करने और किसी दूसरे खाता का उपयोग करने के लिए ‘किसी दूसरे खाता का उपयोग करें’ चुनें. अपनी प्रोफ़ाइल अपडेट करने का पुनर्प्रयास करने के लिए ‘पुनर्प्रयास करें’ चुनें",
+  "tflFre_error_dialog_retry_button": "फिर से कोशिश करें",
+  "tflFre_error_dialog_sign_out_button": "किसी दूसरे खाता का उपयोग करें",
+  "tflFre_fetch_error_dialog_header": "आपकी प्रोफ़ाइल फ़ेच करने में विफल",
+  "tflFre_fetch_error_dialog_body": "हम आपकी प्रोफ़ाइल जानकारी फ़ेच नहीं कर सके. लॉग आउट करने और किसी दूसरे खाते का उपयोग करने के लिए ‘किसी दूसरे खाते का उपयोग करें’ चुनें.अपनी प्रोफ़ाइल फ़ेच करने का पुनर्प्रयास करने के लिए ‘पुनर्प्रयास करें’ चुनें",
+  "tflFre_welcome_edit_header": "Teams में आपका स्वागत है",
+  "tflFre_welcome_edit_second_header": "आप कैसे दिखाई देना चाहते हैं?",
+  "tflFre_phone_field_header": "फ़ोन",
+  "tflFre_email_field_header": "ईमेल"
+}

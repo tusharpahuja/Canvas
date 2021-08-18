@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL Stream",
+  "stream_url_placeholder": "Ketik URL Stream",
+  "stream_key_label": "Kunci Stream",
+  "stream_key_placeholder": "Ketik Kunci Stream",
+  "start_streaming_button_text": "Mulai streaming",
+  "stop_streaming_button_text": "Hentikan streaming",
+  "custom_streaming_config_page_description": "Streaming kustom adalah alat Anda untuk streaming rapat Teams ke platform publik yang didukung oleh RTMP",
+  "custom_streaming_config_page_first_greeting": "Selamat Datang di Streaming Kustom!",
+  "custom_streaming_config_page_second_greeting": "Kami senang Anda hadir",
+  "custom_streaming_error_meeting_limit_reached": "Rapat ini tidak bisa di-streaming dalam pengaturan saat ini. Batasi peserta di bawah 1000.",
+  "custom_streaming_error_permission_denied": "Anda tidak memiliki izin streaming. Hubungi administrator TI Anda atau penyelenggara untuk melakukan streaming konten ini",
+  "custom_streaming_error_outdated_client": "Teams memerlukan pembaruan untuk melanjutkan. Hidupkan ulang aplikasi untuk memastikan Anda memiliki fitur terbaru.",
+  "custom_streaming_error_unknown": "Terjadi kesalahan, coba lagi.",
+  "custom_streaming_error_unsupported_platform": "Fitur ini belum didukung di browser. Coba lagi dari versi desktop Teams.",
+  "custom_streaming_tab_title": "Streaming Kustom"
+}

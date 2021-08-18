@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Немає звіту для нарад наставника",
+  "coach_report_no_data_too_short": "Увімкніть Наставник для нарад більше ніж на 1 хвилину, щоб отримати доступ до звіту",
+  "coach_report_no_data_too_long": "На жаль, Наставник для нарад не підтримує наради довше 2 годин",
+  "coach_report_title": "Аналітичні дані з нарад наставника",
+  "coach_report_private_label": "Приватний",
+  "coach_report_settings": "Параметри",
+  "coach_report_subtitle": "* Звіт наставника доступний лише для вас.",
+  "coach_report_chart_title": "Пропозиції з наради",
+  "coach_report_card_checkbox": "Завжди зберігати та пропустити цей екран на майбутніх сеансах",
+  "coach_report_save_button": "Зберегти",
+  "coach_report_delete_button": "Видалити",
+  "coach_report_save_button_tooltip": "Знайти пізніше на сторінці наради",
+  "coach_report_feedback_before_submit": "Чи ці відомості корисні?",
+  "coach_report_feedback_after_submit": "Дякуємо за відгук!",
+  "coach_report_feedback_yes_button": "Так",
+  "coach_report_feedback_no_button": "Ні",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} з {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Назад",
+  "coach_report_next_critique_button": "Далі"
+}

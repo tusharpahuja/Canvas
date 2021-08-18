@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "Element {0} jest w miejscu {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Brak sugestii.||1->2::{0} dostępne sugestie: ||2->3::{0} dostępne sugestie: ||3->INF::{0} dostępne sugestie:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Brak sugestii dla {0}.||1->2::{1} dostępne sugestie dla {0}: ||2->3::{1} dostępne sugestie dla {0}: ||3->INF::{1} dostępne sugestie dla {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grupa bez nazwy",
+  "autosuggest_sb_search_box_clear_button_label": "Wyczyść pole wyszukiwania",
+  "autosuggest_sb_search_box_submit_button_label": "Wyszukaj",
+  "autosuggest_sb_search_box_view_all_results_label": "Naciśnij klawisz Enter, aby wyświetlić wszystkie wyniki",
+  "autosuggest_people_group_heading": "Osoby",
+  "autosuggest_chats_group_heading": "Czaty grupowe",
+  "autosuggest_zero_term_group_aria_label": "Ostatnie wyszukiwania"
+}

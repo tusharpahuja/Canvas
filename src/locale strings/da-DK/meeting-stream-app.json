@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL-adresse til Stream",
+  "stream_url_placeholder": "Angiv URL-adresse til Stream",
+  "stream_key_label": "Stream-nøgle",
+  "stream_key_placeholder": "Angiv Stream-nøgle",
+  "start_streaming_button_text": "Start streaming",
+  "stop_streaming_button_text": "Stop streaming",
+  "custom_streaming_config_page_description": "Brugerdefineret streaming er dit værktøj til at streame Teams-møder til offentlige platforme, der drives af RTMP",
+  "custom_streaming_config_page_first_greeting": "Velkommen til brugerdefineret streaming!",
+  "custom_streaming_config_page_second_greeting": "Vi er glade for at se dig",
+  "custom_streaming_error_meeting_limit_reached": "Dette møde kan ikke streames i de nuværende indstillinger. Begræns deltagerne til under 1000.",
+  "custom_streaming_error_permission_denied": "Du har ikke tilladelse til at streame. Kontakt din IT-administrator eller arrangøren for at streame dette indhold",
+  "custom_streaming_error_outdated_client": "Teams skal opdatere for at fortsætte. Genstart programmet for at sikre dig, at du har de nyeste funktioner.",
+  "custom_streaming_error_unknown": "Der gik noget galt. Prøv igen.",
+  "custom_streaming_error_unsupported_platform": "Denne funktion understøttes ikke endnu i browseren. Prøv igen fra skrivebordets version af Teams.",
+  "custom_streaming_tab_title": "Brugerdefineret streaming"
+}

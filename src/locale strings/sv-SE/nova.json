@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Logga ut",
+  "me_control_sign_out_button_aria_label": "Logga ut från Microsoft",
+  "me_control_my_microsoft_account_button_text": "Mitt Microsoft-konto",
+  "me_control_my_microsoft_account_button_aria_label": "Mitt Microsoft-konto",
+  "me_control_change_picture_aria_label": "Ändra profilfoto",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Profilmeny",
+  "app_bar_activity_app_name": "Aktivitet",
+  "app_bar_activity_app_arialabel": "Aktivitet",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# ny aktivitet} one {# nya aktiviteter} other{# nya aktiviteter}}",
+  "app_bar_activity_app_tooltip": "Aktivitet",
+  "app_bar_chat_app_name": "Chatt",
+  "app_bar_chat_app_arialabel": "Chatt",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# chatt med nya meddelanden} one {# chattar med nya meddelanden} other{# chattar med nya meddelanden}}",
+  "app_bar_chat_app_tooltip": "Chatt",
+  "app_bar_calendar_app_name": "Kalender",
+  "app_bar_calendar_app_arialabel": "Kalender",
+  "app_bar_calendar_app_tooltip": "Kalender",
+  "app_bar_calls_app_name": "Samtal",
+  "app_bar_calls_app_arialabel": "Samtal",
+  "app_bar_calls_app_tooltip": "Samtal"
+}

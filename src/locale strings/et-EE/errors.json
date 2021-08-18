@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Vabandust! Midagi läks valesti.",
+  "default_app_title": "Vabandust! Midagi läks valesti. (Rakenduse tõrked)",
+  "default_network_error_description": "Ilmnes võrguprobleem",
+  "default_network_error_title": "Ilmnes võrguprobleem",
+  "default_unknown_description": "Vabandust! Midagi läks valesti.",
+  "default_unknown_title": "Vabandust! Midagi läks valesti.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Vabandust! Midagi läks valesti. (Tuuma tõrked)",
+  "default_core_error_title": "Tõrkekood: tuumatõrked",
+  "default_fetch_description": "Vabandust! Midagi läks valesti. (CDL-i toomistõrked)",
+  "default_fetch_title": "Tõrkekood: CDL-i toomistõrked",
+  "default_service_description": "Vabandust! Midagi läks valesti. (CDL-i teenuse tõrked)",
+  "default_service_title": "Tõrkekood: CDL-i teenuse tõrked",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

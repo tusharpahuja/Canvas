@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Duke u ngarkuar...",
+  "lobby_screen_exit_message": "Dil nga salla e pritjes",
+  "calling_join_button_audio": "Merr pjesë në thirrjen me audio",
+  "calling_join_button_video": "Merr pjesë në thirrjen me video",
+  "calling_screen_meeting_id": "ID e takimit: {{conferenceId}}",
+  "meeting_room_present_content": "Prezanto",
+  "meeting_room_connected_device": "Pajisja e lidhur",
+  "meeting_room_content_camera": "Kamera e përmbajtjes",
+  "meeting_room_cortana_button_title": "Cortana"
+}

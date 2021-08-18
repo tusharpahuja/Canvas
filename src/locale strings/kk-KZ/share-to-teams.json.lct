@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="share-to-teams.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="kk-KZ" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";account_mismatch" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need to switch to the {{email}} account in Teams to share.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ортақ пайдалану үшін, Teams қолданбасында {{email}} тіркелгісіне ауысу қажетсіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[User logged in Teams client does not match user in Outlook. Need to switch to the {email} account in Teams to share.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";account_mismatch_generic" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need to switch accounts in Teams to share.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Бөлісу үшін Teams ішіндегі тіркелгілер арасында ауысуыңыз керек.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[User logged in Teams client does not match user in Outlook. Need to switch account in Teams to share.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";assign_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Assign]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Тағайындау]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to submit an assignment to be assigned]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download the desktop app for a faster Share to Teams experience.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams бағдарламасында бөлісудің жылдамырақ тәжірибесі үшін жұмыс үстелі бағдарламасын жүктеп алыңыз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String for Teams desktop app upsell]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_banner" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download the desktop app for a faster experience.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Жылдам жұмыс істеу үшін, классикалық бағдарламаны жүктеп алыңыз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String for Teams desktop app upsell banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_download_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download desktop app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Жұмыс үстелі бағдарламасын жүктеп алу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action to download desktop app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_download_now_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Қазір жүктеп алу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action to download desktop app now]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_sent_page" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For a faster experience,]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Жылдам жұмыс істеу үшін,]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String for Teams desktop app upsell on confirmation page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_sent_page_download" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[download the desktop app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[классикалық бағдарламаны жүктеп алу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link on confirmation page to download desktop]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_skip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue without downloading]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Жүктеп алуды жалғастыру]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link to Continue without downloading]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_action_create_assignment" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create an assignment]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Тапсырманы жасау]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Share action text to select when the user wants to create an assignment for a class]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_action_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[I want to]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Келесі әрекетті орындағым келеді:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Form label to indicate what share action the user wants to perform]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_action_make_announcement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to a channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Арнада бөлісу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Share action text to select when the user wants to share to a channel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_action_share" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to person, group, or channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Пайдаланушымен, топпен немесе арнамен бөлісу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Share action text to select when the user wants to share to a person, group, or channel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_assignment_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not share the assignment. Try sharing it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Тіркемелерді бөлісу мүмкін болмады. Қайта бөлісіп көріңіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error when sharing assignment fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_attachment_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Include attachments]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Тіркемелерді қосу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Checkbox for user to choose whether to include email attachments in the share. This shows only when it's sharing an email.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_attachment_size_limit_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attachments are too large to share.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Тіркемелер бөлісу үшін тым үлкен.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Notification message to indicate that attachments are too large, so they are not allowed to be shared.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Бөлісу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to submit content to be shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_close_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Жабу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button to close the pop-up window after the user has completed the action of sharing]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_permission_deny_tooltip_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have permission to grant access to these files:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Келесі файлдарға қатынасуға мүмкіндік беруге рұқсатыңыз жоқ:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown inside tooltip when sender doesn't have access to extend permissions to cloud files]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_recipients_permission_deny" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot grant access to recipients.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Алушыларға рұқсат беру мүмкін емес.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sender do not have permission to extend access for cloud files to recipients]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_recipients_permission_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[(Cannot verify permissions. Recipients might not have access.)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[(Рұқсаттарды тексеру мүмкін емес. Алушылардың қатынасуға рұқсаты болмауы мүмкін.)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when check access MT call fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_recipients_permission_grant" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[(Will grant access to the recipients)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[(Алушыларға қатынасу рұқсаты беріледі)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Selected recipients can be granted access for the cloudy files]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_show_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Толығырақ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show details of which cloud files can't be extended access]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_compose_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Say something about this]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Бұл туралы өз ойыңызды жазыңыз]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Form label to indicate where to compose a message regarding the content to be shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_compose_label_outlook" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Type a message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Хабарды теріңіз]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Form label to indicate where to compose a message regarding the email to be shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_create_assignment_view" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create Assignment View]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Тапсырма көрінісін жасау]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader text for the section of the form regarding creating assignments]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_channel_sharepoint_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're still setting up this team. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Бұл топтың параметрі әлі орнатылмады. Кейінірек қайталап көріңіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error when the channel sharepoint is not provisioned yet]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not share the mail. Try sharing it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Электрондық хабарды бөлісу мүмкін болмады. Қайта бөлісіп көріңіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error when sharing email fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_personal_sharepoint_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're still setting up your OneDrive. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[OneDrive параметрі әлі орнатылмады. Кейінірек қайталап көріңіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error when the personal sharepoint is not provisioned yet]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_preview_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't load email. Please close this window and try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Хабар жүктелмеді. Терезені жауып, әрекетті қайталап көріңіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when email preview generation fails.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_preview_loading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading email...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Электрондық хабар жүктелуде...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message shown when email preview is loading.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_could_not_get_teams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not get your teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Топтарыңызды алу мүмкін болмады]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when the experience is unable to fetch teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_could_not_get_teams_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Әрекетті кейінірек қайталаңыз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error to indicate that the user should try again later]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_could_not_get_url" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't get URL]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[URL мекенжайын алу мүмкін болмады]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when the experience is unable to get the url the user intended to share]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_could_not_get_url_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[While it's being fixed, try copying the URL from your browser and paste in Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ақау түзетілгенше, URL мекенжайын браузерден көшіріп алып, Teams-ке қойыңыз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error to indicate that the user should mitigate the error by taking the link they were trying to share and pasting into their desired teams chat through the web or desktop client]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_default" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was an error sharing your link to Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Сілтемені Microsoft Teams-те бөлісу кезінде қате пайда болды]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when a fatal error occurs and we are unable to display a more descriptive error message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_default_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Әрекетті қайталаңыз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error to indicate that the user should try again]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_itp_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to Teams is not able to run due to Safari's cross-site tracking privacy setting. To disable this setting, go to Safari > Preferences > Privacy and turn off "Prevent cross-site tracking".]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Safari-дің сайтаралық қадағалауының құпиялылық саясаттарына байланысты Teams-те бөлісу мүмкін емес. Бұл параметрді өшіру үшін "Safari > Параметрлер > Құпиялылық" тармағына өтіп, "Сайтаралық қадағалауға рұқсат бермеу" параметрін өшіріңіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when authentication is blocked by ITP]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_itp_tertiary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about this setting and how it affects your web browsing in Safari.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Бұл параметр және оның Safari-дегі жұмысыңызға қалай әсер ететіні туралы толығырақ.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error for a learn more link with details]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_login" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This account does not support Share to Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Бұл тіркелгі Teams қызметінде бөлісуге қолдау көрсетпейді.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when a fatal error occurs and we are unable login the user due to their account not being supported]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_login_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will need to sign in using your work or school account instead (if you have that kind of account). If you are not sure, or if you need help, contact your Microsoft 365 or Teams administrator.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Оның орнына жұмыс немесе мектеп тіркелгісін (осындай тіркелгілеріңіз бар болса) пайдалануыңыз қажет. Сенімді болмасаңыз немесе көмек қажет болса, Microsoft 365 немесе Teams әкімшісіне хабарласыңыз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error to detail steps the user should take to log in to the correct account. This experience only supports work or school accounts]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_unsupported_browser_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To share to Teams on the web you will need the latest version of Microsoft Edge, Chrome, or Firefox.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Интернеттегі Teams-те бөлісу үшін Microsoft Edge, Chrome, немесе Firefox браузерлерінің соңғы нұсқасы қажет.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed when the user visits the share experience using a web browser that are not supported, suggesting the alternatives that are supported]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_generic_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not share the link. Try sharing it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Сілтемені бөлісу мүмкін болмады. Оны қайта бөлісіп көріңіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error when sharing fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_go_to_teams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams жүйесіне өту]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action text when the user wants to go to the main teams client]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_message_size_limit" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need to shorten your message to send it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Жіберу үшін хабарыңызды қысқартыңыз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Warning message to indicate that the message content is too long and needs to be shortened]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_page_disabled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to Teams is temporarily disabled. We apologize for the inconvenience.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams-те бөлісу уақытша өшірілген. Қолайсыздықтар үшін кешірім сұраймыз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed when Share to Teams is temporarily disabled]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_page_tab_to_search" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tab to start searching]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Іздеуді бастау үшін Tab пернесін басу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is announced on page load for accessiblilty to let user know to press tab key to start searching]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_success" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your link has been shared.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Сілтемені бөлістіңіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message when the share action is completed successfully and the content is a link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_success_assignment" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your assignment has been created.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Тапсырма жасалды.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message when the share action is completed successfully and the content is an assignment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_success_email" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your email is on its way to Teams!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Электрондық хабарыңыз Teams-ке жіберілді!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message when API call to share email is successful]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_suggestion_label_email_recipients" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Participants from email]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Электрондық поштадағы қатысушылар]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The label for the suggested share recipients from the source email participants]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_suggestion_label_frequently_used" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Frequently shared to]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Жиі ортақ пайдаланылған]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The lable for the recipients who are frequently shared to]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_suggestion_label_recent_locations" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Recent locations]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Соңғы орындар]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The lable for the suggested recent locations]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Teams-те бөлісу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the experience]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_to_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Келесілермен бөлісу:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Form label to indicate to whom the content should be shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_to_teams_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams бағдарламасында бөлісу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The title for Share to Teams window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_user_profile_dialog_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[User profile and options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Пайдаланушы профилі және опциялар]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the pop-up dialog that shows a popup the current user's profile]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_user_profile_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[User Profile Menu]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Пайдаланушы профилінің мәзірі]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for a button that shows a popup with the current user's profile]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_warning_multiple_chat_disabled_users_removed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{usersCount}} users are not enabled for chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{usersCount}} пайдаланушы чатқа қосылмаған.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Users selected in search box are chat disabled and thus removed, {usersCount} is the number of removed users.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_warning_single_chat_disabled_user_removed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{userName}} is not enabled for chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{userName}} чатқа қосылмаған.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Users selected in search box are chat disabled and thus removed, {userName} is the name of the removed user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";third_party_notice" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third Party Notice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Үшінші тарап ескертпесі]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A link to a text file with licenses for all third party software used in the experience]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";thread_access_denied_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You are no longer a member of that channel or chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Сіз бұдан былай сол топтың немесе арнаның мүшесі емессіз.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error when use is no longer a member of that channel or chat]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

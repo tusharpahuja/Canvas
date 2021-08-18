@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="channels.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="es-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";email_sub_header_1_users_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_1_users_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_1_users_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_1_users_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_1_users_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_1_users_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_1_users_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, and 1 other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1} y 1 más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_1_users_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_1_users_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{otherUsersCount, plural, =0{To: {user1}} =1{To: {user1}, and 1 other} other{To: {user1}, and # others}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{otherUsersCount, plural, =0{To: {user1}} =1{To: {user1}, and 1 other} other{To: {user1}, and # others}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}, {user2} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}, {user2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, and 1 other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}, {user2} y 1 persona más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}, {user2} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_2_users_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{otherUsersCount, plural, =0{To: {user1}, {user2}} =1{To: {user1}, {user2}, and 1 other} other{To: {user1}, {user2}, and # others}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{otherUsersCount, plural, =0{To: {user1}, {user2}} =1{To: {user1}, {user2}, and 1 other} other{To: {user1}, {user2}, and # others}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}, {user2}, {user3} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, {user3}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}, {user2}, {user3}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, {user3}, and 1 other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}, {user2}, {user3} y 1 persona más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To: {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Para: {user1}, {user2}, {user3} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";email_sub_header_3_users_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{otherUsersCount, plural, =0{To: {user1}, {user2}, {user3}} =1{To: {user1}, {user2}, {user3}, and 1 other} other{To: {user1}, {user2}, {user3}, and # others}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{otherUsersCount, plural, =0{To: {user1}, {user2}, {user3}} =1{To: {user1}, {user2}, {user3}, and 1 other} other{To: {user1}, {user2}, {user3}, and # others}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";new_message_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nuevo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text for new messages]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, and 1 other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1} y 1 persona más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_1_users_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{otherUsersCount, plural, =0{{repliesCount} replies from {user1}} =1{{repliesCount} replies from {user1}, and 1 other} other{{repliesCount} replies from {user1}, and # others}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{otherUsersCount, plural, =0{{repliesCount} replies from {user1}} =1{{repliesCount} replies from {user1}, and 1 other} other{{repliesCount} replies from {user1}, and # others}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1}, {user2} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1} y {user2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and 1 other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1}, {user2} y 1 persona más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1}, {user2} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_2_users_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{otherUsersCount, plural, =0{{repliesCount} replies from {user1}, {user2}} =1{{repliesCount} replies from {user1}, {user2}, and 1 other} other{{repliesCount} replies from {user1}, {user2}, and # others}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{otherUsersCount, plural, =0{{repliesCount} replies from {user1}, {user2}} =1{{repliesCount} replies from {user1}, {user2}, and 1 other} other{{repliesCount} replies from {user1}, {user2}, and # others}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1}, {user2}, {user3} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1}, {user2} y {user3}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and 1 other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1}, {user2}, {user3} y 1 persona más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{repliesCount} replies from {user1}, {user2}, {user3}, and # others]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{repliesCount} respuestas de {user1}, {user2}, {user3} y # personas más]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown. (ICU){PlaceHolder="{repliesCount}"} (ICU){PlaceHolder="{user1}"} (ICU){PlaceHolder="{user2}"} (ICU){PlaceHolder="{user3}"} (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";response_summary_3_users_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{otherUsersCount, plural, =0{{repliesCount} replies from {user1}, {user2}, {user3}} =1{{repliesCount} replies from {user1}, {user2}, {user3}, and 1 other} other{{repliesCount} replies from {user1}, {user2}, {user3}, and # others}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{otherUsersCount, plural, =0{{repliesCount} replies from {user1}, {user2}, {user3}} =1{{repliesCount} replies from {user1}, {user2}, {user3}, and 1 other} other{{repliesCount} replies from {user1}, {user2}, {user3}, and # others}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_go_to_channel_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ir al canal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the button in channel pane L2 view to take the user back to the channel L1 view]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_view_chat_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View replies]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ver respuestas]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[View chat]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the button to navigate the user to the drill-down (L2) view from a post in the channel L1 view. View here indicates an action.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

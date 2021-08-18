@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Bir sorun oluştuğundan grup eklenemedi.",
+  "peoplePicker_dlTooManyMembers": "{{dlName}} ({{dlMemberCount}}) eklenemedi. Yalnızca {{maxSize}} veya daha az kişiyle sohbet başlatabilirsiniz.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Kaldırmak için Geri al veya Delete tuşunu kullanın. Diğer sohbet alıcıları için sol veya sağ ok tuşlarını kullanın.",
+  "peoplePicker_loadingMessage": "Yükleniyor...",
+  "peoplePicker_newAddGroupNameButtonContent": "Grup adı ekle",
+  "peoplePicker_collapseGroupNameButtonContent": "Grup adını daralt",
+  "peoplePicker_federationWarning": "Kurumsal veya okul hesaplarıyla sohbet etme henüz kullanılamıyor. Daha fazla bilgi edinin.",
+  "peoplePicker_noResults": "Eşleşme bulunamadı.",
+  "peoplePicker_resultsUpdationAriaLabel": "Arama sonuçları güncelleştirildi. Gezinmek için yukarı ve aşağı ok tuşlarını, seçmek için Enter tuşunu kullanın.",
+  "peoplePicker_search_externally_btn_text": "{{email}} içinde dışarıdan arama yap",
+  "peoplePicker_tflToLinePlaceholder": "Ad, e-posta veya telefon numarası girin",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Kaldır",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} listeden seçildi.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}}/{{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} listeden kaldırıldı."
+}

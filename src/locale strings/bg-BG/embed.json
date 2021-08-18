@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Добавяне на хора",
+  "embed_go_back_button": "Назад",
+  "embed_provide_feedback": "Предоставете вашата обратна връзка:",
+  "embed_go_to": "Към {{title}}",
+  "embed_open_inside": "Отваряне отвътре",
+  "embed_participants_in_chat": "Участници ({{membersCount}})",
+  "embed_pop_out_chat": "Изскачащ чат",
+  "embed_pop_in_back": "Интегриран прозорец обратно към основния прозорец",
+  "embed_error_page_message": "За съжаление се натъкнахме на проблем",
+  "embed_error_page_try_again_button": "Опитайте отново",
+  "embed_chats": "Разговори в Microsoft Teams",
+  "embed_chat": "Чат на Microsoft Teams"
+}

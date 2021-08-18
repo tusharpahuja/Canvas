@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Cychwyn Teams yn awtomatig",
+  "notification_settings_details_message_preview_header_text": "Rhagolwg o'r neges",
+  "notification_settings_edit_chat_button_aria_label": "Golygu hysbysiadau sgwrs",
+  "notification_settings_details_chat_messages_text": "Negeseuon",
+  "notification_settings_warning_windows_tfw": "Gwiriwch eich gosodiadau hysbysiadau Windows eto er mwyn sicrhau eich bod yn gallu cael hysbysiadau Teams. <0></0>",
+  "settings_loader_text": "Wrthi'n llwytho cynnwys...",
+  "dropdown_settings_selected_text": "Dewiswyd {{value}}",
+  "read_receipts_title": "Derbynebau darllen",
+  "read_receipts_description": "Rhowch wybod i bobl pan fyddwch wedi gweld eu negeseuon ac yn gwybod eu bod nhw wedi gweld eich un chi. Caewch ac ailagor unrhyw ffenestri sgwrsio er mwyn i'r gosodiad ddod i rym yn y sgyrsiau hynny.",
+  "read_receipts_label": "Derbynebau darllen"
+}

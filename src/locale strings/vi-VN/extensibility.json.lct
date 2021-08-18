@@ -1,0 +1,3102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="extensibility.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="vi-VN" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Platform_app_configuration_dialog_load_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong when loading tab configuration dialog, please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã xảy ra lỗi khi tải hộp thoại cấu hình tab, vui lòng thử lại sau.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown to user when loading tab configuration dialog fail without app definition or tab data]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";adaptive_card_tab_login_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign In]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đăng nhập]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Log In]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button content for log in button on adaptive card tab auth page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_attribution_header_actions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xem thêm tùy chọn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[title for more options menu in message cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_based_link_install_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{appName}} wants to show a preview of this link. By using the app you agree to its <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}} muốn hiển thị bản xem trước của liên kết này. Khi sử dụng, bạn đồng ý với <0></0> và <1></1> của ứng dụng.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text to get permission to show a link preview. appName: name of the app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_add_button_add" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thêm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Install the app to appropriate scope depending on the context]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_aria_label_close_dialog" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đóng hộp thoại]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for close dialog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_basic_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send me messages and notifications.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi tôi tin nhắn và thông báo.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[second basic permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_basic_full_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that I provide to it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhận tin nhắn và dữ liệu mà tôi cung cấp cho nó.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[first basic permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_bot" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bots]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bot]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for bots]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_bot_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat with the app to ask questions and find info]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trò chuyện với ứng dụng để đặt câu hỏi và tìm thông tin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of bots capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_connector" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Notifications]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thông báo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for connectors]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_connector_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get notifications from the app in a channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhận thông báo từ ứng dụng trong kênh]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of connectors]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_message_extension" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tin nhắn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for message extensions]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_message_extension_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Insert content from the app directly into messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chèn trực tiếp nội dung từ ứng dụng vào tin nhắn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of message extension]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_personal_app" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Personal app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ứng dụng cá nhân]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for personal apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_personal_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Keep track of important content and info]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Theo dõi thông tin và nội dung quan trọng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of personal apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tabs]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tab]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for Tabs]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_tab_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use in a tab at the top of a chat or channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sử dụng trong tab ở đầu cuộc trò chuyện hoặc kênh]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of tabs cabability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_chat_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages and notifications in a chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi tin nhắn và thông báo trong cuộc trò chuyện.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_chat_galleryTabs_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that chat members provide to it in a chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhận tin nhắn và dữ liệu mà các thành viên cung cấp trong cuộc trò chuyện.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[First chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_created_by" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Created by: <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Được tạo bởi: <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[developer of the app. <0></0> is the link to developer's website]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_full_screen_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Render personal apps and dialogues without a Teams-provided header.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kết xuất các ứng dụng cá nhân và đối thoại không có một tiêu đề được Teams cung cấp.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[fullscreen permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_chat_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access this chat's information such as chat name and roster (including chat member's names and email addresses) - and use this to contact them​.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Truy cập vào thông tin của cuộc trò chuyện này, chẳng hạn như danh sách người tham gia và tên cuộc trò chuyện (kể cả tên và địa chỉ email của thành viên cuộc trò chuyện), cũng như sử dụng để liên hệ với họ​.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The chat identity permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access my profile information such as my name, email address, company name and preferred language.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Truy nhập thông tin hồ sơ của tôi chẳng hạn như tên, địa chỉ email, tên công ty và ngôn ngữ ưa dùng của tôi.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[first team permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_team_and_chat_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access information from this team or chat such as team or chat name, channel list and roster (including team or chat member's names and email addresses) - and use this to contact them​.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Truy cập vào thông tin của nhóm hoặc cuộc trò chuyện này, chẳng hạn như tên nhóm hoặc cuộc trò chuyện, danh sách kênh và danh sách người tham gia (kể cả địa chỉ email và tên của thành viên nhóm hoặc cuộc trò chuyện), cũng như sử dụng để liên hệ với họ​.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The team and chat identity permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permission_message_send_organization" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages to anyone in your Teams organization.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi tin nhắn cho bất cứ ai trong tổ chức Teams của bạn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[permission string indicating ability to send messages to anyone in the user's Teams organization]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permission_teams_access" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Maintain access to the team's data.​]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Duy trì truy cập vào dữ liệu của nhóm.​]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Resource specific permission: Maintain access to the team's data.​]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permissions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Permissions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Quyền]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Permissions section content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_split_button_instruction_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[to open menu, press Alt + Arrow Down]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[để mở menu, nhấn Alt + Mũi tên xuống]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[message for using triggering the split button using keyboard shortcut]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_split_button_role_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[splitbutton]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[nút chia tách]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[message to be added for aria-roledescription property]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_team_and_chat_bots_connectors_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages and notifications in a channel or chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi tin nhắn và thông báo trong kênh hoặc cuộc trò chuyện.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second team and chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_team_and_chat_full_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that team or chat members provide to it in a channel or chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhận tin nhắn và dữ liệu mà thành viên nhóm hoặc cuộc trò chuyện cung cấp trong kênh hoặc cuộc trò chuyện.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[First team and chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using {{appName}}, you agree to the <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Khi sử dụng {{appName}}, bạn đồng ý với <0></0> và <1></1>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[terms of privacy of the app. {{appName}} is the name of the app. <0></0> is the link to the privacy statement. <1></1> is the link to the terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[chính sách về quyền riêng tư]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[điều khoản sử dụng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_version" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version {{appVersion}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Phiên bản {{appVersion}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{{appVersion}} is the version of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_app_carousel_get_card_position" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Card {{index}} out of {{size}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thẻ {{index}} trong số {{size}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[For screen reader announce the position of the current card. {{index}} is index of the focused carousel card. {{size}} means how many cards we have]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_app_information_dialog_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name}}, developer: {{developerName}},  description: {{longDescription}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}}, nhà phát triển: {{developerName}}, mô tả: {{longDescription}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[app information dialog aria label to be read by screen reader name - app name, developerName- app developer name and longDescription- app description]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_basicPermission_what_app_can_do" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Here's what this app can do:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dưới đây là điều ứng dụng này có thể làm:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the website banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_developer" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Created by ]A;{{developerName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tạo bởi ]A;{{developerName}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Created by {{developerName}}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[developer of the app. {{developerName}} is the name of the developer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_icons_send" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Send message to the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_imreceive" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive instant messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhận tin nhắn tức thời]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show Receive instant permission messages]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_imsend" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send instant messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi tin nhắn tức thời]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show Send instant permission messages]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_presence" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sẵn sàng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[presence of the bot, which is always available]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy statement]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Điều khoản về quyền riêng tư]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_quickMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Message {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi tin nhắn {{appName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message the app from app profile card object]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains 1 scene]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chứa 1 cảnh]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chứa # cảnh]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{sceneCount,plural, =1 {Contains 1 scene} other {Contains # scenes}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{sceneCount,plural, =1 {Contains 1 scene} other {Contains # scenes}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_terms_of_use" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Services agreement]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thỏa thuận dịch vụ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link to terms of use]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_toggleChat_on" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trò chuyện]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Chat with the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";botcards_o365_actionCard_title_required_interpolation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{title}} (Required)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{title}} (Bắt buộc)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Suffix interpolation used in title or placeholder for O365 actionable card if the input field is required]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_chat_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trò chuyện]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of chat action pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_files_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tệp]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of files pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_photos_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Photos]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ảnh]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of photos pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_location_bing_map" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đóng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for close action button at location map dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appPrivacyPolicyLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chính sách về quyền riêng tư]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app Privacy policy in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appPublishedByLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Published by {{publisher}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Được phát hành bởi {{publisher}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app publisher {{publisher}} in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appTermsOfUseLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Điều khoản sử dụng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app Terms of Use in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appVersionLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version {{version}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Phiên bản {{version}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app version {{version}} in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appWebsiteLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Website]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Website]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the Website in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_tabPrivacyMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using this tab, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bằng cách sử dụng tab này, bạn đồng ý với <0></0> và <1></1> của nhà phát triển.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[By using this tab, you agree to the developer's license terms and privacy statement.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the tab License terms and Privacy statement.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Có 1 kết quả, sử dụng phím mũi tên lên xuống để dẫn hướng. Nhấn phím Enter để chọn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Có # kết quả, sử dụng phím mũi tên lên xuống để dẫn hướng. Nhấn phím Enter để chọn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{resultCount, plural, =1{1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.} other{# results are available, use up and down arrow keys to navigate. Press the Enter key to select.} }]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{resultCount, plural, =1{1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.} other{# results are available, use up and down arrow keys to navigate. Press the Enter key to select.} }]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_failed_login" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in to {{name}} to see options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đăng nhập vào {{name}} để xem các tùy chọn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown asking the user to authenticate with the bot before using. {{name}} is the name of the bot.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_failed_ratelimit" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sorry, things got busy. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Rất tiếc, mọi thứ đang bận. Hãy thử lại sau.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when loading results from bot failed due to the bot being busy.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_loading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading options...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đang tải các tùy chọn...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when results are being fetched from the bot.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_loading_failed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to show options right now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Không thể hiển thị các tùy chọn ngay bây giờ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when loading results from bot failed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_image_expand_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enlarge this image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Phóng to hình ảnh này]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for image expand icon on adaptive card images]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_cancel_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hủy bỏ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog cancel action button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We need to ask for additional permissions. You should only need to do this once for {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi cần yêu cầu thêm quyền. Bạn chỉ phải thực hiện thao tác này một lần cho {{appName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog content. {{appName}} is name of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_continue_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tiếp tục]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog continue action button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Almost there!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn sắp hoàn tất!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for platform app auth consent]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_channel_tab_window_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{teamName}} / {{channelName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{teamName}} / {{channelName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Window title for tabs in channel. {{teamName}} is the name of the team that tab belongs to, {{channelName}} is the channel name inside the team where the tab is located ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_close_subentity_conversation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đóng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the subentity conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_copy_to_clipboard_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copied to clipboard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã sao chép vào bảng tạm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip shown to customer when they click copy tab link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem reaching this app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã xảy ra sự cố khi truy nhập ứng dụng này]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for extensibility platform]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_cancel_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[hủy bỏ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Force delete dialog cancel button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can permanently delete this tab; however, it may not delete the data in this app. If you require the data of this app to be permanently deleted, then you should avoid this step.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn có thể xóa vĩnh viễn tab này; tuy nhiên, thao tác đó có thể không xóa được dữ liệu trong ứng dụng này. Nếu bạn cần xóa vĩnh viễn dữ liệu của ứng dụng này thì hãy tránh thực hiện bước này.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Platform force delete tab dialog content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem removing this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã xảy ra sự cố khi xóa tab này]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Platform force delete tab dialog header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_remove_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[yes, remove tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[có, loại bỏ tab]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Force delete dialog remove button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_get_bots" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get bots]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tải bot]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in at-mentions to navigate to app store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_messageExtension_consent_message_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clicking <0></0> will add <1></1> to this chat. By using this app you agree to its <2></2> and <3></3>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhấn vào <0></0> sẽ thêm <1></1> vào cuộc trò chuyện này. Khi sử dụng ứng dụng này, bạn đồng ý với <2></2> và <3></3> của ứng dụng.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Clicking {{installButtonTitle}} will add {{appName}} to this chat. By using this app you agree to its <0></0> and <1></1>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicked on card action that is blocked. <0></0> is the label of install button from bot. <1></1> is the name of the app. <2></2> is the link to the privacy settings of the app. <3></3> is the terms of conditions of the app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_platform_app_information_dialog_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thông tin Ứng dụng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[app information dialog button aria label to be read by screen reader]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_create_scene_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create your own scene]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tạo cảnh của riêng bạn]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Create your scene]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the ink to app studio to create a scene]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[chính sách về quyền riêng tư]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_search_no_results_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't find any matches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi không tìm thấy kết quả khớp nào]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for scene picker search if no results]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_search_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search scenes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cảnh tìm kiếm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for scene picker search (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using {{sceneName}} scene, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bằng cách sử dụng cảnh {{sceneName}}, bạn đồng ý với <0></0> và <1></1> của nhà phát triển.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[terms of privacy of the app. {{sceneName}} is the name of the scene. <0></0> is the link to the privacy statement. <1></1> is the link to the terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[điều khoản sử dụng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_shareDeepLink_copyInstructions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Press Ctrl + C to get a link to this item that you can share with your teammates.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bấm Ctrl + C để nhận liên kết tới mục mà bạn có thể chia sẻ với các thành viên nhóm của mình.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that describes how to copy the deep link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_shareDeepLink_dialogTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy a link to "{{deepLinkLabel}} in {{deepLinkTabName}}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sao chép liên kết đến "{{deepLinkLabel}} trong {{deepLinkTabName}}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the share deep link dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_no_matches" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We didn't find any matches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi không tìm thấy kết quả nào phù hợp]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message when no matches in store search]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tìm kiếm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for store search bar (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_results_subtitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{totalItemsCount}} results]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{totalItemsCount}} kết quả]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The amount of items. {{totalItemsCount}} is the number of items]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_results_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results for "{{keyword}}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kết quả tìm kiếm cho "{{keyword}}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message for search results. {{keyword}} is the search keyword]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Store]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Store]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for store (object)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start conversation]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bắt đầu cuộc hội thoại]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label on the button to start the conversation in a tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Whatever you post here will also show up in the main channel.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mọi nội dung bạn đăng ở đây sẽ đều hiển thị trong kênh chính.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title shown when no coversation exist for a tab entity]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_init_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Added a new tab at the top of this channel. Here's a link.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã thêm tab mới ở đầu kênh này. Dưới đây là liên kết.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when the conversation about the tab is started]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go ahead and start talking!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tiếp tục và bắt đầu trò chuyện!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title shown when no coversation exist for a tab entity]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_websiteTab_closeWebsiteBanner" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đóng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the website banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_websiteTab_goToWebsiteLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[try opening it in a browser]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[dùng thử mở tệp trong trình duyệt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Try opening the website tab in a browser]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_website_tab_banner" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You’re viewing content from {{url}} —make sure you trust this site before using it. If the site isn't loading properly,]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn đang xem nội dung từ {{url}} — hãy chắc chắn rằng bạn tin cậy trang web này trước khi sử dụng. Nếu trang web này không tải đúng cách,]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[You’re viewing content from {{url}}—make sure you trust this site before using it. If the site isn't loading properly,]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner to be used in the website tab. {{url}} is the url loaded in the tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_noResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We didn't find any matches.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi không tìm thấy kết quả khớp nào.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown in any of the fun stuff pickers when zero results returned, text is also read by screen readers]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tìm kiếm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for search text box in Message Extension flyout (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_resultsUpdatedText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results updated, {{numResults}} available, use tab and arrow keys to navigate and enter to select]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã cập nhật kết quả tìm kiếm, hiện có {{numResults}}, hãy sử dụng phím tab và phím mũi tên dẫn hướng và nhập để chọn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text read by screen readers during searching when results are available. {{numResults}}: number of results.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_allow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Allow]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cho phép]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button title to allow bot file upload]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_decline" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Decline]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Từ chối]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button title to decline bot file upload]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{appName}} needs permission to upload this file to your OneDrive]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}} cần có quyền để tải tệp này lên OneDrive của bạn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title to show for file consent card. {{appName}} is the name of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";hosted_web_content_loading_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đang tải {{appName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced to user when loading hosted web content. {{appName}} is current hosted app name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_body_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check out other popular apps published by your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kiểm tra các ứng dụng phổ biến khác được Phát hành bởi tổ chức của bạn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notificaitons page body text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_settings_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[notification settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[cài đặt thông báo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page notification settings button content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can change your notification preferences from]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn có thể Thay đổi Tùy chọn thông báo của mình từ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page view in the store notification settings text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_view_in_store_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View in Store]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xem trong Store]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page view in store button content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_header_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your org has published a new app:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tổ chức của bạn đã Phát hành một ứng dụng mới:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page header text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_learn_more_hyperlink" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tìm hiểu thêm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Hyperlink to learn more]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staged_app_delete_app_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete submission]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xóa hoạt động gửi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in more options menu list for a staged app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staged_app_submission_deleted" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submission deleted]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã xóa nội dung gửi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown confirming that a staged app submission by a user was deleted]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your IT admin for approval and check the status of your submissions. Once approved, the app will be published to your org’s app catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi một ứng dụng cho quản trị viên CNTT của bạn để được phê duyệt và kiểm tra trạng thái nội dung gửi của bạn. Sau khi được phê duyệt, ứng dụng sẽ được phát hành cho ca-ta-lô ứng dụng của tổ chức bạn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for user owned staged apps page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_noSearchResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't find any matches for '{{searchString}}']]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi không tìm thấy bất kỳ kết quả phù hợp nào cho '{{searchString}}']]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text to show when there are no matching staged apps for the user's search. {{searchString}} is the term the user searched for.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_noStagedApps" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is the place to submit an app and check the status of your submissions. Once approved by your IT admin, your app will be featured under Apps > Tenant > Built for your organization.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đây là nơi để gửi ứng dụng và kiểm tra trạng thái các nội dung gửi của bạn. Sau khi được quản trị viên CNTT của bạn phê duyệt, ứng dụng của bạn sẽ được giới thiệu trong Ứng dụng > Bên thuê > Được xây dựng cho tổ chức của bạn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown when a user has no staged apps to be displayed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_search_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Find]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tìm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text in search box for staged apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_app" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ứng dụng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing app name and small image url]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_datetime" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last updated]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cập nhật gần nhất]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing the last updated datetime]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_status" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submission status]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trạng thái gửi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing review/submission status]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_version" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Phiên bản]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing app version]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More Options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xem thêm tùy chọn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label for the MenuButton trigger in the staged apps table]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_approved" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Approved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã chấp thuận]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app has been approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_pending" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pending]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đang chờ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app is yet to be approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_rejected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã từ chối]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app has been rejected by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_unknown" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unknown]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Không xác định]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app's review status is unknown]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_upgradepending" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upgrade Pending]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nâng cấp đang chờ xử lý]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when an upgrade to a staged app is waiting to be approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Staged Apps Table]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bảng Ứng dụng Theo giai đoạn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label of the table in staging apps component]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app for your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi ứng dụng cho tổ chức của bạn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for user owned staged apps page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_submit_to_app_catalog_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your IT admin for approval and check the status of your submissions. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi ứng dụng đến người quản trị CNTT của bạn để được phê duyệt và kiểm tra trạng thái gửi của bạn. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for submit to app catalog button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_submit_to_app_catalog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gửi ứng dụng đến tổ chức của bạn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for submit to app catalog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_custom_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload an app package (.zip file) for yourself or a team. This is a great way to test an app as it’s being developed. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tải lên gói ứng dụng (tệp .zip) cho chính bạn hoặc nhóm. Đây là cách tuyệt vời để kiểm tra ứng dụng trong khi đang phát triển. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for upload a custom app button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_custom_app_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload a custom app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tải lên ứng dụng tùy chỉnh]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for upload a custom app button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_tenant_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[As an admin, you can upload an app without approval from others. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Với tư cách là người quản trị, bạn có thể tải lên ứng dụng mà không cần phê duyệt từ những người khác. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for upload an app to the organization button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_tenant_app_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload an app to your org's app catalog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tải ứng dụng lên danh mục ứng dụng của tổ chức của bạn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for upload an app to the organization button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_apps_flyout_optimized_for_meetings_section_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Optimized for meetings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tối ưu hóa cho cuộc họp]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Section header in meeting apps flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_action_commands" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Action Commands]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lệnh hành động]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for the action commands menu in message extension flyout.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_auth_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need to <0></0> to use this app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn sẽ cần phải <0> </0> để sử dụng ứng dụng này.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text for auth flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_config_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need to <0></0> this app to use all of its features.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn sẽ cần phải <0> </0> ứng dụng này để sử dụng tất cả tính năng của ứng dụng.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text for config flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeExtensionUnpinFailureBannerMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong when unpinning {{appName}}, please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã xảy ra sự cố khi bỏ ghim {{appName}}, vui lòng thử lại sau.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner message shown when a compose extension app fails to be unpinned. {{appName}} is the app name that's being unpinned.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_about_link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[About]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Về]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link to open app about dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_back_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Back]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Quay lại]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Exit the app configuration and go back to previous window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_close_dialog" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close configuration dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đóng hộp thoại cấu hình]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for close configuration dialog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_save_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lưu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Save the app configuration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_apps_flyout_suggested_apps_section_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Suggested]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Được đề xuất]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Section header in platform apps flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_configuration_more_actions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More tab configuration actions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Các hành động cấu hình tab khác]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for tab configuration more actions menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_more_options" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tùy chọn khác]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for more options]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_reload_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Reload tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tải lại tab]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for reload tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_remove_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xóa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rename]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đổi tên]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for rename tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rename {{displayName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đổi tên {{displayName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for app rename dialog. {{displayName}} is tab's current name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_input_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tab name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tên tab]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for app rename input]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_start_presenting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start presenting {{appTitle}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bắt đầu trình bày {{appTitle}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Start presenting]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for start presenting button along with {{appTitle}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_update_settings_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cài đặt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for update tab settings menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The {{displayName}} tab will be permanently removed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tab {{displayName}} sẽ bị xóa vĩnh viễn.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove tab dialog. {{displayName}} is the current tab name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_remove_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xóa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove button at remove tab dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_removing_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Removing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đang xóa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove button at removing status]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Want to remove this tab?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn muốn xóa tab này?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for platform app remove tab dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_with_listeners_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove {{displayName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xóa {{displayName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for removing tab with listeners dialog. {{displayName}} is the current tab name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";saving_tab_configuration_footer_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Setting up your {{tabName}} tab ...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đang thiết lập tab {{tabName}} của bạn ...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Footer message shown after user clicks save button. {{tabName}} is current tab name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_location_bing_map" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share location]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chia sẻ vị trí]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for share location action button at location map dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Store Banner]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Biểu ngữ Microsoft Store]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the store banner carousel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[VIEW DETAILS]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[XEM CHI TIẾT]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Button text displayed in the store banner carousel for featured apps. Click triggers app details dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_pause_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pause]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tạm dừng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Pause store banner carousel auto play]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_play_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Play]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Phát]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Auto play store banner caoursel one by one]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_bot_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bot]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bot]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Bot]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_certified_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Certified]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Được chứng nhận]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Certified]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_connector_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trình kết nối]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Connector]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_groupchat_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Group Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cuộc trò chuyện nhóm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter groupChat (object)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_meeting_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cuộc họp]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_messageextension_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messaging]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nhắn tin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter messaging]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_personal_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Personal]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cá nhân]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Personal]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_tab_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tab]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter ({{filterAmount}})]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bộ Lọc ({{filterAmount}})]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store filter (object).{{filterAmount}} is the number of filters]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter_capabilities" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App features]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tính năng ứng dụng]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Capabilities]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter_clear" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xóa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Clear all capabilities]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_item_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[store item button]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[nút lưu trữ mục]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria label for store item button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_manage_apps_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage your apps]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Quản lý ứng dụng của bạn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the button to go to the manage apps section]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_provider_powerapps_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Apps]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Power Apps]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the Power Apps provider section in Store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_provider_team_templates_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Team Templates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mẫu Nhóm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the Team Templates provider section in Store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_see_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xem thêm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[See more button on left rail]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_configuration_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Configured tab successfully]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã định cấu hình tab thành công]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced after configuring tab successfully]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_framework_save_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't save your tab settings. Please try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi không thể lưu cài đặt tab của bạn. Vui lòng thử lại.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error text shown to the user whenever we fail to save their tab settings (on both new tab creation and when editing an existing tab's properties).]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_post_to_channel_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Post to the channel about this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đăng lên kênh về tab này]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for post the tab to channel checkbox]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_post_to_chat_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Post to the chat about this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đăng lên cuộc trò chuyện về tab này]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for post the tab to chat checkbox]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_remove_fail_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't remove your tab. Please try later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chúng tôi không thể xóa Tab của bạn. Vui lòng thử lại sau.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when removing tab fail.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_remove_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Removed tab successfully]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xóa tab thành công]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced after removing tab successfully]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_rename_duplicate_name_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You already have a tab with that name. Try a different one.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bạn đã có tab có tên đó. Hãy thử một tên khác.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for app rename input name is duplicated with existing ones]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_rename_empty_name_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Name is required]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tên là bắt buộc]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for app rename input name is empty]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trò chuyện]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Chat action placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_files" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tệp]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_meeting_notes" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting Notes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ghi chú Cuộc họp]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Meeting notes placeholder tab used for rename appt]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_whiteboard" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Whiteboard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bảng trắng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Whiteboard placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_location_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Location]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vị trí]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Noun: Header title for the Location app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1 more person]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[1 người khác]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[# người khác]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{morePersonasCount,plural, =1 {1 more person} other {# more people}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{morePersonasCount,plural, =1 {1 more person} other {# more people}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_safe_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Safe]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[An toàn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Noun: Header test for the Safe (like in safe-box) app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_tasks_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tasks]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tác vụ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header test for the Tasks app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_unsupported_media_element" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Media playback is currently not supported in Adaptive Cards in Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tính năng phát lại phương tiện hiện không được hỗ trợ trong Thẻ thích ứng trong Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed as fallback element for media elements in adaptive cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Done]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã xong]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message shown on successful card action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_unsupported_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This card action is not supported by {{appName}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hành động thẻ này không được {{appName}} hỗ trợ.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action which is not supported by the app. {{appName}} is the name of app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_unsupported_noapp" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This action can't be performed since the app does not exist or has been uninstalled.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Không thể thực hiện hành động này vì ứng dụng không tồn tại hoặc đã bị gỡ cài đặt.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action which is not supported because app does not exist or uninstalled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_blocked_by_policy_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This bot is disabled. Contact your IT admin for more information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bot này đã bị vô hiệu hóa. Liên hệ với quản trị viên IT của bạn để biết thêm thông tin.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The card action is blocked because app has been blocked by your administrator]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicked on card action that is blocked]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_blocked_by_user_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This card action is disabled because you've blocked {{appName}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thẻ hành động này bị tắt vì bạn đã chặn {{appName}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action buttons when bot is blocked by user. {{appName}} is the name of app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_action_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Success]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thành công]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message shown on successful card action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_header_app_install_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tải ứng dụng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the card header install app action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_link_actions_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is a card action with a link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đây là một hành động thẻ với một liên kết]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to append to the title of an open url/ sign in button or tap action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_refresh_button_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Refresh]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Làm mới]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the refresh button in card]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_jit_install_failure_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong. Make sure you've successfully added the app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đã xảy ra lỗi. Hãy đảm bảo bạn đã thêm ứng dụng thành công.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when the user does not install the app needed for the action to execute]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_task_module_close_button_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Đóng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the close button in task module dialog header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_unsupported_card_action_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Return to the main window to perform this action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Quay lại cửa sổ chính để thực hiện hành động này.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when the user clicks on a card action that is not supported in multi window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_unsupported_task_module_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unsupported task module content]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nội dung mô-đun tác vụ không được hỗ trợ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when task module content is unsupported]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ubar_add_apps_btn_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add an app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thêm ứng dụng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Add an app button on Ubar overflow menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ubar_overflow_menu_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thêm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More button on Ubar overflow menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";unable_to_save_tab_configuration_footer_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to save {{tabName}} tab configuration.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Không thể lưu cấu hình tab {{tabName}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when save tab call fail. {{tabName}} is current tab name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_add_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thêm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_add_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add {{app}} to use these filter effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Thêm {{app}} để sử dụng các hiệu ứng bộ lọc này]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for add app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[chính sách về quyền riêng tư]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement showing on video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By adding this app, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bằng cách thêm ứng dụng này, bạn đồng ý với <0></0> và <1></1> của nhà phát triển.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Terms and privacy description of video app showing on installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[điều khoản sử dụng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement showing on video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_av_filters_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{filterName}} from {{app}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{filterName}} Từ {{app}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Filter name announced in screen reader and tooltip. {{filterName}} is name of filter, {{app}} is name of app that contributed the filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_av_filters_button_aria_label_is_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{filterName}} from {{app}} is selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{filterName}} từ {{app}} Được chọn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Filter name announced in screen reader when it is selected. {{filterName}} is name of filter, {{app}} is name of app that contributed the filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_clear_customization_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear All Effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xóa Tất cả Hiệu ứng]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for clear button that clears both bacakground filter and customized video effects]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_clear_customization_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xóa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for clear button that clears both bacakground filter and customized video effects]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_hide_customization_panel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hide video effects customization panel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ẩn pa nen tùy chỉnh hiệu ứng video]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for video effects customization button when customization panel is open]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_effects_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xem thêm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in video effect quick picker to navigate video effect side panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_av_filters_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filters]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bộ lọc]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of A/V filters panel in accordion showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_backgrounds_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Backgrounds]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nền]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of backgrounds panel in accordion showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Video effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hiệu ứng video]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header text showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Xem thêm]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More Button text showing on two accordion panels inside of video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_more_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More Effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hiệu ứng khác]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More Button text showing on two accordion panels inside of video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_show_customization_panel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show video effects customization panel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hiển thị pa nen tùy chỉnh hiệu ứng video]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for video effects customization button when customization panel is hidden]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

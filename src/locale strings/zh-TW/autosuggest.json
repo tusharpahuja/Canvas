@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{1} 中有 {0} 個",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::沒有建議。||1->2::{0} 個可用建議: ||2->3::{0} 個可用建議: ||3->INF::{0} 個可用建議:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::沒有 {0} 的建議。||1->2::{1} 個 {0} 的建議: ||2->3::{1} 個 {0} 建議: ||3->INF::{1} 個 {0} 建議:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "未命名的群組",
+  "autosuggest_sb_search_box_clear_button_label": "清除搜尋方塊",
+  "autosuggest_sb_search_box_submit_button_label": "搜尋",
+  "autosuggest_sb_search_box_view_all_results_label": "按 Enter 以檢視所有結果",
+  "autosuggest_people_group_heading": "人員",
+  "autosuggest_chats_group_heading": "群組聊天",
+  "autosuggest_zero_term_group_aria_label": "最近的搜尋"
+}

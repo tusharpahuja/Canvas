@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Nema dostupnih izvješća o treneru za sastanke",
+  "coach_report_no_data_too_short": "Neka trener za sastanke bude uključen dulje od 1 minute da biste pristupili izvješću",
+  "coach_report_no_data_too_long": "Nažalost, trener za sastanke ne podržava sastanke koji su dulji od 2 sata",
+  "coach_report_title": "Insights – trener za sastanke",
+  "coach_report_private_label": "Privatni",
+  "coach_report_settings": "Postavke",
+  "coach_report_subtitle": "*Izvješće o Treneru vidljivo je samo vama.",
+  "coach_report_chart_title": "Prijedlozi iz vašeg sastanka",
+  "coach_report_card_checkbox": "Uvijek spremite i preskočite ovaj zaslon za buduće sesije",
+  "coach_report_save_button": "Spremi",
+  "coach_report_delete_button": "Izbriši",
+  "coach_report_save_button_tooltip": "Pronađite ga kasnije na stranici sastanka",
+  "coach_report_feedback_before_submit": "Je li vam to bilo korisno?",
+  "coach_report_feedback_after_submit": "Hvala vam na povratnim informacijama",
+  "coach_report_feedback_yes_button": "Da",
+  "coach_report_feedback_no_button": "Ne",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} od {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Prethodni",
+  "coach_report_next_critique_button": "Sljedeći"
+}

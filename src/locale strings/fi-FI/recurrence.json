@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Pidetään päivittäin} =2{Pidetään joka toinen päivä} one {Pidetään joka #. päivä} other{Pidetään joka #. päivä}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Pidetään viikoittain seuraavina päivinä: {days}} =2{Pidetään joka toinen viikko seuraavina päivinä: {days}} one {Pidetään joka #. viikko seuraavina päivinä: {days}} other{Pidetään joka #. viikko seuraavina päivinä: {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Pidetään joka kuukauden {day}. päivänä} =2{Pidetään joka toisen kuun {day}. päivänä} one {Pidetään # kuukauden välein {day}. päivänä} other{Pidetään # kuukauden välein {day}. päivänä}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Pidetään joka kuukauden {weekInMonthIndex} {weekday}} =2{Pidetään joka toisen kuukauden {weekInMonthIndex}{weekday}} one {Pidetään # kuukauden välein {weekInMonthIndex} {weekday}na} other{Pidetään # kuukauden välein {weekInMonthIndex} {weekday}na}}",
+  "meeting_recurrence_pattern_yearly": "Toistuu vuosittain {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Toistuu aina {{month}}n {{dayOfTheWeekIndex}}. {{dayOfTheWeek}}na"
+}

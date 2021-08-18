@@ -1,0 +1,20 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{To: {user1}} =1{To: {user1}, and 1 other} other{To: {user1}, and # others}}",
+  "_email_sub_header_1_users_mf.comment": "Sub-header text for emails to channels showing the 1 user (user1) on the to-line as well as the number of users (otherUsersCount) not shown",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{To: {user1}, {user2}} =1{To: {user1}, {user2}, and 1 other} other{To: {user1}, {user2}, and # others}}",
+  "_email_sub_header_2_users_mf.comment": "Sub-header text for emails to channels showing the 2 users (user1 & user2) on the to-line as well as the number of users (otherUsersCount) not shown",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{To: {user1}, {user2}, {user3}} =1{To: {user1}, {user2}, {user3}, and 1 other} other{To: {user1}, {user2}, {user3}, and # others}}",
+  "_email_sub_header_3_users_mf.comment": "Sub-header text for emails to channels showing the 3 users (user1, user2, & user3) on the to-line as well as the number of users (otherUsersCount) not shown",
+  "new_message_label": "New",
+  "_new_message_label.comment": "Label text for new messages",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} replies from {user1}} =1{{repliesCount} replies from {user1}, and 1 other} other{{repliesCount} replies from {user1}, and # others}}",
+  "_response_summary_1_users_mf.comment": "Response summary text showing repliesCount # of replies from 1 user (user1) as well as the number of users (otherUsersCount) not shown.",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} replies from {user1}, {user2}} =1{{repliesCount} replies from {user1}, {user2}, and 1 other} other{{repliesCount} replies from {user1}, {user2}, and # others}}",
+  "_response_summary_2_users_mf.comment": "Response summary text showing repliesCount # of replies from 2 users (user1, user2) as well as the number of users (otherUsersCount) not shown.",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} replies from {user1}, {user2}, {user3}} =1{{repliesCount} replies from {user1}, {user2}, {user3}, and 1 other} other{{repliesCount} replies from {user1}, {user2}, {user3}, and # others}}",
+  "_response_summary_3_users_mf.comment": "Response summary text showing repliesCount # of replies from 3 users (user1, user2, user3) as well as the number of users (otherUsersCount) not shown.",
+  "tmp_view_chat_button_text": "View replies",
+  "_tmp_view_chat_button_text.comment": "Text for the button to navigate the user to the drill-down (L2) view from a post in the channel L1 view. View here indicates an action.",
+  "tmp_go_to_channel_button_text": "Go to channel",
+  "_tmp_go_to_channel_button_text.comment": "Text for the button in channel pane L2 view to take the user back to the channel L1 view"
+}

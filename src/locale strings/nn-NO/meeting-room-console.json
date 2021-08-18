@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Lastar inn...",
+  "lobby_screen_exit_message": "Avslutt Lobby",
+  "calling_join_button_audio": "Bli med i samtale med lyd",
+  "calling_join_button_video": "Bli med i samtale med video",
+  "calling_screen_meeting_id": "Møte-ID: {{conferenceId}}",
+  "meeting_room_present_content": "Presenter",
+  "meeting_room_connected_device": "Tilkopla eining",
+  "meeting_room_content_camera": "Innhaldskamera",
+  "meeting_room_cortana_button_title": "Cortana"
+}

@@ -1,0 +1,1611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="framework.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="sr-Latn-RS" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ćaskanje]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The string for chat sub section of the settings app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";about" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[About Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O aplikaciji Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the About Teams section of the settings app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";accessibility" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Appearance and accessibility]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Izgled i pristupačnost]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the Appearance And Accessibility section of the settings app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_item_mark_as_read" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mark as read]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Označi kao pročitano]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Mark as read text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_item_mark_as_unread" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mark as unread]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Označi kao nepročitano]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Mark as unread text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";animation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Animation]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Animacija]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text on header object in settings appearance section]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{title}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{title}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{title}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Application title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_placeholder_tfl" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search for people and chats]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pretražite osobe i ćaskanja]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for TFL powerbar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meetings - Audio]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastanci – zvuk]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Meetings Audio.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_11" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ostalo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues not covered by other categories.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_14" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meetings - Live captions or transcript]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastanci – natpisi uživo ili prepiska]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Meetings Live Captions or Transcript.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_17" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Accessibility]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pristupačnost]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with accessibility.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_18" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Calendar]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kalendar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with calendar.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_19" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meetings - Other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastanci – drugo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with meetings not covered by other categories.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meetings - Video or screen sharing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastanci – deljenje video zapisa ili ekrana]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Meetings Video or Screen Sharing.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_25" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messaging - Sync]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Razmena poruka – sinhronizacija]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Messaging Sync.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_26" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People & profiles]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ljudi i profili]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with loading people and profiles.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_27" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Status & presence]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Status i prisutnost]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with presence.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_3" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Calling - Call drops]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pozivanje – prekidi poziva]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Calling Call Drops.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_31" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messaging - Create new or edit]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Razmena poruka – Kreiranje nove ili uređivanje]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with composing messages in the text box or editing sent messages.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_33" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tasks]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zadaci]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Tasks app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_34" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Better Together]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bolje zajedno]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Better Together]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_35" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Lists]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Liste]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Lists app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_36" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Approvals]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odobrenja]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Approvals app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_38" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Calling - Other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pozivanje – drugo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Calling - Other]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_39" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Performance]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Performanse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with performance.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_40" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messaging - Chat window]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Razmena poruka – Prozor ćaskanja]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with messaging chat window.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_41" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messaging - Missing or delayed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Razmena poruka – Nedostaje ili odložena]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with missing or delayed messages.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_44" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meetings - Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastanci – ćaskanje]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Meetings - Chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_47" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meetings - Join experience]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastanci – iskustvo pridruživanja]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Meetings - Join experience]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_48" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meetings - Gallery views]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastanci – prikazi galerije]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Meetings - Gallery views]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_49" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Calling - Audio]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pozivanje – zvuk]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with Calling - Audio]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_5" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messaging - Other]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Razmena poruka – Drugo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with messaging issues not covered by other categories.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_50" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Calling - Video or screen sharing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pozivanje – deljenje video zapisa ili ekrana]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with messaging issues with Calling - Video or screen sharing.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_51" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Authentication]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Potvrda identiteta]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with authentication token fetch failures.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_6" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Notifications & feed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obaveštenja i feed]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with notifications and feed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_7" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Crashing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pad]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with crashing.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_category_9" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pretraži]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of BRB category option, used in the BRB category selection drop down. Refers to issues with search. object]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_disclaimer" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[NOTE: Data sent in feedback submissions will be "Support Data" under your agreement for Microsoft 365, including any information that would otherwise be considered "Customer Data" or "Personal Data". Please do not submit feedback that may include data you do not wish to provide to Microsoft as "Support Data".]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[NAPOMENA: Podaci poslati u okviru prosleđivanja povratnih informacija biće „podaci podrške“ u sklopu ugovora za Microsoft 365, uključujući sve informacije koje bi se, u suprotnom, smatrale „podacima klijenta“ ili „ličnim podacima“. Ne prosleđujte povratne informacije koje mogu da sadrže podatke koje ne želite da dostavite kompaniji Microsoft kao „podatke podrške“.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the logs collection disclaimer.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_disclaimer_tfl" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your log files will be submitted to help the Teams engineering team investigate your problem. Logs and screenshots may include personally identifiable information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vaše datoteke evidencije će biti prosleđene kako biste pomogli Teams inženjerskom timu da ispita vaš problem. Evidencije i snimci ekrana mogu sadržati podatke o ličnosti.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the logs collection disclaimer for TFL.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_feedback_uploading_complete" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The logs for the problem you reported have been successfully uploaded.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Evidencije za problem koji ste prijavili uspešno su otpremljene.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner text when application finished uploading feedback]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_feedback_uploading_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to send the logs for the problem you reported. Try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nije moguće poslati evidencije za problem koji ste prijavili. Pokušajte ponovo.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner text when error happens on feedback and logs upload.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_feedback_uploading_in_progress" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The logs for the problem you reported are uploading...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Evidencije za problem koji ste prijavili se otpremaju...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner text when feedback and logs are being uploaded]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_cancel_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otkaži]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the brb dialog cancel button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_disclaimer_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Disclaimer]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odricanje odgovornosti]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Disclaimer text for the Brb dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_dropdown_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please select an option]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Izaberite opciju]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for brb dialog dropdown]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_dropdown_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[What is this related to? (Required)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Na šta se ovo odnosi? (obavezno)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text title for the brb dialog dropdown]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_footnote_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We'll automatically include logs.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Automatski ćemo uključiti evidencije.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Footnote text for the Brb dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Having trouble? Tell us about it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Imate problema? Recite nam više o tome.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for Brb dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_heapsnapshot_checkbox_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Include memory trace and heap snapshot, it will help us investigate the memory issue.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Include memory trace and heap snapshot, it will help us investigate the memory issue.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Heap snapshot checkbox label for the Brb dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_heapsnapshot_hint_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The information provided will be scrubbed for any data recognized as personally identifying data prior to upload for troubleshooting, but may contain traces of user content.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obezbeđene informacije će biti uklonjene za sve podatke prepoznate kao lični identifikacioni podaci pre otpremanja radi rešavanja problema, ali one mogu sadržati tragove korisničkog sadržaja.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Heap snapshot hint text for the Brb dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_send_to_microsoft" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send to Microsoft]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pošalji korporaciji Microsoft]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the brb dialog Send to Microsoft button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_text_area_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Leave a more detailed description]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ostavite detaljniji opis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for brb dialog text area]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";brb_form_text_area_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[What are you seeing? Has it always been that way? (Required)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Šta vidite? Da li je uvek bilo tako? (obavezno)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text title for the brb dialog text area]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";breadcrumb_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Return to {{content}} settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vratite se na podešavanja {{content}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria label for breadcrumb component in the settings header, content = settings category in settings header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";calendar" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Calendar]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kalendar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the Calendar section of the settings app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";carousel_close" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zatvori]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label of a carousel navigation button for closing]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";carousel_next" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Next]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sledeći]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label of a carousel navigation button for going to the next slide]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";carousel_prev" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Previous]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prethodni]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label of a carousel navigation button for going to the previous slide]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";child_window_send_feedback_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Report a problem]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prijavite problem]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Send feedback]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for button in child window that opens feedback dialog in main window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";child_window_send_feedback_info_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Having trouble with the experience? Tell us about it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Imate problema sa iskustvom? Recite nam nešto o tome.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to give users context for the 'Report a problem' button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";child_window_zoom_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Zoom]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zoom]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for button in child window that changes window size]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";comingsoon" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Coming soon]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Stiže uskoro]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The string for a tooltip over the button saying that the functionality would be coming soon]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dark" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Dark]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tamno]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of dark theme in settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";default_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We are sorry - We've run into an issue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Žao nam je – naišli smo na problem]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[default error boundry text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dialog_error_cancel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otkaži]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text for 'cancel' button on error dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dialog_error_message_generic" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't complete that action]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nismo uspeli da dovršimo tu radnju]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[error to be displayed if there is an error with the dialog/modal content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dialog_error_message_lightbox" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to open an image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otvaranje slike nije uspelo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[error to be displayed if there is an error with a lightbox image]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dialog_error_message_settings" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was an error loading the content.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Došlo je do greške pri učitavanju sadržaja.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[error to be displayed if there is an error with loading any of the settings content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dialog_error_message_settings_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've run into an issue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naišli smo na problem]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[title of error message to be displayed if there is an error with loading any of the settings content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";dialog_lightbox_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Opened Image Detail]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Detalji o otvorenoj slici]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[title for lightbox dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";duration_full_mf" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{negative, select, 1{-} other{}} {day, plural, =0{} one{# day} other{# days}} {hour, plural, =0{} one{# hour} other{# hours}} {min, plural, =0{} one{# minute} other{# minutes}} {sec, plural, =0{} one{# second} other{# seconds}} {ms, plural, =0{} one{# millisecond} other{# milliseconds}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{negative, select, 1{-} other{}} {day, plural, =0{} one{# dan} few{# dana} other{# dana}} {hour, plural, =0{} one{# čas} few{# časa} other{# časova}} {min, plural, =0{} one{# minut} few{# minuta} other{# minuta}} {sec, plural, =0{} one{# sekunda} few{# sekunde} other{# sekundi}} {ms, plural, =0{} one{# milisekunda} few{# milisekunde} other{# milisekundi}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[duration string; negative can be just 0 or 1 where 1 means time to start (negative time) while 0 means duration (positive time); day = number of days; hour = number of hours; minute = number of minutes; second = number of seconds; ms = number of milliseconds]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";duration_time_hours" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{hour}}:{{min}}:{{sec}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{hour}}:{{min}}:{{sec}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[duration string formatted as time; negative can be just 0 or 1 where 1 means time to start (negative time) while 0 means duration (positive time); hour = number of hours; min = locale string for number of minutes; sec = locale string for number of seconds]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";duration_time_negative_hours" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[-{{hour}}:{{min}}:{{sec}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[-{{hour}}:{{min}}:{{sec}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[duration string formatted as time; negative can be just 0 or 1 where 1 means time to start (negative time) while 0 means duration (positive time); hour = number of hours; min = locale string for number of minutes; sec = locale string for number of seconds]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";duration_time_negative_no_hours" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[-{{min}}:{{sec}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[-{{min}}:{{sec}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[duration string formatted as time; negative can be just 0 or 1 where 1 means time to start (negative time) while 0 means duration (positive time); min = locale string for number of minutes; sec = locale string for number of seconds]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";duration_time_no_hours" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{min}}:{{sec}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{min}}:{{sec}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[duration string formatted as time; negative can be just 0 or 1 where 1 means time to start (negative time) while 0 means duration (positive time); min = locale string for number of minutes; sec = locale string for number of seconds]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";follow_os_theme" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Follow operating system theme]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prati temu operativnog sistema]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of checkbox object in setting appearance section]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";friendly_date_yesterday_timestamp" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Yesterday {{timestamp}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Juče u {{timestamp}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[when the call is from yesterday, we show the string yesterday + timestamp (e.g. Yesterday 3:44 PM)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";general" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[General]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opšte]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the General section of the settings app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";high_contrast" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[High contrast]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Visoki kontrast]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of high contrast theme in settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";languages_settings_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App language]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jezik aplikacije]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label used for the language header section in general settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";light" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Light]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Svetlo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of default theme in settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meetnow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meet]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastani se]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Meet now]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The string for a button to start a meeting button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Više opcija]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for more-options menu in multi-window title bar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_about" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[About]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[O programu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - About]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_check_for_updates" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check for updates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Proveri da li postoje ispravke]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Check for updates]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_desktop_browser_third_party_notice" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third party notice (web)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obaveštenje nezavisnog proizvođača (veb)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item- desktop only - Web third party notice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_desktop_third_party_notice" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third party notice (desktop)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obaveštenje nezavisnog proizvođača (radna površina)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item- desktop only - Desktop third party notice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_download_mobile_apps" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download the mobile app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Preuzmite aplikaciju za mobilni uređaj]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - download the mobile app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_get_help" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get help]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Potražite pomoć]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Get Help]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Get help]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_give_feedback" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Give feedback]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pošalji povratne informacije]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Give Feedback]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Give Feedback ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_help" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Help]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pomoć]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Help]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_keyboard_shortcuts" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Keyboard shortcuts]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prečice na tastaturi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Keyboard shortcuts]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_legal" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Legal]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Uslovi korišćenja]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Legal]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy and cookies]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Privatnost i kolačići]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Privacy]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_report_problem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Report a problem]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prijavite problem]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Report a problem ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_ring_version" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ring version]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Verzija zvona]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Ring version]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_settings" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Postavke]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_settings_version" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Verzija]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Version]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_suggest_a_feature" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Suggest a feature]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Predložite funkciju]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Suggest a feature]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_third_party_notice" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third party notice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obaveštenje nezavisnog proizvođača]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item- web only - third party notice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_video_training" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Video training]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Video obuka]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Video Training]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - Video training]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_whats_new" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[What's new]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Šta je novo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options menu item - What's new]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_options_menu_zoom_settings" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Zoom]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zoom]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) More options menu item - Zoom Settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";more_settings_string" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Settings and more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Postavke i dodatne opcije]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[More Settings]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The string for the tooltip on the ellipsis button in the title bar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";newchat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ćaskanje]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The string for an action button to start a new chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";notifications" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Notifications]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obaveštenja]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the Notifications section of the settings app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";openteams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otvori Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The string used for an action button that can be clicked to open Teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";preview_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Preview]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Verzija za pregled]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text on the preview button object that launches a dialog box with a deeper explanation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";preview_dialog" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This feature is still in preview. Some functionality may be missing.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ova funkcija je i dalje u verziji za pregled. Možda nije potpuno funkcionalna.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text on the preview dialog that explains why this feature is in preview]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Privatnost]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the Privacy section of the settings app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_manage_blocked_users" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage blocked users]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Upravljanje blokiranim korisnicima]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Manage your blocked users]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_manage_contacts_sync" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Synced contacts]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sinhronizovani kontakti]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Synced contacts sub page in settings page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_manage_searchability" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage how people can find you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Upravljajte načinom na koji ljudi mogu da vas pronađu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Manage searchability sub page in settings page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";retry_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pokušajte ponovo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[label for button to let users try reloading the page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";schedule" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Schedule]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Planiraj]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The string for a button to start a scheduling flow]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";settings" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Postavke]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the settings app in Teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";shortcut_close_window_general" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close window]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zatvaranje prozora]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of shortcut used to close currently focused window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prijavljivanje]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for sign in button sign in splash screen]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_primary_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dobro došli u Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Welcome message on the sign in splash screen]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_secondary_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in using your Microsoft account to get started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prijavljivanje pomoću Microsoft naloga da biste počeli]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to prompt the user to sign in on the splash screen with their Microsoft account]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";stop_animation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Turn off animations]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Isključite animacije]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Turn off animations (requires restarting Teams)]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of radio checkbox in settings appearance to disable animation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";time_min_to_double_digit" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[0{{min}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[0{{min}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[get 1 digit minute (time) to 2-digit minute]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";time_sec_to_double_digit" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[0{{sec}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[0{{sec}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[get 1 digit second (time) to 2-digit second]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";toggle_fullscreen_aria_live" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Toggle full screen]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Promeni puni ekran]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria live content for the action of toggling full screen]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tpn_dialog_close" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close notice dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zatvori dijalog za obaveštenja]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the close button on the dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tpn_dialog_load_failure" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're having trouble loading the notice. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Imamo poteškoća sa učitavanjem obaveštenja. Pokušajte ponovo kasnije.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error string to indicate failure to fetch the notice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tpn_dialog_loading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading notice...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Učitavanje obaveštenja...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to indicate an operation is in progress]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tpn_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third party notice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obaveštenje nezavisnog proizvođača]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the third party notice dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";windowNavBackwardTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Back]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nazad]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Verb. title of the Back navigation button in the title bar of the app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";windowNavForwardTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Forward]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prosledi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Verb. title of the Forward navigation button in the title bar of the app.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

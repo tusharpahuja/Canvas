@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "हाँ",
+  "instant_answers_reaction_yes_aria_label": "क्या यह जानकारी उपयोगी थी? -- हाँ",
+  "instant_answers_reaction_no": "नहीं",
+  "instant_answers_reaction_no_aria_label": "क्या यह जानकारी उपयोगी थी? -- नहीं",
+  "instant_answers_header_text": "आपकी प्रतिक्रिया के लिए धन्यवाद!",
+  "instant_answers_header_subtext": "आपकी प्रतिक्रिया के आधार पर, यहाँ कुछ जानकारी है जो आपको मददगार लग सकती है:",
+  "instant_answers_footer_text": "क्या यह जानकारी उपयोगी थी?",
+  "include_screenshot_text": "स्क्रीनशॉट शामिल करें",
+  "customer_feedback_dialog_email_label": "आपका ईमेल पता (वैकल्पिक)",
+  "customer_feedback_dialog_email_placeholder": "ईमेल पता जोड़ें",
+  "customer_feedback_dialog_email_aria_label": "आपका ईमेल पता (वैकल्पिक)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "सबमिट करें दबाने पर, आपकी प्रतिक्रिया का उपयोग Microsoft उत्पाद और सेवाओं को बेहतर बनाने के लिए किया जाएगा. आपका IT व्यवस्थापक इस डेटा को एकत्र करने में सक्षम होगा.आपकी प्रतिक्रिया के आधार पर, आपकी समर्थन समस्या के बारे में मदद करने के लिए हम अतिरिक्त जानकारी दे सकते हैं.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "गोपनीयता कथन.",
+  "customer_feedback_dialog_close_button_text_aria_label": "प्रतिक्रिया संवाद बंद करें",
+  "customer_feedback_dialog_adhoc_window_title": "प्रतिक्रिया दें"
+}

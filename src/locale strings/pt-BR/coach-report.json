@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Nenhum Relatório de Coach de Reunião disponível",
+  "coach_report_no_data_too_short": "Ativar o Treinador de Reunião por mais de um minuto para acessar seu relatório",
+  "coach_report_no_data_too_long": "Infelizmente o Treinador de Reunião não suporta reuniões mais longas do que duas horas",
+  "coach_report_title": "Sua reunião de Insights de Coach",
+  "coach_report_private_label": "Privado",
+  "coach_report_settings": "Configurações",
+  "coach_report_subtitle": "* Seu relatório de Coach está visível apenas para você.",
+  "coach_report_chart_title": "Sugestões da sua reunião",
+  "coach_report_card_checkbox": "Sempre salve e pule esta tela para sessões futuras",
+  "coach_report_save_button": "Salvar",
+  "coach_report_delete_button": "Excluir",
+  "coach_report_save_button_tooltip": "O encontre mais tarde na página da reunião",
+  "coach_report_feedback_before_submit": "Isso é útil?",
+  "coach_report_feedback_after_submit": "Obrigado pelo feedback",
+  "coach_report_feedback_yes_button": "Sim",
+  "coach_report_feedback_no_button": "Não",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} de {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Anterior",
+  "coach_report_next_critique_button": "Próximo"
+}

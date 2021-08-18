@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL ของสตรีม",
+  "stream_url_placeholder": "ป้อน URL ของสตรีม",
+  "stream_key_label": "คีย์ของสตรีม",
+  "stream_key_placeholder": "ป้อนคีย์ของสตรีม",
+  "start_streaming_button_text": "เริ่มการสตรีม",
+  "stop_streaming_button_text": "หยุดการส่งกระแสข้อมูล",
+  "custom_streaming_config_page_description": "การสตรีมแบบกําหนดเองเป็นเครื่องมือของคุณในการสตรีมการประชุม Teams ไปยังแพลตฟอร์มสาธารณะที่ขับเคลื่อนโดย RTMP",
+  "custom_streaming_config_page_first_greeting": "ยินดีต้อนรับสู่การสตรีมแบบกําหนดเอง!",
+  "custom_streaming_config_page_second_greeting": "เรายินดีที่คุณอยู่ที่นี่",
+  "custom_streaming_error_meeting_limit_reached": "ไม่สามารถสตรีมการประชุมนี้ในการตั้งค่าปัจจุบันได้ โปรดจํากัดผู้เข้าร่วมให้ต่ำกว่า 1000 คน",
+  "custom_streaming_error_permission_denied": "คุณไม่มีสิทธิ์การสตรีม โปรดติดต่อผู้ดูแลระบบ IT ของคุณหรือผู้จัดประชุมเพื่อสตรีมเนื้อหานี้",
+  "custom_streaming_error_outdated_client": "Teams จำเป็นต้องอัปเดตเพื่อดําเนินการต่อ รีสตาร์ตแอปพลิเคชันของคุณเพื่อให้แน่ใจว่าคุณมีฟีเจอร์ล่าสุด",
+  "custom_streaming_error_unknown": "มีบางอย่างผิดพลาด โปรดลองอีกครั้ง",
+  "custom_streaming_error_unsupported_platform": "ฟีเจอร์นี้ยังไม่ได้รับการสนับสนุนในเบราว์เซอร์ โปรดลองอีกครั้งจาก Teams เวอร์ชันเดสก์ท็อป",
+  "custom_streaming_tab_title": "การสตรีมแบบกำหนดเอง"
+}

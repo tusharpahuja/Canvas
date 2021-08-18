@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Nilo-load ang listahan ng Magulang",
+  "guardians_table": "Parent na listahan para sa {{classTeam}}",
+  "students": "Mga Mag-aaral",
+  "guardians": "Parents / Guardians",
+  "chatButton": "Button ng chat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# pang magulang o tagapag-alaga. Palawakin para buksan ang listahan} one {# pang magulang o tagapag-alaga. Palawakin para buksan ang listahan} other{# pang magulang o tagapag-alaga. Palawakin para buksan ang listahan} }",
+  "guardians_student_label": "{{studentName}}, katayuan {{status}}, binubuksan ang profile card",
+  "guardians_user_unknown_label": "Hindi kilalang gumagamit",
+  "guardians_status_unknown_label": "Hindi alam",
+  "guardians_overflow_members": "Mga karagdagang magulang o tagapag-alaga ni {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Magsimula ng chat sa tagapag-alaga ni {studentName}} one {Magsimula ng chat sa mga tagapag-alaga ni {studentName}} other{Magsimula ng chat sa mga tagapag-alaga ni {studentName}}}",
+  "guardians_chat_button_disabled_title": "Di pinagana ng Admin ang external na access",
+  "guardians_chat_button_disabled_alt_title": "Hilingin sa iyong admin na magdagdag ng impormasyon ng contact ng tagapag-alaga para gawing available ang chat",
+  "empty_state_title": "Hindi pa naidagdag ang mga magulang at tagapag-alaga",
+  "empty_state_subtitle": "Hilingin sa iyong IT Admin na idagdag sila para maaari kang mabilis na makipag-ugnayan sa kanila mula rito. <0></0>",
+  "empty_state_link": "Tumingin pa",
+  "error_state_title": "Nagkaroon ng problema. Pakisuri muli mamaya.",
+  "not_owner_error_state_title": "Mga may-ari lang ng team ng klase ang makakakita sa impormasyon ng rmagulang at tagapag-alaga. Hilingin sa may-ari ng team na bigyan ka ng access.",
+  "retry_button_title": "Muling subukan",
+  "transient_error_state_title": "Nagkaroon ng problema. Pakisubukan muli.",
+  "notification_banner_content": "Nagkaroon ng problema sa paglo-load ng higit pang impormasyon ng magulang at tagapag-alaga. Pakisubukang muli sa ibang pagkakataon."
+}

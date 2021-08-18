@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}}-მ(ა) გახსენათ თქვენ",
+  "toast_messaging_reaction": "{{sender}}-მ(ა) გამოხატა რეაქცია თქვენს შეტყობინებაზე",
+  "toast_messaging_default_group_topic": "უცნობი",
+  "toast_messaging_default_user_given_name": "უცნობი",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "გაგზავნა",
+  "toast_messaging_quickreply_placeholder_text": "გაგზავნეთ სწრაფი პასუხი",
+  "toast_messaging_activity_text": "{{participants}}-თან საუბარი",
+  "toast_messaging_activity_text_with_count": "საუბარი {{participants}} +{{count}}-თან"
+}

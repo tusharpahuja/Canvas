@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} v-a menționat",
+  "toast_messaging_reaction": "{{sender}} a reacționat la mesajul dvs.",
+  "toast_messaging_default_group_topic": "Necunoscut",
+  "toast_messaging_default_user_given_name": "Necunoscut",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Trimitere",
+  "toast_messaging_quickreply_placeholder_text": "Trimiteți un răspuns rapid",
+  "toast_messaging_activity_text": "Discutați pe chat cu {{participants}}",
+  "toast_messaging_activity_text_with_count": "Discutați pe chat cu {{participants}} +{{count}}"
+}

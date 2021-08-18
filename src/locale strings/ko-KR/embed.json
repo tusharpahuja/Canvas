@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "사람 추가",
+  "embed_go_back_button": "돌아가기",
+  "embed_provide_feedback": "사용자 의견 제공:",
+  "embed_go_to": "{{title}}(으)로 이동",
+  "embed_open_inside": "안에서 열기",
+  "embed_participants_in_chat": "참가자 ({{membersCount}})",
+  "embed_pop_out_chat": "채팅 열기",
+  "embed_pop_in_back": "주 창으로 다시 팝업",
+  "embed_error_page_message": "죄송합니다. 문제가 발생했습니다.",
+  "embed_error_page_try_again_button": "다시 시도",
+  "embed_chats": "Microsoft Teams 채팅",
+  "embed_chat": "Microsoft Teams 채팅"
+}

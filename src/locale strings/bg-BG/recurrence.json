@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Провежда се ежедневно} =2{Провежда се през ден} one {Провежда се на всеки # дни} other{Провежда се на всеки # дни}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Провежда се на всеки {days}} =2{Провежда се всеки {days}} one {Провежда се на всеки # седмици в {days}} other{Провежда се на всеки # седмици в {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Провежда се всеки месец в {day}} =2{Провежда се през месец в ден {day}} one {Повтаря се всеки # месеца в {day}} other{Повтаря се всеки # месеца в {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Провежда се всеки {weekInMonthIndex} месец в {weekday}} =2{Провежда се през месец в {weekInMonthIndex}{weekday}} one {Провежда се всеки # месеца в {weekInMonthIndex} {weekday}} other{Провежда се всеки # месеца в {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Повтаря се на всеки {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Провежда се всеки/всяка {{dayOfTheWeekIndex}} {{dayOfTheWeek}} през {{month}}"
+}

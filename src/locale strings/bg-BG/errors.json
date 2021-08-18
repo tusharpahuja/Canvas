@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Нещо се обърка!",
+  "default_app_title": "Нещо се обърка! (Грешки в приложението)",
+  "default_network_error_description": "Проблем с мрежата!",
+  "default_network_error_title": "Проблем с мрежата!",
+  "default_unknown_description": "Нещо се обърка!",
+  "default_unknown_title": "Нещо се обърка!",
+  "default_authentication_title": "Влизането ви е неуспешно",
+  "default_authentication_description": "възникна проблем.",
+  "default_core_error_description": "Нещо се обърка! (Основни грешки)",
+  "default_core_error_title": "Код на грешката: основни грешки",
+  "default_fetch_description": "Нещо се обърка! (Грешки при извличане на CDL)",
+  "default_fetch_title": "Код на грешка: грешки при извличане на CDL",
+  "default_service_description": "Нещо се обърка! (Грешки в CDL услугата)",
+  "default_service_title": "Код на грешка: грешки в CDL услугата",
+  "error_forbidden_text": "Съжаляваме. Открихме проблем с лиценза на вашата организация",
+  "error_nonetwork_text": "Съжаляваме. Не е намерена мрежа. Опитайте отново, когато се свържете повторно."
+}

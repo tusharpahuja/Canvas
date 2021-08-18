@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Përdor një llogari tjetër",
+  "tflFre_Learn_More_Link_caption": "Kush mund ta shikojë këtë",
+  "tflFre_OK_Button_caption": "Fillojmë",
+  "tflFre_dialog_Aria": "Mirë se vini në Teams. Si dëshiron të dukesh në Teams? Njerëzit mund të kërkojnë për ty duke përdorur këtë informacion.",
+  "tflFre_header": "Mirë se erdhe",
+  "tflFre_phone_and_email_flyout": "Vizito llogarinë tënde të Microsoft për të menaxhuar numrin e telefonit dhe emailin tënd.",
+  "tflFre_who_can_see_this_flyout": "Emri dhe imazhi i llogarisë tënde të Microsoft do të jenë të dukshëm për të tjerët në Teams. Kontaktet mund të të kërkojnë në Teams edhe me anë të numrit të telefonit dhe emailit tënd.",
+  "tflFre_learn_more_link_text": "Mëso më shumë",
+  "tflFre_sync_contacts_checkbox": "Sinkronizo Skype tim dhe kontaktet e Outlook për të gjetur njerëz që njoh në Teams",
+  "tflFre_people_Can_Search_For_You_Using": "Njerëzit mund të të kërkojnë duke përdorur:",
+  "tflFre_loading_spinner_text": "Duke ngarkuar...",
+  "tflFre_stamping_error_dialog_header": "Përditësimi i profilit tënd dështoi",
+  "tflFre_stamping_error_dialog_body": "Nuk mundëm të përditësojmë informacionin e profilit tënd. Përzgjidh \"Përdor një llogari tjetër\" për të dalë dhe për të përdorur një llogari tjetër. Përzgjidh \"Riprovo\" për të riprovuar përditësimin e profilit tënd",
+  "tflFre_error_dialog_retry_button": "Provo sërish",
+  "tflFre_error_dialog_sign_out_button": "Përdor një llogari tjetër",
+  "tflFre_fetch_error_dialog_header": "Marrja e profilit tënd dështoi",
+  "tflFre_fetch_error_dialog_body": "Nuk mundëm të marrim informacionin e profilit tënd. Përzgjidh \"Përdor një llogari tjetër\" për të dalë dhe për të përdorur një llogari tjetër. Përzgjidh \"Riprovo\" për të riprovuar marrjen e profilit tënd",
+  "tflFre_welcome_edit_header": "Mirë se vjen në Teams",
+  "tflFre_welcome_edit_second_header": "Si dëshiron të paraqitesh?",
+  "tflFre_phone_field_header": "Telefoni",
+  "tflFre_email_field_header": "Emaili"
+}

@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Ühtegi treeneri aruannet pole saadaval",
+  "coach_report_no_data_too_short": "Lülita treener sisse rohkem kui 1 minutiks, et pääseda ligi oma aruandele",
+  "coach_report_no_data_too_long": "Kahjuks ei toeta koosolekutreener koosolekuid, mis on pikemad kui 2 tundi",
+  "coach_report_title": "Sinu koosoleku treeneri ülevaated",
+  "coach_report_private_label": "Privaatne",
+  "coach_report_settings": "Sätted",
+  "coach_report_subtitle": "* Aiult sina näed oma treeneri aruannet.",
+  "coach_report_chart_title": "Soovitused teie koosolekult",
+  "coach_report_card_checkbox": "Salvesta ja jäta see ekraan tulevaste seansside jaoks vahele",
+  "coach_report_save_button": "Salvesta",
+  "coach_report_delete_button": "Kustuta",
+  "coach_report_save_button_tooltip": "Leia see hiljem koosoleku lehelt",
+  "coach_report_feedback_before_submit": "Kas sellest on abi?",
+  "coach_report_feedback_after_submit": "Täname tagasiside eest!",
+  "coach_report_feedback_yes_button": "Jah",
+  "coach_report_feedback_no_button": "Ei",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}}, kokku {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Eelmine",
+  "coach_report_next_critique_button": "Järgmine"
+}

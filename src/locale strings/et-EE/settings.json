@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Süsteem",
+  "general_settings_system_auto_start_toggle": "Käivita Teams automaatselt",
+  "notification_settings_details_message_preview_header_text": "Sõnumi eelvaade",
+  "notification_settings_edit_chat_button_aria_label": "Vestlusteatiste redigeerimine",
+  "notification_settings_details_chat_messages_text": "Sõnumid",
+  "notification_settings_warning_windows_tfw": "Kontrolli oma Windowsi teavitussätteid ja veendu, et saad Teamsi teatisi vastu võtta. <0></0>",
+  "settings_loader_text": "Sisu laadimine…",
+  "dropdown_settings_selected_text": "Valitud on {{value}}",
+  "read_receipts_title": "Lugemisteatised",
+  "read_receipts_description": "Anna inimestele teada, kui oled nende sõnumeid näinud, ja tea ka ise, millal nemad on sinu sõnumeid näinud. Sätete jõustumiseks nendes vestlustes sulge jututoaaknad ning ava need uuesti.",
+  "read_receipts_label": "Lugemisteatised"
+}

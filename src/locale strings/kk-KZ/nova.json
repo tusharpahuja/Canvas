@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Шығу",
+  "me_control_sign_out_button_aria_label": "Microsoft тіркелгісінен шығу",
+  "me_control_my_microsoft_account_button_text": "Менің Microsoft тіркелгім",
+  "me_control_my_microsoft_account_button_aria_label": "Менің Microsoft тіркелгім",
+  "me_control_change_picture_aria_label": "Профиль фотосуретін өзгерту",
+  "me_control_trigger_aria_label": "Профиль",
+  "me_control_menu_aria_label": "Пайдаланушы профилінің мәзірі",
+  "app_bar_activity_app_name": "Әрекет",
+  "app_bar_activity_app_arialabel": "Әрекет",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# жаңа әрекет} one {# жаңа әрекет} other{# жаңа әрекет}}",
+  "app_bar_activity_app_tooltip": "Әрекет",
+  "app_bar_chat_app_name": "Чат",
+  "app_bar_chat_app_arialabel": "Чат",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{жаңа хабарлары бар # чат} one {жаңа хабарлары бар # сөйлесу} other{жаңа хабарлары бар # сөйлесу}}",
+  "app_bar_chat_app_tooltip": "Чат",
+  "app_bar_calendar_app_name": "Күнтізбе",
+  "app_bar_calendar_app_arialabel": "Күнтізбе",
+  "app_bar_calendar_app_tooltip": "Күнтізбе",
+  "app_bar_calls_app_name": "Қоңыраулар",
+  "app_bar_calls_app_arialabel": "Қоңыраулар",
+  "app_bar_calls_app_tooltip": "Қоңыраулар"
+}

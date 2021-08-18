@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Ops, algo deu errado!",
+  "default_app_title": "Ops, algo deu errado! (Erros de aplicativo)",
+  "default_network_error_description": "Ops, problema de rede!",
+  "default_network_error_title": "Ops, problema de rede!",
+  "default_unknown_description": "Ops, algo deu errado!",
+  "default_unknown_title": "Ops, algo deu errado!",
+  "default_authentication_title": "Opa, não foi possível conectar você",
+  "default_authentication_description": "algo deu errado.",
+  "default_core_error_description": "Ops, algo deu errado! (Erros de núcleo)",
+  "default_core_error_title": "Código de Erro: erros de núcleo",
+  "default_fetch_description": "Ops, algo deu errado! (Erros de busca de CDL)",
+  "default_fetch_title": "Código de erro: erros de busca de CDL",
+  "default_service_description": "Ops, algo deu errado! (Erros de serviço CDL)",
+  "default_service_title": "Código de Erro: erros de serviço CDL",
+  "error_forbidden_text": "Lamentamos. Encontramos um problema com a licença da sua organização",
+  "error_nonetwork_text": "Lamentamos. Nenhuma rede foi encontrada. Tente novamente quando voltar a se conectar."
+}

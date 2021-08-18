@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "გაფართოებული რეალობა",
+  "indicator_mobile_long": "გაფართოებული რეალობა მობილურებისთვის",
+  "toolbar_arrow": "ისრის განთავსება",
+  "toolbar_ink": "ხელნაწერი ტექსტი",
+  "toolbar_color_picker": "აირჩიეთ ფერი",
+  "toolbar_color_yellow": "ყვითელი",
+  "toolbar_color_blue": "ლურჯი",
+  "toolbar_color_gray": "ნაცრისფერი",
+  "toolbar_color_green": "მწვანე",
+  "toolbar_color_red": "წითელი",
+  "toolbar_insert_file": "ფაილის ჩასმა",
+  "toolbar_undo": "მოქმედების გაუქმება",
+  "toolbar_erase_all_current_session": "ყველაფრის წაშლა მიმდინარე რედაქტირების სესიიდან",
+  "toolbar_erase_all": "ყველაფრის წაშლა",
+  "toolbar_start_editing": "რედაქტირების დაწყება",
+  "toolbar_stop_editing": "რედაქტირების შეწყვეტა"
+}

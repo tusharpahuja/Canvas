@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "S-a întâmplat ceva și nu am reușit să adăugăm grupul.",
+  "peoplePicker_dlTooManyMembers": "Nu am reușit să adăugăm {{dlName}} ({{dlMemberCount}}). Puteți începe o discuție pe chat doar cu {{maxSize}} persoane sau mai puțin.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Utilizați tasta Delete sau Backspace pentru a șterge. Utilizați tastele săgeată la stânga și la dreapta pentru alți destinatari de chat.",
+  "peoplePicker_loadingMessage": "Se încarcă...",
+  "peoplePicker_newAddGroupNameButtonContent": "Adăugați nume de grup",
+  "peoplePicker_collapseGroupNameButtonContent": "Restrângere nume grup",
+  "peoplePicker_federationWarning": "Utilizarea chatului folosind conturi de întreprindere sau de școală nu este încă disponibilă. Aflați mai multe",
+  "peoplePicker_noResults": "Nu am găsit potriviri.",
+  "peoplePicker_resultsUpdationAriaLabel": "Rezultatele căutării au fost actualizate. Utilizați tastele săgeată în sus și săgeată în jos pentru a naviga și Enter pentru a selecta.",
+  "peoplePicker_search_externally_btn_text": "Căutați {{email}} extern",
+  "peoplePicker_tflToLinePlaceholder": "Introduceți numele, adresa de e-mail sau numărul de telefon",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Eliminare",
+  "peoplePicker_userAdditionAriaLabel": "Utilizatorul {{username}} a fost selectat din listă.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} din {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Utilizatorul {{username}} a fost eliminat din listă."
+}

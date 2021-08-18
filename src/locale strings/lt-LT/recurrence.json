@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Vyksta kasdien} =2{Vyksta kas antrą dieną} one {Vyksta kas # d.} few {Vyksta kas # d.} many {Vyksta kas # d.} other{Vyksta kas # d.}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Vyksta kiekvieną {days}} =2{Vyksta kas {days}} one {Vyksta kas # sav. {days}} few {Vyksta kas # sav. {days}} many {Vyksta kas # sav. {days}} other{Vyksta kas # sav. {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Vyksta kiekvieno mėnesio {day} d.} =2{Vyksta kas antrą mėnesį, {day} d.} one {Vyksta kas # mėn. {day} d.} few {Vyksta kas # mėn. {day} d.} many {Vyksta kas # mėn. {day} d.} other{Vyksta kas # mėn. {day} d.}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Vyksta kiekvieną mėnesį {weekInMonthIndex} {weekday}} =2{Vyksta kas antrą mėnesį, {weekInMonthIndex} {weekday}} one {Vyksta kas # mėn. {weekInMonthIndex} {weekday}} few {Vyksta kas # mėn. {weekInMonthIndex} {weekday}} many {Vyksta kas # mėn. {weekInMonthIndex} {weekday}} other{Vyksta kas # mėn. {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Vyksta kiekvieną {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Vyksta kiekvieną {{month}} {{dayOfTheWeekIndex}} {{dayOfTheWeek}}"
+}

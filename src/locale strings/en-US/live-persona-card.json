@@ -1,0 +1,6 @@
+{
+  "lpc_timeAgoHours": "{{duration}}h ago",
+  "_lpc_timeAgoHours.comment": "Indicates how old a message is in hours. {{duration}} will be replaced with a number, the 'h' signifies 'hours'.",
+  "lpc_timeAgoMinutes": "{{duration}}m ago",
+  "_lpc_timeAgoMinutes.comment": "Indicates how old a message is in minutes. {{duration}} will be replaced with a number, the 'm' signifies 'minutes'."
+}

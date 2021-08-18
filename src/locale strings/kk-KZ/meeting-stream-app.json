@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Деректер ағынының URL мекенжайы",
+  "stream_url_placeholder": "Деректер ағынының URL мекенжайын енгізіңіз",
+  "stream_key_label": "Деректер ағынының кілті",
+  "stream_key_placeholder": "Деректер ағынының кілтін енгізіңіз",
+  "start_streaming_button_text": "Ағынмен тасымалдауды бастау",
+  "stop_streaming_button_text": "Ағынмен тасымалдауды аяқтау",
+  "custom_streaming_config_page_description": "Реттелетін ағынмен тасымалдау — бұл Teams жиналысын RTMP негізіндегі жалпыға қолжетімді платформаларға жіберу құралы",
+  "custom_streaming_config_page_first_greeting": "Реттелетін ағынмен тасымалдау қызметіне қош келдіңіз!",
+  "custom_streaming_config_page_second_greeting": "Сіз осында екеніңізге қуаныштымыз",
+  "custom_streaming_error_meeting_limit_reached": "Бұл жиналысты ағымдағы параметрлермен ағынмен тасымалдау мүмкін емес. Қатысушылардың санын 1000-ға дейін шектеңіз.",
+  "custom_streaming_error_permission_denied": "Сізде ағынмен тасымалдауға рұқсаттар жоқ. Осы мазмұнды ағынмен тасымалдау үшін АТ әкімшісіне немесе ұйымдастырушыға хабарласыңыз",
+  "custom_streaming_error_outdated_client": "Жалғастыру үшін, Teams жаңартуды қажет етеді. Жаңа мүмкіндіктердің бар екеніне көз жеткізу үшін, бағдарламаны қайта іске қосыңыз.",
+  "custom_streaming_error_unknown": "Белгісіз қате орын алды, әрекетті қайталаңыз.",
+  "custom_streaming_error_unsupported_platform": "Бұл мүмкіндікке браузерде әлі қолдау көрсетілмейді. Әрекетті Teams классикалық нұсқасынан қайталап көріңіз.",
+  "custom_streaming_tab_title": "Реттелетін ағынмен тасымалдау"
+}

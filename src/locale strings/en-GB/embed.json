@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Add people",
+  "embed_go_back_button": "Go back",
+  "embed_provide_feedback": "Provide your feedback:",
+  "embed_go_to": "Go to {{title}}",
+  "embed_open_inside": "Open inside",
+  "embed_participants_in_chat": "Participants ({{membersCount}})",
+  "embed_pop_out_chat": "Pop out chat",
+  "embed_pop_in_back": "Pop in back to the main window",
+  "embed_error_page_message": "We are sorry - we've run into an issue",
+  "embed_error_page_try_again_button": "Try again",
+  "embed_chats": "Microsoft Teams Chats",
+  "embed_chat": "Microsoft Teams Chat"
+}

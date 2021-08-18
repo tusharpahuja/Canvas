@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="files.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="nb-NO" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";file_email_content_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Press escape to exit email content]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trykk ESC for å avslutte e-postinnhold]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label instructing user on how to exit email content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_email_headers_attachments" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attachments]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vedlegg]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for email attachments]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_email_headers_cc" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cc]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for cc recipients email header.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_email_headers_from" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fra]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for from email header.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_email_headers_see_less" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See less]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Se mindre]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button label to collapse recipients.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_email_headers_see_more" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See {{hidden}} more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Se {{hidden}} mer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button label to expand recipients. Placeholder hidden represents the number of hidden recipients.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_email_headers_sent_on" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sent on]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sendt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for sent on date email header.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_email_headers_subject" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subject]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Emne]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for subject email header.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_email_headers_to" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Til]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for to recipients email header.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_browseFromComputer" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Browse my computer]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Søk på datamaskinen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for options to select file from computer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_browseFromOneDrive" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Browse OneDrive]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Søk på OneDrive]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for options to select file from OneDrive]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_chiclet_fileUploadFailed_receiver_accessibility" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receiving a file.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mottar en fil.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When the file upload failed on the receiver side in async upload. givenName is the first name of the sender]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_chiclet_fileUploadFailed_sender_accessibility" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[File didn't upload.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filen ble ikke lastet opp.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When file upload fails, information on chicletbreadcrumbs for sender]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_chiclet_fileUploading_receiver_accessibilty" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receiving a file.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mottar en fil.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When focus gets on file chiclet, when the receiver is receiving async upload file from sender, the narrator announce this. ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_copyLinkAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Url points to a File, {{fileName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[URL-adresse peker til en fil, {{fileName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Let's user know once a file link is pasted where placeholder represents fileName]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_drive_cannot_be_accessed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to access your OneDrive. Please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Får ikke tilgang til OneDrive. Prøv på nytt senere.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When user's OneDrive cannot be accessed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_drive_cannot_be_accessed_subtext" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If the issue persists, please contact your admin.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hvis problemet vedvarer kan du kontakte administratoren.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Subtext for user's OneDrive details not available]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_drive_data_not_found" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OneDrive is unavailable right now. Please try uploading again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[OneDrive er ikke tilgjengelig akkurat nå. Prøv å laste opp igjen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When user's drive details not found]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileAlreadyExistsMessageFileConflictV2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Looks like you recently shared this file in Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Det ser ut til at du nylig delte denne filen i Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message in the file name conflict dialog without filename informing user of conflict]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileAttachmentAriaLabelView" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[File attachment {{fileName}}. Press tab for more options. Press enter or space to open the file]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filvedlegg {{fileName}}. Trykk på TAB for å få flere alternativer. Trykk på Enter eller mellomrom for å åpne filen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Let's user know the name of the file attached. Placeholder fileName represents name of the file]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileAttachmentCancelButtonAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel Upload]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Avbryt opplasting]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File attachment cancel button aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileAttachmentMoreButtonAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More attachment options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Flere alternativer for vedlegg]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File attachment more button aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileAttachmentPickerAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attach files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Legg ved filer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File Attach picker aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileAttachmentRemoveButtonAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove attachment]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fjern vedlegg]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File attachment remove button aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileAttachmentUploadFailedAriaLabelView" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[File attachment {{fileName}}. Upload failed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fil vedlegg {{fileName}}. Opplasting mislyktes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Let's user know the name of the file attached and upload has failed for this file. Placeholder fileName represents name of the file]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileConflictV2KeepPrimaryText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload a copy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Last opp en kopi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button title for keeping both files when there is file name conflict during upload, copy or move]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileDataMissingErrorv2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Some files couldn't be uploaded because they're missing necessary data]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Noen filer kan ikke lastes opp fordi de mangler nødvendige data]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File missing data error]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileIsLocked" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{fileName}} is already in use. Close it and try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{fileName}} er allerede i bruk. Lukk den og prøv på nytt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader will announce that file is locked means it's being used or open somewhere else. The fileName placeholder repesents the actual fileName]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileLinkCopiedToClipboard" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Link copied. Anyone with the link can edit.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kobling kopiert. Alle som har koblingen kan redigere.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When user clicks on copy link, this content shows up in the tooltip]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileUploadFailedInvalidAudienceUri" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sharepoint configuration has been changed by an admin. Please wait while we refresh the settings.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[SharePoint-konfigurasjonen er endret av en administrator. Vent mens vi oppdaterer innstillingene.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File upload error because the site configuration was changed by an admin.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileUploadFailedv2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong while sharing. Let's try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Noe gikk galt med delingen. Vi prøver på nytt.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[File Upload Error]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileUploadingPercentAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{percent}} % uploaded of {{fileName}}. {{currentFileIndex}} of {{totalFiles}} file attachments. Press tab for more options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{percent}}% lastet opp av {{fileName}}. {{currentFileIndex}} av {{totalFiles}} filvedlegg. Trykk på TAB for å få flere alternativer]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{percent}} % uploaded of {{fileName}}.  Press arrow keys to move between chiclet permission and cancel upload action]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria Label for the file upload in progress. Placeholder percent represent file upload percen. Placeholder fileName represents name of the file. Placeholder currentFileIndex repesents the current index of the file. Placeholder totalFiles represents total number of files attached]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileUploadingPercentAriaLabelSingleFile" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{percent}} % uploaded of {{fileName}}.Press tab for more options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{percent}}% lastet opp av {{fileName}}. Trykk på TAB for å få flere alternativer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria Label for the file upload in progress, placeholder percent represent file upload percent in progress and placeholder fileName represents name of the file]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_fileWithSameNameIsAlreadyAttachedToMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This file is already attached to your message.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Denne filen er allerede lagt ved meldingen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When user is trying to upload a file and there is an existing file atttached to the message with same name, file upload will fail this message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filename_length_exceeded" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[File name too long. Shorten it and try uploading again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filnavnet er for langt. Forkort den og prøv å laste den opp igjen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When user is trying to upload a file but the file name is too long to be handled by the server, file upload will fail with this error message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesDefaultLoadErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Noe gikk galt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default error message for files]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesListAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files list]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Filliste]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the file list root level component]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesListEmptyStateSubtext" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Everyone can work together on files you upload and create.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Alle kan arbeide sammen om filer du laster opp eller oppretter.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Subtext shown when viewing chat shared in conversation tab files and no files are present.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesListEmptyStateText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share files in this chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Del filer i chatten.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Main text shown when viewing chat shared in conversation tab files and no files are present.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesListNameColumn" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Navn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files list column containing file name property]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesListSentByColumn" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sent by]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sendt av]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files list column containing name of the person who sent the file]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesListSharedOnColumn" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Shared on]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Delt på]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files list column containing date info of when the file is shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesLoadErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not load your files. Please try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vi kan ikke laste filene dine. Prøv igjen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message to be shown when file loading fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesMaxChicletError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Up to 10 files can be uploaded at a time.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opptil 10 filer kan lastes opp om gangen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Validation Error. Max File Chiclet exceeded]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesOfflineErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No longer connected to the Internet. Reconnect and try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ikke lenger koblet til Internett. Koble til på nytt, og prøv på nytt.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message to be shown when app is offline and file action fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesOneDriveCancelButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Avbryt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Cancel button for Files Personal Picker]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesOneDriveTryAgainButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Prøv på nytt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Try again button for Files Personal Picker]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_filesPersonalPickerShareButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Del]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Share action for files personal picker]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_globalEditPermission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Anyone with the link can edit]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Alle som har koblingen kan redigere]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Anyone with a link can edit]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A default permission for ODC files. It shows up on the file chiclet when a file is uploading in a message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_moreActionsOpenInDesktopAppAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open in {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Åpne i {{appName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader will announce the desktop app name. The placeholder repesents the actual appName]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_onedrive_access_denied" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to connect to OneDrive. Please try uploading again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kan ikke koble til OneDrive. Prøv å laste opp igjen.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Got the access denied error while fetching the onedrive details]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_onedrive_storage_full" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Storage is full. Upgrade your OneDrive for more storage.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lagringsplassen er full. Oppgrader OneDrive for mer lagringsplass.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When user is trying to upload a file but his/her OneDrive storage quota is over, file upload will fail with this error message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";files_removeFileAttachmentFromFileWell" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{fileName}} removed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{fileName}} fjernet]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Let's user know once a file attached is removed. Placeholder fileName represents the name of the file which is removed]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

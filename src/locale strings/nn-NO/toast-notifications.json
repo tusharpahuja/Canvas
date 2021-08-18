@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} omtala deg",
+  "toast_messaging_reaction": "{{sender}} reagerte på meldinga di",
+  "toast_messaging_default_group_topic": "Ukjend",
+  "toast_messaging_default_user_given_name": "Ukjend",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Send",
+  "toast_messaging_quickreply_placeholder_text": "Send eit kjapt svar",
+  "toast_messaging_activity_text": "Chat med {{participants}}",
+  "toast_messaging_activity_text_with_count": "Chat med {{participants}} +{{count}}"
+}

@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Prišlo je do neznane težave.",
+  "default_app_title": "Prišlo je do neznane težave. (napake aplikacije)",
+  "default_network_error_description": "Težava z omrežjem.",
+  "default_network_error_title": "Težava z omrežjem.",
+  "default_unknown_description": "Prišlo je do neznane težave.",
+  "default_unknown_title": "Prišlo je do neznane težave.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Prišlo je do neznane težave. (osnovne napake)",
+  "default_core_error_title": "Koda napake: osnovne napake",
+  "default_fetch_description": "Prišlo je do neznane težave. (napake pridobivanja storitve CDL)",
+  "default_fetch_title": "Koda napake: napake pridobivanja storitve CDL",
+  "default_service_description": "Prišlo je do neznane težave. (napake storitve CDL)",
+  "default_service_title": "Koda napake: napaka storitve CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

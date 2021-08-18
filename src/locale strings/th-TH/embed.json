@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "เพิ่มบุคคล",
+  "embed_go_back_button": "ย้อนกลับ",
+  "embed_provide_feedback": "ให้คำติชมของคุณ:",
+  "embed_go_to": "ไปที่ {{title}}",
+  "embed_open_inside": "เปิดข้างใน",
+  "embed_participants_in_chat": "ผู้เข้าร่วม ({{membersCount}})",
+  "embed_pop_out_chat": "เปิดการสนทนาในหน้าต่างใหม่",
+  "embed_pop_in_back": "ป็อปอินกลับไปยังหน้าต่างหลัก",
+  "embed_error_page_message": "ขออภัย เราประสบปัญหาบางอย่าง",
+  "embed_error_page_try_again_button": "ลองอีกครั้ง",
+  "embed_chats": "การสนทนาใน Microsoft Teams",
+  "embed_chat": "การสนทนาใน Microsoft Teams"
+}

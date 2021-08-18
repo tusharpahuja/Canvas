@@ -1,0 +1,11 @@
+{
+  "home_page_message": "กำลังโหลด...",
+  "lobby_screen_exit_message": "ออกจากล็อบบี้",
+  "calling_join_button_audio": "เข้าร่วมการโทรด้วยเสียง",
+  "calling_join_button_video": "เข้าร่วมการสนทนาโดยใช้วิดีโอ",
+  "calling_screen_meeting_id": "ID การประชุม: {{conferenceId}}",
+  "meeting_room_present_content": "นำเสนอ",
+  "meeting_room_connected_device": "อุปกรณ์ที่เชื่อมต่อ",
+  "meeting_room_content_camera": "กล้องเนื้อหา",
+  "meeting_room_cortana_button_title": "Cortana"
+}

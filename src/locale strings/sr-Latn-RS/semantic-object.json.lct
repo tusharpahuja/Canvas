@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="semantic-object.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="sr-Latn-RS" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";fluid_ConfirmFluidTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Confirm]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Potvrdi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to show on the confirm button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_DiscardDialogAndDeleteFileText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The live component will be permanently deleted.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aktivna komponenta će biti trajno izbrisana.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The live component and its backup file will be permanently deleted.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for discarding the Fluid component in compose flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_DiscardDialogText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The live component will be removed from this message, not permanently deleted.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Komponenta uživo će biti uklonjena iz ove poruke, a ne trajno izbrisana.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The component will be removed from this message, not permanently deleted.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for discarding the Fluid component in paste flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_DiscardDialogTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Discard draft message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odbaci nacrt poruke]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for discarding the Fluid component in compose and paste flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_coauthor_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{coauthor}} has this file open.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{coauthor}} je otvorio/la ovu datoteku.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility label for each editor in the coauthor gallery.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_coauthor_gallery_more_badge" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[+{{user_count}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Još {{user_count}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When too many coauthors are present, a generic +N badge shows. 'user_count' is the authors count that are not displayed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_coauthor_gallery_more_badge_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{user_count}} other people are here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ovde je još ovoliko osoba: {{user_count}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility label for more editor badge in the coauthor gallery.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_coauthor_gallery_name_list_separator" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name1}}, {{name2}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name1}}, {{name2}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[When hovering mouse cursor on top of the more badge a list of names appears. 'name1' is the previous list of hidden coauthors' display names; 'name2' is a new display name to append to the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_coauthor_last_editor_compose_initial_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Just now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Upravo sada]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for last editor in compose when last edit was within the minute.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_coauthor_last_editor_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{editor}} edited {{editedTime}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{editor}} je uredio/la {{editedTime}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility label for last editor and last edited timestamp in coauthor gallery.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_component_copied" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copied]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopirano]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for the copy link button when user pressed it to copy the link to the clipboard]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_component_copy_link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kopiraj vezu]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Copy Link]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for the copy link action button that copies the Fluid url to the clipboard]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_component_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live component]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Komponenta uživo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Fluid title while waiting for the fluid component to load]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_CloseFluidTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zatvori]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to show on the close button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_DiscardFluidTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Discard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odbaci]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to show on the discard button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_DraftLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[(Draft)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[(Radna verzija)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This label appears next to the file name when composing a new component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_LiveActionItems" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live task list]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lista zadataka uživo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default file name for the action items/task list component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_LiveAgenda" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live agenda]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dnevni red uživo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default file name for the agenda component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_LiveFile" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live file]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Datoteka uživo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default file name for the generic fallback file component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_LiveList" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live list]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lista uživo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default file name for the list (check list, numbered list, bulleted list) component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_LiveMeeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sastanak uživo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default file name for the meeting scenario.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_LiveParagraph" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live paragraph]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pasus uživo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default file name for the paragraph component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_LiveTable" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live table]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tabela uživo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default file name for the table component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_Retry" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pokušajte ponovo]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Retry]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to show on the retry button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_SendFluidTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send component]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pošalji komponentu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the send Fluid component menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_ShareLinkChangePermission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Change permissions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Promeni dozvole]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Action link that opens permission dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_ShareLinkCsl" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[External users are not able to view or edit components.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Spoljni korisnici ne mogu da vide ili urede komponente.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when a share link doesn't allow guests to view/edit a component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_ShareLinkPslWithoutFullAndFutureAccess" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[One or more people in this chat can't access this component.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jedna ili više osoba u ovom ćaskanju ne mogu da pristupe ovoj komponenti.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when a share link doesn't allow one ore more participant to view a component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_ShareLinkPslWithoutIndividualAccess" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The recipient can't access this component.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Primalac ne može da pristupi ovoj komponenti.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when a share link doesn't allow the recipient to access a component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_ShareLinkPslWithoutIndividualWriteAccess" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The recipient doesn't have permission to edit this component.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Primalac nema dozvolu da uređuje ovu komponentu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when a share link doesn't allow the recipient to edit a component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_ShareLinkPslWithoutWriteAccess" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Recipients don't have permission to edit this component.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Primaoci nemaju dozvolu da uređuju ovu komponentu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when a share link doesn't allow one ore more participant to edit a component.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_compose_timeout_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Content isn't loading. Try again in a few minutes.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sadržaj se ne učitava. Pokušajte ponovo za nekoliko minuta.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error Message for timeout while loading into compose box.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_connection_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connection lost. Recent changes may not be saved. Try again in few minutes.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Veza je izgubljena. Nije moguće sačuvati nedavne promene. Pokušajte ponovo za nekoliko minuta.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for network connection error.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_container_closed_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connection lost. Recent changes may not be saved. Try again in a few minutes.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Veza je izgubljena. Nije moguće sačuvati nedavne promene. Pokušajte ponovo za nekoliko minuta.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Service is disconnected. Content didn't autosave properly.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for container closed error.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_container_readonly_warning_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You currently have permission to view this, not edit it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trenutno imate dozvolu da prikažete ovo, ne i da uredite.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Warning message to inform user that the container is in readonly mode for them.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_content_merge" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{content1}} {{content2}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{content1}} {{content2}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is used to merge two strings together and respect both ltf and rtf localizations. 'content1' is the first string and 'content2' will be the following one.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_creation_error_retry_failed_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't create the agenda and notes right now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trenutno ne možemo da kreiramo dnevni red i beleške.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message when fail to create fluid component and number of retries reach the limit]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_creation_in_memory_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Content didn't autosave properly and can't be sent. Try starting over in a few minutes.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sadržaj se nije ispravno automatsko sačuvao i nije ga moguće poslati. Pokušajte da počnete ponovo za nekoliko minuta.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error Message for fail to create in-memory fluid component]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_creation_in_memory_error_with_retry_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't add the agenda and notes.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nismo mogli da dodamo dnevni red i beleške.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We are sorry that we failed in creating notes for you. Please retry]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for fail to create in-memory fluid component and allow to retry]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_div_instruction" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Press Enter to explore the live component, then use Escape to shift focus out of the live component.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pritisnite Enter da biste istražili komponentu uživo, a zatim koristite Escape da biste premestili fokus izvan   komponente uživo.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Press Enter to explore Fluid component, then use Escape to shift focus out of the Fluid component.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup menu item that allows user to add a table object to a chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_exceed_size_limit_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[File size is too big to show content. Use the link above instead.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Datoteka je prevelika da bi se sadržaj prikazao. Umesto toga koristite gorenavedenu vezu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error Message for fail to fluid file too large.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_loading_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Content preview is not available at the moment, please use the link to see the content.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pregled sadržaja trenutno nije dostupan, koristite vezu da biste videli sadržaj.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[No preview is available at this time.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder state message for when a Fluid message fails to render]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_loading_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Syncing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sinhronizovanje]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[State message that we show when the fluid component is loading]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_message_exceed_number_limit_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Refresh to view content]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Osvežite za prikaz sadržaja]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when Fluid component can't be loaded because there are too many other Fluid components already loaded.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_message_exceed_number_limit_remove" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Refresh]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Osveži]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label on the button which allows users to manually start loading of Fluid component when the Fluid component wasn't loaded because there were too many other Fluid components already loaded.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_message_load_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Content can't be shown right now. Use the link above instead.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trenutno nije moguće prikazati sadržaj. Umesto toga koristite gorenavedenu vezu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error Message for fail while loading into message box.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_message_load_error_retry_failed_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't load this content right now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trenutno ne možemo da učitamo ovaj sadržaj.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message when fail to load fluid component and number of retries reach the limit]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_message_load_error_with_retry_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't load this content.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nismo mogli da učitamo ovaj sadržaj.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Loading failed. Please retry.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for failing to load fluid component and allow to retry]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_open_in_onenote" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open in OneNote]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otvori u programu OneNote]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder for link or button to open Fluid file in OneNote]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_permission_dialog_Cancel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Otkaži]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button label for the grant permission dialog cancel button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_permission_dialog_Description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Once you grant them access, we'll let them know they're @mentioned here and send them a link.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kada im odobrite pristup, obavestićemo ih o tome @mentioned ovde i poslaćemo im vezu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dialog body description for the grant permission dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_permission_dialog_Grant" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Grant Access]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dodela pristupa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button label for the grant permission dialog confirmation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_permission_dialog_Title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Grant Access]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dodela pristupa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the grant permission dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_AddActionItems" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Task list]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lista zadataka]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Action items]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup menu item that allows user to add a OWH Scriptor Task list to a chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_AddAgenda" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Agenda]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dnevni red]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup menu item that allows user to add a shared Scriptor agenda component to a chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_AddBulletedList" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bulleted list]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lista sa znakovima za nabrajanje]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Bulleted List]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup menu item that allows user to add a OWH Scriptor Bulleted List to a chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_AddCheckList" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Checklist]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lista za proveru]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Check List]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup menu item that allows user to add a OWH Scriptor Checklist to a chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_AddNumberedList" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Numbered list]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Numerisana lista]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Numbered List]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup menu item that allows user to add a OWH Scriptor Numbered List to a chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_AddParagraph" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Paragraph]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pasus]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup menu item that allows user to add a Scriptor shared paragraph to a chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_AddTable" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Table]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tabela]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Popup menu item that allows user to add a table object to a chat]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_HeaderText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Live components]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Komponente uživo]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Fluid components]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header text to show above the list of Fluid component menu items]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";fluid_picker_SecondaryText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send a message that everyone in the chat can edit inline.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pošalji poruku koju svi u ćaskanju mogu neposredno da uređuju.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary text that show just below the header text in the picker menu.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Toimub iga päev} =2{Toimub ülepäeviti} one {Toimub iga # päeva järel} other{Toimub iga # päeva järel}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Toimub iga {days}} =2{Toimub iga teine {days}} one {Toimub iga # nädala järel {days}} other{Toimub iga # nädala järel {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Toimub iga kuu {day}. päeval} =2{Toimub iga teine kuu {day}. kuupäeval} one {Toimub iga #. kuu {day}. päeval} other{Toimub iga #. kuu {day}. päeval}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Toimub iga kuu {weekInMonthIndex} {weekday}} =2{Toimub iga teine kuu {weekInMonthIndex}{weekday}} one {Toimub iga # kuu järel iga {weekInMonthIndex} {weekday}} other{Toimub iga # kuu järel iga {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Toimub iga {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Toimub iga {{dayOfTheWeekIndex}}. {{dayOfTheWeek}} – {{month}}"
+}

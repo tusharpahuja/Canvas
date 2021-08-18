@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ja",
+  "instant_answers_reaction_yes_aria_label": "Vindt u deze informatie nuttig? - Ja",
+  "instant_answers_reaction_no": "Nee",
+  "instant_answers_reaction_no_aria_label": "Vindt u deze informatie nuttig? - Nee",
+  "instant_answers_header_text": "Hartelijk dank voor uw feedback.",
+  "instant_answers_header_subtext": "Op basis van uw feedback is hier wat informatie die u misschien nuttig vindt:",
+  "instant_answers_footer_text": "Vindt u deze informatie nuttig?",
+  "include_screenshot_text": "Schermafbeelding toevoegen",
+  "customer_feedback_dialog_email_label": "Uw e-mailadres (optioneel)",
+  "customer_feedback_dialog_email_placeholder": "E-mailadres toevoegen",
+  "customer_feedback_dialog_email_aria_label": "Uw e-mailadres (optioneel)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Door op Verzenden te drukken, wordt uw feedback gebruikt om Microsoft-producten en -services te verbeteren. De IT-beheerder kan deze gegevens verzamelen. Op basis van uw feedback kunnen we aanvullende informatie verstrekken om u te helpen met het probleem waarvoor uw ondersteuning vraagt.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Privacyverklaring.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Dialoogvenster Feedback sluiten",
+  "customer_feedback_dialog_adhoc_window_title": "Feedback geven"
+}

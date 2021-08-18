@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "会議監督レポートなし",
+  "coach_report_no_data_too_short": "レポートにアクセスするには、会議コーチを 1 分以上有効にしてください",
+  "coach_report_no_data_too_long": "申し訳ありません。会議コーチは 2 時間を超える会議をサポートしていません",
+  "coach_report_title": "会議の監督についての分析情報",
+  "coach_report_private_label": "非公開",
+  "coach_report_settings": "設定",
+  "coach_report_subtitle": "* 監督レポートは自分だけに表示されます。",
+  "coach_report_chart_title": "会議からの提案",
+  "coach_report_card_checkbox": "今後のセッションでは常に保存しこの画面をスキップする",
+  "coach_report_save_button": "保存する",
+  "coach_report_delete_button": "削除",
+  "coach_report_save_button_tooltip": "後で会議ページで検索する",
+  "coach_report_feedback_before_submit": "これは役に立ちましたか?",
+  "coach_report_feedback_after_submit": "フィードバックをお送りいただき、ありがとうございます",
+  "coach_report_feedback_yes_button": "はい",
+  "coach_report_feedback_no_button": "いいえ",
+  "coach_report_critique_navigation_text": "{{critiqueTotalCount}} の {{critiqueCurrentCount}}",
+  "coach_report_previous_critique_button": "前",
+  "coach_report_next_critique_button": "次へ"
+}

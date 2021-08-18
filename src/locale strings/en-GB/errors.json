@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Oops, something went wrong!",
+  "default_app_title": "Oops, something went wrong! (App errors)",
+  "default_network_error_description": "Oops, network issue!",
+  "default_network_error_title": "Oops, network issue!",
+  "default_unknown_description": "Oops, something went wrong!",
+  "default_unknown_title": "Oops, something went wrong!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Oops, something went wrong! (Core errors)",
+  "default_core_error_title": "Error Code : Core errors",
+  "default_fetch_description": "Oops, something went wrong! (CDL fetch errors)",
+  "default_fetch_title": "Error Code: CDL fetch errors",
+  "default_service_description": "Oops, something went wrong! (CDL service errors)",
+  "default_service_title": "Error Code: CDL service errors",
+  "error_forbidden_text": "We're sorry. We found an issue with your organisation's licence",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

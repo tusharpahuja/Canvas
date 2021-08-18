@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "系统",
+  "general_settings_system_auto_start_toggle": "自动启动 Teams",
+  "notification_settings_details_message_preview_header_text": "邮件预览",
+  "notification_settings_edit_chat_button_aria_label": "编辑聊天通知",
+  "notification_settings_details_chat_messages_text": "消息",
+  "notification_settings_warning_windows_tfw": "请仔细检查 Windows 通知设置，以确保能够接收 Teams 通知。<0></0>",
+  "settings_loader_text": "正在加载内容...",
+  "dropdown_settings_selected_text": "已选择 {{value}}",
+  "read_receipts_title": "已读回执",
+  "read_receipts_description": "让人们知道你何时看到他们的消息并知道他们何时看到你的消息。关闭并重新打开任何聊天窗口，设置将在这些聊天中生效。",
+  "read_receipts_label": "已读回执"
+}

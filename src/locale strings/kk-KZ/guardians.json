@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Тектік торабы тізімі жүктелуде",
+  "guardians_table": "{{classTeam}} тектік тізімі",
+  "students": "Оқушылар",
+  "guardians": "Ата-аналар/қамқоршылар",
+  "chatButton": "Чат түймешігі",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{Тағы # ата-ана немесе қамқоршы. Тізімді ашу үшін кеңейтіңіз} one {Тағы # ата-ана немесе қамқоршы. Тізімді ашу үшін кеңейтіңіз} other{Тағы # ата-ана немесе қамқоршы. Тізімді ашу үшін кеңейтіңіз} }",
+  "guardians_student_label": "{{studentName}}, күйі {{status}}, пайдаланушы картасын ашады",
+  "guardians_user_unknown_label": "Белгісіз пайдаланушы",
+  "guardians_status_unknown_label": "Белгісіз",
+  "guardians_overflow_members": "{{studentName}} қосымша ата-аналары мен қамқоршылары: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{{studentName} қамқоршысымен чатты бастау} one {{studentName} қамқоршыларымен чатты бастау} other{{studentName} қамқоршыларымен чатты бастау}}",
+  "guardians_chat_button_disabled_title": "Әкімші сыртқы қатынасты ажыратты",
+  "guardians_chat_button_disabled_alt_title": "Чатты қолжетімді ету үшін әкімшіңізден қамқоршы байланыс мәліметтерін қосуды сұраңыз",
+  "empty_state_title": "Ата-аналар мен қамқоршылар қосылмады",
+  "empty_state_subtitle": "IT әкімшіңізден оларды қосуды сұраңыз, сонда олармен осы жерден тез хабарласа аласыз. <0> </0>",
+  "empty_state_link": "Толығырақ",
+  "error_state_title": "Белгісіз қате орын алды. Кейінірек тексеріп көріңіз.",
+  "not_owner_error_state_title": "Ата-аналар мен қамқоршылар туралы ақпаратты тек сынып тобы иелері көре алады. Топ иесінен сізге рұқсат беруін сұраңыз.",
+  "retry_button_title": "Қайталау",
+  "transient_error_state_title": "Белгісіз қате орын алды. Әрекетті қайталап көріңіз.",
+  "notification_banner_content": "Ата-аналар мен қамқоршылар туралы қосымша ақпаратты жүктеу кезінде қате пайда болды. Әрекетті кейінірек қайталап көріңіз."
+}

@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Dirección URL de la transmisión",
+  "stream_url_placeholder": "Escriba la dirección URL de la transmisión",
+  "stream_key_label": "Clave de la transmisión",
+  "stream_key_placeholder": "Escriba la clave de la transmisión",
+  "start_streaming_button_text": "Iniciar la transmisión",
+  "stop_streaming_button_text": "Detener la transmisión",
+  "custom_streaming_config_page_description": "El streaming personalizado es la herramienta para transmitir en streaming las reuniones de Teams a plataformas públicas con tecnología RTMP",
+  "custom_streaming_config_page_first_greeting": "Le damos la bienvenida al streaming personalizado.",
+  "custom_streaming_config_page_second_greeting": "Nos alegramos de que esté aquí",
+  "custom_streaming_error_meeting_limit_reached": "Esta reunión no se puede transmitir en su configuración actual. Límite el número de asistentes a menos de 1000.",
+  "custom_streaming_error_permission_denied": "No tiene permisos de streaming. Póngase en contacto con su administrador de TI o con el organizador para transmitir este contenido.",
+  "custom_streaming_error_outdated_client": "Teams necesita actualizaciones para continuar. Reinicie la aplicación para asegurarse de que tiene las características más recientes.",
+  "custom_streaming_error_unknown": "Se ha producido un error, vuelva a intentarlo.",
+  "custom_streaming_error_unsupported_platform": "Esta característica aún no se admite en exploradores. Inténtelo de nuevo desde la versión de escritorio de Teams.",
+  "custom_streaming_tab_title": "Personalizar la transmisión"
+}

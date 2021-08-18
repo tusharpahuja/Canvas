@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "是",
+  "instant_answers_reaction_yes_aria_label": "此資訊是否有幫助? -- 是",
+  "instant_answers_reaction_no": "否",
+  "instant_answers_reaction_no_aria_label": "此資訊是否有幫助? -- 否",
+  "instant_answers_header_text": "感謝您提供意見反應!",
+  "instant_answers_header_subtext": "根據您的意見反應，以下是您可能會覺得有幫助的一些資訊:",
+  "instant_answers_footer_text": "此資訊是否有幫助?",
+  "include_screenshot_text": "附上螢幕擷取畫面",
+  "customer_feedback_dialog_email_label": "您的電子郵件地址 (選擇性)",
+  "customer_feedback_dialog_email_placeholder": "新增電子郵件地址",
+  "customer_feedback_dialog_email_aria_label": "您的電子郵件地址 (選用)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "只要按 [提交]，您的意見反應就會用來改善 Microsoft 產品和服務。您的 IT 系統管理員將可以收集這個資料。根據您的意見反應，我們可能會提供其他資訊來協助解決您的支援問題。",
+  "customer_feedback_dialog_disclaimer_privacy_text": "隱私權聲明。",
+  "customer_feedback_dialog_close_button_text_aria_label": "關閉意見反應對話方塊",
+  "customer_feedback_dialog_adhoc_window_title": "提供意見反應"
+}

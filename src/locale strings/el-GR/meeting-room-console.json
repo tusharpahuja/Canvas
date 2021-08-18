@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Φόρτωση...",
+  "lobby_screen_exit_message": "Έξοδος από τον χώρο αναμονής",
+  "calling_join_button_audio": "Συμμετοχή σε κλήση με ήχο",
+  "calling_join_button_video": "Συμμετοχή σε κλήση με βίντεο",
+  "calling_screen_meeting_id": "Αναγνωριστικό σύσκεψης: {{conferenceId}}",
+  "meeting_room_present_content": "Παρουσίαση",
+  "meeting_room_connected_device": "Συνδεδεμένη συσκευή",
+  "meeting_room_content_camera": "Κάμερα περιεχομένου",
+  "meeting_room_cortana_button_title": "Cortana"
+}

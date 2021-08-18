@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Додати користувачів",
+  "embed_go_back_button": "Назад",
+  "embed_provide_feedback": "Надайте відгук:",
+  "embed_go_to": "Перейти за адресою {{title}}",
+  "embed_open_inside": "Відкрити всередині",
+  "embed_participants_in_chat": "Учасники ({{membersCount}})",
+  "embed_pop_out_chat": "Фоновий чат",
+  "embed_pop_in_back": "Повернутися до головного вікна",
+  "embed_error_page_message": "На жаль, виникла проблема",
+  "embed_error_page_try_again_button": "Спробувати ще раз",
+  "embed_chats": "Чати Microsoft Teams",
+  "embed_chat": "Чат Microsoft Teams"
+}

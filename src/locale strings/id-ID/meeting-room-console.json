@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Memuat...",
+  "lobby_screen_exit_message": "Keluar Lobi",
+  "calling_join_button_audio": "Gabung panggilan dengan audio",
+  "calling_join_button_video": "Gabung panggilan dengan video",
+  "calling_screen_meeting_id": "ID Rapat: {{conferenceId}}",
+  "meeting_room_present_content": "Presentasikan",
+  "meeting_room_connected_device": "Perangkat tersambung",
+  "meeting_room_content_camera": "Kamera konten",
+  "meeting_room_cortana_button_title": "Cortana"
+}

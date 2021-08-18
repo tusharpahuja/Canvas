@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Нет доступных отчетов о тренере собраний",
+  "coach_report_no_data_too_short": "Чтобы получить доступ к отчету, включите тренер собраний более чем на 1 минуту",
+  "coach_report_no_data_too_long": "К сожалению, тренер собраний не поддерживает собрания, превышающие 2 часа",
+  "coach_report_title": "Сведения о вашем тренере собраний",
+  "coach_report_private_label": "Закрытое",
+  "coach_report_settings": "Параметры",
+  "coach_report_subtitle": "* Ваш отчет о тренере виден только вам.",
+  "coach_report_chart_title": "Рекомендации из вашего собрания",
+  "coach_report_card_checkbox": "Всегда сохранять и пропускать этот экран при будущих сеансах",
+  "coach_report_save_button": "Сохранить",
+  "coach_report_delete_button": "Удалить",
+  "coach_report_save_button_tooltip": "Найти позже на странице собрания",
+  "coach_report_feedback_before_submit": "Полезна ли эта информация?",
+  "coach_report_feedback_after_submit": "Спасибо за отзыв",
+  "coach_report_feedback_yes_button": "Да",
+  "coach_report_feedback_no_button": "Нет",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} из {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Назад",
+  "coach_report_next_critique_button": "Далее"
+}

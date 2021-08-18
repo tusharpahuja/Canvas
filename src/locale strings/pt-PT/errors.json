@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Ups, ocorreu um erro!",
+  "default_app_title": "Ups, ocorreu um erro! (Erros na aplicação)",
+  "default_network_error_description": "Ups, problema de rede!",
+  "default_network_error_title": "Ups, problema de rede!",
+  "default_unknown_description": "Ups, ocorreu um erro!",
+  "default_unknown_title": "Ups, ocorreu um erro!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Ups, ocorreu um erro! (Erros na principais)",
+  "default_core_error_title": "Código de erro: erros principais",
+  "default_fetch_description": "UPS, ocorreu um erro! (Erros a obter o CDL)",
+  "default_fetch_title": "Código de erro: CDL obter erros",
+  "default_service_description": "UPS, ocorreu um erro! (Erros do serviço CDL)",
+  "default_service_title": "Código de Erro: erros do serviço CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Já",
+  "instant_answers_reaction_yes_aria_label": "Voru þessar upplýsingar gagnlegar? -- Já",
+  "instant_answers_reaction_no": "Nei",
+  "instant_answers_reaction_no_aria_label": "Voru þessar upplýsingar gagnlegar? -- Nei",
+  "instant_answers_header_text": "Takk fyrir að senda okkur ábendingu!",
+  "instant_answers_header_subtext": "Í samræmi við ábendinguna þína eru hér upplýsingar sem þér gætu fundist gagnlegar:",
+  "instant_answers_footer_text": "Voru þessar upplýsingar gagnlegar?",
+  "include_screenshot_text": "Hafa skjámynd með",
+  "customer_feedback_dialog_email_label": "Netfangið þitt (valfrjálst)",
+  "customer_feedback_dialog_email_placeholder": "Bæta við netfangi",
+  "customer_feedback_dialog_email_aria_label": "Netfangið þitt (valfrjálst)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Með því að ýta á „Senda“ verður ábendingin þín notuð til að bæta vörur og þjónustu Microsoft. Kerfisstjórinn þinn mun geta safnað þessum gögnum. Út frá ábendingu þinni gætum við gefið þér viðbótarupplýsingar til að hjálpa þér með vandamálið.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Yfirlýsing um persónuvernd.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Loka ábendingaglugga",
+  "customer_feedback_dialog_adhoc_window_title": "Senda ábendingu"
+}

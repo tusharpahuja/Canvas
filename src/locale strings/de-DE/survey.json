@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ja",
+  "instant_answers_reaction_yes_aria_label": "Waren diese Informationen hilfreich? -- Ja",
+  "instant_answers_reaction_no": "Nein",
+  "instant_answers_reaction_no_aria_label": "Waren diese Informationen hilfreich? -- Nein",
+  "instant_answers_header_text": "Vielen Dank für Ihr Feedback!",
+  "instant_answers_header_subtext": "Basierend auf Ihrem Feedback sind hier einige Informationen, die Sie möglicherweise hilfreich finden:",
+  "instant_answers_footer_text": "Waren diese Informationen hilfreich?",
+  "include_screenshot_text": "Screenshot anfügen",
+  "customer_feedback_dialog_email_label": "Ihre E-Mail-Adresse (optional)",
+  "customer_feedback_dialog_email_placeholder": "E-Mail-Adresse hinzufügen",
+  "customer_feedback_dialog_email_aria_label": "Ihre E-Mail-Adresse (optional)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Wenn Sie auf „Senden“ drücken, wird Ihr Feedback zur Verbesserung der Microsoft-Produkte und -Dienste verwendet. Ihr IT-Administrator kann diese Daten sammeln. Auf der Grundlage Ihres Feedbacks können wir zusätzliche Informationen bereitstellen, um Ihnen bei Ihrer Support-Anfrage zu helfen.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Datenschutzbestimmungen.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Feedbackdialogfeld schließen.",
+  "customer_feedback_dialog_adhoc_window_title": "Feedback geben"
+}

@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} të përmendi",
+  "toast_messaging_reaction": "{{sender}} reagoi ndaj mesazhit tënd",
+  "toast_messaging_default_group_topic": "I panjohur",
+  "toast_messaging_default_user_given_name": "I panjohur",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Dërgo",
+  "toast_messaging_quickreply_placeholder_text": "Dërgo një përgjigje të shpejtë",
+  "toast_messaging_activity_text": "Bisedo me {{participants}}",
+  "toast_messaging_activity_text_with_count": "Bisedo me {{participants}} +{{count}}"
+}

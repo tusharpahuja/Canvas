@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Загрузка списка родителей",
+  "guardians_table": "Список родителей для {{classTeam}}",
+  "students": "Учащиеся",
+  "guardians": "Родители / Опекуны",
+  "chatButton": "Кнопка чата",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{еще # родитель или опекун. Разверните, чтобы открыть список} one {еще # родителей или опекунов. Разверните, чтобы открыть список} few {еще # родителей или опекунов. Разверните, чтобы открыть список} many {еще # родителей или опекунов. Разверните, чтобы открыть список} other{еще # родителей или опекунов. Разверните, чтобы открыть список} }",
+  "guardians_student_label": "{{studentName}}, состояние {{status}}, открытие карточки профиля",
+  "guardians_user_unknown_label": "Неизвестный пользователь",
+  "guardians_status_unknown_label": "Неизвестно",
+  "guardians_overflow_members": "Дополнительные родители или опекуны учащегося {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Начать чат с опекуном учащегося {studentName}} one {Начать чат с опекунами учащегося {studentName}} few {Начать чат с опекунами учащегося {studentName}} many {Начать чат с опекунами учащегося {studentName}} other{Начать чат с опекунами учащегося {studentName}}}",
+  "guardians_chat_button_disabled_title": "Внешний доступ отключен администратором",
+  "guardians_chat_button_disabled_alt_title": "Попросите администратора добавить контактные данные опекуна, чтобы использовать чат",
+  "empty_state_title": "Родители и опекуны не добавлены",
+  "empty_state_subtitle": "Попросите ИТ-администратора добавить пользователей, чтобы вы могли быстро связаться с ними отсюда. <0></0>",
+  "empty_state_link": "Показать больше",
+  "error_state_title": "Что-то пошло не так. Повторите попытку позже.",
+  "not_owner_error_state_title": "Только владельцы команды класса могут видеть сведения о родителях и опекунах. Попросите владельца команды предоставить вам доступ.",
+  "retry_button_title": "Повторить попытку",
+  "transient_error_state_title": "Что-то пошло не так. Повторите попытку.",
+  "notification_banner_content": "При загрузке дополнительных сведений о родителях и опекунах возникла ошибка. Повторите попытку позже."
+}

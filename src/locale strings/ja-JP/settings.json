@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "システム",
+  "general_settings_system_auto_start_toggle": "Teams を自動的に起動する",
+  "notification_settings_details_message_preview_header_text": "メッセージをプレビューする",
+  "notification_settings_edit_chat_button_aria_label": "チャットの通知を編集",
+  "notification_settings_details_chat_messages_text": "メッセージ",
+  "notification_settings_warning_windows_tfw": "Teams の通知を受信できることを確認するために、Windows の通知設定を再確認してください。<0></0>",
+  "settings_loader_text": "コンテンツを読み込んでいます...",
+  "dropdown_settings_selected_text": "{{value}} が選択されました",
+  "read_receipts_title": "開封確認",
+  "read_receipts_description": "メッセージを見たことや、メッセージを届けたことをユーザーに知らせます。この設定をチャット中に有効にするには、チャット ウィンドウを閉じてからもう一度開いてください。",
+  "read_receipts_label": "開封確認"
+}

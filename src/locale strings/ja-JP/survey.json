@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "はい",
+  "instant_answers_reaction_yes_aria_label": "この情報は役に立ちましたか? -- はい",
+  "instant_answers_reaction_no": "いいえ",
+  "instant_answers_reaction_no_aria_label": "この情報は役に立ちましたか? -- いいえ",
+  "instant_answers_header_text": "フィードバックをお送りいただき、ありがとうございます。",
+  "instant_answers_header_subtext": "お客様からのフィードバックを元に、参考になりそうな情報をいくつかご紹介します。",
+  "instant_answers_footer_text": "この情報は役に立ちましたか?",
+  "include_screenshot_text": "スクリーンショットを添付",
+  "customer_feedback_dialog_email_label": "自分のメール アドレス (オプション)",
+  "customer_feedback_dialog_email_placeholder": "メール アドレスを追加",
+  "customer_feedback_dialog_email_aria_label": "自分のメール アドレス (オプション)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "送信を押すと、お客様のフィードバックは Microsoft の製品とサービスの品質向上のために使用されます。IT 管理者がこのデータを収集できます。お客様からのフィードバックに基づいて、Microsoft がサポートに関する問題を解決するための追加情報を提供することがあります。",
+  "customer_feedback_dialog_disclaimer_privacy_text": "プライバシーに関する声明。",
+  "customer_feedback_dialog_close_button_text_aria_label": "フィードバック ダイアログを閉じる",
+  "customer_feedback_dialog_adhoc_window_title": "ご意見・ご感想を送信"
+}

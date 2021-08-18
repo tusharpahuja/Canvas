@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="biometric-enrollment.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="tr-TR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";audio_meter_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Listening for your voice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sesiniz dinleniyor]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text that is announced when audio meter shows]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biomentric_enrollment_complete_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've successfully enrolled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Başarıyla kaydoldunuz]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for enrollment success aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biometric_enrollment_almost_done_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Almost done!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Bitmek üzere!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for finishing voice enrollment process]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biometric_enrollment_complete_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for letting us get to know you!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sizi tanımamıza izin verdiğiniz için teşekkürler!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for completing a biometric enrollment process]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";camera_not_found_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect a camera to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fotoğraf çekmek için bir kamera bağlayın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Please connect a camera.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when no camera is detected]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[İptal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to cancel face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_voice_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[İptal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to cancel voice enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";close_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kapat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close dialog for enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";end_voice_capture_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[End voice capture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ses yakalamayı bitir]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to end voice capture action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";enrollment_privacy_policy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gizlilik İlkesi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to view the privacy policy for enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";error_voice_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn’t capture your voice. Try moving to a quieter area or using a different mic, and start your voice capture again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sesiniz yakalanamadı. Daha sessiz bir yere giderek veya farklı bir mikrofon kullanarak ses yakala işlemini yeniden başlatmayı deneyin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for when there is an error while capturing voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and hit the button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kafanızı aşağı doğru eğin ve düğmeye basın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Now point your chin down and tap to take the picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hazır olduğunuzda düğmeye basın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kafanızı aşağı ve sola doğru eğin]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin down and to the same side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hazır olduğunuzda düğmeye basın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kafanızı aşağıya ve sağa doğru eğin]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Stay on that side and chin down]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Lower your chin]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Çenenizi indirin]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin down]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've got what we need, but you might want to take a few more photos for even more reliable recognition. Tilt your head up and hit the button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[İhtiyacımız olanı aldık, ancak daha güvenilir bir tanıma için birkaç fotoğraf daha çekmek isteyebilirsiniz. Kafanızı yukarı doğru kaldırın ve düğmeye basın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We’ve got what we need, but you can take a few more pictures for more accurate recognition.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tap the button to take another photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Başka bir fotoğraf çekmek için düğmeye dokunun.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head up and to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kafanızı yukarı kaldırın ve sola doğru eğin]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up and to the side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards and towards to the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hazır olduğunuzda düğmeye basın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head up and to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kafanızı yukarı kaldırın ve sağa doğru eğin]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up and to the other side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Raise your chin]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Çenenizi kaldırın]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_forward_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Make sure your face is centered in the circle, then click the camera button to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Yüzünüzün daire içinde ortalandığına emin olun ve ardından fotoğraf çekmek için kamera düğmesine tıklayın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Center your face in the circle. Look at the camera button, then click it to take a picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking forward]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_forward_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look straight ahead]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dümdüz karşıya bakın]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face Forward]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when looking forward]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you're ready, click the camera button again to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hazır olduğunuzda fotoğraf çekmek için kamera düğmesine yeniden tıklayın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Look at the button and click it to take another picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking on the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sola bakın]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face to the side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when looking on the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you're ready, click the camera button again to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hazır olduğunuzda fotoğraf çekmek için kamera düğmesine yeniden tıklayın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the third picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking on the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sağa doğru bakın]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face the other side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture gace when looking on the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_camera_button_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Take a photo]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fotoğraf çek]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for face enrollment photo button aria text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_getting_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For even more reliable identification, set up face recognition with just a few photos.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Daha da güvenilir tanımlama için yalnızca bir kaç fotoğrafla yüz tanıma özelliğini ayarlayın.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Get even more accurate recognition and identification by enrolling in face recognition, it only takes a few photos. We’ll only use this data within Teams, and you can always remove it later. Don’t worry: we won’t save the original photos.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and manage your Teams face information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams yüz bilgilerinizi görüntüleyin ve yönetin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to manage face enrollment settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Face recognition]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Yüz tanıma]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text for face recognition]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";failed_to_learn_voice_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't capture your voice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sesinizi yakalanamadı]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for error learning voice aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";finish_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Finish]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Son]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to finish completing face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";get_started_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get Started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Başlayın]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to get started with face recognition]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";get_started_voice_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get Started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Başlayın]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to get started with voice enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";incorrect_face_capture_position" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn’t see your face. Give it another try.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Yüzünüzü göremiyor. Bir kez daha deneyin.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We couldn’t see your face. Please try again.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error text when position for face capture is incorrect]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";learning_voice_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learning your voice...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sesiniz öğreniliyor...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for learning voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";learning_voice_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learning your voice... Please wait]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sesiniz öğreniliyor... Lütfen bekleyin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for learning voice aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";no_microphone_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect a microphone]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mikrofon bağlayın]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displaying no microphone is connected]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ready_voice_capture_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start voice capture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sesli arama başlat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to start voice capture action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ready_voice_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you’re ready, start your voice capture and then read the text in the box.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hazır olduğunuzda, ses yakalama işlemini başlatın ve kutudaki metni okuyun.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for when you are ready to capture voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";unmute_mic" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unmute your mic]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mikrofonumun sesini aç]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to unmute the mic]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hey there, Teams. I’ll talk for a few seconds to help you get to know me. It takes more than just a sentence or two, because there are lots of details about my voice that you need to learn to be able to recognize me when I speak up in a meeting. And it’s okay if I don’t read this perfectly—you can let me know if I need to start over.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Merhaba, ben Teams. Beni tanımanıza yardımcı olmak için birkaç saniye konuşacağım. Bunun için birkaç cümleden fazlasına ihtiyaç var çünkü bir toplantıda konuştuğumda sesimi tanıyabilmeniz için sesim hakkında öğrenmeniz gereken birçok detay var. Ve bunu kusursuz bir şekilde okumazsam sorun değil; baştan başlamam gerekirse bana bildirebilirsiniz.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for voice capture]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_getting_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Be recognized. Be heard. Help us identify you in meetings, even when you’re not joined on your device. We’ll only use this data within Teams, and you can remove it at any time.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tanınmışlığınızı artırın. Sesinizi duyurun. Cihazınızla katılmadığınızda bile, toplantılarda sizi tanımamıza yardımcı olun. Bu verileri yalnızca Teams içinde kullanırız ve istediğiniz zaman kaldırabilirsiniz.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for audio enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_microphone_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microphone]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mikrofon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for Microphone title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and manage your Teams voice information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams ses bilgilerinizi görüntüleyin ve yönetin]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Teams voice data.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to manage voice enrollment settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Voice recognition]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ses tanıma]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for voice recognition]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

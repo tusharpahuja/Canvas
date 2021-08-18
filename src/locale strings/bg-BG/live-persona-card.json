@@ -1,0 +1,4 @@
+{
+  "lpc_timeAgoHours": "Преди {{duration}} часа",
+  "lpc_timeAgoMinutes": "Преди {{duration}} мин."
+}

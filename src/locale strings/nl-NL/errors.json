@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Er is iets misgegaan!",
+  "default_app_title": "Oeps, er is een probleem opgetreden! (App-fouten)",
+  "default_network_error_description": "Oeps, netwerkprobleem!",
+  "default_network_error_title": "Oeps, netwerkprobleem!",
+  "default_unknown_description": "Er is iets misgegaan!",
+  "default_unknown_title": "Er is iets misgegaan!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Oeps, er is een probleem opgetreden! (Kernfouten)",
+  "default_core_error_title": "Foutcode: Kernfouten",
+  "default_fetch_description": "Oeps, er is iets misgegaan! (CDL-ophaalfouten)",
+  "default_fetch_title": "Foutcode: CDL ophaalfouten",
+  "default_service_description": "Oeps, er is iets misgegaan! (CDL-servicefouten)",
+  "default_service_title": "Foutcode: CDL-servicefouten",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

@@ -1,0 +1,9 @@
+{
+  "value_prop": "Arkadaşlarınızı, ailenizi ve iş arkadaşlarınızı düzenleyin ve onlarla bağlantı kutun",
+  "initializing_message": "Biz gerekli hazırlıkları yaparken biraz bekleyin...",
+  "open_teams_on_web": "Web üzerinde Teams’i aç",
+  "error_message_header": "Bir sorunla karşılaştık",
+  "setup_error_message": "Kurulum sırasında bir sorun oluştu",
+  "troubleshoot_issue": "Sorun giderme",
+  "retry_flyout_launch": "Yeniden dene"
+}

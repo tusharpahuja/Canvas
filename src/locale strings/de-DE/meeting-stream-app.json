@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Stream-URL",
+  "stream_url_placeholder": "Stream-URL eingeben",
+  "stream_key_label": "Stream-Schlüssel",
+  "stream_key_placeholder": "Stream-Schlüssel eingeben",
+  "start_streaming_button_text": "Streaming starten",
+  "stop_streaming_button_text": "Streaming beenden",
+  "custom_streaming_config_page_description": "Benutzerdefiniertes Streaming ist Ihr Tool zum Streamen von Teams-Besprechungen auf öffentliche Plattformen, unterstützt von RTMP",
+  "custom_streaming_config_page_first_greeting": "Willkommen beim benutzerdefinierten Streaming!",
+  "custom_streaming_config_page_second_greeting": "Schön, Sie hier zu sehen",
+  "custom_streaming_error_meeting_limit_reached": "Diese Besprechung kann in den aktuellen Einstellungen nicht gestreamt werden. Beschränken Sie die Teilnehmer bitte auf unter 1000.",
+  "custom_streaming_error_permission_denied": "Sie verfügen nicht über Streamingberechtigungen. Wenden Sie sich an Ihren IT-Administrator oder den Organisator, um diese Inhalte zu streamen",
+  "custom_streaming_error_outdated_client": "Teams benötigt Updates, um fortzufahren. Starten Sie Ihre Anwendung neu, um sicherzustellen, dass Sie über die neuesten Features verfügen.",
+  "custom_streaming_error_unknown": "Etwas ist schief gegangen. Versuchen Sie es bitte erneut.",
+  "custom_streaming_error_unsupported_platform": "Dieses Feature wird im Browser noch nicht unterstützt. Versuchen Sie es noch einmal über die Desktopversion von Teams.",
+  "custom_streaming_tab_title": "Benutzerdefiniertes Streaming"
+}

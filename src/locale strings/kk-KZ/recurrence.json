@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Күнделікті болады} =2{Екі айда бір рет болады} one {Әр # күн сайын болады} other{Әр # күн сайын болады}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Әр {days} сайын болады} =2{{days} сайын бір рет болады} one {Әр # апта сайын {days} күні болады} other{Әр # апта сайын {days} күні болады}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Әр айдың {day}-күнінде болады} =2{Екі айда бір рет {day}-күні болады} one {Әр # ай сайын {day}-күні болады} other{Әр # ай сайын {day}-күні болады}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Әр айдың {weekInMonthIndex} {weekday} күнінде болады} =2{Екі айда бір рет {weekInMonthIndex} {weekday} күні болады} one {Әр # ай сайын {weekInMonthIndex} {weekday} күні болады} other{Әр # ай сайын {weekInMonthIndex} {weekday} күні болады}}",
+  "meeting_recurrence_pattern_yearly": "Әр {{date}} сайын болады",
+  "meeting_recurrence_pattern_relativeyearly": "{{month}} айының әрбір {{dayOfTheWeekIndex}} {{dayOfTheWeek}} күні болады"
+}

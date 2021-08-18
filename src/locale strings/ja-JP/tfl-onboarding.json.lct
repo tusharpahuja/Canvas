@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="tfl-onboarding.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ja-JP" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";tflFre_Cancel_button_caption" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use another account]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[別のアカウントを使用]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Cancel button for TFL FRE Profile update dialog. pressing this button would logout the user so he can log in with a different account.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_Learn_More_Link_caption" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Who can see this]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[これが表示されるユーザー]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Caption of a link to 'learn more' page for the TFL FRE Profile update dialog (TFL = TEams For Life, FRE = First Run Experience)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_OK_Button_caption" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Let's go]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[始めましょう]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[OK button for TFL FRE Profile update dialog. User details would be fianlized and he would continue into the application]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_dialog_Aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Teams. How would you like to appear on Teams? People can search for you using this information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams へようこそ。Teams での表示内容を指定してください。他のユーザーはこの情報を使用して検索できます]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[this text is read by screen reader when the dialog is going into focus]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_email_field_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Email]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[メール]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[property, Header for TFL FRE Consent Screen user email field]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_error_dialog_retry_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Retry]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[再試行]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for button option on dialog shown when FRE screen was not able to update or fetch user profile info. This button retries fetching user profile info]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_error_dialog_sign_out_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use another account]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[別のアカウントを使用]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for button option on dialog shown when FRE screen was not able to update or fetch user profile info. This button retries logs out of current account]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_fetch_error_dialog_body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not fetch your profile information. Select "Use another account" to logout and use another account. Select "Retry" to retry fetching your profile]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[プロファイル情報を取得できませんでした。[別のアカウントを使用]5D; を選択してログアウトし、別のアカウントを使用します。[もう一度試す]5D; を選択して、プロファイルの取得を再試行します]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body text for dialog shown when FRE screen was not able to fetch user profile info]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_fetch_error_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to Fetch Your Profile]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[プロファイルを取得できませんでした]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header text for dialog shown when FRE screen was not able to fetch user profile info]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ようこそ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header for TFL FRE Profile Card ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_learn_more_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[詳細情報]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[action. a link at the end of the text when the user can go to learn more about a specific part of the dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_loading_spinner_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[読み込み中...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for spinner when loading user info into the FRE consent screen]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_people_Can_Search_For_You_Using" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People can search for you using:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ユーザーが次の情報を使用してお客様を検索することができます:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[a caption before user phone and email that says: 'People can search for you using:']]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_phone_and_email_flyout" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Visit your Microsoft account to manage your phone number and email.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft アカウントにアクセスして、電話番号とメールを管理します。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[this flyout text appears when you hover over email or phone fields in the TFL FRE Profile Card]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_phone_field_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Phone]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[電話番号]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[property, Header for TFL FRE Consent Screen user phone field]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_stamping_error_dialog_body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not update your profile information. Select "Use another account" to logout and use another account. Select "Retry" to retry updating your profile]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[プロファイル情報を更新できませんでした。[別のアカウントを使用]5D; を選択してログアウトし、別のアカウントを使用します。[もう一度試す]5D; を選択して、プロファイルの更新を再試行します]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Body text for dialog shown when FRE screen was not able to update user profile info]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_stamping_error_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to Update Your Profile]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[プロファイルを更新できませんでした]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header text for dialog shown when FRE screen was not able to update user profile info]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_sync_contacts_checkbox" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync my Skype and Outlook contacts to find people I know on Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Skype と Outlook の連絡先を同期して、Teams で知っているユーザーを検索します。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[caption of checkbox offering the user to sync it's contacts. check is 'yes pls sync' unchecked means 'do not sync']]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_welcome_edit_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams へようこそ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header for TFL FRE Consent Screen when user selects the edit option.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_welcome_edit_second_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[How would you like to appear?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[どのように自分を表示しますか?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header for TFL FRE Consent Screen when user selects the edit option.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tflFre_who_can_see_this_flyout" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your name and Microsoft account picture will be visible to others on Teams. People can also search for you on Teams using your phone number and email.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[名前と Microsoft アカウントの画像が Teams の他のユーザーに表示されます。電話番号とメールを使用して、Teams でユーザーを検索することもできます。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[this flyout text appears when you hover over the link that says 'who can see this' in the TFL FRE Profile Card.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

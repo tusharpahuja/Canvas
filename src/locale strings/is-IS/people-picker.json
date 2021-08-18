@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Eitthvað fór úrskeiðis og ekki tókst að bæta við hópinn.",
+  "peoplePicker_dlTooManyMembers": "Ekki tókst að bæta við {{dlName}} ({{dlMemberCount}}). Þú getur aðeins spjallað við {{maxSize}} manns eða færri.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Notaðu bakklykilinn eða Delete-lykilinn til að fjarlægja. Notaðu vinstri eða hægri lyklana til að færa á aðra spjallviðtakendur.",
+  "peoplePicker_loadingMessage": "Hleður ...",
+  "peoplePicker_newAddGroupNameButtonContent": "Bæta við heiti hóps",
+  "peoplePicker_collapseGroupNameButtonContent": "Draga saman heiti hóps",
+  "peoplePicker_federationWarning": "Ekki er enn hægt að spjalla við fyrirtækja- eða skólareikninga. Frekari upplýsingar.",
+  "peoplePicker_noResults": "Engar samsvaranir fundust.",
+  "peoplePicker_resultsUpdationAriaLabel": "Leitarniðurstöður uppfærðar. Notaðu örvalyklana upp og niður til að velja.",
+  "peoplePicker_search_externally_btn_text": "Leita í {{email}} utan stofnunar/fyrirtækis",
+  "peoplePicker_tflToLinePlaceholder": "Sláðu inn nafn, netfang eða símanúmer",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Fjarlægja",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} valin(n) af listanum.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} af {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} fjarlægð(ur) af listanum."
+}

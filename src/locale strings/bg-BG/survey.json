@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Да",
+  "instant_answers_reaction_yes_aria_label": "Беше ли полезна тази информация? -- Да",
+  "instant_answers_reaction_no": "Не",
+  "instant_answers_reaction_no_aria_label": "Беше ли полезна тази информация? -- Не",
+  "instant_answers_header_text": "Благодарим ви за обратната връзка!",
+  "instant_answers_header_subtext": "Въз основа на вашата обратна връзка, ето някои данни, които може да намерите за полезни:",
+  "instant_answers_footer_text": "Беше ли полезна тази информация?",
+  "include_screenshot_text": "Прилагане на екранна снимка",
+  "customer_feedback_dialog_email_label": "Вашият имейл адрес (по избор)",
+  "customer_feedback_dialog_email_placeholder": "Добавяне на имейл адрес",
+  "customer_feedback_dialog_email_aria_label": "Вашият имейл адрес (по избор)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Като натиснете \"Подаване\", вашата обратна връзка ще се използва за подобряване на продуктите и услугите на Microsoft. Вашият ИТ администратор ще може да събира тези данни. Въз основа на вашата обратна връзка може да ви предоставим допълнителна информация, за да ви помогнем с проблема ви за поддръжка.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Декларация за поверителност.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Затвори диалоговия прозорец за обратна връзка",
+  "customer_feedback_dialog_adhoc_window_title": "Изпращане на обратна връзка"
+}

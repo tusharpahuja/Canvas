@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Nalaganje nadrejenega seznama",
+  "guardians_table": "Starševski seznam za {{classTeam}}",
+  "students": "Učenci",
+  "guardians": "Starši/skrbniki",
+  "chatButton": "Gumb za klepet",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# več staršev ali skrbnikov. Razširi v odprt seznam} one {# več staršev ali skrbnikov. Razširi v odprt seznam} two {# več staršev ali skrbnikov. Razširi v odprt seznam} few {# več staršev ali skrbnikov. Razširi v odprt seznam} other{# več staršev ali skrbnikov. Razširi v odprt seznam} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, odpre kartico profila",
+  "guardians_user_unknown_label": "Neznan uporabnik",
+  "guardians_status_unknown_label": "Neznano",
+  "guardians_overflow_members": "Dodatni starši ali skrbniki učenca {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Začnite klepet s skrbnikom učenca {studentName}} one {Začnite klepet s skrbniki učenca {studentName}} two {Začnite klepet s skrbniki učenca {studentName}} few {Začnite klepet s skrbniki učenca {studentName}} other{Začnite klepet s skrbniki učenca {studentName}}}",
+  "guardians_chat_button_disabled_title": "Skrbnik je onemogočil zunanji dostop",
+  "guardians_chat_button_disabled_alt_title": "Prosite svojega skrbnika za IT, da doda skrbnikove podatke za stik, da bo klepet na voljo",
+  "empty_state_title": "Starši in skrbniki niso bili dodani",
+  "empty_state_subtitle": "Prosite svojega skrbnika za IT, naj jih doda, da boste lahko od tu hitro vzpostavili stik z njimi. <0></0>",
+  "empty_state_link": "Prikaži več",
+  "error_state_title": "Prišlo je do napake. Poskusite znova pozneje.",
+  "not_owner_error_state_title": "Le lastniki ekipe razreda si lahko ogledajo informacije o starših in skrbnikih. Prosite lastnika ekipe, da vam da dostop.",
+  "retry_button_title": "Poskusi znova",
+  "transient_error_state_title": "Prišlo je do neznane napake. Poskusite znova.",
+  "notification_banner_content": "Pri nalaganju več informacij o staršu ali skrbniku je prišlo do težave. Poskusite znova pozneje."
+}

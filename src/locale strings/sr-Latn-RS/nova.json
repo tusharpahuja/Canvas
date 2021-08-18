@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Odjavi se",
+  "me_control_sign_out_button_aria_label": "Odjavite se sa sajta Microsoft",
+  "me_control_my_microsoft_account_button_text": "Moj Microsoft nalog",
+  "me_control_my_microsoft_account_button_aria_label": "Moj Microsoft nalog",
+  "me_control_change_picture_aria_label": "Promenite fotografiju profila",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Meni profila",
+  "app_bar_activity_app_name": "Aktivnost",
+  "app_bar_activity_app_arialabel": "Aktivnost",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# nova aktivnost} one {# novih aktivnosti} few {# novih aktivnosti} other{# novih aktivnosti}}",
+  "app_bar_activity_app_tooltip": "Aktivnost",
+  "app_bar_chat_app_name": "Ćaskanje",
+  "app_bar_chat_app_arialabel": "Ćaskanje",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# ćaskanje sa novim porukama} one {# ćaskanja sa novim porukama} few {# ćaskanja sa novim porukama} other{# ćaskanja sa novim porukama}}",
+  "app_bar_chat_app_tooltip": "Ćaskanje",
+  "app_bar_calendar_app_name": "Kalendar",
+  "app_bar_calendar_app_arialabel": "Kalendar",
+  "app_bar_calendar_app_tooltip": "Kalendar",
+  "app_bar_calls_app_name": "Pozivi",
+  "app_bar_calls_app_arialabel": "Pozivi",
+  "app_bar_calls_app_tooltip": "Pozivi"
+}

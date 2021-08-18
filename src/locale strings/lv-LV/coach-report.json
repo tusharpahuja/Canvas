@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Nav pieejama neviena sapulces skolotāja atskaite",
+  "coach_report_no_data_too_short": "Ieslēgt līdzekli Sapulces skolotājs ilgāk par 1 minūti, lai piekļūtu atskaitei",
+  "coach_report_no_data_too_long": "Diemžēl Sapulces skolotājs neatbalsta sapulces, kas ilgākas par 2 stundām",
+  "coach_report_title": "Jūsu sapulces skolotāja ieskati",
+  "coach_report_private_label": "Privāta",
+  "coach_report_settings": "Iestatījumi",
+  "coach_report_subtitle": "*Jūsu skolotāja atskaite ir redzama tikai jums.",
+  "coach_report_chart_title": "Ieteikumi no jūsu sapulces",
+  "coach_report_card_checkbox": "Vienmēr saglabāt un izlaist šo ekrānu turpmākajām sesijām",
+  "coach_report_save_button": "Saglabāt",
+  "coach_report_delete_button": "Dzēst",
+  "coach_report_save_button_tooltip": "Atrast to vēlāk sapulces lapā",
+  "coach_report_feedback_before_submit": "Vai tas bija noderīgi?",
+  "coach_report_feedback_after_submit": "Paldies par atsauksmēm",
+  "coach_report_feedback_yes_button": "Jā",
+  "coach_report_feedback_no_button": "Nē",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} no {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Iepriekšējais",
+  "coach_report_next_critique_button": "Nākamais"
+}

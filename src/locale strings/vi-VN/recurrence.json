@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Diễn ra hàng ngày} =2{Diễn ra mỗi 2 ngày} other{Diễn ra mỗi # ngày}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Diễn ra mỗi {days} ngày} =2{Diễn ra mỗi 2 {days}} other{Diễn ra mỗi # tuần vào {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Diễn ra hàng tháng vào ngày {day}} =2{Diễn ra mỗi 2 tháng vào ngày {day}} other{Diễn ra mỗi # tháng vào ngày {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Diễn ra hàng tháng vào {weekday} {weekInMonthIndex}} =2{Diễn ra mỗi 2 tháng vào {weekday} {weekInMonthIndex}} other{Diễn ra mỗi # tháng vào {weekday} {weekInMonthIndex}}}",
+  "meeting_recurrence_pattern_yearly": "Diễn ra vào {{date}} hàng năm",
+  "meeting_recurrence_pattern_relativeyearly": "Diễn ra vào {{dayOfTheWeek}} {{dayOfTheWeekIndex}} của {{month}}"
+}

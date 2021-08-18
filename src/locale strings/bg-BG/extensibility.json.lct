@@ -1,0 +1,3102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="extensibility.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="bg-BG" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Platform_app_configuration_dialog_load_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong when loading tab configuration dialog, please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Възникна проблем при зареждане на диалоговия прозорец за конфигуриране на раздела - опитайте отново по-късно.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown to user when loading tab configuration dialog fail without app definition or tab data]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";adaptive_card_tab_login_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign In]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Влизане]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Log In]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button content for log in button on adaptive card tab auth page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_attribution_header_actions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още опции]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[title for more options menu in message cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_based_link_install_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{appName}} wants to show a preview of this link. By using the app you agree to its <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}} иска да покаже визуализация на тази връзка. Като използвате приложението, вие се съгласявате с неговите <0></0> и <1></1>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text to get permission to show a link preview. appName: name of the app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_add_button_add" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Добавяне]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Install the app to appropriate scope depending on the context]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_aria_label_close_dialog" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Затвори диалоговия прозорец]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for close dialog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_basic_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send me messages and notifications.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изпращане на съобщения и известия до мен.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[second basic permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_basic_full_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that I provide to it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получаване на съобщения и данни , които му  предоставям .]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[first basic permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_bot" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bots]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ботове]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for bots]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_bot_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat with the app to ask questions and find info]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Разговаряйте с приложението, за да задавате въпроси и да получавате информация]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of bots capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_connector" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Notifications]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Известия]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for connectors]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_connector_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get notifications from the app in a channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получаване на известия от приложението в канал]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of connectors]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_message_extension" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Съобщения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for message extensions]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_message_extension_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Insert content from the app directly into messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Вмъкване на съдържание от приложението директно в съобщенията]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of message extension]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_personal_app" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Personal app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Лично приложение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for personal apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_personal_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Keep track of important content and info]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Следете важното съдържание и информация]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of personal apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tabs]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Раздели]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for Tabs]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_tab_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use in a tab at the top of a chat or channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Използване в раздел в горната част на чат или канал]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of tabs cabability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_chat_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages and notifications in a chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изпращане на съобщения и известия в чат.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_chat_galleryTabs_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that chat members provide to it in a chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получавайте съобщения и данни, които членовете на чата предоставят в чат.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[First chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_created_by" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Created by: <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Създадено от: <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[developer of the app. <0></0> is the link to developer's website]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_full_screen_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Render personal apps and dialogues without a Teams-provided header.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Рендиране на лични приложения и диалогови прозорци без предоставена от Teams заглавка .]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[fullscreen permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_chat_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access this chat's information such as chat name and roster (including chat member's names and email addresses) - and use this to contact them​.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получете достъп до информацията за този чат, като например името на чата и състав (включително имената и имейл адресите на членовете на чата) – и я използвайте за връзка с тях.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The chat identity permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access my profile information such as my name, email address, company name and preferred language.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Достъп до информацията в профила ми, например името ми, имейл адреса ми, името на фирмата ми и моя предпочитан език.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[first team permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_team_and_chat_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access information from this team or chat such as team or chat name, channel list and roster (including team or chat member's names and email addresses) - and use this to contact them​.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получете достъп до информацията от този екип или чат, като например името на екипа или чата, списък с канали и състав (включително имената и имейл адресите на членовете на екипа или чата) – и я използвайте за връзка с тях.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The team and chat identity permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permission_message_send_organization" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages to anyone in your Teams organization.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изпращане на съобщения до всеки в организацията ви на Teams.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[permission string indicating ability to send messages to anyone in the user's Teams organization]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permission_teams_access" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Maintain access to the team's data.​]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Поддържане на достъп до данните на екипа.​]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Resource specific permission: Maintain access to the team's data.​]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permissions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Permissions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Разрешения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Permissions section content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_split_button_instruction_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[to open menu, press Alt + Arrow Down]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[за да отворите менюто, натиснете Alt + стрелка надолу]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[message for using triggering the split button using keyboard shortcut]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_split_button_role_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[splitbutton]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[бутон за разделяне]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[message to be added for aria-roledescription property]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_team_and_chat_bots_connectors_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages and notifications in a channel or chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изпращайте съобщения и известия в канал или чат.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second team and chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_team_and_chat_full_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that team or chat members provide to it in a channel or chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получавайте съобщения и данни, които членовете на екипа или чата предоставят в канал или чат.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[First team and chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using {{appName}}, you agree to the <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[С използването на {{appName}}се съгласявате с <0></0> и <1></1>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[terms of privacy of the app. {{appName}} is the name of the app. <0></0> is the link to the privacy statement. <1></1> is the link to the terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[политика за поверителност]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[условия за използване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_version" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version {{appVersion}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Версия {{appVersion}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{{appVersion}} is the version of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_app_carousel_get_card_position" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Card {{index}} out of {{size}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Карта {{index}} извън {{size}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[For screen reader announce the position of the current card. {{index}} is index of the focused carousel card. {{size}} means how many cards we have]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_app_information_dialog_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name}}, developer: {{developerName}},  description: {{longDescription}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}}, разработчик: {{developerName}}, описание: {{longDescription}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[app information dialog aria label to be read by screen reader name - app name, developerName- app developer name and longDescription- app description]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_basicPermission_what_app_can_do" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Here's what this app can do:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ето какво може да прави това приложение:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the website banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_developer" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Created by ]A;{{developerName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Създадено от ]A;{{developerName}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Created by {{developerName}}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[developer of the app. {{developerName}} is the name of the developer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_icons_send" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изпращане]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Send message to the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_imreceive" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive instant messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получаване на незабавни съобщения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show Receive instant permission messages]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_imsend" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send instant messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изпращане на незабавни съобщения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show Send instant permission messages]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_presence" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Наличен]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[presence of the bot, which is always available]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy statement]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Декларация за поверителност]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_quickMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Message {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изпращане на съобщение до {{appName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message the app from app profile card object]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Съдържа # сцени]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains 1 scene]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Съдържа 1 сцена]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Съдържа # сцени]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{sceneCount,plural, =1 {Contains 1 scene} other {Contains # scenes}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{sceneCount,plural, =1 {Contains 1 scene} other {Contains # scenes}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_terms_of_use" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Services agreement]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Споразумение за услуги]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link to terms of use]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_toggleChat_on" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Чат]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Chat with the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";botcards_o365_actionCard_title_required_interpolation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{title}} (Required)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{title}} (Задължително)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Suffix interpolation used in title or placeholder for O365 actionable card if the input field is required]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_chat_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Чат]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of chat action pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_files_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Файлове]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of files pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_photos_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Photos]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Снимки]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of photos pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_location_bing_map" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Затвори]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for close action button at location map dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appPrivacyPolicyLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Правила за поверителност]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app Privacy policy in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appPublishedByLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Published by {{publisher}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Публикувано от {{publisher}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app publisher {{publisher}} in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appTermsOfUseLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Условия за използване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app Terms of Use in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appVersionLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version {{version}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Версия {{version}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app version {{version}} in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appWebsiteLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Website]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Уеб сайт]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the Website in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_tabPrivacyMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using this tab, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Като използвате този раздел, вие се съгласявате с <0></0> и <1></1> на разработчика.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[By using this tab, you agree to the developer's license terms and privacy statement.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the tab License terms and Privacy statement.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Налични са # резултата, използвайте клавишите със стрелки нагоре и надолу, за да навигирате. Натиснете клавиша Enter, за да изберете.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Наличен е 1 резултат, използвайте клавишите със стрелки нагоре и надолу, за да навигирате. Натиснете клавиша Enter, за да изберете.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Налични са # резултата, използвайте клавишите със стрелки нагоре и надолу, за да навигирате. Натиснете клавиша Enter, за да изберете.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{resultCount, plural, =1{1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.} other{# results are available, use up and down arrow keys to navigate. Press the Enter key to select.} }]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{resultCount, plural, =1{1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.} other{# results are available, use up and down arrow keys to navigate. Press the Enter key to select.} }]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_failed_login" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in to {{name}} to see options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Влезте в {{name}}, за да видите опциите]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown asking the user to authenticate with the bot before using. {{name}} is the name of the bot.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_failed_ratelimit" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sorry, things got busy. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Съжаляваме, ботът е зает. Опитайте отново по-късно.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when loading results from bot failed due to the bot being busy.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_loading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading options...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Опции за зареждане...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when results are being fetched from the bot.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_loading_failed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to show options right now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[В момента не могат да се покажат опции]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when loading results from bot failed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_image_expand_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enlarge this image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Увеличаване на изображението]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for image expand icon on adaptive card images]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_cancel_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Отказ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog cancel action button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We need to ask for additional permissions. You should only need to do this once for {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Трябва да поискаме допълнителни разрешения. Трябва да направите това само веднъж за {{appName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog content. {{appName}} is name of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_continue_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Продължаване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog continue action button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Almost there!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Почти е готово!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for platform app auth consent]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_channel_tab_window_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{teamName}} / {{channelName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{teamName}} / {{channelName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Window title for tabs in channel. {{teamName}} is the name of the team that tab belongs to, {{channelName}} is the channel name inside the team where the tab is located ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_close_subentity_conversation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Затваряне]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the subentity conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_copy_to_clipboard_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copied to clipboard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Копирано в клипборда]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip shown to customer when they click copy tab link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem reaching this app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Възникна проблем при достигане до това приложение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for extensibility platform]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_cancel_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[отказ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Force delete dialog cancel button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can permanently delete this tab; however, it may not delete the data in this app. If you require the data of this app to be permanently deleted, then you should avoid this step.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Можете да изтриете окончателно този раздел; не може обаче да се изтрият данните в това приложение. Ако се нуждаете данните на това приложение да бъдат окончателно изтрити, трябва да избегнете тази стъпка.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Platform force delete tab dialog content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem removing this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Възникна проблем при премахването на този раздел]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Platform force delete tab dialog header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_remove_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[yes, remove tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Да, премахни раздела]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Force delete dialog remove button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_get_bots" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get bots]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получаване на ботове]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in at-mentions to navigate to app store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_messageExtension_consent_message_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clicking <0></0> will add <1></1> to this chat. By using this app you agree to its <2></2> and <3></3>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Щракването върху <0></0> ще добави <1></1> към този чат. С използването на това приложение вие се съгласявате с неговите <2></2> и <3></3>.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Clicking {{installButtonTitle}} will add {{appName}} to this chat. By using this app you agree to its <0></0> and <1></1>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicked on card action that is blocked. <0></0> is the label of install button from bot. <1></1> is the name of the app. <2></2> is the link to the privacy settings of the app. <3></3> is the terms of conditions of the app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_platform_app_information_dialog_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Информация за приложението]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[app information dialog button aria label to be read by screen reader]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_create_scene_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create your own scene]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Създаване на собствена сцена]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Create your scene]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the ink to app studio to create a scene]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[правила за поверителност]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_search_no_results_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't find any matches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Не можахме да намерим никакви съвпадения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for scene picker search if no results]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_search_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search scenes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Търсене на сцени]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for scene picker search (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using {{sceneName}} scene, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Като използвате сцената {{sceneName}} вие се съгласявате с <0></0> и <1></1> на разработчика.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[terms of privacy of the app. {{sceneName}} is the name of the scene. <0></0> is the link to the privacy statement. <1></1> is the link to the terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[условия за използване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_shareDeepLink_copyInstructions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Press Ctrl + C to get a link to this item that you can share with your teammates.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Натиснете Ctrl+C, за да получите връзка към този елемент, която можете да споделите с членовете на вашия екип.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that describes how to copy the deep link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_shareDeepLink_dialogTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy a link to "{{deepLinkLabel}} in {{deepLinkTabName}}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Копиране на връзка към "{{deepLinkLabel}} в {{deepLinkTabName}}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the share deep link dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_no_matches" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We didn't find any matches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Не открихме съвпадения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message when no matches in store search]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Търсене]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for store search bar (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_results_subtitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{totalItemsCount}} results]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{totalItemsCount}} резултата]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The amount of items. {{totalItemsCount}} is the number of items]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_results_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results for "{{keyword}}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Резултати от търсенето на „{{keyword}}“]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message for search results. {{keyword}} is the search keyword]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Store]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Магазин]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for store (object)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start conversation]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Започване на разговор]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label on the button to start the conversation in a tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Whatever you post here will also show up in the main channel.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Каквото и да публикувате тук, то ще се появи и в главния канал.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title shown when no coversation exist for a tab entity]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_init_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Added a new tab at the top of this channel. Here's a link.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Добавен е нов раздел в горната част на този канал. Ето връзка.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when the conversation about the tab is started]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go ahead and start talking!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Продължете напред и започнете да общувате!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title shown when no coversation exist for a tab entity]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_websiteTab_closeWebsiteBanner" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Затвори]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the website banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_websiteTab_goToWebsiteLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[try opening it in a browser]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[опитайте да го отворите в браузър]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Try opening the website tab in a browser]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_website_tab_banner" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You’re viewing content from {{url}} —make sure you trust this site before using it. If the site isn't loading properly,]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Преглеждате съдържание от {{url}} – уверете се, че се доверявате на този сайт, преди да го използвате. Ако сайтът не се зарежда правилно,]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[You’re viewing content from {{url}}—make sure you trust this site before using it. If the site isn't loading properly,]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner to be used in the website tab. {{url}} is the url loaded in the tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_noResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We didn't find any matches.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Не намерихме никакви съвпадения.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown in any of the fun stuff pickers when zero results returned, text is also read by screen readers]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Търсене]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for search text box in Message Extension flyout (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_resultsUpdatedText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results updated, {{numResults}} available, use tab and arrow keys to navigate and enter to select]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Резултатите от търсенето са актуализирани, {{numResults}} налични, за да навигирате използвайте Tab и клавишите със стрелки и Enter, за да изберете]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text read by screen readers during searching when results are available. {{numResults}}: number of results.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_allow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Allow]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Позволяване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button title to allow bot file upload]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_decline" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Decline]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Отказ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button title to decline bot file upload]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{appName}} needs permission to upload this file to your OneDrive]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}} се нуждае от разрешение да качи този файл на вашия OneDrive]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title to show for file consent card. {{appName}} is the name of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";hosted_web_content_loading_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Зареждане на {{appName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced to user when loading hosted web content. {{appName}} is current hosted app name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_body_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check out other popular apps published by your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Прегледайте други популярни приложения, публикувани от вашата организация]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notificaitons page body text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_settings_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[notification settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[настройки за известяване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page notification settings button content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can change your notification preferences from]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Можете да промените предпочитанията си за известия от]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page view in the store notification settings text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_view_in_store_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View in Store]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Преглед в магазина]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page view in store button content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_header_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your org has published a new app:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Организацията ви публикува ново приложение:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page header text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_learn_more_hyperlink" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Научете повече]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Hyperlink to learn more]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staged_app_delete_app_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete submission]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изтриване на подаването]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in more options menu list for a staged app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staged_app_submission_deleted" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submission deleted]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Подаването е изтрито]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown confirming that a staged app submission by a user was deleted]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your IT admin for approval and check the status of your submissions. Once approved, the app will be published to your org’s app catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Подайте приложение на вашия ИТ администратор за одобрение и проверете състоянието на вашите подавания. След като бъде одобрено, приложението ще бъде публикувано в каталога с приложения на организацията ви.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for user owned staged apps page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_noSearchResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't find any matches for '{{searchString}}']]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Не можем да намерим съвпадения за „{{searchString}}“]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text to show when there are no matching staged apps for the user's search. {{searchString}} is the term the user searched for.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_noStagedApps" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is the place to submit an app and check the status of your submissions. Once approved by your IT admin, your app will be featured under Apps > Tenant > Built for your organization.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Това е мястото за подаване на приложение и проверка на състоянието на вашите подавания. След като бъде одобрено от вашия ИТ администратор, вашето приложение ще бъде поместено в „Приложения > Клиент > Създадени за вашата организация“.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown when a user has no staged apps to be displayed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_search_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Find]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Търсене]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text in search box for staged apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_app" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Приложение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing app name and small image url]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_datetime" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last updated]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Последно актуализиране]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing the last updated datetime]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_status" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submission status]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Състояние на подаването]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing review/submission status]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_version" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Версия]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing app version]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More Options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още опции]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label for the MenuButton trigger in the staged apps table]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_approved" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Approved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Одобрено]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app has been approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_pending" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pending]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[В изчакване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app is yet to be approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_rejected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Отхвърлено]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app has been rejected by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_unknown" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unknown]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Неизвестно]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app's review status is unknown]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_upgradepending" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upgrade Pending]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Чакащо надстройване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when an upgrade to a staged app is waiting to be approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Staged Apps Table]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Таблица с планирани приложения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label of the table in staging apps component]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app for your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Подаване на приложение за организацията ви]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for user owned staged apps page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_submit_to_app_catalog_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your IT admin for approval and check the status of your submissions. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Подайте приложение към вашия ИТ администратор за одобрение и проверете състоянието на вашите подавания. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for submit to app catalog button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_submit_to_app_catalog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Подаване на приложение към организацията ви]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for submit to app catalog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_custom_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload an app package (.zip file) for yourself or a team. This is a great way to test an app as it’s being developed. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Качете пакет с приложения (.zip файл) за себе си или за екип. Това е чудесен начин да тествате приложение, докато се разработва. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for upload a custom app button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_custom_app_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload a custom app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Качване на приложение по избор]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for upload a custom app button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_tenant_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[As an admin, you can upload an app without approval from others. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Като администратор можете да качите приложение без одобрение от другите. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for upload an app to the organization button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_tenant_app_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload an app to your org's app catalog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Качване на приложение в каталога с приложения на организацията ви]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for upload an app to the organization button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_apps_flyout_optimized_for_meetings_section_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Optimized for meetings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Оптимизирано за събрания]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Section header in meeting apps flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_action_commands" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Action Commands]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Команди за действие]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for the action commands menu in message extension flyout.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_auth_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need to <0></0> to use this app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ще трябва да <0></0>, за да използвате това приложение.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text for auth flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_config_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need to <0></0> this app to use all of its features.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ще трябва да <0></0> това приложение, за да използвате всичките му функции.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text for config flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeExtensionUnpinFailureBannerMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong when unpinning {{appName}}, please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Нещо се обърка при откачване на {{appName}}, опитайте отново по-късно.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner message shown when a compose extension app fails to be unpinned. {{appName}} is the app name that's being unpinned.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_about_link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[About]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Информация]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link to open app about dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_back_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Back]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Назад]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Exit the app configuration and go back to previous window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_close_dialog" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close configuration dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Затваряне на диалоговия прозорец за конфигуриране]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for close configuration dialog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_save_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Записване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Save the app configuration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_apps_flyout_suggested_apps_section_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Suggested]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Предложени]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Section header in platform apps flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_configuration_more_actions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More tab configuration actions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още действия за конфигуриране на раздел]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for tab configuration more actions menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_more_options" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още опции]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for more options]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_reload_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Reload tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Презареждане на раздела]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for reload tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_remove_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Премахване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rename]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Преименуване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for rename tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rename {{displayName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Преименуване на {{displayName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for app rename dialog. {{displayName}} is tab's current name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_input_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tab name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Име на раздела]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for app rename input]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_start_presenting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start presenting {{appTitle}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Започнете да представяте {{appTitle}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Start presenting]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for start presenting button along with {{appTitle}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_update_settings_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Настройки]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for update tab settings menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The {{displayName}} tab will be permanently removed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Разделът {{displayName}} ще бъде окончателно премахнат.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove tab dialog. {{displayName}} is the current tab name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_remove_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Премахване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove button at remove tab dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_removing_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Removing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Премахване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove button at removing status]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Want to remove this tab?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Искате ли да премахнете този раздел?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for platform app remove tab dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_with_listeners_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove {{displayName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Премахване на {{displayName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for removing tab with listeners dialog. {{displayName}} is the current tab name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";saving_tab_configuration_footer_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Setting up your {{tabName}} tab ...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Настройка на вашия раздел {{tabName}}...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Footer message shown after user clicks save button. {{tabName}} is current tab name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_location_bing_map" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share location]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Споделяне на местоположение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for share location action button at location map dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Store Banner]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Банер за съхранение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the store banner carousel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[VIEW DETAILS]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ПРЕГЛЕД НА ПОДРОБНОСТИТЕ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Button text displayed in the store banner carousel for featured apps. Click triggers app details dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_pause_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pause]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Пауза]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Pause store banner carousel auto play]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_play_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Play]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изпълнение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Auto play store banner caoursel one by one]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_bot_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bot]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Бот]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Bot]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_certified_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Certified]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Сертифициран]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Certified]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_connector_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Конектор]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Connector]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_groupchat_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Group Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Групов чат]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter groupChat (object)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_meeting_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Събрание]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_messageextension_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messaging]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Съобщения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter messaging]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_personal_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Personal]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Лични]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Personal]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_tab_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Раздел]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter ({{filterAmount}})]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Филтър ({{filterAmount}})]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store filter (object).{{filterAmount}} is the number of filters]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter_capabilities" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App features]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Функции на приложението]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Capabilities]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter_clear" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изчистване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Clear all capabilities]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_item_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[store item button]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[бутон за съхраняване на елемент]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria label for store item button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_manage_apps_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage your apps]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Управление на вашите приложения]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the button to go to the manage apps section]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_provider_powerapps_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Apps]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Power Apps]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the Power Apps provider section in Store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_provider_team_templates_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Team Templates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Шаблони за екип]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the Team Templates provider section in Store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_see_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Вижте повече]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[See more button on left rail]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_configuration_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Configured tab successfully]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Успешно конфигуриран раздел]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced after configuring tab successfully]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_framework_save_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't save your tab settings. Please try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Не успяхме да запишем настройките за раздела ви. Опитайте отново.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error text shown to the user whenever we fail to save their tab settings (on both new tab creation and when editing an existing tab's properties).]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_post_to_channel_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Post to the channel about this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Публикувайте в канала за този раздел]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for post the tab to channel checkbox]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_post_to_chat_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Post to the chat about this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Публикувайте в чата за този раздел]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for post the tab to chat checkbox]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_remove_fail_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't remove your tab. Please try later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Не можахме да премахнем вашия раздел. Опитайте по-късно.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when removing tab fail.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_remove_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Removed tab successfully]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Успешно премахнат раздел]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced after removing tab successfully]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_rename_duplicate_name_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You already have a tab with that name. Try a different one.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Вече имате раздел с това име. Опитайте с друго име.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for app rename input name is duplicated with existing ones]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_rename_empty_name_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Name is required]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Името е задължително]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for app rename input name is empty]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Чат]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Chat action placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_files" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Файлове]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_meeting_notes" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting Notes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Бележки от събрание]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Meeting notes placeholder tab used for rename appt]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_whiteboard" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Whiteboard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Табло]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Whiteboard placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_location_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Location]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Местоположение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Noun: Header title for the Location app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още # души]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1 more person]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още 1 човек]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още # души]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{morePersonasCount,plural, =1 {1 more person} other {# more people}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{morePersonasCount,plural, =1 {1 more person} other {# more people}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_safe_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Safe]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Сейф]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Noun: Header test for the Safe (like in safe-box) app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_tasks_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tasks]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Задачи]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header test for the Tasks app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_unsupported_media_element" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Media playback is currently not supported in Adaptive Cards in Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Възпроизвеждането на мултимедия в момента не се поддържа в адаптивни карти в Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed as fallback element for media elements in adaptive cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Done]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Готово]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message shown on successful card action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_unsupported_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This card action is not supported by {{appName}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Това действие на карта не се поддържа от {{appName}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action which is not supported by the app. {{appName}} is the name of app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_unsupported_noapp" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This action can't be performed since the app does not exist or has been uninstalled.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Това действие не може да се изпълни, тъй като приложението не съществува или е деинсталирано.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action which is not supported because app does not exist or uninstalled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_blocked_by_policy_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This bot is disabled. Contact your IT admin for more information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Този бот е забранен. Свържете се с вашия ИТ администратор за повече информация.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The card action is blocked because app has been blocked by your administrator]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicked on card action that is blocked]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_blocked_by_user_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This card action is disabled because you've blocked {{appName}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Действието за картата е забранено, защото сте бокирали {{appName}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action buttons when bot is blocked by user. {{appName}} is the name of app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_action_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Success]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Успех]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message shown on successful card action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_header_app_install_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Получаване на приложението]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the card header install app action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_link_actions_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is a card action with a link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Това е действие с карта с връзка]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to append to the title of an open url/ sign in button or tap action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_refresh_button_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Refresh]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Обновяване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the refresh button in card]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_jit_install_failure_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong. Make sure you've successfully added the app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Нещо се объркала. Уверете се, че успешно сте добавили приложението.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when the user does not install the app needed for the action to execute]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_task_module_close_button_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Затвори]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the close button in task module dialog header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_unsupported_card_action_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Return to the main window to perform this action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Връщане в главния прозорец за извършване на това действие.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when the user clicks on a card action that is not supported in multi window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_unsupported_task_module_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unsupported task module content]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Неподдържано съдържание на модула на задачата]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when task module content is unsupported]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ubar_add_apps_btn_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add an app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Добавяне на приложение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Add an app button on Ubar overflow menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ubar_overflow_menu_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More button on Ubar overflow menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";unable_to_save_tab_configuration_footer_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to save {{tabName}} tab configuration.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Неуспешно записване на конфигурацията на раздела {{tabName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when save tab call fail. {{tabName}} is current tab name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_add_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Добави]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_add_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add {{app}} to use these filter effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Добавяне на {{app}} за използване на тези филтърни ефекти]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for add app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[правила за поверителност]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement showing on video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By adding this app, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Като добавите това приложение, вие се съгласявате с <0></0> и <1></1> на разработчика.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Terms and privacy description of video app showing on installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[условия за използване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement showing on video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_av_filters_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{filterName}} from {{app}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{filterName}} от {{app}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Filter name announced in screen reader and tooltip. {{filterName}} is name of filter, {{app}} is name of app that contributed the filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_av_filters_button_aria_label_is_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{filterName}} from {{app}} is selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Избрано е {{filterName}} от {{app}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Filter name announced in screen reader when it is selected. {{filterName}} is name of filter, {{app}} is name of app that contributed the filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_clear_customization_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear All Effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изчистване на всички ефекти]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for clear button that clears both bacakground filter and customized video effects]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_clear_customization_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Изчистване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for clear button that clears both bacakground filter and customized video effects]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_hide_customization_panel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hide video effects customization panel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Скриване на панела за персонализиране на видеоефекти]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for video effects customization button when customization panel is open]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_effects_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in video effect quick picker to navigate video effect side panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_av_filters_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filters]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Филтри]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of A/V filters panel in accordion showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_backgrounds_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Backgrounds]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Фонове]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of backgrounds panel in accordion showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Video effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Видеоефекти]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header text showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Повече]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More Button text showing on two accordion panels inside of video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_more_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More Effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още ефекти]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More Button text showing on two accordion panels inside of video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_show_customization_panel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show video effects customization panel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Показване на панела за персонализиране на видеоефекти]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for video effects customization button when customization panel is hidden]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

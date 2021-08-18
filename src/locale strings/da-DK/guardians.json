@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Indlæser overordnet liste",
+  "guardians_table": "Overordnet liste til {{classTeam}}",
+  "students": "Studerende",
+  "guardians": "Forældre/værger",
+  "chatButton": "Chatknap",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# forælder eller værge. Udvid for at åbne liste} one {# flere forældre eller værger. Udvid for at åbne liste} other{# flere forældre eller værger. Udvid for at åbne liste} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, åbner profilkort",
+  "guardians_user_unknown_label": "Ukendt bruger",
+  "guardians_status_unknown_label": "Ukendt",
+  "guardians_overflow_members": "Flere forældre eller værger til {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Start en chat med værgen til {studentName}} one {Start en chat med værgerne til {studentName}} other{Start en chat med værgerne til {studentName}}}",
+  "guardians_chat_button_disabled_title": "Ekstern adgang er deaktiveret af administratoren",
+  "guardians_chat_button_disabled_alt_title": "Bed administratoren om at tilføje oplysninger om værge kontakt for at gøre chat tilgængelig",
+  "empty_state_title": "Forældre og værger er ikke blevet tilføjet",
+  "empty_state_subtitle": "Bed din it-administrator om at tilføje dem, så du hurtigt kan kontakte dem herfra. <0></0>",
+  "empty_state_link": "Se mere",
+  "error_state_title": "Noget gik noget galt. Prøv igen senere.",
+  "not_owner_error_state_title": "Kun holdejere kan se oplysninger om forældre og værger. Bed teamejeren om at give dig adgang.",
+  "retry_button_title": "Prøv igen",
+  "transient_error_state_title": "Der gik noget galt. Prøv igen.",
+  "notification_banner_content": "Der opstod et problem under indlæsning af oplysninger om forældre og værge. Prøv igen senere."
+}

@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "No hi ha cap informe de l'Entrenador de reunions disponible",
+  "coach_report_no_data_too_short": "Activeu el Talent formatiu de reunions durant més d'un minut per accedir a l'informe",
+  "coach_report_no_data_too_long": "El Talent formatiu de reunions no admet reunions de més de 2 hores",
+  "coach_report_title": "Informació sobre l'Entrenador de reunions",
+  "coach_report_private_label": "Privat",
+  "coach_report_settings": "Configuració",
+  "coach_report_subtitle": "* L'informe de l'Entrenador només és visible per a vós.",
+  "coach_report_chart_title": "Suggeriments per a la reunió",
+  "coach_report_card_checkbox": "Desa i omet sempre aquesta pantalla per a les sessions futures",
+  "coach_report_save_button": "Desa",
+  "coach_report_delete_button": "Suprimeix",
+  "coach_report_save_button_tooltip": "Ho trobareu més endavant a la pàgina de la reunió",
+  "coach_report_feedback_before_submit": "És útil?",
+  "coach_report_feedback_after_submit": "Gràcies pels comentaris",
+  "coach_report_feedback_yes_button": "Sí",
+  "coach_report_feedback_no_button": "No",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} de {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Anterior",
+  "coach_report_next_critique_button": "Següent"
+}

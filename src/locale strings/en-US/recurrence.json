@@ -1,0 +1,14 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Occurs daily} =2{Occurs every other day} other{Occurs every # days}}",
+  "_meeting_recurrence_pattern_daily_mf.comment": "Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Occurs every {days}} =2{Occurs every other {days}} other{Occurs every # weeks on {days}}}",
+  "_meeting_recurrence_pattern_weekly_mf.comment": "Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Occurs every month on day {day}} =2{Occurs every other month on day {day}} other{Occurs every # months on day {day}}}",
+  "_meeting_recurrence_pattern_monthly_mf.comment": "Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Occurs every month on {weekInMonthIndex} {weekday}} =2{Occurs every other month on {weekInMonthIndex} {weekday}} other{Occurs every # months on {weekInMonthIndex} {weekday}}}",
+  "_meeting_recurrence_pattern_relativemonthly_mf.comment": "Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday",
+  "meeting_recurrence_pattern_yearly": "Occurs every {{date}}",
+  "_meeting_recurrence_pattern_yearly.comment": "Text shown for meeting happening every year on a date. E.g.: Occurs every February 5",
+  "meeting_recurrence_pattern_relativeyearly": "Occurs every {{dayOfTheWeekIndex}} {{dayOfTheWeek}} of {{month}}",
+  "_meeting_recurrence_pattern_relativeyearly.comment": "Text shown for meeting happening every year on a date. E.g.: Occurs every Second Monday of June"
+}

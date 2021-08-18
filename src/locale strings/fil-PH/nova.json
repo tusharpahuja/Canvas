@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Mag-sign out",
+  "me_control_sign_out_button_aria_label": "Mag-sign out sa Microsoft",
+  "me_control_my_microsoft_account_button_text": "Aking Account sa Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Aking Account sa Microsoft",
+  "me_control_change_picture_aria_label": "Baguhin ang larawan ng profile",
+  "me_control_trigger_aria_label": "Profile",
+  "me_control_menu_aria_label": "Menu ng profile",
+  "app_bar_activity_app_name": "Aktibidad",
+  "app_bar_activity_app_arialabel": "Aktibidad",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# bagong aktibidad} one {# (na) bagong aktibidad} other{# (na) bagong aktibidad}}",
+  "app_bar_activity_app_tooltip": "Aktibidad",
+  "app_bar_chat_app_name": "Chat",
+  "app_bar_chat_app_arialabel": "Chat",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# chat na may mga bagong mensahe} one {# (na) chat na may mga bagong mensahe} other{# (na) chat na may mga bagong mensahe}}",
+  "app_bar_chat_app_tooltip": "Chat",
+  "app_bar_calendar_app_name": "Kalendaryo",
+  "app_bar_calendar_app_arialabel": "Kalendaryo",
+  "app_bar_calendar_app_tooltip": "Kalendaryo",
+  "app_bar_calls_app_name": "Mga Tawag",
+  "app_bar_calls_app_arialabel": "Mga Tawag",
+  "app_bar_calls_app_tooltip": "Mga Tawag"
+}

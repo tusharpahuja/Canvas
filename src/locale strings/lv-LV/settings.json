@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistēma",
+  "general_settings_system_auto_start_toggle": "Automātiski startēt Teams",
+  "notification_settings_details_message_preview_header_text": "Ziņojuma priekšskatījums",
+  "notification_settings_edit_chat_button_aria_label": "Rediģēt tērzēšanas paziņojumus",
+  "notification_settings_details_chat_messages_text": "Ziņojumi",
+  "notification_settings_warning_windows_tfw": "Vēlreiz pārbaudiet savus Windows paziņojumu iestatījumus, lai pārliecinātos, vai varat saņemt Teams paziņojumus. <0></0>",
+  "settings_loader_text": "Ielādē saturu...",
+  "dropdown_settings_selected_text": "Atlasīta {{value}}",
+  "read_receipts_title": "Lasīšanas apliecinājumi",
+  "read_receipts_description": "Informējiet lietotājus, kad esat redzējuši viņu ziņojumus un ziniet, kad viņi ir redzējuši jūsu. Lai iestatījums stātos spēkā šajās sarunās, aizveriet un vēlreiz atveriet tērzēšanas logus.",
+  "read_receipts_label": "Lasīšanas apliecinājumi"
+}

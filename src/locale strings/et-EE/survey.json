@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Jah",
+  "instant_answers_reaction_yes_aria_label": "Kas sellest teabest oli abi? – Jah",
+  "instant_answers_reaction_no": "Ei",
+  "instant_answers_reaction_no_aria_label": "Kas sellest teabest oli abi? – Ei",
+  "instant_answers_header_text": "Täname sind tagasiside eest!",
+  "instant_answers_header_subtext": "Siit leiad kasulikku teavet, mis põhineb sinu tagasisidel.",
+  "instant_answers_footer_text": "Kas sellest teabest oli abi?",
+  "include_screenshot_text": "Kaasa kuvatõmmis",
+  "customer_feedback_dialog_email_label": "Sinu meiliaadress (valikuline)",
+  "customer_feedback_dialog_email_placeholder": "Lisa meiliaadress",
+  "customer_feedback_dialog_email_aria_label": "Sinu meiliaadress (valikuline)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Kui klõpsad nuppu „Edasta“, kasutatakse sinu tagasisidet Microsofti toodete ja teenuste täiustamiseks. Sinu IT-administraator saab neid andmeid koguda. Tagasiside põhjal võime sulle abi pakkumiseks saata täiendavat teavet.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Privaatsusavaldus.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Sule tagasisidedialoog",
+  "customer_feedback_dialog_adhoc_window_title": "Anna tagasisidet"
+}

@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Kirjaudu ulos",
+  "me_control_sign_out_button_aria_label": "Kirjaudu ulos Microsoftista",
+  "me_control_my_microsoft_account_button_text": "Oma Microsoft-tili",
+  "me_control_my_microsoft_account_button_aria_label": "Oma Microsoft-tili",
+  "me_control_change_picture_aria_label": "Vaihda profiilikuva",
+  "me_control_trigger_aria_label": "Profiili",
+  "me_control_menu_aria_label": "Profiilivalikko",
+  "app_bar_activity_app_name": "Toiminta",
+  "app_bar_activity_app_arialabel": "Toiminta",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# uusi toiminto} one {# uutta toimintoa} other{# uutta toimintoa}}",
+  "app_bar_activity_app_tooltip": "Toiminta",
+  "app_bar_chat_app_name": "Keskustelu",
+  "app_bar_chat_app_arialabel": "Keskustelu",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# keskustelu, jossa on uusia viestejä} one {# keskustelua, joissa on uusia viestejä} other{# keskustelua, joissa on uusia viestejä}}",
+  "app_bar_chat_app_tooltip": "Keskustelu",
+  "app_bar_calendar_app_name": "Kalenteri",
+  "app_bar_calendar_app_arialabel": "Kalenteri",
+  "app_bar_calendar_app_tooltip": "Kalenteri",
+  "app_bar_calls_app_name": "Puhelut",
+  "app_bar_calls_app_arialabel": "Puhelut",
+  "app_bar_calls_app_tooltip": "Puhelut"
+}

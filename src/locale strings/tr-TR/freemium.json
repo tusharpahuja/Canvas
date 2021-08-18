@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Kuruluşunuz için üye sınırına ulaştınız. Yükselterek daha fazla kişi eklemek için yöneticilerinizden birine ileti gönderin.} =1 {Kuruluşunuz için üye sınırına ulaştınız. Daha fazla kişi davet edebilmek için şu kişiden yükseltme talep edin: <0></0>} one {Kuruluşunuz için üye sınırına ulaştınız. Daha fazla kişi davet edebilmek için şu kişiden yükseltme talep edin: <0></0>} other {Kuruluşunuz için üye sınırına ulaştınız. Daha fazla kişi davet edebilmek için şu kişiden yükseltme talep edin: <0></0>}}"
+}

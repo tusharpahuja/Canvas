@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Notiek katru dienu} =2{Notiek katru otro dienu} zero {Notiek ik pēc # dienām} one {Notiek ik pēc # dienām} other{Notiek ik pēc # dienām}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Notiek ik pēc {days} dienām} =2{Notiek katru otro nedēļu šādā dienā: {days}} zero {Notiek reizi # nedēļās: {days}} one {Notiek reizi # nedēļās: {days}} other{Notiek reizi # nedēļās: {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Notiek katra mēneša {day}. datumā} =2{Notiek katru otro mēnesi {day}. datumā} zero {Notiek reizi # mēnešos: {day} datumā} one {Notiek reizi # mēnešos: {day} datumā} other{Notiek reizi # mēnešos: {day} datumā}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Notiek katru mēnesi šajā laikā: mēneša {weekInMonthIndex} {weekday}} =2{Notiek katru otro mēnesi šādā dienā: {weekInMonthIndex}{weekday}} zero {Notiek reizi # mēnešos: mēneša {weekInMonthIndex} {weekday}} one {Notiek reizi # mēnešos: mēneša {weekInMonthIndex} {weekday}} other{Notiek reizi # mēnešos: mēneša {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Notiek katru gadu šajā datumā: {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Notiek katru gadu šādā datumā: {{month}}, {{dayOfTheWeekIndex}} {{dayOfTheWeek}}"
+}

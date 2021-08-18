@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Egunero gertatzen da} =2{Bi egunez behin gertatzen da} one {# egunez behin gertatzen da} other{# egunez behin gertatzen da}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Astero gertatzen da ({days})} =2{Bi astez behin gertatzen da ({days})} one {# astez behin gertatzen da ({days})} other{# astez behin gertatzen da ({days})}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Hilero gertatzen da ({day})} =2{Bi hilez behin gertatzen da ({day})} one {# hilez behin gertatzen da ({day})} other{# hilez behin gertatzen da ({day})}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Hilero gertatzen da ({weekInMonthIndex} {weekday})} =2{Bi hilez behin gertatzen da ({weekInMonthIndex} {weekday})} one {# hilez behin gertatzen da ({weekInMonthIndex} {weekday})} other{# hilez behin gertatzen da ({weekInMonthIndex} {weekday})}}",
+  "meeting_recurrence_pattern_yearly": "{{date}} gertatzen da (beti)",
+  "meeting_recurrence_pattern_relativeyearly": "{{month}}ko {{dayOfTheWeekIndex}} {{dayOfTheWeek}} gertatzen da (beti)"
+}

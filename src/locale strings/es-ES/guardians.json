@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Cargando lista principal",
+  "guardians_table": "Lista primaria de {{classTeam}}",
+  "students": "Alumnos",
+  "guardians": "Padres o tutores",
+  "chatButton": "Botón Chat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# más padre o tutor. Expanda para abrir la lista} one {# más padres o tutores. Expanda para abrir la lista} other{# más padres o tutores. Expanda para abrir la lista} }",
+  "guardians_student_label": "{{studentName}}, {{status}} de estado, abra la tarjeta de perfil",
+  "guardians_user_unknown_label": "Usuario desconocido",
+  "guardians_status_unknown_label": "Desconocido",
+  "guardians_overflow_members": "Padres o tutores legales adicionales de {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Iniciar un chat con el tutor legal de {studentName}} one {Iniciar un chat con los tutores legales de {studentName}} other{Iniciar un chat con los tutores legales de {studentName}}}",
+  "guardians_chat_button_disabled_title": "Acceso externo deshabilitado por el administrador",
+  "guardians_chat_button_disabled_alt_title": "Pídale a su administrador que agregue la información de contacto del tutor legal para que el chat esté disponible",
+  "empty_state_title": "No se han agregado padres ni tutores",
+  "empty_state_subtitle": "Pídele al administrador de TI que los agregue para poder contactar rápidamente con ellos desde aquí. <0></0>",
+  "empty_state_link": "Ver más",
+  "error_state_title": "Se ha producido un error. Vuelve a comprobarlo más tarde.",
+  "not_owner_error_state_title": "Solo los propietarios del equipo de clase pueden ver la información de los padres y tutores. Pídele al propietario del equipo que te dé acceso.",
+  "retry_button_title": "Reintentar",
+  "transient_error_state_title": "Ha habido un problema. Vuelve a intentarlo.",
+  "notification_banner_content": "Ha habido un problema al cargar más información de padres y tutores. Vuelva a intentarlo más tarde."
+}

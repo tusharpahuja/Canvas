@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Brak dostępnego raportu trenera spotkania",
+  "coach_report_no_data_too_short": "Włącz aplikację Doradca zawodowy na dłużej niż 1 minutę, aby uzyskać dostęp do raportu",
+  "coach_report_no_data_too_long": "Niestety, aplikacja Doradca zawodowy nie obsługuje spotkań dłuższych niż 2 godziny",
+  "coach_report_title": "Szczegółowe informacje doradcy w zakresie spotkań",
+  "coach_report_private_label": "Prywatne",
+  "coach_report_settings": "Ustawienia",
+  "coach_report_subtitle": "* Raport trenera jest widoczny tylko dla Ciebie.",
+  "coach_report_chart_title": "Sugestie ze spotkania",
+  "coach_report_card_checkbox": "Zawsze zapisuj i pomijaj ten ekran w przyszłych sesjach",
+  "coach_report_save_button": "Zapisz",
+  "coach_report_delete_button": "Usuń",
+  "coach_report_save_button_tooltip": "Znajdź później na stronie spotkania",
+  "coach_report_feedback_before_submit": "Czy jest to pomocne?",
+  "coach_report_feedback_after_submit": "Dziękujemy za opinię",
+  "coach_report_feedback_yes_button": "Tak",
+  "coach_report_feedback_no_button": "Nie",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} of {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Poprzedni",
+  "coach_report_next_critique_button": "Dalej"
+}

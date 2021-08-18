@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{每天召开一次} =2{每隔一天开一次} other{每 # 天召开一次}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{每 {days} 天召开一次} =2{每隔 {days} 天召开一次} other{每 # 周的 {days} 发生}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{每月的 {day} 日召开一次} =2{每隔一个月的 {day} 日开一次} other{每 # 个月的第 {day} 天发生}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{每月 {weekInMonthIndex} {weekday} 发生} =2{每隔一个月的 {weekInMonthIndex} {weekday} 开一次} other{每 # 个月的 {weekInMonthIndex} {weekday} 发生}}",
+  "meeting_recurrence_pattern_yearly": "每个 {{date}} 发生",
+  "meeting_recurrence_pattern_relativeyearly": "{{month}}每个 {{dayOfTheWeekIndex}} {{dayOfTheWeek}} 发生"
+}

@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Се случува секојдневно} =2{Се случува секој втор ден} one {Се случува секои # дена} other{Се случува секои # дена}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Се случува секој {days}} =2{Се случува секој втор {days}} one {Се случува секои # седмици на {days}} other{Се случува секои # седмици на {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Се случува секој месец на ден {day}} =2{Се случува секој втор месец на ден {day}} one {Се случува секои # месеци на ден {day}} other{Се случува секои # месеци на ден {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Се случува секој месец на {weekInMonthIndex} {weekday}} =2{Се случува секој втор месец на ден {weekInMonthIndex} {weekday}} one {Се случува секои # месеци на {weekInMonthIndex} {weekday}} other{Се случува секои # месеци на {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Се случува секој {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Се случува секој {{dayOfTheWeekIndex}} {{dayOfTheWeek}} од {{month}}"
+}

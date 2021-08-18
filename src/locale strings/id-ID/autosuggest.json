@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} di {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Tidak ada saran.||1->2::{0} saran tersedia: ||2->3::{0} saran tersedia: ||3->INF::{0} saran tersedia:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Tidak ada sarang untuk {0}.||1->2::{1} saran tersedia untuk {0}: ||2->3::{1} saran tersedia untuk {0}: ||3->INF::{1} saran tersedia untuk {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grup tanpa nama",
+  "autosuggest_sb_search_box_clear_button_label": "Bersihkan kotak pencarian",
+  "autosuggest_sb_search_box_submit_button_label": "Cari",
+  "autosuggest_sb_search_box_view_all_results_label": "Tekan enter untuk melihat semua hasil",
+  "autosuggest_people_group_heading": "Orang",
+  "autosuggest_chats_group_heading": "Obrolan grup",
+  "autosuggest_zero_term_group_aria_label": "Pencarian terbaru"
+}

@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} i {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Ingen forslag.||1->2::{0}tilgjengelig forslag: ||2->3::{0} tilgjengelige forslag: ||3->INF::{0} tilgjengelige forslag:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Ingen forslag for {0}.||1->2::{1} tilgjengelige forslag for {0}: ||2->3::{1} tilgjengelige forslag for {0}: ||3->INF::{1} tilgjengelige forslag for {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Gruppe uten navn",
+  "autosuggest_sb_search_box_clear_button_label": "Tøm søkeboksen",
+  "autosuggest_sb_search_box_submit_button_label": "Søk",
+  "autosuggest_sb_search_box_view_all_results_label": "Trykk på Enter for å vise alle resultatene",
+  "autosuggest_people_group_heading": "Personer",
+  "autosuggest_chats_group_heading": "Gruppechatter",
+  "autosuggest_zero_term_group_aria_label": "Nylige søk"
+}

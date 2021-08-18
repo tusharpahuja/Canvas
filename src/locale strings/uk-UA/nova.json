@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Вийти",
+  "me_control_sign_out_button_aria_label": "Вийти з Microsoft",
+  "me_control_my_microsoft_account_button_text": "Мій обліковий запис Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Мій обліковий запис Microsoft",
+  "me_control_change_picture_aria_label": "Змінити фото профілю",
+  "me_control_trigger_aria_label": "Профіль",
+  "me_control_menu_aria_label": "Меню профілю",
+  "app_bar_activity_app_name": "Активність",
+  "app_bar_activity_app_arialabel": "Активність",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# нова дія} one {Нових подій: #} few {Нових подій: #} many {Нових подій: #} other{Нових подій: #}}",
+  "app_bar_activity_app_tooltip": "Активність",
+  "app_bar_chat_app_name": "Чат",
+  "app_bar_chat_app_arialabel": "Чат",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# чат із новими повідомленнями} one {Чатів із новими повідомленнями: #} few {Чатів із новими повідомленнями: #} many {Чатів із новими повідомленнями: #} other{Чатів із новими повідомленнями: #}}",
+  "app_bar_chat_app_tooltip": "Чат",
+  "app_bar_calendar_app_name": "Календар",
+  "app_bar_calendar_app_arialabel": "Календар",
+  "app_bar_calendar_app_tooltip": "Календар",
+  "app_bar_calls_app_name": "Виклики",
+  "app_bar_calls_app_arialabel": "Виклики",
+  "app_bar_calls_app_tooltip": "Виклики"
+}

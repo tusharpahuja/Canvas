@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Läser in lista med föräldrar",
+  "guardians_table": "Föräldralista för {{classTeam}}",
+  "students": "Elever",
+  "guardians": "Föräldrar/vårdnadshavare",
+  "chatButton": "Chatt-knapp",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# Mer förälder eller vårdnadshavare. Expandera för att öppna listan} one {# fler föräldrar eller vårdnadshavare. Expandera för att öppna listan} other{# fler föräldrar eller vårdnadshavare. Expandera för att öppna listan} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, öppnar profilkortet",
+  "guardians_user_unknown_label": "Okänd användare",
+  "guardians_status_unknown_label": "Okänd",
+  "guardians_overflow_members": "Ytterligare föräldrar eller vårdnadshavare för {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Starta en chatt med vårdnadshavaren för {studentName}} one {Starta en chatt med vårdnadshavarna för {studentName}} other{Starta en chatt med vårdnadshavarna för {studentName}}}",
+  "guardians_chat_button_disabled_title": "Extern åtkomst har inaktiverats av admin",
+  "guardians_chat_button_disabled_alt_title": "Be administratören att lägga till information om vårdnadshavare för att göra chatten tillgänglig",
+  "empty_state_title": "Föräldrar och vårdnadshavare har inte lagts till",
+  "empty_state_subtitle": "Be IT-administratören att lägga till dem så att du snabbt kan kontakta dem härifrån. <0></0>",
+  "empty_state_link": "Visa mer",
+  "error_state_title": "Ett fel uppstod. Kom tillbaka senare.",
+  "not_owner_error_state_title": "Endast ägare för klassteam kan se information om vårdnadshavare. Be teamägaren att ge dig åtkomst.",
+  "retry_button_title": "Försök igen",
+  "transient_error_state_title": "Ett fel uppstod. Försök igen.",
+  "notification_banner_content": "Det gick inte att läsa in mer information om vårdnadshavare. Försök igen senare."
+}

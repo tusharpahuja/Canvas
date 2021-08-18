@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Usa un altro account",
+  "tflFre_Learn_More_Link_caption": "Chi può vedere questo elemento",
+  "tflFre_OK_Button_caption": "Iniziamo",
+  "tflFre_dialog_Aria": "Benvenuto in Teams. Come vuoi essere visualizzato in Teams? Gli utenti possono cercarti usando queste informazioni",
+  "tflFre_header": "Benvenuto",
+  "tflFre_phone_and_email_flyout": "Visita il tuo account Microsoft per gestire il tuo numero di telefono e l'indirizzo e-mail.",
+  "tflFre_who_can_see_this_flyout": "Il tuo nome e l'immagine dell'account Microsoft saranno visibili agli altri su Teams. Le persone possono anche cercarti in Teams usando il tuo numero di telefono e l'indirizzo e-mail.",
+  "tflFre_learn_more_link_text": "Ulteriori informazioni",
+  "tflFre_sync_contacts_checkbox": "Sincronizza i miei contatti di Skype e Outlook per trovare persone che conosco in Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Le persone possono cercarti usando:",
+  "tflFre_loading_spinner_text": "Caricamento in corso...",
+  "tflFre_stamping_error_dialog_header": "Non è stato possibile aggiornare il profilo",
+  "tflFre_stamping_error_dialog_body": "Non è stato possibile aggiornare le informazioni del profilo. Seleziona \"Usa un altro account\" per disconnetterti e usare un altro account. Seleziona \"Riprova\" per provare di nuovo ad aggiornare il profilo",
+  "tflFre_error_dialog_retry_button": "Riprova",
+  "tflFre_error_dialog_sign_out_button": "Usa un altro account",
+  "tflFre_fetch_error_dialog_header": "Non è stato possibile recuperare il profilo",
+  "tflFre_fetch_error_dialog_body": "Non è stato possibile recuperare le informazioni del profilo. Seleziona \"Usa un altro account\" per disconnetterti e usare un altro account. Seleziona \"Riprova\" per provare di nuovo a recuperare il profilo",
+  "tflFre_welcome_edit_header": "Ti diamo il benvenuto in Teams",
+  "tflFre_welcome_edit_second_header": "Come desideri apparire?",
+  "tflFre_phone_field_header": "Telefono",
+  "tflFre_email_field_header": "Posta elettronica"
+}

@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "Ο/Η {{sender}} σάς ανέφερε",
+  "toast_messaging_reaction": "Ο/Η {{sender}} αντέδρασε στο μήνυμά σας",
+  "toast_messaging_default_group_topic": "Άγνωστος",
+  "toast_messaging_default_user_given_name": "Άγνωστος",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Αποστολή",
+  "toast_messaging_quickreply_placeholder_text": "Αποστολή γρήγορης απάντησης",
+  "toast_messaging_activity_text": "Συνομιλία με τους χρήστες {{participants}}",
+  "toast_messaging_activity_text_with_count": "Συνομιλία με τους χρήστες {{participants}} +{{count}} ακόμη"
+}

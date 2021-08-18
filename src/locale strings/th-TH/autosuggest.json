@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} ใน {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::ไม่มีคำแนะนำ||1->2::มี {0} คำแนะนำ: ||2->3::มี {0} คำแนะนำ: ||3->INF::มี {0} คำแนะนำ:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::ไม่มีคำแนะนำสำหรับ {0}.||1->2::มี {1} คำแนะนำสำหรับ {0}: ||2->3::มี {1} คำแนะนำสำหรับ {0}: ||3->INF::มี {1} คำแนะนำสำหรับ {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "กลุ่มที่ไม่มีชื่อ",
+  "autosuggest_sb_search_box_clear_button_label": "ล้างกล่องค้นหา",
+  "autosuggest_sb_search_box_submit_button_label": "ค้นหา",
+  "autosuggest_sb_search_box_view_all_results_label": "กด Enter เพื่อดูผลลัพธ์ทั้งหมด",
+  "autosuggest_people_group_heading": "บุคคล",
+  "autosuggest_chats_group_heading": "การแชทกลุ่ม",
+  "autosuggest_zero_term_group_aria_label": "การค้นหาล่าสุด"
+}

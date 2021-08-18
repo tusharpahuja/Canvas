@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ja",
+  "instant_answers_reaction_yes_aria_label": "Hade du nytta av den här informationen? – Ja",
+  "instant_answers_reaction_no": "Nej",
+  "instant_answers_reaction_no_aria_label": "Hade du nytta av den här informationen? – Nej",
+  "instant_answers_header_text": "Tack för din feedback!",
+  "instant_answers_header_subtext": "Här är lite information som du kan ha nytta av utifrån din feedback:",
+  "instant_answers_footer_text": "Var den här informationen till hjälp?",
+  "include_screenshot_text": "Inkludera skärmbild",
+  "customer_feedback_dialog_email_label": "Din e-postadress (valfritt)",
+  "customer_feedback_dialog_email_placeholder": "Lägg till e-postadress",
+  "customer_feedback_dialog_email_aria_label": "Din e-postadress (valfritt)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Genom att trycka på skicka kommer din feedback att användas för att förbättra Microsofts produkter och tjänster. IT-administratören kommer att kunna samla in dessa data. Utifrån din feedback kan vi ge ytterligare information för att hjälpa dig med ditt supportärende.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Sekretesspolicy.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Dialogrutan Stäng feedback",
+  "customer_feedback_dialog_adhoc_window_title": "Ge feedback"
+}

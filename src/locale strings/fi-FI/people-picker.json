@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Tapahtui jotakin, eikä ryhmää voitu lisätä.",
+  "peoplePicker_dlTooManyMembers": "Emme pystyneet lisäämään {{dlName}} ({{dlMemberCount}}). Voit aloittaa keskustelun enintään vain {{maxSize}} henkilön kanssa.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Poista painamalla askelpalautinta tai Del-näppäintä. Siirry muihin keskustelun vastaanottajiin vasemmalla tai oikealla nuolinäppäimellä.",
+  "peoplePicker_loadingMessage": "Ladataan...",
+  "peoplePicker_newAddGroupNameButtonContent": "Lisää ryhmän nimi",
+  "peoplePicker_collapseGroupNameButtonContent": "Tiivistä ryhmän nimi",
+  "peoplePicker_federationWarning": "Yrityksen tai oppilaitoksen tilien kanssa keskusteleminen ei ole vielä käytettävissä. Lisätietoja.",
+  "peoplePicker_noResults": "Vastaavuuksia ei löytynyt.",
+  "peoplePicker_resultsUpdationAriaLabel": "Hakutulokset päivitettiin. Siirry ylä- ja alanuolinäppäimillä ja valitse Enter-näppäimellä.",
+  "peoplePicker_search_externally_btn_text": "Hae sähköpostiosoitetta {{email}} ulkoisesti",
+  "peoplePicker_tflToLinePlaceholder": "Anna nimi, sähköposti tai puhelinnumero",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Poista",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} valittu luettelosta.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}}/{{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} poistettiin luettelosta."
+}

@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Upotrijebi drugi račun",
+  "tflFre_Learn_More_Link_caption": "Tko može ovo vidjeti",
+  "tflFre_OK_Button_caption": "Krenimo",
+  "tflFre_dialog_Aria": "Dobro došli u Teams. Kako želite da budete prikazani u aplikaciji Teams? Osobe vas mogu pretraživati s pomoću ove informacije",
+  "tflFre_header": "Dobro došli",
+  "tflFre_phone_and_email_flyout": "Posjetite Microsoftov račun da biste upravljali telefonskim brojem i e-poštom.",
+  "tflFre_who_can_see_this_flyout": "Vaše ime i slika Microsoftova računa bit će vidljivi drugima u aplikaciji Teams. Osobe mogu pretraživati i na servisu Teams s pomoću telefonskog broja i e-pošte.",
+  "tflFre_learn_more_link_text": "Saznajte više",
+  "tflFre_sync_contacts_checkbox": "Sinkroniziraj moje kontakte iz Skypea i programa Outlook za pronalazak osoba koje poznajem na servisu Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Osobe vas mogu pretraživati s pomoću:",
+  "tflFre_loading_spinner_text": "Učitavanje...",
+  "tflFre_stamping_error_dialog_header": "Ažuriranje profila nije uspjelo",
+  "tflFre_stamping_error_dialog_body": "Nismo mogli ažurirati podatke o vašem profilu. Odaberite „Upotrijebi drugi račun” za odjavu i upotrebu drugog računa. Odaberite „Pokušaj ponovo” da biste ponovo pokušali ažurirati profil",
+  "tflFre_error_dialog_retry_button": "Pokušaj ponovo",
+  "tflFre_error_dialog_sign_out_button": "Upotrijebi drugi račun",
+  "tflFre_fetch_error_dialog_header": "Dohvaćanje profila nije uspjelo",
+  "tflFre_fetch_error_dialog_body": "Nismo uspjeli dohvatiti podatke o vašem profilu. Odaberite „Upotrijebi drugi račun” za odjavu i upotrijebite drugi račun. Odaberite „Pokušaj ponovo” da biste ponovno pokušali dohvaćanje profila",
+  "tflFre_welcome_edit_header": "Dobro došli u Teams",
+  "tflFre_welcome_edit_second_header": "Kako želite biti prikazani?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "Adresa e-pošte"
+}

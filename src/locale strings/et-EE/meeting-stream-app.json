@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Streami URL",
+  "stream_url_placeholder": "Sisesta Streami URL",
+  "stream_key_label": "Streami võti",
+  "stream_key_placeholder": "Sisesta Streami võti",
+  "start_streaming_button_text": "Käivita voogesitus",
+  "stop_streaming_button_text": "Peata voogesitus",
+  "custom_streaming_config_page_description": "Kohandatud voogesituse funktsioon võimaldab Teamsi koosolekut voogedastada avalikel RTMP-põhistel platvormidel",
+  "custom_streaming_config_page_first_greeting": "Tere tulemast kasutama kohandatud voogesitust!",
+  "custom_streaming_config_page_second_greeting": "Meil on hea meel, et sa siin oled!",
+  "custom_streaming_error_meeting_limit_reached": "Seda koosolekut ei saa praeguste sätetega voogedastada. Osalejaid ei tohi olla rohkem kui 1000.",
+  "custom_streaming_error_permission_denied": "Sul pole voogesituseks õigust. Sisu voogedastamiseks pöördu oma IT-administraatori või korraldaja poole",
+  "custom_streaming_error_outdated_client": "Teams vajab jätkamiseks värskendusi. Uusimate funktsioonide tagamiseks taaskäivita rakendus.",
+  "custom_streaming_error_unknown": "Midagi läks valesti. Proovi uuesti.",
+  "custom_streaming_error_unsupported_platform": "Brauseris ei saa seda funktsiooni veel kasutada. Proovi uuesti Teamsi töölauaversioonis.",
+  "custom_streaming_tab_title": "Kohandatud voogesitus"
+}

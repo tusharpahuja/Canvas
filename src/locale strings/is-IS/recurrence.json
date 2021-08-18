@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Haldinn daglega} =2{Haldinn annan hvern dag} one {Haldinn á # daga fresti} other{Haldinn á # daga fresti}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Haldinn á {days} daga fresti} =2{Haldinn annan hvern {days}} one {Haldinn á # vikna fresti á {days}} other{Haldinn á # vikna fresti á {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Haldinn mánaðarlega á {day}. degi} =2{Haldinn annan hvern mánuð á degi {day}} one {Haldinn á # mánaða fresti á {day}. degi} other{Haldinn á # mánaða fresti á {day}. degi}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Haldinn mánaðarlega á {weekInMonthIndex} {weekday}} =2{Haldinn annan hvern mánuð á {weekInMonthIndex}{weekday}} one {Haldinn á # mánaða fresti á {weekInMonthIndex} {weekday}} other{Haldinn á # mánaða fresti á {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Haldinn á hverjum {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Haldinn {{dayOfTheWeekIndex}}, {{dayOfTheWeek}} í {{month}}"
+}

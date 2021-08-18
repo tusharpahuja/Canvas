@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "טוען רשימת אב",
+  "guardians_table": "רשימת הורים עבור {{classTeam}}",
+  "students": "תלמידים",
+  "guardians": "הורים / אפוטרופוסים",
+  "chatButton": "לחצן צ'אט",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# מורה או אפוטרופוס נוספים. הרחב כדי לפתוח רשימה} one {# הורים או אפוטרופוסים נוספים. הרחב כדי לפתוח רשימה} two {# הורים או אפוטרופוסים נוספים. הרחב כדי לפתוח רשימה} many {# הורים או אפוטרופוסים נוספים. הרחב כדי לפתוח רשימה} other{# הורים או אפוטרופוסים נוספים. הרחב כדי לפתוח רשימה} }",
+  "guardians_student_label": "{{studentName}}, מצב {{status}}, פותח כרטיס פרופיל",
+  "guardians_user_unknown_label": "משתמש לא ידוע",
+  "guardians_status_unknown_label": "לא ידוע",
+  "guardians_overflow_members": "הורים או אפוטרופוסים נוספים של {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{התחל צ'אט עם האפוטרופוס של {studentName}} one {התחל צ'אט עם אפוטרופוסים של {studentName}} two {התחל צ'אט עם אפוטרופוסים של {studentName}} many {התחל צ'אט עם אפוטרופוסים של {studentName}} other{התחל צ'אט עם אפוטרופוסים של {studentName}}}",
+  "guardians_chat_button_disabled_title": "מנהל המערכת הפך את הגישה החיצונית ללא זמינה",
+  "guardians_chat_button_disabled_alt_title": "בקש ממנהל המערכת להוסיף פרטי איש קשר של אפוטרופוס כדי להפוך את הצ'אט לזמין",
+  "empty_state_title": "הורים ואפוטרופוסים לא נוספו",
+  "empty_state_subtitle": "בקש ממנהל ה- IT להוסיף אותם כדי שתוכל לפנות אליהם במהירות מכאן. <0></0>",
+  "empty_state_link": "הצג עוד",
+  "error_state_title": "משהו השתבש. חזור במועד מאוחר יותר.",
+  "not_owner_error_state_title": "רק בעלי צוות כיתה יכולים לראות פרטי הורים ואפוטרופוסים. בקש מהבעלים של הצוות לתת לך גישה.",
+  "retry_button_title": "נסה שנית",
+  "transient_error_state_title": "משהו השתבש. נסה שוב.",
+  "notification_banner_content": "אירעה בעיה בטעינת פרטי הורה ואפוטרופוס נוסף. נסה שוב מאוחר יותר."
+}

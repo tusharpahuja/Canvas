@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL en secuencia",
+  "stream_url_placeholder": "Introduce a URL de secuencia",
+  "stream_key_label": "Tecla en secuencia",
+  "stream_key_placeholder": "Introduce a tecla de secuencia",
+  "start_streaming_button_text": "Iniciar a transmisión por secuencias",
+  "stop_streaming_button_text": "Deter a transmisión por secuencias",
+  "custom_streaming_config_page_description": "A transmisión personalizada é a ferramenta para transmitir a reunión de Teams a plataformas públicas con tecnoloxía RTMP",
+  "custom_streaming_config_page_first_greeting": "Dámosche a benvida á Transmisión personalizada!",
+  "custom_streaming_config_page_second_greeting": "Alegrámonos de que esteas aquí",
+  "custom_streaming_error_meeting_limit_reached": "Esta reunión non se pode transmitir coa súa configuración actual. Restrinxe os participantes a menos de 1.000.",
+  "custom_streaming_error_permission_denied": "Non tes permisos de transmisión. Ponte en contacto co administrador de TI ou co organizador para transmitir este contido",
+  "custom_streaming_error_outdated_client": "Teams necesita actualizacións para continuar. Reinicia a aplicación para asegurarte de ter as últimas funcionalidades.",
+  "custom_streaming_error_unknown": "Produciuse un erro. Téntao de novo.",
+  "custom_streaming_error_unsupported_platform": "Esta funcionalidade aínda non é compatible co explorador. Téntao de novo desde a versión de escritorio de Teams.",
+  "custom_streaming_tab_title": "Transmisión en secuencia personalizada"
+}

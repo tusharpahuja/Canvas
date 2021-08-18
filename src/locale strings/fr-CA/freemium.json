@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Vous avez atteint le nombre maximal de membres pour votre organisation. Pour effectuer une mise à niveau et ajouter d'autres personnes, envoyez un message à l'un des administrateurs.} =1 {Vous avez atteint le nombre maximal de membres pour votre organisation. Demandez à <0></0> d'effectuer une mise à niveau pour inviter d'autres personnes.} one {Vous avez atteint le nombre maximal de membres pour votre organisation. Demandez à l’un des <0></0> d’effectuer une mise à niveau pour inviter d’autres personnes.} other {Vous avez atteint le nombre maximal de membres pour votre organisation. Demandez à l’un des <0></0> d’effectuer une mise à niveau pour inviter d’autres personnes.}}"
+}

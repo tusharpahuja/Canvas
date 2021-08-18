@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "साइन आउट करें",
+  "me_control_sign_out_button_aria_label": "Microsoft से साइन आउट करें",
+  "me_control_my_microsoft_account_button_text": "मेरा Microsoft खाता",
+  "me_control_my_microsoft_account_button_aria_label": "मेरा Microsoft खाता",
+  "me_control_change_picture_aria_label": "प्रोफ़ाइल फ़ोटो बदलें",
+  "me_control_trigger_aria_label": "प्रोफ़ाइल",
+  "me_control_menu_aria_label": "प्रोफ़ाइल मेनू",
+  "app_bar_activity_app_name": "गतिविधि",
+  "app_bar_activity_app_arialabel": "गतिविधि",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# नई गतिविधि} one {# नई गतिविधियाँ} other{# नई गतिविधियाँ}}",
+  "app_bar_activity_app_tooltip": "गतिविधि",
+  "app_bar_chat_app_name": "चैट",
+  "app_bar_chat_app_arialabel": "चैट",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{नए संदेश वाली # चैट} one {नए संदेश के साथ # चैट} other{नए संदेश के साथ # चैट}}",
+  "app_bar_chat_app_tooltip": "चैट",
+  "app_bar_calendar_app_name": "कैलेंडर",
+  "app_bar_calendar_app_arialabel": "कैलेंडर",
+  "app_bar_calendar_app_tooltip": "कैलेंडर",
+  "app_bar_calls_app_name": "कॉल",
+  "app_bar_calls_app_arialabel": "कॉल",
+  "app_bar_calls_app_tooltip": "कॉल"
+}

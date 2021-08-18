@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} v {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Žiadne návrhy. ||1->2::{0} dostupné návrhy: ||2->3::{0} dostupné návrhy: ||3->INF::{0} dostupných návrhov:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Žiadne návrhy pre {0}.||1->2::{1} dostupné návrhy pre {0}: ||2->3::{1} dostupné návrhy pre {0}: ||3->INF::{1} dostupných návrhov pre {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Skupina bez názvu",
+  "autosuggest_sb_search_box_clear_button_label": "Vymazať vyhľadávacie pole",
+  "autosuggest_sb_search_box_submit_button_label": "Hľadať",
+  "autosuggest_sb_search_box_view_all_results_label": "Stlačením klávesu Enter zobrazíte všetky výsledky",
+  "autosuggest_people_group_heading": "Ľudia",
+  "autosuggest_chats_group_heading": "Skupinové konverzácie",
+  "autosuggest_zero_term_group_aria_label": "Najnovšie vyhľadávania"
+}

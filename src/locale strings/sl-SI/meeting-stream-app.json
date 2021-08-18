@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL za Stream",
+  "stream_url_placeholder": "Vnesite URL za Stream",
+  "stream_key_label": "Ključ za Stream",
+  "stream_key_placeholder": "Vnesite ključ za Stream",
+  "start_streaming_button_text": "Začni pretakanje",
+  "stop_streaming_button_text": "Ustavi pretakanje",
+  "custom_streaming_config_page_description": "Pretakanje po meri je vaše orodje za pretakanje srečanja v aplikaciji Teams na javne platforme, ki uporabljajo tehnologijo RTMP",
+  "custom_streaming_config_page_first_greeting": "Dobrodošli v pretočnem prenosu po meri!",
+  "custom_streaming_config_page_second_greeting": "Veseli nas, da ste tu",
+  "custom_streaming_error_meeting_limit_reached": "Tega srečanja ni mogoče pretakati v njegovih trenutnih nastavitvah. Omejite udeležence do 1000.",
+  "custom_streaming_error_permission_denied": "Nimate ustreznih dovoljenj za pretakanje. Če želite pretakati to vsebino, se obrnite na skrbnika za IT ali organizatorja.",
+  "custom_streaming_error_outdated_client": "Aplikacija Teams potrebuje posodobitve za nadaljevanje. Znova zaženite aplikacijo in preverite, ali imate najnovejše funkcije.",
+  "custom_streaming_error_unknown": "Prišlo je do neznane napake. Poskusite znova.",
+  "custom_streaming_error_unsupported_platform": "Ta funkcija še ni podprta v brskalniku. Poskusite znova z namizno različico aplikacije Teams.",
+  "custom_streaming_tab_title": "Pretakanje po meri"
+}

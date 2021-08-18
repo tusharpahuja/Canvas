@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="contacts.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ca-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";contacts_sync_dialog_error_info" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It seems like you're having network issues. Please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sembla que teniu problemes de xarxa. Torneu-ho a provar més tard.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Info text for contacts sync dialog error view.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_dialog_error_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha produït un error]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of contacts sync dialog error view]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_dialog_error_tryagain" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Torna-ho a provar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text for contacts sync dialog error view to prompt user to retry loading data]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_dialog_inprogress" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We are syncing your contacts. You may close this and return to the flyout.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'estan sincronitzant els contactes. Podeu tancar aquest element i tornar al desplegable.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[In progress message to display in dialog while contacts are syncing]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_dialog_learnmore_link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Més informació]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts sync dialog information link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_dialog_learnmore_link_arialabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about contact sync.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Més informació sobre la sincronització de contactes.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the contacts sync dialog learn more link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_dialog_subtitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose where you'd like to sync your contacts from.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Trieu des d'on voleu sincronitzar els contactes.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts sync dialog subtitle]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Find people you know]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cerca de persones conegudes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts sync dialog title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error occurred during contact sync. Please retry.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha produït un error en sincronitzar els contactes. Torneu-ho a provar.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message when there has been a problem syncing contacts]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_event_sync_completed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync from {{source}} has completed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha completat la sincronització des de l'origen {{source}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screenreader announcement for when source sync is completed. Placeholder source represents the provider of the contacts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_event_sync_failed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync from {{source}} has failed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha produït un error en sincronitzar des de l'origen {{source}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screenreader announcement for when source sync is failed. Placeholder source represents the provider of the contacts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_event_sync_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync from {{source}} has started.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha iniciat la sincronització des de l'origen {{source}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screenreader announcement for when source sync is started. Placeholder source represents the provider of the contacts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_event_unsync_completed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unsync from {{source}} has completed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha completat la dessincronització des de l'origen {{source}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screenreader announcement for when source unsync is completed. Placeholder source represents the provider of the contacts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_event_unsync_failed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contact removal has failed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No s'ha pogut eliminar el contacte.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screenreader announcement for when contacts source sync is failed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_event_unsync_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unsync from {{source}} has started.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ha començat la dessincronització des de l'origen {{source}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screenreader announcement for when source unsync is started. Placeholder source represents the provider of the contacts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_already_installed_instructions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[<0></0> Add your personal Microsoft account and follow the prompt to sync your device contacts]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<0></0> Afegiu el vostre compte de Microsoft personal i seguiu les indicacions per sincronitzar els contactes del dispositiu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Device contacts sync dialog instructions on how to enable contact syncing in an already installedd mobbile client]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_already_installed_question" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Already have the app?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ja teniu l'aplicació?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Question shown as bold before the instructions on how to enable contact syncing]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_already_installed_subtitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Already have the app?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ja teniu l'aplicació?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Device contacts sync dialog subtitle for the description ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_back_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Back]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Enrere]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the Back button on the dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_close_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tanca]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the Close button on the dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_install_instructions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Scan the QR code or click the link below to send a download link to your phone.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Escanegeu el codi QR o feu clic a l'enllaç següent per enviar un enllaç de descàrrega al telèfon.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Device contacts sync dialog instructions on how to install the mobile client]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_link_arialabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send link to mobile device.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Envia l'enllaç al dispositiu mòbil.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for contacts sync mobile app installation link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send link to mobile device]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Envia l'enllaç al dispositiu mòbil]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts sync mobile app installation link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_sync_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download the mobile app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Descàrrega de l'aplicació mòbil]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Device contacts sync dialog title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_unsync_dialog_close_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tanca]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the close button on the dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_unsync_dialog_content_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to your mobile app Settings > People > Contacts. Any phone contacts not already on Teams will be removed from Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aneu a la Configuració de l'aplicació mòbil > Persones > Contactes. Se suprimiran del Teams tots els contactes del telèfon que encara no estiguin al Teams.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Device contacts unsync dialog text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_mobile_unsync_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Turning off contact sync on Teams mobile app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Desactivació de la sincronització de contactes a l'aplicació mòbil del Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Device contacts unsync dialog title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_control_details_label_device" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync from mobile device details]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sincronitza des dels detalls del dispositiu mòbil]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts source sync control label when action will show the mobile device details]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_control_label_device" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync from mobile device {{accountId}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sincronitza des de l'ID {{accountId}} del dispositiu mòbil]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Device contacts source sync control label. Placeholder accountId represents the user's ID for that contacts source.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_control_label_fallback" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync from {{source}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sincronitza des de l'origen {{source}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Fallback contacts source sync control label for when source is an unexpected value. Placeholder source represents the provider of the contacts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_control_label_outlook" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync from Outlook {{accountId}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sincronitza des de l'ID {{accountId}} de l'Outlook]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Outlook contacts source sync control label. Placeholder accountId represents the user's ID for that contacts source.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_control_label_skype" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync from Skype {{accountId}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sincronitza des de l'ID {{accountId}} de l'Skype]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Skype contacts source sync control label. Placeholder accountId represents the user's ID for that contacts source.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_device_display" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[mobile device]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[dispositiu mòbil]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Source display name when the source type is device. This would typically be shown in the source placeholder.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_syncstatus_completed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync completed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[La sincronització s'ha completat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Indication that sync action has completed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_source_syncstatus_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha iniciat la sincronització]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Indication that sync action has started]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_sourcetitle_outlook" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From Outlook]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Des de l'Outlook]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Outlook contacts sync control title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_sourcetitle_phone" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From your mobile device]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Des del dispositiu mòbil]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[From your phone]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Mobile device contacts sync control title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_sync_sourcetitle_skype" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[From Skype]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Des de l’Skype]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Skype contacts sync control title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_syncaction_details" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Details]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Detalls]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts source sync control details action button title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_syncaction_remove" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Suprimeix]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts source sync control unsync action button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_syncaction_sync" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sincronitza]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Contacts source sync control sync action button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_unsync_source_control_label_device" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove mobile device contacts {{accountId}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Suprimeix l'ID {{accountId}} dels contactes del dispositiu mòbil]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Device contacts source unsync control label. Placeholder accountId represents the user's ID for that contacts source.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_unsync_source_control_label_fallback" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove {{source}} contacts]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Suprimeix els contactes de l'origen {{source}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Fallback contacts source unsync control label for when source is an unexpected value. Placeholder source represents the provider of the contacts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_unsync_source_control_label_outlook" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove Outlook contacts {{accountId}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Suprimeix l'ID {{accountId}} dels contactes de l'Outlook]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Outlook contacts source unsync control label. Placeholder accountId represents the user's ID for that contacts source.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";contacts_unsync_source_control_label_skype" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove Skype contacts {{accountId}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Suprimeix l'ID {{accountId}} dels contactes de l'Skype]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Skype contacts source unsync control label. Placeholder accountId represents the user's ID for that contacts source.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

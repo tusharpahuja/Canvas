@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Uporabi drug račun",
+  "tflFre_Learn_More_Link_caption": "Kdo si lahko to ogleda",
+  "tflFre_OK_Button_caption": "Pa začnimo",
+  "tflFre_dialog_Aria": "Dobrodošli v aplikaciji Teams. Ali želite biti prikazani v aplikaciji Teams? Ljudje vas lahko poiščejo po teh informacijah.",
+  "tflFre_header": "Dobrodošli",
+  "tflFre_phone_and_email_flyout": "Če želite upravljati svojo telefonsko številko in e-poštni naslov, se vpišite v Microsoftov račun.",
+  "tflFre_who_can_see_this_flyout": "Vaše ime in slika Microsoftovega računa bosta prikazana drugim uporabnikom aplikacije Teams. Osebe vas lahko v aplikaciji Teams poiščejo tudi prek telefonske številke in e-poštnega naslova.",
+  "tflFre_learn_more_link_text": "Več informacij",
+  "tflFre_sync_contacts_checkbox": "Sinhronizirajte moje stike v programih Skype in Outlook, da najdete poznane osebe v aplikaciji Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Ljudje vas lahko poiščejo s pomočjo teh informacij:",
+  "tflFre_loading_spinner_text": "Nalaganje ...",
+  "tflFre_stamping_error_dialog_header": "Vašega profila ni bilo mogoče posodobiti",
+  "tflFre_stamping_error_dialog_body": "Informacij o vašem profilu ni bilo mogoče posodobiti. Izberite »Uporabi drug račun«, da se odjavite in uporabite drug račun. Izberite »Poskusi znova«, da poskusite znova posodobiti svoj profil",
+  "tflFre_error_dialog_retry_button": "Poskusi znova",
+  "tflFre_error_dialog_sign_out_button": "Uporabi drug račun",
+  "tflFre_fetch_error_dialog_header": "Vašega profila ni bilo mogoče pridobiti",
+  "tflFre_fetch_error_dialog_body": "Informacij o vašem profilu ni bilo mogoče pridobiti. Izberite »Uporabi drug račun«, da se odjavite in uporabite drug račun. Izberite »Poskusi znova«, da poskusite ponovno pridobiti svoj profil",
+  "tflFre_welcome_edit_header": "Dobrodošli v aplikaciji Teams",
+  "tflFre_welcome_edit_second_header": "Kako želite plačati?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "E-poštni naslov"
+}

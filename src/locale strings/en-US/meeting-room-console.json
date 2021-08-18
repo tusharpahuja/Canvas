@@ -1,0 +1,20 @@
+{
+  "home_page_message": "Loading...",
+  "_home_page_message.comment": "Message which shows up on rigel console home page",
+  "lobby_screen_exit_message": "Exit Lobby",
+  "_lobby_screen_exit_message.comment": "Message for the button to exit the lobby",
+  "calling_join_button_audio": "Join call with audio",
+  "_calling_join_button_audio.comment": "Text that shows as title on the button to join an incoming call with only audio",
+  "calling_join_button_video": "Join call with video",
+  "_calling_join_button_video.comment": "Text that shows as title on the button to join an incoming call with video on",
+  "calling_screen_meeting_id": "Meeting ID: {{conferenceId}}",
+  "_calling_screen_meeting_id.comment": "Meeting ID which shows on rigel console calling screen. {{conferenceId}} is variable for conferenceId",
+  "meeting_room_present_content": "Present",
+  "_meeting_room_present_content.comment": "Share tray title when opened in meeting room console screen",
+  "meeting_room_connected_device": "Connected device",
+  "_meeting_room_connected_device.comment": "Connected device name displayed in share tray",
+  "meeting_room_content_camera": "Content camera",
+  "_meeting_room_content_camera.comment": "Content camera name displayed in share tray",
+  "meeting_room_cortana_button_title": "Cortana",
+  "_meeting_room_cortana_button_title.comment": "Title for the button that triggers the cortana ui during a call"
+}

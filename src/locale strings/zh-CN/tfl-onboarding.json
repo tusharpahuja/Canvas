@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "使用其他帐户",
+  "tflFre_Learn_More_Link_caption": "谁可查看此内容",
+  "tflFre_OK_Button_caption": "开始吧",
+  "tflFre_dialog_Aria": "欢迎使用 Teams。你希望以何种方式显示在 Teams 上? 其他人可以使用此信息搜索你",
+  "tflFre_header": "欢迎",
+  "tflFre_phone_and_email_flyout": "请访问你的 Microsoft 帐户来管理你的手机号码和电子邮件地址。",
+  "tflFre_who_can_see_this_flyout": "你的姓名和 Microsoft 帐户图片将在 Teams 上对其他人可见。人们可使用你的手机号码和电子邮件地址在 Teams 上搜索你。",
+  "tflFre_learn_more_link_text": "了解详细信息",
+  "tflFre_sync_contacts_checkbox": "同步我的 Skype 和 Outlook 联系人，以在 Teams 上查找我认识的人。",
+  "tflFre_people_Can_Search_For_You_Using": "人们可以使用以下信息搜索你:",
+  "tflFre_loading_spinner_text": "正在加载...",
+  "tflFre_stamping_error_dialog_header": "无法更新你的个人资料",
+  "tflFre_stamping_error_dialog_body": "我们无法更新你的个人资料信息。请选择“使用其他帐户”以注销并使用其他帐户。选择“重试”可重新尝试更新个人资料",
+  "tflFre_error_dialog_retry_button": "重试",
+  "tflFre_error_dialog_sign_out_button": "使用其他帐户",
+  "tflFre_fetch_error_dialog_header": "无法提取你的个人资料",
+  "tflFre_fetch_error_dialog_body": "我们无法获取你的个人资料信息。选择“使用其他账户”以注销并使用其他账户。选择“重试”以重试获取个人资料",
+  "tflFre_welcome_edit_header": "欢迎使用 Teams",
+  "tflFre_welcome_edit_second_header": "您想以何种方式出现?",
+  "tflFre_phone_field_header": "手机",
+  "tflFre_email_field_header": "电子邮件"
+}

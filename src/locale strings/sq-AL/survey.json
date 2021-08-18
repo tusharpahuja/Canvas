@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Po",
+  "instant_answers_reaction_yes_aria_label": "Ishte i dobishëm ky informacion? -- Po",
+  "instant_answers_reaction_no": "Jo",
+  "instant_answers_reaction_no_aria_label": "Ishte i dobishëm ky informacion? -- Jo",
+  "instant_answers_header_text": "Faleminderit por komentet e tua!",
+  "instant_answers_header_subtext": "Bazuar në komentet e tua, ja disa informacione që mund të jenë të dobishme:",
+  "instant_answers_footer_text": "A ishte i dobishëm ky informacion?",
+  "include_screenshot_text": "Përfshi pamjen e çastit",
+  "customer_feedback_dialog_email_label": "Adresa jote e emailit (fakultative)",
+  "customer_feedback_dialog_email_placeholder": "Shto adresën e emailit",
+  "customer_feedback_dialog_email_aria_label": "Adresa jote e emailit (fakultative)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Duke shtypur parashtro, përshtypjet e tua do të përdoren për të përmirësuar produktet dhe shërbimet e Microsoft. Administratori yt i TI do të jetë në gjendje t’i mbledhë këto të dhëna. Bazuar në përshtypjet e tua, ne mund të të ofrojmë informacion shtesë për të të ndihmuar me problemin tënd të mbështetjes.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Deklarata e privatësisë.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Mbyll dialogun e komenteve",
+  "customer_feedback_dialog_adhoc_window_title": "Bëj komente"
+}

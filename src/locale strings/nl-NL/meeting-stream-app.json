@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Stream-URL",
+  "stream_url_placeholder": "Stream-URL invoeren",
+  "stream_key_label": "Streamsleutel",
+  "stream_key_placeholder": "Streamsleutel invoeren",
+  "start_streaming_button_text": "Streamen starten",
+  "stop_streaming_button_text": "Streamen stoppen",
+  "custom_streaming_config_page_description": "Aangepaste streaming is uw hulpprogramma voor het streamen van Teams-vergaderingen naar openbare platforms die worden aangedreven door RTMP",
+  "custom_streaming_config_page_first_greeting": "Welkom bij aangepaste streaming!",
+  "custom_streaming_config_page_second_greeting": "We zijn blij dat u hier bent",
+  "custom_streaming_error_meeting_limit_reached": "Deze vergadering kan niet worden gestreamd in de huidige instellingen. Beperk de genodigden tot minder dan 1000.",
+  "custom_streaming_error_permission_denied": "U hebt geen machtigingen voor streaming. Neem contact op met de IT-beheerder of de organisator om deze inhoud te streamen",
+  "custom_streaming_error_outdated_client": "Teams heeft updates nodig om door te gaan. Start uw toepassing opnieuw op om ervoor te zorgen dat u over de nieuwste functies beschikt.",
+  "custom_streaming_error_unknown": "Er is iets misgegaan, probeer het opnieuw.",
+  "custom_streaming_error_unsupported_platform": "Deze functie wordt nog niet ondersteund in de browser. Probeer het opnieuw vanuit de bureaubladversie van Teams.",
+  "custom_streaming_tab_title": "Aangepaste streaming"
+}

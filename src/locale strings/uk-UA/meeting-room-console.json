@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Завантаження…",
+  "lobby_screen_exit_message": "Вийти з фойє",
+  "calling_join_button_audio": "Приєднатися з аудіо",
+  "calling_join_button_video": "Приєднатися з відео",
+  "calling_screen_meeting_id": "Ідентифікатор наради: {{conferenceId}}",
+  "meeting_room_present_content": "Презентувати",
+  "meeting_room_connected_device": "Підключений пристрій",
+  "meeting_room_content_camera": "Камера вмісту",
+  "meeting_room_cortana_button_title": "Cortana"
+}

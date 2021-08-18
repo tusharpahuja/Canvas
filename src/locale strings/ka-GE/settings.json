@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "სისტემა",
+  "general_settings_system_auto_start_toggle": "Teams-ის ავტომატური დაწყება",
+  "notification_settings_details_message_preview_header_text": "შეტყობინების გადახედვა",
+  "notification_settings_edit_chat_button_aria_label": "საუბრის შეტყობინებების რედაქტირება",
+  "notification_settings_details_chat_messages_text": "შეტყობინებები",
+  "notification_settings_warning_windows_tfw": "შეამოწმეთ Windows-ის შეტყობინებების პარამეტრები და დარწმუნდით, რომ შეტყობინებების მიღება Teams-ისგან გააქტიურებული გაქვთ. <0></0>",
+  "settings_loader_text": "მიმდინარეობს შიგთავსის ჩატვირთვა...",
+  "dropdown_settings_selected_text": "არჩეულია {{value}}",
+  "read_receipts_title": "წაკითხვის დადასტურება",
+  "read_receipts_description": "აცნობეთ ადამიანებს, როცა მათ შეტყობინებებს ნახავთ და შეიტყვეთ, როდესაც ისინი ნახავენ თქვენს შეტყობინებებს. დახურეთ და ხელახლა გახსენით ნებისმიერი საუბრის ფანჯარა, რომ პარამეტრმა იმუშაოს ამ საუბრებში.",
+  "read_receipts_label": "წაკითხვის დადასტურება"
+}

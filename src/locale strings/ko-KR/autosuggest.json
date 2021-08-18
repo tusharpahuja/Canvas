@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0}의 {1} 님",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::제안 없음.||1->2::{0} 제안 이용 가능: ||2->3::{0} 제안 이용 가능: ||3->INF::{0} 제안 이용 가능:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::{0}에 대한 제안 없음.||1->2::{0}에 대해 {1} 제안 이용 가능: ||2->3::{0}에 대해 {1} 제안 이용 가능: ||3->INF::{0}에 대해 {1} 제안 이용 가능:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "이름 없는 그룹",
+  "autosuggest_sb_search_box_clear_button_label": "검색 상자 지우기",
+  "autosuggest_sb_search_box_submit_button_label": "검색",
+  "autosuggest_sb_search_box_view_all_results_label": "모든 결과를 보려면 Enter 키를 누르세요",
+  "autosuggest_people_group_heading": "사람",
+  "autosuggest_chats_group_heading": "그룹 채팅",
+  "autosuggest_zero_term_group_aria_label": "최근 검색"
+}

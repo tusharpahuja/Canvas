@@ -1,0 +1,18 @@
+{
+  "default_app_description": "問題が発生しました。",
+  "default_app_title": "申し訳ございません。何らかのエラーが発生しました。 (アプリのエラー)",
+  "default_network_error_description": "申し訳ございません。ネットワークに問題が発生しました。",
+  "default_network_error_title": "申し訳ございません。ネットワークに問題が発生しました。",
+  "default_unknown_description": "問題が発生しました。",
+  "default_unknown_title": "問題が発生しました。",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "申し訳ございません。何らかのエラーが発生しました。 (コア エラー)",
+  "default_core_error_title": "エラー コード: コア エラー",
+  "default_fetch_description": "申し訳ございません。何らかのエラーが発生しました。 (CDL のフェッチ エラー)",
+  "default_fetch_title": "エラーコード: CDL のフェッチ エラー",
+  "default_service_description": "申し訳ございません。何らかのエラーが発生しました。 (CDL サービスのエラー)",
+  "default_service_title": "エラーコード: CDL サービスのエラー",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

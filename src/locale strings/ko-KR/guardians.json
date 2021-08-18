@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "부모 목록 로드 중",
+  "guardians_table": "{{classTeam}}의 상위 목록",
+  "students": "학생",
+  "guardians": "부모/보호자",
+  "chatButton": "채팅 버튼",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{부모나 보호자 #명이 더 있습니다. 펼쳐 목록 열기} other{부모나 보호자 #명이 더 있습니다. 펼쳐 목록 열기} }",
+  "guardians_student_label": "{{studentName}}, 상태 {{status}}, 프로필 카드 열기",
+  "guardians_user_unknown_label": "알 수 없는 사용자",
+  "guardians_status_unknown_label": "알 수 없는",
+  "guardians_overflow_members": "{{studentName}}의 추가 부모 또는 보호자: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{{studentName}의 보호자와 대화 시작} other{{studentName}의 보호자와 대화 시작}}",
+  "guardians_chat_button_disabled_title": "관리자에 의해 외부 액세스가 비활성화됨",
+  "guardians_chat_button_disabled_alt_title": "관리자에게 대화를 사용할 수 있도록 보호자 연락처 정보를 추가하도록 요청",
+  "empty_state_title": "부모와 보호자가 추가되지 않은 경우",
+  "empty_state_subtitle": "IT 관리자에게 추가해달라고 요청하여 여기에서 빠르게 연락하세요. <0></0>",
+  "empty_state_link": "더 보기",
+  "error_state_title": "문제가 발생했습니다. 나중에 다시 확인해 주세요.",
+  "not_owner_error_state_title": "수업 팀 소유자만 부모 및 보호자 정보를 볼 수 있습니다. 팀 소유자에게 액세스 권한을 요청하세요.",
+  "retry_button_title": "다시 시도",
+  "transient_error_state_title": "문제가 발생했습니다. 다시 시도하세요.",
+  "notification_banner_content": "더 많은 부모 및 보호자 정보를 로드하는 동안 문제가 발생했습니다. 나중에 다시 시도하세요."
+}

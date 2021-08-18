@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Wyloguj się",
+  "me_control_sign_out_button_aria_label": "Wyloguj się z firmy Microsoft",
+  "me_control_my_microsoft_account_button_text": "Moje konto Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Moje konto Microsoft",
+  "me_control_change_picture_aria_label": "Zmień zdjęcie profilowe",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Menu profilu",
+  "app_bar_activity_app_name": "Aktywność",
+  "app_bar_activity_app_arialabel": "Aktywność",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# nowe działanie} one {Liczba nowych działań: #} few {Liczba nowych działań: #} many {Liczba nowych działań: #} other{Liczba nowych działań: #}}",
+  "app_bar_activity_app_tooltip": "Aktywność",
+  "app_bar_chat_app_name": "Czat",
+  "app_bar_chat_app_arialabel": "Czat",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# czat z nowymi wiadomościami} one {# czaty(-ów) z nowymi wiadomościami} few {# czaty(-ów) z nowymi wiadomościami} many {# czaty(-ów) z nowymi wiadomościami} other{# czaty(-ów) z nowymi wiadomościami}}",
+  "app_bar_chat_app_tooltip": "Czat",
+  "app_bar_calendar_app_name": "Kalendarz",
+  "app_bar_calendar_app_arialabel": "Kalendarz",
+  "app_bar_calendar_app_tooltip": "Kalendarz",
+  "app_bar_calls_app_name": "Rozmowy",
+  "app_bar_calls_app_arialabel": "Rozmowy",
+  "app_bar_calls_app_tooltip": "Rozmowy"
+}

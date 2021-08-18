@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{מתקיימת כל יום} =2{מתקיימת כל יומיים} one {מתקיימת כל # ימים} two {מתקיימת כל # ימים} many {מתקיימת כל # ימים} other{מתקיימת כל # ימים}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{מתקיימת כל {days}} =2{מתקיימת כל {days}} one {מתקיימת כל # שבועות ב- {days}} two {מתקיימת כל # שבועות ב- {days}} many {מתקיימת כל # שבועות ב- {days}} other{מתקיימת כל # שבועות ב- {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{מתקיימת כל חודש ביום {day}} =2{מתקיימת כל חודשיים ביום {day}} one {מתקיימת כל # חודשים ביום {day}} two {מתקיימת כל # חודשים ביום {day}} many {מתקיימת כל # חודשים ביום {day}} other{מתקיימת כל # חודשים ביום {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{מתקיימת כל חודש ב- {weekInMonthIndex} {weekday}} =2{מתקיימת כל חודשיים ב- {weekInMonthIndex} {weekday}} one {מתקיימת כל # חודשים ב- {weekInMonthIndex} {weekday}} two {מתקיימת כל # חודשים ב- {weekInMonthIndex} {weekday}} many {מתקיימת כל # חודשים ב- {weekInMonthIndex} {weekday}} other{מתקיימת כל # חודשים ב- {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "מתרחש כל {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "מתרחש כל {{dayOfTheWeek}} {{dayOfTheWeekIndex}} ב{{month}}"
+}

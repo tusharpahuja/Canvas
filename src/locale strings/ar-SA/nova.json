@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "تسجيل الخروج",
+  "me_control_sign_out_button_aria_label": "تسجيل الخروج من Microsoft",
+  "me_control_my_microsoft_account_button_text": "حساب Microsoft الخاص بي",
+  "me_control_my_microsoft_account_button_aria_label": "حساب Microsoft الخاص بي",
+  "me_control_change_picture_aria_label": "تغيير صورة ملف التعريف",
+  "me_control_trigger_aria_label": "ملف التعريف",
+  "me_control_menu_aria_label": "قائمة ملف التعريف",
+  "app_bar_activity_app_name": "النشاط",
+  "app_bar_activity_app_arialabel": "النشاط",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# نشاط جديد} zero {# أنشطة جديدة} one {# أنشطة جديدة} two {# أنشطة جديدة} few {# أنشطة جديدة} many {# أنشطة جديدة} other{# أنشطة جديدة}}",
+  "app_bar_activity_app_tooltip": "النشاط",
+  "app_bar_chat_app_name": "دردشة",
+  "app_bar_chat_app_arialabel": "دردشة",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# دردشة مع رسائل جديدة} zero {# دردشة مع رسائل جديدة} one {# دردشة مع رسائل جديدة} two {# دردشة مع رسائل جديدة} few {# دردشة مع رسائل جديدة} many {# دردشة مع رسائل جديدة} other{# دردشة مع رسائل جديدة}}",
+  "app_bar_chat_app_tooltip": "دردشة",
+  "app_bar_calendar_app_name": "التقويم",
+  "app_bar_calendar_app_arialabel": "التقويم",
+  "app_bar_calendar_app_tooltip": "التقويم",
+  "app_bar_calls_app_name": "المكالمات",
+  "app_bar_calls_app_arialabel": "المكالمات",
+  "app_bar_calls_app_tooltip": "المكالمات"
+}

@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Користи друга сметка",
+  "tflFre_Learn_More_Link_caption": "Кој може да го види ова",
+  "tflFre_OK_Button_caption": "Ајде да започнеме",
+  "tflFre_dialog_Aria": "Добре дојдовте во Teams. Како сакате да се појавувате во Teams? Луѓето може да ве пребаруваат со помош на овие информации",
+  "tflFre_header": "Добре дојдовте",
+  "tflFre_phone_and_email_flyout": "Појдете во сметката на Microsoft за да управувате со вашите телефонски број и е-пошта.",
+  "tflFre_who_can_see_this_flyout": "Името и сликата на сметката на Microsoft ќе бидат видливи за другите во Teams. Луѓето може и да ве пребаруваат во Teams преку вашите телефонски број и е-пошта.",
+  "tflFre_learn_more_link_text": "Дознајте повеќе",
+  "tflFre_sync_contacts_checkbox": "Синхронизирај ги моите контакти на Skype и Outlook за да ги најдам луѓето што ги познавам на Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Луѓето може да ве пребаруваат преку:",
+  "tflFre_loading_spinner_text": "Се вчитува...",
+  "tflFre_stamping_error_dialog_header": "Не може да го ажурираме профилот",
+  "tflFre_stamping_error_dialog_body": "Не може да ги ажурираме информациите за профилот. Изберете „Користи друга сметка“ за да се одјавите и користете друга сметка. Изберете „Обиди се пак“ за да се обидете повторно да го ажурирате профилот",
+  "tflFre_error_dialog_retry_button": "Обиди се пак",
+  "tflFre_error_dialog_sign_out_button": "Користи друга сметка",
+  "tflFre_fetch_error_dialog_header": "Не може да го земеме профилот",
+  "tflFre_fetch_error_dialog_body": "Не може да ги земеме информациите за профилот. Изберете „Користи друга сметка“ за да се одјавите и користете друга сметка. Изберете „Обиди се пак“ за да се обидете повторно да го земете профилот",
+  "tflFre_welcome_edit_header": "Добре дојдовте во Teams",
+  "tflFre_welcome_edit_second_header": "Како сакате да се прикажете?",
+  "tflFre_phone_field_header": "Телефон",
+  "tflFre_email_field_header": "Е-пошта"
+}

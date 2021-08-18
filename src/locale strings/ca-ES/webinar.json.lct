@@ -1,0 +1,1338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="webinar.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ca-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";loading_webinar" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'està carregant]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar registration page is loading.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";microsoft_privacy_statement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ Microsoft <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ Microsoft <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Microsoft privacy statement shows in registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_policy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Policy.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Estratègia de privadesa.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[privacy policy link shows in registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_statement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Statement.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Declaració de privadesa.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[privacy statement link shows in registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_banner_preview" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is a preview of registration form your attendees will see. You don't need to register.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aquesta és una visualització prèvia del formulari de registre que veuran els assistents. No cal que us registreu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Webinar banner of the preview mode]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_banner_send_meeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Be sure to send the invite to presenters.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Assegureu-vos d'enviar la invitació als presentadors.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Be sure to send the invite to presenter]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Webinar banner of the send invite reminder]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_registration_button_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[click here]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[feu clic aquí]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text of the button to cancel registration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_registration_instruction" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To cancel your registration,]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Per cancel·lar el registre,]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Instruction text to instruct user to follow the following content in order to cancel a registration.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_registration_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel your event registration.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cancel·leu el registre d'esdeveniments.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text for cancel a registration.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_success_instruction" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If your email was registered, you will receive an email.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Si el vostre correu s'ha registrat, rebreu un correu electrònic.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Instruction text shown after attendee successfully cancels a registration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_success_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gràcies!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text shown after attendee successfully cancels a registration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_copy_link_success" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The registration page link is copied.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha copiat l'enllaç de la pàgina d'enregistrament.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when the registration page link is copied.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_dialog_cancel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Discard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Descarta]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Cancel button text on a pop up dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_dialog_confirm" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Envia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Confirm button text on a pop up dialog, to confirm that we will send an email to user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_end_date_picker_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[End date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Data de finalització]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text for the picker to pick end date]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_attendee_already_registered" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The address may have already been used to register.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[És possible que l”adreça ja s”hagi fet servir per registrar-se.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user's email address is already registered.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_dismiss" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tanca]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for error indicating dialog dismiss button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_incorrect_email" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter a valid email address.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Introduïu una adreça electrònica vàlida.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user's email isn't a valid email address.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_no_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event you're trying to join doesn't exist, or you may not have access to it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[La incidència a la qual proves d'unir-te no existeix o potser no hi tens accés.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Something went wrong, or you may not have permission to view this page.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_not_found" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The corresponding webinar was not found.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No s'ha trobat el seminari web corresponent.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content to show meaningful message in client for organizer when response NotFound]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_question_display_name_empty" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The field can’t be empty. Enter a question and try saving again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El camp no pot estar buit. Introduïu una pregunta i torneu a provar de desar-lo.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The custom question field can't be empty.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user's input is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_question_display_name_empty_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom question is missing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Falta la pregunta personalitzada]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the error indicating dialog. It shows up when user's input is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_registration_unavailable" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Registration isn't available right now. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El registre no està disponible en aquest moment. Torneu-ho a provar més tard.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_required_field_empty" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This field is required.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aquest camp és obligatori.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user do not answer required question]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_single_choice_question_option_empty" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All fields need to be filled in before you can save your work]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cal emplenar tots els camps per poder desar la feina]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when questionnaire field is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_single_choice_question_option_empty_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to save empty questionnaire field]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No es pot desar el camp del qüestionari buit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the error indicating dialog. It shows up when questionnaire field is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_time_out" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading your data. Try again shortly.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'estan carregant les dades. Torneu-ho a provar d'aquí a un moment.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha produït un error]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Error]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for error indicating dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_title_violation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The title of your webinar contains prohibited content.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El títol del seminari web conté contingut prohibit.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_cancel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't cancel your registration at this moment, please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No hem pogut cancel·lar el registre en aquest moment. Torneu-ho a provar més tard.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_register" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't complete your registration right now. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ara mateix no podem completar el teu enregistrament. Torna-ho a provar més tard.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_render" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't load the registration page right now. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[En aquest moment no es pot carregar la pàgina de registre. Torneu-ho a provar més tard.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_save" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't save your changes. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No s'han pogut desar els canvis. Torneu-ho a provar més tard.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_save_image" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to save the image. Try saving it again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No s'ha pogut desar la imatge. Torneu a provar de desar-la.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default content for failing to save image]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_send_email" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to send email. Try saving it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No s'ha pogut enviar el correu. Torneu a provar de desar-lo.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default content for failing to send email]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_webinar_not_found_in_scheduling_service" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to find this webinar, it could have been canceled. Try refreshing the page.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No s'ha pogut trobar aquest seminari web. És possible que s’hagi cancel·lat. Proveu d'actualitzar la pàgina.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content to show meaningful message in client for attendee when response WebinarNotFoundInSchedulingService]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_event_have_been_canceled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This event has been cancelled.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha cancel·lat aquest esdeveniment.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text at the center of screen, to tell user this event has been canceled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_host_privacy_policy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Webinar host <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Amfitrió del seminari web <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Webinar host privacy policy shows in registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_image_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The image has been selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha seleccionat la imatge]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar image has been selected.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_image_upload_conflict" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong, and the image wasn’t saved. Try saving it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha produït un error i no s'ha desat la imatge. Torneu a provar de desar-la.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Pop out error dialog message when image and registration form info conflicts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_is_expired" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Oops, looks like this event occurred in the past.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vaja, sembla que aquest esdeveniment s'ha produït en el passat.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to show user that this webinar is expired, and do not allow more user to view any more.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_loaded" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The registration page has been loaded]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha carregat la pàgina de registre]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar registration page has been loaded.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_bad_SPL_schema_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Refresh the page to finish registering.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Actualitzeu la pàgina per finalitzar el registre.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user tries to register but registration form has changed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_bad_SPL_schema_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Registration form has been updated]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha actualitzat el formulari de registre]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the error indicating dialog. It shows up when user tries to register but registration form has changed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_cancelled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your registration has been cancelled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha cancel·lat el registre]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar registration has been cancelled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_image_banner_alternation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Webinar background image on the image banner]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Imatge de fons del seminari web al bàner d'imatge]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alternation text for the webinar background image]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_success_instruction_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We sent a confirmation email to {{email}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hem enviat un correu de confirmació a {{email}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the confirmation success instruction message on webinar registration confirmation page. This text gives user instruction about where to find the confirmation email.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_success_join_event_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Join the event]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Uneix-te a l'esdeveniment]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the join event button on webinar registration confirmation page. By clicking this button, webinar attendee join the webinar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_success_main_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See you at the event!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ens veiem a l'esdeveniment!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the confirmation success main message on webinar registration confirmation page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_thumb_up_image_alternation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Success image shows thumb up gesture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[La imatge d'èxit mostra el gest de m'agrada]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alternation text for the success image on webinar registration confirmation page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_copy_link_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy registration link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Copia l'enllaç de registre]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Copy link]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the copy registration link button on webinar registration page toolbar. Copy is an action here. By clicking this button, webinar organizer copies the link to the current registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom question]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pregunta personalitzada]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text. User can click this button to add an customized question.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_choice" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opció]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text, which indicates use can add an choice radio button type question.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_field" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add field]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Afegiu-hi un camp]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text. User can click this button to add an new question to the customized questionnaire.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_input" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Input]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Entrada]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text, which indicates use can add an input type question.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add option]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Afegeix una opció]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text. User can click this button to add an option to the customized question.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_required" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Required]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Obligatòria]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Checkbox label text. User can click this checkbox to indicate this customized question is required.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_required_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Make {{questionName}} required filed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fes que calgui arxivar {{questionName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text for checkbox. By focusing on this checkbox, screen reader will announce make {{questionName}} required filed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_date_picker_info_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Incorrect time format, please follow format as YYYY-MM-DD HH:MM-HH:MM]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Format d'hora incorrecte, seguiu el format com a YYYY-MM-DD HH:MM-HH: MM]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Incorrect time format]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[info message when time format in webinar registration page is incorrect.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_date_picker_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Afegeix una data]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the date picker on the webinar registration page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_date_picker_start_time_invalid_info_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The start time must be later than the current time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[L'hora d'inici ha de ser posterior a l'hora actual]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The start time is earlier than the current time]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[info message when start time in webinar registration page is incorrect.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_description_editor_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a description]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Afegiu una descripció]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the description editor on webinar registraion page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_description_editor_toolbar_overflow_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[més]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text for the details editor toolbar on webinar registration page when overflow occures.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_description_length_exceeded" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Max number of characters reached]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha assolit el nombre màxim de caràcters]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alert when number of webinar description characters reached max number.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_details_editor_section_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Event details]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Detalls de l'esdeveniment]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Details]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the details section title on the webinar registration page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_disabled_save_button_tooltip_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please check the errors first]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Comprova primer els errors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the disabled save button tooltip on webinar registration page toolbar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_dropdown_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select who can register your meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Seleccioneu qui pot registrar la reunió]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Meeting registration permission.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_dropdown_has_no_result" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No results available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No hi ha cap resultat disponible]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when no results are found in dropdown list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_dropdown_item_has_been_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{label}} was selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha seleccionat {{label}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{label}} gets selected from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_dropdown_private_option_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People in your org can register]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Els usuaris de l'organització poden registrar-se]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text of the access dropdown private access option.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_edit_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Edita]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the edit button on webinar registration page toolbar. Edit is an action. By clicking this button, webinar page switches to edit mode.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_form_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Register now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Registreu-vos ara]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the registration form submit button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_form_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is the form your attendees will fill out when they sign up.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aquest és el formulari que ompliran els assistents quan s'hi registrin.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description of the registration form.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_form_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Register for this event]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Registreu-vos a aquest esdeveniment]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the registration form.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_is_full" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sorry, looks like this event is full.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sembla que aquest esdeveniment està complet.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to show user that this webinar is full, and do not allow more user to registered any more.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_is_full_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Registration is no longer available.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[El registre ja no està disponible.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content of the dialog to show user that this webinar is full, and do not allow more user to registered any more.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_is_full_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This event is full.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aquest esdeveniment està complet.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the dialog to show user that this webinar is full, and do not allow more user to registered any more.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_location_picker_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Teams meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Reunió del Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the date picker on webinar registration page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_bio_editor_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a speaker bio]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Afegiu la biografia de l’orador]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the presenter bio editor on the webinar registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_editor_delete_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete {{name}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Suprimeix {{name}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text for the delete button on webinar registartion page presenter editor. By focusing on this button, screen reader will announce delete {{name}}.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_editor_delete_button_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Suprimeix]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text for the delete button on webinar registartion page presenter editor. By clicking this button, webinar organizer delete a presenter editor.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_editor_list_add_speaker_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add speaker]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Afegeix orador]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the add speaker button on webinar registration page presenter editor list. By clicking this button, webinar organizer add a new presenter editor to the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_editor_section_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Speakers]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Oradors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the presenter editor section title on webinar registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_name_editor_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a speaker name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Afegiu el nom de l’orador]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the presenter name editor on the webinar registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_save_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Desa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the save button on webinar registration page toolbar. Save is an action. By clicking this button, webinar organizer saves the current registration page and page switches to read mode.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_save_button_tooltip_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save and preview your registration form]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Desa i previsualitza el formulari de registre]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the save button tooltip on webinar registration page toolbar. Save is an action. By clicking this button, webinar organizer saves the current registration page and page switches to read mode.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_submitted" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have registered]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[T'has registrat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar registration form has been submitted.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_title_editor_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a title]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Afegeix un títol]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the title editor on webinar registration page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_upload_image_dialog_drop_zone_info_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Drop your file here]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Deixa anar el teu fitxer aquí]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the hint in the drop zone on webinar registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_view_in_browser_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View in browser]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Visualitza al navegador]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the view in browser button on webinar registration page toolbar.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_save_success" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The registration page is saved.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha desat la pàgina de registre.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when the registration page is saved.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_send_update_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Everyone who's registered will receive an updated calendar invite.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tots els inscrits rebran una invitació del calendari actualitzada.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content of a pop up dialog. ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_send_update_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send update?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Voleu enviar l'actualització?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of a pop up dialog, to confirm that we will send an email to user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_speaker_removed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Speaker {{removedSpeakerName}} removed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha suprimit l'altaveu {{removedSpeakerName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader alert content when {{removedSpeakerName}} is removed from speakers list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_start_date_picker_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Data d'inici]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text for the picker to pick start date]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_timeZone" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Time zone: {{timezone}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Fus horari: {{timezone}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Time zone text to indicate following {{timezone}} is a timezone]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_time_picker_dropdown_option_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{label}} was selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[S'ha seleccionat {{label}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{label}} gets selected from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_address" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Adreça]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's address]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_city" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[City]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ciutat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's city]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_country" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Country/Region]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[País/regió]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's country]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_email" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Email]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Correu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Noun. One property of registration form, user's email]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_first_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[First name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nom]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's first name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_industry" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Industry]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's industry]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_job_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Job title]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Càrrec]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's job title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_last_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cognoms]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's last name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_organization" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Organization]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Organització]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Organization/Company]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's organization]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_post_code" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ZIP/Post code]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Codi postal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's ZIP code or post code]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_state" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[State]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Estat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's state]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

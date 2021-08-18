@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} minntist á þig",
+  "toast_messaging_reaction": "{{sender}} brást við skilaboðunum þínum",
+  "toast_messaging_default_group_topic": "Óþekkt",
+  "toast_messaging_default_user_given_name": "Óþekkt",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Senda",
+  "toast_messaging_quickreply_placeholder_text": "Senda svar strax",
+  "toast_messaging_activity_text": "Spjalla við {{participants}}",
+  "toast_messaging_activity_text_with_count": "Spjalla við {{participants}} +{{count}}"
+}

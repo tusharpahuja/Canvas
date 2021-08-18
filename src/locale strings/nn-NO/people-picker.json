@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Noko gjekk gale, og vi kan ikkje leggje til gruppa.",
+  "peoplePicker_dlTooManyMembers": "Vi kan ikkje leggje til {{dlName}} ({{dlMemberCount}}). Du kan berre starte ein chat med {{maxSize}} personar eller mindre.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Bruk Tilbake eller Delete for å fjerne. Bruk Pil venstre eller Pil høgre for andre chatmottakarar.",
+  "peoplePicker_loadingMessage": "Lastar inn ...",
+  "peoplePicker_newAddGroupNameButtonContent": "Legg til gruppenamn",
+  "peoplePicker_collapseGroupNameButtonContent": "Skjul gruppenamn",
+  "peoplePicker_federationWarning": "Chat med verksemd- eller skulekontoar er ikkje tilgjengeleg enno. Finn ut meir.",
+  "peoplePicker_noResults": "Vi finn ingen samsvar.",
+  "peoplePicker_resultsUpdationAriaLabel": "Søkjeresultata er oppdaterte. Bruk Pil opp og Pil ned til å navigere, og Enter til å velje.",
+  "peoplePicker_search_externally_btn_text": "Søk etter {{email}} eksternt",
+  "peoplePicker_tflToLinePlaceholder": "Skriv inn namn, e-post eller telefonnummer",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Fjern",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} er vald frå lista.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} av {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} er fjerna frå lista."
+}

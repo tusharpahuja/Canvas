@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Za: {user1}} =1{Za: {user1} i još 1 drugog korisnika} one {Za: {user1} i još # drugih korisnika} few {Za: {user1} i još # drugih korisnika} other{Za: {user1} i još # drugih korisnika}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Za: {user1}, {user2}} =1{Za: {user1}, {user2} i još 1 drugog korisnika} one {Za: {user1}, {user2} i još # drugih korisnika} few {Za: {user1}, {user2} i još # drugih korisnika} other{Za: {user1}, {user2} i još # drugih korisnika}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Za: {user1}, {user2}, {user3}} =1{Za: {user1}, {user2}, {user3} i još 1 drugog korisnika} one {Za: {user1}, {user2}, {user3} i još # drugih korisnika} few {Za: {user1}, {user2}, {user3} i još # drugih korisnika} other{Za: {user1}, {user2}, {user3} i još # drugih korisnika}}",
+  "new_message_label": "Novo",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} odgovor(a) korisnika {user1}} =1{{repliesCount} odgovor(a) korisnika {user1} i još 1} one {{repliesCount} odgovor(a) korisnika {user1} i ovoliko drugih: #} few {{repliesCount} odgovor(a) korisnika {user1} i ovoliko drugih: #} other{{repliesCount} odgovor(a) korisnika {user1} i ovoliko drugih: #}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} odgovor(a) korisnika {user1}, {user2}} =1{{repliesCount} odgovor(a) korisnika {user1}, {user2} i još 1} one {{repliesCount} odgovor(a) korisnika {user1}, {user2} i ovoliko drugih: #} few {{repliesCount} odgovor(a) korisnika {user1}, {user2} i ovoliko drugih: #} other{{repliesCount} odgovor(a) korisnika {user1}, {user2} i ovoliko drugih: #}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} odgovor(a) korisnika {user1}, {user2}, {user3}} =1{{repliesCount} odgovor(a) korisnika {user1}, {user2}, {user3} i još 1} one {{repliesCount} odgovor(a) korisnika {user1}, {user2}, {user3} i ovoliko drugih: #} few {{repliesCount} odgovor(a) korisnika {user1}, {user2}, {user3} i ovoliko drugih: #} other{{repliesCount} odgovor(a) korisnika {user1}, {user2}, {user3} i ovoliko drugih: #}}",
+  "tmp_view_chat_button_text": "Prikaz odgovora",
+  "tmp_go_to_channel_button_text": "Idi na kanal"
+}

@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "დიახ",
+  "instant_answers_reaction_yes_aria_label": "იყო თუ არა ეს ინფორმაცია სასარგებლო? -- დიახ",
+  "instant_answers_reaction_no": "არა",
+  "instant_answers_reaction_no_aria_label": "იყო თუ არა ეს ინფორმაცია სასარგებლო? -- არა",
+  "instant_answers_header_text": "გმადლობთ გამოხმაურებისთვის!",
+  "instant_answers_header_subtext": "თქვენს გამოხმაურებაზე დაყრდნობით, აქ მოცემულია ინფორმაცია, რომელიც შესაძლოა თქვენთვის სასარგებლოდ მიიჩნიოთ:",
+  "instant_answers_footer_text": "იყო თუ არა ეს სასარგებლო?",
+  "include_screenshot_text": "ეკრანის ანაბეჭდის დართვა",
+  "customer_feedback_dialog_email_label": "თქვენი ელფოსტის მისამართი (არასავალდებულო)",
+  "customer_feedback_dialog_email_placeholder": "ელფოსტის მისამართის დამატება",
+  "customer_feedback_dialog_email_aria_label": "თქვენი ელფოსტის მისამართი (არასავალდებულო)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "გაგზავნაზე დაჭერით, თქვენი გამოხმაურება გამოყენებული იქნება Microsoft-ის პროდუქტებისა და სერვისების გასაუმჯობესებლად. თქვენი IT ადმინისტრატორი შეძლებს ამ მონაცემების შეგროვებას. თქვენი გამოხმაურების საფუძველზე, ჩვენ შეიძლება მოგაწოდოთ დამატებით ინფორმაცია, რაც დაგეხმარებათ თქვენი მხარდაჭერის პრობლემის მოგვარებაში.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "კონფიდენციალურობის დებულება.",
+  "customer_feedback_dialog_close_button_text_aria_label": "უკუკავშირის დიალოგური სარკმლის დახურვა",
+  "customer_feedback_dialog_adhoc_window_title": "გამოხმაურება"
+}

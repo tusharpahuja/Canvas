@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} προτάσεις στην {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Καμία πρόταση.||1->2::{0} διαθέσιμη πρόταση: ||2->3::{0} διαθέσιμες προτάσεις: ||3->INF::{0} διαθέσιμες προτάσεις:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Δεν υπάρχουν προτάσεις για {0}.||1->2::Υπάρχουν {1} διαθέσιμες προτάσεις για το {0}: ||2->3::Υπάρχουν {1} διαθέσιμες προτάσεις για το {0}: ||3->INF::Υπάρχουν {1} διαθέσιμες προτάσεις για το {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Ομάδα χωρίς όνομα",
+  "autosuggest_sb_search_box_clear_button_label": "Εκκαθάριση του πλαισίου αναζήτησης",
+  "autosuggest_sb_search_box_submit_button_label": "Αναζήτηση",
+  "autosuggest_sb_search_box_view_all_results_label": "Πατήστε το πλήκτρο ENTER για να προβάλετε όλα τα αποτελέσματα",
+  "autosuggest_people_group_heading": "Άτομα",
+  "autosuggest_chats_group_heading": "Ομαδικές συνομιλίες",
+  "autosuggest_zero_term_group_aria_label": "Πρόσφατες αναζητήσεις"
+}

@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="activity.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="bg-BG" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";activity_feed_empty_list_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will see @mentions, reactions and other notifications here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ще виждате @споменавания, отговори и други известия тук.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show in Focused Feeds pane for an empty state without any filters selected.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_filter_options_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More filter options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Още опции за филтър]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for more filter options button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_header_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Feed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Информационен канал]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be shown as activity feed header title.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_item_context_menu_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Has context menu]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Има контекстно меню]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Activity feed item context menu aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_list_accessibility_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Activity feed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Информационен канал за активност]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility label for Activity feed list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_location_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat with {{displayName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Чат с {{displayName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Activity feed location property for chat with user {{displayName}}.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_location_chat_just_me" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Just me]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Само за мен]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Activity feed location property for group chat activity feed with only single user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_location_group_chat_named" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{displayName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Activity feed location property for named group chat {{displayName}}.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_location_group_chat_unnamed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat with {{displayName}} +{{count}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Чат с {{displayName}} +{{count}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Activity feed location property for group chat with {{displayName}} + {{count}} others.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_title_mention" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{displayName}} mentioned you]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}} ви споменава]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for mention activity feed. {{displayName}} is the person name who mentioned the user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_title_reaction" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{displayName}} reacted to your message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}} реагира на ваше съобщение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for reaction activity feed. {{displayName}} is the person name who reacted to the message.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_title_reaction_multi" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{displayName}} +{{count}} reacted to your message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}} +{{count}} реагираха на вашето съобщение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for reaction activity feed. {{displayName}} is the person name and {{count}} is the number of other people who reacted to the message.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_feed_unknown" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unknown]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Неизвестен]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Fallback string in case any feed item field remains unresolved]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";activity_rail_region_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Activity]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Дейност]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String related to screen reader. Goes into aria-label of region]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";actor_reason_string_for_angry_reaction_activity_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{actor}} reacted with angry emoji to your message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{actor}} реагира с емоджи за гняв на вашето съобщение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for actor reason string for angry reaction activity with only single user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";actor_reason_string_for_heart_reaction_activity_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{actor}} reacted with heart emoji to your message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{actor}} реагира с емоджи за сърце на вашето съобщение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for actor reason string for heart reaction activity with only single user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";actor_reason_string_for_laugh_reaction_activity_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{actor}} reacted with laugh emoji to your message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{actor}} реагира с емоджи за смях на вашето съобщение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for actor reason string for laugh reaction activity with only single user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";actor_reason_string_for_like_reaction_activity_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{actor}} reacted with like emoji to your message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{actor}} реагира с емоджи за харесване на вашето съобщение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for actor reason string for like reaction activity with only single user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";actor_reason_string_for_sad_reaction_activity_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{actor}} reacted with sad emoji to your message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{actor}} реагира с емоджи за тъга на вашето съобщение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for actor reason string for sad reaction activity with only single user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";actor_reason_string_for_surprised_reaction_activity_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{actor}} reacted with surprised emoji to your message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{actor}} реагира с емоджи за изненада на вашето съобщение]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for actor reason string for surprised reaction activity with only single user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";feed_filter_input" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Type to filter]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Въведете за филтриране]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be shown as a placeholder for feed input search]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";feed_filter_setting_gear" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Notification settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Настройки за известия]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be shown as a placeholder for notification setting gear]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filter_results_updated_aria_label_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters feed list. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filter_results_updated_aria_label_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters feed list. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filter_results_updated_aria_label_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Резултатите от филтрирането са актуализирани. # елемента в списъка с резултати. Използвайте Tab и клавишите със стрелки, за да навигирате, и Enter, за да изберете.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters feed list. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filter_results_updated_aria_label_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters feed list. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filter_results_updated_aria_label_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters feed list. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filter_results_updated_aria_label_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # item in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Резултатите от филтрирането са актуализирани. # елемент в списъка с резултати. Използвайте Tab и клавишите със стрелки, за да навигирате, и Enter, за да изберете.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters feed list. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filter_results_updated_aria_label_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Резултатите от филтрирането са актуализирани. # елемента в списъка с резултати. Използвайте Tab и клавишите със стрелки, за да навигирате, и Enter, за да изберете.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters feed list. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";filter_results_updated_aria_label_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{number, plural, =1 {Filter results updated. # item in the results list. Use tab and arrow keys to navigate, enter to select.} other {Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{number, plural, =1 {Filter results updated. # item in the results list. Use tab and arrow keys to navigate, enter to select.} other {Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters feed list. It provides feedback how to navigate the results list if the list is not empty.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";notification_feeds_filter_menu_missedcall_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Missed Call]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Пропуснато повикване]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for Missed Call filter button in Feed List Left Rail Filter Menu.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

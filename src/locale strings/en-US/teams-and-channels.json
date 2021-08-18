@@ -1,0 +1,20 @@
+{
+  "createTeam_dataSublabelsTitle": "Sublabels",
+  "_createTeam_dataSublabelsTitle.comment": "The title of Sublabel input field",
+  "overflow_channels_view_hidden_section_header": "Hidden",
+  "_overflow_channels_view_hidden_section_header.comment": "Header string for hidden channels section in channel list overflow view",
+  "overflow_channels_view_shown_section_header": "Shown",
+  "_overflow_channels_view_shown_section_header.comment": "Header string for shown channels section in channel list overflow view",
+  "team_dashboard_settings_details_description": "Edit team name, description, privacy and picture",
+  "_team_dashboard_settings_details_description.comment": "Description shown to a team owner to edit team details on team settings page",
+  "team_dashboard_settings_details_title": "Team details",
+  "_team_dashboard_settings_details_title.comment": "Title shown to a team owner to edit team details on team settings page",
+  "team_dashboard_settings_details_button_text": "Edit",
+  "_team_dashboard_settings_details_button_text.comment": "Text for edit button action on team details accordion on team settings page.",
+  "team_context_menu_create_team": "Create a team",
+  "_team_context_menu_create_team.comment": "Context menu item string for create a team",
+  "team_context_menu_join_team": "Join a team",
+  "_team_context_menu_join_team.comment": "Context menu item string for join a team",
+  "team_context_menu_join_team_with_code": "Join team with a code",
+  "_team_context_menu_join_team_with_code.comment": "Context menu item string for join team with code"
+}

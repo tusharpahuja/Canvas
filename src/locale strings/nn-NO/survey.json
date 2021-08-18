@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ja",
+  "instant_answers_reaction_yes_aria_label": "Var denne informasjonen nyttig? -- Ja",
+  "instant_answers_reaction_no": "Nei",
+  "instant_answers_reaction_no_aria_label": "Var denne informasjonen nyttig? -- Nei",
+  "instant_answers_header_text": "Takk for tilbakemeldinga.",
+  "instant_answers_header_subtext": "Her er litt informasjon som ka vere nyttig for deg, basert på tilbakemeldinga di:",
+  "instant_answers_footer_text": "Var denne informasjonen nyttig?",
+  "include_screenshot_text": "Inkluder skjermbilete",
+  "customer_feedback_dialog_email_label": "E-postadressa (valfritt)",
+  "customer_feedback_dialog_email_placeholder": "Legg til e-postadresse",
+  "customer_feedback_dialog_email_aria_label": "E-postadressa (valfritt)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Trykkjer du på Send, vil tilbakemeldinga di bli brukt til å betre Microsoft-produkt og -tenester. IT-ansvarleg kan samle inn desse dataa. Basert på tilbakemeldinga di, kan vi gi opp meir informasjon for å hjelpe deg med problemet du har sendt til kundestøtte. ",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Personvernerklæringa.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Lukk dialogboks for tilbakemelding",
+  "customer_feedback_dialog_adhoc_window_title": "Gi tilbakemelding"
+}

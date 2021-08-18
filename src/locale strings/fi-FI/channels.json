@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Vastaanottaja: {user1}} =1{Vastaanottajat: {user1} ja 1 muu} one {Vastaanottajat: {user1} ja # muuta} other{Vastaanottajat: {user1} ja # muuta}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Vastaanottaja: {user1}, {user2}} =1{Vastaanottajat: {user1}, {user2} ja 1 muu} one {Vastaanottajat: {user1}, {user2} ja # muuta} other{Vastaanottajat: {user1}, {user2} ja # muuta}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Vastaanottajat: {user1}, {user2}, {user3}} =1{Vastaanottajat: {user1}, {user2}, {user3} ja 1 muu} one {Vastaanottajat: {user1}, {user2}, {user3} ja # muuta} other{Vastaanottajat: {user1}, {user2}, {user3} ja # muuta}}",
+  "new_message_label": "Uusi",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} vastausta käyttäjältä {user1}} =1{{repliesCount} vastausta käyttäjältä {user1} ja 1 muulta} one {{repliesCount} vastausta käyttäjältä {user1} ja # muulta} other{{repliesCount} vastausta käyttäjältä {user1} ja # muulta}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} vastausta käyttäjiltä {user1} ja {user2}} =1{{repliesCount} vastausta käyttäjiltä {user1}, {user2} ja 1 muulta} one {{repliesCount} vastausta käyttäjiltä {user1}, {user2} ja # muulta} other{{repliesCount} vastausta käyttäjiltä {user1}, {user2} ja # muulta}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} vastausta käyttäjiltä {user1}, {user2} ja {user3}} =1{{repliesCount} vastausta käyttäjiltä {user1}, {user2}, {user3} ja 1 muulta} one {{repliesCount} vastausta käyttäjiltä {user1}, {user2}, {user3} ja # muulta} other{{repliesCount} vastausta käyttäjiltä {user1}, {user2}, {user3} ja # muulta}}",
+  "tmp_view_chat_button_text": "Näytä vastaukset",
+  "tmp_go_to_channel_button_text": "Siirry kanavaan"
+}

@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Odhlásit se",
+  "me_control_sign_out_button_aria_label": "Odhlásit se z Microsoftu?",
+  "me_control_my_microsoft_account_button_text": "Můj účet Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Můj účet Microsoft",
+  "me_control_change_picture_aria_label": "Změnit profilovou fotku",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Karta nabídky Profil",
+  "app_bar_activity_app_name": "Aktivita",
+  "app_bar_activity_app_arialabel": "Aktivita",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# nová aktivita} one {Počet nových aktivit: #} few {Počet nových aktivit: #} many {Počet nových aktivit: #} other{Počet nových aktivit: #}}",
+  "app_bar_activity_app_tooltip": "Aktivita",
+  "app_bar_chat_app_name": "Chat",
+  "app_bar_chat_app_arialabel": "Chat",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# chat s novými zprávami} one {Počet chatů s novými zprávami: #} few {Počet chatů s novými zprávami: #} many {Počet chatů s novými zprávami: #} other{Počet chatů s novými zprávami: #}}",
+  "app_bar_chat_app_tooltip": "Chat",
+  "app_bar_calendar_app_name": "Kalendář",
+  "app_bar_calendar_app_arialabel": "Kalendář",
+  "app_bar_calendar_app_tooltip": "Kalendář",
+  "app_bar_calls_app_name": "Hovory",
+  "app_bar_calls_app_arialabel": "Hovory",
+  "app_bar_calls_app_tooltip": "Hovory"
+}

@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Engin fundaþjálfunarskýrsla tiltæk",
+  "coach_report_no_data_too_short": "Hafðu kveikt á fundaþjálfara í meira en eina mínútu til að fá aðgang að skýrslunni þinni",
+  "coach_report_no_data_too_long": "Því miður styður fundaþjálfari ekki fundi lengur en 2 klukkustundir",
+  "coach_report_title": "Innsýn fundaþjálfara",
+  "coach_report_private_label": "Einkamál",
+  "coach_report_settings": "Stillingar",
+  "coach_report_subtitle": "* Þjálfaraskýrslan þín er aðeins sýnileg þér.",
+  "coach_report_chart_title": "Tillögur frá fundinum þínum",
+  "coach_report_card_checkbox": "Alltaf að vista og sleppa þessum skjá í seinni lotum",
+  "coach_report_save_button": "Vista",
+  "coach_report_delete_button": "Eyða",
+  "coach_report_save_button_tooltip": "Finna það síðar á fundarsíðunni",
+  "coach_report_feedback_before_submit": "Er þetta gagnlegt?",
+  "coach_report_feedback_after_submit": "Takk fyrir að segja þitt álit",
+  "coach_report_feedback_yes_button": "Já",
+  "coach_report_feedback_no_button": "Nei",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} af {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Fyrri",
+  "coach_report_next_critique_button": "Áfram"
+}

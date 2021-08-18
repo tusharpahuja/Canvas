@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Иә",
+  "instant_answers_reaction_yes_aria_label": "Бұл ақпараттың сізге көмегі тиді ме? — Иә",
+  "instant_answers_reaction_no": "Жоқ",
+  "instant_answers_reaction_no_aria_label": "Бұл ақпараттың сізге көмегі тиді ме? — Жоқ",
+  "instant_answers_header_text": "Пікіріңіз үшін рақмет!",
+  "instant_answers_header_subtext": "Пікіріңізді ескере отырып, сізге пайдалы болуы мүмкін келесі мәліметтермен танысып шығуды ұсынамыз:",
+  "instant_answers_footer_text": "Бұл ақпараттың сізге көмегі тиді ме?",
+  "include_screenshot_text": "Скриншот қосу",
+  "customer_feedback_dialog_email_label": "Электрондық пошта мекенжайы (міндетті емес)",
+  "customer_feedback_dialog_email_placeholder": "Электрондық пошта мекенжайын қосу",
+  "customer_feedback_dialog_email_aria_label": "Электрондық пошта мекенжайы (міндетті емес)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Жіберу түймесін бассаңыз, пікіріңіз Microsoft өнімдері мен қызметтерін жақсарту үшін пайдаланылады. Сіздің АТ әкімшіңіз бұл деректерді жинай алатын болады. Пікіріңізге сүйене отырып, біз қолдау көрсету мәселесіне қатысты қосымша ақпарат беруіміз мүмкін.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Құпиялылық туралы мәлімдеме.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Пікірдің диалогтық терезесін жабу",
+  "customer_feedback_dialog_adhoc_window_title": "Пікір жіберу"
+}

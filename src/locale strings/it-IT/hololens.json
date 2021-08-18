@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "AR PER DISPOSITIVI MOBILI",
+  "toolbar_arrow": "Posiziona freccia",
+  "toolbar_ink": "Input penna",
+  "toolbar_color_picker": "Scegli un colore",
+  "toolbar_color_yellow": "Giallo",
+  "toolbar_color_blue": "Blu",
+  "toolbar_color_gray": "Grigio",
+  "toolbar_color_green": "Verde",
+  "toolbar_color_red": "Rosso",
+  "toolbar_insert_file": "Inserisci file",
+  "toolbar_undo": "Annulla",
+  "toolbar_erase_all_current_session": "Cancella tutte le annotazioni dalla sessione di modifica corrente",
+  "toolbar_erase_all": "Cancella tutto",
+  "toolbar_start_editing": "Inizia la modifica",
+  "toolbar_stop_editing": "Interrompi modifica"
+}

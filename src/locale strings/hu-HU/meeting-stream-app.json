@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Adatfolyam URL-címe",
+  "stream_url_placeholder": "Adja meg az adatfolyam URL-címét.",
+  "stream_key_label": "Adatfolyam kulcsa",
+  "stream_key_placeholder": "Adja meg az adatfolyam kulcsát.",
+  "start_streaming_button_text": "Közvetítés indítása",
+  "stop_streaming_button_text": "Közvetítés leállítása",
+  "custom_streaming_config_page_description": "Az egyéni közvetítés az az eszköz, amivel közvetítheti a Teams-értekezletet RTMP-alapú nyilvános platformokra",
+  "custom_streaming_config_page_first_greeting": "Üdvözli az egyéni közvetítés!",
+  "custom_streaming_config_page_second_greeting": "Örülünk, hogy itt van!",
+  "custom_streaming_error_meeting_limit_reached": "Ezt az értekezletet nem lehet közvetíteni a jelenlegi beállításokkal. Kérjük, korlátozza a résztvevők számát 1000 főre.",
+  "custom_streaming_error_permission_denied": "Ön nem rendelkezik közvetítési engedéllyel. A tartalom közvetítéséhez forduljon az informatikai rendszergazdához vagy a szervezőhöz.",
+  "custom_streaming_error_outdated_client": "A folytatáshoz frissítenie kell a Teams alkalmazást. A legújabb funkciók biztosításához indítsa újra az alkalmazást.",
+  "custom_streaming_error_unknown": "Hiba történt. Kérjük, próbálja meg újból.",
+  "custom_streaming_error_unsupported_platform": "Ez a funkció még nem támogatott a böngészőben. Próbálkozzon újra a Teams asztali verziójából.",
+  "custom_streaming_tab_title": "Egyéni közvetítés"
+}

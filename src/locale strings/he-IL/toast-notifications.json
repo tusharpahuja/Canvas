@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} הזכיר אותך",
+  "toast_messaging_reaction": "{{sender}} הגיב להודעה שלך",
+  "toast_messaging_default_group_topic": "לא ידוע",
+  "toast_messaging_default_user_given_name": "לא ידוע",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "שלח",
+  "toast_messaging_quickreply_placeholder_text": "שלח תשובה מהירה",
+  "toast_messaging_activity_text": "שוחח בצ'אט עם {{participants}}",
+  "toast_messaging_activity_text_with_count": "שוחח בצ'אט עם {{participants}} +{{count}}"
+}

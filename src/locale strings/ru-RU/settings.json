@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Система",
+  "general_settings_system_auto_start_toggle": "Автозапуск Teams",
+  "notification_settings_details_message_preview_header_text": "Предварительный просмотр сообщения",
+  "notification_settings_edit_chat_button_aria_label": "Изменить уведомления чата",
+  "notification_settings_details_chat_messages_text": "Сообщения",
+  "notification_settings_warning_windows_tfw": "Перепроверьте параметры уведомлений Windows, чтобы убедиться в возможности получения уведомлений Teams. <0></0>",
+  "settings_loader_text": "Загрузка содержимого...",
+  "dropdown_settings_selected_text": "Выбрано: {{value}}",
+  "read_receipts_title": "Уведомления о прочтении",
+  "read_receipts_description": "Сообщайте людям, что вы увидели их сообщения и узнавайте сами, что они увидели ваши. Закройте и снова откройте все окна чата, чтобы параметр заработал в этих чатах.",
+  "read_receipts_label": "Уведомления о прочтении"
+}

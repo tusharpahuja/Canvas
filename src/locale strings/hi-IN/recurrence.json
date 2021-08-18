@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{रोज होती है} =2{हर दूसरे दिन होती है} one {हर # दिन पर होता है} other{हर # दिन पर होता है}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{प्रत्येक {days} में होती है} =2{प्रत्येक दूसरे {days} होती है} one {हर # सप्ताह {days} को होती है} other{हर # सप्ताह {days} को होती है}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{प्रत्येक माह में {day} दिन पर होती है} =2{हर दूसरे महीने की {day} दिन पर होती है} one {हर # महीनों में {day} दिन पर होती है} other{हर # महीनों में {day} दिन पर होती है}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{प्रतिमाह {weekInMonthIndex}{weekday} पर होती है} =2{प्रत्येक दूसरे माह में {weekInMonthIndex}{weekday} पर होती है} one {हर # महीने के {weekInMonthIndex} {weekday} दिन पर होती है} other{हर # महीने के {weekInMonthIndex} {weekday} दिन पर होती है}}",
+  "meeting_recurrence_pattern_yearly": "प्रत्येक {{date}} होता है",
+  "meeting_recurrence_pattern_relativeyearly": "प्रत्येक {{dayOfTheWeekIndex}} {{dayOfTheWeek}} {{month}} पर होता है"
+}

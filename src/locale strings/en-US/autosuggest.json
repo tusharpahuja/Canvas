@@ -1,0 +1,22 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} in {1}",
+  "_autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group.comment": "Text describing what number of suggestions are available in a specific suggestion group. 0 = Number of suggestions. 1 = Name of the group.",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::No suggestions.||1->2::{0} suggestion available: ||2->3::{0} suggestions available: ||3->INF::{0} suggestions available:",
+  "_autosuggest_sb_grouped_search_suggestions_suggestions_available.comment": "Text describing what number of suggestions are available. Intervals are for 0, 1/singular, 2/dual and 3 or more/plural Example: [3] suggestions available:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::No suggestions for {0}.||1->2::{1} suggestion available for {0}: ||2->3::{1} suggestions available for {0}: ||3->INF::{1} suggestions available for {0}:",
+  "_autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals.comment": "Text describing what number of suggestions are available for a specific query. First string for 0 results, then 1/singular, 2/dual, 3 or more/plural. Example: [3] suggestions available for [SearchTerm]. {0} is a placeholder for a query the user has searched for. {1} is a placeholder for number of suggestions returned for a query the user searched for.",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Unnamed group",
+  "_autosuggest_sb_grouped_search_suggestions_unnamed_group.comment": "Text to use in the odd case that a group doesn't have a name.",
+  "autosuggest_sb_search_box_clear_button_label": "Clear the search box",
+  "_autosuggest_sb_search_box_clear_button_label.comment": "Title / tooltip for a button whose action is to clear the search input field.",
+  "autosuggest_sb_search_box_submit_button_label": "Search",
+  "_autosuggest_sb_search_box_submit_button_label.comment": "Title / tooltip for a button whose action is to submit the search form.",
+  "autosuggest_sb_search_box_view_all_results_label": "Press enter to view all results",
+  "_autosuggest_sb_search_box_view_all_results_label.comment": "Text shown in the View All Results plugin. It tells the user to press enter to view the full result list.",
+  "autosuggest_people_group_heading": "People",
+  "_autosuggest_people_group_heading.comment": "Heading for the people suggestions",
+  "autosuggest_chats_group_heading": "Group chats",
+  "_autosuggest_chats_group_heading.comment": "Heading for the chats suggestions",
+  "autosuggest_zero_term_group_aria_label": "Recent searches",
+  "_autosuggest_zero_term_group_aria_label.comment": "Aria-label for the suggestions displayed before a query has been entered."
+}

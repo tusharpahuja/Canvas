@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Omlouváme se, došlo k chybě.",
+  "default_app_title": "Omlouváme se, došlo k chybě. (Chyby aplikace)",
+  "default_network_error_description": "Omlouváme se, došlo k problému se sítí.",
+  "default_network_error_title": "Omlouváme se, došlo k problému se sítí.",
+  "default_unknown_description": "Omlouváme se, došlo k chybě.",
+  "default_unknown_title": "Omlouváme se, došlo k chybě.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Omlouváme se, došlo k chybě. (Chyby jádra)",
+  "default_core_error_title": "Kód chyby: Chyby jádra",
+  "default_fetch_description": "Omlouváme se, došlo k chybě. (Chyby načítání CDL)",
+  "default_fetch_title": "Kód chyby: Chyby načítání CDL",
+  "default_service_description": "Omlouváme se, došlo k chybě. (Chyby služby CDL)",
+  "default_service_title": "Kód chyby: chyby služby CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

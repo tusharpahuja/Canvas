@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Ups, došlo je do greške!",
+  "default_app_title": "Ups, došlo je do greške! (Greške sa aplikacijom)",
+  "default_network_error_description": "Ups, postoji problem sa mrežom!",
+  "default_network_error_title": "Ups, postoji problem sa mrežom!",
+  "default_unknown_description": "Ups, došlo je do greške!",
+  "default_unknown_title": "Ups, došlo je do greške!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Ups, došlo je do greške! (osnovne greške)",
+  "default_core_error_title": "Kôd greške: osnovne greške",
+  "default_fetch_description": "Ups, došlo je do greške! (greške prilikom preuzimanja CDL)",
+  "default_fetch_title": "Kôd greške: greške prilikom preuzimanja CDL",
+  "default_service_description": "Ups, došlo je do greške (Greške sa uslugom CDL)",
+  "default_service_title": "Kôd greške: greške sa uslugom CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

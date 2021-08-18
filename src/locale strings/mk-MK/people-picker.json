@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Нешто се случи и не може да се додаде групата.",
+  "peoplePicker_dlTooManyMembers": "Не може да се додаде {{dlName}} ({{dlMemberCount}}). Можете да започнете муабет само со {{maxSize}} луѓе или помалку.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Користете backspace или delete за отстранување. Користете ги копчињата за налево или надесно за другите примачи на муабетот.",
+  "peoplePicker_loadingMessage": "Се вчитуваат...",
+  "peoplePicker_newAddGroupNameButtonContent": "Додај име на групата",
+  "peoplePicker_collapseGroupNameButtonContent": "Скриј го името на групата",
+  "peoplePicker_federationWarning": "Муабетењето со компаниски или училишни сметки сè уште не е достапно. Дознајте повеќе.",
+  "peoplePicker_noResults": "Не најдовме резултати.",
+  "peoplePicker_resultsUpdationAriaLabel": "Резултатите од пребарувањето се ажурираа. Користете ги копчињата со стрелки за нагоре и надолу за навигација и Enter за избирање.",
+  "peoplePicker_search_externally_btn_text": "Пребарај ја е-поштата {{email}} надворешно",
+  "peoplePicker_tflToLinePlaceholder": "Внесете име, е-пошта или телефонски број",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Отстрани",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} се избра од списокот.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} од {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} се отстрани од списокот"
+}

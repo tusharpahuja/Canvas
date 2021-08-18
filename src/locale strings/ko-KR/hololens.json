@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HoloLens",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "모바일 AR",
+  "toolbar_arrow": "화살표 위치",
+  "toolbar_ink": "잉크",
+  "toolbar_color_picker": "색상 선택",
+  "toolbar_color_yellow": "노란색",
+  "toolbar_color_blue": "파란색",
+  "toolbar_color_gray": "회색",
+  "toolbar_color_green": "녹색",
+  "toolbar_color_red": "빨간색",
+  "toolbar_insert_file": "파일 삽입",
+  "toolbar_undo": "실행 취소",
+  "toolbar_erase_all_current_session": "현재 편집 세션에서 모두 지우기",
+  "toolbar_erase_all": "모두 지우기",
+  "toolbar_start_editing": "편집 시작",
+  "toolbar_stop_editing": "편집 중지"
+}

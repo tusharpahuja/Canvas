@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Nešto se dogodilo i nismo mogli dodati grupu.",
+  "peoplePicker_dlTooManyMembers": "Nismo uspjeli dodati korisnika {{dlName}} ({{dlMemberCount}}). Možete započeti samo čavrljanje s najviše ovoliko osoba: {{maxSize}}.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Upotrijebite tipku Backspace ili Delete za uklanjanje. Upotrijebite tipke sa strelicama lijevo ili desno za druge primatelje čavrljanja.",
+  "peoplePicker_loadingMessage": "Učitavanje...",
+  "peoplePicker_newAddGroupNameButtonContent": "Dodajte naziv grupe",
+  "peoplePicker_collapseGroupNameButtonContent": "Sažmi naziv grupe",
+  "peoplePicker_federationWarning": "Čavrljanje s računima tvrtke ili obrazovne ustanove još nije dostupno. Saznajte više.",
+  "peoplePicker_noResults": "Nismo pronašli nijedno podudaranje.",
+  "peoplePicker_resultsUpdationAriaLabel": "Ažurirani su rezultati pretraživanja. Upotrijebite tipke sa strelicama prema gore i dolje da biste se kretali, a enter da biste odabrali.",
+  "peoplePicker_search_externally_btn_text": "Eksterno potražite adresu {{email}}",
+  "peoplePicker_tflToLinePlaceholder": "Unesite ime, adresu e-pošte ili telefonski broj",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Ukloni",
+  "peoplePicker_userAdditionAriaLabel": "Korisnik {{username}} odabran je na popisu.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} od {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Korisnik {{username}} uklonjen je s popisa."
+}

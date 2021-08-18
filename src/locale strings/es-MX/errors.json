@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Uy, se produjo un error.",
+  "default_app_title": "Uy, se produjo un error (errores de aplicación).",
+  "default_network_error_description": "Uy, hay un problema de red.",
+  "default_network_error_title": "Uy, hay un problema de red.",
+  "default_unknown_description": "Uy, se produjo un error.",
+  "default_unknown_title": "Uy, se produjo un error.",
+  "default_authentication_title": "Vaya, no pudimos iniciar su sesión",
+  "default_authentication_description": "se ha producido un error.",
+  "default_core_error_description": "Uy, se produjo un error (errores principales)",
+  "default_core_error_title": "Código de error: errores principales",
+  "default_fetch_description": "Uy, se produjo un error (errores de recuperación de CDL)",
+  "default_fetch_title": "Código de error: errores de recuperación de CDL",
+  "default_service_description": "Uy, se produjo un error (errores del servicio CDL).",
+  "default_service_title": "Código de error: errores del servicio CDL",
+  "error_forbidden_text": "Lo sentimos. Encontramos un problema con la licencia de su organización",
+  "error_nonetwork_text": "Lo sentimos. No se ha encontrado ninguna red. Vuelva a intentarlo cuando se conecte de nuevo."
+}

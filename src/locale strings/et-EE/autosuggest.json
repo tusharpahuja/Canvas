@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0}, mille asukoht on {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Soovitusi pole.||1->2::Saadaval on {0} soovitus: ||2->3::Saadaval on {0} soovitust: ||3->INF::Saadaval on {0} soovitust:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Päringu „{0}“ jaoks soovitusi pole.||1->2::Päringu „{0}“ jaoks on saadaval {1} soovitus: ||2->3::Päringu „{0}“ jaoks on saadaval {1} soovitust: ||3->INF::Päringu „{0}“ jaoks on saadaval {1} soovitust:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Nimetu rühm",
+  "autosuggest_sb_search_box_clear_button_label": "Tühjenda otsinguväli",
+  "autosuggest_sb_search_box_submit_button_label": "Otsi",
+  "autosuggest_sb_search_box_view_all_results_label": "Kõigi tulemite kuvamiseks vajuta sisestusklahvi Enter",
+  "autosuggest_people_group_heading": "Inimesed",
+  "autosuggest_chats_group_heading": "Rühmavestlused",
+  "autosuggest_zero_term_group_aria_label": "Viimatised otsingud"
+}

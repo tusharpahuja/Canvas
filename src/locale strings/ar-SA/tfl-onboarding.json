@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "استخدم حسابًا آخرًا",
+  "tflFre_Learn_More_Link_caption": "من يستطيع رؤية هذا",
+  "tflFre_OK_Button_caption": "لنبدأ",
+  "tflFre_dialog_Aria": "مرحبًا بك في Teams. كيف تريد أن تظهر علي Teams؟ يمكن للأشخاص البحث عنك باستخدام هذه المعلومات",
+  "tflFre_header": "مرحباً",
+  "tflFre_phone_and_email_flyout": "قم بزيارة حساب Microsoft الخاص بك لإدارة رقم هاتفك والبريد الإلكتروني.",
+  "tflFre_who_can_see_this_flyout": "سيكون اسمك وصورة حساب Microsoft مرئيين للآخرين في Teams. يمكن للأشخاص أيضًا البحث عنك في Teams باستخدام رقم هاتفك والبريد الإلكتروني.",
+  "tflFre_learn_more_link_text": "تعرّف على المزيد",
+  "tflFre_sync_contacts_checkbox": "قم بمزامنة جهات اتصالي Skype و Outlook للعثور على الأشخاص الذين أعرفهم على Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "يمكن للأشخاص البحث عنك باستخدام:",
+  "tflFre_loading_spinner_text": "جاري التحميل...",
+  "tflFre_stamping_error_dialog_header": "فشل تحديث ملف التعريف الخاص بك",
+  "tflFre_stamping_error_dialog_body": "تعذر علينا تحديث معلومات ملف التعريف الخاص بك. حدد \"استخدام حساب آخر\" لتسجيل الخروج واستخدام حساب آخر. حدد \"إعادة المحاولة\" لإعادة محاولة تحديث ملف التعريف الخاص بك",
+  "tflFre_error_dialog_retry_button": "إعادة محاولة",
+  "tflFre_error_dialog_sign_out_button": "استخدم حسابًا آخرًا",
+  "tflFre_fetch_error_dialog_header": "فشل إحضار ملف التعريف",
+  "tflFre_fetch_error_dialog_body": "تعذر علينا إحضار معلومات ملف التعريف الخاص بك. حدد \"استخدام حساب آخر\" لتسجيل الخروج واستخدام حساب آخر. حدد \"إعادة المحاولة\" لإعادة محاولة جلب ملف التعريف الخاص بك",
+  "tflFre_welcome_edit_header": "مرحبًا بك في Teams",
+  "tflFre_welcome_edit_second_header": "كيف تريد أن تظهر؟",
+  "tflFre_phone_field_header": "الهاتف",
+  "tflFre_email_field_header": "البريد الإلكتروني"
+}

@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Er is iets gebeurd en we kunnen de groep niet toevoegen.",
+  "peoplePicker_dlTooManyMembers": "Kan {{dlName}} ({{dlMemberCount}}) niet toevoegen. U kunt alleen een chatsessie met {{maxSize}} personen of minder starten.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Gebruik Backspace of Delete om te verwijderen. Gebruik de toetsen pijl-links of -rechts voor overige deelnemers aan de chat.",
+  "peoplePicker_loadingMessage": "Laden...",
+  "peoplePicker_newAddGroupNameButtonContent": "Groepsnaam toevoegen",
+  "peoplePicker_collapseGroupNameButtonContent": "Groepsnaam samenvouwen",
+  "peoplePicker_federationWarning": "Chatten met ondernemings- of schoolaccounts is nog niet beschikbaar. Meer informatie.",
+  "peoplePicker_noResults": "Er zijn geen overeenkomsten gevonden.",
+  "peoplePicker_resultsUpdationAriaLabel": "Zoekresultaten zijn bijgewerkt. Gebruik de pijl-omhoog en pijl-omlaag om te navigeren. Gebruik Enter om een resultaat te selecteren.",
+  "peoplePicker_search_externally_btn_text": "{{email}} extern zoeken",
+  "peoplePicker_tflToLinePlaceholder": "Naam, e-mailadres of telefoonnummer",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Verwijderen",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} is geselecteerd in de lijst.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} van {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} is uit de lijst verwijderd."
+}

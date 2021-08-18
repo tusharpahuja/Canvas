@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Нещо се случи и не успяхме да добавим групата.",
+  "peoplePicker_dlTooManyMembers": "Не успяхме да добавим {{dlName}} ({{dlMemberCount}}). Можете да започнете чат само с {{maxSize}} човека или по-малко.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Използвайте Backspace или Delete за премахване. Използвайте левия или десния клавиш за други получатели в чата.",
+  "peoplePicker_loadingMessage": "Зареждане...",
+  "peoplePicker_newAddGroupNameButtonContent": "Добавете име на група",
+  "peoplePicker_collapseGroupNameButtonContent": "Свиване на името на групата",
+  "peoplePicker_federationWarning": "Чат с корпоративни или учебни акаунти все още не е наличен. Научете повече.",
+  "peoplePicker_noResults": "Не можахме да открием никакви съвпадения.",
+  "peoplePicker_resultsUpdationAriaLabel": "Резултатите от търсенето са актуализирани. Използвайте клавиша със стрелка нагоре и надолу, за да навигирате, и Enter, за да изберете.",
+  "peoplePicker_search_externally_btn_text": "Външно търсене на {{email}}",
+  "peoplePicker_tflToLinePlaceholder": "Въвеждане на име, имейл или телефонен номер",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Премахване",
+  "peoplePicker_userAdditionAriaLabel": "Потребителят {{username}} e избран от списъка.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} от {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Потребителят {{username}} е премахнат от списъка."
+}

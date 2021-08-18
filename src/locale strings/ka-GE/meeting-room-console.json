@@ -1,0 +1,11 @@
+{
+  "home_page_message": "იტვირთება...",
+  "lobby_screen_exit_message": "ლობიდან გასვლა",
+  "calling_join_button_audio": "ზარში ჩართვა მხოლოდ აუდიოთი",
+  "calling_join_button_video": "ზარში ჩართვა ვიდეოთი",
+  "calling_screen_meeting_id": "ონლაინ-კრების აიდი: {{conferenceId}}",
+  "meeting_room_present_content": "ჩვენება",
+  "meeting_room_connected_device": "დაკავშირებული მოწყობილობა",
+  "meeting_room_content_camera": "შიგთავსის კამერა",
+  "meeting_room_cortana_button_title": "Cortana"
+}

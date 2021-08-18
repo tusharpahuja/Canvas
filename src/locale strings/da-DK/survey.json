@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ja",
+  "instant_answers_reaction_yes_aria_label": "Var disse oplysninger nyttige? – Ja",
+  "instant_answers_reaction_no": "Nej",
+  "instant_answers_reaction_no_aria_label": "Var disse oplysninger nyttige? – Nej",
+  "instant_answers_header_text": "Tak for din feedback!",
+  "instant_answers_header_subtext": "Her er nogle oplysninger, du på baggrund af din feedback kan finde nyttige:",
+  "instant_answers_footer_text": "Var disse oplysninger nyttige?",
+  "include_screenshot_text": "Medtag skærmbillede",
+  "customer_feedback_dialog_email_label": "Din mailadresse (valgfrit)",
+  "customer_feedback_dialog_email_placeholder": "Tilføj mailadresse",
+  "customer_feedback_dialog_email_aria_label": "Din mailadresse (valgfrit)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Når du trykker på Send, bliver din feedback brugt til at forbedre Microsoft-produkter og -tjenester. Din it-administrator vil kunne indsamle disse data. Afhængigt af din feedback kan vi give yderligere oplysninger, der kan hjælpe dig med at få hjælp til at løse dit supportproblem.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Erklæring om beskyttelse af personlige oplysninger.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Luk feedbackdialogen",
+  "customer_feedback_dialog_adhoc_window_title": "Giv feedback"
+}

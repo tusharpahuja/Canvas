@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "МОБИЛЬНАЯ ТЕХНОЛОГИЯ AR",
+  "toolbar_arrow": "Поместить стрелку",
+  "toolbar_ink": "Рукописный ввод",
+  "toolbar_color_picker": "Выбрать цвет",
+  "toolbar_color_yellow": "Желтый",
+  "toolbar_color_blue": "Синий",
+  "toolbar_color_gray": "Серый",
+  "toolbar_color_green": "Зеленый",
+  "toolbar_color_red": "Красный",
+  "toolbar_insert_file": "Вставить файл",
+  "toolbar_undo": "Отменить",
+  "toolbar_erase_all_current_session": "Очистить все в текущем сеансе редактирования",
+  "toolbar_erase_all": "Очистить все",
+  "toolbar_start_editing": "Начать редактирование",
+  "toolbar_stop_editing": "Завершить редактирование"
+}

@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Įkeliamas pirminis sąrašas",
+  "guardians_table": "{{classTeam}} tėvų sąrašas",
+  "students": "Mokiniai",
+  "guardians": "Tėvai / globėjai",
+  "chatButton": "Mygtukas Pokalbis",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{Dar # tėvas arba globėjas. Išplėskite, kad atidarytumėte sąrašą} one {Dar # tėvas ar globėjas. Išplėskite, kad atidarytumėte sąrašą} few {Dar # tėvai ar globėjai. Išplėskite, kad atidarytumėte sąrašą} many {Dar # tėvų ar globėjų. Išplėskite, kad atidarytumėte sąrašą} other{Dar # tėvai ar globėjai. Išplėskite, kad atidarytumėte sąrašą} }",
+  "guardians_student_label": "{{studentName}}, būsena {{status}}, atidaro profilio kortelę",
+  "guardians_user_unknown_label": "Nežinomas vartotojas",
+  "guardians_status_unknown_label": "Nežinoma",
+  "guardians_overflow_members": "Papildomi {{studentName}} tėvai arba globėjai: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Pradėti pokalbį su {studentName} globėju} one {Pradėti pokalbį su {studentName} globėjais} few {Pradėti pokalbį su {studentName} globėjais} many {Pradėti pokalbį su {studentName} globėjais} other{Pradėti pokalbį su {studentName} globėjais}}",
+  "guardians_chat_button_disabled_title": "Išorinę prieigą išjungė administratorius",
+  "guardians_chat_button_disabled_alt_title": "Paprašykite savo administratoriaus įtraukti globėjo kontaktinę informaciją, kad būtų galima pradėti pokalbį",
+  "empty_state_title": "Tėvai ir globėjai nebuvo įtraukti",
+  "empty_state_subtitle": "Paprašykite IT administratoriaus juos įtraukti, kad galėtumėte čia greitai su jais susisiekti. <0></0>",
+  "empty_state_link": "Žiūrėti daugiau",
+  "error_state_title": "Nepavyko. Grįžkite vėliau.",
+  "not_owner_error_state_title": "Tik klasės komandos savininkai gali matyti tėvų ir globėjų informaciją. Paprašykite komandos savininko suteikti jums prieigą.",
+  "retry_button_title": "Kartoti",
+  "transient_error_state_title": "Įvyko klaida. Bandykite dar kartą.",
+  "notification_banner_content": "Įkeliant daugiau tėvų ir globėjų informacijos iškilo problema. Bandykite dar kartą vėliau."
+}

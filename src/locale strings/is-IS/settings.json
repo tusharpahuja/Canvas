@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Kerfi",
+  "general_settings_system_auto_start_toggle": "Sjálfvirk opnun Teams",
+  "notification_settings_details_message_preview_header_text": "Forskoðun skilaboða",
+  "notification_settings_edit_chat_button_aria_label": "Breyta spjalltilkynningum",
+  "notification_settings_details_chat_messages_text": "Skilaboð",
+  "notification_settings_warning_windows_tfw": "Athugaðu tilkynningastillingar Windows til að tryggja að þú getir tekið á móti Teams-tilkynningum. <0></0>",
+  "settings_loader_text": "Hleður efni...",
+  "dropdown_settings_selected_text": "{{value}} valið",
+  "read_receipts_title": "Staðfestingar á lestri",
+  "read_receipts_description": "Leyfðu fólki að vita hvenær þú hefur séð skilaboðin þeirra og hvenær þau hafa séð skilaboð frá þér. Lokaðu og enduropnaðu spjallglugga til að stillingin taki gildi fyrir þau spjöll.",
+  "read_receipts_label": "Staðfestingar á lestri"
+}

@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "AR FARTÆKIS",
+  "toolbar_arrow": "Staðsetja ör",
+  "toolbar_ink": "Handskrift",
+  "toolbar_color_picker": "Velja lit",
+  "toolbar_color_yellow": "Gult",
+  "toolbar_color_blue": "Blátt",
+  "toolbar_color_gray": "Grátt",
+  "toolbar_color_green": "Grænt",
+  "toolbar_color_red": "Rautt",
+  "toolbar_insert_file": "Setja inn skrá",
+  "toolbar_undo": "Afturkalla",
+  "toolbar_erase_all_current_session": "Eyða öllu úr yfirstandandi breytilotu",
+  "toolbar_erase_all": "Eyða öllu",
+  "toolbar_start_editing": "Byrja að breyta",
+  "toolbar_stop_editing": "Hætta að breyta"
+}

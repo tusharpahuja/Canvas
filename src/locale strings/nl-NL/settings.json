@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Systeem",
+  "general_settings_system_auto_start_toggle": "Teams automatisch starten",
+  "notification_settings_details_message_preview_header_text": "Voorbeeld van bericht",
+  "notification_settings_edit_chat_button_aria_label": "Chatmeldingen bewerken",
+  "notification_settings_details_chat_messages_text": "Berichten",
+  "notification_settings_warning_windows_tfw": "Controleer uw instellingen voor Windows-meldingen om er zeker van te zijn dat u Teams-meldingen kunt ontvangen. <0></0>",
+  "settings_loader_text": "Inhoud laden...",
+  "dropdown_settings_selected_text": "{{value}} geselecteerd",
+  "read_receipts_title": "Leesbevestigingen",
+  "read_receipts_description": "Laat personen weten wanneer u hun berichten hebt gezien en weet wanneer ze uw berichten hebben gezien. Sluit alle chatvensters en open deze opnieuw om de instelling in die chats van kracht te laten worden.",
+  "read_receipts_label": "Leesbevestigingen"
+}

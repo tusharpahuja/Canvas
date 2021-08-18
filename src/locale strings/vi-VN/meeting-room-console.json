@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Đang tải...",
+  "lobby_screen_exit_message": "Thoát khỏi phòng đợi",
+  "calling_join_button_audio": "Tham gia cuộc gọi bằng âm thanh",
+  "calling_join_button_video": "Tham gia cuộc gọi bằng video",
+  "calling_screen_meeting_id": "ID Cuộc họp: {{conferenceId}}",
+  "meeting_room_present_content": "Trình bày",
+  "meeting_room_connected_device": "Thiết bị được kết nối",
+  "meeting_room_content_camera": "Camera nội dung",
+  "meeting_room_cortana_button_title": "Cortana"
+}

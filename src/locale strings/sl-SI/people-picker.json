@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Nekaj se je zgodilo, zato ni bilo mogoče dodati skupine.",
+  "peoplePicker_dlTooManyMembers": "Ni bilo mogoče dodati {{dlName}} ({{dlMemberCount}}). Začnete lahko le klepet z {{maxSize}} osebami ali manj.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Za brisanje ali odstranjevanje uporabite tipko Backspace. Za dostop do drugih prejemnikov klepeta uporabite tipki s puščicama levo in desno.",
+  "peoplePicker_loadingMessage": "Nalaganje ...",
+  "peoplePicker_newAddGroupNameButtonContent": "Dodajte ime skupine",
+  "peoplePicker_collapseGroupNameButtonContent": "Strni ime skupine",
+  "peoplePicker_federationWarning": "Klepetanje s službenimi ali šolskimi računi ni še na voljo. Več informacij.",
+  "peoplePicker_noResults": "Nobenega ujemanja ni mogoče najti.",
+  "peoplePicker_resultsUpdationAriaLabel": "Rezultati iskanja so posodobljeni. Za premikanje uporabite puščično tipko gor in dol. Za izbor pritisnite Enter.",
+  "peoplePicker_search_externally_btn_text": "Zunanje iskanje {{email}}",
+  "peoplePicker_tflToLinePlaceholder": "Vnesite ime, e-poštni naslov ali telefonsko številko",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Odstrani",
+  "peoplePicker_userAdditionAriaLabel": "Uporabnik je {{username}} izbran s seznama.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} od {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Oseba {{username}} je odstranjena s seznama."
+}

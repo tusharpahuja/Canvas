@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} v {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Žádné návrhy.||1->2::{0} návrh k dispozici:||2->3::{0} návrhy k dispozici: ||3->INF::{0} návrhů k dispozici:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Žádné návrhy pro {0}.||1->2::{1} návrh k dispozici pro {0}: ||2->3::{1} návrhy k dispozici pro {0}: ||3->INF::{1} návrhů k dispozici pro {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Nepojmenovaná skupina",
+  "autosuggest_sb_search_box_clear_button_label": "Vymazat vyhledávací pole",
+  "autosuggest_sb_search_box_submit_button_label": "Vyhledávat",
+  "autosuggest_sb_search_box_view_all_results_label": "Stisknutím klávesy Enter zobrazíte všechny výsledky.",
+  "autosuggest_people_group_heading": "Lidé",
+  "autosuggest_chats_group_heading": "Skupinové chaty",
+  "autosuggest_zero_term_group_aria_label": "Poslední hledání"
+}

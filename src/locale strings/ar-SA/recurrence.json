@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{يحدث يوميًّا} =2{يحدث كل يومين} zero {يحدث كل # أيام} one {يحدث كل # أيام} two {يحدث كل # أيام} few {يحدث كل # أيام} many {يحدث كل # أيام} other{يحدث كل # أيام}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{يحدث كل {days}} =2{يحدث كل ثاني {days}} zero {يحدث كل # أسابيع في {days}} one {يحدث كل # أسابيع في {days}} two {يحدث كل # أسابيع في {days}} few {يحدث كل # أسابيع في {days}} many {يحدث كل # أسابيع في {days}} other{يحدث كل # أسابيع في {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{يحدث كل شهر في يوم {day}} =2{يحدث كل شهرين في يوم {day}} zero {يحدث كل # أشهُر في يوم {day}} one {يحدث كل # أشهُر في يوم {day}} two {يحدث كل # أشهُر في يوم {day}} few {يحدث كل # أشهُر في يوم {day}} many {يحدث كل # أشهُر في يوم {day}} other{يحدث كل # أشهُر في يوم {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{يحدث كل شهر في {weekInMonthIndex} {weekday}} =2{يحدث كل شهرين في {weekInMonthIndex} {weekday}} zero {يحدث كل # أشهُر في {weekInMonthIndex} {weekday}} one {يحدث كل # أشهُر في {weekInMonthIndex} {weekday}} two {يحدث كل # أشهُر في {weekInMonthIndex} {weekday}} few {يحدث كل # أشهُر في {weekInMonthIndex} {weekday}} many {يحدث كل # أشهُر في {weekInMonthIndex} {weekday}} other{يحدث كل # أشهُر في {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "يتكرر كل {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "يتكرر كل {{dayOfTheWeekIndex}} {{dayOfTheWeek}} من {{month}}"
+}

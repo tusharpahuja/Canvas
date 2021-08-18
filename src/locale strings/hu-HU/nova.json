@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Kijelentkezés",
+  "me_control_sign_out_button_aria_label": "Kijelentkezés a Microsoft-fiókból",
+  "me_control_my_microsoft_account_button_text": "Saját Microsoft-fiók",
+  "me_control_my_microsoft_account_button_aria_label": "Saját Microsoft-fiók",
+  "me_control_change_picture_aria_label": "Profilkép megváltoztatása",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Profil menü",
+  "app_bar_activity_app_name": "Tevékenység",
+  "app_bar_activity_app_arialabel": "Tevékenység",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# új tevékenység} one {# új tevékenység} other{# új tevékenység}}",
+  "app_bar_activity_app_tooltip": "Tevékenység",
+  "app_bar_chat_app_name": "Csevegés",
+  "app_bar_chat_app_arialabel": "Csevegés",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# új üzenetet tartalmazó csevegés} one {# új üzenetet tartalmazó csevegés} other{# új üzenetet tartalmazó csevegés}}",
+  "app_bar_chat_app_tooltip": "Csevegés",
+  "app_bar_calendar_app_name": "Naptár",
+  "app_bar_calendar_app_arialabel": "Naptár",
+  "app_bar_calendar_app_tooltip": "Naptár",
+  "app_bar_calls_app_name": "Hívások",
+  "app_bar_calls_app_arialabel": "Hívások",
+  "app_bar_calls_app_tooltip": "Hívások"
+}

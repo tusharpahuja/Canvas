@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Padedančios susitikimo ataskaitos nėra",
+  "coach_report_no_data_too_short": "Įjunkite Susitikimų trenerį ilgiau nei 1 minutei, kad galėtumėte pasiekti savo ataskaitą",
+  "coach_report_no_data_too_long": "Deja, Susitikimų treneris nepalaiko susitikimų, kurie yra ilgesni nei 2 val.",
+  "coach_report_title": "Jūsų susitikimo padedančiojo įžvalgos",
+  "coach_report_private_label": "Privatu",
+  "coach_report_settings": "Parametrai",
+  "coach_report_subtitle": "* Jūsų padedanti ataskaita matoma tik jums.",
+  "coach_report_chart_title": "Pasiūlymai iš susitikimo",
+  "coach_report_card_checkbox": "Būsimiems seansams visada įrašyti ir praleisti šį ekraną",
+  "coach_report_save_button": "Įrašyti",
+  "coach_report_delete_button": "Naikinti",
+  "coach_report_save_button_tooltip": "Rasti vėliau susitikimo puslapyje",
+  "coach_report_feedback_before_submit": "Ar tai naudinga?",
+  "coach_report_feedback_after_submit": "Dėkojame už atsiliepimus",
+  "coach_report_feedback_yes_button": "Taip",
+  "coach_report_feedback_no_button": "Ne",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} iš {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Atgal",
+  "coach_report_next_critique_button": "Toliau"
+}

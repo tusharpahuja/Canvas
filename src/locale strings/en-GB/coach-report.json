@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "No Meeting Coach Report available",
+  "coach_report_no_data_too_short": "Turn on Meeting Coach for more than 1 minute to access your report",
+  "coach_report_no_data_too_long": "Sorry, Meeting Coach does not support meetings longer than 2 hours",
+  "coach_report_title": "Your Meeting Coach Insights",
+  "coach_report_private_label": "Private",
+  "coach_report_settings": "Settings",
+  "coach_report_subtitle": "* Your Coach report is only visible to you.",
+  "coach_report_chart_title": "Suggestions from your meeting",
+  "coach_report_card_checkbox": "Always save and skip this screen for future sessions",
+  "coach_report_save_button": "Save",
+  "coach_report_delete_button": "Delete",
+  "coach_report_save_button_tooltip": "Find it later on the meeting page",
+  "coach_report_feedback_before_submit": "Is this helpful?",
+  "coach_report_feedback_after_submit": "Thanks for the feedback",
+  "coach_report_feedback_yes_button": "Yes",
+  "coach_report_feedback_no_button": "No",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} of {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Previous",
+  "coach_report_next_critique_button": "Next"
+}

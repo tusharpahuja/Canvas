@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Koná sa denne} =2{Koná sa každý druhý deň} one {Koná sa vždy po # dňoch} few {Koná sa vždy po # dňoch} many {Koná sa vždy po # dňoch} other{Koná sa vždy po # dňoch}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Koná sa vždy po {days} dňoch} =2{Koná sa vždy po {days} dňoch} one {Koná sa vždy po # týždňoch v {days}} few {Koná sa vždy po # týždňoch v {days}} many {Koná sa vždy po # týždňoch v {days}} other{Koná sa vždy po # týždňoch v {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Koná sa každý mesiac, {day}. deň} =2{Koná sa každý druhý mesiac, {day}. deň} one {Koná sa vždy po # mesiacoch, {day}. deň} few {Koná sa vždy po # mesiacoch, {day}. deň} many {Koná sa vždy po # mesiacoch, {day}. deň} other{Koná sa vždy po # mesiacoch, {day}. deň}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Koná sa každý mesiac v {weekInMonthIndex} {weekday}} =2{Koná sa každý druhý mesiac v {weekInMonthIndex}{weekday}} one {Koná sa vždy po # mesiacoch v {weekInMonthIndex} {weekday}} few {Koná sa vždy po # mesiacoch v {weekInMonthIndex} {weekday}} many {Koná sa vždy po # mesiacoch v {weekInMonthIndex} {weekday}} other{Koná sa vždy po # mesiacoch v {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Koná sa vždy {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Koná sa každý {{dayOfTheWeekIndex}} {{dayOfTheWeek}}, v mesiaci {{month}}"
+}

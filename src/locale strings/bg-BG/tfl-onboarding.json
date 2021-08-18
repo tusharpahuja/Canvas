@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Използване на друг акаунт",
+  "tflFre_Learn_More_Link_caption": "Кой може да вижда това",
+  "tflFre_OK_Button_caption": "Да започваме",
+  "tflFre_dialog_Aria": "Добре дошли в Teams. Как бихте желали да се показвате в Teams? Хората могат да ви търсят, като използват тази информация",
+  "tflFre_header": "Добре дошли",
+  "tflFre_phone_and_email_flyout": "Посетете своя акаунт в Microsoft, за да управлявате телефонния си номер и имейла си.",
+  "tflFre_who_can_see_this_flyout": "Вашето име и картината за акаунта в Microsoft ще бъдат видими за другите в Teams. Хората могат също така да ви търсят в Teams, като използват вашия телефонен номер и имейл.",
+  "tflFre_learn_more_link_text": "Научете повече",
+  "tflFre_sync_contacts_checkbox": "Синхронизирайте моите абонати в Skype и Outlook, за да намирам в Teams хора, които познавам.",
+  "tflFre_people_Can_Search_For_You_Using": "Хората могат да ви търсят, като използват:",
+  "tflFre_loading_spinner_text": "Зареждане...",
+  "tflFre_stamping_error_dialog_header": "Неуспешно актуализиране на вашия профил",
+  "tflFre_stamping_error_dialog_body": "Не можахме да актуализираме информацията за вашия профил. Изберете „Използване на друг акаунт“, за да излезете и да използвате друг акаунт. Изберете „Повторен опит“, за да опитате отново да актуализирате вашия профил",
+  "tflFre_error_dialog_retry_button": "Повторен опит",
+  "tflFre_error_dialog_sign_out_button": "Използване на друг акаунт",
+  "tflFre_fetch_error_dialog_header": "Неуспешно извличане на вашия профил",
+  "tflFre_fetch_error_dialog_body": "Не можахме да извлечем информацията за вашия профил. Изберете „Използване на друг акаунт“, за да излезете и да използвате друг акаунт. Изберете „Повторен опит“, за да опитате отново да извлечете вашия профил",
+  "tflFre_welcome_edit_header": "Добре дошли в Teams",
+  "tflFre_welcome_edit_second_header": "Как желаете да се показва състоянието ви?",
+  "tflFre_phone_field_header": "Телефон",
+  "tflFre_email_field_header": "Имейл"
+}

@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Adăugați persoane",
+  "embed_go_back_button": "Înapoi",
+  "embed_provide_feedback": "Furnizați feedback:",
+  "embed_go_to": "Accesați {{title}}",
+  "embed_open_inside": "Deschideți în interior",
+  "embed_participants_in_chat": "Participanți ({{membersCount}})",
+  "embed_pop_out_chat": "Detașare chat",
+  "embed_pop_in_back": "Detașare în fereastra principală",
+  "embed_error_page_message": "Ne pare rău - am întâmpinat o problemă",
+  "embed_error_page_try_again_button": "Încercați din nou",
+  "embed_chats": "Chaturi Microsoft Teams",
+  "embed_chat": "Chat Microsoft Teams"
+}

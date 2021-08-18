@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Systém",
+  "general_settings_system_auto_start_toggle": "Automaticky spouštět Teams",
+  "notification_settings_details_message_preview_header_text": "Náhled zprávy",
+  "notification_settings_edit_chat_button_aria_label": "Upravit oznámení chatu",
+  "notification_settings_details_chat_messages_text": "Zprávy",
+  "notification_settings_warning_windows_tfw": "Překontrolujte si nastavení oznámení ve Windows, abyste měli jistotu, že vám budou chodit oznámení z Teams. <0></0>",
+  "settings_loader_text": "Načítá se obsah…",
+  "dropdown_settings_selected_text": "Vybraná hodnota: {{value}}",
+  "read_receipts_title": "Potvrzení o přečtení",
+  "read_receipts_description": "Dejte lidem vědět, kdy jste viděli jejich zprávy. I vy uvidíte, kdy oni viděli ty vaše. Pokud chcete, aby se nastavení projevilo v chatech, zavřete a znovu otevřete všechna jejich okna.",
+  "read_receipts_label": "Potvrzení o přečtení"
+}

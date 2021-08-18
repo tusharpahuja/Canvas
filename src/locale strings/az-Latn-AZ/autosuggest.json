@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{1} qrupu üzrə {0} təklif",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Təklif yoxdur.||1->2::{0} təklif mövcuddur: ||2->3::{0} təklif mövcuddur: ||3->INF::{0} təklif mövcuddur:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::{0} üçün təklif yoxdur.||1->2::{0} üçün {1} təklif mövcuddur: ||2->3::{0} üçün {1} təklif mövcuddur: ||3->INF:: {0} üçün {1} təklif mövcuddur:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Adsız qrup",
+  "autosuggest_sb_search_box_clear_button_label": "Axtarış qutusunu təmizlə",
+  "autosuggest_sb_search_box_submit_button_label": "Axtar",
+  "autosuggest_sb_search_box_view_all_results_label": "Bütün nəticələrə baxmaq üçün enter düyməsinə bas",
+  "autosuggest_people_group_heading": "Əlaqələr",
+  "autosuggest_chats_group_heading": "Qrup söhbətləri",
+  "autosuggest_zero_term_group_aria_label": "Ən son axtarışlar"
+}

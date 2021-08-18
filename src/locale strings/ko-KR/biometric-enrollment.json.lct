@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="biometric-enrollment.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";audio_meter_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Listening for your voice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[귀하의 목소리를 듣고 있습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text that is announced when audio meter shows]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biomentric_enrollment_complete_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've successfully enrolled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[성공적으로 등록되었습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for enrollment success aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biometric_enrollment_almost_done_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Almost done!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[거의 끝났습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for finishing voice enrollment process]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";biometric_enrollment_complete_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thanks for letting us get to know you!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[의견을 제공해주셔서 감사합니다!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for completing a biometric enrollment process]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";camera_not_found_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect a camera to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[카메라를 연결하여 사진을 찍으세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Please connect a camera.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when no camera is detected]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[취소]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to cancel face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_voice_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[취소]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to cancel voice enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";close_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[닫기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close dialog for enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";end_voice_capture_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[End voice capture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[음성 캡처 종료]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to end voice capture action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";enrollment_privacy_policy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[개인 정보 취급 방침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to view the privacy policy for enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";error_voice_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn’t capture your voice. Try moving to a quieter area or using a different mic, and start your voice capture again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[음성을 캡처할 수 없습니다. 더 조용한 곳으로 이동하거나 다른 마이크를 사용한 다음 음성 캡처를 다시 시작해보세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for when there is an error while capturing voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and hit the button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[머리를 아래쪽으로 기울이고 단추를 누르세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Now point your chin down and tap to take the picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[준비가 되면 단추를 누르세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[머리를 아래쪽과 왼쪽으로 기울이세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin down and to the same side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[준비가 되면 단추를 누르세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin downwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head down and to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[머리를 아래쪽과 오른쪽으로 기울이세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Stay on that side and chin down]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chindown_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Lower your chin]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[고개를 내리세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin down]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin downwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We've got what we need, but you might want to take a few more photos for even more reliable recognition. Tilt your head up and hit the button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[필요한 것은 있지만, 보다 안정적인 인식을 위해 사진을 몇 장 더 촬영하는 것이 좋습니다. 고개를 위로 젖히고 단추를 누르세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We’ve got what we need, but you can take a few more pictures for more accurate recognition.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tap the button to take another photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[단추를 탭하여 다른 사진을 촬영하세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards and towards the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head up and to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[머리를 위쪽과 왼쪽으로 기울이세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up and to the side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards and towards to the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hit the button when you're ready.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[준비가 되면 단추를 누르세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the picture]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when facing chin upwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tilt your head up and to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[머리를 위쪽과 오른쪽으로 기울이세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up and to the other side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards and towards the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_chinup_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Raise your chin]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[고개를 올리세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Chin up]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when facing chin upwards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_forward_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Make sure your face is centered in the circle, then click the camera button to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[얼굴이 원의 중앙에 있는지 확인하고 카메라 단추를 클릭하여 사진을 촬영하세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Center your face in the circle. Look at the camera button, then click it to take a picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking forward]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_forward_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look straight ahead]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[정면을 바라보세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face Forward]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when looking forward]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_leftside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you're ready, click the camera button again to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[준비가 되면 카메라 단추를 다시 클릭하고 사진을 촬영합니다.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Look at the button and click it to take another picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking on the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_leftside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look to the left]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[왼쪽을 바라보세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face to the side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture face when looking on the left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_rightside_helper_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you're ready, click the camera button again to take a photo.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[준비가 되면 카메라 단추를 다시 클릭하고 사진을 촬영합니다.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Click to take the third picture.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title helper text directing to capture face when looking on the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_capture_rightside_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Look to the right]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[오른쪽을 바라보세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Face the other side]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text to capture gace when looking on the right]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_camera_button_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Take a photo]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[사진을 찍으세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for face enrollment photo button aria text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_getting_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For even more reliable identification, set up face recognition with just a few photos.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[더욱 신뢰할 수 있는 확인을 위해 몇 개의 사진만 있는 얼굴 인식 기능을 설정하세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Get even more accurate recognition and identification by enrolling in face recognition, it only takes a few photos. We’ll only use this data within Teams, and you can always remove it later. Don’t worry: we won’t save the original photos.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and manage your Teams face information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams 얼굴 정보 보기 및 관리]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to manage face enrollment settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";face_enrollment_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Face recognition]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[얼굴 인식]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text for face recognition]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";failed_to_learn_voice_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't capture your voice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[목소리를 인식할 수 없습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for error learning voice aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";finish_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Finish]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[마침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to finish completing face enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";get_started_face_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get Started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[시작]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to get started with face recognition]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";get_started_voice_enrollment_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get Started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[시작]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to get started with voice enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";incorrect_face_capture_position" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn’t see your face. Give it another try.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[얼굴을 확인할 수 없습니다. 다시 시도해 보세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We couldn’t see your face. Please try again.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error text when position for face capture is incorrect]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";learning_voice_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learning your voice...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[음성을 학습 중입니다...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for learning voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";learning_voice_text_aria" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learning your voice... Please wait]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[귀하의 목소리를 입력하고 있습니다...잠시만 기다려 주세요]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for learning voice aria label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";no_microphone_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect a microphone]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[마이크 연결]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displaying no microphone is connected]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ready_voice_capture_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start voice capture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[음성 캡처 시작]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to start voice capture action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ready_voice_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When you’re ready, start your voice capture and then read the text in the box.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[준비되면 음성 캡처를 시작한 다음 상자의 텍스트를 읽어보세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for when you are ready to capture voice]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";unmute_mic" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unmute your mic]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[마이크 음소거 해제]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to unmute the mic]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_capture_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hey there, Teams. I’ll talk for a few seconds to help you get to know me. It takes more than just a sentence or two, because there are lots of details about my voice that you need to learn to be able to recognize me when I speak up in a meeting. And it’s okay if I don’t read this perfectly—you can let me know if I need to start over.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[안녕, Teams. 잠깐 소개 좀 할게. 내 목소리를 인식하게 몇 초 동안 얘기할텐데, 아마 한 두 문장 정도 될거야. 내가 모임에서 얘기할 때 내 목소리를 인식할 때 알아야 할 자세한 사항들이 많이 있거든. 내가 깔끔하게 읽지 못해도 괜찮으니까 내가 다시 시작해야 하면 얘기해줘.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for voice capture]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_getting_started" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Be recognized. Be heard. Help us identify you in meetings, even when you’re not joined on your device. We’ll only use this data within Teams, and you can remove it at any time.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[목소리가 인식되고 들리게 하세요. 장치 없이도 모임에서 목소리를 인식할 수 있게 도와주세요. 이 데이터는 Teams에서만 사용할 예정이고 언제든지 삭제할 수 있습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for audio enrollment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_microphone_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microphone]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[마이크]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for Microphone title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View and manage your Teams voice information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams 음성 정보 보기 및 관리]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Teams voice data.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to manage voice enrollment settings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";voice_enrollment_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Voice recognition]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[음성 인식]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for voice recognition]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

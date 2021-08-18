@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Start Teams automatisk",
+  "notification_settings_details_message_preview_header_text": "Forhåndsvisning af meddelelse",
+  "notification_settings_edit_chat_button_aria_label": "Rediger chatmeddelelser",
+  "notification_settings_details_chat_messages_text": "Beskeder",
+  "notification_settings_warning_windows_tfw": "Dobbelttjek dine Windows-meddelelsesindstillinger for at sikre, at du kan modtage Teams-meddelelser. <0></0>",
+  "settings_loader_text": "Indhold indlæses...",
+  "dropdown_settings_selected_text": "{{value}} valgt",
+  "read_receipts_title": "Kvitteringer for læsning",
+  "read_receipts_description": "Giv personer besked, når du har set deres meddelelser, og få at vide, hvornår de har set dine. Luk og genåbn eventuelle chatvinduer igen, for at indstillingen kan træde i kraft for disse chatsamtaler.",
+  "read_receipts_label": "Kvitteringer for læsning"
+}

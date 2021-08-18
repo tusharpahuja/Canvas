@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Gunakan akun lain",
+  "tflFre_Learn_More_Link_caption": "Siapa yang dapat melihat ini",
+  "tflFre_OK_Button_caption": "Mulai",
+  "tflFre_dialog_Aria": "Selamat datang di Teams. Bagaimana Anda ingin tampil di Teams? Orang dapat mencari Anda dengan menggunakan informasi ini",
+  "tflFre_header": "Selamat Datang",
+  "tflFre_phone_and_email_flyout": "Kunjungi akun Microsoft Anda untuk mengelola nomor telepon dan email Anda.",
+  "tflFre_who_can_see_this_flyout": "Nama dan gambar akun Microsoft Anda akan terlihat oleh orang lain di Teams. Orang lain juga dapat mencari Anda di Teams menggunakan nomor telepon dan email Anda.",
+  "tflFre_learn_more_link_text": "Pelajari selengkapnya",
+  "tflFre_sync_contacts_checkbox": "Sinkronkan kontak Skype dan Outlook untuk menemukan orang yang saya kenal di Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Orang dapat mencari Anda menggunakan:",
+  "tflFre_loading_spinner_text": "Memuat...",
+  "tflFre_stamping_error_dialog_header": "Gagal Memperbarui Profil Anda",
+  "tflFre_stamping_error_dialog_body": "Kami tidak dapat memperbarui informasi profil Anda. Pilih \"Gunakan akun lain\" untuk keluar lalu gunakan akun lain. Pilih \"Coba lagi\" untuk mencoba kembali memperbarui profil Anda",
+  "tflFre_error_dialog_retry_button": "Coba lagi",
+  "tflFre_error_dialog_sign_out_button": "Gunakan akun lain",
+  "tflFre_fetch_error_dialog_header": "Gagal Mengambil Profil Anda",
+  "tflFre_fetch_error_dialog_body": "Kami tidak dapat mengambil informasi profil Anda. Pilih \"Gunakan akun lain\" untuk keluar lalu gunakan akun lain. Pilih \"Coba lagi\" untuk mencoba kembali mengambil profil Anda",
+  "tflFre_welcome_edit_header": "Selamat datang di Teams",
+  "tflFre_welcome_edit_second_header": "Bagaimana Anda ingin muncul?",
+  "tflFre_phone_field_header": "Telepon",
+  "tflFre_email_field_header": "Email"
+}

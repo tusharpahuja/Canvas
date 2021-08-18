@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Logi välja",
+  "me_control_sign_out_button_aria_label": "Logi Microsoftist välja",
+  "me_control_my_microsoft_account_button_text": "Minu Microsofti konto",
+  "me_control_my_microsoft_account_button_aria_label": "Minu Microsofti konto",
+  "me_control_change_picture_aria_label": "Muuda profiilipilti",
+  "me_control_trigger_aria_label": "Profiil",
+  "me_control_menu_aria_label": "Profiili menüü",
+  "app_bar_activity_app_name": "Tegevus",
+  "app_bar_activity_app_arialabel": "Tegevus",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# uut tegevust} one {# uut tegevust} other{# uut tegevust}}",
+  "app_bar_activity_app_tooltip": "Tegevus",
+  "app_bar_chat_app_name": "Tekstvestlus",
+  "app_bar_chat_app_arialabel": "Tekstvestlus",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# tekstvestluses on uusi sõnumeid} one {# tekstvestluses on uusi sõnumeid} other{# tekstvestluses on uusi sõnumeid}}",
+  "app_bar_chat_app_tooltip": "Tekstvestlus",
+  "app_bar_calendar_app_name": "Kalender",
+  "app_bar_calendar_app_arialabel": "Kalender",
+  "app_bar_calendar_app_tooltip": "Kalender",
+  "app_bar_calls_app_name": "Kõned",
+  "app_bar_calls_app_arialabel": "Kõned",
+  "app_bar_calls_app_tooltip": "Kõned"
+}

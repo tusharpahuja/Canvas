@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Dosegli ste ograničenje članova za vašu organizaciju. Za nadogradnju i dodavanje više osoba pošaljite poruku nekom od administratora.} =1 {Dosegli ste ograničenje članova za vašu organizaciju. Zamolite <0></0> za nadogradnju tako da možete pozvati više ljudi.} one {Dosegli ste ograničenje članova za vašu organizaciju. Za nadogradnju upitajte nekog od <0></0> tako da možete pozvati više ljudi.} few {Dosegli ste ograničenje članova za vašu organizaciju. Za nadogradnju upitajte nekog od <0></0> tako da možete pozvati više ljudi.} other {Dosegli ste ograničenje članova za vašu organizaciju. Za nadogradnju upitajte nekog od <0></0> tako da možete pozvati više ljudi.}}"
+}

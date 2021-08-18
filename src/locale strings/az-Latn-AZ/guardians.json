@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Valideyn siyahısı yüklənir",
+  "guardians_table": "{{classTeam}} üçün valideyn siyahısı",
+  "students": "Tələbələr",
+  "guardians": "Valideynlər/Qəyyumlar",
+  "chatButton": "Söhbət düyməsi",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{Daha # valideyn və ya qəyyum. Siyahını açmaq üçün genişləndirin} one {Daha # valideyn və ya qəyyum. Siyahını açmaq üçün genişləndirin} other{Daha # valideyn və ya qəyyum. Siyahını açmaq üçün genişləndirin} }",
+  "guardians_student_label": "{{studentName}}, vəziyyət {{status}}, profil kartını açır",
+  "guardians_user_unknown_label": "Naməlum istifadəçi",
+  "guardians_status_unknown_label": "Naməlum",
+  "guardians_overflow_members": "{{studentName}} adlı tələbənin əlavə valideynləri və ya qəyyumları: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{{studentName} adlı tələbənin qəyyumu ilə söhbətə başla} one {{studentName} adlı tələbənin qəyyumları ilə söhbətə başla} other{{studentName} adlı tələbənin qəyyumları ilə söhbətə başla}}",
+  "guardians_chat_button_disabled_title": "Xarici giriş Inzibatçısı tərəfindən qeyri-aktiv edilib",
+  "guardians_chat_button_disabled_alt_title": "Söhbəti mümkün etmək üçün inzibatçınızdan qəyyumun əlaqə məlumatını əlavə etməsini istəyin",
+  "empty_state_title": "Valideynlər və qəyyumlar əlavə edilməyib",
+  "empty_state_subtitle": "IT İnzibatçınızdan buradan tez əlaqə qura bilmək üçün bunları əlavə etməsini istəyin. <0></0>",
+  "empty_state_link": "Daha çoxuna bax",
+  "error_state_title": "Səhv baş verdi. Daha sonra yenidən yoxlayın.",
+  "not_owner_error_state_title": "Yalnız sinif komandası sahibləri valideyn və qəyyum məlumatlarını görə bilərlər. Komanda sahibindən sizə giriş imkanı verməsini istəyin.",
+  "retry_button_title": "Təkrar cəhd et",
+  "transient_error_state_title": "Səhv baş verdi. Yenidən cəhd edin.",
+  "notification_banner_content": "Daha çox valideyn və qəyyum məlumatı yüklənərkən problem oldu. Bir az sonra yenidən cəhd edin."
+}

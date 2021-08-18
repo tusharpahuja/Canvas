@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Magdagdag ng mga tao",
+  "embed_go_back_button": "Bumalik",
+  "embed_provide_feedback": "Ibigay ang iyong feedback:",
+  "embed_go_to": "Magpunta sa {{title}}",
+  "embed_open_inside": "Buksan sa loob",
+  "embed_participants_in_chat": "Mga Kasali ({{membersCount}})",
+  "embed_pop_out_chat": "I-pop out ang chat",
+  "embed_pop_in_back": "Mag-pop in pabalik sa pangunahing window",
+  "embed_error_page_message": "Paumanhin - nagkaroon kami ng isyu",
+  "embed_error_page_try_again_button": "Subukang muli",
+  "embed_chats": "Mga Chat sa Microsoft Teams",
+  "embed_chat": "Chat sa Microsoft Teams"
+}

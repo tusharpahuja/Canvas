@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} ti ha menzionato",
+  "toast_messaging_reaction": "{{sender}} ha reagito al tuo messaggio",
+  "toast_messaging_default_group_topic": "Sconosciuto",
+  "toast_messaging_default_user_given_name": "Sconosciuto",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Invia",
+  "toast_messaging_quickreply_placeholder_text": "Invia una risposta breve",
+  "toast_messaging_activity_text": "Chatta con {{participants}}",
+  "toast_messaging_activity_text_with_count": "Chat con {{participants}} +{{count}}"
+}

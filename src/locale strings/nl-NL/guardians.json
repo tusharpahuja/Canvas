@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Bovenliggende lijst laden",
+  "guardians_table": "Bovenliggende lijst voor {{classTeam}}",
+  "students": "Studenten",
+  "guardians": "Ouders/voogden",
+  "chatButton": "Knop Chat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# andere ouder of voogd. Uitvouwen om de lijst te openen} one {# andere ouders of voogden. Uitvouwen om de lijst te openen} other{# andere ouders of voogden. Uitvouwen om de lijst te openen} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, opent profielkaart",
+  "guardians_user_unknown_label": "Onbekende gebruiker",
+  "guardians_status_unknown_label": "Onbekend",
+  "guardians_overflow_members": "Extra ouders of voogden van {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Een chat starten met de voogd van {studentName}} one {Een chat starten met de voogden van {studentName}} other{Een chat starten met de voogden van {studentName}}}",
+  "guardians_chat_button_disabled_title": "Externe toegang is uitgeschakeld door de beheerder",
+  "guardians_chat_button_disabled_alt_title": "Vraag uw beheerder om contactgegevens van voogden toe te voegen en chat beschikbaar te maken",
+  "empty_state_title": "Ouders en voogden zijn niet toegevoegd",
+  "empty_state_subtitle": "Vraag uw IT-beheerder hen toe te voegen, zodat u vanaf hier snel contact met hen kunt opnemen. <0></0>",
+  "empty_state_link": "Meer weergeven",
+  "error_state_title": "Er is iets verkeerd gegaan. Controleer het later opnieuw.",
+  "not_owner_error_state_title": "Alleen eigenaren van het klasteam kunnen informatie over ouder en voogd zien. Vraag de teameigenaar om u toegang te geven.",
+  "retry_button_title": "Opnieuw proberen",
+  "transient_error_state_title": "Er is iets misgegaan. Probeer het opnieuw.",
+  "notification_banner_content": "Er is een probleem opgetreden bij het laden van meer ouder- en voogdgegevens. Probeer het later opnieuw."
+}

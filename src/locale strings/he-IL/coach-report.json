@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "אין דוח מאמן פגישה זמין",
+  "coach_report_no_data_too_short": "הפעל את מאמן הפגישה במשך דקה לפחות כדי לגשת לדוח שלך",
+  "coach_report_no_data_too_long": "מצטערים, מאמן הפגישה לא תומך בפגישות שאורכות יותר משעתיים",
+  "coach_report_title": "תובנות מאמן הפגישה שלך",
+  "coach_report_private_label": "פרטי",
+  "coach_report_settings": "הגדרות",
+  "coach_report_subtitle": "* מאמן הדוח שלך גלוי רק עבורך.",
+  "coach_report_chart_title": "הצעות מהפגישה שלך",
+  "coach_report_card_checkbox": "שמור תמיד ודלג על מסך זה להפעלות עתידיות",
+  "coach_report_save_button": "שמור",
+  "coach_report_delete_button": "מחק",
+  "coach_report_save_button_tooltip": "מצא זאת מאוחר יותר בדף הפגישה",
+  "coach_report_feedback_before_submit": "האם זה עזר?",
+  "coach_report_feedback_after_submit": "תודה על המשוב",
+  "coach_report_feedback_yes_button": "כן",
+  "coach_report_feedback_no_button": "לא",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} של {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "הקודם",
+  "coach_report_next_critique_button": "הבא"
+}

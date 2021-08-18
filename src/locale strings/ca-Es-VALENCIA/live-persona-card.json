@@ -1,0 +1,4 @@
+{
+  "lpc_timeAgoHours": "Fa {{duration}}h",
+  "lpc_timeAgoMinutes": "Fa {{duration}}min"
+}

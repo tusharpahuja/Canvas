@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}}่ ได้กล่าวถึงคุณ",
+  "toast_messaging_reaction": "{{sender}} ได้ตอบสนองข้อความของคุณ",
+  "toast_messaging_default_group_topic": "ไม่รู้จัก",
+  "toast_messaging_default_user_given_name": "ไม่รู้จัก",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "ส่ง",
+  "toast_messaging_quickreply_placeholder_text": "ส่งการตอบกลับด่วน",
+  "toast_messaging_activity_text": "แชทกับ {{participants}}",
+  "toast_messaging_activity_text_with_count": "แชทกับ {{participants}} +{{count}}"
+}

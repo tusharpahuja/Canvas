@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Inträffar varje dag} =2{Inträffar varannan dag} one {Inträffar var #:e dag} other{Inträffar var #:e dag}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Inträffar varje {days}} =2{Inträffar varannan {days}} one {Inträffar var #:e vecka {days}} other{Inträffar var #:e vecka {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Inträffar varje månad på {day}} =2{Inträffar varannan månad på {day}} one {Inträffar var #:e månad på {day}} other{Inträffar var #:e månad på {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Inträffar varje månad {weekInMonthIndex} {weekday}} =2{Inträffar varannan månad {weekInMonthIndex} {weekday}} one {Inträffar var #:e månad {weekInMonthIndex} {weekday}} other{Inträffar var #:e månad {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Inträffar varje {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Inträffar varje {{dayOfTheWeekIndex}} {{dayOfTheWeek}} i {{month}}"
+}

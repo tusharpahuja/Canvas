@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Radās problēma, un mēs nevarējām pievienot grupu.",
+  "peoplePicker_dlTooManyMembers": "Nevarējām pievienot {{dlName}} ({{dlMemberCount}}). Tērzēšanu var sākt tikai ar {{maxSize}} personām vai mazāk.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Lai dzēstu vai noņemtu lietotāju, izmantojiet atpakaļatkāpes taustiņu. Lai pārietu pie citiem tērzēšanas adresātiem, izmantojiet kreiso vai labo bulttaustiņu.",
+  "peoplePicker_loadingMessage": "Notiek ielāde...",
+  "peoplePicker_newAddGroupNameButtonContent": "Pievienot grupas nosaukumu",
+  "peoplePicker_collapseGroupNameButtonContent": "Sakļaut grupas nosaukumu",
+  "peoplePicker_federationWarning": "Tērzēšana ar uzņēmuma vai mācību kontiem vēl nav pieejama. Uzziniet vairāk.",
+  "peoplePicker_noResults": "Atbilstības neizdevās atrast.",
+  "peoplePicker_resultsUpdationAriaLabel": "Meklēšanas rezultāti atjaunināti. Lai pārvietotos, izmantojiet augšupvērsto un lejupvērsto bulttaustiņu. Lai atlasītu, izmantojiet taustiņu Enter.",
+  "peoplePicker_search_externally_btn_text": "Meklēt adresi {{email}} ārēji",
+  "peoplePicker_tflToLinePlaceholder": "Ievadīt vārdu, e-pasta adresi vai tālruņa numuru",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Noņemt",
+  "peoplePicker_userAdditionAriaLabel": "Lietotājs {{username}} atlasīts no saraksta.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} of {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Lietotājs {{username}} izņemts no saraksta."
+}

@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Adressaat: {user1}} =1{Adressaat: {user1} ja veel 1} one {Adressaat: {user1} ja veel #} other{Adressaat: {user1} ja veel #}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Adressaat: {user1}, {user2}} =1{Adressaat: {user1}, {user2} ja veel 1} one {Adressaat: {user1}, {user2} ja veel #} other{Adressaat: {user1}, {user2} ja veel #}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Adressaat: {user1}, {user2}, {user3}} =1{Adressaat: {user1}, {user2}, {user3} ja veel 1} one {Adressaat: {user1}, {user2}, {user3} ja veel #} other{Adressaat: {user1}, {user2}, {user3} ja veel #}}",
+  "new_message_label": "Uus",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} vastust: {user1}} =1{{repliesCount} vastust: {user1} ja veel 1} one {{repliesCount} vastust: {user1} ja veel #} other{{repliesCount} vastust: {user1} ja veel #}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} vastust: {user1}, {user2}} =1{{repliesCount} vastust: {user1}, {user2} ja veel 1} one {{repliesCount} vastust: {user1}, {user2} ja veel #} other{{repliesCount} vastust: {user1}, {user2} ja veel #}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} vastust: {user1}, {user2}, {user3}} =1{{repliesCount} vastust: {user1}, {user2}, {user3} ja veel 1} one {{repliesCount} vastust: {user1}, {user2}, {user3} ja veel #} other{{repliesCount} vastust: {user1}, {user2}, {user3} ja veel #}}",
+  "tmp_view_chat_button_text": "Kuva vastused.",
+  "tmp_go_to_channel_button_text": "Ava kanal"
+}

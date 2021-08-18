@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Nenhum Relatório do Orientador da Reunião disponível",
+  "coach_report_no_data_too_short": "Ative o Orientador de Reuniões durante mais de 1 minuto para aceder ao seu relatório",
+  "coach_report_no_data_too_long": "Lamentamos, mas o Orientador de Reuniões não suporta reuniões com mais de 2 horas",
+  "coach_report_title": "As suas Informações de Orientador da Reunião",
+  "coach_report_private_label": "Privado",
+  "coach_report_settings": "Definições",
+  "coach_report_subtitle": "* O seu relatório de Orientador só está visível para si.",
+  "coach_report_chart_title": "Sugestões das suas reuniões",
+  "coach_report_card_checkbox": "Guardar sempre e ignorar este ecrã para sessões futuras",
+  "coach_report_save_button": "Guardar",
+  "coach_report_delete_button": "Eliminar",
+  "coach_report_save_button_tooltip": "Encontre posteriormente na página da reunião",
+  "coach_report_feedback_before_submit": "Isto é útil?",
+  "coach_report_feedback_after_submit": "Obrigado pelo feedback",
+  "coach_report_feedback_yes_button": "Sim",
+  "coach_report_feedback_no_button": "Não",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} de {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Anterior",
+  "coach_report_next_critique_button": "Seguinte"
+}

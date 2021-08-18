@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Tambahkan orang",
+  "embed_go_back_button": "Kembali",
+  "embed_provide_feedback": "Berikan umpan balik Anda:",
+  "embed_go_to": "Masuk ke {{title}}",
+  "embed_open_inside": "Buka di dalam",
+  "embed_participants_in_chat": "Peserta ({{membersCount}})",
+  "embed_pop_out_chat": "Munculkan obrolan",
+  "embed_pop_in_back": "Pop in kembali ke jendela primer",
+  "embed_error_page_message": "Maaf, kami mengalami masalah",
+  "embed_error_page_try_again_button": "Coba lagi",
+  "embed_chats": "Obrolan Microsoft Teams",
+  "embed_chat": "Obrolan Microsoft Teams"
+}

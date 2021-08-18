@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Koristi drugi nalog",
+  "tflFre_Learn_More_Link_caption": "Ko može da vidi ovo",
+  "tflFre_OK_Button_caption": "Hajde da počnemo",
+  "tflFre_dialog_Aria": "Dobro došli u Teams. Na koji način želite da se pojavite u usluzi Teams? Ljudi mogu da vas pretražuju pomoću ove informacije",
+  "tflFre_header": "Dobro došli",
+  "tflFre_phone_and_email_flyout": "Posetite Microsoft nalog da biste upravljali brojem telefona i e-poštom.",
+  "tflFre_who_can_see_this_flyout": "Vaše ime i slika Microsoft naloga će biti vidljivi drugima u usluzi Teams. Ljudi takođe mogu da vas pretražuju u usluzi Teams pomoću vašeg broja telefona i e-pošte.",
+  "tflFre_learn_more_link_text": "Saznajte više",
+  "tflFre_sync_contacts_checkbox": "Sinhronizuj moje Skype i Outlook kontakte kako bih pronašao/la osobe koje poznajem u aplikaciji Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Ljudi mogu da vas pretražuju pomoću:",
+  "tflFre_loading_spinner_text": "Učitavanje…",
+  "tflFre_stamping_error_dialog_header": "Ažuriranje profila nije uspelo",
+  "tflFre_stamping_error_dialog_body": "Ne možemo da ažuriramo informacije o vašem profilu. Izaberite stavku ‚‚Koristi drugi nalog“ da biste se odjavili i koristili drugi nalog. Izaberite stavku ‚‚Pokušati ponovo“ da biste pokušali da ažurirate profil",
+  "tflFre_error_dialog_retry_button": "Pokušaj ponovo",
+  "tflFre_error_dialog_sign_out_button": "Koristi drugi nalog",
+  "tflFre_fetch_error_dialog_header": "Dobavljanje profila nije uspelo",
+  "tflFre_fetch_error_dialog_body": "Ne možemo da dobavimo informacije o vašem profilu. Izaberite stavku ‚‚Koristi drugi nalog“ da biste se odjavili i koristili drugi nalog. Izaberite stavku ‚‚Pokušati ponovo“ da biste pokušali da ponovo dobavite vaš profil",
+  "tflFre_welcome_edit_header": "Dobro došli u Teams",
+  "tflFre_welcome_edit_second_header": "Kako želite da se pojavite?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "E-pošta"
+}

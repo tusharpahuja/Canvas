@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Igen",
+  "instant_answers_reaction_yes_aria_label": "Hasznos volt ez az információ? -- Igen",
+  "instant_answers_reaction_no": "Nem",
+  "instant_answers_reaction_no_aria_label": "Hasznos volt ez az információ? -- Nem",
+  "instant_answers_header_text": "Köszönjük a visszajelzését!",
+  "instant_answers_header_subtext": "A visszajelzése alapján esetleg hasznosnak találja majd a következő információkat:",
+  "instant_answers_footer_text": "Hasznos volt ez az információ?",
+  "include_screenshot_text": "Képernyőkép csatolása",
+  "customer_feedback_dialog_email_label": "Az Ön e-mail-címe (nem kötelező megadni)",
+  "customer_feedback_dialog_email_placeholder": "Adja meg az e-mail-címét.",
+  "customer_feedback_dialog_email_aria_label": "Az Ön e-mail-címe (nem kötelező megadni)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Ha elküldi a visszajelzést, a Microsoft felhasználja azt a termékei és szolgáltatásai továbbfejlesztéséhez. Az informatikai rendszergazda össze tudja majd gyűjteni a visszajelzésben szereplő adatokat. A visszajelzése alapján esetleg további információt tudunk nyújtani a támogatási problémájával kapcsolatban.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Adatvédelmi nyilatkozat.",
+  "customer_feedback_dialog_close_button_text_aria_label": "A visszajelzési párbeszédpanel bezárása",
+  "customer_feedback_dialog_adhoc_window_title": "Visszajelzés küldése"
+}

@@ -1,0 +1,18 @@
+{
+  "app_display_name": "PTZ-контроли на камерата",
+  "app_unsupported_host_client_page_text": "PTZ-контролите на камерата се недостапни",
+  "app_picker_placeholder": "Изберете учесник",
+  "app_dpad_reset_button": "Ресетирај",
+  "app_dpad_up_button": "Помести горе",
+  "app_dpad_down_button": "Помести подолу",
+  "app_dpad_right_button": "Навали надесно",
+  "app_dpad_left_button": "Навали налево",
+  "app_zoom_label": "Зумирање",
+  "app_zoom_in_button": "Зумирај",
+  "app_zoom_out_button": "Одзумирање",
+  "app_pinvideo_label": "Закачи го видеото на корисникот",
+  "error_no_controllable_cameras": "Нема достапни камери што може да се контролираат",
+  "error_general": "Нешто не е во ред",
+  "alert_user_terminated_controls": "Корисникот ги исклучи PTZ-контролите",
+  "alert_user_terminated_controls_dismiss": "Во ред"
+}

@@ -1,0 +1,18 @@
+{
+  "default_app_description": "На жаль, сталася помилка.",
+  "default_app_title": "На жаль, сталася помилка! (Помилки програми)",
+  "default_network_error_description": "На жаль, проблема з мережею!",
+  "default_network_error_title": "На жаль, проблема з мережею!",
+  "default_unknown_description": "На жаль, сталася помилка.",
+  "default_unknown_title": "На жаль, сталася помилка.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "На жаль, сталася помилка! (Основні помилки)",
+  "default_core_error_title": "Код помилки: Основні помилки",
+  "default_fetch_description": "На жаль, сталася помилка. (Помилки віддаленого доступу до CDL)",
+  "default_fetch_title": "Код помилки: помилки віддаленого доступу до CDL",
+  "default_service_description": "На жаль, сталася помилка. (Помилки служби CDL)",
+  "default_service_title": "Код помилки: помилки служби CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

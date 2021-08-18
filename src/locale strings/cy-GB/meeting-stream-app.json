@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL y Ffrwd",
+  "stream_url_placeholder": "Rhowch URL Stream",
+  "stream_key_label": "Allwedd ffrwd",
+  "stream_key_placeholder": "Rhowch allwedd y Ffrwd",
+  "start_streaming_button_text": "Dechrau ffrydio",
+  "stop_streaming_button_text": "Stopio ffrydio",
+  "custom_streaming_config_page_description": "Ffrydio personol yw eich teclyn i ffrydio Cyfarfodydd Teams i lwyfannau cyhoeddus sy'n cael eu pweru gan RTMP",
+  "custom_streaming_config_page_first_greeting": "Croeso i Custom Streaming!",
+  "custom_streaming_config_page_second_greeting": "Rydyn ni'n falch eich bod chi yma",
+  "custom_streaming_error_meeting_limit_reached": "Ni ellir ffrydio'r cyfarfod hwn yn ei leoliadau presennol. Cyfyngwch y mynychwyr i lai na 1000.",
+  "custom_streaming_error_permission_denied": "Nid oes gennych ganiatâd ffrydio. Cysylltwch â'ch gweinyddwr TG neu'r trefnydd i ffrydio'r cynnwys hwn",
+  "custom_streaming_error_outdated_client": "Mae angen diweddariadau ar Teams i barhau. Ailgychwynwch eich cais i sicrhau bod gennych y nodweddion diweddaraf.",
+  "custom_streaming_error_unknown": "Aeth rhywbeth o'i le, rhowch gynnig arall arni.",
+  "custom_streaming_error_unsupported_platform": "Nid yw'r nodwedd hon yn cael ei chefnogi yn y porwr eto. Rhowch gynnig arall arni o'r fersiwn bwrdd gwaith o Teams.",
+  "custom_streaming_tab_title": "Ffrydio Personol"
+}

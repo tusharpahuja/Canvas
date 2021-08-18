@@ -1,0 +1,18 @@
+{
+  "app_display_name": "Controls PTZ de càmera",
+  "app_unsupported_host_client_page_text": "Els controls PTZ de càmera no estan disponibles",
+  "app_picker_placeholder": "Seleccioneu un participant",
+  "app_dpad_reset_button": "Restableix",
+  "app_dpad_up_button": "Desplaça cap amunt",
+  "app_dpad_down_button": "Desplaça cap avall",
+  "app_dpad_right_button": "Inclina cap a la dreta",
+  "app_dpad_left_button": "Inclina cap a l'esquerra",
+  "app_zoom_label": "Zoom",
+  "app_zoom_in_button": "Amplia",
+  "app_zoom_out_button": "Redueix",
+  "app_pinvideo_label": "Ancoreu el vídeo de l'usuari",
+  "error_no_controllable_cameras": "No hi ha cap càmera controlable disponible",
+  "error_general": "S'ha produït un error",
+  "alert_user_terminated_controls": "L'usuari ha inhabilitat els controls PTZ",
+  "alert_user_terminated_controls_dismiss": "D'acord"
+}

@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} vas spominje",
+  "toast_messaging_reaction": "Osoba {{sender}} reagirala je na vašu poruku",
+  "toast_messaging_default_group_topic": "Nepoznato",
+  "toast_messaging_default_user_given_name": "Nepoznato",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Pošalji",
+  "toast_messaging_quickreply_placeholder_text": "Slanje brzog odgovora",
+  "toast_messaging_activity_text": "Čavrljanje sa sudionicima {{participants}}",
+  "toast_messaging_activity_text_with_count": "Čavrljajte s osobom {{participants}} + još {{count}} njih"
+}

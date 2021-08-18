@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Aucun rapport sur le Coach à la réunion disponible",
+  "coach_report_no_data_too_short": "Activez Meeting Coach pendant plus d’une minute pour accéder à votre rapport",
+  "coach_report_no_data_too_long": "Désolé, Meeting Coach ne prend pas en charge les réunions de plus de 2 heures",
+  "coach_report_title": "Aperçu de votre Coach de réunions",
+  "coach_report_private_label": "Privé",
+  "coach_report_settings": "Paramètres",
+  "coach_report_subtitle": "* Votre rapport sur le Coach n’est visible que par vous.",
+  "coach_report_chart_title": "Suggestions de votre réunion",
+  "coach_report_card_checkbox": "Toujours enregistrer et ignorer cet écran pour les sessions suivantes",
+  "coach_report_save_button": "Enregistrer",
+  "coach_report_delete_button": "Supprimer",
+  "coach_report_save_button_tooltip": "Rechercher plus tard dans la page de la réunion",
+  "coach_report_feedback_before_submit": "Ces informations sont-elles utiles ?",
+  "coach_report_feedback_after_submit": "Nous vous remercions pour vos commentaires",
+  "coach_report_feedback_yes_button": "Oui",
+  "coach_report_feedback_no_button": "Non",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} sur {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Précédent",
+  "coach_report_next_critique_button": "Suivant"
+}

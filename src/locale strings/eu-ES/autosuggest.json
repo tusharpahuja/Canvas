@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} ({1})",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Iradokizunik ez.||1->2::{0} iradokizun erabilgarri: ||2->3::{0} iradokizun erabilgarri: ||3->INF::{0} iradokizun erabilgarri:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Iradokizunik ez honentzat: {0}.||1->2::{1} iradokizun erabilgarri honentzat: {0}: ||2->3::{1} iradokizun erabilgarri honentzat: {0}: ||3->INF::{1} iradokizun erabilgarri honentzat: {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Talde izengabea",
+  "autosuggest_sb_search_box_clear_button_label": "Garbitu bilaketa-koadroa",
+  "autosuggest_sb_search_box_submit_button_label": "Bilatu",
+  "autosuggest_sb_search_box_view_all_results_label": "Sakatu Sartu emaitza guztiak ikusteko",
+  "autosuggest_people_group_heading": "Jendea",
+  "autosuggest_chats_group_heading": "Taldeko txatak",
+  "autosuggest_zero_term_group_aria_label": "Azken bilaketak"
+}

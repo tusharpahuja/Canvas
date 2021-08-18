@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Jõudsid oma organisatsiooni liikmete piirmäärani. Versiooni uuendamiseks ja rohkemate inimeste lisamiseks saada oma administraatorile sõnum.} =1 {Jõudsid oma organisatsiooni liikmete piirmäärani. Palu <0></0> versiooni uuendada, et saaksid rohkem inimesi kutsuda.} one {Jõudsid oma organisatsiooni liikmete piirmäärani. Palu mõnel oma <0></0> versiooni uuendada, nii et saaksid kutsuda rohkem inimesi.} other {Jõudsid oma organisatsiooni liikmete piirmäärani. Palu mõnel oma <0></0> versiooni uuendada, nii et saaksid kutsuda rohkem inimesi.}}"
+}

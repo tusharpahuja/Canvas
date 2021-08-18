@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Зареждане...",
+  "lobby_screen_exit_message": "Изход от фоайето",
+  "calling_join_button_audio": "Присъединяване към разговор с аудио",
+  "calling_join_button_video": "Присъединяване към разговор с видео",
+  "calling_screen_meeting_id": "ИД на събрание: {{conferenceId}}",
+  "meeting_room_present_content": "Презентиране",
+  "meeting_room_connected_device": "Свързано устройство",
+  "meeting_room_content_camera": "Камера за съдържание",
+  "meeting_room_cortana_button_title": "Cortana"
+}

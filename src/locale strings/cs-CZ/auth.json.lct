@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="auth.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="cs-CZ" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";aad_reconnecting_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ve run into a server error. Some functions might not work right now but you can continue to use the app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Narazili jsme na chybu serveru. Některé funkce teď nemusí fungovat, ale aplikaci můžete nadále používat.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for auth reconnecting notification]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";account_list_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pick an account to sign in with]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vyberte účet, kterým se chcete přihlásit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader label for the list of accounts used to sign in with]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";account_list_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pick an account]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vybrat účet]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Page sub title for the list of accounts on the sign in screen]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_req" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zrušit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sign out pop-up when click on Sign out in Avatar menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";loading_announcement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Načítá se]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announcement text while doing the sign in operation.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";loading_spinner_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Just a moment while we get things ready]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Počkejte prosím chvíli, než všechno připravíme]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that shows next to the spinner while sign in operation is in progress]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_T1_marketing_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download compatible version of Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Stáhnout kompatibilní verzi Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link text to allow user to download T1 electron app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_T1_marketing_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Looking to use Teams with your work or school account?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chcete používat Teams s pracovním nebo školním účtem?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text that shows on the landing page of Teams to allow user to download T1 electron app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Přihlásit se]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text for a button to initiate the sign in process]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_flyout_get_started_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Začínáme]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[button that prompts the user from flyout to main app to sign in]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_flyout_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meet and chat with friends and family]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Spojte se s přáteli a rodinou a chatujte s nimi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[header on the landing page of Teams sign in flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_flyout_teams_product_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Teams product name on the landing page of sign in flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_flyout_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Stay connected with everyone across your life with Microsoft Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Zůstaňte ve spojení s lidmi ve vašem životě pomocí Microsoft Teams.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text that shows on the landing page of Teams sign in flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_welcome_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vítejte v Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header that shows on the landing page of Teams and prompts the user to sign into the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_landing_welcome_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat and collaborate with friends and family in one app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chatujte a spolupracujte s přáteli a rodinou v jedné aplikaci.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text that shows on the landing page of Teams below welcome to teams header and prompts the user to sign into the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_list_T1_marketing_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get Teams for work or school]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Získejte Teams kvůli práci nebo škole]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link text to allow user to download T1 electron app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_microsoft_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Microsoft company name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_required_cta_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Přihlásit se]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for sign in call-to-action in the sign in required notification]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_required_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We weren't able to connect. Sign in and we'll try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nemohli jsme se připojit. Přihlaste se a zkusíme to znovu.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for sign in required notification]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_welcome_subtitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat and collaborate in one app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chatujte a spolupracujte v jedné aplikaci.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Page title for the list of accounts on the sign in screen]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_in_welcome_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Vítejte v Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Page title for the list of accounts on the sign in screen]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_out_anyway_req" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign out anyway]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Přesto odhlásit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sign out pop-up when click on Sign out in Avatar menu. Action.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_out_learn_more" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Další informace]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that will be shown on the link that will open the web page with info]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_out_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We'll sign you out and remove any offline data, including message drafts.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odhlásíme vás a odstraníme všechna offline data včetně návrhů zpráv.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Signing out of {{name}} will sign you out of this account inside of Teams, and remove any offline data including message drafts. This won’t remove your account from this device and other apps might still have access to it.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sign out pop-up when click on Sign out in Avatar menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_out_message_header_active_call" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[End call and sign out?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chcete ukončit hovor a odhlásit se?]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Disconnect call and sign out?]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sign out pop-up when click on Sign out in Avatar menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_out_message_header_no_call" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign out of Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odhlásit se z Teams]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Sign out of Teams?]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sign out pop-up when click on Sign out in Avatar menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_out_message_in_call" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We'll end your current call or meeting, sign you out, and remove any offline data, including message drafts.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ukončíme aktuální hovor nebo schůzku, odhlásíme vás a odstraníme všechna offline data včetně návrhů zpráv.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Signing out of {{name}} will end your current meeting, sign you out of this account inside of Teams, and remove any offline data including message drafts. This won’t remove your account from this device and other apps might still have access to it.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sign out pop-up when click on Sign out in Avatar menu during the call]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";sign_out_req" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign out]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Odhlásit se]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sign out pop-up when click on Sign out in Avatar menu. Action.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";skype_reconnecting_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can’t get new messages right now. We will keep trying.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teď nemůžeme dostávat nové zprávy. Budeme to dál zkoušet.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for skype reconnecting notification]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";use_another_account_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use another account]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Použít jiný účet]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text for the button that lets users enter credentials for an account that is not shown in the list of accounts]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

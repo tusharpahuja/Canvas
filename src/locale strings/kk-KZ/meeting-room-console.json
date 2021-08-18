@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Жүктелуде...",
+  "lobby_screen_exit_message": "Күту бөлімінен шығу",
+  "calling_join_button_audio": "Қоңырауға аудио арқылы қосылу",
+  "calling_join_button_video": "Қоңырауға бейне арқылы қосылу",
+  "calling_screen_meeting_id": "Жиналыс идентификаторы: {{conferenceId}}",
+  "meeting_room_present_content": "Көрсету",
+  "meeting_room_connected_device": "Қосылған құрылғы",
+  "meeting_room_content_camera": "Мазмұн камерасы",
+  "meeting_room_cortana_button_title": "Cortana"
+}

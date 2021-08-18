@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL del flusso",
+  "stream_url_placeholder": "Immetti l'URL del flusso",
+  "stream_key_label": "Chiave del flusso",
+  "stream_key_placeholder": "Immetti la chiave del flusso",
+  "start_streaming_button_text": "Avvia riproduzione in streaming",
+  "stop_streaming_button_text": "Interrompi riproduzione in streaming",
+  "custom_streaming_config_page_description": "Il flusso personalizzato è lo strumento per riprodurre in streaming la riunione di Teams alle piattaforme pubbliche con tecnologia RTMP",
+  "custom_streaming_config_page_first_greeting": "Ti diamo il benvenuto nello streaming personalizzato!",
+  "custom_streaming_config_page_second_greeting": "Siamo contenti di averti qui",
+  "custom_streaming_error_meeting_limit_reached": "Impossibile eseguire lo streaming della riunione nelle impostazioni correnti. Limita i partecipanti a meno di 1000.",
+  "custom_streaming_error_permission_denied": "Non hai autorizzazioni per lo streaming. Contatta l'amministratore IT o l'organizzatore per riprodurre questo contenuto",
+  "custom_streaming_error_outdated_client": "Per continuare, Teams necessita di aggiornamenti. Riavvia l'applicazione per verificare di disporre delle funzionalità più recenti.",
+  "custom_streaming_error_unknown": "Si è verificato un problema. Riprova.",
+  "custom_streaming_error_unsupported_platform": "Questa funzionalità non è ancora supportata nel browser. Prova di nuovo dalla versione desktop di Teams.",
+  "custom_streaming_tab_title": "Flusso personalizzato"
+}

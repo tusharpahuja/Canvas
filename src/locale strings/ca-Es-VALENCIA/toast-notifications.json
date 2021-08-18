@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} vos ha mencionat",
+  "toast_messaging_reaction": "{{sender}} ha reaccionat al vostre missatge",
+  "toast_messaging_default_group_topic": "Desconegut",
+  "toast_messaging_default_user_given_name": "Desconegut",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} i {{count}} més",
+  "toast_messaging_quickreply_button_text": "Envia",
+  "toast_messaging_quickreply_placeholder_text": "Envia una resposta ràpida",
+  "toast_messaging_activity_text": "Xat amb {{participants}}",
+  "toast_messaging_activity_text_with_count": "Xat amb {{participants}} i {{count}} més"
+}

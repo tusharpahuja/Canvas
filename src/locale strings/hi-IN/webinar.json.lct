@@ -1,0 +1,1338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="webinar.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="hi-IN" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";loading_webinar" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[लोड हो रहा है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar registration page is loading.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";microsoft_privacy_statement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ Microsoft <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ Microsoft <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Microsoft privacy statement shows in registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_policy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Policy.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[गोपनीयता नीति.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[privacy policy link shows in registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";privacy_statement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Statement.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[गोपनीयता कथन.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[privacy statement link shows in registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_banner_preview" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is a preview of registration form your attendees will see. You don't need to register.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[यह उस पंजीकरण प्रपत्र का प्रीव्यू है जिसे आपके प्रतिभागी देखेंगे. आपको पंजीकरण की आवश्यकता नहीं है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Webinar banner of the preview mode]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_banner_send_meeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Be sure to send the invite to presenters.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[प्रस्तुत करने वालों को आमंत्रण भेजना सुनिश्चित करें.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Be sure to send the invite to presenter]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Webinar banner of the send invite reminder]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_registration_button_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[click here]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[यहाँ क्लिक करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text of the button to cancel registration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_registration_instruction" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To cancel your registration,]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अपना पंजीकरण रद्द करने के लिए,]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Instruction text to instruct user to follow the following content in order to cancel a registration.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_registration_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel your event registration.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अपना ईवेंट पंजीकरण रद्द करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text for cancel a registration.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_success_instruction" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If your email was registered, you will receive an email.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अगर आपका ईमेल पंजीकृत था, तो आपको एक ईमेल मिलेगा.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Instruction text shown after attendee successfully cancels a registration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_cancel_success_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[धन्यवाद!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text shown after attendee successfully cancels a registration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_copy_link_success" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The registration page link is copied.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पंजीकरण पेज लिंक की प्रतिलिपि बनाई गई है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when the registration page link is copied.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_dialog_cancel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Discard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[छोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Cancel button text on a pop up dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_dialog_confirm" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[भेजें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Confirm button text on a pop up dialog, to confirm that we will send an email to user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_end_date_picker_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[End date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[समाप्ति तिथि]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text for the picker to pick end date]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_attendee_already_registered" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The address may have already been used to register.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हो सकता है कि पता पहले से ही पंजीकृत करने के लिए उपयोग किया गया हो.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user's email address is already registered.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_dismiss" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[बंद करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for error indicating dialog dismiss button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_incorrect_email" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter a valid email address.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कोई मान्य ईमेल पता दर्ज करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user's email isn't a valid email address.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_no_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event you're trying to join doesn't exist, or you may not have access to it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आप जो ईवेंट शामिल करने का प्रयास कर रहे हैं वह मौजूद नहीं है, या हो सकता है कि आपकी इस तक पहुँच न हो.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Something went wrong, or you may not have permission to view this page.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_not_found" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The corresponding webinar was not found.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[संगत वेबिनार नहीं मिला.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content to show meaningful message in client for organizer when response NotFound]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_question_display_name_empty" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The field can’t be empty. Enter a question and try saving again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[फ़ील्ड रिक्त नहीं हो सकती. कोई प्रश्न दर्ज करें और फिर से सहेजने का प्रयास करें.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The custom question field can't be empty.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user's input is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_question_display_name_empty_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom question is missing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कस्टम प्रश्न अनुपलब्ध है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the error indicating dialog. It shows up when user's input is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_registration_unavailable" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Registration isn't available right now. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पंजीकरण अभी उपलब्ध नहीं है. बाद में फिर से कोशिश करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_required_field_empty" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This field is required.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[यह फ़ील्ड आवश्यक है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user do not answer required question]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_single_choice_question_option_empty" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All fields need to be filled in before you can save your work]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इससे पहले कि आप अपना कार्य सहेज सकें, सभी फ़ील्ड्स को भरना आवश्यक है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when questionnaire field is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_single_choice_question_option_empty_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to save empty questionnaire field]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[रिक्त प्रश्नावली फ़ील्ड को सहेजने में असमर्थ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the error indicating dialog. It shows up when questionnaire field is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_time_out" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading your data. Try again shortly.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपका डेटा लोड कर रहा है. कुछ देर में फिर से कोशिश करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कुछ गलत हुआ]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Error]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for error indicating dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_title_violation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The title of your webinar contains prohibited content.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपके वेबिनार के शीर्षक में निषिद्ध सामग्री शामिल है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_cancel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't cancel your registration at this moment, please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम इस समय आपका पंजीकरण रद्द नहीं कर सकते, कृपया बाद में पुनः प्रयास करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_register" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't complete your registration right now. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम आपका पंजीकरण अभी पूरा नहीं कर सकते. कृपया बाद में दुबारा कोशिश करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_render" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't load the registration page right now. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम अभी पंजीकरण पृष्ठ लोड नहीं कर सकते. बाद में फिर से कोशिश करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_save" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't save your changes. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम आपके बदलावों को सहेज नहीं सके. बाद में फिर से कोशिश करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_save_image" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to save the image. Try saving it again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[छवि सहेजने में असमर्थ. इसे फिर से सहेजने का प्रयास करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default content for failing to save image]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_unable_to_send_email" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to send email. Try saving it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ईमेल भेजने में असमर्थ. इसे फिर से सहेजने का प्रयास करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default content for failing to send email]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_error_webinar_not_found_in_scheduling_service" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to find this webinar, it could have been canceled. Try refreshing the page.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इस वेबिनार को ढूँढने में असमर्थ, हो सकता है कि इसे रद्द कर दिया गया हो. पृष्ठ को रीफ़्रेश करने का प्रयास करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content to show meaningful message in client for attendee when response WebinarNotFoundInSchedulingService]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_event_have_been_canceled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This event has been cancelled.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[यह ईवेंट रद्द कर दिया गया है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text at the center of screen, to tell user this event has been canceled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_host_privacy_policy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Webinar host <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[वेबिनार होस्ट <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Webinar host privacy policy shows in registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_image_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The image has been selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इस छवि को चुना गया है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar image has been selected.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_image_upload_conflict" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong, and the image wasn’t saved. Try saving it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कुछ गलत हुआ, और छवि सहेजी नहीं गई थी. इसे फिर से सहेजने का प्रयास करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Pop out error dialog message when image and registration form info conflicts.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_is_expired" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Oops, looks like this event occurred in the past.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ओह, ऐसा लगता है कि यह ईवेंट अतीत में हुआ था.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to show user that this webinar is expired, and do not allow more user to view any more.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_loaded" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The registration page has been loaded]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पंजीकरण पृष्ठ को लोड कर दिया गया है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar registration page has been loaded.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_bad_SPL_schema_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Refresh the page to finish registering.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पंजीकरण समाप्त करने के लिए पृष्ठ को ताज़ा करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for the error indicating dialog. It shows up when user tries to register but registration form has changed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_bad_SPL_schema_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Registration form has been updated]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पंजीकरण प्रपत्र का अद्यतन कर दिया गया है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the error indicating dialog. It shows up when user tries to register but registration form has changed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_cancelled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your registration has been cancelled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपका पंजीकरण रद्द कर दिया गया है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar registration has been cancelled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_image_banner_alternation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Webinar background image on the image banner]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[छवि बैनर पर वेबिनार पृष्ठभूमि छवि]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alternation text for the webinar background image]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_success_instruction_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We sent a confirmation email to {{email}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हमने {{email}} के लिए एक पुष्टिकरण ईमेल भेजा है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the confirmation success instruction message on webinar registration confirmation page. This text gives user instruction about where to find the confirmation email.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_success_join_event_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Join the event]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इवेंट में शामिल हों]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the join event button on webinar registration confirmation page. By clicking this button, webinar attendee join the webinar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_success_main_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See you at the event!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपसे ईवेंट पर मिलते हैं!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the confirmation success main message on webinar registration confirmation page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_confirmation_thumb_up_image_alternation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Success image shows thumb up gesture]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सफलता की छवि अंगूठा ऊपर होने का जेश्चर दिखाती है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alternation text for the success image on webinar registration confirmation page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_copy_link_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy registration link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पंजीकरण लिंक की प्रतिलिपि बनाएँ]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Copy link]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the copy registration link button on webinar registration page toolbar. Copy is an action here. By clicking this button, webinar organizer copies the link to the current registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom question]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कस्टम प्रश्न]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text. User can click this button to add an customized question.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_choice" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[विकल्प]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text, which indicates use can add an choice radio button type question.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_field" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add field]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[फ़ील्ड जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text. User can click this button to add an new question to the customized questionnaire.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_input" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Input]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इनपुट]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text, which indicates use can add an input type question.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add option]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[विकल्प जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text. User can click this button to add an option to the customized question.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_required" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Required]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आवश्यक]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Checkbox label text. User can click this checkbox to indicate this customized question is required.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_custom_question_required_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Make {{questionName}} required filed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आवश्यक {{questionName}} को दर्ज किया गया बनाएँ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text for checkbox. By focusing on this checkbox, screen reader will announce make {{questionName}} required filed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_date_picker_info_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Incorrect time format, please follow format as YYYY-MM-DD HH:MM-HH:MM]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[गलत समय फॉर्मैट, कृपया YYYY-MM-DD HH: MM-HH: MM के रूप में फॉर्मैट का अनुसरण करें]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Incorrect time format]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[info message when time format in webinar registration page is incorrect.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_date_picker_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कोई दिनांक जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the date picker on the webinar registration page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_date_picker_start_time_invalid_info_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The start time must be later than the current time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[प्रारंभ समय, वर्तमान समय से बाद का होना चाहिए]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The start time is earlier than the current time]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[info message when start time in webinar registration page is incorrect.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_description_editor_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a description]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[वर्णन जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the description editor on webinar registraion page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_description_editor_toolbar_overflow_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अधिक]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text for the details editor toolbar on webinar registration page when overflow occures.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_description_length_exceeded" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Max number of characters reached]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[वर्णों की अधिकतम संख्या तक पहुँच गया]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alert when number of webinar description characters reached max number.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_details_editor_section_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Event details]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ईवेंट विवरण]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Details]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the details section title on the webinar registration page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_disabled_save_button_tooltip_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please check the errors first]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कृपया पहले त्रुटियों की जाँच करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the disabled save button tooltip on webinar registration page toolbar]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_dropdown_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select who can register your meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[चुनें कि आपकी मीटिंग में कौन पंजीकरण कर सकता है]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Meeting registration permission.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_dropdown_has_no_result" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No results available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कोई परिणाम उपलब्ध नहीं]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when no results are found in dropdown list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_dropdown_item_has_been_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{label}} was selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{label}} को चुना गया था]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{label}} gets selected from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_dropdown_private_option_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People in your org can register]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपके संगठन के लोग पंजीकरण कर सकते हैं]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label text of the access dropdown private access option.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_edit_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[संपादित करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the edit button on webinar registration page toolbar. Edit is an action. By clicking this button, webinar page switches to edit mode.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_form_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Register now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अभी पंजीकरण कराएँ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the registration form submit button.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_form_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is the form your attendees will fill out when they sign up.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[यह वह प्रपत्र है जिसे आपके सहभागी साइन अप करते समय भरेंगे.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description of the registration form.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_form_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Register for this event]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इस ईवेंट के लिए पंजीकृत करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the registration form.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_is_full" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sorry, looks like this event is full.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[क्षमा करें, लगता है यह ईवेंट पूर्ण है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to show user that this webinar is full, and do not allow more user to registered any more.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_is_full_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Registration is no longer available.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पंजीकरण अब उपलब्ध नहीं है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content of the dialog to show user that this webinar is full, and do not allow more user to registered any more.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_is_full_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This event is full.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इस ईवेंट में अधिकतम सीमा तक लोग शामिल हो गए हैं.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the dialog to show user that this webinar is full, and do not allow more user to registered any more.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_location_picker_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Teams meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Teams मीटिंग]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the date picker on webinar registration page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_bio_editor_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a speaker bio]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[वक्ता का परिचय जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the presenter bio editor on the webinar registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_editor_delete_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete {{name}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}} हटाएँ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text for the delete button on webinar registartion page presenter editor. By focusing on this button, screen reader will announce delete {{name}}.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_editor_delete_button_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हटाएँ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title text for the delete button on webinar registartion page presenter editor. By clicking this button, webinar organizer delete a presenter editor.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_editor_list_add_speaker_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add speaker]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[वक्ता जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the add speaker button on webinar registration page presenter editor list. By clicking this button, webinar organizer add a new presenter editor to the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_editor_section_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Speakers]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[वक्ता]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the presenter editor section title on webinar registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_presenter_name_editor_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a speaker name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[वक्ता का नाम जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the presenter name editor on the webinar registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_save_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सहेजें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the save button on webinar registration page toolbar. Save is an action. By clicking this button, webinar organizer saves the current registration page and page switches to read mode.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_save_button_tooltip_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save and preview your registration form]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अपने पंजीकरण प्रपत्र को सहेजें और पूर्वावलोकन करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the save button tooltip on webinar registration page toolbar. Save is an action. By clicking this button, webinar organizer saves the current registration page and page switches to read mode.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_submitted" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have registered]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आप पंजीकृत हो गए हैं]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when webinar registration form has been submitted.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_title_editor_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a title]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कोई शीर्षक जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for the title editor on webinar registration page details section.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_upload_image_dialog_drop_zone_info_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Drop your file here]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अपनी फ़ाइल को यहाँ ड्रॉप करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the hint in the drop zone on webinar registration page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_registration_view_in_browser_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View in browser]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ब्राउज़र में देखें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the view in browser button on webinar registration page toolbar.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_save_success" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The registration page is saved.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पंजीकरण पृष्ठ सहेज लिया गया है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader confirmation message when the registration page is saved.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_send_update_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Everyone who's registered will receive an updated calendar invite.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सभी पंजीकृत लोगों को एक अद्यतित कैलेंडर आमंत्रण मिलेगा.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content of a pop up dialog. ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_send_update_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send update?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अपडेट भेजें?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of a pop up dialog, to confirm that we will send an email to user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_speaker_removed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Speaker {{removedSpeakerName}} removed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[स्पीकर {{removedSpeakerName}} निकाला गया]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader alert content when {{removedSpeakerName}} is removed from speakers list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_start_date_picker_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आरंभ तिथि]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label text for the picker to pick start date]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_timeZone" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Time zone: {{timezone}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[समय क्षेत्र: {{timezone}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Time zone text to indicate following {{timezone}} is a timezone]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_time_picker_dropdown_option_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{label}} was selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{label}} को चुना गया था]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when {{label}} gets selected from the list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_address" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पता]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's address]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_city" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[City]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[शहर]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's city]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_country" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Country/Region]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[देश/क्षेत्र]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's country]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_email" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Email]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ईमेल]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Noun. One property of registration form, user's email]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_first_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[First name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पहला नाम]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's first name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_industry" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Industry]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[उद्योग]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's industry]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_job_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Job title]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कार्य का शीर्षक]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's job title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_last_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अंतिम नाम]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's last name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_organization" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Organization]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[संगठन]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Organization/Company]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's organization]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_post_code" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ZIP/Post code]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ज़िप/डाक कोड]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's ZIP code or post code]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";webinar_user_state" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[State]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[राज्य]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's state]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

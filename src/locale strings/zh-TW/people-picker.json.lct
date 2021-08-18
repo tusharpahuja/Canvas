@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="people-picker.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="zh-TW" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";peoplePicker_collapseGroupNameButtonContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Collapse group name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[摺疊群組名稱]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Collapse group name entrypoint button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_dlGetMembersError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something happened, and we weren't able to add the group.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[發生問題，因此無法新增此群組。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when selecting a group failed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_dlTooManyMembers" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We weren't able to add {{dlName}} ({{dlMemberCount}}). You can only start a chat with {{maxSize}} people or less.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[無法新增 {{dlName}} ({{dlMemberCount}})。您只能開始與 {{maxSize}} 名或更少的人員聊天。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when selecting a large size group. {{dlName}} is the name of the distribution list (DL). {{dlMemberCount}} is the count of DL member. {{maxSize}} is the maximum size allowed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_federationWarning" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chatting with enterprise or school accounts is not available yet. Learn more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[尚無法與企業或學校帳戶聊天。了解更多資訊。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be shown when TFL user searches for an AAD user and the federation support is not there yet.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_focusSelectedUser" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{username}}. Use backspace or delete to remove. Use left or right keys for other chat recipients.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{username}}。使用退格鍵或 Delete 來移除。使用向左鍵或向右鍵來移至其他聊天收件者。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Hint that user can navigate through and edit recipient list, {{username}} is a placeholder for the name of the recipient to be announced]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_loadingMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[正在載入...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when the dropdown is loading results.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_newAddGroupNameButtonContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add group name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[新增群組名稱]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[New add group name entrypoint button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_noResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't find any matches.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[找不到任何相符項目。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[No results message when the dropdown is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_resultsUpdationAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results updated. Use the up and down arrow key to navigate, and enter to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[搜尋結果已更新。使用向上鍵和向下鍵來瀏覽，並使用 Enter 來選取。]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Search results updated. Use the up and down arrow key to navigate, and enter to select. {{username}}, {{description}}, 1 of {{resultCount}}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when the search result count differs from the previous result count.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_search_externally_btn_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search {{email}} externally]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[從外部搜尋 {{email}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for search externally (action) button used to start conversation with {{email}} from a different tenant.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_tflToLinePlaceholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter name, email or phone number]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[輸入名稱、電子郵件或電話號碼]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Enter name or email]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Recipient line placeholder text for TFL]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_tflTwoWaySmsRemoveAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[移除]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[TFL 2-way SMS participant close button aria label.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_userAdditionAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{username}} selected from the list.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[已選取清單中的「{{username}}」。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when user {{username}} gets added to the people picker.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_userHighlightedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{username}}, {{description}}, {{index}} of {{resultCount}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{username}}，{{description}}，{{resultCount}} 個中的第 {{index}} 個。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when user {{username}} with description {{description}} is highlighted in the people picker. {{index}} is the index of the user out of {{resultCount}} results in the people picker.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_userRemovalAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{username}} removed from the list.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[已從清單移除「{{username}}」。]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when user {{username}} gets removed from the people picker.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

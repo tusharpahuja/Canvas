@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "로그아웃",
+  "me_control_sign_out_button_aria_label": "Microsoft에서 로그아웃",
+  "me_control_my_microsoft_account_button_text": "내 Microsoft 계정",
+  "me_control_my_microsoft_account_button_aria_label": "내 Microsoft 계정",
+  "me_control_change_picture_aria_label": "프로필 사진 변경",
+  "me_control_trigger_aria_label": "프로필",
+  "me_control_menu_aria_label": "프로필 메뉴",
+  "app_bar_activity_app_name": "활동",
+  "app_bar_activity_app_arialabel": "활동",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{#개 새 작업} other{#개의 새 활동}}",
+  "app_bar_activity_app_tooltip": "활동",
+  "app_bar_chat_app_name": "채팅",
+  "app_bar_chat_app_arialabel": "채팅",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{새 메시지가 있는 #개 채팅} other{새 메시지가 있는 #개 채팅}}",
+  "app_bar_chat_app_tooltip": "채팅",
+  "app_bar_calendar_app_name": "일정",
+  "app_bar_calendar_app_arialabel": "일정",
+  "app_bar_calendar_app_tooltip": "일정",
+  "app_bar_calls_app_name": "통화",
+  "app_bar_calls_app_arialabel": "통화",
+  "app_bar_calls_app_tooltip": "통화"
+}

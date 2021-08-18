@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Tak",
+  "instant_answers_reaction_yes_aria_label": "Czy te informacje były pomocne? — Tak",
+  "instant_answers_reaction_no": "Nie",
+  "instant_answers_reaction_no_aria_label": "Czy te informacje były pomocne? — Nie",
+  "instant_answers_header_text": "Dziękujemy za opinię!",
+  "instant_answers_header_subtext": "Oto kilka informacji, które mogą być pomocne, na podstawie Twojej opinii:",
+  "instant_answers_footer_text": "Czy te informacje były pomocne?",
+  "include_screenshot_text": "Dołącz zrzut ekranu",
+  "customer_feedback_dialog_email_label": "Twój adres e-mail (opcjonalnie)",
+  "customer_feedback_dialog_email_placeholder": "Dodaj adres e-mail",
+  "customer_feedback_dialog_email_aria_label": "Twój adres e-mail (opcjonalnie)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Po naciśnięciu przycisku Prześlij Twoja opinia zostanie użyta do ulepszania produktów i usług firmy Microsoft. Twój administrator IT będzie mógł zbierać te dane. Na podstawie Twojej opinii możemy udostępnić dodatkowe informacje, które pomogą Ci pomóc w rozwiązywaniu problemu z pomocą techniczną.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Oświadczenie o ochronie prywatności.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Zamknij okno dialogowe opinii",
+  "customer_feedback_dialog_adhoc_window_title": "Prześlij opinię"
+}

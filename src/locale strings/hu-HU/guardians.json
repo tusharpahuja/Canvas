@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Szülőlista betöltése",
+  "guardians_table": "A(z) {{classTeam}} szülőlistája",
+  "students": "Diákok",
+  "guardians": "Szülők/ gondviselők",
+  "chatButton": "Csevegés gomb",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{További # szülő vagy gondviselő. Bontsa ki a lista megnyitásához} one {További # szülő vagy gondviselő. Bontsa ki a lista megnyitásához} other{További # szülő vagy gondviselő. Bontsa ki a lista megnyitásához} }",
+  "guardians_student_label": "{{studentName}}, állapot {{status}}, profilkártya megnyitása",
+  "guardians_user_unknown_label": "Ismeretlen felhasználó",
+  "guardians_status_unknown_label": "Ismeretlen",
+  "guardians_overflow_members": "{{studentName}} további szülei vagy gondviselői: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Csevegés indítása {studentName} gondviselőjével} one {Csevegés indítása {studentName} gondviselőivel} other{Csevegés indítása {studentName} gondviselőivel}}",
+  "guardians_chat_button_disabled_title": "A külső hozzáférést a rendszergazda letiltotta",
+  "guardians_chat_button_disabled_alt_title": "Kérje meg a rendszergazdát, hogy vegye fel egy gondviselő kapcsolatfelvételi adatait, és ezáltal elérhetővé tegye a csevegést",
+  "empty_state_title": "A szülők és gondviselők még nem kerültek hozzáadásra",
+  "empty_state_subtitle": "Kérje meg a rendszergazdát, hogy adja hozzá őket, hogy innen is gyorsan kapcsolatba tudjon lépni velük. <0></0>",
+  "empty_state_link": "Továbbiak megjelenítése",
+  "error_state_title": "Sajnos valami hiba történt. Kérjük, látogasson vissza később.",
+  "not_owner_error_state_title": "Csak az osztálycsapat tulajdonosai láthatják a szülők és a gondviselők adatait. Kérje meg a csoport tulajdonosát, hogy adjon hozzáférést Önnek.",
+  "retry_button_title": "Újra",
+  "transient_error_state_title": "Hiba történt. Kérjük, próbálja meg újból.",
+  "notification_banner_content": "Hiba történt a további szülő- és gondviselőadatok betöltésekor. Kérjük, próbálkozzon újra később."
+}

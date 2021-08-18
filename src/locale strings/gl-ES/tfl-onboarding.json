@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Usar outra conta",
+  "tflFre_Learn_More_Link_caption": "Quen pode ver isto",
+  "tflFre_OK_Button_caption": "Imos aló",
+  "tflFre_dialog_Aria": "Dámosche a benvida a Teams. Como che gustaría aparecer en Teams? A xente pode buscarte usando esta información",
+  "tflFre_header": "Dámosche a benvida",
+  "tflFre_phone_and_email_flyout": "Visita a túa conta de Microsoft para xestionar o teu número de teléfono e o teu correo electrónico.",
+  "tflFre_who_can_see_this_flyout": "Outros en Teams poderán ver o teu nome e a imaxe da conta de Microsoft. Tamén poden buscarte en Teams usando o teu número de teléfono e o teu correo electrónico.",
+  "tflFre_learn_more_link_text": "Máis información",
+  "tflFre_sync_contacts_checkbox": "Sincronizar os meus contactos de Skype e Outlook para atopar persoas que coñezo en Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "As persoas poden buscarte usando esta información:",
+  "tflFre_loading_spinner_text": "Cargando...",
+  "tflFre_stamping_error_dialog_header": "Produciuse un erro ao actualizar o teu perfil",
+  "tflFre_stamping_error_dialog_body": "Non puidemos actualizar a túa información de perfil. Selecciona \"Usar outra conta\" para pechar a sesión e usar outra conta. Selecciona \"Tentar de novo\" para volver tentar actualizar o teu perfil",
+  "tflFre_error_dialog_retry_button": "Tentalo de novo",
+  "tflFre_error_dialog_sign_out_button": "Usar outra conta",
+  "tflFre_fetch_error_dialog_header": "Produciuse un erro ao obter o teu perfil",
+  "tflFre_fetch_error_dialog_body": "Non puidemos obter a túa información de perfil. Selecciona \"Usar outra conta\" para pechar a sesión e usar outra conta. Selecciona \"Tentar de novo\" para volver tentar obter o teu perfil",
+  "tflFre_welcome_edit_header": "Dámoslle a benvida a Teams",
+  "tflFre_welcome_edit_second_header": "Como che gustaría aparecer?",
+  "tflFre_phone_field_header": "Teléfono",
+  "tflFre_email_field_header": "Correo electrónico"
+}

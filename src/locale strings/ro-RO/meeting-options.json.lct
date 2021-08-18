@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="meeting-options.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ro-RO" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";mo_app_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Meeting options application title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_aria_label_calendar" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting date]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Data întâlnirii]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for calendar icon]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_aria_label_loading_complete" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading finished]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Încărcare terminată]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for announcing page is loaded]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_aria_label_person" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting organizer]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Organizatorul întâlnirii]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for person icon next to organizer name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_button_copy_link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Copiere link]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for button which performs the following action: copy current url to clipboard]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_button_copy_link_done" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Link copied]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Link copiat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for button after the copy url action was performed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_channel_meeting_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For now, specific presenters can't be selected for channel meetings. <0></0>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Momentan, nu pot fi selectați prezentatori specifici pentru întâlnirile pe canal. <0></0>.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[An information displayed when the user tries to select specific presenters in a channel meeting, which is currently unsupported. Text in <0></0> will be a text link to learn more page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_details_unsched_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unscheduled meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Întâlnire neplanificată]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed instead of meeting title for meetings which are not scheduled yet]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_error_page_access_denied" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don’t have the permission to change the meeting settings.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nu aveți permisiunea să modificați setările întâlnirii.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed on the error page if the user is not allowed to change the options]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_error_page_access_denied_upn" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Only meeting organizers can make changes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Numai organizatorii întâlnirii pot face modificări]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed on the error page if the user is not allowed to change the options]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_error_page_generic" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ceva nu a funcționat corect]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic message displayed on the error page when something unexpected happened]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_error_page_safari_block" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting options isn't available on Safari yet]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opțiunile pentru întâlniri nu sunt disponibile încă în Safari]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for Safari users]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_error_page_safari_block_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use Google Chrome or Firefox for now.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Utilizați deocamdată Google Chrome sau Firefox.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for Safari users]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_error_page_secondary_access_denied" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please reach out to the meeting organizer for any changes.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Contactați organizatorul întâlnirii pentru eventuale modificări.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Smaller message displayed on the error page if the user is not allowed to change the options]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_error_page_secondary_access_denied_upn" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your account, <0></0>, doesn't have permissions to make changes.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Contul dvs., <0></0>, nu are permisiuni pentru a efectua modificări.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Smaller message displayed on the error page if the user is not allowed to change the options]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_error_page_secondary_generic" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Reload the page or, if this keeps happening, try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Reîncărcați pagina sau încercați din nou mai târziu daca problema persistă.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic message displayed on the error page when something unexpected happened]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_form_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Opțiuni privind întâlnirea]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Meeting Options]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header before the actual options form]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_info_cancelled_meeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This meeting has been cancelled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Această întâlnire a fost anulată]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message for cancelled meetings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_info_cancelled_meeting_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select another meeting to make changes.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Selectați o altă întâlnire pentru a face modificări.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Explanation message for cancelled meetings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_learn_more" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aflați mai multe]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link to documentation page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_legal" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Legal Notice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Notă juridică]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Legal notice link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_more_options_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mai multe opțiuni]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More options button label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_no_invitees_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To select a presenter, invite them to the meeting individually. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pentru a selecta un prezentator, invitați-l la întâlnire individual. <0></0>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[To select a presenter, invite them to the meeting individually. <0></0>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Validation message displayed if the user tries to select presenters when only distribution lists are added or channel meeting without invitees. Text in <0></0> will be a text link to learn more page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_no_invitees_error_link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Aflați mai multe]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text, which will be a hyperlink, clicking of which will cause the page to be refreshed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_people_picker_no_results" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We didn't find any matches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nu am găsit nicio potrivire]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed when no results in the people selection dropdown]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_people_picker_remove_user" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove {{user}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Eliminați pe {{user}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message read out on removing user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_people_picker_select_user" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Selected {{user}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{user}} selectat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message read out on selecting user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Politica de confidențialitate]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Privacy Policy link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_rights" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ⓒ {{currentYear}} Microsoft Corporation. All Rights reserved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ⓒ {{currentYear}} Microsoft Corporation. Toate drepturile rezervate]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Ⓒ {currentYear} Microsoft Corporation. All Rights reserved]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Copyright notice for application footer.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_rights_note" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ⓒ <0></0> Microsoft Corporation. All Rights reserved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ⓒ <0></0> Microsoft Corporation. Toate drepturile rezervate]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Ⓒ <0>currentYear</0> Microsoft Corporation. All Rights reserved]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Copyright notice for application footer. <0></0> will be replaced by HTML formated string with year, e.g. 2020]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_save_button_normal" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Salvați]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed on the save button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_save_button_saving" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saving]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Se salvează]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed on the save button while saving is in progress]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_save_button_success" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Done!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Gata!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed on the save button after the save was successful]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_save_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong. Try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ceva nu a funcționat corect. Încercați din nou.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed near the save button in case saving fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_third_party" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third-Party Disclosures]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Dezvăluiri de la terți]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Third party disclosures link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_unsched_meeting_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To select presenters, send the invite from Outlook and then <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Pentru a selecta prezentatori, trimiteți invitația din Outlook și apoi <0></0>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[To select presenters, send the invite from Outlook and then <0></0>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Validation message displayed if the user tries to select presenters before the meeting is scheduled (i.e. before there are any invitees). Text in <0></0> will be a text link to refresh the page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";mo_unsched_meeting_error_refresh" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[refresh this page]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[reîmprospătați această pagină]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text, which will be a hyperlink, clicking of which will cause the page to be refreshed]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

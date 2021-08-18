@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Atingiu o limite de membros para a sua organização. Para atualizar e adicionar mais pessoas, envie uma mensagem a um dos seus administradores.} =1 {Atingiu o limite de membros para a sua organização. Solicite <0></0> a atualização a para conseguir convidar mais pessoas.} one {Atingiu o limite de membros para a sua organização. Solicite a atualização a qualquer um dos seus <0></0> para conseguir convidar mais pessoas.} other {Atingiu o limite de membros para a sua organização. Solicite a atualização a qualquer um dos seus <0></0> para conseguir convidar mais pessoas.}}"
+}

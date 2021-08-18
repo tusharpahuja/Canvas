@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Yükleniyor...",
+  "lobby_screen_exit_message": "Lobiden Çık",
+  "calling_join_button_audio": "Aramaya sesli olarak katılın",
+  "calling_join_button_video": "Aramaya görüntülü olarak katılın",
+  "calling_screen_meeting_id": "Toplantı kimliği: {{conferenceId}}",
+  "meeting_room_present_content": "Sun",
+  "meeting_room_connected_device": "Bağlı cihaz",
+  "meeting_room_content_camera": "İçerik kamerası",
+  "meeting_room_cortana_button_title": "Cortana"
+}

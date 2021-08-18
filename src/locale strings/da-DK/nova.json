@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Log af",
+  "me_control_sign_out_button_aria_label": "Log af Microsoft",
+  "me_control_my_microsoft_account_button_text": "Min Microsoft-konto",
+  "me_control_my_microsoft_account_button_aria_label": "Min Microsoft-konto",
+  "me_control_change_picture_aria_label": "Skift profilbillede",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Profilmenu",
+  "app_bar_activity_app_name": "Aktivitet",
+  "app_bar_activity_app_arialabel": "Aktivitet",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# ny aktivitet} one {# nye aktiviteter} other{# nye aktiviteter}}",
+  "app_bar_activity_app_tooltip": "Aktivitet",
+  "app_bar_chat_app_name": "Chat",
+  "app_bar_chat_app_arialabel": "Chat",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# chat med nye beskeder} one {# chatsamtaler med nye meddelelser} other{# chatsamtaler med nye meddelelser}}",
+  "app_bar_chat_app_tooltip": "Chat",
+  "app_bar_calendar_app_name": "Kalender",
+  "app_bar_calendar_app_arialabel": "Kalender",
+  "app_bar_calendar_app_tooltip": "Kalender",
+  "app_bar_calls_app_name": "Opkald",
+  "app_bar_calls_app_arialabel": "Opkald",
+  "app_bar_calls_app_tooltip": "Opkald"
+}

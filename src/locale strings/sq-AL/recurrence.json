@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Ndodh çdo ditë} =2{Ndodh një herë në dy ditë} one {Ndodh çdo # ditë} other{Ndodh çdo # ditë}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Ndodh çdo {days}} =2{Ndodh çdo dy {days}} one {Ndodh çdo # javë në {days}} other{Ndodh çdo # javë në {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Ndodh çdo muaj në ditën {day}} =2{Ndodh një herë në dy muaj në ditën {day}} one {Ndodh çdo # muaj në ditën {day}} other{Ndodh çdo # muaj në ditën {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Ndodh çdo muaj në {weekInMonthIndex} {weekday}} =2{Ndodh çdo dy muaj në {weekInMonthIndex} {weekday}} one {Ndodh çdo # muaj në {weekInMonthIndex} {weekday}} other{Ndodh çdo # muaj në {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Ndodh çdo {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Ndodh çdo {{dayOfTheWeekIndex}} {{dayOfTheWeek}} nga {{month}}"
+}

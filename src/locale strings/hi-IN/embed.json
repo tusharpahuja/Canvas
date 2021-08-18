@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "लोग जोड़ें",
+  "embed_go_back_button": "वापस जाएँ",
+  "embed_provide_feedback": "अपनी प्रतिक्रिया दें:",
+  "embed_go_to": "{{title}} पर जाएँ",
+  "embed_open_inside": "अंदर खोलें",
+  "embed_participants_in_chat": "प्रतिभागी ({{membersCount}})",
+  "embed_pop_out_chat": "चैट को पॉप आउट करें",
+  "embed_pop_in_back": "मुख्य विंडो में वापस पॉप इन करें",
+  "embed_error_page_message": "हम क्षमा चाहते हैं - हम एक समस्या में पड़ गए हैं",
+  "embed_error_page_try_again_button": "पुनः प्रयास करें",
+  "embed_chats": "Microsoft Teams चैट्स",
+  "embed_chat": "Microsoft Teams की चैट"
+}

@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Oturumu kapat",
+  "me_control_sign_out_button_aria_label": "Microsoft oturumunu kapat",
+  "me_control_my_microsoft_account_button_text": "Microsoft hesabım",
+  "me_control_my_microsoft_account_button_aria_label": "Microsoft hesabım",
+  "me_control_change_picture_aria_label": "Profil fotoğrafını değiştir",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Profil menüsü",
+  "app_bar_activity_app_name": "Etkinlik",
+  "app_bar_activity_app_arialabel": "Etkinlik",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# yeni etkinlik} one {# yeni etkinlik} other{# yeni etkinlik}}",
+  "app_bar_activity_app_tooltip": "Etkinlik",
+  "app_bar_chat_app_name": "Sohbet",
+  "app_bar_chat_app_arialabel": "Sohbet",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{Yeni iletiler içeren # sohbet} one {Yeni iletiler içeren # sohbet} other{Yeni iletiler içeren # sohbet}}",
+  "app_bar_chat_app_tooltip": "Sohbet",
+  "app_bar_calendar_app_name": "Takvim",
+  "app_bar_calendar_app_arialabel": "Takvim",
+  "app_bar_calendar_app_tooltip": "Takvim",
+  "app_bar_calls_app_name": "Aramalar",
+  "app_bar_calls_app_arialabel": "Aramalar",
+  "app_bar_calls_app_tooltip": "Aramalar"
+}

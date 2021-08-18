@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Использовать другую учетную запись",
+  "tflFre_Learn_More_Link_caption": "Кто это видит",
+  "tflFre_OK_Button_caption": "Приступим",
+  "tflFre_dialog_Aria": "Добро пожаловать в Teams. Как вы хотите отображаться в Teams? Пользователи могут использовать эти сведения, чтобы найти вас.",
+  "tflFre_header": "Добро пожаловать!",
+  "tflFre_phone_and_email_flyout": "Откройте свою учетную запись Майкрософт, чтобы управлять номером телефона и адресом электронной почты.",
+  "tflFre_who_can_see_this_flyout": "Ваше имя и аватар учетной записи Майкрософт будут видны другим пользователям в Teams. Пользователи также смогут найти вас в Teams, используя ваш номер телефона и адрес электронной почты.",
+  "tflFre_learn_more_link_text": "Подробнее",
+  "tflFre_sync_contacts_checkbox": "Синхронизируйте мои контакты Skype и Outlook, чтобы найти людей, которых я знаю в Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Люди могут искать вас с помощью:",
+  "tflFre_loading_spinner_text": "Загрузка...",
+  "tflFre_stamping_error_dialog_header": "Не удалось обновить профиль",
+  "tflFre_stamping_error_dialog_body": "Не удалось обновить сведения о профиле. Выберите \"Использовать другую учетную запись\", чтобы выйти и использовать другую учетную запись. Нажмите \"Повторить попытку\", чтобы повторить попытку обновления профиля",
+  "tflFre_error_dialog_retry_button": "Повторить попытку",
+  "tflFre_error_dialog_sign_out_button": "Использовать другую учетную запись",
+  "tflFre_fetch_error_dialog_header": "Не удалось получить сведения о профиле",
+  "tflFre_fetch_error_dialog_body": "Не удалось получить сведения о профиле. Выберите \"Использовать другую учетную запись\", чтобы выйти и использовать другую учетную запись. Нажмите \"Повторить попытку\", чтобы повторить попытку получения сведений о профиле",
+  "tflFre_welcome_edit_header": "Добро пожаловать в Teams",
+  "tflFre_welcome_edit_second_header": "Как бы вы хотели отображаться?",
+  "tflFre_phone_field_header": "Телефон",
+  "tflFre_email_field_header": "Электронная почта"
+}

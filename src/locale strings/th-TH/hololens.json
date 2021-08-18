@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "วางลูกศร",
+  "toolbar_ink": "หมึก",
+  "toolbar_color_picker": "เลือกสี",
+  "toolbar_color_yellow": "เหลือง",
+  "toolbar_color_blue": "น้ำเงิน",
+  "toolbar_color_gray": "เทา",
+  "toolbar_color_green": "เขียว",
+  "toolbar_color_red": "แดง",
+  "toolbar_insert_file": "แทรกไฟล์",
+  "toolbar_undo": "เลิกทำ",
+  "toolbar_erase_all_current_session": "ลบออกจากเซสชันการแก้ไขปัจจุบันทั้งหมด",
+  "toolbar_erase_all": "ลบทั้งหมด",
+  "toolbar_start_editing": "เริ่มแก้ไข",
+  "toolbar_stop_editing": "หยุดการแก้ไข"
+}

@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{ĐẾN: {user1}} =1{Đến: {user1} và 1 Người khác} other{Đến: {user1} và # Người khác}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{ĐẾN: {user1}, {user2}} =1{Đến: {user1}, {user2} và 1 Người khác} other{Đến: {user1}, {user2} và # Người khác}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{ĐẾN: {user1}, {user2}, {user3}} =1{Đến: {user1}, {user2}, {user3} và 1 Người khác} other{Đến: {user1}, {user2}, {user3} và # Người khác}}",
+  "new_message_label": "Mới",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} trả lời từ {user1}} =1{{repliesCount} trả lời từ {user1}, và 1 người dùng khác} other{{repliesCount} trả lời từ {user1}, và # những người dùng khác}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} trả lời từ {user1}, {user2}} =1{{repliesCount} trả lời từ {user1}, {user2}, và 1 người dùng khác} other{{repliesCount} trả lời từ {user1}, {user2}, và # những người dùng khác}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} trả lời từ {user1}, {user2}, {user3}} =1{{repliesCount} trả lời từ {user1}, {user2}, {user3} và 1 người dùng khác} other{{repliesCount} trả lời từ {user1}, {user2}, {user3} và # những người dùng khác}}",
+  "tmp_view_chat_button_text": "Xem câu trả lời",
+  "tmp_go_to_channel_button_text": "Đi tới kênh"
+}

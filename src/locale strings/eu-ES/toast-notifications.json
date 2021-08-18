@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}}(e)k aipatu egin zaitu",
+  "toast_messaging_reaction": "{{sender}}(e)k erreakzio bat gehitu du zure mezuan",
+  "toast_messaging_default_group_topic": "Ezezaguna",
+  "toast_messaging_default_user_given_name": "Ezezaguna",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}}, +{{count}}",
+  "toast_messaging_quickreply_button_text": "Bidali",
+  "toast_messaging_quickreply_placeholder_text": "Bidali erantzun bizkor bat",
+  "toast_messaging_activity_text": "Txateatu honekin: {{participants}}",
+  "toast_messaging_activity_text_with_count": "Txateatu honekin: {{participants}} (+{{count}})"
+}

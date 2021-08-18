@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Бірдеңе дұрыс болмады сондықтан топты қосу мүмкін болмады.",
+  "peoplePicker_dlTooManyMembers": "{{dlName}} ({{dlMemberCount}}) топты қосу мүмкін емес. Тек {{maxSize}} немесе одан аз адамдармен чатты бастауға болады.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Жою үшін BACKSPACE немесе DELETE пернесін басыңыз. Чат алушылары арасында өту үшін, сол немесе оң жақ көрсеткі пернелерін басыңыз.",
+  "peoplePicker_loadingMessage": "Жүктелуде...",
+  "peoplePicker_newAddGroupNameButtonContent": "Топ атын қосу",
+  "peoplePicker_collapseGroupNameButtonContent": "Топ атауын тасалау",
+  "peoplePicker_federationWarning": "Корпоративтік немесе мектеп тіркелгілерімен сөйлесу әлі қолжетімді емес. Қосымша мәлімет.",
+  "peoplePicker_noResults": "Ешқандай сәйкестік табылмады.",
+  "peoplePicker_resultsUpdationAriaLabel": "Іздеу нәтижелері жаңартылды. Шарлау үшін төмен және жоғары көрсеткі пернелерін, ал таңдау үшін Enter пернесін басыңыз.",
+  "peoplePicker_search_externally_btn_text": "{{email}} сырттай іздеу",
+  "peoplePicker_tflToLinePlaceholder": "Атын, электрондық пошта мекенжайын немесе телефон нөмірін енгізіңіз",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Жою",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} тізімнен таңдалды.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}}/{{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} тізімнен жойылды."
+}

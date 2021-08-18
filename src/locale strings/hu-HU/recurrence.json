@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Naponta} =2{Minden második napon} one {Minden #. napon} other{Minden #. napon}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Minden {days} napon} =2{Minden második {days} napon} one {Minden #. hét {days}. napján} other{Minden #. hét {days}. napján}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Minden hónap {day}. napján} =2{Minden második hónapban, a hó {day}. napján} one {Minden # hónap {day}. napján} other{Minden # hónap {day}. napján}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Minden hónap {weekInMonthIndex}. és {weekday}. napján} =2{Minden második hónap {weekInMonthIndex}. és {weekday}. napján} one {Minden #. hónap {weekInMonthIndex}. és {weekday}. napján} other{Minden #. hónap {weekInMonthIndex}. és {weekday}. napján}}",
+  "meeting_recurrence_pattern_yearly": "Évente, ekkor: {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Minden {{dayOfTheWeek}}i {{month}} {{dayOfTheWeekIndex}}-i napon"
+}

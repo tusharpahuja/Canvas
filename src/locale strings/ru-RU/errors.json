@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Что-то пошло не так.",
+  "default_app_title": "К сожалению, что-то пошло не так! (Ошибки приложения)",
+  "default_network_error_description": "Ой, проблема с сетью!",
+  "default_network_error_title": "Ой, проблема с сетью!",
+  "default_unknown_description": "Что-то пошло не так.",
+  "default_unknown_title": "Что-то пошло не так.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "К сожалению, что-то пошло не так! (Основные ошибки)",
+  "default_core_error_title": "Код ошибки: основные ошибки",
+  "default_fetch_description": "К сожалению, что-то пошло не так! (Ошибки получения CDL)",
+  "default_fetch_title": "Код ошибки: ошибки получения CDL",
+  "default_service_description": "К сожалению, что-то пошло не так! (Ошибки службы CDL)",
+  "default_service_title": "Код ошибки: ошибки службы CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

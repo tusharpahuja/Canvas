@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Χρήση άλλου λογαριασμού",
+  "tflFre_Learn_More_Link_caption": "Ποιος μπορεί να το δει αυτό",
+  "tflFre_OK_Button_caption": "Πάμε",
+  "tflFre_dialog_Aria": "Καλώς ορίσατε στο Teams. Πώς θέλετε να εμφανίζεστε στο Teams; Οι χρήστες θα μπορούν να σας αναζητούν χρησιμοποιώντας αυτές τις πληροφορίες",
+  "tflFre_header": "Καλώς ορίσατε",
+  "tflFre_phone_and_email_flyout": "Επισκεφθείτε τον λογαριασμό Microsoft για να διαχειριστείτε τον αριθμό τηλεφώνου και το email σας.",
+  "tflFre_who_can_see_this_flyout": "Το όνομα και η εικόνα του λογαριασμού Microsoft θα είναι ορατά σε άλλους χρήστες στο Teams. Οι άλλοι χρήστες θα μπορούν επίσης να σας αναζητήσουν στο Teams χρησιμοποιώντας τον αριθμό τηλεφώνου και το email σας.",
+  "tflFre_learn_more_link_text": "Μάθετε περισσότερα",
+  "tflFre_sync_contacts_checkbox": "Συγχρονισμός των επαφών μου από το Skype και το Outlook για εύρεση ατόμων που γνωρίζω στο Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Οι χρήστες μπορούν να σας αναζητήσουν χρησιμοποιώντας:",
+  "tflFre_loading_spinner_text": "Φόρτωση...",
+  "tflFre_stamping_error_dialog_header": "Αποτυχία ενημέρωσης του προφίλ σας",
+  "tflFre_stamping_error_dialog_body": "Δεν ήταν δυνατή η ενημέρωση των πληροφοριών του προφίλ σας. Επιλέξτε \"Χρήση άλλου λογαριασμού\" για αποσύνδεση και χρήση διαφορετικού λογαριασμού. Επιλέξτε \"Επανάληψη\" για να προσπαθήσετε να ενημερώσετε ξανά το προφίλ σας",
+  "tflFre_error_dialog_retry_button": "Επανάληψη",
+  "tflFre_error_dialog_sign_out_button": "Χρήση άλλου λογαριασμού",
+  "tflFre_fetch_error_dialog_header": "Η λήψη του προφίλ σας απέτυχε",
+  "tflFre_fetch_error_dialog_body": "Δεν ήταν δυνατή η λήψη των στοιχείων του προφίλ σας. Επιλέξτε \"Χρήση άλλου λογαριασμού\" για να αποσυνδεθείτε και να χρησιμοποιήσετε έναν διαφορετικό λογαριασμό. Επιλέξτε \"Επανάληψη\" για να επαναλάβετε τη λήψη του προφίλ σας",
+  "tflFre_welcome_edit_header": "Καλώς ορίσατε στο Teams",
+  "tflFre_welcome_edit_second_header": "Πώς θέλετε να εμφανίζεστε;",
+  "tflFre_phone_field_header": "Τηλέφωνο",
+  "tflFre_email_field_header": "Ηλεκτρονική αλληλογραφία"
+}

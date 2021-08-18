@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Houbo un problema",
+  "default_app_title": "Houbo un problema (erros da aplicación)",
+  "default_network_error_description": "Produciuse un problema de rede",
+  "default_network_error_title": "Produciuse un problema de rede",
+  "default_unknown_description": "Houbo un problema",
+  "default_unknown_title": "Houbo un problema",
+  "default_authentication_title": "Non se puido iniciar a túa sesión",
+  "default_authentication_description": "produciuse un erro.",
+  "default_core_error_description": "Houbo un problema (erros do núcleo)",
+  "default_core_error_title": "Código do erro: erros do núcleo",
+  "default_fetch_description": "Houbo un problema (erros de obtención da linguaxe de dominios cruzados)",
+  "default_fetch_title": "Código do erro: erros de obtención da linguaxe de dominios cruzados",
+  "default_service_description": "Houbo un problema (erros do servizo da linguaxe de dominios cruzados)",
+  "default_service_title": "Código do erro: erros do servizo da linguaxe de dominios cruzados",
+  "error_forbidden_text": "Atopamos un problema coa licenza da túa organización",
+  "error_nonetwork_text": "Non se atopou ningunha rede. Téntao de novo cando volvas a ter conexión."
+}

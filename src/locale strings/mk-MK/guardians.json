@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Се вчитува списокот со родители",
+  "guardians_table": "Надреден список за {{classTeam}}",
+  "students": "Ученици",
+  "guardians": "Родители / Старатели",
+  "chatButton": "Копче за муабет",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{уште # родител или старател. Проширете за да се отвори списокот} one {уште # родители или старатели. Проширете за да се отвори списокот} other{уште # родители или старатели. Проширете за да се отвори списокот} }",
+  "guardians_student_label": "{{studentName}}, статус {{status}}, ја отвора картичката за профил",
+  "guardians_user_unknown_label": "Непознат корисник",
+  "guardians_status_unknown_label": "Непознат",
+  "guardians_overflow_members": "Дополнителни родители или старатели на {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Започнете муабет со старателот на {studentName}} one {Започнете муабет со старателите на {studentName}} other{Започнете муабет со старателите на {studentName}}}",
+  "guardians_chat_button_disabled_title": "Надворешниот пристап е исклучен од Администраторот",
+  "guardians_chat_button_disabled_alt_title": "Побарајте од администраторот да додаде информации за контакт за старателите за да биде достапен муабетот",
+  "empty_state_title": "Сè уште не се додадени родителите и старателите",
+  "empty_state_subtitle": "Побарајте ИТ-администраторот да ги додаде за да ги контактирате лесно оттука. <0></0>",
+  "empty_state_link": "Прикажи повеќе",
+  "error_state_title": "Нешто не е во ред. Проверете повторно подоцна.",
+  "not_owner_error_state_title": "Само сопствениците на тимот на одделението можат да ги видат информациите за родителите и старателите. Побарајте од сопственикот на тимот да ви даде пристап.",
+  "retry_button_title": "Обидете се повторно",
+  "transient_error_state_title": "Нешто не е во ред. Обидете се повторно.",
+  "notification_banner_content": "Имаше проблем при вчитувањето на повеќе информации за родители и старатели. Ве молиме обидете се подоцна."
+}

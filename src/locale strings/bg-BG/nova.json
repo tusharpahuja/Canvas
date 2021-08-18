@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Излизане",
+  "me_control_sign_out_button_aria_label": "Излизане от Microsoft",
+  "me_control_my_microsoft_account_button_text": "Моят акаунт в Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Моят акаунт в Microsoft",
+  "me_control_change_picture_aria_label": "Промяна на снимката на профила",
+  "me_control_trigger_aria_label": "Профил",
+  "me_control_menu_aria_label": "Меню на профила",
+  "app_bar_activity_app_name": "Дейност",
+  "app_bar_activity_app_arialabel": "Дейност",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# нова дейност} one {# нови дейности} other{# нови дейности}}",
+  "app_bar_activity_app_tooltip": "Дейност",
+  "app_bar_chat_app_name": "Чат",
+  "app_bar_chat_app_arialabel": "Чат",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# чат с нови съобщения} one {# чатове с нови съобщения} other{# чатове с нови съобщения}}",
+  "app_bar_chat_app_tooltip": "Чат",
+  "app_bar_calendar_app_name": "Календар",
+  "app_bar_calendar_app_arialabel": "Календар",
+  "app_bar_calendar_app_tooltip": "Календар",
+  "app_bar_calls_app_name": "Обаждания",
+  "app_bar_calls_app_arialabel": "Обаждания",
+  "app_bar_calls_app_tooltip": "Обаждания"
+}

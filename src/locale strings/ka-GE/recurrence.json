@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{მეორდება ყოველდღიურად} =2{მეორდება ყოველ მეორე დღეს} one {მეორდება ყოველ # დღეში} other{მეორდება ყოველ # დღეში}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{მეორდება ყოველ {days} დღეს} =2{ხდება ყოველ მეორე {days} დღეს} one {მეორდება ყოველ # კვირაში, {days} დღეს} other{მეორდება ყოველ # კვირაში, {days} დღეს}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{მეორდება ყოველთვიურად, {day} რიცხვში} =2{მეორდება ყოველ მეორე თვეში, {day} რიცხვში} one {მეორდება ყოველ # თვეში, {day} რიცხვში} other{მეორდება ყოველ # თვეში, {day} რიცხვში}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{მეორდება ყოველთვიურად: {weekInMonthIndex}{weekday} დღეს} =2{ხდება ყოველ მეორე თვეს: {weekInMonthIndex} {weekday} დღეს} one {მეორდება ყოველ # თვეში: {weekInMonthIndex}{weekday} დღეს} other{მეორდება ყოველ # თვეში: {weekInMonthIndex}{weekday} დღეს}}",
+  "meeting_recurrence_pattern_yearly": "გამეორება: ყოველი {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "გამეორება: {{month}}-ის ყოველი {{dayOfTheWeekIndex}} {{dayOfTheWeek}}"
+}

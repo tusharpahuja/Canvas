@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "出现问题，无法添加组。",
+  "peoplePicker_dlTooManyMembers": "无法添加 {{dlName}} ({{dlMemberCount}}) 。只能与 {{maxSize}} 人或更少人开始聊天。",
+  "peoplePicker_focusSelectedUser": "{{username}}。使用 Backspace 或 Delete 进行删除。对其他聊天收件人使用左键或右键。",
+  "peoplePicker_loadingMessage": "正在加载...",
+  "peoplePicker_newAddGroupNameButtonContent": "添加组名",
+  "peoplePicker_collapseGroupNameButtonContent": "折叠组名称",
+  "peoplePicker_federationWarning": "与企业或学校帐户聊天尚不可用。了解更多信息。",
+  "peoplePicker_noResults": "找不到任何匹配项。",
+  "peoplePicker_resultsUpdationAriaLabel": "搜索结果已更新。使用向上和向下键进行导航，按 Enter 进行选择。",
+  "peoplePicker_search_externally_btn_text": "在外部搜索 {{email}}",
+  "peoplePicker_tflToLinePlaceholder": "输入用户名、电子邮件或电话号码",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "删除",
+  "peoplePicker_userAdditionAriaLabel": "已从列表中选择 {{username}}。",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}，{{description}}，{{index}}/{{resultCount}}。",
+  "peoplePicker_userRemovalAriaLabel": "已从列表中删除 {{username}}。"
+}

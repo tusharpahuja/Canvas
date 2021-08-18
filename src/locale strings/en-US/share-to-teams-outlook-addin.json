@@ -1,0 +1,6 @@
+{
+  "addin_name": "Share to Teams",
+  "_addin_name.comment": "The name of the add-in that's installed in Outlook to load share-to-teams experience.",
+  "addin_description": "Share an email in a chat or channel in Teams.",
+  "_addin_description.comment": "The description of the add-in that's installed in Outlook to load share-to-teams experience."
+}

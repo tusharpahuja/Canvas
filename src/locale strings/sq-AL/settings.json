@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistemi",
+  "general_settings_system_auto_start_toggle": "Nis automatikisht Teams",
+  "notification_settings_details_message_preview_header_text": "Paraafishimi i mesazhit",
+  "notification_settings_edit_chat_button_aria_label": "Redakto njoftimet e bisedës",
+  "notification_settings_details_chat_messages_text": "Mesazhet",
+  "notification_settings_warning_windows_tfw": "Kontrollo edhe një herë parametrat e njoftimeve të Windows për t’u siguruar që mund të marrësh njoftime nga Teams. <0></0>",
+  "settings_loader_text": "Duke ngarkuar përmbajtjen...",
+  "dropdown_settings_selected_text": "{{value}} u përzgjodh",
+  "read_receipts_title": "Vërtetimet e leximit",
+  "read_receipts_description": "Lejo që kontaktet të dinë kur i ke parë mesazhet e tyre dhe merr vesh kur i kanë parë të tuat. Mbyll dhe rihap cilëndo dritare të bisedës që parametri të hyjë në veprim në ato biseda.",
+  "read_receipts_label": "Vërtetimet e leximit"
+}

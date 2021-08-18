@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Laster inn overordnet liste",
+  "guardians_table": "Overordnet liste for {{classTeam}}",
+  "students": "Elever",
+  "guardians": "Foreldre / foresatte",
+  "chatButton": "Chat-knapp",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# forelder eller foresatt til. Utvid for å åpne liste.} one {# foreldre eller foresatte til. Utvid for å åpne liste.} other{# foreldre eller foresatte til. Utvid for å åpne liste.} }",
+  "guardians_student_label": "{{studentName}}, status {{status}} åpner profilkortet",
+  "guardians_user_unknown_label": "Ukjent bruker",
+  "guardians_status_unknown_label": "Ukjent",
+  "guardians_overflow_members": "Ytterligere foreldre eller foresatte til {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Start en chat med den foresatte til {studentName}} one {Start en chat med de foresatte til {studentName}} other{Start en chat med de foresatte til {studentName}}}",
+  "guardians_chat_button_disabled_title": "Ekstern tilgang er deaktivert av administrator",
+  "guardians_chat_button_disabled_alt_title": "Be administrator om å legge til kontaktinformasjon for foresatte for å gjøre chatten tilgjengelig",
+  "empty_state_title": "Foreldre og foresatte har ikke blitt lagt til",
+  "empty_state_subtitle": "Be IT-administratoren om å legge dem til, slik at du raskt kan kontakte dem herfra. <0></0>",
+  "empty_state_link": "Vis mer",
+  "error_state_title": "Noe gikk galt. Kom tilbake senere.",
+  "not_owner_error_state_title": "Bare eiere av klasseteamet kan se informasjon om foreldre og foresatte. Be gruppeeieren om å gi deg tilgang.",
+  "retry_button_title": "Prøv på nytt",
+  "transient_error_state_title": "Noe gikk galt. Prøv på nytt.",
+  "notification_banner_content": "Kan ikke laste inn mer informasjon om foreldre og foresatte. Prøv på nytt senere."
+}

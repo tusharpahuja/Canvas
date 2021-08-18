@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} pieminēja jūs",
+  "toast_messaging_reaction": "{{sender}} reaģēja uz jūsu ziņojumu",
+  "toast_messaging_default_group_topic": "Nezināms",
+  "toast_messaging_default_user_given_name": "Nezināms",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Nosūtīt",
+  "toast_messaging_quickreply_placeholder_text": "Nosūtīt ātru atbildi",
+  "toast_messaging_activity_text": "Tērzēt ar {{participants}}",
+  "toast_messaging_activity_text_with_count": "Tērzēt ar {{participants}} +{{count}}"
+}

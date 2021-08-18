@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Není k dispozici žádná sestava Mentora schůze",
+  "coach_report_no_data_too_short": "Pro přístup k sestavě zapněte mentora schůzky na více než 1 minutu.",
+  "coach_report_no_data_too_long": "Je nám líto, mentor schůzky nepodporuje schůzky delší než 2 hodiny.",
+  "coach_report_title": "Přehledy od Mentora schůze",
+  "coach_report_private_label": "Soukromé",
+  "coach_report_settings": "Nastavení",
+  "coach_report_subtitle": "* Vaše sestava od mentora je viditelná pouze pro vás.",
+  "coach_report_chart_title": "Návrhy z vaší schůzky",
+  "coach_report_card_checkbox": "Vždycky uložit a přeskočit tuto obrazovku pro budoucí relace",
+  "coach_report_save_button": "Uložit",
+  "coach_report_delete_button": "Odstranit",
+  "coach_report_save_button_tooltip": "Najdete ho později na stránce schůzky.",
+  "coach_report_feedback_before_submit": "Byly tyto informace užitečné?",
+  "coach_report_feedback_after_submit": "Děkujeme za váš názor",
+  "coach_report_feedback_yes_button": "Ano",
+  "coach_report_feedback_no_button": "Ne",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} z {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Předchozí",
+  "coach_report_next_critique_button": "Další"
+}

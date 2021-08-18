@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Da",
+  "instant_answers_reaction_yes_aria_label": "V-au fost de ajutor aceste informații? -- Da",
+  "instant_answers_reaction_no": "Nu",
+  "instant_answers_reaction_no_aria_label": "V-au fost de ajutor aceste informații? -- Nu",
+  "instant_answers_header_text": "Vă mulțumim pentru feedbackul oferit!",
+  "instant_answers_header_subtext": "Pe baza feedbackului dvs., iată câteva informații pe care le-ați putea găsi utile:",
+  "instant_answers_footer_text": "V-au fost de ajutor aceste informații?",
+  "include_screenshot_text": "Includeți o captură de ecran",
+  "customer_feedback_dialog_email_label": "Adresa dvs. de e-mail (opțional)",
+  "customer_feedback_dialog_email_placeholder": "Adăugați adresa e-mail",
+  "customer_feedback_dialog_email_aria_label": "Adresa dvs. de e-mail (opțional)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Dacă apăsați pe Remitere, feedbackul dvs. va fi utilizat pentru a îmbunătăți produsele și serviciile Microsoft. Administratorul dvs. IT va putea colecta aceste date. Pe baza feedbackului dvs., este posibil să furnizăm informații suplimentare pentru a vă ajuta cu problema de asistență.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Angajamentul de respectare a confidențialității.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Închideți dialogul de feedback",
+  "customer_feedback_dialog_adhoc_window_title": "Trimiteți feedback"
+}

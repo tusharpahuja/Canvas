@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "모임 도우미 보고서를 사용할 수 없음",
+  "coach_report_no_data_too_short": "보고서에 액세스하려면 모임 코치를 1분 이상 켜세요.",
+  "coach_report_no_data_too_long": "죄송합니다. 모임 코치가 2시간보다 긴 모임을 지원하지 않습니다.",
+  "coach_report_title": "모임 도우미 인사이트",
+  "coach_report_private_label": "비공개",
+  "coach_report_settings": "설정",
+  "coach_report_subtitle": "* 도우미 보고서는 사용자만 볼 수 있습니다.",
+  "coach_report_chart_title": "모임의 제안",
+  "coach_report_card_checkbox": "향후 세션을 위해 항상 이 화면 저장 및 건너뛰기",
+  "coach_report_save_button": "저장",
+  "coach_report_delete_button": "삭제",
+  "coach_report_save_button_tooltip": "모임 페이지에서 나중에 찾아보세요.",
+  "coach_report_feedback_before_submit": "유용한 정보인가요?",
+  "coach_report_feedback_after_submit": "피드백을 보내 주셔서 감사합니다.",
+  "coach_report_feedback_yes_button": "예",
+  "coach_report_feedback_no_button": "아니요",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}}/{{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "이전",
+  "coach_report_next_critique_button": "다음"
+}

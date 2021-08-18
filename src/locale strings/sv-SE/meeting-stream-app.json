@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Stream URL",
+  "stream_url_placeholder": "Ange Stream-URL",
+  "stream_key_label": "Stream-nyckel",
+  "stream_key_placeholder": "Ange Stream-nyckel",
+  "start_streaming_button_text": "Starta direktuppspelning",
+  "stop_streaming_button_text": "Avsluta direktuppspelning",
+  "custom_streaming_config_page_description": "Anpassad direktuppspelning är ett verktyg för att strömma Teams-möten till offentliga plattformar som drivs av RTMP",
+  "custom_streaming_config_page_first_greeting": "Välkommen till Anpassad direktuppspelning!",
+  "custom_streaming_config_page_second_greeting": "Vad kul att du är här",
+  "custom_streaming_error_meeting_limit_reached": "Det går inte att strömma det här mötet med dess aktuella inställningar. Begränsa antalet deltagare till under 1000.",
+  "custom_streaming_error_permission_denied": "Du har inte behörighet för direktuppspelning. Kontakta IT-administratören eller organisatören för att strömma det här innehållet",
+  "custom_streaming_error_outdated_client": "Teams behöver uppdateringar för att fortsätta. Starta om programmet för att säkerställa att du har de senaste funktionerna.",
+  "custom_streaming_error_unknown": "Ett fel uppstod. Försök igen.",
+  "custom_streaming_error_unsupported_platform": "Den här funktionen stöds inte i webbläsaren än. Försök igen med skrivbordsversionen av Teams.",
+  "custom_streaming_tab_title": "Anpassad direktuppspelning"
+}

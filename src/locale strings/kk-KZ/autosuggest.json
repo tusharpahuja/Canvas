@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{1} ішіндегі {0}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Ұсыныстар жоқ.||1->2::{0} ұсыныс қолжетімді: ||2->3::{0} ұсыныс қолжетімді: ||3->INF::{0} ұсыныс қолжетімді:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::{0} үшін ұсыныстар жоқ.||1->2::{0} үшін {1} ұсыныс қолжетімді: ||2->3::{0} үшін {1} ұсыныс қолжетімді: ||3->INF::{0} үшін {1} ұсыныс қолжетімді:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Аты жоқ топ",
+  "autosuggest_sb_search_box_clear_button_label": "Іздеу өрісін тазарту",
+  "autosuggest_sb_search_box_submit_button_label": "Іздеу",
+  "autosuggest_sb_search_box_view_all_results_label": "Барлық нәтижелерді көру үшін Enter пернесін басыңыз",
+  "autosuggest_people_group_heading": "Адамдар",
+  "autosuggest_chats_group_heading": "Топтық чаттар",
+  "autosuggest_zero_term_group_aria_label": "Соңғы іздеу сұраулары"
+}

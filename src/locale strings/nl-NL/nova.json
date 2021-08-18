@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Afmelden",
+  "me_control_sign_out_button_aria_label": "Afmelden bij Microsoft",
+  "me_control_my_microsoft_account_button_text": "Mijn Microsoft-account",
+  "me_control_my_microsoft_account_button_aria_label": "Mijn Microsoft-account",
+  "me_control_change_picture_aria_label": "Profielfoto wijzigen",
+  "me_control_trigger_aria_label": "Profiel",
+  "me_control_menu_aria_label": "Profielmenu",
+  "app_bar_activity_app_name": "Activiteit",
+  "app_bar_activity_app_arialabel": "Activiteit",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# nieuwe activiteit} one {# nieuwe activiteiten} other{# nieuwe activiteiten}}",
+  "app_bar_activity_app_tooltip": "Activiteit",
+  "app_bar_chat_app_name": "Chatten",
+  "app_bar_chat_app_arialabel": "Chatten",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# chat met nieuwe berichten} one {# chats met nieuwe berichten} other{# chats met nieuwe berichten}}",
+  "app_bar_chat_app_tooltip": "Chatten",
+  "app_bar_calendar_app_name": "Agenda",
+  "app_bar_calendar_app_arialabel": "Agenda",
+  "app_bar_calendar_app_tooltip": "Agenda",
+  "app_bar_calls_app_name": "Gesprekken",
+  "app_bar_calls_app_arialabel": "Gesprekken",
+  "app_bar_calls_app_tooltip": "Gesprekken"
+}

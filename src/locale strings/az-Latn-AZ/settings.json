@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistem",
+  "general_settings_system_auto_start_toggle": "Teams-i avtomatik başlat",
+  "notification_settings_details_message_preview_header_text": "Mesaj önbaxışı",
+  "notification_settings_edit_chat_button_aria_label": "Söhbət bildirişlərini redaktə et",
+  "notification_settings_details_chat_messages_text": "Mesajlar",
+  "notification_settings_warning_windows_tfw": "Teams bildirişləri qəbul edə biləcəyinizdən əmin olmaq üçün Windows bildiriş parametrlərinizi yenidən yoxlayın.<0></0>",
+  "settings_loader_text": "Məzmun yüklənir...",
+  "dropdown_settings_selected_text": "{{value}} seçildi",
+  "read_receipts_title": "Oxunma bildirişləri",
+  "read_receipts_description": "İnsanlara mesajlarını gördüyünüz zaman bildirin və mesajlarınızı nə vaxt gördüklərini bildirin. Parametrin bu söhbətlərdə qüvvəyə minməsi üçün hər hansı söhbət pəncərəsini bağlayın və yenidən açın.",
+  "read_receipts_label": "Oxunma bildirişləri"
+}

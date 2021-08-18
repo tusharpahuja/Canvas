@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Ľutujeme, vyskytla sa chyba.",
+  "default_app_title": "Ľutujeme, vyskytla sa chyba! (chyby aplikácie)",
+  "default_network_error_description": "Ups, problém so sieťou!",
+  "default_network_error_title": "Ups, problém so sieťou!",
+  "default_unknown_description": "Ľutujeme, vyskytla sa chyba.",
+  "default_unknown_title": "Ľutujeme, vyskytla sa chyba.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Ľutujeme, vyskytla sa chyba! (základné chyby)",
+  "default_core_error_title": "Kód chyby: základné chyby",
+  "default_fetch_description": "Ľutujeme, vyskytol sa problém. (chyby získavania)",
+  "default_fetch_title": "Kód chyby: chyby načítania CDL",
+  "default_service_description": "Ľutujeme, vyskytol sa problém. (Chyby služby CDL)",
+  "default_service_title": "Kód chyby: chyby služby CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

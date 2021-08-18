@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} sizden bahsetti",
+  "toast_messaging_reaction": "{{sender}} iletinize tepki verdi",
+  "toast_messaging_default_group_topic": "Bilinmiyor",
+  "toast_messaging_default_user_given_name": "Bilinmiyor",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} ve diğer {{count}} kişi",
+  "toast_messaging_quickreply_button_text": "Gönder",
+  "toast_messaging_quickreply_placeholder_text": "Hızlı yanıt gönderin",
+  "toast_messaging_activity_text": "{{participants}} ile sohbet edin",
+  "toast_messaging_activity_text_with_count": "{{participants}} ve diğer {{count}} kişiyle sohbet edin"
+}

@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "使用其他帳戶",
+  "tflFre_Learn_More_Link_caption": "誰可以檢視此內容?",
+  "tflFre_OK_Button_caption": "現在開始吧",
+  "tflFre_dialog_Aria": "歡迎使用 Teams。您想要如何在 Teams 中顯示? 其他人可以使用此資訊來搜尋您",
+  "tflFre_header": "歡迎",
+  "tflFre_phone_and_email_flyout": "瀏覽您的 Microsoft 帳戶以管理電話號碼與電子郵件。",
+  "tflFre_who_can_see_this_flyout": "Teams 中的其他人將可以看到您的姓名與 Microsoft 帳戶圖片。使用者也可以使用您的電話號碼與電子郵件在 Teams 中搜尋您。",
+  "tflFre_learn_more_link_text": "深入了解",
+  "tflFre_sync_contacts_checkbox": "同步處理我的 Skype 和 Outlook 連絡人，以在 Teams 上尋找我認識的人員。",
+  "tflFre_people_Can_Search_For_You_Using": "其他人可以搜尋您，使用:",
+  "tflFre_loading_spinner_text": "正在載入...",
+  "tflFre_stamping_error_dialog_header": "無法更新您的設定檔",
+  "tflFre_stamping_error_dialog_body": "我們無法更新您的設定檔資訊。選取 [使用其他帳戶] 以登出並使用其他帳戶選取 [重試] 以重試更新您的設定檔",
+  "tflFre_error_dialog_retry_button": "重試",
+  "tflFre_error_dialog_sign_out_button": "使用其他帳戶",
+  "tflFre_fetch_error_dialog_header": "無法擷取您的設定檔",
+  "tflFre_fetch_error_dialog_body": "我們無法擷取您的設定檔資訊。選取 [使用其他帳戶] 以登出並使用其他帳戶選取 [重試] 以重試擷取您的設定檔",
+  "tflFre_welcome_edit_header": "歡迎使用 Teams",
+  "tflFre_welcome_edit_second_header": "要如何顯示呢?",
+  "tflFre_phone_field_header": "電話",
+  "tflFre_email_field_header": "電子郵件"
+}

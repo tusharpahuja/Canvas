@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "正在載入上層清單",
+  "guardians_table": "{{classTeam}} 的家長清單",
+  "students": "學生",
+  "guardians": "家長 / 監護人",
+  "chatButton": "聊天按鈕",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{其他 # 位家長或監護人。展開以開啟清單} other{其他 # 位家長或監護人。展開以開啟清單} }",
+  "guardians_student_label": "{{studentName}}，狀態 {{status}}，開啟個人檔案卡片",
+  "guardians_user_unknown_label": "未知的使用者",
+  "guardians_status_unknown_label": "未知",
+  "guardians_overflow_members": "{{studentName}} 的其他家長或監護人: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{開始與 {studentName} 的監護人聊天} other{開始與 {studentName} 的監護人聊天}}",
+  "guardians_chat_button_disabled_title": "外部存取已由系統管理員停用",
+  "guardians_chat_button_disabled_alt_title": "要求您的系統管理員新增監護人連絡人資訊，讓聊天可供使用",
+  "empty_state_title": "尚未新增家長和監護人",
+  "empty_state_subtitle": "要求您的 IT 系統管理員新增，讓您可以從這裡快速地連絡他們。<0></0>",
+  "empty_state_link": "查看更多",
+  "error_state_title": "發生錯誤。請稍後再回來查看。",
+  "not_owner_error_state_title": "只有班級團隊擁有者可以查看家長和監護人資訊。要求團隊擁有者提供存取權。",
+  "retry_button_title": "重試",
+  "transient_error_state_title": "發生問題。請再試一次。",
+  "notification_banner_content": "載入更多家長和監護人資訊時發生問題。請稍後再試一次。"
+}

@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Agregar contactos",
+  "embed_go_back_button": "Volver",
+  "embed_provide_feedback": "Envía tus comentarios:",
+  "embed_go_to": "Ir a {{title}}",
+  "embed_open_inside": "Abrir dentro",
+  "embed_participants_in_chat": "Participantes ({{membersCount}})",
+  "embed_pop_out_chat": "Chat emergente",
+  "embed_pop_in_back": "Volver a la ventana principal",
+  "embed_error_page_message": "Lo sentimos. Hemos tenido un problema",
+  "embed_error_page_try_again_button": "Intentar de nuevo",
+  "embed_chats": "Charlas de Microsoft Teams",
+  "embed_chat": "Charla de Microsoft Teams"
+}

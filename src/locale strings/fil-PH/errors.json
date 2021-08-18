@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Naku, nagkaproblema!",
+  "default_app_title": "Naku, nagkaproblema! (Mga error sa app)",
+  "default_network_error_description": "Naku, isyu sa network!",
+  "default_network_error_title": "Naku, isyu sa network!",
+  "default_unknown_description": "Naku, nagkaproblema!",
+  "default_unknown_title": "Naku, nagkaproblema!",
+  "default_authentication_title": "Oops, Hindi ka namin mai-sign in",
+  "default_authentication_description": "nagkaproblema.",
+  "default_core_error_description": "Naku, nagkaproblema! (Mga core error)",
+  "default_core_error_title": "Code ng Error : Mga core na error",
+  "default_fetch_description": "Naku, nagkaproblema! (Mga error sa pagkuha ng CDL)",
+  "default_fetch_title": "Code ng Error: Mga error sa pagkuha ng CDL",
+  "default_service_description": "Naku, nagkaproblema! (Mga error sa serbisyo ng CDL)",
+  "default_service_title": "Code ng Error: Mga error sa serbisyo ng CDL",
+  "error_forbidden_text": "Pasensya na. Nakakita kami ng isyu sa lisensya ng iyong organisasyon",
+  "error_nonetwork_text": "Pasensya na. Walang network na nakita. Pakisubukang muli kapag nakakonekta kang muli."
+}

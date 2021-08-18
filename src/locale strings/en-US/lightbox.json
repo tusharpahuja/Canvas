@@ -1,0 +1,8 @@
+{
+  "lightbox_goToImage": "Go to image",
+  "_lightbox_goToImage.comment": "Text attached to button containing an image, which you can navigate directly to in the lightbox via a thumbnail.",
+  "lightbox_goToNextImage": "Go to next image",
+  "_lightbox_goToNextImage.comment": "Text attached to button, which you can use to navigate to the next image in the lightbox gallery.",
+  "lightbox_goToPreviousImage": "Go to previous image",
+  "_lightbox_goToPreviousImage.comment": "Text attached to button, which you can use to navigate to the previous image in the lightbox gallery."
+}

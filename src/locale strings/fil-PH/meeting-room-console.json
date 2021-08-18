@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Naglo-load...",
+  "lobby_screen_exit_message": "Lumabas sa Lobby",
+  "calling_join_button_audio": "Sumali sa tawag na may audio",
+  "calling_join_button_video": "Sumali sa tawag na may video",
+  "calling_screen_meeting_id": "ID ng Pagpupulong: {{conferenceId}}",
+  "meeting_room_present_content": "Mag-present",
+  "meeting_room_connected_device": "Nakakonektang device",
+  "meeting_room_content_camera": "Nilalaman ng Camera",
+  "meeting_room_cortana_button_title": "Cortana"
+}

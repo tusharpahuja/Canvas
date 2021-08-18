@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Pridať ľudí",
+  "embed_go_back_button": "Naspäť",
+  "embed_provide_feedback": "Uveďte svoje pripomienky:",
+  "embed_go_to": "Prejsť na adresu {{title}}",
+  "embed_open_inside": "Otvoriť vo vnútri",
+  "embed_participants_in_chat": "Účastníci ({{membersCount}})",
+  "embed_pop_out_chat": "Chat v novom okne",
+  "embed_pop_in_back": "Vrátiť sa späť do hlavného okna",
+  "embed_error_page_message": "Ľutujeme – vyskytol sa problém",
+  "embed_error_page_try_again_button": "Skúsiť znova",
+  "embed_chats": "Konverzácie cez Microsoft Teams",
+  "embed_chat": "Konverzácia cez Microsoft Teams"
+}

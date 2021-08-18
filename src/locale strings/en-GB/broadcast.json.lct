@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="broadcast.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="en-GB" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";allow_to_present_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Allow to present]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Allow to present]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text for adding an anonymous presenter into the event group for presenting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_auditorium_mode_setting_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Optimize your sound to include in-room audience reactions, like laughter and clapping. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Optimise your sound to include in-room audience reactions, such as laughter and clapping. <0></0>]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Optimize your sound to include in-room audience reactions, like laughter and clapping.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Additional information for the user pertaining to the auditorium mode toggle.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_auditorium_mode_setting_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Auditorium mode can only be turned on before the event starts.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Auditorium mode can only be turned on before the event starts.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Auditorium mode tooltip for user saying it is only mutable at pre-join screen]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_mute_participant_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mute participant failed]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Mute participant failed]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader alert when error occurred while mutting a participant]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_prejoin_connecting_header_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connecting to the live event]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Connecting to the live event]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be announced by the screen-reader when connecting screen is shown for live event]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_producer_end_button_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[End {{hotkey}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[End {{hotkey}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip text for end button on Windows/Mac, action. {{hotkey}} is the key board shortcut to end]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_producer_send_live_button_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send Live {{hotkey}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Send Live {{hotkey}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip text for send live button on Windows/Mac, action. {{hotkey}} is the key board shortcut to send live]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_producer_start_button_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start {{hotkey}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Start {{hotkey}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip text for start button on Windows/Mac, action. {{hotkey}} is the key board shortcut to start]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_queue_media_sent_to_live_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error occurred when sending queue media live]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Error occurred when sending queue media live]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader alert when error occurred while sending queue media live]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_queue_media_sent_to_live_success" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Queue media is sent live]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Queue media is sent live]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader alert when queue media has been sent live successfully]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_restart_and_rejoin_waiting_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This may take a few seconds]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[This may take a few seconds]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown to the user when checking if the restart command can be executed and when it has been successfully executed and we are trying to rejoin them back to the meeting.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_restart_auto_rejoin_aria_label_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Reconnecting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Reconnecting]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for when restart command has been successfully executed and we are trying to rejoin/reconnect them back to the meeting.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_restart_auto_rejoin_message_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hold tight, We're reconnecting you right now!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Hold tight, We're reconnecting you right now!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown to the user when restart command has been successfully executed and we are trying to rejoin them back to the meeting.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_restart_confirm_message_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Restarting the event will cause you to lose all attandance report data. Attendees will receive a notification that this event has restarted]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Restarting the event will cause you to lose all attandance report data. Attendees will receive a notification that this event has restarted]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Restarting the event will cause you to loose all attandance report data. Attendees will receive a notification that this event has restarted]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the confirm dialog message. This gives more details on what to expect if user chooses to restart the broadcast.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_restart_confirm_title_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Are you sure you want to restart the event?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Are you sure you want to restart the event?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the confirm dialog title. This is to confirm if user wants to restart the broadcast.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_restart_waiting_overlay_message_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Checking if we can restart your event]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Checking if we can restart your event]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown to the user while we check if the Live Event can be restarted.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_roster_demote_presenter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove from event group]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Remove from event group]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Demote presenter back to anonymous presenter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_routes_options_view_broadcast" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View a live event]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[View a live event]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The broadcast route to view a broadcast]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_select_rtmpIn_UFD_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This event requires an RTPM feed to broadcast, select from the sources to continue.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[This event requires an RTPM feed to broadcast, select from the sources to continue.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown on the producer screen in a UFD (a banner on the top of the screen) when RTMP-In is enabled to instruct the user to choose a RTMP-In source]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_stage_layout_select_rtmpIn_source" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add RTMP feed from below]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Add RTMP feed from below]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message for the stage asking the user to select an RTMP Ingest source when RTMP-In is enabled]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_stage_layout_starting_broadcast_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't start broadcast.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Couldn't start broadcast.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader alert when error occurred while start action performed on broadcast]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_stage_layout_stopping_broadcast_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't stop broadcast.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Couldn't stop broadcast.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader alert when error occurred while stop action performed on broadcast]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_with_restart_start_confirm_message_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The event can last up to {{maxDuration}} hours from start time and attendees will watch at a 10-20 second delay. <a href="https://aka.ms/teamsbroadcastlatency" target="_blank">Learn more</a>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[The event can last up to {{maxDuration}} hours from start time and attendees will watch at a 10-20 second delay. <a href="https://aka.ms/teamsbroadcastlatency" target="_blank">Learn more</a>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the confirm dialog message. This gives more details on what to expect if user chooses to start the broadcast. {{maxDuration}} is the maximum duration of broadcast we support in hours]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";broadcast_with_restart_stop_confirm_message_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can restart an event after it has ended by pressing the restart button.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[You can restart an event after it has ended by pressing the restart button.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the confirm dialog message. This gives more details on what to expect if user chooses to stop the broadcast.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chat_header_join_button_disable_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to your main Teams window to join]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Go to your main Teams window to join]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip text for the disabled join button in chat header for broadcast meetings]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";joined_as_broadcast_role" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Joined as {{broadcastRole}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Joined as {{broadcastRole}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader announcement when a broadcast ETM joins the meeting. {{broadcastRole}} is the broadcast ETM's role ('producer', 'presenter', etc.)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";live_preview_no_one_sharing" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No one is sharing content]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[No one is sharing content]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader alert when the live preview does not contain any live content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";prejoin_attendee_join_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Join live event as attendee]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Join live event as attendee]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label for the button in pre-join to join as attendee]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";source_picker_mic_mute_announcement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microphone muted]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microphone muted]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Toggle announcement when source picker's mic has been muted]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";switched_to_content_left" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switched to dual layout]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Switched to dual layout]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announcement message for layout changed to content left]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";switched_to_single_view" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switched to single layout]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Switched to single layout]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Announcement message for layout changed to single view]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ufd_alert_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Alert!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Alert!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of an Alert UFD (a banner on the top of the screen)]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

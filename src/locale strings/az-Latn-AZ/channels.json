@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Kimə: {user1}} =1{Kimə: {user1} və digər 1} one {Kimə: {user1}, və digər #} other{Kimə: {user1}, və digər #}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Kimə: {user1}, {user2}} =1{Kimə: {user1}, {user2} və digər 1} one {Kimə: {user1}, {user2} və digər #} other{Kimə: {user1}, {user2} və digər #}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Kimə: {user1}, {user2}, {user3}} =1{Kimə: {user1}, {user2}, {user3} və digər 1} one {Kimə: {user1}, {user2}, {user3} və digər #} other{Kimə: {user1}, {user2}, {user3} və digər #}}",
+  "new_message_label": "Yeni",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{user1} adlı şəxsdən {repliesCount} cavab} =1{{user1} və digər 1 şəxsdən {repliesCount} cavab} one {{user1} və digər # şəxsdən {repliesCount} cavab} other{{user1} və digər # şəxsdən {repliesCount} cavab}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{user1}, {user2} adlı şəxslərdən {repliesCount} cavab} =1{{user1}, {user2} və digər 1 şəxsdən {repliesCount} cavab} one {{user1}, {user2} və digər # şəxsdən {repliesCount} cavab} other{{user1}, {user2} və digər # şəxsdən {repliesCount} cavab}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{user1}, {user2}, {user3} adlı şəxslərdən {repliesCount} cavab} =1{{user1}, {user2}, {user3} və digər 1 şəxsdən {repliesCount} cavab} one {{user1}, {user2}, {user3} və digər # şəxsdən {repliesCount} cavab} other{{user1}, {user2}, {user3} və digər # şəxsdən {repliesCount} cavab}}",
+  "tmp_view_chat_button_text": "Cavablara bax",
+  "tmp_go_to_channel_button_text": "Kanala keç"
+}

@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Personen toevoegen",
+  "embed_go_back_button": "Terug",
+  "embed_provide_feedback": "Voer uw feedback in:",
+  "embed_go_to": "Ga naar {{title}}",
+  "embed_open_inside": "Binnen openen",
+  "embed_participants_in_chat": "Deelnemers ({{membersCount}})",
+  "embed_pop_out_chat": "Chat in nieuw venster openen",
+  "embed_pop_in_back": "Teruggaan naar het hoofdvenster",
+  "embed_error_page_message": "Er is een probleem opgetreden",
+  "embed_error_page_try_again_button": "Opnieuw",
+  "embed_chats": "Microsoft Teams-chats",
+  "embed_chat": "Microsoft Teams-chat"
+}

@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Are loc zilnic} =2{Are loc o dată la două zile} one {Are loc o dată la # zile} few {Are loc o dată la # zile} other{Are loc o dată la # zile}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Are loc în fiecare {days}} =2{Are loc o dată la 2 săptămâni, în fiecare {days}} one {Are loc o dată la # săptămâni, în fiecare {days}} few {Are loc o dată la # săptămâni, în fiecare {days}} other{Are loc o dată la # săptămâni, în fiecare {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Are loc în fiecare lună în ziua de {day}} =2{Are loc o dată la două luni în ziua de {day}} one {Are loc o dată la # luni în ziua {day}} few {Are loc o dată la # luni în ziua {day}} other{Are loc o dată la # luni în ziua {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Are loc în fiecare lună {weekInMonthIndex} {weekday}} =2{Are loc o dată la două luni {weekInMonthIndex}{weekday}} one {Are loc o dată la # luni {weekInMonthIndex} {weekday}} few {Are loc o dată la # luni {weekInMonthIndex} {weekday}} other{Are loc o dată la # luni {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Are loc în fiecare {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Are loc la fiecare {{dayOfTheWeekIndex}} {{dayOfTheWeek}} a lunii {{month}}"
+}

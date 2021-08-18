@@ -1,0 +1,10 @@
+{
+  "loading_aria_label": "Loading...",
+  "_loading_aria_label.comment": "Loading text for narrator of the loading screen",
+  "oops_error_title": "Oops",
+  "_oops_error_title.comment": "Expression that something has gone wrong and user needs to take action",
+  "oops_error": "Oops, unknown error!",
+  "_oops_error.comment": "Description that something has gone wrong and user needs to take action",
+  "retry_error": "Retry",
+  "_retry_error.comment": "Button option for user to retry the failed operation"
+}

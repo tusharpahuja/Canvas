@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Laporan Pelatih Rapat tidak tersedia",
+  "coach_report_no_data_too_short": "Aktifkan Pelatih Rapat selama lebih dari 1 menit untuk mengakses laporan Anda",
+  "coach_report_no_data_too_long": "Maaf, Pelatih Rapat tidak mendukung rapat yang lebih lama dari 2 jam",
+  "coach_report_title": "Wawasan Pelatih Rapat Anda",
+  "coach_report_private_label": "Privat",
+  "coach_report_settings": "Pengaturan",
+  "coach_report_subtitle": "* Laporan Pelatih Anda hanya dapat dilihat oleh Anda.",
+  "coach_report_chart_title": "Saran dari rapat Anda",
+  "coach_report_card_checkbox": "Selalu simpan dan lewati layar ini untuk sesi mendatang",
+  "coach_report_save_button": "Simpan",
+  "coach_report_delete_button": "Hapus",
+  "coach_report_save_button_tooltip": "Temukan nanti di halaman rapat",
+  "coach_report_feedback_before_submit": "Apakah ini membantu?",
+  "coach_report_feedback_after_submit": "Terima kasih atas umpan balik Anda",
+  "coach_report_feedback_yes_button": "Ya",
+  "coach_report_feedback_no_button": "Tidak",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} of {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Sebelumnya",
+  "coach_report_next_critique_button": "Berikutnya"
+}

@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Något hände och vi kunde inte lägga till gruppen.",
+  "peoplePicker_dlTooManyMembers": "Det gick inte att lägga till {{dlName}} ({{dlMemberCount}}). Du kan bara starta en chatt med {{maxSize}} personer eller mindre.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Använd Backsteg eller Delete för att ta bort. Använd vänster- eller högertangenterna för andra chattmottagare.",
+  "peoplePicker_loadingMessage": "Läser in...",
+  "peoplePicker_newAddGroupNameButtonContent": "Lägg till ett gruppnamn",
+  "peoplePicker_collapseGroupNameButtonContent": "Dölj gruppnamn",
+  "peoplePicker_federationWarning": "Att chatta med företags- eller skolkonton är inte tillgängligt ännu. Läs mer.",
+  "peoplePicker_noResults": "Det gick inte att hitta några matchningar.",
+  "peoplePicker_resultsUpdationAriaLabel": "Sökresultaten har uppdaterats. Använd upp- och nedpilen för att navigera och Retur för att välja.",
+  "peoplePicker_search_externally_btn_text": "Sök {{email}} externt",
+  "peoplePicker_tflToLinePlaceholder": "Ange namn, e-post eller tel.nr",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Ta bort",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} har valts i listan.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} av {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} har tagits bort från listan."
+}

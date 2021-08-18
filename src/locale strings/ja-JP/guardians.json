@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "親リストを読み込んでいます",
+  "guardians_table": "{{classTeam}} の親リスト",
+  "students": "学生",
+  "guardians": "親 / 保護者",
+  "chatButton": "[チャット] ボタン",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# 保護者の追加。展開してリストを開く} other{# 保護者の追加。展開してリストを開く} }",
+  "guardians_student_label": "{{studentName}}、 ステータス {{status}}、 プロフィールカードを開く",
+  "guardians_user_unknown_label": "不明なユーザー",
+  "guardians_status_unknown_label": "不明",
+  "guardians_overflow_members": "{{studentName}} の追加の親または保護者: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{{studentName} の保護者とのチャットを開始します} other{{studentName} の保護者とのチャットを開始します}}",
+  "guardians_chat_button_disabled_title": "管理者によって無効になっている外部アクセス",
+  "guardians_chat_button_disabled_alt_title": "チャットを利用するには、保護者の連絡先情報を追加するよう管理者に依頼してください",
+  "empty_state_title": "親と保護者が追加されていません",
+  "empty_state_subtitle": "ここからすぐに連絡できるように、IT 管理者に彼らを追加するよう依頼してください。<0></0>",
+  "empty_state_link": "さらに表示",
+  "error_state_title": "エラーが発生しました。後でもう一度確認してください。",
+  "not_owner_error_state_title": "クラスチームの所有者のみが、親と保護者の情報を表示できます。チームの所有者にアクセス権を付与を依頼してください。",
+  "retry_button_title": "再試行",
+  "transient_error_state_title": "問題が発生しました。もう一度お試しください。",
+  "notification_banner_content": "親と保護者のその他の情報を読み込むときに問題が発生しました。後でもう一度お試しください。"
+}

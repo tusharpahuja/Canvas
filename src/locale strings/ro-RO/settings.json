@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistem",
+  "general_settings_system_auto_start_toggle": "Porniți automat Teams",
+  "notification_settings_details_message_preview_header_text": "Previzualizare mesaj",
+  "notification_settings_edit_chat_button_aria_label": "Editare notificări de chat",
+  "notification_settings_details_chat_messages_text": "Mesaje",
+  "notification_settings_warning_windows_tfw": "Verificați cu atenție setările de notificare Windows, pentru a vă asigura că puteți primi notificări Teams. <0></0>",
+  "settings_loader_text": "Conținutul se încarcă...",
+  "dropdown_settings_selected_text": "{{value}} selectat",
+  "read_receipts_title": "Confirmări de citire",
+  "read_receipts_description": "Permiteți-le celorlalți să știe când le-ați văzut mesajele și, de asemenea, să știți când acestea le-au văzut pe-ale dvs. Închideți și redeschideți ferestrele de chat pentru ca setarea să aibă efect în aceste chaturi.",
+  "read_receipts_label": "Confirmări de citire"
+}

@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Midagi juhtus ja rühma ei saanud lisada.",
+  "peoplePicker_dlTooManyMembers": "{{dlName}} ei saanud lisada ({{dlMemberCount}}). Saad alustada vestlust ainult {{maxSize}} inimestega või vähematega.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Eemaldamiseks kasuta tagasilükke- või kustutamisklahvi. Teiste vestluse adressaatide jaoks kasuta vasak- või paremnooleklahve",
+  "peoplePicker_loadingMessage": "Laadimine...",
+  "peoplePicker_newAddGroupNameButtonContent": "Lisage rühma nimi",
+  "peoplePicker_collapseGroupNameButtonContent": "Ahenda rühma nimi",
+  "peoplePicker_federationWarning": "Äri- või koolikontodega vestlemine pole veel saadaval. Lisateave.",
+  "peoplePicker_noResults": "Vasteid ei leitud.",
+  "peoplePicker_resultsUpdationAriaLabel": "Otsingutulemid on värskendatud. Kasuta liikumiseks üles- ja allanooleklahvi ning valimiseks sisestusklahvi.",
+  "peoplePicker_search_externally_btn_text": "Otsi meiliaadressi {{email}} väliselt",
+  "peoplePicker_tflToLinePlaceholder": "Sisesta nimi, meiliaadress või telefoninumber",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Eemalda",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} on loendist valitud.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}}/{{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} on loendist eemaldatud."
+}

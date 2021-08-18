@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} în {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Fără sugestii.||1->2::{0} sugestie disponibilă: ||2->3::{0} sugestii disponibile: ||3->INF::{0} sugestii disponibile:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Fără sugestii pentru {0}.||1->2::{1} sugestie disponibilă pentru {0}: ||2->3::{1} sugestii disponibile pentru {0}: ||3->INF::{1} sugestii disponibile pentru {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grup fără nume",
+  "autosuggest_sb_search_box_clear_button_label": "Goliți caseta de căutare",
+  "autosuggest_sb_search_box_submit_button_label": "Căutați",
+  "autosuggest_sb_search_box_view_all_results_label": "Apăsați pe Enter pentru a vedea toate rezultatele",
+  "autosuggest_people_group_heading": "Persoane",
+  "autosuggest_chats_group_heading": "Chaturi în grup",
+  "autosuggest_zero_term_group_aria_label": "Căutări recente"
+}

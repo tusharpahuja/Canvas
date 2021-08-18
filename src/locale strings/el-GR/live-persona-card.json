@@ -1,0 +1,4 @@
+{
+  "lpc_timeAgoHours": "Πριν από {{duration}} ώρα",
+  "lpc_timeAgoMinutes": "Πριν από {{duration}} λεπτά"
+}

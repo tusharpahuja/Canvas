@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} у групі \"{1}\"",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Немає пропозицій.||1->2::Доступна {0} пропозиція: ||2->3::Доступно {0} пропозиції: ||3->INF::Доступно {0} пропозицій:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Немає пропозицій за запитом {0}.||1->2::Доступна {1} пропозиція за запитом {0}: ||2->3::Доступно {1} пропозиції за запитом {0}: ||3->INF::Доступно {1} пропозицій за запитом {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Група без назви",
+  "autosuggest_sb_search_box_clear_button_label": "Очистити поле пошуку",
+  "autosuggest_sb_search_box_submit_button_label": "Пошук",
+  "autosuggest_sb_search_box_view_all_results_label": "Натисніть клавішу Enter, щоб переглянути всі результати",
+  "autosuggest_people_group_heading": "Користувачі",
+  "autosuggest_chats_group_heading": "Групові чати",
+  "autosuggest_zero_term_group_aria_label": "Останні пошукові запити"
+}

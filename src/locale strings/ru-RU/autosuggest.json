@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} в {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Нет предложений.||1->2::{0} предложение доступно: ||2->3::{0} предложения доступно: ||3->INF::Несколько ({0}) предложений доступно:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Нет предложений для {0}.||1->2::{1} предложение доступно для {0}: ||2->3::{1} предложения доступны для {0}: ||3->INF::Несколько ({1}) предложений доступно для {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Группа без имени",
+  "autosuggest_sb_search_box_clear_button_label": "Очистить поле поиска",
+  "autosuggest_sb_search_box_submit_button_label": "Поиск",
+  "autosuggest_sb_search_box_view_all_results_label": "Чтобы просмотреть все результаты, нажмите клавишу ВВОД",
+  "autosuggest_people_group_heading": "Люди",
+  "autosuggest_chats_group_heading": "Групповые чаты",
+  "autosuggest_zero_term_group_aria_label": "Предыдущие поисковые запросы"
+}

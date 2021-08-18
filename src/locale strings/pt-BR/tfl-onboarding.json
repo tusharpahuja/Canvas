@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Usar outra conta",
+  "tflFre_Learn_More_Link_caption": "Quem pode ver isto",
+  "tflFre_OK_Button_caption": "Vamos lá",
+  "tflFre_dialog_Aria": "Bem-vindo ao Teams. Como você gostaria de aparecer no Teams? As pessoas podem procurar por você usando essas informações",
+  "tflFre_header": "Bem-vindo",
+  "tflFre_phone_and_email_flyout": "Acesse sua conta Microsoft para gerenciar seu número de telefone e email.",
+  "tflFre_who_can_see_this_flyout": "Seu nome e imagem da conta Microsoft serão visíveis para outras pessoas no Teams. As pessoas também podem procurar por você no Teams usando seu número de telefone e email.",
+  "tflFre_learn_more_link_text": "Saiba mais",
+  "tflFre_sync_contacts_checkbox": "Sincronizar meus contatos do Skype e do Outlook para encontrar pessoas que conheço nas Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "As pessoas podem pesquisar por você usando:",
+  "tflFre_loading_spinner_text": "Carregando...",
+  "tflFre_stamping_error_dialog_header": "Falha ao Atualizar Seu Perfil",
+  "tflFre_stamping_error_dialog_body": "Não foi possível atualizar as informações do seu perfil. Selecione \"Usar outra conta\" para sair e usar outra conta. Selecione \"Repetir\" para tentar atualizar o perfil novamente",
+  "tflFre_error_dialog_retry_button": "Repetir",
+  "tflFre_error_dialog_sign_out_button": "Usar outra conta",
+  "tflFre_fetch_error_dialog_header": "Falha ao buscar seu perfil",
+  "tflFre_fetch_error_dialog_body": "Não foi possível buscar suas informações do seu perfil. Selecione \"Usar outra conta\" para sair e usar outra conta. Selecione \"Repetir\" para tentar buscar o perfil novamente",
+  "tflFre_welcome_edit_header": "Bem-vindo ao Teams",
+  "tflFre_welcome_edit_second_header": "Como você gostaria de aparecer?",
+  "tflFre_phone_field_header": "Telefone",
+  "tflFre_email_field_header": "Email"
+}

@@ -1,0 +1,16 @@
+{
+  "value_prop": "Organize and connect with friends, family, and colleagues",
+  "_value_prop.comment": "One-liner header message that introduces users to the value prop of Teams",
+  "initializing_message": "Just a moment while we get things ready...",
+  "_initializing_message.comment": "Sub-header to indicate to the user that the native/Desktop client app is starting (e.g. authenticating, prefetching messages, checking for updates)",
+  "open_teams_on_web": "Open Teams on the web",
+  "_open_teams_on_web.comment": "a button to open the user's web browser and navigate to the Microsoft Teams URL (e.g. https://teams.microsoft.com/, https://teams.live.com/)",
+  "error_message_header": "We've run into an issue",
+  "_error_message_header.comment": "generic header for an error banner that appears during setup",
+  "setup_error_message": "There was a problem during setup",
+  "_setup_error_message.comment": "a message alongside the error header to specify the error ocurred during app setup",
+  "troubleshoot_issue": "Troubleshoot issue",
+  "_troubleshoot_issue.comment": "a clickable text that launches the app into a troubleshooting state (for when engineering teams need to get involved)",
+  "retry_flyout_launch": "Retry",
+  "_retry_flyout_launch.comment": "a button to restart and retry launching the app from the beginning of setup"
+}

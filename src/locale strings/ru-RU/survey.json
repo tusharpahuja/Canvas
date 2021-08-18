@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Да",
+  "instant_answers_reaction_yes_aria_label": "Эти сведения были полезными? -- Да",
+  "instant_answers_reaction_no": "Нет",
+  "instant_answers_reaction_no_aria_label": "Эти сведения были полезными? -- Нет",
+  "instant_answers_header_text": "Спасибо за отзыв!",
+  "instant_answers_header_subtext": "Учитывая ваш отзыв, предлагаем вам ознакомиться со следующей информацией, которая может быть вам полезна:",
+  "instant_answers_footer_text": "Была ли информация полезной?",
+  "include_screenshot_text": "Добавить снимок экрана",
+  "customer_feedback_dialog_email_label": "Ваш адрес электронной почты (необязательно)",
+  "customer_feedback_dialog_email_placeholder": "Добавьте адрес электронной почты",
+  "customer_feedback_dialog_email_aria_label": "Ваш адрес электронной почты (необязательно)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "После нажатия кнопки \"Отправить\" ваш отзыв будет использован для улучшения продуктов и служб Майкрософт. Ваш ИТ-администратор сможет собирать эти данные. На основании вашего отзыва мы можем предоставить дополнительные сведения, чтобы помочь вам решить проблему.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Заявление о конфиденциальности",
+  "customer_feedback_dialog_close_button_text_aria_label": "Закрыть диалоговое окно отзыва",
+  "customer_feedback_dialog_adhoc_window_title": "Отправить отзыв"
+}

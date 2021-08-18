@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Kokousvalmentajaraporttia ei saatavilla",
+  "coach_report_no_data_too_short": "Ota kokousvalmentaja käyttöön vähintään 1 minuutin ajaksi, jos haluat käyttää raporttia",
+  "coach_report_no_data_too_long": "Valitettavasti kokousvalmentaja ei tue yli 2 tunnin pituisia kokouksia",
+  "coach_report_title": "Kokousvalmentajasi havainnot",
+  "coach_report_private_label": "Yksityinen",
+  "coach_report_settings": "Asetukset",
+  "coach_report_subtitle": "* Valmentajaraporttisi näkyy vain sinulle.",
+  "coach_report_chart_title": "Ehdotuksia kokouksesta",
+  "coach_report_card_checkbox": "Tallenna ja ohita tämä näyttö aina tulevissa istunnoissa",
+  "coach_report_save_button": "Tallenna",
+  "coach_report_delete_button": "Poista",
+  "coach_report_save_button_tooltip": "Hae sitä myöhemmin kokoussivulla",
+  "coach_report_feedback_before_submit": "Oliko tästä apua?",
+  "coach_report_feedback_after_submit": "Kiitos palautteestasi",
+  "coach_report_feedback_yes_button": "Kyllä",
+  "coach_report_feedback_no_button": "Ei",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} / {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Edellinen",
+  "coach_report_next_critique_button": "Seuraava"
+}

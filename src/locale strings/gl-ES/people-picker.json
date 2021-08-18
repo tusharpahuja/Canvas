@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Produciuse un erro e non puidemos engadir o grupo.",
+  "peoplePicker_dlTooManyMembers": "Non puidemos engadir {{dlName}} ({{dlMemberCount}}). Só podes iniciar un chat con {{maxSize}} persoas ou menos.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Usa a tecla de retroceso ou Supr para eliminar. Usa as teclas de frecha cara á esquerda ou cara á dereita para outros destinatarios do chat.",
+  "peoplePicker_loadingMessage": "Cargando...",
+  "peoplePicker_newAddGroupNameButtonContent": "Engadir nome do grupo",
+  "peoplePicker_collapseGroupNameButtonContent": "Contraer o nome do grupo",
+  "peoplePicker_federationWarning": "Chatear con contas de empresa ou escola aínda non está dispoñible. Obtén máis información.",
+  "peoplePicker_noResults": "Non conseguimos atopar coincidencias.",
+  "peoplePicker_resultsUpdationAriaLabel": "Actualizáronse os resultados de busca. Usa as teclas de frecha cara arriba e cara abaixo para navegar, e preme Intro para seleccionar.",
+  "peoplePicker_search_externally_btn_text": "Buscar {{email}} de maneira externa",
+  "peoplePicker_tflToLinePlaceholder": "Escribir o nome, o correo electrónico ou o número de teléfono",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Eliminar",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} seleccionouse na lista.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} de {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} eliminouse da lista."
+}

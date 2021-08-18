@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Vindt dagelijks plaats} =2{Vindt om de dag plaats} one {Vindt elke # dagen plaats} other{Vindt elke # dagen plaats}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Vindt elke {days} plaats} =2{Vindt om de {days} plaats} one {Vindt elke # weken plaats op {days}} other{Vindt elke # weken plaats op {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Vindt elke maand plaats op dag {day}} =2{Vindt om de maand plaats op dag {day}} one {Vindt elke # maanden plaats op dag {day}} other{Vindt elke # maanden plaats op dag {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Vindt elke maand plaats op {weekInMonthIndex} {weekday}} =2{Vindt om de maand plaats op {weekInMonthIndex}{weekday}} one {Vindt elke # maanden plaats op {weekInMonthIndex} {weekday}} other{Vindt elke # maanden plaats op {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Vindt elke {{date}} plaats",
+  "meeting_recurrence_pattern_relativeyearly": "Vindt elke {{dayOfTheWeekIndex}} {{dayOfTheWeek}} in {{month}} plaats"
+}

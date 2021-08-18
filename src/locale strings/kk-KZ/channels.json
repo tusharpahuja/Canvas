@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Кімге: {user1}} =1{Кімге: {user1} және 1 басқа пайдаланушы} one {Кімге: {user1} және # басқа пайдаланушы} other{Кімге: {user1} және # басқа пайдаланушы}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Кімге: {user1}, {user2}} =1{Кімге: {user1}, {user2} және 1 басқа пайдаланушы} one {Кімге: {user1}, {user2} және # басқа пайдаланушы} other{Кімге: {user1}, {user2} және # басқа пайдаланушы}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Кімге: {user1}, {user2}, {user3}} =1{Кімге: {user1}, {user2}, {user3} және 1 басқа пайдаланушы} one {Кімге: {user1}, {user2}, {user3} және # басқа пайдаланушы} other{Кімге: {user1}, {user2}, {user3} және # басқа пайдаланушы}}",
+  "new_message_label": "Жаңа",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{user1} деген пайдаланушыдан алынған {repliesCount} жауап} =1{{user1} деген пайдаланушыдан және тағы 1 пайдаланушыдан алынған {repliesCount} жауап} one {{user1} деген пайдаланушыдан және тағы # пайдаланушыдан алынған {repliesCount} жауап} other{{user1} деген пайдаланушыдан және тағы # пайдаланушыдан алынған {repliesCount} жауап}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{user1}, {user2} деген пайдаланушылардан алынған {repliesCount} жауап} =1{{user1}, {user2} деген пайдаланушылардан және тағы 1 пайдаланушыдан алынған {repliesCount} жауап} one {{user1}, {user2} деген пайдаланушылардан және тағы # пайдаланушыдан алынған {repliesCount} жауап} other{{user1}, {user2} деген пайдаланушылардан және тағы # пайдаланушыдан алынған {repliesCount} жауап}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{user1}, {user2}, {user3} деген пайдаланушылардан алынған {repliesCount} жауап} =1{{user1}, {user2}, {user3} деген пайдаланушылардан және тағы 1 пайдаланушыдан алынған {repliesCount} жауап} one {{user1}, {user2}, {user3} деген пайдаланушылардан және тағы # пайдаланушыдан {repliesCount} жауап алынды} other{{user1}, {user2}, {user3} деген пайдаланушылардан және тағы # пайдаланушыдан алынған {repliesCount} жауап}}",
+  "tmp_view_chat_button_text": "Жауаптарды қарау",
+  "tmp_go_to_channel_button_text": "Арнаға өту"
+}

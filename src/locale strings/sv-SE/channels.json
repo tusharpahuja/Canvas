@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Till: {user1}} =1{Till: {user1} och en annan} one {Till: {user1} och # andra} other{Till: {user1} och # andra}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Till: {user1}, {user2}} =1{Till: {user1}, {user2} och en annan} one {Till: {user1}, {user2} och # andra} other{Till: {user1}, {user2} och # andra}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Till: {user1}, {user2}, {user3}} =1{Till: {user1}, {user2}, {user3} och en annan} one {Till: {user1}, {user2}, {user3} och # andra} other{Till: {user1}, {user2}, {user3} och # andra}}",
+  "new_message_label": "Nytt",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svar från {user1}} =1{{repliesCount} svar från {user1} och 1 annan} one {{repliesCount} svar från {user1} och # andra} other{{repliesCount} svar från {user1} och # andra}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svar från {user1}, {user2}} =1{{repliesCount} svar från {user1}, {user2} och 1 annan} one {{repliesCount} svar från {user1}, {user2} och # andra} other{{repliesCount} svar från {user1}, {user2} och # andra}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svar från {user1}, {user2}, {user3}} =1{{repliesCount} svar från {user1}, {user2} {user3}, och 1 annan} one {{repliesCount} svar från {user1}, {user2} {user3}, och # andra} other{{repliesCount} svar från {user1}, {user2} {user3}, och # andra}}",
+  "tmp_view_chat_button_text": "Visa svar",
+  "tmp_go_to_channel_button_text": "Gå till kanal"
+}

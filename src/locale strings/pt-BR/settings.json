@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistema",
+  "general_settings_system_auto_start_toggle": "Iniciar o Teams automaticamente",
+  "notification_settings_details_message_preview_header_text": "Prévia da mensagem",
+  "notification_settings_edit_chat_button_aria_label": "Editar notificações de chat",
+  "notification_settings_details_chat_messages_text": "Mensagens",
+  "notification_settings_warning_windows_tfw": "Verifique novamente suas configurações de notificação do Windows para garantir que você possa receber notificações do Teams. <0></0>",
+  "settings_loader_text": "Carregando conteúdo...",
+  "dropdown_settings_selected_text": "{{value}} selecionado",
+  "read_receipts_title": "Confirmações de leitura",
+  "read_receipts_description": "Permita que as pessoas saibam quando você já viu suas mensagens e saber quando viram as suas. Feche e reabra todas as janelas de chat para que a configuração tenha efeito nesses chats.",
+  "read_receipts_label": "Confirmações de leitura"
+}

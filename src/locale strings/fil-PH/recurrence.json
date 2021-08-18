@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Nagaganap araw-araw} =2{Nagaganap pagkalipas ng bawat isang araw} one {Nagaganap bawat # (na) araw} other{Nagaganap bawat # (na) araw}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Nagaganap bawat {days}} =2{Nagaganap pagkalipas ng bawat isang {days}} one {Nagaganap bawat # (na) linggo sa {days}} other{Nagaganap bawat # (na) linggo sa {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Nagaganap bawat buwan sa araw {day}} =2{Nagaganap pagkalipas ng bawat isang buwan sa araw {day}} one {Nagaganap bawat # (na) buwan sa araw {day}} other{Nagaganap bawat # (na) buwan sa araw {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Nagaganap bawat buwan sa {weekInMonthIndex}{weekday}} =2{Nagaganap pagkalipas ng bawat isang buwan sa {weekInMonthIndex}{weekday}} one {Nagaganap bawat # (na) buwan sa {weekInMonthIndex} {weekday}} other{Nagaganap bawat # (na) buwan sa {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Nagaganap bawat {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Nagaganap bawat {{dayOfTheWeekIndex}} {{dayOfTheWeek}} ng {{month}}"
+}

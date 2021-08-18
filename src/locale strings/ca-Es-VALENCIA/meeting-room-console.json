@@ -1,0 +1,11 @@
+{
+  "home_page_message": "S'està carregant...",
+  "lobby_screen_exit_message": "Ix de la sala d\\'espera",
+  "calling_join_button_audio": "Uneix-te a la trucada amb àudio",
+  "calling_join_button_video": "Uneix-te a la trucada amb vídeo",
+  "calling_screen_meeting_id": "ID de la reunió: {{conferenceId}}",
+  "meeting_room_present_content": "Presenta",
+  "meeting_room_connected_device": "Dispositiu connectat",
+  "meeting_room_content_camera": "Càmera de contingut",
+  "meeting_room_cortana_button_title": "Cortana"
+}

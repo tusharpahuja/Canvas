@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Til: {user1}} =1{Til: {user1} og 1 annan} one {Til: {user1} og # andre} other{Til: {user1} og # andre}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Til: {user1}, {user2}} =1{Til: {user1}, {user2} og 1 annan} one {Til: {user1}, {user2} og # andre} other{Til: {user1}, {user2} og # andre}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Til: {user1}, {user2}, {user3}} =1{Til: {user1}, {user2}, {user3} og 1 annan} one {Til: {user1}, {user2}, {user3} og # andre} other{Til: {user1}, {user2}, {user3} og # andre}}",
+  "new_message_label": "Ny",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svar frå {user1}} =1{{repliesCount} svar frå {user1} og éin annan} one {{repliesCount} svar frå {user1} og # andre} other{{repliesCount} svar frå {user1} og # andre}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svar frå {user1}, {user2}} =1{{repliesCount} svar frå {user1}, {user2} og éin annan} one {{repliesCount} svar frå {user1}, {user2} og # andre} other{{repliesCount} svar frå {user1}, {user2} og # andre}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} svar frå {user1}, {user2}, {user3}} =1{{repliesCount} svar frå {user1}, {user2}, {user3} og éin annan} one {{repliesCount} svar frå {user1}, {user2}, {user3} og # andre} other{{repliesCount} svar frå {user1}, {user2}, {user3} og # andre}}",
+  "tmp_view_chat_button_text": "Vis svar",
+  "tmp_go_to_channel_button_text": "Gå til kanal"
+}

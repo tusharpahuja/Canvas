@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Stream-nettadresse",
+  "stream_url_placeholder": "Angi Stream-nettadresse",
+  "stream_key_label": "Stream-nøkkel",
+  "stream_key_placeholder": "Angi Stream-nøkkel",
+  "start_streaming_button_text": "Start strøyming",
+  "stop_streaming_button_text": "Stopp strøyming",
+  "custom_streaming_config_page_description": "Eigendefinert strøyming er ditt verktøy for strøyming av Teams-møte til offentlege plattformer levert av RTMP",
+  "custom_streaming_config_page_first_greeting": "Velkomen til eigendefinert strøyming!",
+  "custom_streaming_config_page_second_greeting": "Vi er glade for at du er her",
+  "custom_streaming_error_meeting_limit_reached": "Dette møtet kan ikkje bli strøyma med gjeldande innstillingar. Prøv å avgrense deltakarar til under 1000.",
+  "custom_streaming_error_permission_denied": "Du har ikkje løyve til å strøyme. Kontakt IT-administratoren eller arrangøren for å strøyme dette innhaldet",
+  "custom_streaming_error_outdated_client": "Teams treng oppdateringar for å halde fram. Start programmet på nytt for å sikre at du har dei nyaste funksjonane.",
+  "custom_streaming_error_unknown": "Noko gjekk gale. Prøv på nytt.",
+  "custom_streaming_error_unsupported_platform": "Denne funksjonen er ikkje støtta i nettlesaren enno. Prøv på nytt frå skrivebordsversjonen av Teams.",
+  "custom_streaming_tab_title": "Eigendefinert strøyming"
+}

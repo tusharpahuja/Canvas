@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Ups, ceva nu a funcționat corect!",
+  "default_app_title": "Ups, ceva nu a funcționat corect! (Erori aplicație)",
+  "default_network_error_description": "Ups, problemă cu rețeaua!",
+  "default_network_error_title": "Ups, problemă cu rețeaua!",
+  "default_unknown_description": "Ups, ceva nu a funcționat corect!",
+  "default_unknown_title": "Ups, ceva nu a funcționat corect!",
+  "default_authentication_title": "Ups, nu v-am putut conecta",
+  "default_authentication_description": "ceva nu a funcționat corect.",
+  "default_core_error_description": "Ups, ceva nu a funcționat corect! (Erori nucleu)",
+  "default_core_error_title": "Cod de eroare: erori de nucleu",
+  "default_fetch_description": "Ups, ceva nu a funcționat corect! (Erori de preluare CDL)",
+  "default_fetch_title": "Cod de eroare: erori de preluare CDL",
+  "default_service_description": "Ups, ceva nu a funcționat corect! (Erori de serviciu CDL)",
+  "default_service_title": "Cod de eroare: erori de serviciu CDL",
+  "error_forbidden_text": "Ne pare rău. Am găsit o problemă cu licența organizației dvs.",
+  "error_nonetwork_text": "Ne pare rău. Nu s-a găsit nicio rețea. Încercați din nou când vă reconectați."
+}

@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Da",
+  "instant_answers_reaction_yes_aria_label": "Je li vam ovo bilo korisno? -- Da",
+  "instant_answers_reaction_no": "Ne",
+  "instant_answers_reaction_no_aria_label": "Je li vam ovo bilo korisno? -- Ne",
+  "instant_answers_header_text": "Zahvaljujemo na povratnim informacijama!",
+  "instant_answers_header_subtext": "Na temelju vaših povratnih informacija, evo nekih informacija koje bi vam mogle biti korisne:",
+  "instant_answers_footer_text": "Je li vam ovo bilo korisno?",
+  "include_screenshot_text": "Uključi snimku zaslona",
+  "customer_feedback_dialog_email_label": "Adresa e-pošte (neobavezno)",
+  "customer_feedback_dialog_email_placeholder": "Dodajte adresu e-pošte",
+  "customer_feedback_dialog_email_aria_label": "Adresa e-pošte (neobavezno)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Ako pritisnete Pošalji, vaše će se povratne informacije koristiti za poboljšavanje Microsoftovih proizvoda i usluga. Vaš IT administrator moći će prikupiti te podatke. Na temelju vaših povratnih informacija možemo pružiti dodatne informacije da bismo vam pomogli pri problemu s podrškom.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Izjava o zaštiti privatnosti.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Zatvori dijaloški okvir za povratne informacije",
+  "customer_feedback_dialog_adhoc_window_title": "Pruži povratnu informaciju"
+}

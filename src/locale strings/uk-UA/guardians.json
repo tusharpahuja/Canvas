@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Завантаження батьківського списку",
+  "guardians_table": "Батьківський список для {{classTeam}}",
+  "students": "Учні або студенти",
+  "guardians": "Батьки / опікуни",
+  "chatButton": "Кнопка \"Чат\"",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{Стільки батьків або опікунів: #. Розгорнути, щоб відкрити список.} one {Стільки батьків або опікунів: #. Розгорнути, щоб відкрити список.} few {Стільки батьків або опікунів: #. Розгорнути, щоб відкрити список.} many {Стільки батьків або опікунів: #. Розгорнути, щоб відкрити список.} other{Стільки батьків або опікунів: #. Розгорнути, щоб відкрити список.} }",
+  "guardians_student_label": "{{studentName}}, стан {{status}}, відкриває картку профілю",
+  "guardians_user_unknown_label": "Невідомий користувач",
+  "guardians_status_unknown_label": "Невідомо",
+  "guardians_overflow_members": "Інший із батьків або інші опікуни {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Почати чат з опікуном {studentName}} one {Почати чат з опікуном {studentName}} few {Почати чат з опікунами {studentName}} many {Почати чат з опікунами {studentName}} other{Почати чат з опікунами {studentName}}}",
+  "guardians_chat_button_disabled_title": "Зовнішній доступ вимкнуто адміністратором",
+  "guardians_chat_button_disabled_alt_title": "Попросіть адміністратора додати контактні дані опікунів, щоб зробити чат доступним",
+  "empty_state_title": "Батьків та опікунів не додано",
+  "empty_state_subtitle": "Попросіть свого ІТ-адміністратора додати їх, щоб ви могли швидко зв’язатися з ними тут. <0></0>",
+  "empty_state_link": "Додатково",
+  "error_state_title": "Сталася помилка. Перевірте пізніше.",
+  "not_owner_error_state_title": "Лише власники команд класу можуть бачити інформацію про батьків та опікунів. Попросіть власника команди надати вам доступ.",
+  "retry_button_title": "Спробувати знову",
+  "transient_error_state_title": "Сталася помилка. Спробуйте ще раз.",
+  "notification_banner_content": "Сталася помилка під час завантаження додаткових відомостей про батьків і опікунів. Спробуйте ще раз пізніше."
+}

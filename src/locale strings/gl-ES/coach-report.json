@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Non está dispoñible ningún informe do adestrador da reunión",
+  "coach_report_no_data_too_short": "Activa o Adestrador da reunión durante máis de 1 minuto para acceder o informe",
+  "coach_report_no_data_too_long": "O Adestrador da reunión non admite reunións de máis de 2 horas",
+  "coach_report_title": "A súa información do adestrador da reunión",
+  "coach_report_private_label": "Privado",
+  "coach_report_settings": "Configuración",
+  "coach_report_subtitle": "* Es a única persoa que pode ver o informe do adestrador.",
+  "coach_report_chart_title": "Suxestións para a reunión",
+  "coach_report_card_checkbox": "Gardar esta pantalla e omitila sempre nas próximas sesións",
+  "coach_report_save_button": "Gardar",
+  "coach_report_delete_button": "Eliminar",
+  "coach_report_save_button_tooltip": "Buscalo máis tarde na páxina de reunión",
+  "coach_report_feedback_before_submit": "Isto é útil?",
+  "coach_report_feedback_after_submit": "Grazas polos comentarios",
+  "coach_report_feedback_yes_button": "Si",
+  "coach_report_feedback_no_button": "Non",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} de {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Anterior",
+  "coach_report_next_critique_button": "Seguinte"
+}

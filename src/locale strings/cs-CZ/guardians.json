@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Načítá se nadřazený seznam.",
+  "guardians_table": "Nadřazený seznam pro {{classTeam}}",
+  "students": "Studenti",
+  "guardians": "Rodiče nebo opatrovníci",
+  "chatButton": "Tlačítko Chat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# další rodič nebo opatrovník. Rozbalením otevřete seznam.} one {# další rodič nebo opatrovník. Rozbalením otevřete seznam.} few {# další rodiče nebo opatrovníci. Rozbalením otevřete seznam.} many {# dalších rodičů nebo opatrovníků. Rozbalením otevřete seznam.} other{# dalších rodičů nebo opatrovníků. Rozbalením otevřete seznam.} }",
+  "guardians_student_label": "{{studentName}}, stav {{status}}, otevře kartu profilu",
+  "guardians_user_unknown_label": "Neznámý uživatel",
+  "guardians_status_unknown_label": "Neznámý",
+  "guardians_overflow_members": "Další rodiče nebo opatrovníci studenta {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Začít chatovat s opatrovníkem studenta {studentName}} one {Začít chatovat s opatrovníky studenta {studentName}} few {Začít chatovat s opatrovníky studenta {studentName}} many {Začít chatovat s opatrovníky studenta {studentName}} other{Začít chatovat s opatrovníky studenta {studentName}}}",
+  "guardians_chat_button_disabled_title": "Externí přístup zakázán správcem",
+  "guardians_chat_button_disabled_alt_title": "Pokud chcete zpřístupnit chat, požádejte svého správce, aby přidal kontaktní informace opatrovníka.",
+  "empty_state_title": "Rodiče a opatrovníci se nepřidali.",
+  "empty_state_subtitle": "Požádejte správce IT, ať je přidá, abyste je odsud mohli rychle kontaktovat. <0></0>",
+  "empty_state_link": "Zobrazit více",
+  "error_state_title": "Něco se nepovedlo. Vraťte se sem prosím později.",
+  "not_owner_error_state_title": "Informace o rodičích a opatrovnících můžou zobrazit jenom vlastníci týmu třídy. Poproste vlastníka týmu, aby vám dal přístup.",
+  "retry_button_title": "Zkusit znovu",
+  "transient_error_state_title": "Něco se nepovedlo. Zkuste to prosím znovu.",
+  "notification_banner_content": "Při načítání dalších informací o rodičích a opatrovnících došlo k problému. Zkuste to prosím znovu později."
+}

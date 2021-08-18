@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Nəsə baş verdi və qrupa əlavə edə bilmədik.",
+  "peoplePicker_dlTooManyMembers": "{{dlName}}({{dlMemberCount}}) əlavə edə bilmədik. Yalnız {{maxSize}} və ya daha az adamla söhbət edə bilərsiniz.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Silmək üçün “backspace” və ya “delete” düymələrindən istifadə edin. Digər söhbət qəbuledənləri üçün sol və ya sağ düymələrindən istifadə edin.",
+  "peoplePicker_loadingMessage": "Yüklənir...",
+  "peoplePicker_newAddGroupNameButtonContent": "Qrup adı əlavə et",
+  "peoplePicker_collapseGroupNameButtonContent": "Qrup adını yığışdır",
+  "peoplePicker_federationWarning": "Müəssisə və ya məktəb hesabları ilə söhbət etmək hələ mümkün deyil. Ətraflı öyrənin.",
+  "peoplePicker_noResults": "Uyğunluq tapmaq mümkün olmadı.",
+  "peoplePicker_resultsUpdationAriaLabel": "Axtarış nəticələri yeniləndi. Hərəkət etmək üçün aşağı və yuxarı ox, seçmək üçün “enter” düyməsindən istifadə edin.",
+  "peoplePicker_search_externally_btn_text": "{{email}} e-poçtunu xaricdən axtarın",
+  "peoplePicker_tflToLinePlaceholder": "Ad, e-poçt və ya telefon nömrəsi daxil et",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Sil",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} siyahıdan seçildi.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}}/{{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} siyahıdan silindi."
+}

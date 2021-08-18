@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Σύστημα",
+  "general_settings_system_auto_start_toggle": "Αυτόματη εκκίνηση του Teams",
+  "notification_settings_details_message_preview_header_text": "Προεπισκόπηση μηνύματος",
+  "notification_settings_edit_chat_button_aria_label": "Επεξεργασία ειδοποιήσεων συνομιλίας",
+  "notification_settings_details_chat_messages_text": "Μηνύματα",
+  "notification_settings_warning_windows_tfw": "Ελέγξτε προσεκτικά τις ρυθμίσεις ειδοποιήσεων των Windows για να βεβαιωθείτε ότι έχετε τη δυνατότητα να λαμβάνετε ειδοποιήσεις του Teams. <0></0>",
+  "settings_loader_text": "Φόρτωση περιεχομένου...",
+  "dropdown_settings_selected_text": "Επιλογή {{value}}",
+  "read_receipts_title": "Αποδεικτικά ανάγνωσης",
+  "read_receipts_description": "Ενημερώστε τους άλλους χρήστες όταν έχετε δει τα μηνύματά τους και μάθετε πότε προβάλουν το δικό σας. Κλείστε και ανοίξτε ξανά οποιαδήποτε παράθυρα συνομιλίας για να ισχύσει η ρύθμιση σε αυτές τις συνομιλίες.",
+  "read_receipts_label": "Αποδεικτικά ανάγνωσης"
+}

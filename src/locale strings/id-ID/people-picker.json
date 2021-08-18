@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Terjadi sesuatu, dan kami tidak dapat menambahkan grup ini.",
+  "peoplePicker_dlTooManyMembers": "Kami tidak dapat menambahkan {{dlName}} ({{dlMemberCount}}). Anda hanya dapat memulai obrolan dengan {{maxSize}} orang atau kurang.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Gunakan backspace atau hapus untuk menghapus. Gunakan tombol kiri atau kanan untuk penerima obrolan lainnya.",
+  "peoplePicker_loadingMessage": "Memuat...",
+  "peoplePicker_newAddGroupNameButtonContent": "Tambahkan nama grup",
+  "peoplePicker_collapseGroupNameButtonContent": "Ciutkan nama grup",
+  "peoplePicker_federationWarning": "Mengobrol dengan akun perusahaan atau sekolah belum tersedia. Pelajari selengkapnya.",
+  "peoplePicker_noResults": "Kami tidak dapat menemukan kecocokan.",
+  "peoplePicker_resultsUpdationAriaLabel": "Hasil pencarian diperbarui. Gunakan tombol panah atas dan bawah untuk menavigasi, dan enter untuk memilih.",
+  "peoplePicker_search_externally_btn_text": "Cari {{email}} secara eksternal",
+  "peoplePicker_tflToLinePlaceholder": "Masukkan nama, email, atau nomor telepon",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Hapus",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} dipilih dari daftar.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} dari {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} dihapus dari daftar."
+}

@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Un problème a empêché l’ajout du groupe.",
+  "peoplePicker_dlTooManyMembers": "Impossible d’ajouter {{dlName}} ({{dlMemberCount}}). Vous ne pouvez démarrer une clavardage qu’avec {{maxSize}} de personnes ou moins.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Pour supprimer ce destinataire, utilisez la touche Retour arrière ou Supprimer. Utilisez les flèches gauche ou droite pour accéder aux autres destinataires.",
+  "peoplePicker_loadingMessage": "Chargement en cours...",
+  "peoplePicker_newAddGroupNameButtonContent": "Ajoutez un nom de groupe",
+  "peoplePicker_collapseGroupNameButtonContent": "Réduire le nom du groupe",
+  "peoplePicker_federationWarning": "La conversation avec des comptes professionnels ou scolaires n’est pas encore disponible. Apprenez-en davantage.",
+  "peoplePicker_noResults": "Nous n'avons pas trouvé de résultats correspondants.",
+  "peoplePicker_resultsUpdationAriaLabel": "Résultats de recherche mis à jour. Utilisez les touches de direction haut et bas pour naviguer, et la touche Entrée pour sélectionner.",
+  "peoplePicker_search_externally_btn_text": "Rechercher {{email}} en externe",
+  "peoplePicker_tflToLinePlaceholder": "Entrez nom, courriel ou numéro de téléphone",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Supprimer",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} a été sélectionné(e) dans la liste.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} sur {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} a été retiré(e) de la liste."
+}

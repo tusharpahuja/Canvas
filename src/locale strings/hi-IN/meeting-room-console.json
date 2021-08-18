@@ -1,0 +1,11 @@
+{
+  "home_page_message": "लोड हो रहा है...",
+  "lobby_screen_exit_message": "लॉबी से बाहर निकलें",
+  "calling_join_button_audio": "ऑडियो के साथ कॉल में शामिल हों",
+  "calling_join_button_video": "वीडियो के साथ कॉल में शामिल हों",
+  "calling_screen_meeting_id": "मीटिंग ID: {{conferenceId}}",
+  "meeting_room_present_content": "प्रस्तुत करें",
+  "meeting_room_connected_device": "कनेक्ट किया गया डिवाइस",
+  "meeting_room_content_camera": "सामग्री कैमरा",
+  "meeting_room_cortana_button_title": "Cortana"
+}

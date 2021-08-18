@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Ajouter des personnes",
+  "embed_go_back_button": "Retour",
+  "embed_provide_feedback": "Veuillez faire part de vos commentaires :",
+  "embed_go_to": "Accéder à {{title}}",
+  "embed_open_inside": "Ouvrir à l'intérieur",
+  "embed_participants_in_chat": "Participants ({{membersCount}})",
+  "embed_pop_out_chat": "Ouvrez une fenêtre de conversation",
+  "embed_pop_in_back": "Revenir à la fenêtre principale",
+  "embed_error_page_message": "Nous sommes désolés, nous avons rencontré un problème.",
+  "embed_error_page_try_again_button": "Réessayer",
+  "embed_chats": "Conversations Microsoft Teams",
+  "embed_chat": "Conversation Microsoft Teams"
+}

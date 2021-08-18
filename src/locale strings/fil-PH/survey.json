@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Oo",
+  "instant_answers_reaction_yes_aria_label": "Nakatulong ba ang impormasyong ito? -- Oo",
+  "instant_answers_reaction_no": "Hindi",
+  "instant_answers_reaction_no_aria_label": "Nakatulong ba ang impormasyong ito? -- Hindi",
+  "instant_answers_header_text": "Salamat sa iyong feedback!",
+  "instant_answers_header_subtext": "Batay sa iyong feedback, narito ang ilang impormasyong maaari mong mahanap na kapaki-pakinabang:",
+  "instant_answers_footer_text": "Nakatulong ba ang impormasyong ito?",
+  "include_screenshot_text": "Magsama ng screenshot",
+  "customer_feedback_dialog_email_label": "Ang iyong email address (opsyonal)",
+  "customer_feedback_dialog_email_placeholder": "Magdagdag ng email address",
+  "customer_feedback_dialog_email_aria_label": "Ang iyong email address (opsyonal)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Sa pamamagitan ng pagpindot sa isumite, ang iyong feedback ay gagamitin para pahusayin ang mga produkto at serbisyo ng Microsoft. Makokolekta ng iyong IT admin ang data na ito. Batay sa iyong feedback, maaari kaming magbigay ng karagdagang impormasyon para matulungan ka sa iyong isyu sa suporta.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Pahayag sa Pagiging Pribado.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Isara ang dialog ng feedback",
+  "customer_feedback_dialog_adhoc_window_title": "Magbigay ng feedback"
+}

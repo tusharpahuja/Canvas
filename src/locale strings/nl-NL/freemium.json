@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {U hebt de ledenlimiet voor uw organisatie bereikt. Als u wilt upgraden en meer personen wilt toevoegen, verzendt u een bericht naar een van uw beheerders.} =1 {U hebt de ledenlimiet voor uw organisatie bereikt. Vraag <0></0> om te upgraden zodat u meer personen kunt uitnodigen.} one {U hebt de ledenlimiet voor uw organisatie bereikt. Vraag een van uw <0></0> om te upgraden zodat u meer personen kunt uitnodigen.} other {U hebt de ledenlimiet voor uw organisatie bereikt. Vraag een van uw <0></0> om te upgraden zodat u meer personen kunt uitnodigen.}}"
+}

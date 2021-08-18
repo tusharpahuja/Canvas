@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Diemžēl radās kāda problēma",
+  "default_app_title": "Diemžēl radās problēma! (App errors)",
+  "default_network_error_description": "Ak vai! Tīkla problēma!",
+  "default_network_error_title": "Ak vai! Tīkla problēma!",
+  "default_unknown_description": "Diemžēl radās kāda problēma",
+  "default_unknown_title": "Diemžēl radās kāda problēma",
+  "default_authentication_title": "Nevarējām jūs pierakstīt.",
+  "default_authentication_description": "radās problēma.",
+  "default_core_error_description": "Diemžēl radās problēma! (kodola kļūdas)",
+  "default_core_error_title": "Kļūdas kods: kodola kļūdas",
+  "default_fetch_description": "Diemžēl radās problēma! (CDL ieneses kļūdas)",
+  "default_fetch_title": "Kļūdas kods: CDL ieneses kļūdas",
+  "default_service_description": "Diemžēl radās problēma! (CDL pakalpojuma kļūdas)",
+  "default_service_title": "Kļūdas kods: CDL pakalpojuma kļūdas",
+  "error_forbidden_text": "Diemžēl atradām problēmu ar jūsu organizācijas licenci",
+  "error_nonetwork_text": "Diemžēl netika atrasts neviens tīkls. Lūdzu, mēģiniet vēlreiz, kad esat atkārtoti pievienots."
+}

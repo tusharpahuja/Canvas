@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Der skete noget, og vi kunne ikke tilføje gruppen.",
+  "peoplePicker_dlTooManyMembers": "Vi kunne ikke tilføje {{dlName}} ({{dlMemberCount}}). Du kan kun starte en chat med {{maxSize}} personer eller færre.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Brug Tilbage-tasten eller Delete for at fjerne. Brug pil venstre eller pil højre for andre chatmodtagere.",
+  "peoplePicker_loadingMessage": "Indlæser...",
+  "peoplePicker_newAddGroupNameButtonContent": "Tilføj et gruppenavn",
+  "peoplePicker_collapseGroupNameButtonContent": "Skjul gruppens navn",
+  "peoplePicker_federationWarning": "Chat med virksomheds- eller skolekonti er endnu ikke tilgængelig. Få mere at vide.",
+  "peoplePicker_noResults": "Ingen matches blev fundet.",
+  "peoplePicker_resultsUpdationAriaLabel": "Søgeresultaterne blev opdateret. Brug piletasterne op og ned til at navigere og tasten Enter til at vælge.",
+  "peoplePicker_search_externally_btn_text": "Søg efter {{email}} eksternt",
+  "peoplePicker_tflToLinePlaceholder": "Angiv navn, mailadresse eller telefonnummer",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Fjern",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} markeret på listen.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}} {{index}} af {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} blev fjernet fra listen."
+}

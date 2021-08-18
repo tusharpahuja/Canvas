@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Toplantı Koçu Raporu yok",
+  "coach_report_no_data_too_short": "Raporunuza erişmek için Toplantı Öğreticisini 1 dakikadan daha uzun süreyle açık tutun",
+  "coach_report_no_data_too_long": "Ne yazık ki Toplantı Öğreticisi 2 saatten uzun toplantıları desteklemiyor",
+  "coach_report_title": "Toplantı Koçu Analizleriniz",
+  "coach_report_private_label": "Özel",
+  "coach_report_settings": "Ayarlar",
+  "coach_report_subtitle": "* Koç raporunuzu yalnızca size görebilirsiniz.",
+  "coach_report_chart_title": "Toplantınızdan öneriler",
+  "coach_report_card_checkbox": "Gelecekteki oturumlar için her zaman bu ekranı kaydet ve atla",
+  "coach_report_save_button": "Kaydet",
+  "coach_report_delete_button": "Sil",
+  "coach_report_save_button_tooltip": "Daha sonra toplantı sayfasında bulun",
+  "coach_report_feedback_before_submit": "Bu yardımcı oldu mu?",
+  "coach_report_feedback_after_submit": "Geri bildiriminiz için teşekkür ederiz",
+  "coach_report_feedback_yes_button": "Evet",
+  "coach_report_feedback_no_button": "Hayır",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} / {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Önceki",
+  "coach_report_next_critique_button": "Sonraki"
+}

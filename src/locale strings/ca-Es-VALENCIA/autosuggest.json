@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} a {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1:: No hi ha cap suggeriment. ||1->2::{0} suggeriment disponible: ||2->3::{0} suggeriments disponibles: ||3->INF::{0} suggeriments disponibles:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::No hi ha cap suggeriment per a {0}.||1->2::{1} suggeriment disponible per a {0}: ||2->3::{1} suggeriments disponibles per a {0}: ||3->INF::{1} suggeriments disponibles per a {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grup sense nom",
+  "autosuggest_sb_search_box_clear_button_label": "Esborra el contingut del quadre de recerca",
+  "autosuggest_sb_search_box_submit_button_label": "Recerca",
+  "autosuggest_sb_search_box_view_all_results_label": "Premeu Retorn per a visualitzar tots els resultats",
+  "autosuggest_people_group_heading": "Persones",
+  "autosuggest_chats_group_heading": "Xats de grup",
+  "autosuggest_zero_term_group_aria_label": "Recerques recents"
+}

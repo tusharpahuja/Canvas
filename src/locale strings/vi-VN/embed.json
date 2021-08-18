@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Thêm người",
+  "embed_go_back_button": "Quay lại",
+  "embed_provide_feedback": "Chia sẻ phản hồi của bạn:",
+  "embed_go_to": "Đi đến {{title}}",
+  "embed_open_inside": "Mở bên trong",
+  "embed_participants_in_chat": "Những người tham gia ({{membersCount}})",
+  "embed_pop_out_chat": "Trò chuyện bật ra",
+  "embed_pop_in_back": "Trở lại cửa sổ chính",
+  "embed_error_page_message": "Rất tiếc - chúng tôi đã gặp phải sự cố",
+  "embed_error_page_try_again_button": "Thử lại",
+  "embed_chats": "Các cuộc trò chuyện trong Microsoft Teams",
+  "embed_chat": "Cuộc trò chuyện trong Microsoft Teams"
+}

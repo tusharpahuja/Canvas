@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistem",
+  "general_settings_system_auto_start_toggle": "Samodejno zaženi aplikacijo Teams",
+  "notification_settings_details_message_preview_header_text": "Predogled sporočila",
+  "notification_settings_edit_chat_button_aria_label": "Urejanje obvestil o klepetu",
+  "notification_settings_details_chat_messages_text": "Sporočila",
+  "notification_settings_warning_windows_tfw": "Dvakrat preverite nastavitve obvestil sistema Windows, da boste lahko prejemali obvestila aplikacije Teams. <0></0>",
+  "settings_loader_text": "Nalaganje vsebine...",
+  "dropdown_settings_selected_text": "{{value}} izbrano",
+  "read_receipts_title": "Potrdila o branju",
+  "read_receipts_description": "Obvestite ljudi, da bodo videli njihova sporočila in vedeli, kdaj so videli vaše sporočilo. Zaprite in znova odprite vsa okna za klepet, da bo ta nastavitev začela veljati v teh klepetih.",
+  "read_receipts_label": "Potrdila o branju"
+}

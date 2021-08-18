@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Niestety, wystąpił problem.",
+  "default_app_title": "Niestety, wystąpił problem. (Błędy aplikacji)",
+  "default_network_error_description": "Wystąpił problem z siecią!",
+  "default_network_error_title": "Wystąpił problem z siecią!",
+  "default_unknown_description": "Niestety, wystąpił problem.",
+  "default_unknown_title": "Niestety, wystąpił problem.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Niestety, wystąpił problem! (Błędy podstawowe)",
+  "default_core_error_title": "Kod błędu: błędy podstawowe",
+  "default_fetch_description": "Niestety, wystąpił problem! (Błędy pobierania CDL)",
+  "default_fetch_title": "Kod błędu: Błędy pobierania CDL",
+  "default_service_description": "Wystąpił problem! (Błędy usługi CDL)",
+  "default_service_title": "Kod błędu: błędy usługi CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

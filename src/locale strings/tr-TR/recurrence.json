@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Her gün gerçekleşir} =2{Her iki günde bir gerçekleşir} one {Her # günde bir gerçekleşir} other{Her # günde bir gerçekleşir}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Her {days} günde bir gerçekleşir} =2{Her {days} günde bir gerçekleşir} one {Her # haftada bir {days} günü gerçekleşir} other{Her # haftada bir {days} günü gerçekleşir}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Her ay {day} günü gerçekleşir} =2{Her iki ayda bir, ayın {day} günü gerçekleşir} one {# ayda bir ayın {day} günü gerçekleşir} other{# ayda bir ayın {day} günü gerçekleşir}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Her ay bir, ayın {weekInMonthIndex} {weekday} günü gerçekleşir} =2{Her iki ayda bir, ayın {weekInMonthIndex} {weekday} günü gerçekleşir} one {Her # ayda bir, ayın {weekInMonthIndex} {weekday} günü gerçekleşir} other{Her # ayda bir, ayın {weekInMonthIndex} {weekday} günü gerçekleşir}}",
+  "meeting_recurrence_pattern_yearly": "Her {{date}} günü gerçekleştir",
+  "meeting_recurrence_pattern_relativeyearly": "Her {{month}} ayının {{dayOfTheWeekIndex}} {{dayOfTheWeek}} günü gerçekleşir"
+}

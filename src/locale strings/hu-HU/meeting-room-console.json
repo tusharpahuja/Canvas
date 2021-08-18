@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Betöltés folyamatban...",
+  "lobby_screen_exit_message": "Előszoba elhagyása",
+  "calling_join_button_audio": "Csatlakozás híváshoz hanggal",
+  "calling_join_button_video": "Csatlakozás híváshoz videóképpel",
+  "calling_screen_meeting_id": "Értekezlet azonosítója: {{conferenceId}}",
+  "meeting_room_present_content": "Előadás",
+  "meeting_room_connected_device": "Csatlakoztatott eszköz",
+  "meeting_room_content_camera": "Táblakamera",
+  "meeting_room_cortana_button_title": "Cortana"
+}

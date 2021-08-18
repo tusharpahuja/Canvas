@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Käytä toista tiliä",
+  "tflFre_Learn_More_Link_caption": "Kuka voi tarkastella tätä",
+  "tflFre_OK_Button_caption": "Aloitetaan",
+  "tflFre_dialog_Aria": "Tervetuloa Teamsiin. Miten haluat näkyä Teamsissa? Ihmiset voivat hakea sinua käyttämällä näitä tietoja",
+  "tflFre_header": "Tervetuloa",
+  "tflFre_phone_and_email_flyout": "Hallitse puhelinnumeroa ja sähköpostia vierailemalla Microsoft-tililläsi.",
+  "tflFre_who_can_see_this_flyout": "Nimesi ja Microsoft-tilisi kuva näkyvät muille Teamsissa. Muut voivat myös etsiä sinua Teamsissa puhelinnumerollasi ja sähköpostiosoitteellasi.",
+  "tflFre_learn_more_link_text": "Lisätietoja",
+  "tflFre_sync_contacts_checkbox": "Synkronoi Skypen ja Outlookin yhteystietoni, jotta löydät tuntemiani henkilöitä Teamsissa.",
+  "tflFre_people_Can_Search_For_You_Using": "Henkilöt voivat hakea sinua seuraavien tietojen avulla:",
+  "tflFre_loading_spinner_text": "Ladataan...",
+  "tflFre_stamping_error_dialog_header": "Profiilin päivittäminen epäonnistui",
+  "tflFre_stamping_error_dialog_body": "Profiilitietojasi ei voitu päivittää. Valitse Käytä toista tiliä kirjautuaksesi ulos ja käytä toista tiliä. Valitse Yritä uudelleen profiilin uudelleen päivittämistä varten",
+  "tflFre_error_dialog_retry_button": "Yritä uudelleen",
+  "tflFre_error_dialog_sign_out_button": "Käytä toista tiliä",
+  "tflFre_fetch_error_dialog_header": "Profiilin hakeminen epäonnistui",
+  "tflFre_fetch_error_dialog_body": "Profiilitietojasi ei voitu hakea. Valitse Käytä toista tiliä kirjautuaksesi ulos ja käytä toista tiliä. Valitse Yritä uudelleen profiilin uudelleen hakemista varten",
+  "tflFre_welcome_edit_header": "Tervetuloa Teamsiin",
+  "tflFre_welcome_edit_second_header": "Miten haluat näkyä?",
+  "tflFre_phone_field_header": "Puhelin",
+  "tflFre_email_field_header": "Sähköposti"
+}

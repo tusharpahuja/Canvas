@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Olet saavuttanut organisaatiosi jäsenrajan. Lähetä viesti jollekin järjestelmänvalvojista, jotta voit tehdä päivityksen ja lisätä ihmisiä.} =1 {Olet saavuttanut organisaatiosi jäsenrajan. Pyydä <0></0> tekemään päivitys, jotta voit kutsua lisää ihmisiä.} one {Olet saavuttanut organisaatiosi jäsenrajan. Pyydä yhtä <0></0> tekemään päivitys, jotta voit kutsua lisää ihmisiä.} other {Olet saavuttanut organisaatiosi jäsenrajan. Pyydä yhtä <0></0> tekemään päivitys, jotta voit kutsua lisää ihmisiä.}}"
+}

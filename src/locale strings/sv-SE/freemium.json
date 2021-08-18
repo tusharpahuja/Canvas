@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Maximalt antal medlemmar har nåtts för organisationen. Skicka ett meddelande till någon av dina administratörer om du vill uppgradera och lägga till fler personer.} =1 {Maximalt antal medlemmar har uppnåtts för organisationen. Be <0></0> att uppgradera så att du kan bjuda in fler personer.} one {Maximalt antal medlemmar har uppnåtts för organisationen. Be någon av <0></0> att uppgradera så att du kan bjuda in fler personer.} other {Maximalt antal medlemmar har uppnåtts för organisationen. Be någon av <0></0> att uppgradera så att du kan bjuda in fler personer.}}"
+}

@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} v skupini {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Ni predlogov.||1->2::{0} predlog na voljo: ||2->3::{0} predloga na voljo: ||3->INF::Toliko ({0}) predlogov na voljo:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Ni predlogov za {0}.||1->2::{1} predlog na voljo za {0}: ||2->3::{1} predloga na voljo za {0}: ||3->INF::Toliko ({1}) predlogov na voljo za {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Neimenovana skupina",
+  "autosuggest_sb_search_box_clear_button_label": "Počisti iskalno polje",
+  "autosuggest_sb_search_box_submit_button_label": "Iskanje",
+  "autosuggest_sb_search_box_view_all_results_label": "Pritisnite tipko Enter, da si ogledate vse rezultate.",
+  "autosuggest_people_group_heading": "Ljudje",
+  "autosuggest_chats_group_heading": "Skupinski klepeti",
+  "autosuggest_zero_term_group_aria_label": "Nedavna iskanja"
+}

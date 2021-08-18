@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Ten lugar a diario} =2{Ten lugar cada dous días} one {Ten lugar cada # días} other{Ten lugar cada # días}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Ten lugar cada {days}} =2{Ten lugar cada dous {days}} one {Ten lugar o {days} cada # semanas} other{Ten lugar o {days} cada # semanas}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Ten lugar o {day} de cada mes} =2{Ten lugar o día {day} de cada dous meses} one {Ten lugar cada # meses o {day}} other{Ten lugar cada # meses o {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Ten lugar o {weekInMonthIndex} {weekday} de cada mes} =2{Ten lugar o {weekInMonthIndex} {weekday} de cada dous meses} one {Ten lugar cada # meses o {weekInMonthIndex} {weekday}} other{Ten lugar cada # meses o {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Ten lugar cada {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Ten lugar todos os {{dayOfTheWeekIndex}} {{dayOfTheWeek}} de {{month}}"
+}

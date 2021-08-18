@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Akış URL’si",
+  "stream_url_placeholder": "Akış URL’sini girin",
+  "stream_key_label": "Akış anahtarı",
+  "stream_key_placeholder": "Akış anahtarını girin",
+  "start_streaming_button_text": "Akışı başlat",
+  "stop_streaming_button_text": "Akışı durdur",
+  "custom_streaming_config_page_description": "Özel akış, Teams toplantısını RTMP tarafından desteklenen herkese açık platformlara aktarma aracınızdır.",
+  "custom_streaming_config_page_first_greeting": "Özel Akışa hoş geldiniz!",
+  "custom_streaming_config_page_second_greeting": "Burada olmanız bizi çok mutlu etti",
+  "custom_streaming_error_meeting_limit_reached": "Bu toplantı mevcut ayarlarında yayınlanamaz. Lütfen katılımcıları 1000'in altında sınırlayın.",
+  "custom_streaming_error_permission_denied": "Akış izniniz yok. Bu içeriği yayınlamak için lütfen BT yöneticinize veya düzenleyiciye başvurun",
+  "custom_streaming_error_outdated_client": "Teams’in devam etmek için güncellemelere ihtiyacı var. En son özelliklere sahip olduğunuzdan emin olmak için uygulamanızı yeniden başlatın.",
+  "custom_streaming_error_unknown": "Bir sorun oluştu, lütfen yeniden deneyin.",
+  "custom_streaming_error_unsupported_platform": "Bu özellik henüz tarayıcıda desteklenmiyor. Teams'in masaüstü sürümünden tekrar deneyin.",
+  "custom_streaming_tab_title": "Özel Akış"
+}

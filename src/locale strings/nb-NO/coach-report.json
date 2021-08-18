@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Ingen møteveilederrapport er tilgjengelig",
+  "coach_report_no_data_too_short": "Slå på møteveileder i over 1 minutt for å få tilgang til rapporten",
+  "coach_report_no_data_too_long": "Beklager, møteveileder støtter ikke møter som er lengre enn 2 timer",
+  "coach_report_title": "Møtetveilederinnsikt for deg",
+  "coach_report_private_label": "Privat",
+  "coach_report_settings": "Innstillinger",
+  "coach_report_subtitle": "* Veilederrapporten er bare synlig for deg.",
+  "coach_report_chart_title": "Forslag fra møtet",
+  "coach_report_card_checkbox": "Lagre alltid og hopp over dette skjermbildet for fremtidige økter",
+  "coach_report_save_button": "Lagre",
+  "coach_report_delete_button": "Slett",
+  "coach_report_save_button_tooltip": "Finn det senere på møtesiden",
+  "coach_report_feedback_before_submit": "Er dette nyttig?",
+  "coach_report_feedback_after_submit": "Takk for tilbakemeldingen",
+  "coach_report_feedback_yes_button": "Ja",
+  "coach_report_feedback_no_button": "Nei",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} av {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Forrige",
+  "coach_report_next_critique_button": "Neste"
+}

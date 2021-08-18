@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Нұсқаушы жиналыстың есебі қолжетімді емес",
+  "coach_report_no_data_too_short": "Есепке қол жеткізу үшін, жиналыс жаттықтырушысын 1 минуттан артық уақытқа қосыңыз",
+  "coach_report_no_data_too_long": "Өкінішке орай, жиналыс жаттықтырушысы 2 сағаттан асатын жиналыстарға қолдау көрсетпейді",
+  "coach_report_title": "Нұсқаушы жиналыстың аналитикасы",
+  "coach_report_private_label": "Жеке",
+  "coach_report_settings": "Параметрлер",
+  "coach_report_subtitle": "* Нұсқаушы есебі тек сізге көрінеді",
+  "coach_report_chart_title": "Жиналыс бойынша ұсыныстар",
+  "coach_report_card_checkbox": "Әрқашан болашақ сеанстарда осы экранды сақтау және өткізіп жіберу",
+  "coach_report_save_button": "Сақтау",
+  "coach_report_delete_button": "Жою",
+  "coach_report_save_button_tooltip": "Жиналыс бетінде кейінірек табу",
+  "coach_report_feedback_before_submit": "Бұл ақпараттың көмегі тиді ме?",
+  "coach_report_feedback_after_submit": "Пікіріңіз үшін рақмет",
+  "coach_report_feedback_yes_button": "Иә",
+  "coach_report_feedback_no_button": "Жоқ",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}}/{{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Алдыңғы",
+  "coach_report_next_critique_button": "Келесі"
+}

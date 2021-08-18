@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Cargando...",
+  "lobby_screen_exit_message": "Salir de la sala de espera",
+  "calling_join_button_audio": "Unirse a la llamada con audio",
+  "calling_join_button_video": "Unirse a la llamada con video",
+  "calling_screen_meeting_id": "Id. de la reunión: {{conferenceId}}",
+  "meeting_room_present_content": "Presentar",
+  "meeting_room_connected_device": "Dispositivo conectado",
+  "meeting_room_content_camera": "Cámara de contenido",
+  "meeting_room_cortana_button_title": "Cortana"
+}

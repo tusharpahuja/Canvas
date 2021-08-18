@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Sim",
+  "instant_answers_reaction_yes_aria_label": "Essa informação foi útil? -- Sim",
+  "instant_answers_reaction_no": "Não",
+  "instant_answers_reaction_no_aria_label": "Essa informação foi útil? -- Não",
+  "instant_answers_header_text": "Obrigado por seus comentários!",
+  "instant_answers_header_subtext": "Com base em seus comentários, aqui estão algumas informações que podem ser úteis:",
+  "instant_answers_footer_text": "Essa informação foi útil?",
+  "include_screenshot_text": "Incluir captura de tela",
+  "customer_feedback_dialog_email_label": "O seu endereço de email (opcional)",
+  "customer_feedback_dialog_email_placeholder": "Adicionar endereço de email",
+  "customer_feedback_dialog_email_aria_label": "Seu endereço de email (opcional)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Ao pressionar enviar, seus comentários serão usados para melhorar os produtos e serviços da Microsoft. Seu administrador de TI poderá coletar esses dados. Com base em seus comentários, poderemos fornecer informações adicionais para ajudá-lo com o problema de suporte.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Política de Privacidade.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Fechar caixa de diálogo de comentários",
+  "customer_feedback_dialog_adhoc_window_title": "Enviar comentários"
+}

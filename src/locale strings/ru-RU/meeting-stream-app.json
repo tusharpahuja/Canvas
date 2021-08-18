@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL-адрес потока",
+  "stream_url_placeholder": "Введите URL-адрес потока",
+  "stream_key_label": "Ключ потока",
+  "stream_key_placeholder": "Введите ключ потока",
+  "start_streaming_button_text": "Начать потоковую передачу",
+  "stop_streaming_button_text": "Остановить потоковую передачу",
+  "custom_streaming_config_page_description": "Настраиваемая потоковая передача — это средство для передачи собрания Teams на общедоступные платформы на базе RTMP",
+  "custom_streaming_config_page_first_greeting": "Добро пожаловать в Настраиваемую Потоковую Передачу!",
+  "custom_streaming_config_page_second_greeting": "Мы рады, что вы здесь",
+  "custom_streaming_error_meeting_limit_reached": "Невозможно выполнить потоковую передачу этого собрания с текущими параметрами. Ограничьте число участников до 1000.",
+  "custom_streaming_error_permission_denied": "У вас нет разрешений на потоковую передачу. Обратитесь к ИТ-администратору или организатору, чтобы выполнить потоковую передачу этого содержимого",
+  "custom_streaming_error_outdated_client": "Чтобы продолжить, Teams требуется обновление. Перезапустите приложение, чтобы убедиться в наличии новых возможностей.",
+  "custom_streaming_error_unknown": "Что-то пошло не так, повторите попытку.",
+  "custom_streaming_error_unsupported_platform": "Эта возможность пока не поддерживается в браузере. Повторите попытку из классической версии Teams.",
+  "custom_streaming_tab_title": "Настраиваемая потоковая передача"
+}

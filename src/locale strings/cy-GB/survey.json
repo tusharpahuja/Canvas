@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ie",
+  "instant_answers_reaction_yes_aria_label": "Oedd y wybodaeth hon yn ddefnyddiol? -- Oedd",
+  "instant_answers_reaction_no": "Nac ydy",
+  "instant_answers_reaction_no_aria_label": "Oedd y wybodaeth hon yn ddefnyddiol? -- Nac oedd",
+  "instant_answers_header_text": "Diolch am eich adborth!",
+  "instant_answers_header_subtext": "Yn seiliedig ar eich adborth, dyma ychydig o wybodaeth a allai fod yn ddefnyddiol i chi:",
+  "instant_answers_footer_text": "Oedd y wybodaeth hon yn ddefnyddiol?",
+  "include_screenshot_text": "Cynnwys sgrinlun",
+  "customer_feedback_dialog_email_label": "Eich cyfeiriad e-bost (dewisol)",
+  "customer_feedback_dialog_email_placeholder": "Ychwanegu cyfeiriad e-bost",
+  "customer_feedback_dialog_email_aria_label": "Eich cyfeiriad e-bost (dewisol)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Trwy bwyso cyflwyno, bydd eich adborth yn cael ei ddefnyddio i wella cynnyrch a gwasanaethau Microsoft. Bydd modd i'ch gweinyddwr TG gasglu'r data hyn. Efallai bydd modd i ni ddarparu gwybodaeth ychwanegol yn seiliedig ar eich adborth i'ch helpu chi gyda'ch problem cymorth.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Datganiad Preifatrwydd.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Cau'r blwch deialog adborth",
+  "customer_feedback_dialog_adhoc_window_title": "Rhoi adborth"
+}

@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} mainitsi sinut",
+  "toast_messaging_reaction": "{{sender}} reagoi viestiisi",
+  "toast_messaging_default_group_topic": "Tuntematon",
+  "toast_messaging_default_user_given_name": "Tuntematon",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Lähetä",
+  "toast_messaging_quickreply_placeholder_text": "Lähetä pikavastaus",
+  "toast_messaging_activity_text": "Keskustele henkilöiden {{participants}} kanssa",
+  "toast_messaging_activity_text_with_count": "Keskustele henkilöiden {{participants}} + {{count}} muun kanssa"
+}

@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Stream URL",
+  "stream_url_placeholder": "Stream URL 입력",
+  "stream_key_label": "Stream 키",
+  "stream_key_placeholder": "Stream 키 입력",
+  "start_streaming_button_text": "스트림 시작",
+  "stop_streaming_button_text": "스트림 중지",
+  "custom_streaming_config_page_description": "사용자 지정 스트리밍은 Teams 모임을 RTMP에서 지원하는 공용 플랫폼으로 스트리밍하기 위한 도구입니다.",
+  "custom_streaming_config_page_first_greeting": "사용자 지정 스트리밍을 시작합니다!",
+  "custom_streaming_config_page_second_greeting": "참석해 주셔서 감사합니다.",
+  "custom_streaming_error_meeting_limit_reached": "이 모임은 현재 설정에서 스트리밍할 수 없습니다. 참석자를 1000명 미만으로 제한하세요.",
+  "custom_streaming_error_permission_denied": "스트리밍 권한이 없습니다. IT 관리자 또는 이끌이에게 문의하여 이 콘텐츠를 스트림하세요.",
+  "custom_streaming_error_outdated_client": "계속하려면 Teams를 업데이트해야 합니다. 응용 프로그램을 다시 시작하여 최신 기능을 사용하세요.",
+  "custom_streaming_error_unknown": "문제가 발생했습니다. 다시 시도하세요.",
+  "custom_streaming_error_unsupported_platform": "이 기능은 아직 브라우저에서 지원되지 않습니다. 데스크톱 Teams 버전에서 다시 시도하세요.",
+  "custom_streaming_tab_title": "사용자 지정 스트리밍"
+}

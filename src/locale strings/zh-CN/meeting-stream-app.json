@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "流 URL",
+  "stream_url_placeholder": "输入流 URL",
+  "stream_key_label": "流密钥",
+  "stream_key_placeholder": "输入流密钥",
+  "start_streaming_button_text": "开始流式传输",
+  "stop_streaming_button_text": "停止流式传输",
+  "custom_streaming_config_page_description": "自定义流式处理是将 Teams 会议流式传输到 RTMP 支持的公共平台的工具",
+  "custom_streaming_config_page_first_greeting": "欢迎使用自定义流式处理!",
+  "custom_streaming_config_page_second_greeting": "很高兴在这里见到你",
+  "custom_streaming_error_meeting_limit_reached": "无法在其当前设置中流式传输此会议。请将与会者限制为 1000 人以下。",
+  "custom_streaming_error_permission_denied": "你没有流式处理权限。请与 IT 管理员或组织者联系以流式传输此内容",
+  "custom_streaming_error_outdated_client": "Teams 需要更新才能继续。请重启应用程序以确保具有最新功能。",
+  "custom_streaming_error_unknown": "出现错误，请重试。",
+  "custom_streaming_error_unsupported_platform": "浏览器尚不支持此功能。请从 Teams 的桌面版本重试。",
+  "custom_streaming_tab_title": "自定义流式处理"
+}

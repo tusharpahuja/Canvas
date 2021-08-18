@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL Microsoft Stream",
+  "stream_url_placeholder": "Nhập URL Microsoft Stream",
+  "stream_key_label": "Phím Stream",
+  "stream_key_placeholder": "Nhập chìa khóa Microsoft Stream",
+  "start_streaming_button_text": "Bắt đầu phát trực tuyến",
+  "stop_streaming_button_text": "Ngừng phát trực tuyến",
+  "custom_streaming_config_page_description": "Phát trực tuyến tùy chỉnh là công cụ của bạn để truyền trực tuyến cuộc họp Teams tới các nền tảng công cộng hoạt động trên nền tảng RTMP",
+  "custom_streaming_config_page_first_greeting": "Chào mừng bạn đến với Phát trực tuyến Tùy chỉnh!",
+  "custom_streaming_config_page_second_greeting": "Chúng tôi rất vui vì bạn đã ở đây",
+  "custom_streaming_error_meeting_limit_reached": "Không thể phát trực tuyến cuộc họp này trong cài đặt hiện tại. Vui lòng giới hạn người tham dự dưới 1000 người.",
+  "custom_streaming_error_permission_denied": "Bạn không có quyền phát trực tuyến. Vui lòng liên hệ với quản trị viên CNTT của bạn hoặc người tổ chức để phát trực tuyến nội dung này",
+  "custom_streaming_error_outdated_client": "Teams cần cập nhật để tiếp tục. Hãy khởi động lại ứng dụng của bạn để đảm bảo bạn có các tính năng mới nhất.",
+  "custom_streaming_error_unknown": "Đã xảy ra lỗi, vui lòng thử lại.",
+  "custom_streaming_error_unsupported_platform": "Tính năng này chưa được hỗ trợ trong trình duyệt. Hãy thử lại từ phiên bản Teams dành cho máy tính để bàn.",
+  "custom_streaming_tab_title": "Tùy chỉnh Phát trực tuyến"
+}

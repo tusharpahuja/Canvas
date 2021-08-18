@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="freemium.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="fil-PH" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naabot mo ang limitasyon sa miyembro para sa iyong org. Hilingin sa sinuman sa iyong <0></0> na mag-upgrade para makapag-imbita ka pa mga tao.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've hit the member limit for your org. To upgrade and add more people, send a message to one of your admins.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naabot mo na ang limitasyon sa miyembro para sa iyong org. Para mag-upgrade at magdagdag pa ng mga tao, magpadala ng mensahe sa isa sa mga admin mo.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've hit the member limit for your org. Ask <0></0> to upgrade so you can invite more people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naabot mo ang limitasyon sa miyembro para sa iyong org. Hilingin sa <0></0> na mag-upgrade para makapag-imbita ka pa ng mga tao.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naabot mo ang limitasyon sa miyembro para sa iyong org. Hilingin sa sinuman sa iyong <0></0> na mag-upgrade para makapag-imbita ka pa mga tao.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invite_email_error_member_limit_member_text_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{adminCount, plural, =0 {You've hit the member limit for your org. To upgrade and add more people, send a message to one of your admins.} =1 {You've hit the member limit for your org. Ask <0></0> to upgrade so you can invite more people.} other {You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{adminCount, plural, =0 {You've hit the member limit for your org. To upgrade and add more people, send a message to one of your admins.} =1 {You've hit the member limit for your org. Ask <0></0> to upgrade so you can invite more people.} other {You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error for member when hitting member limit for tenant{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

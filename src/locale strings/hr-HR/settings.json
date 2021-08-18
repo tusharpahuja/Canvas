@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sustav",
+  "general_settings_system_auto_start_toggle": "Automatski pokreći Teams",
+  "notification_settings_details_message_preview_header_text": "Pretpregled poruke",
+  "notification_settings_edit_chat_button_aria_label": "Uređivanje obavijesti vezanih uz čavrljanje",
+  "notification_settings_details_chat_messages_text": "Poruke",
+  "notification_settings_warning_windows_tfw": "Ponovno provjerite postavke obavijesti u sustavu Windows da biste bili sigurni da ćete moći primati obavijesti aplikacije Teams. <0></0>",
+  "settings_loader_text": "Učitavanje sadržaja...",
+  "dropdown_settings_selected_text": "{{value}} odabrano",
+  "read_receipts_title": "Potvrde čitanja",
+  "read_receipts_description": "Neka osobe znaju kada ste vidjeli njihove poruke i znajte kada su oni vidjeli vaše. Zatvorite i ponovo otvorite bilo koji prozor čavrljanja da bi postavka stupila na snagu u tim čavrljanjima.",
+  "read_receipts_label": "Potvrde čitanja"
+}

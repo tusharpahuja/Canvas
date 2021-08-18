@@ -1,0 +1,9 @@
+{
+  "value_prop": "友達、家族、および同僚を整理してつながる",
+  "initializing_message": "準備が終わるまでもう少しお待ちください...",
+  "open_teams_on_web": "Web 版の Teams を開く",
+  "error_message_header": "問題が発生しました",
+  "setup_error_message": "設定中に問題が発生しました",
+  "troubleshoot_issue": "問題のトラブルシューティング",
+  "retry_flyout_launch": "再試行"
+}

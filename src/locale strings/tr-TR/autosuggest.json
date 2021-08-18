@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{1} içinde {0}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Öneri yok.||1->2::{0}öneri mevcut: ||2->3::{0} öneri mevcut: ||3->INF::{0} öneri mevcut:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::{0} için öneri yok.||1->2::{0} için {1} öneri mevcut: ||2->3::{0} için {1} öneri mevcut: ||3->INF::{0}: için{1} öneri mevcut:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Adsız grup",
+  "autosuggest_sb_search_box_clear_button_label": "Arama kutusunu temizle",
+  "autosuggest_sb_search_box_submit_button_label": "Arama",
+  "autosuggest_sb_search_box_view_all_results_label": "Tüm sonuçları görüntülemek için Enter tuşuna basın",
+  "autosuggest_people_group_heading": "Kişiler",
+  "autosuggest_chats_group_heading": "Grup sohbetleri",
+  "autosuggest_zero_term_group_aria_label": "Son aramalar"
+}

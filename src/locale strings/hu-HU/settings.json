@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Rendszer",
+  "general_settings_system_auto_start_toggle": "A Teams automatikus indítása",
+  "notification_settings_details_message_preview_header_text": "Üzenet előnézete",
+  "notification_settings_edit_chat_button_aria_label": "Csevegési értesítések szerkesztése",
+  "notification_settings_details_chat_messages_text": "Üzenetek",
+  "notification_settings_warning_windows_tfw": "Ellenőrizze még egyszer a Windows értesítési beállításait, hogy biztosan megkapja a Teams értesítéseit. <0></0>",
+  "settings_loader_text": "Tartalom betöltése...",
+  "dropdown_settings_selected_text": "{{value}} kiválasztva",
+  "read_receipts_title": "Olvasási visszaigazolások",
+  "read_receipts_description": "Engedélyezheti mások számára, hogy lássák, amikor Ön elolvassa az üzenetük, illetve láthatja, ők mikor olvassák el az Ön üzenetét. Zárja be és nyissa meg a csevegési ablakot a beállítások hatályba lépéséhez a csevegésben.",
+  "read_receipts_label": "Olvasási visszaigazolások"
+}

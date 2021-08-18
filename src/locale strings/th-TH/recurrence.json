@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{เกิดขึ้นทุกวัน} =2{เกิดขึ้นวันเว้นวัน} other{เกิดขึ้นทุก # วัน}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{เกิดขึ้นทุก {days} วัน} =2{เกิดขึ้นทุก {days} วัน} other{เกิดขึ้นทุก # สัปดาห์ในวัน {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{เกิดขึ้นทุกเดือนในวันที่ {day}} =2{เกิดขึ้นเดือนเว้นเดือนในวันที่ {day}} other{เกิดขึ้นทุก # เดือนในวันที่ {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{เกิดขึ้นทุกเดือนในวัน {weekInMonthIndex} ที่ {weekday}} =2{เกิดขึ้นเดือนเว้นเดือนในวัน {weekInMonthIndex} ที่ {weekday}} other{เกิดขึ้นทุก # เดือนในวัน {weekday} ที่ {weekInMonthIndex}}}",
+  "meeting_recurrence_pattern_yearly": "เกิดขึ้นทุก {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "เกิดขึ้นทุก {{dayOfTheWeekIndex}} {{dayOfTheWeek}} ของ {{month}}"
+}

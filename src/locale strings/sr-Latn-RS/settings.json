@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistem",
+  "general_settings_system_auto_start_toggle": "Automatski pokreni Teams",
+  "notification_settings_details_message_preview_header_text": "Pregled poruke",
+  "notification_settings_edit_chat_button_aria_label": "Uredite obaveštenja o ćaskanju",
+  "notification_settings_details_chat_messages_text": "Poruke",
+  "notification_settings_warning_windows_tfw": "Proverite Windows postavke obaveštenja još jednom da biste se uverili da možete da primate Teams obaveštenja. <0></0>",
+  "settings_loader_text": "Učitavanje sadržaja…",
+  "dropdown_settings_selected_text": "Izabrana je {{value}}",
+  "read_receipts_title": "Potvrde čitanja",
+  "read_receipts_description": "Obavestite ljude kada ste videli njihove poruke i kad vide vaše. Zatvorite i ponovo otvorite sve prozore za ćaskanje da bi podešavanje stupilo na snagu u tim ćaskanjima.",
+  "read_receipts_label": "Potvrde čitanja"
+}

@@ -1,0 +1,11 @@
+{
+  "home_page_message": "يتم الآن التحميل...",
+  "lobby_screen_exit_message": "الخروج من ساحة الانتظار",
+  "calling_join_button_audio": "الانضمام إلى مكالمة صوتية",
+  "calling_join_button_video": "الانضمام إلى مكالمة بالفيديو",
+  "calling_screen_meeting_id": "معرف الاجتماع: {{conferenceId}}",
+  "meeting_room_present_content": "تقديم",
+  "meeting_room_connected_device": "الجهاز الموصّل",
+  "meeting_room_content_camera": "كاميرا المحتوى",
+  "meeting_room_cortana_button_title": "Cortana"
+}

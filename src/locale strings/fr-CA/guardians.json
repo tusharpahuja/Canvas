@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Chargement de la liste des Parents",
+  "guardians_table": "Liste des parents pour {{classTeam}}",
+  "students": "Étudiants",
+  "guardians": "Parents / Tuteurs",
+  "chatButton": "Bouton Discuter",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# parent ou tuteur supplémentaire. Agrandir pour ouvrir la liste} one {# parents ou tuteurs supplémentaires. Agrandir pour ouvrir la liste} other{# parents ou tuteurs supplémentaires. Agrandir pour ouvrir la liste} }",
+  "guardians_student_label": "{{studentName}}, état {{status}}, ouvre la carte de visite",
+  "guardians_user_unknown_label": "Utilisateur inconnu",
+  "guardians_status_unknown_label": "Inconnu",
+  "guardians_overflow_members": "Autres parents ou gardiens de {{studentName}} {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Démarrer une session de clavardage avec le gardien de {studentName}} one {Démarrer une session de clavardage avec les gardiens de {studentName}} other{Démarrer une session de clavardage avec les gardiens de {studentName}}}",
+  "guardians_chat_button_disabled_title": "Accès externe désactivé par un administrateur",
+  "guardians_chat_button_disabled_alt_title": "Demandez à votre administrateur d’ajouter des informations de contact d’un gardien pour rendre la session de clavardage disponible",
+  "empty_state_title": "Les parents et tuteurs n’ont pas été ajoutés",
+  "empty_state_subtitle": "Demandez à votre administrateur informatique de les ajouter afin que vous puissiez le contacter rapidement à partir d’ici. <0></0>",
+  "empty_state_link": "Voir plus",
+  "error_state_title": "Un problème est survenu. Réessayez plus tard.",
+  "not_owner_error_state_title": "Seuls les propriétaires de l’équipe de classe peuvent consulter les informations de parent et de tuteur. Demandez au propriétaire de l’équipe de vous accorder l’accès.",
+  "retry_button_title": "Réessayer",
+  "transient_error_state_title": "Désolé... Un problème est survenu. Veuillez réessayer.",
+  "notification_banner_content": "Nous avons rencontré un problème lors du chargement d’autres informations sur le parent et le gardien. Veuillez réessayer plus tard."
+}

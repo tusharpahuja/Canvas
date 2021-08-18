@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{1} में {0}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::कोई सुझाव नहीं.||1->2::{0} सुझाव उपलब्ध: ||2->3::{0} सुझाव उपलब्ध: ||3->INF::{0} सुझाव उपलब्ध:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::{0} के लिए कोई सुझाव नहीं.||1->2::{1} {0} के लिए सुझाव उपलब्ध: ||2->3::{1} {0} के लिए सुझाव उपलब्ध: ||3->INF::{1} {0} के लिए सुझाव उपलब्ध:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "अनामांकित समूह",
+  "autosuggest_sb_search_box_clear_button_label": "खोज बॉक्स साफ़ करें",
+  "autosuggest_sb_search_box_submit_button_label": "खोजें",
+  "autosuggest_sb_search_box_view_all_results_label": "सभी परिणामों को देखने के लिए enter दबाएँ",
+  "autosuggest_people_group_heading": "लोग",
+  "autosuggest_chats_group_heading": "समूह चैट्स",
+  "autosuggest_zero_term_group_aria_label": "हाल ही की खोज"
+}

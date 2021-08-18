@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "No hay disponible ningún informe de Asesor de reunión",
+  "coach_report_no_data_too_short": "Activar el Entrenador de reunión durante más de 1 minuto para obtener acceso a tu informe",
+  "coach_report_no_data_too_long": "Lo sentimos, el asistente para reuniones no admite reuniones de más de 2 horas",
+  "coach_report_title": "Ideas del Asesor de reunión",
+  "coach_report_private_label": "Privado",
+  "coach_report_settings": "Configuración",
+  "coach_report_subtitle": "* Solo tú puedes ver el informe de Asesor.",
+  "coach_report_chart_title": "Sugerencias de la reunión",
+  "coach_report_card_checkbox": "Guardar siempre esta pantalla y omitirla en futuras sesiones",
+  "coach_report_save_button": "Guardar",
+  "coach_report_delete_button": "Eliminar",
+  "coach_report_save_button_tooltip": "Encontrarla más tarde en la página de la reunión",
+  "coach_report_feedback_before_submit": "¿Es útil esta información?",
+  "coach_report_feedback_after_submit": "Gracias por tus comentarios",
+  "coach_report_feedback_yes_button": "Sí",
+  "coach_report_feedback_no_button": "No",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} de {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Anterior",
+  "coach_report_next_critique_button": "Siguiente"
+}

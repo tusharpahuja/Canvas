@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "ใช้บัญชีอื่น",
+  "tflFre_Learn_More_Link_caption": "ใครสามารถมองเห็นได้บ้าง",
+  "tflFre_OK_Button_caption": "เริ่มกันเลย",
+  "tflFre_dialog_Aria": "ยินดีต้อนรับสู่ Teams คุณต้องการแสดงบน Teams อย่างไร บุคคลอื่นสามารถค้นหาคุณได้โดยใช้ข้อมูลนี้",
+  "tflFre_header": "ยินดีต้อนรับ",
+  "tflFre_phone_and_email_flyout": "ไปที่บัญชี Microsoft ของคุณเพื่อจัดการหมายเลขโทรศัพท์และอีเมล",
+  "tflFre_who_can_see_this_flyout": "ผู้อื่นจะมองเห็นชื่อของคุณและรูปภาพประจำตัวบัญชี Microsoft บน Teams นอกจากนี้ ผู้อื่นยังสามารถค้นหาคุณบน Teams ได้โดยใช้หมายเลขโทรศัพท์และอีเมลของคุณ",
+  "tflFre_learn_more_link_text": "เรียนรู้เพิ่มเติม",
+  "tflFre_sync_contacts_checkbox": "ซิงค์ที่ติดต่อ Skype และ Outlook ของฉันเพื่อค้นหาบุคคลที่ฉันรู้จักใน Teams",
+  "tflFre_people_Can_Search_For_You_Using": "บุคคลสามารถค้นหาคุณได้โดยใช้:",
+  "tflFre_loading_spinner_text": "กำลังโหลด...",
+  "tflFre_stamping_error_dialog_header": "ไม่สามารถอัปเดตโปรไฟล์ของคุณได้",
+  "tflFre_stamping_error_dialog_body": "เราไม่สามารถอัปเดตข้อมูลโปรไฟล์ของคุณได้ ให้เลือก \"ใช้บัญชีอื่น\" เพื่อออกจากระบบและใช้บัญชีอื่น เลือก \"ลองใหม่\" เพื่อลองอัปเดตโปรไฟล์ของคุณใหม่",
+  "tflFre_error_dialog_retry_button": "ลองอีกครั้ง",
+  "tflFre_error_dialog_sign_out_button": "ใช้บัญชีอื่น",
+  "tflFre_fetch_error_dialog_header": "ไม่สามารถดึงข้อมูลโปรไฟล์ของคุณได้",
+  "tflFre_fetch_error_dialog_body": "เราไม่สามารถดึงข้อมูลโปรไฟล์ของคุณได้ ให้เลือก \"ใช้บัญชีอื่น\" เพื่อออกจากระบบและใช้บัญชีอื่น เลือก \"ลองใหม่\" เพื่อลองดึงข้อมูลโปรไฟล์ของคุณใหม่",
+  "tflFre_welcome_edit_header": "ยินดีต้อนรับสู่ Teams",
+  "tflFre_welcome_edit_second_header": "คุณต้องการให้ปรากฏอย่างไร",
+  "tflFre_phone_field_header": "โทรศัพท์",
+  "tflFre_email_field_header": "อีเมล"
+}

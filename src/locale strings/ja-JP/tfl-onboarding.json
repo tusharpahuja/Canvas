@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "別のアカウントを使用",
+  "tflFre_Learn_More_Link_caption": "これが表示されるユーザー",
+  "tflFre_OK_Button_caption": "始めましょう",
+  "tflFre_dialog_Aria": "Teams へようこそ。Teams での表示内容を指定してください。他のユーザーはこの情報を使用して検索できます",
+  "tflFre_header": "ようこそ",
+  "tflFre_phone_and_email_flyout": "Microsoft アカウントにアクセスして、電話番号とメールを管理します。",
+  "tflFre_who_can_see_this_flyout": "名前と Microsoft アカウントの画像が Teams の他のユーザーに表示されます。電話番号とメールを使用して、Teams でユーザーを検索することもできます。",
+  "tflFre_learn_more_link_text": "詳細情報",
+  "tflFre_sync_contacts_checkbox": "Skype と Outlook の連絡先を同期して、Teams で知っているユーザーを検索します。",
+  "tflFre_people_Can_Search_For_You_Using": "ユーザーが次の情報を使用してお客様を検索することができます:",
+  "tflFre_loading_spinner_text": "読み込み中...",
+  "tflFre_stamping_error_dialog_header": "プロファイルを更新できませんでした",
+  "tflFre_stamping_error_dialog_body": "プロファイル情報を更新できませんでした。[別のアカウントを使用] を選択してログアウトし、別のアカウントを使用します。[もう一度試す] を選択して、プロファイルの更新を再試行します",
+  "tflFre_error_dialog_retry_button": "再試行",
+  "tflFre_error_dialog_sign_out_button": "別のアカウントを使用",
+  "tflFre_fetch_error_dialog_header": "プロファイルを取得できませんでした",
+  "tflFre_fetch_error_dialog_body": "プロファイル情報を取得できませんでした。[別のアカウントを使用] を選択してログアウトし、別のアカウントを使用します。[もう一度試す] を選択して、プロファイルの取得を再試行します",
+  "tflFre_welcome_edit_header": "Teams へようこそ",
+  "tflFre_welcome_edit_second_header": "どのように自分を表示しますか?",
+  "tflFre_phone_field_header": "電話番号",
+  "tflFre_email_field_header": "メール"
+}

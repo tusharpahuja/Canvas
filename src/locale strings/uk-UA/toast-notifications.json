@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} згадує вас",
+  "toast_messaging_reaction": "Користувач {{sender}} відреагував на ваше повідомлення",
+  "toast_messaging_default_group_topic": "Невідомий",
+  "toast_messaging_default_user_given_name": "Невідомий",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Надіслати",
+  "toast_messaging_quickreply_placeholder_text": "Надіслати швидку відповідь",
+  "toast_messaging_activity_text": "Поспілкуватися з {{participants}}",
+  "toast_messaging_activity_text_with_count": "Чат із користувачем {{participants}} +{{count}}"
+}

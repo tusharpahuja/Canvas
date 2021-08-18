@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "問題が発生したため、グループを追加できませんでした。",
+  "peoplePicker_dlTooManyMembers": "{{dlName}} ({{dlMemberCount}}) を追加できませんでした。チャットを開始できるのは {{maxSize}} 人以下です。",
+  "peoplePicker_focusSelectedUser": "{{username}}。Backspace キーまたは Delete キーを使用して削除します。他のチャット受信者に移動するには左右の方向キーを使用します。",
+  "peoplePicker_loadingMessage": "読み込み中...",
+  "peoplePicker_newAddGroupNameButtonContent": "グループ名を追加",
+  "peoplePicker_collapseGroupNameButtonContent": "グループ名を折りたたむ",
+  "peoplePicker_federationWarning": "Enterprise または学校のアカウントではまだチャットを利用できません。詳細情報。",
+  "peoplePicker_noResults": "該当するものが見つかりませんでした。",
+  "peoplePicker_resultsUpdationAriaLabel": "検索結果が更新されました。上下の方向キーを使用して移動し、Enter キーで選択します。",
+  "peoplePicker_search_externally_btn_text": "外部で{{email}}を検索",
+  "peoplePicker_tflToLinePlaceholder": "名前、メール、または電話番号を入力",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "削除",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} さんが一覧から選択されました。",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}} さん、{{description}}、{{resultCount}} 件中 {{index}} 件目です。",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} さんが一覧から削除されました。"
+}

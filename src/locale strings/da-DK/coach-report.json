@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Der er ingen tilgængelige coach-rapporter for mødet",
+  "coach_report_no_data_too_short": "Slå mødecoach til i mere end 1 minut for at få adgang til din rapport",
+  "coach_report_no_data_too_long": "Vi beklager, men mødecoach understøtter ikke møder, der er længere end 2 timer",
+  "coach_report_title": "Dine coach-indsigter for mødet",
+  "coach_report_private_label": "Privat",
+  "coach_report_settings": "Indstillinger",
+  "coach_report_subtitle": "* Din coach-rapport er kun synlig for dig.",
+  "coach_report_chart_title": "Forslag fra dit møde",
+  "coach_report_card_checkbox": "Gem og spring altid dette skærmbillede over i fremtidige sessioner",
+  "coach_report_save_button": "Gem",
+  "coach_report_delete_button": "Slet",
+  "coach_report_save_button_tooltip": "Find det senere på møde siden",
+  "coach_report_feedback_before_submit": "Er dette nyttigt?",
+  "coach_report_feedback_after_submit": "Tak for din feedback",
+  "coach_report_feedback_yes_button": "Ja",
+  "coach_report_feedback_no_button": "Nej",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} af {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Forrige",
+  "coach_report_next_critique_button": "Næste"
+}

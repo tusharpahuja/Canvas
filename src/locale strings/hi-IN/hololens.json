@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HoloLens",
+  "indicator_mobile_short": "द‌ठ",
+  "indicator_mobile_long": "मोबाइल द‌ठ",
+  "toolbar_arrow": "तीर रखें",
+  "toolbar_ink": "इंक",
+  "toolbar_color_picker": "कोई रंग चुनें",
+  "toolbar_color_yellow": "पीला",
+  "toolbar_color_blue": "नीला",
+  "toolbar_color_gray": "धूसर",
+  "toolbar_color_green": "हरा",
+  "toolbar_color_red": "लाल",
+  "toolbar_insert_file": "फ़ाइल सम्मिलित करें",
+  "toolbar_undo": "पूर्ववत् करें",
+  "toolbar_erase_all_current_session": "वर्तमान संपादन सत्र से सभी को मिटाएँ",
+  "toolbar_erase_all": "सभी को मिटाएँ",
+  "toolbar_start_editing": "संपादन प्रारंभ करें",
+  "toolbar_stop_editing": "संपादन रोकें"
+}

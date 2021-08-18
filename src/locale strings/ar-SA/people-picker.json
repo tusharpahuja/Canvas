@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "حدث شيء ما، ولم نتمكن من إضافة المجموعة.",
+  "peoplePicker_dlTooManyMembers": "لم نتمكن من إضافة {{dlName}} ({{dlMemberCount}}). يمكنك فقط بدء محادثة مع {{maxSize}} أشخاص أو أقل.",
+  "peoplePicker_focusSelectedUser": "{{username}}. استخدم مفتاح مسافة للخلف أو مفتاح delete للإزالة. استخدم المفاتيح اليسرى أو اليمنى لمُستلمي الدردشة الآخرين.",
+  "peoplePicker_loadingMessage": "يتم الآن التحميل...",
+  "peoplePicker_newAddGroupNameButtonContent": "إضافة اسم مجموعة",
+  "peoplePicker_collapseGroupNameButtonContent": "طي اسم المجموعة",
+  "peoplePicker_federationWarning": "لم تتوفر بعد المحادثة باستخدام حسابات المؤسسة أو المؤسسة المدرسية. تعرف على المزيد.",
+  "peoplePicker_noResults": "تعذّر العثور على أي تطابقات.",
+  "peoplePicker_resultsUpdationAriaLabel": "تم تحديث نتائج البحث. استخدم مفتاحي السهم لأعلى ولأسفل للتنقل، ومفتاح الإدخال enter للتحديد.",
+  "peoplePicker_search_externally_btn_text": "البحث عن {{email}} خارجيًا",
+  "peoplePicker_tflToLinePlaceholder": "أدخل الاسم أو البريد الإلكتروني أو رقم الهاتف",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "إزالة",
+  "peoplePicker_userAdditionAriaLabel": "تم تحديد {{username}} من القائمة.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}، {{description}}، {{index}} من {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "تمت إزالة {{username}} من القائمة."
+}

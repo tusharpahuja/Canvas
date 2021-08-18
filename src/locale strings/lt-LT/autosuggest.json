@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} iš {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Pasiūlymų nėra.||1->2::yra {0} pasiūlymai: ||2->3::yra {0} pasiūlymai: ||3->INF::yra {0} pasiūlymai (-ų):",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::nėra pasiūlymų, skirtų {0}.||1->2::yra {1} pasiūlymas, skirtas {0}: ||2->3::yra {1} pasiūlymai, skirti {0}: ||3->INF::yra {1} pasiūlymai (-ų), skirti (-ų) {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grupė be pavadinimo",
+  "autosuggest_sb_search_box_clear_button_label": "Išvalyti ieškos lauką",
+  "autosuggest_sb_search_box_submit_button_label": "Ieška",
+  "autosuggest_sb_search_box_view_all_results_label": "Norėdami peržiūrėti visus rezultatus, paspauskite Enter",
+  "autosuggest_people_group_heading": "Žmonės",
+  "autosuggest_chats_group_heading": "Grupės pokalbiai",
+  "autosuggest_zero_term_group_aria_label": "Vėliausios ieškos"
+}

@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Erakundearen kide mugara iritsi zara. Bertsio-berritu eta jende gehiago gehitzeko, bidali mezu bat administratzaileetako bati.} =1 {Erakundearen kide mugara iritsi zara. Jende gehiago gonbidatu ahal izateko, eskatu honi bertsio-berritzeko: <0></0>.} one {Erakundearen kide mugara iritsi zara. Eskatu <0></0> bati bertsio-berritzeko jende gehiago gonbidatu ahal izateko.} other {Erakundearen kide mugara iritsi zara. Eskatu <0></0> bati bertsio-berritzeko jende gehiago gonbidatu ahal izateko.}}"
+}

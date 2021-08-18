@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Stream-ის ვებ-მისამართი",
+  "stream_url_placeholder": "შეიყვანეთ Stream-ის URL",
+  "stream_key_label": "Stream-ის გასაღები",
+  "stream_key_placeholder": "შეიყვანეთ Stream-ის გასაღები",
+  "start_streaming_button_text": "სტრიმინგის დაწყება",
+  "stop_streaming_button_text": "სტრიმინგის შეწყვეტა",
+  "custom_streaming_config_page_description": "მორგებული სტრიმინგი შენი ხელსაწყოა Teams-ის ონლაინ-კრების სტრიმინგით გადასაცემად იმ საჯარო პლატფორმებზე, რომლებიც მუშაობს RTMP პლატფორმაზე",
+  "custom_streaming_config_page_first_greeting": "მოგესალმებათ მორგებული სტრიმინგი!",
+  "custom_streaming_config_page_second_greeting": "მოხარული ვართ თქვენი აქ ყოფნით",
+  "custom_streaming_error_meeting_limit_reached": "ამ ონლაინ-კრების სტრიმინგით გადაცემა მიმდინარე პარამეტრებით შეუძლებელია. შეზღუდეთ დამსწრეთა რაოდენობა 1000-მდე.",
+  "custom_streaming_error_permission_denied": "თქვენ არ გაქვთ სტრიმინტის ნებართვები. შიგთავსის სტრიმინგით გადასაცემად დაუკავშირდით თქვენს ადმინისტრატორს ან ორგანიზატორს",
+  "custom_streaming_error_outdated_client": "გასაგრძელებლად Teams მოითხოვს განახლებას. ხელახლა ჩატვირთეთ აპი და დარწმუნდით, რომ გაქვთ უახლესი ფუნქციები.",
+  "custom_streaming_error_unknown": "უცნობი შეფერხებაა. სცადეთ ხელახლა.",
+  "custom_streaming_error_unsupported_platform": "ეს ფუნქცია ჯერ არ არის მხარდაჭერილი ბრაუზერში. სცადეთ ხელახლა Teams-ის სამუშაო დაფის ვერსიიდან.",
+  "custom_streaming_tab_title": "მორგებული სტრიმინგი"
+}

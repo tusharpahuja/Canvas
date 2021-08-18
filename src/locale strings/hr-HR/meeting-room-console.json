@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Učitavanje...",
+  "lobby_screen_exit_message": "Izađite iz predvorja",
+  "calling_join_button_audio": "Pridružite se pozivu uz zvuk",
+  "calling_join_button_video": "Pridružite se pozivu uz videozapis",
+  "calling_screen_meeting_id": "ID sastanka: {{conferenceId}}",
+  "meeting_room_present_content": "Izlaganje",
+  "meeting_room_connected_device": "Povezani uređaj",
+  "meeting_room_content_camera": "Kamera za sadržaj",
+  "meeting_room_cortana_button_title": "Cortana"
+}

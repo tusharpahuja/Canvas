@@ -1,0 +1,18 @@
+{
+  "app_display_name": "PTZ камераның басқару элементтері",
+  "app_unsupported_host_client_page_text": "PTZ камерасының басқару элементтері қолжетімсіз",
+  "app_picker_placeholder": "Қатысушыны таңдау",
+  "app_dpad_reset_button": "Қалпына келтіру",
+  "app_dpad_up_button": "Үстін панорамалау",
+  "app_dpad_down_button": "төмен панорамалау",
+  "app_dpad_right_button": "Оңға қисайту",
+  "app_dpad_left_button": "Солға қисайту",
+  "app_zoom_label": "Масштабтау",
+  "app_zoom_in_button": "Үлкейту",
+  "app_zoom_out_button": "Кішірейту",
+  "app_pinvideo_label": "Пайдаланушының бейнесін бекіту",
+  "error_no_controllable_cameras": "Басқарылатын камералар қолжетімді емес",
+  "error_general": "Бірдеңе дұрыс болмады",
+  "alert_user_terminated_controls": "Пайдаланушы PTZ басқару элементтерін өшірді",
+  "alert_user_terminated_controls_dismiss": "Ok"
+}

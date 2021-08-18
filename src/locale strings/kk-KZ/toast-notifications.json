@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} атты пайдаланушы сіздің атыңызға сілтеме жасады",
+  "toast_messaging_reaction": "{{sender}} атты пайдаланушы хабарыңызға жауап берді",
+  "toast_messaging_default_group_topic": "Белгісіз",
+  "toast_messaging_default_user_given_name": "Белгісіз",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Жіберу",
+  "toast_messaging_quickreply_placeholder_text": "Жылдам жауап жіберу",
+  "toast_messaging_activity_text": "{{participants}} қатысушымен сөйлесу",
+  "toast_messaging_activity_text_with_count": "{{participants}} және тағы {{count}} пайдаланушымен сөйлесу"
+}

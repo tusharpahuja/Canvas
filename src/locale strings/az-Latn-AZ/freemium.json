@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Təşkilatınız üçün üzv limitinə çatmısınız. Yeniləşdirmək və daha çox şəxs əlavə etmək üçün inzibatçılarınızdan birinə mesaj göndərin.} =1 {Təşkilatınız üçün üzv limitinə çatmısınız. Daha çox insan dəvət edə bilmək üçün <0></0> statusu yüksəltməsini istəyin.} one {Təşkilatınızın üzv limitinə çatmısınız. <0></0> hər hansı birindən daha çox insan dəvət edə bilmək üçün statusu yüksəltməyi istəyin.} other {Təşkilatınızın üzv limitinə çatmısınız. <0></0> hər hansı birindən daha çox insan dəvət edə bilmək üçün statusu yüksəltməyi istəyin.}}"
+}

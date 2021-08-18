@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "サインアウト",
+  "me_control_sign_out_button_aria_label": "Microsoft からサインアウト",
+  "me_control_my_microsoft_account_button_text": "自分の Microsoft アカウント",
+  "me_control_my_microsoft_account_button_aria_label": "自分の Microsoft アカウント",
+  "me_control_change_picture_aria_label": "プロファイル写真を変更",
+  "me_control_trigger_aria_label": "プロファイル",
+  "me_control_menu_aria_label": "プロファイル メニュー",
+  "app_bar_activity_app_name": "アクティビティ",
+  "app_bar_activity_app_arialabel": "アクティビティ",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# 件の新しいアクティビティ} other{# 件の新しいアクティビティ}}",
+  "app_bar_activity_app_tooltip": "アクティビティ",
+  "app_bar_chat_app_name": "チャット",
+  "app_bar_chat_app_arialabel": "チャット",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# 件のチャットと新しいメッセージ} other{# 件のチャットと新しいメッセージ}}",
+  "app_bar_chat_app_tooltip": "チャット",
+  "app_bar_calendar_app_name": "予定表",
+  "app_bar_calendar_app_arialabel": "予定表",
+  "app_bar_calendar_app_tooltip": "予定表",
+  "app_bar_calls_app_name": "通話",
+  "app_bar_calls_app_arialabel": "通話",
+  "app_bar_calls_app_tooltip": "通話"
+}

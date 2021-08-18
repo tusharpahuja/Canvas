@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Afig persones",
+  "embed_go_back_button": "Arrere",
+  "embed_provide_feedback": "Doneu-nos la vostra opinió:",
+  "embed_go_to": "Ves a {{title}}",
+  "embed_open_inside": "Obri a dins",
+  "embed_participants_in_chat": "Participants ({{membersCount}})",
+  "embed_pop_out_chat": "Separeu el xat",
+  "embed_pop_in_back": "Torna a fixar a la finestra principal",
+  "embed_error_page_message": "S'ha produït un error",
+  "embed_error_page_try_again_button": "Torneu-ho a provar",
+  "embed_chats": "Xats del Microsoft Teams",
+  "embed_chat": "Xat del Microsoft Teams"
+}

@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "कोई मीटिंग प्रशिक्षक रिपोर्ट उपलब्ध नहीं",
+  "coach_report_no_data_too_short": "अपनी रिपोर्ट पर पहुँच प्राप्त करने के लिए 1 मिनट से अधिक के लिए मीटिंग कोच चालू करें",
+  "coach_report_no_data_too_long": "क्षमा करें, मीटिंग कोच 2 घंटे से अधिक की मीटिंग्स का समर्थन नहीं करता है",
+  "coach_report_title": "आपकी मीटिंग प्रशिक्षक इनसाइट्स",
+  "coach_report_private_label": "निजी",
+  "coach_report_settings": "सेटिंग्स",
+  "coach_report_subtitle": "* आपकी प्रशिक्षक रिपोर्ट केवल आपके लिए दृश्यमान है.",
+  "coach_report_chart_title": "आपकी मीटिंग से सुझाव",
+  "coach_report_card_checkbox": "भविष्य के सत्रों के लिए हमेशा इस स्क्रीन को सहेजें और छोड़ें",
+  "coach_report_save_button": "सहेजें",
+  "coach_report_delete_button": "हटाएँ",
+  "coach_report_save_button_tooltip": "इसे बाद में मीटिंग पृष्ठ पर खोजें",
+  "coach_report_feedback_before_submit": "क्या यह उपयोगी है?",
+  "coach_report_feedback_after_submit": "प्रतिक्रिया देने के लिए धन्यवाद",
+  "coach_report_feedback_yes_button": "हाँ",
+  "coach_report_feedback_no_button": "नहीं",
+  "coach_report_critique_navigation_text": "{{critiqueTotalCount}} में से {{critiqueCurrentCount}}",
+  "coach_report_previous_critique_button": "पिछला",
+  "coach_report_next_critique_button": "अगला"
+}

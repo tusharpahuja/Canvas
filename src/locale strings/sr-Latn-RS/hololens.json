@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "AR ZA MOBILNE UREĐAJE",
+  "toolbar_arrow": "Postavite strelicu",
+  "toolbar_ink": "Zapis perom",
+  "toolbar_color_picker": "Izaberite boju",
+  "toolbar_color_yellow": "Žuta",
+  "toolbar_color_blue": "Plava",
+  "toolbar_color_gray": "Siva",
+  "toolbar_color_green": "Zelena",
+  "toolbar_color_red": "Crvena",
+  "toolbar_insert_file": "Umetni datoteku",
+  "toolbar_undo": "Opozovi radnju",
+  "toolbar_erase_all_current_session": "Izbrišite sve iz trenutne sesije uređivanja",
+  "toolbar_erase_all": "Izbrišite sve",
+  "toolbar_start_editing": "Započni uređivanje",
+  "toolbar_stop_editing": "Zaustavite uređivanje"
+}

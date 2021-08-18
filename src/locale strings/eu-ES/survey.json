@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Bai",
+  "instant_answers_reaction_yes_aria_label": "Lagungarria iruditu zaizu informazioa? -- Bai",
+  "instant_answers_reaction_no": "Ez",
+  "instant_answers_reaction_no_aria_label": "Lagungarria iruditu zaizu informazioa? -- Ez",
+  "instant_answers_header_text": "Eskerrik asko oharrengatik!",
+  "instant_answers_header_subtext": "Zure oharretan oinarrituta, hona hemen agian lagungarria gertatuko zaizun informazioa:",
+  "instant_answers_footer_text": "Lagungarria iruditu zaizu informazioa?",
+  "include_screenshot_text": "Gehitu pantaila-argazkia",
+  "customer_feedback_dialog_email_label": "Zure helbide elektronikoa (aukerakoa)",
+  "customer_feedback_dialog_email_placeholder": "Gehitu helbide elektronikoa",
+  "customer_feedback_dialog_email_aria_label": "Zure helbide elektronikoa (aukerakoa)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Bidali sakatzean, zure iritzia Microsoft-en produktuak eta zerbitzuak hobetzeko erabiliko da. Zure informatika-administratzaileak datu horiek bil ditzake. Zure iritzian oinarrituz, informazio gehigarria emango dizugu laguntza teknikoaren arazoarekin laguntzeko.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Pribatutasun-adierazpena.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Itxi oharren koadroa",
+  "customer_feedback_dialog_adhoc_window_title": "Eman iritzia"
+}

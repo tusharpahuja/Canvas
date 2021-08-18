@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="survey.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="fi-FI" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";customer_feedback_dialog_adhoc_window_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Give feedback]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Anna palautetta]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The window title for Give Feedback window dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";customer_feedback_dialog_close_button_text_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close feedback dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sulje palautteen valintaikkuna]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label for the button to close the feedback dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";customer_feedback_dialog_disclaimer_ia_enabled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By pressing submit, your feedback will be used to improve Microsoft products and services. Your IT admin will be able to collect this data. Based on your feedback, we may provide additional information to help you with your support issue.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kun painat Lähetä, palautettasi käytetään parantamaan Microsoftin tuotteita ja palveluita. IT-järjestelmänvalvojasi voi kerätä näitä tietoja. Palautteen perusteella voimme antaa lisätietoja tukiongelman ratkaisemiseksi.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Customer feedback legal disclaimer. Updated to include disclaimer for instant-answers feature]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";customer_feedback_dialog_disclaimer_privacy_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy Statement.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tietosuojatiedot.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Customer feedback legal disclaimer link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";customer_feedback_dialog_email_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your email address (optional)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sähköpostiosoitteesi (valinnainen)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label for the text field for the user to optionally give their email address to Microsoft when sending feedback]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";customer_feedback_dialog_email_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your email address (optional)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sähköpostiosoitteesi (valinnainen)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that asks the user to input their email address]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";customer_feedback_dialog_email_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add email address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Lisää sähköpostiosoite]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text that asks the user to input their email address]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";include_screenshot_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Include screenshot]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sisällytä näyttökuva]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that asks if the user if they want to include a screenshot]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";instant_answers_footer_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Was this information helpful?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Oliko näistä tiedoista hyötyä?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that asks the user if they were helped by the instant answer provided to them]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";instant_answers_header_subtext" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Based on your feedback, here's some information you might find helpful:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tässä on tietoja, joista saattaa palautteesi perusteella olla sinulle hyötyä:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to explain to the user what the instant answer means]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";instant_answers_header_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thank you for your feedback!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kiitos palautteestasi!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The title of the instant answers window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";instant_answers_reaction_no" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ei]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text next to thumbs down reaction indicating that the text provided did not help the user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";instant_answers_reaction_no_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Was this information helpful? -- No]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Oliko näistä tiedoista hyötyä? – Ei]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label for the thumbs down reaction to the instant-answer displayed to the user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";instant_answers_reaction_yes" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Yes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kyllä]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text next to thumbs up reaction indicating that the text provided helped the user]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";instant_answers_reaction_yes_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Was this information helpful? -- Yes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Oliko näistä tiedoista hyötyä? – Kyllä]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label for the thumbs up reaction to the instant-answer displayed to the user]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

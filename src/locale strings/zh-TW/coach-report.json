@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "沒有會議教練報告",
+  "coach_report_no_data_too_short": "開啟會議教練超過 1 分鐘即可存取您的報告",
+  "coach_report_no_data_too_long": "很抱歉，會議教練不支援超過 2 小時的會議",
+  "coach_report_title": "您的會議教練深入解析",
+  "coach_report_private_label": "私人",
+  "coach_report_settings": "設定",
+  "coach_report_subtitle": "* 您的教練報告只有您可以看到。",
+  "coach_report_chart_title": "會議建議",
+  "coach_report_card_checkbox": "在未來的工作階段一律儲存並跳過此畫面",
+  "coach_report_save_button": "儲存",
+  "coach_report_delete_button": "刪除",
+  "coach_report_save_button_tooltip": "稍後在會議頁面中尋找",
+  "coach_report_feedback_before_submit": "這是否有幫助?",
+  "coach_report_feedback_after_submit": "感謝您的意見反應",
+  "coach_report_feedback_yes_button": "是",
+  "coach_report_feedback_no_button": "否",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} / {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "上一個",
+  "coach_report_next_critique_button": "下一個"
+}

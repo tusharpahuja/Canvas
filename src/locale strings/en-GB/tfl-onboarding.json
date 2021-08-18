@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Use another account",
+  "tflFre_Learn_More_Link_caption": "Who can see this",
+  "tflFre_OK_Button_caption": "Let's go",
+  "tflFre_dialog_Aria": "Welcome to Teams. How would you like to appear on Teams? People can search for you using this information",
+  "tflFre_header": "Welcome",
+  "tflFre_phone_and_email_flyout": "Visit your Microsoft account to manage your phone number and email.",
+  "tflFre_who_can_see_this_flyout": "Your name and Microsoft account picture will be visible to others on Teams. People can also search for you on Teams using your phone number and email.",
+  "tflFre_learn_more_link_text": "Learn more",
+  "tflFre_sync_contacts_checkbox": "Sync my Skype and Outlook contacts to find people I know on Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "People can search for you using:",
+  "tflFre_loading_spinner_text": "Loading...",
+  "tflFre_stamping_error_dialog_header": "Failed to Update Your Profile",
+  "tflFre_stamping_error_dialog_body": "We could not update your profile information. Select \"Use another account\" to logout and use another account. Select \"Retry\" to retry updating your profile",
+  "tflFre_error_dialog_retry_button": "Retry",
+  "tflFre_error_dialog_sign_out_button": "Use another account",
+  "tflFre_fetch_error_dialog_header": "Failed to Fetch Your Profile",
+  "tflFre_fetch_error_dialog_body": "We could not fetch your profile information. Select \"Use another account\" to logout and use another account. Select \"Retry\" to retry fetching your profile",
+  "tflFre_welcome_edit_header": "Welcome to Teams",
+  "tflFre_welcome_edit_second_header": "How would you like to appear?",
+  "tflFre_phone_field_header": "Phone",
+  "tflFre_email_field_header": "Email"
+}

@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Ez dago erabilgarri bilerako trebatzailearen txostenik",
+  "coach_report_no_data_too_short": "Aktibatu bilera-trebatzailea minutu bat baino gehiagoz txostena ikusteko",
+  "coach_report_no_data_too_long": "Bilera-trebatzaileak ez ditu onartzen 2 ordu baino gehiagoko bilerak",
+  "coach_report_title": "Zure bilerako trebatzailearen xehetasunak",
+  "coach_report_private_label": "Pribatua",
+  "coach_report_settings": "Ezarpenak",
+  "coach_report_subtitle": "* Zure entrenatzaile-txostena zuretzat bakarrik dago ikusgai.",
+  "coach_report_chart_title": "Bileraren inguruko iradokizunak",
+  "coach_report_card_checkbox": "Gorde eta saltatu beti pantaila hau hurrengo saioetarako",
+  "coach_report_save_button": "Gorde",
+  "coach_report_delete_button": "Ezabatu",
+  "coach_report_save_button_tooltip": "Aurkitu geroago ere bilera-orrian",
+  "coach_report_feedback_before_submit": "Lagungarria al da?",
+  "coach_report_feedback_after_submit": "Eskerrik asko oharrengatik",
+  "coach_report_feedback_yes_button": "Bai",
+  "coach_report_feedback_no_button": "Ez",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}}/{{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Aurrekoa",
+  "coach_report_next_critique_button": "Hurrengoa"
+}

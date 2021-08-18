@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "Поставяне на стрелка",
+  "toolbar_ink": "Ръкопис",
+  "toolbar_color_picker": "Изберете цвят",
+  "toolbar_color_yellow": "Жълто",
+  "toolbar_color_blue": "Синьо",
+  "toolbar_color_gray": "Сиво",
+  "toolbar_color_green": "Зелено",
+  "toolbar_color_red": "Червено",
+  "toolbar_insert_file": "Вмъкване на файл",
+  "toolbar_undo": "Отмяна",
+  "toolbar_erase_all_current_session": "Изтриване на всичко от текущата редакторска сесия",
+  "toolbar_erase_all": "Изтриване на всичко",
+  "toolbar_start_editing": "Стартиране на редактирането",
+  "toolbar_stop_editing": "Спиране на редактирането"
+}

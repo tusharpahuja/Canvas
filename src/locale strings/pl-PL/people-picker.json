@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Coś się stało i nie udało się dodać grupy.",
+  "peoplePicker_dlTooManyMembers": "Nie można dodać {{dlName}} ({{dlMemberCount}}). Czat można rozpocząć z maksymalnie {{maxSize}} osobami.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Aby usunąć, naciśnij klawisz Backspace lub Delete. Aby przejść do innych rozmówców na czacie, użyj klawisza strzałki w lewo lub strzałki w prawo.",
+  "peoplePicker_loadingMessage": "Trwa ładowanie...",
+  "peoplePicker_newAddGroupNameButtonContent": "Dodaj nazwę grupy",
+  "peoplePicker_collapseGroupNameButtonContent": "Zwiń nazwę grupy",
+  "peoplePicker_federationWarning": "Czatowanie przy użyciu kont służbowych nie jest jeszcze dostępne. Dowiedz się więcej.",
+  "peoplePicker_noResults": "Nie można znaleźć żadnych pasujących wyników.",
+  "peoplePicker_resultsUpdationAriaLabel": "Zaktualizowano wyniki wyszukiwania. Użyj klawiszy strzałek w górę i w dół, aby przechodzić między wynikami, a klawisza Enter, aby wybrać wynik.",
+  "peoplePicker_search_externally_btn_text": "Wyszukaj {{email}} na zewnątrz",
+  "peoplePicker_tflToLinePlaceholder": "Wprowadź nazwę, adres e-mail lub numer telefonu",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Usuń",
+  "peoplePicker_userAdditionAriaLabel": "Wybrano użytkownika {{username}} z listy.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} z {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Usunięto użytkownika {{username}} z listy."
+}

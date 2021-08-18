@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Legg til personar",
+  "embed_go_back_button": "Gå tilbake",
+  "embed_provide_feedback": "Gi oss tilbakemeldinga di:",
+  "embed_go_to": "Gå til {{title}}",
+  "embed_open_inside": "Opne på innsida",
+  "embed_participants_in_chat": "Deltakarar ({{membersCount}})",
+  "embed_pop_out_chat": "Opne chat i eit nytt vindauge",
+  "embed_pop_in_back": "Fest til hovudvindauget",
+  "embed_error_page_message": "Beklagar, men me støytte på ein feil",
+  "embed_error_page_try_again_button": "Prøv på nytt",
+  "embed_chats": "Microsoft Teams-chattar",
+  "embed_chat": "Microsoft Teams-chat"
+}

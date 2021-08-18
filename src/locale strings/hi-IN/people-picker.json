@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "कुछ हुआ और हम समूह को जोड़ने में सक्षम नहीं थे.",
+  "peoplePicker_dlTooManyMembers": "हम {{dlName}} ({{dlMemberCount}}) जोड़ने में असमर्थ थे. आप केवल {{maxSize}} या इससे कम लोगों के साथ चैट प्रारंभ कर सकते हैं.",
+  "peoplePicker_focusSelectedUser": "{{username}}. निकालने के लिए बैकस्पेस या डिलीट का उपयोग करें. अन्य चैट प्राप्तकर्ताओं के लिए बाईं या दाईं कुंजी का उपयोग करें.",
+  "peoplePicker_loadingMessage": "लोड हो रहा है...",
+  "peoplePicker_newAddGroupNameButtonContent": "समूह का नाम जोड़ें",
+  "peoplePicker_collapseGroupNameButtonContent": "समूह नाम सक्षिप्त करें",
+  "peoplePicker_federationWarning": "एंटरप्राइज़ या विद्यालय खातों के साथ चैट करना अभी तक उपलब्ध नहीं है. अधिक जानें.",
+  "peoplePicker_noResults": "हम कोई मेल नहीं मिला.",
+  "peoplePicker_resultsUpdationAriaLabel": "खोज परिणाम अद्यतित किए गए. नेविगेट करने के लिए ऊपर या नीचे कुंजी का उपयोग करें, चयन करने के लिए इंटर कुंजी का उपयोग करें.",
+  "peoplePicker_search_externally_btn_text": "बाहरी रूप से {{email}} खोजें",
+  "peoplePicker_tflToLinePlaceholder": "नाम, ईमेल या फ़ोन नंबर दर्ज करें",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "निकालें",
+  "peoplePicker_userAdditionAriaLabel": "सूची से {{username}} चयनित.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} का {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} सूची से निकाला गया."
+}

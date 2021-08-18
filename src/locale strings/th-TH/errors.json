@@ -1,0 +1,18 @@
+{
+  "default_app_description": "ขออภัย มีบางอย่างผิดพลาด!",
+  "default_app_title": "ขออภัย มีบางอย่างผิดพลาด! (ข้อผิดพลาดของแอป)",
+  "default_network_error_description": "ขออภัย ปัญหาเครือข่าย!",
+  "default_network_error_title": "ขออภัย ปัญหาเครือข่าย!",
+  "default_unknown_description": "ขออภัย มีบางอย่างผิดพลาด!",
+  "default_unknown_title": "ขออภัย มีบางอย่างผิดพลาด!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "ขออภัย มีบางอย่างผิดพลาด! (ข้อผิดพลาดหลัก)",
+  "default_core_error_title": "รหัสข้อผิดพลาด : ข้อผิดพลาดหลัก",
+  "default_fetch_description": "ขออภัย มีบางอย่างผิดพลาด! (ข้อผิดพลาดในการดึงข้อมูล CDL)",
+  "default_fetch_title": "รหัสข้อผิดพลาด: ข้อผิดพลาดในการดึงข้อมูล CDL",
+  "default_service_description": "ขออภัย มีบางอย่างผิดพลาด! (ข้อผิดพลาดของบริการ CDL)",
+  "default_service_title": "รหัสข้อผิดพลาด: ข้อผิดพลาดของบริการ CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

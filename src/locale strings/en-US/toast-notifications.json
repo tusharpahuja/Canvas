@@ -1,0 +1,22 @@
+{
+  "toast_messaging_mention": "{{sender}} mentioned you",
+  "_toast_messaging_mention.comment": "Title of the toast notification. The {{sender}} user has mentioned the current user.",
+  "toast_messaging_reaction": "{{sender}} reacted to your message",
+  "_toast_messaging_reaction.comment": "Title of the toast notification. The {{sender}} user has reacted to a message of the current user.",
+  "toast_messaging_default_group_topic": "Unknown",
+  "_toast_messaging_default_group_topic.comment": "Fallback text to show when we cannot retrieve a group chat's title",
+  "toast_messaging_default_user_given_name": "Unknown",
+  "_toast_messaging_default_user_given_name.comment": "Fallback text to show when we cannot retrieve a user's given name",
+  "toast_messaging_group_topic": "{{participants}}",
+  "_toast_messaging_group_topic.comment": "Comma separated list of group chat's participants (given name).",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "_toast_messaging_group_topic_with_count.comment": "Comma separated list of some of the group chat's participants (given name) plus the count of the other ones not listed.",
+  "toast_messaging_quickreply_button_text": "Send",
+  "_toast_messaging_quickreply_button_text.comment": "Text label of the send button of the quick reply's field of the toast.",
+  "toast_messaging_quickreply_placeholder_text": "Send a quick reply",
+  "_toast_messaging_quickreply_placeholder_text.comment": "Placeholder text in the quick reply's text field of the toast.",
+  "toast_messaging_activity_text": "Chat with {{participants}}",
+  "_toast_messaging_activity_text.comment": "Chat (as object) with a comma separated list of its participants (given name).",
+  "toast_messaging_activity_text_with_count": "Chat with {{participants}} +{{count}}",
+  "_toast_messaging_activity_text_with_count.comment": "Chat (as object) with a comma separated list of some of its participants (given name) plus the count of the other ones not listed."
+}

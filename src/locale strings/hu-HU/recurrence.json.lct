@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="recurrence.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="hu-HU" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # days]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden #. napon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # days]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # days]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs daily]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Naponta]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf#Plural.=2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every other day]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden második napon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # days]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden #. napon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_daily_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs daily} =2{Occurs every other day} other{Occurs every # days}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs daily} =2{Occurs every other day} other{Occurs every # days}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meetings happening after a number of days. E.g.: Occurs every 3 days{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden # hónap {day}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every month on day {day}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden hónap {day}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15 (ICU){PlaceHolder="{day}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf#Plural.=2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every other month on day {day}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden második hónapban, a hó {day}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15 (ICU){PlaceHolder="{day}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on day {day}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden # hónap {day}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15 (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{day}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_monthly_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every month on day {day}} =2{Occurs every other month on day {day}} other{Occurs every # months on day {day}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every month on day {day}} =2{Occurs every other month on day {day}} other{Occurs every # months on day {day}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening once after a number of months. E.g.: Occurs every 3 months on day 15{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden #. hónap {weekInMonthIndex}. és {weekday}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every month on {weekInMonthIndex} {weekday}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden hónap {weekInMonthIndex}. és {weekday}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf#Plural.=2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every other month on {weekInMonthIndex} {weekday}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden második hónap {weekInMonthIndex}. és {weekday}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # months on {weekInMonthIndex} {weekday}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden #. hónap {weekInMonthIndex}. és {weekday}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{weekInMonthIndex}"} (ICU){PlaceHolder="{weekday}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativemonthly_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every month on {weekInMonthIndex} {weekday}} =2{Occurs every other month on {weekInMonthIndex} {weekday}} other{Occurs every # months on {weekInMonthIndex} {weekday}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every month on {weekInMonthIndex} {weekday}} =2{Occurs every other month on {weekInMonthIndex} {weekday}} other{Occurs every # months on {weekInMonthIndex} {weekday}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of months. E.g.: Occurs every 3 months on second Friday{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_relativeyearly" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every {{dayOfTheWeekIndex}} {{dayOfTheWeek}} of {{month}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden {{dayOfTheWeek}}i {{month}} {{dayOfTheWeekIndex}}-i napon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening every year on a date. E.g.: Occurs every Second Monday of June]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{days}"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{days}"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden #. hét {days}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{days}"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{days}"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{days}"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every {days}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden {days} napon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri (ICU){PlaceHolder="{days}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf#Plural.=2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every other {days}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden második {days} napon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri (ICU){PlaceHolder="{days}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every # weeks on {days}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Minden #. hét {days}. napján]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri (ICU){PlaceHolder="#"} (ICU){PlaceHolder="{days}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_weekly_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text" UsrLk="true">
+          <Val><![CDATA[{interval, plural, =1{Occurs every {days}} =2{Occurs every other {days}} other{Occurs every # weeks on {days}}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{interval, plural, =1{Occurs every {days}} =2{Occurs every other {days}} other{Occurs every # weeks on {days}}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening after a number of weeks. E.g.: Occurs every 3 weeks on Mon, Tue and Fri{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_recurrence_pattern_yearly" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Occurs every {{date}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Évente, ekkor: {{date}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown for meeting happening every year on a date. E.g.: Occurs every February 5]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

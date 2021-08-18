@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{收件人: {user1}} =1{收件人: {user1} 和其他 1 位用户} other{收件人: {user1} 和其余 # 位用户}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{收件人: {user1}、{user2}} =1{收件人: {user1}、{user2} 和其他 1 位用户} other{收件人: {user1}、{user2} 和其他 # 位用户}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{收件人: {user1}、{user2}、{user3}} =1{收件人: {user1}、{user2}、{user3} 和其他 1 位用户} other{收件人: {user1}、{user2}、{user3} 和其他 # 位用户}}",
+  "new_message_label": "新建",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} 来自 {user1} 的答复} =1{{repliesCount} 答复自 {user1}，和 1 个其他} other{{repliesCount} 答复自 {user1} 和 # 其他人}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} 从 {user1}、 {user2} 回复} =1{{repliesCount} 答复自 {user1}、{user2}和其他 1 个} other{{repliesCount} 从 {user1}、{user2} 和 # 其他人处回复}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} 从 {user1}、{user2}、{user3} 回复} =1{{repliesCount} 答复自 {user1}、{user2}、{user3}和其他 1 个} other{{repliesCount} 从 {user1}、{user2}、{user3} 和 # 其他人处回复}}",
+  "tmp_view_chat_button_text": "查看回执",
+  "tmp_go_to_channel_button_text": "转到频道"
+}

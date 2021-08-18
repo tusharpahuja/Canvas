@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Загрузка...",
+  "lobby_screen_exit_message": "Выйти из \"зала ожидания\"",
+  "calling_join_button_audio": "Присоединиться к звонку со звуком",
+  "calling_join_button_video": "Присоединиться к звонку с видео",
+  "calling_screen_meeting_id": "Идентификатор собрания: {{conferenceId}}",
+  "meeting_room_present_content": "Демонстрация",
+  "meeting_room_connected_device": "Подключенное устройство",
+  "meeting_room_content_camera": "Контент-камера",
+  "meeting_room_cortana_button_title": "Кортана"
+}

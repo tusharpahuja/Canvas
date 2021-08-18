@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="lms-integration.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="hi-IN" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";addEntireClassButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add entire class]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[संपूर्ण कक्षा को जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text button content to add entire class]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addEntireClassConfigError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't add the class. We had trouble getting the class information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम कक्षा नहीं जोड़ सके. हमें कक्षा की जानकारी प्राप्त करने में समस्या हुई थी.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when add entire class fails due to the meeting creator not owning any (members/owners/groups) for a given course id]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addEntireClassGenericError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't add the class.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम कक्षा नहीं जोड़ सके.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Failed to add course members as attendees.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error message displayed when add entire class fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addEntireClassRetryButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पुनः प्रयास करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text button asking user to retry adding class post failure]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addEntireClassSizeLimitError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't add the class. It has too many people to be added all at once.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम कक्षा नहीं जोड़ सके. इसमें बहुत अधिक लोगों को एक ही बार में जोड़ना होता है.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Failed to add course members as attendees because class size is larger than supported size.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message displayed when user attempts to add class whose size greater than currently supported.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addNewMeeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[नई मीटिंग]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Action button to launch scheduling form and create a new meeting in the lms course calendar app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addParticipantsInProgressCancelAction" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[रद्द करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Action button to cancel the addition of entire class to the scheduling form while in progress]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addParticipantsInProgressMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This may take a moment. This window will automatically close when the entire class is added. Cancel to add participants manually instead]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इसमें कुछ समय लग सकता है. संपूर्ण कक्षा को जोड़े जाने पर यह विंडो स्वचालित रूप से बंद हो जाएगी. इसके बजाय प्रतिभागियों को मैन्युअल रूप से जोड़ना रद्द करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to display when entire class is being added in the scheduling form]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";addParticipantsInProgressTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Adding participants...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[प्रतिभागियों को जोड़ा जा रहा है...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title to display when entire class is being added in the scheduling form]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";backgoundImageMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Background image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[पृष्ठभूमि छवि]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility text to announce that there is a background image]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";continueButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[जारी रखें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for Continue Button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";courseCalendarHeaderTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Teams Meetings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams की मीटिंग]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header title in LMS integration course calendar app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";defaultHeaderTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Default header title in LMS integration.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";educatorEmptyStateSecondaryErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your IT administrator needs to create a team, add you as a member and link it to your course on your behalf. Try contacting your IT administrator for help.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपके IT व्यवस्थापक को एक टीम बनाने, आपको सदस्य के रूप में जोड़ने और आपकी ओर से आपके कोर्स से इसे लिंक करने की आवश्यकता है. मदद के लिए अपने IT व्यवस्थापक से संपर्क करने का प्रयास करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary message shown to an educator when there are no teams for the course]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";emptyStatePrimaryErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have not been added to a team on this course yet.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[इस कोर्स पर आपको अभी तक किसी टीम में शामिल नहीं किया गया है.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Primary message shown when there are no teams for the course]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";experienceDisabledErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It looks like your account {{email}} is not set up to use Teams. Did you mean to sign in with a different Microsoft account?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ऐसा लगता है कि आपका खाता {{email}} Teams का उपयोग करने के लिए सेट किया हुआ नहीं है. क्या आप किसी दूसरे Microsoft खाते से साइन इन करना चाहते थे?]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[It looks like your account is not set up to use Teams. Did you mean to sign in with a different Microsoft account?]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user does not have access to the experience when feature flag is disabled. {{email}} is a placeholder for the user's email.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";experienceDisabledErrorMessageNoEmail" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It looks like your account is not set up to use Teams. Did you mean to sign in with a different Microsoft account?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ऐसा लगता है कि आपका खाता Teams का उपयोग करने के लिए सेट अप किया हुआ नहीं है. क्या आप किसी भिन्न Microsoft खाते के साथ साइन इन करना चाहते थे?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user does not have access to the experience when feature flag is disabled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";genericEmptyStateSecondaryErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[While you wait, you can use Teams to contact others at your school, organize clubs, and more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[प्रतीक्षा करने के दौरान, आप अपने विद्यालय में अन्य लोगों से संपर्क करने के लिए, क्लब को व्यवस्थित करने इत्यादि के लिए Teams का उपयोग कर सकते हैं.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary message shown to a non-educator when there are no teams for the course]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";genericErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please try again later]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कृपया बाद में पुनः प्रयास करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message for generic errors]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";go_to_teams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams पर जाएँ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action text when the user wants to go to the main teams client]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invalidLicenseTypeErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need an educator or student license to use Teams for Education. Try asking your IT administrator to assign the correct license to you.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[शिक्षा के लिए Teams का उपयोग करने हेतु आपको प्रशिक्षक या विद्यार्थी लायसेंस की आवश्यकता होती है. आपको सही लायसेंस असाइन करने के लिए अपने IT व्यवस्थापक से कहें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user does not have the required education license]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";invalidUserRoleErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It looks like you have not been added to this course. Try asking your IT administrator or teacher to add you to this course.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ऐसा लगता है कि आपको इस पाठ्यक्रम में नहीं जोड़ा गया है. इस पाठ्यक्रम में आपको जोड़ने के लिए अपने IT व्यवस्थापक या शिक्षक से पूछने की कोशिश करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user has not been added to this course.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";launchTeamsButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launch Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams लॉन्च करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for button which user will click on to launch Teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";learnMoreAboutTeams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams के बारे में अधिक जानें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message of the link that will open resources to learn more about Teams for Education]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";logOutMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign out]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[साइन आउट करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Action link to sign out user from teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";moreOptionsMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[अधिक विकल्प]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for a button that shows a popup with the options for the teams header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";problemConnectingCourseToTeamErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem connecting your course to Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपके पाठ्यक्रम को Microsoft Teams से कनेक्ट करने में कोई समस्या हुई थी.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Primary error message when a course in the Learning Management System (LMS) cannot be connected to a team]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";problemCreatingTeamForCourse" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem creating your team]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपकी टीम बनाने में कोई समस्या हुई थी]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Primary error message when team sync for a course fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replaceAttendeesWithEntireClassConfirmationMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People you have already added to the invite will be removed when you add the class. You can add them again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[आपके द्वारा कक्षा जोड़ने पर पहले से ही आमंत्रण में जोड़े गए लोग निकाल दिए जाएँगे. आप उन्हें बाद में फिर से जोड़ सकते हैं.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message explaining consequences of overriding existing attendees with entire class]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";replaceAttendeesWithEntireClassConfirmationTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Replace attendees with the entire class?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सहभागियों के साथ संपूर्ण कक्षा को बदलें?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for confirmation before over riding the existing attendees in a meeting with entire class]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";reportProblem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Report a problem]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Report a problem]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action text when the user wants to report a problem to EDU support.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";teamCardMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[List {{cardNumber}} of {{totalCards}}, {{name}} team, tap to open team in a separate tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{totalCards}}, {{name}} टीम में से {{cardNumber}} को सूचीबद्ध करें, किसी अलग टैब में टीम को खोलने के लिए टैप करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility text to announce when user is on a team card. {{cardNumber}}, {{totalCards}}, and {{name}} are place holders to describe the card position and team name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";thirdPartyNoticeMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third party notice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[तृतीय पक्ष सूचना]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A link to a text file with licenses for all third party software used in the experience]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";unsupportedLmsErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unfortunately this learning tool does not support Teams for Education. Try contacting your IT administrator for help.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[दुर्भाग्यवश, यह प्रशिक्षण टूल ‘शिक्षा के लिए Teams’ का समर्थन नहीं करता है. मदद के लिए अपने IT व्यवस्थापक से संपर्क करके देखें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Secondary error message when user launches the experience from an unsupported 3rd party learning tool]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

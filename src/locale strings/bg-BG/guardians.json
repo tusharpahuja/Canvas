@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Зареждане на родителски списък",
+  "guardians_table": "Родителски списък за {{classTeam}}",
+  "students": "Обучавани",
+  "guardians": "Родители/настойници",
+  "chatButton": "Бутон за чат",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{още # родител или настойник. Разгъване за отваряне на списък} one {# повече родители или настойници. Разгъване за отваряне на списък} other{# повече родители или настойници. Разгъване за отваряне на списък} }",
+  "guardians_student_label": "{{studentName}}, състояние {{status}}, отваря карта с профил",
+  "guardians_user_unknown_label": "Неизвестен потребител",
+  "guardians_status_unknown_label": "Неизвестно",
+  "guardians_overflow_members": "Допълнителни родители или настойници на {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Започнете чат с настойника на {studentName}} one {Започнете чат с настойниците на {studentName}} other{Започнете чат с настойниците на {studentName}}}",
+  "guardians_chat_button_disabled_title": "Външният достъп е забранен от администратор",
+  "guardians_chat_button_disabled_alt_title": "Помолете вашия администратор да добави информация за контакт с настойник, за да направи чата достъпен",
+  "empty_state_title": "Родителите и настойниците не са добавени",
+  "empty_state_subtitle": "Помолете вашия ИТ администратор да ги добави, така че да можете бързо да се свързвате с тях оттук. <0></0>",
+  "empty_state_link": "Вижте повече",
+  "error_state_title": "Възниква проблем. Проверете отново по-късно.",
+  "not_owner_error_state_title": "Само собствениците на екипа на класа могат да виждат информацията за родител и настойник. Помолете собственика на екипа да ви даде достъп.",
+  "retry_button_title": "Повторен опит",
+  "transient_error_state_title": "Възниква проблем. Опитайте отново.",
+  "notification_banner_content": "Възникна проблем при зареждането на повече информация за родител и настойник. Опитайте отново по-късно."
+}

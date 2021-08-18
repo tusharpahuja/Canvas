@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Naabot mo na ang limitasyon sa miyembro para sa iyong org. Para mag-upgrade at magdagdag pa ng mga tao, magpadala ng mensahe sa isa sa mga admin mo.} =1 {Naabot mo ang limitasyon sa miyembro para sa iyong org. Hilingin sa <0></0> na mag-upgrade para makapag-imbita ka pa ng mga tao.} one {Naabot mo ang limitasyon sa miyembro para sa iyong org. Hilingin sa sinuman sa iyong <0></0> na mag-upgrade para makapag-imbita ka pa mga tao.} other {Naabot mo ang limitasyon sa miyembro para sa iyong org. Hilingin sa sinuman sa iyong <0></0> na mag-upgrade para makapag-imbita ka pa mga tao.}}"
+}

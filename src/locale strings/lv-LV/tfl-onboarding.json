@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Izmantot citu kontu",
+  "tflFre_Learn_More_Link_caption": "Kurš šo var skatīt?",
+  "tflFre_OK_Button_caption": "Aiziet",
+  "tflFre_dialog_Aria": "Esiet sveicināts programmā Teams! Kā jūs vēlētos tikt rādīts pakalpojumā Teams? Lietotāji var jūs meklēt, izmantojot šo informāciju",
+  "tflFre_header": "Esiet sveicināts!",
+  "tflFre_phone_and_email_flyout": "Apmeklējiet savu Microsoft kontu, lai norādītu savu tālruņa numuru un e-pasta adresi.",
+  "tflFre_who_can_see_this_flyout": "Jūsu vārds un Microsoft konta attēls būs redzams citiem lietotājiem programmā Teams. Lietotāji var arī meklēt jūs pakalpojumā Teams, izmantojot jūsu tālruņa numuru un e-pasta adresi.",
+  "tflFre_learn_more_link_text": "Papildinformācija",
+  "tflFre_sync_contacts_checkbox": "Sinhronizējiet kontaktpersonas programmās Skype un Outlook, lai pakalpojumā Teams atrastu man pazīstamus cilvēkus.",
+  "tflFre_people_Can_Search_For_You_Using": "Personas var meklēt jūs, izmantojot:",
+  "tflFre_loading_spinner_text": "Ielādē...",
+  "tflFre_stamping_error_dialog_header": "Neizdevās atjaunināt jūsu profilu",
+  "tflFre_stamping_error_dialog_body": "Nevarējām atjaunināt jūsu profila informāciju. Lai atteiktos, atlasiet “Izmantot citu kontu”, un izmantojiet citu kontu. Atlasiet “Mēģināt vēlreiz”, lai mēģinātu ienest savu profilu vēlreiz",
+  "tflFre_error_dialog_retry_button": "Mēģināt vēlreiz",
+  "tflFre_error_dialog_sign_out_button": "Izmantot citu kontu",
+  "tflFre_fetch_error_dialog_header": "Neizdevās ienest jūsu profilu",
+  "tflFre_fetch_error_dialog_body": "Nevarējām ienest jūsu profila informāciju. Lai atteiktos, atlasiet “Izmantot citu kontu”, un izmantojiet citu kontu. Atlasiet “Mēģināt vēlreiz”, lai mēģinātu ienest savu profilu vēlreiz",
+  "tflFre_welcome_edit_header": "Laipni lūgti darbvietā Teams!",
+  "tflFre_welcome_edit_second_header": "Kā vēlaties parādīties?",
+  "tflFre_phone_field_header": "Tālrunis",
+  "tflFre_email_field_header": "E-pasts"
+}

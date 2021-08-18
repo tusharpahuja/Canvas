@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Start Teams automatisk",
+  "notification_settings_details_message_preview_header_text": "Førehandsvising av melding",
+  "notification_settings_edit_chat_button_aria_label": "Rediger varsel frå samtale",
+  "notification_settings_details_chat_messages_text": "Meldingar",
+  "notification_settings_warning_windows_tfw": "Dobbeltsjekk varselinnstillingane for Windows for å sikre at du kan ta imot Teams-varsel. <0></0>",
+  "settings_loader_text": "Lastar inn innhald ...",
+  "dropdown_settings_selected_text": "{{value}} vald",
+  "read_receipts_title": "Lesestadfestingar",
+  "read_receipts_description": "La andre få vite når du har sett meldingane og få vite når dei har sett meldingane dine. Lukk og opne på nytt eventuelle chat-vindauge for at desse innstillingane skal tre i kraft i dei chattane.",
+  "read_receipts_label": "Lesestadfestingar"
+}

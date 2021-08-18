@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Caricamento dell'elenco padre in corso",
+  "guardians_table": "Elenco padre per {{classTeam}}",
+  "students": "Studenti",
+  "guardians": "Genitori/tutori",
+  "chatButton": "Pulsante Chat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# altro genitore o tutore. Espandi per aprire l'elenco} one {Altri # genitori o tutori. Espandi per aprire l'elenco} other{Altri # genitori o tutori. Espandi per aprire l'elenco} }",
+  "guardians_student_label": "{{studentName}}, stato {{status}}, apre la scheda del profilo",
+  "guardians_user_unknown_label": "Utente sconosciuto",
+  "guardians_status_unknown_label": "Sconosciuto",
+  "guardians_overflow_members": "Genitori o tutori aggiuntivi di {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Avvia una chat con il tutore di {studentName}} one {Avvia una chat con i tutori di {studentName}} other{Avvia una chat con i tutori di {studentName}}}",
+  "guardians_chat_button_disabled_title": "Accesso esterno disabilitato dall'Amministratore",
+  "guardians_chat_button_disabled_alt_title": "Chiedi all'amministratoredi aggiungere le informazioni di contatto del tutore per rendere la chat disponibile",
+  "empty_state_title": "I genitori e i tutori non sono stati aggiunti",
+  "empty_state_subtitle": "Chiedi all'amministratore IT di aggiungerlo in modo da poterlo contattare rapidamente da qui. <0></0>",
+  "empty_state_link": "Visualizza altro",
+  "error_state_title": "Si è verificato un errore. Riprova più tardi.",
+  "not_owner_error_state_title": "Solo i proprietari del team di classe possono vedere le informazioni su genitori e tutori. Chiedi al proprietario del team di concederti l'accesso.",
+  "retry_button_title": "Riprova",
+  "transient_error_state_title": "Si è verificato un problema. Riprova.",
+  "notification_banner_content": "Si è verificato un problema durante il caricamento di altre informazioni sul genitore e tutore. Riprova più tardi."
+}

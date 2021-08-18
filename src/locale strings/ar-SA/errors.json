@@ -1,0 +1,18 @@
+{
+  "default_app_description": "عفواً، حدث خطأ ما!",
+  "default_app_title": "خطأ ما حدث! (أخطاء التطبيق)",
+  "default_network_error_description": "عفوًا، مشكلة في الشبكة!",
+  "default_network_error_title": "عفوًا، مشكلة في الشبكة!",
+  "default_unknown_description": "عفواً، حدث خطأ ما!",
+  "default_unknown_title": "عفواً، حدث خطأ ما!",
+  "default_authentication_title": "عذراً، لا يمكن تسجيل دخولك",
+  "default_authentication_description": "حدثت مشكلة.",
+  "default_core_error_description": "عفوًا، خطأ ما حدث! (أخطاء أساسية)",
+  "default_core_error_title": "رمز خطأ: أخطاء أساسية",
+  "default_fetch_description": "عفوًا، خطأ ما حدث! (أخطاء إحضار CDL)",
+  "default_fetch_title": "رمز الخطأ: أخطاء إحضار CDL",
+  "default_service_description": "عفوا، خطأ ما حدث! (أخطاء خدمة CDL)",
+  "default_service_title": "رمز الخطأ: أخطاء خدمة CDL",
+  "error_forbidden_text": "عذراً. هناك مشكلة في ترخيص مؤسستك",
+  "error_nonetwork_text": "عذراً، لم يتم العثور على أي شبكات. الرجاء المحاولة مجدداً عندما تعاود الاتصال بالإنترنت."
+}

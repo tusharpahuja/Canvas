@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} šeit: {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::nav ieteikumu.||1->2::{0} pieejamais ieteikums: ||2->3::{0} pieejamie ieteikumi: ||3->INF::{0} pieejamie ieteikumi:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::nav ieteikumu {0}.||1->2::{1} pieejams ieteikums pieejams par {0}: ||2->3::{1} pieejami ieteikumi par {0}: ||3->INF::{1} pieejamie ieteikumi par {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grupa bez nosaukuma",
+  "autosuggest_sb_search_box_clear_button_label": "Notīrīt meklēšanas lodziņu",
+  "autosuggest_sb_search_box_submit_button_label": "Meklēt",
+  "autosuggest_sb_search_box_view_all_results_label": "Nospiediet taustiņu Enter, lai skatītu visus rezultātus",
+  "autosuggest_people_group_heading": "Personas",
+  "autosuggest_chats_group_heading": "Grupas tērzēšana",
+  "autosuggest_zero_term_group_aria_label": "Nesen veiktās meklēšanas"
+}

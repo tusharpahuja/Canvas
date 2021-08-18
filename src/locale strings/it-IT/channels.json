@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{A: {user1}} =1{A: {user1} e 1 altro utente} one {A: {user1} e altri # utenti} other{A: {user1} e altri # utenti}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{A: {user1}, {user2}} =1{A: {user1}, {user2} e 1 altro utente} one {A: {user1}, {user2} e altri # utenti} other{A: {user1}, {user2} e altri # utenti}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{A: {user1}, {user2}, {user3}} =1{A: {user1}, {user2}, {user3} e 1 altro utente} one {A: {user1}, {user2}, {user3} e altri # utenti} other{A: {user1}, {user2}, {user3} e altri # utenti}}",
+  "new_message_label": "Nuovo",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} risposte da {user1}} =1{{repliesCount} risposte da {user1} e 1 altro} one {{repliesCount} risposte da {user1} e # altri} other{{repliesCount} risposte da {user1} e # altri}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} risposte da {user1}, {user2}} =1{{repliesCount} risposte da {user1}, {user2} e 1 altro} one {{repliesCount} risposte da {user1}, {user2} e # altri} other{{repliesCount} risposte da {user1}, {user2} e # altri}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} risposte da {user1}, {user2}, {user3}} =1{{repliesCount} risposte da {user1}, {user2}, {user3} e 1 altro} one {{repliesCount} risposte da {user1}, {user2}, {user3} e # altri} other{{repliesCount} risposte da {user1}, {user2}, {user3} e # altri}}",
+  "tmp_view_chat_button_text": "Visualizza risposte",
+  "tmp_go_to_channel_button_text": "Vai al canale"
+}

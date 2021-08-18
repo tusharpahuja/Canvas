@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} ने आपका उल्लेख किया",
+  "toast_messaging_reaction": "{{sender}} ने आपके संदेश पर प्रतिक्रिया दी",
+  "toast_messaging_default_group_topic": "अज्ञात",
+  "toast_messaging_default_user_given_name": "अज्ञात",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "भेजें",
+  "toast_messaging_quickreply_placeholder_text": "त्वरित उत्तर भेजें",
+  "toast_messaging_activity_text": "{{participants}} के साथ चैट करें",
+  "toast_messaging_activity_text_with_count": "{{participants}} +{{count}} के साथ चैट करें"
+}

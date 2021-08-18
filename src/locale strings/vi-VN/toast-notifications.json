@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} đã đề cập bạn",
+  "toast_messaging_reaction": "{{sender}} đã phản ứng với tin nhắn của bạn",
+  "toast_messaging_default_group_topic": "Không xác định",
+  "toast_messaging_default_user_given_name": "Không xác định",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Gửi",
+  "toast_messaging_quickreply_placeholder_text": "Gửi trả lời nhanh",
+  "toast_messaging_activity_text": "Trò chuyện với {{participants}}",
+  "toast_messaging_activity_text_with_count": "Trò chuyện với {{participants}} +{{count}}"
+}

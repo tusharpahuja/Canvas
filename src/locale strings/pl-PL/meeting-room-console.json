@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Trwa ładowanie…",
+  "lobby_screen_exit_message": "Opuść poczekalnię",
+  "calling_join_button_audio": "Dołącz do rozmowy w trybie audio.",
+  "calling_join_button_video": "Dołącz do rozmowy w trybie wideo.",
+  "calling_screen_meeting_id": "Identyfikator spotkania: {{conferenceId}}",
+  "meeting_room_present_content": "Prezentowanie",
+  "meeting_room_connected_device": "Podłączone urządzenie",
+  "meeting_room_content_camera": "Kamera do zawartości",
+  "meeting_room_cortana_button_title": "Cortana"
+}

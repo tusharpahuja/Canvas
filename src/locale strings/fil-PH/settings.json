@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Awtomatikong simulan ang Teams",
+  "notification_settings_details_message_preview_header_text": "Preview ng mensahe",
+  "notification_settings_edit_chat_button_aria_label": "I-edit ang mga abiso ng chat",
+  "notification_settings_details_chat_messages_text": "Mga Mensahe",
+  "notification_settings_warning_windows_tfw": "Tingnang mabuti ang iyong mga setting ng notification ng Windows para matiyak na makakatanggap ka ng mga notification ng Teams. <0></0>",
+  "settings_loader_text": "Nilo-load ang nilalaman...",
+  "dropdown_settings_selected_text": "{{value}} ang napili",
+  "read_receipts_title": "Mga feedback sa pagtanggap",
+  "read_receipts_description": "Hayaan ang mga tao na malaman na nakita mo ang kanilang mga mensahe at malaman kung nakita nila ang sa iyo. Isara at buksang muli ang windows ng anumang chat para magkaroon ng bisa ang setting sa mga chat na iyon.",
+  "read_receipts_label": "Mga feedback sa pagtanggap"
+}

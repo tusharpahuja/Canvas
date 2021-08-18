@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "Plasser pil",
+  "toolbar_ink": "Håndskrift",
+  "toolbar_color_picker": "Velg en farge",
+  "toolbar_color_yellow": "Gul",
+  "toolbar_color_blue": "Blå",
+  "toolbar_color_gray": "Grå",
+  "toolbar_color_green": "Grønn",
+  "toolbar_color_red": "Rød",
+  "toolbar_insert_file": "Sett inn fil",
+  "toolbar_undo": "Angre",
+  "toolbar_erase_all_current_session": "Slett alle fra gjeldende redigeringsøkt",
+  "toolbar_erase_all": "Slett alle",
+  "toolbar_start_editing": "Begynn å redigere",
+  "toolbar_stop_editing": "Stopp redigering"
+}

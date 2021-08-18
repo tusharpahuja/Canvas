@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "RA",
+  "indicator_mobile_long": "RA MOBILĂ",
+  "toolbar_arrow": "Plasați săgeata",
+  "toolbar_ink": "Cerneală",
+  "toolbar_color_picker": "Alegeți o culoare",
+  "toolbar_color_yellow": "Galben",
+  "toolbar_color_blue": "Albastru",
+  "toolbar_color_gray": "Gri",
+  "toolbar_color_green": "Verde",
+  "toolbar_color_red": "Roșu",
+  "toolbar_insert_file": "Inserați un fișier",
+  "toolbar_undo": "Anulează",
+  "toolbar_erase_all_current_session": "Ștergeți tot din sesiunea actuală de editare",
+  "toolbar_erase_all": "Ștergeți tot",
+  "toolbar_start_editing": "Începeți editarea",
+  "toolbar_stop_editing": "Opriți editarea"
+}

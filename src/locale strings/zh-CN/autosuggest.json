@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{1} 中的 {0}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::无建议。||1->2::{0} 条建议可用: ||2->3::{0} 条可用建议: ||3->INF::{0} 条建议可用:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::没有针对 {0} 的建议。.||1->2::{1} 条建议可用于 {0}: ||2->3::{1} 条建议可用于 {0}: ||3->INF::{1} 条建议可用于 {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "未命名的组",
+  "autosuggest_sb_search_box_clear_button_label": "清除搜索框",
+  "autosuggest_sb_search_box_submit_button_label": "搜索",
+  "autosuggest_sb_search_box_view_all_results_label": "按 Enter 以查看所有结果",
+  "autosuggest_people_group_heading": "人脉",
+  "autosuggest_chats_group_heading": "多人会话",
+  "autosuggest_zero_term_group_aria_label": "最近的搜索"
+}

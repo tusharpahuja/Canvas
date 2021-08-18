@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Ndodhi diçka dhe nuk arritëm të shtonim grupin.",
+  "peoplePicker_dlTooManyMembers": "Nuk arritëm të shtonim {{dlName}} ({{dlMemberCount}}). Mund të nisësh bisedë vetëm me {{maxSize}} ose më pak persona.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Përdor tastin e kthimit pas ose fshi për ta larguar. Përdor tastet e majtas ose djathtas për marrësit e tjerë të bisedës.",
+  "peoplePicker_loadingMessage": "Duke ngarkuar...",
+  "peoplePicker_newAddGroupNameButtonContent": "Shto emrin e grupit",
+  "peoplePicker_collapseGroupNameButtonContent": "Palos emrin grup",
+  "peoplePicker_federationWarning": "Biseda me llogaritë e ndërmarrjes ose të shkollës nuk është ende në dispozicion. Mëso më shumë.",
+  "peoplePicker_noResults": "S'mund të gjenim asnjë përputhje.",
+  "peoplePicker_resultsUpdationAriaLabel": "Rezultatet e kërkimit janë përditësuar. Përdor tastet e shigjetave lart dhe poshtë për të naviguar dhe Enter për të përzgjedhur.",
+  "peoplePicker_search_externally_btn_text": "Kërko {{email}} jashtë",
+  "peoplePicker_tflToLinePlaceholder": "Fut emrin, emailin ose numrin e telefonit",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Hiq",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} u përzgjodh nga lista",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} nga {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} u hoq nga lista."
+}

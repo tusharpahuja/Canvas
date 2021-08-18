@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Kargatzen...",
+  "lobby_screen_exit_message": "Irten itxarongelatik",
+  "calling_join_button_audio": "Sartu deian audioarekin",
+  "calling_join_button_video": "Sartu deian bideoarekin",
+  "calling_screen_meeting_id": "Bileraren IDa: {{conferenceId}}",
+  "meeting_room_present_content": "Aurkeztu",
+  "meeting_room_connected_device": "Konektatutako gailua",
+  "meeting_room_content_camera": "Edukiaren kamera",
+  "meeting_room_cortana_button_title": "Cortana"
+}

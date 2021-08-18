@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Không có Báo cáo Huấn luyện viên Cuộc họp nào sẵn có",
+  "coach_report_no_data_too_short": "Bật Huấn luyện viên Cuộc họp trong hơn 1 phút để truy nhập báo cáo của bạn",
+  "coach_report_no_data_too_long": "Xin lỗi, Huấn luyện viên Cuộc họp không hỗ trợ các cuộc họp kéo dài hơn 2 giờ",
+  "coach_report_title": "Thông tin chi tiết về Huấn luyện viên Cuộc họp của bạn",
+  "coach_report_private_label": "Riêng tư",
+  "coach_report_settings": "Cài đặt",
+  "coach_report_subtitle": "* Báo cáo Huấn luyện viên của bạn chỉ hiển thị với bạn.",
+  "coach_report_chart_title": "Đề xuất từ cuộc họp của bạn",
+  "coach_report_card_checkbox": "Luôn lưu và bỏ qua màn hình này cho các phiên sau",
+  "coach_report_save_button": "Lưu",
+  "coach_report_delete_button": "Xóa bỏ",
+  "coach_report_save_button_tooltip": "Tìm nó sau trên trang cuộc họp",
+  "coach_report_feedback_before_submit": "Điều này có hữu ích không?",
+  "coach_report_feedback_after_submit": "Cảm ơn bạn đã phản hồi",
+  "coach_report_feedback_yes_button": "Có",
+  "coach_report_feedback_no_button": "Không",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} của {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Trước đây",
+  "coach_report_next_critique_button": "Tiếp theo"
+}

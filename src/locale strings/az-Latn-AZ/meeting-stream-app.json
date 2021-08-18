@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Yayım URL-i",
+  "stream_url_placeholder": "Yayım URL-i daxil et",
+  "stream_key_label": "Yayım açarı",
+  "stream_key_placeholder": "Yayım açarı daxil et",
+  "start_streaming_button_text": "Yayıma başla",
+  "stop_streaming_button_text": "Yayımı dayandır",
+  "custom_streaming_config_page_description": "Fərdi yayımlama RTMP tərəfindən dəstəklənən ictimai platformalarda Teams toplantısını həyata keçirmək üçün alətinizdir",
+  "custom_streaming_config_page_first_greeting": "Fərdi Yayımlanmaya xoş gəlmişsiniz!",
+  "custom_streaming_config_page_second_greeting": "Burada olduğunuza görə çox şadıq",
+  "custom_streaming_error_meeting_limit_reached": "Bu toplantı cari parametrlərdə yayımlana bilməz. İştirakçıların sayını 1000 nəfərə məhdudlaşdırın.",
+  "custom_streaming_error_permission_denied": "Yayımlamaq üçün icazəniz yoxdur. Bu məzmunu yayımlamaq üçün İT inzibatçınızla və ya təşkilatçı ilə əlaqə saxlayın",
+  "custom_streaming_error_outdated_client": "Teams davam etmək üçün yeniləmələr tələb edir. Ən son xüsusiyyətlərə sahib olduğunuzdan əmin olmaq üçün proqramınızı yenidən başladın.",
+  "custom_streaming_error_unknown": "Səhv baş verdi, yenidən cəhd edin.",
+  "custom_streaming_error_unsupported_platform": "Bu xüsusiyyət brauzerdə hələ dəstəklənmir. Teams-in iş masası versiyasından yenidən cəhd edin.",
+  "custom_streaming_tab_title": "Fərdi Yayımlanır"
+}

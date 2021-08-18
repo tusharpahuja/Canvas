@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Something happened, and we weren't able to add the group.",
+  "peoplePicker_dlTooManyMembers": "We weren't able to add {{dlName}} ({{dlMemberCount}}). You can only start a chat with {{maxSize}} people or less.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Use backspace or delete to remove. Use left or right keys for other chat recipients.",
+  "peoplePicker_loadingMessage": "Loading...",
+  "peoplePicker_newAddGroupNameButtonContent": "Add group name",
+  "peoplePicker_collapseGroupNameButtonContent": "Collapse group name",
+  "peoplePicker_federationWarning": "Chatting with enterprise or school accounts is not available yet. Learn more.",
+  "peoplePicker_noResults": "We couldn't find any matches.",
+  "peoplePicker_resultsUpdationAriaLabel": "Search results updated. Use the up and down arrow key to navigate, and enter to select.",
+  "peoplePicker_search_externally_btn_text": "Search {{email}} externally",
+  "peoplePicker_tflToLinePlaceholder": "Enter name, email or phone number",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Remove",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} selected from the list.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} of {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} removed from the list."
+}

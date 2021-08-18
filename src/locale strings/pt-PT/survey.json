@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Sim",
+  "instant_answers_reaction_yes_aria_label": "Estas informações foram-lhe úteis? -- Sim",
+  "instant_answers_reaction_no": "Não",
+  "instant_answers_reaction_no_aria_label": "Estas informações foram-lhe úteis? -- Não",
+  "instant_answers_header_text": "Obrigado pelos seus comentários!",
+  "instant_answers_header_subtext": "Eis algumas informações que poderão ser úteis, com base nos seus comentários:",
+  "instant_answers_footer_text": "Estas informações foram-lhe úteis?",
+  "include_screenshot_text": "Incluir captura de ecrã",
+  "customer_feedback_dialog_email_label": "O seu endereço de e-mail (opcional)",
+  "customer_feedback_dialog_email_placeholder": "Adicionar endereço de e-mail",
+  "customer_feedback_dialog_email_aria_label": "O seu endereço de e-mail (opcional)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Ao premir submeter, o seu feedback será usado para melhorar produtos e serviços Microsoft. O seu administrador de TI poderá recolher estes dados. Com base no seu feedback, poderemos fornecer informações adicionais para o ajudar com o seu problema de suporte.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Declaração de Privacidade.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Fechar caixa de diálogo de feedback",
+  "customer_feedback_dialog_adhoc_window_title": "Enviar feedback"
+}

@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "มีบางอย่างเกิดขึ้นและเราไม่สามารถเพิ่มกลุ่มได้",
+  "peoplePicker_dlTooManyMembers": "เราไม่สามารถเพิ่ม {{dlName}} ({{dlMemberCount}}) ได้ คุณสามารถเริ่มต้นการแชทกับบุคคล {{maxSize}} คนหรือน้อยกว่าเท่านั้น",
+  "peoplePicker_focusSelectedUser": "{{username}} ใช้ Backspace หรือ Delete เพื่อนำออก ใช้แป้นซ้ายหรือแป้นขวาสำหรับผู้รับข้อความแชทคนอื่นๆ",
+  "peoplePicker_loadingMessage": "กำลังโหลด...",
+  "peoplePicker_newAddGroupNameButtonContent": "เพิ่มชื่อกลุ่ม",
+  "peoplePicker_collapseGroupNameButtonContent": "ยุบชื่อกลุ่ม",
+  "peoplePicker_federationWarning": "การแชทด้วยบัญชีองค์กรหรือโรงเรียนยังไม่พร้อมใช้งาน เรียนรู้เพิ่มเติม",
+  "peoplePicker_noResults": "เราไม่พบข้อมูลใดที่ตรงกัน",
+  "peoplePicker_resultsUpdationAriaLabel": "อัปเดตผลลัพธ์การค้นหาแล้ว ใช้แป้นลูกศรขึ้นและลงเพื่อนำทาง และกด Enter เพื่อเลือก",
+  "peoplePicker_search_externally_btn_text": "ค้นหา {{email}} จากภายนอก",
+  "peoplePicker_tflToLinePlaceholder": "ใส่ชื่อ อีเมล หรือหมายเลขโทรศัพท์",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "นำออก",
+  "peoplePicker_userAdditionAriaLabel": "เลือก {{username}} จากรายการแล้ว",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}} {{description}} {{index}} จาก {{resultCount}}",
+  "peoplePicker_userRemovalAriaLabel": "นำ {{username}} ออกจากรายการแล้ว"
+}

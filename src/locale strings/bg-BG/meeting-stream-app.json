@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL адрес на поток",
+  "stream_url_placeholder": "Въвеждане на URL адрес на поток",
+  "stream_key_label": "Ключ за поточно предаване",
+  "stream_key_placeholder": "Въвеждане на ключ за поточно предаване",
+  "start_streaming_button_text": "Начало на поточното предаване",
+  "stop_streaming_button_text": "Спиране на поточното предаване",
+  "custom_streaming_config_page_description": "Поточното предаване по избор е вашият инструмент за поточно предаване на събрание на Teams към публични платформи, поддържани от RTMP",
+  "custom_streaming_config_page_first_greeting": "Добре дошли в персонализираното поточно предаване!",
+  "custom_streaming_config_page_second_greeting": "Радваме се, че сте тук",
+  "custom_streaming_error_meeting_limit_reached": "Това събрание не може да се предава поточно в текущите му настройки. Ограничете участниците до под 1000.",
+  "custom_streaming_error_permission_denied": "Нямате разрешения за поточно предаване. Обърнете се към своя ИТ администратор или организатора, за да предавате поточно това съдържание",
+  "custom_streaming_error_outdated_client": "Teams се нуждае от актуализации, за да продължи. Рестартирайте приложението, за да се уверите, че имате най-новите функции.",
+  "custom_streaming_error_unknown": "Нещо се обърка, опитайте отново.",
+  "custom_streaming_error_unsupported_platform": "Тази функция все още не се поддържа в браузъра. Опитайте отново от настолната версия на Teams.",
+  "custom_streaming_tab_title": "Поточно предаване по избор"
+}

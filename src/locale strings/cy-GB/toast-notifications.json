@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "Mae {{sender}} wedi sôn amdanoch chi",
+  "toast_messaging_reaction": "Mae {{sender}} wedi ymateb i’ch neges",
+  "toast_messaging_default_group_topic": "Anhysbys",
+  "toast_messaging_default_user_given_name": "Anhysbys",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}}, +{{count}}",
+  "toast_messaging_quickreply_button_text": "Anfon",
+  "toast_messaging_quickreply_placeholder_text": "Anfon ateb cyflym",
+  "toast_messaging_activity_text": "Sgwrsio â {{participants}}",
+  "toast_messaging_activity_text_with_count": "Sgwrsio â {{participants}} + {{count}}"
+}

@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "ลงชื่อออก",
+  "me_control_sign_out_button_aria_label": "ลงชื่อออกจาก Microsoft",
+  "me_control_my_microsoft_account_button_text": "บัญชี Microsoft ของฉัน",
+  "me_control_my_microsoft_account_button_aria_label": "บัญชี Microsoft ของฉัน",
+  "me_control_change_picture_aria_label": "เปลี่ยนรูปถ่ายโปรไฟล์",
+  "me_control_trigger_aria_label": "โปรไฟล์",
+  "me_control_menu_aria_label": "เมนูโปรไฟล์",
+  "app_bar_activity_app_name": "กิจกรรม",
+  "app_bar_activity_app_arialabel": "กิจกรรม",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# กิจกรรมใหม่} other{# กิจกรรมใหม่ๆ}}",
+  "app_bar_activity_app_tooltip": "กิจกรรม",
+  "app_bar_chat_app_name": "แชท",
+  "app_bar_chat_app_arialabel": "แชท",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# แชทกับข้อความใหม่} other{# แชทกับข้อความใหม่}}",
+  "app_bar_chat_app_tooltip": "แชท",
+  "app_bar_calendar_app_name": "ปฏิทิน",
+  "app_bar_calendar_app_arialabel": "ปฏิทิน",
+  "app_bar_calendar_app_tooltip": "ปฏิทิน",
+  "app_bar_calls_app_name": "การโทร",
+  "app_bar_calls_app_arialabel": "การโทร",
+  "app_bar_calls_app_tooltip": "การโทร"
+}

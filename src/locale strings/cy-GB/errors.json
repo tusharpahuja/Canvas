@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Wps, aeth rhywbeth o'i le!",
+  "default_app_title": "Wps, aeth rhywbeth o'i le! (Gwallau apiau)",
+  "default_network_error_description": "Wps, problem rhwydwaith!",
+  "default_network_error_title": "Wps, problem rhwydwaith!",
+  "default_unknown_description": "Wps, aeth rhywbeth o'i le!",
+  "default_unknown_title": "Wps, aeth rhywbeth o'i le!",
+  "default_authentication_title": "O na, ni allwn eich mewngofnodi",
+  "default_authentication_description": "aeth rhywbeth o'i le.",
+  "default_core_error_description": "Wps, aeth rhywbeth o'i le! (Gwallau craidd)",
+  "default_core_error_title": "Cod y Gwall : Gwallau craidd",
+  "default_fetch_description": "Wps, aeth rhywbeth o'i le! (Gwallau nôl CDL)",
+  "default_fetch_title": "Cod y Gwall: Gwallau nôl CDL",
+  "default_service_description": "Wps, aeth rhywbeth o'i le! (Gwallau gwasanaeth CDL)",
+  "default_service_title": "Cod y Gwall: Gwallau gwasanaeth CDL",
+  "error_forbidden_text": "Mae'n ddrwg gennym. Daethom o hyd i broblem gyda thrwydded eich sefydliad",
+  "error_nonetwork_text": "Mae'n ddrwg gennym. Heb ganfod rhwydwaith. Rhowch gynnig arall arni pan fyddwch wedi ailgysylltu."
+}

@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Ladataan...",
+  "lobby_screen_exit_message": "Poistu odotustilasta",
+  "calling_join_button_audio": "Liity puheluun äänipuheluna",
+  "calling_join_button_video": "Liity puheluun videopuheluna",
+  "calling_screen_meeting_id": "Kokoustunnus: {{conferenceId}}",
+  "meeting_room_present_content": "Esitä",
+  "meeting_room_connected_device": "Yhdistetty laite",
+  "meeting_room_content_camera": "Sisältökamera",
+  "meeting_room_cortana_button_title": "Cortana"
+}

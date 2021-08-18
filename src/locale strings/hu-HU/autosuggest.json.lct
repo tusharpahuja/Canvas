@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="autosuggest.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="hu-HU" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";autosuggest_chats_group_heading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Group chats]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Csoportos csevegések]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Heading for the chats suggestions]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_people_group_heading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[People]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Személyek]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Heading for the people suggestions]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} in {1}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{0} itt: {1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text describing what number of suggestions are available in a specific suggestion group. 0 = Number of suggestions. 1 = Name of the group. (ICU){PlaceHolder="{0}"} (ICU){PlaceHolder="{1}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_sb_grouped_search_suggestions_suggestions_available" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[0->1::No suggestions.||1->2::{0} suggestion available: ||2->3::{0} suggestions available: ||3->INF::{0} suggestions available:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[0->1::Nincs javaslat.||1->2::{0} javaslat érhető el: ||2->3::{0} javaslat érhető el: ||3->INF::{0} javaslat érhető el:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text describing what number of suggestions are available. Intervals are for 0, 1/singular, 2/dual and 3 or more/plural Example: [3]5D; suggestions available: (ICU){PlaceHolder="{0}"} (ICU){PlaceHolder="{0}"} (ICU){PlaceHolder="{0}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[0->1::No suggestions for {0}.||1->2::{1} suggestion available for {0}: ||2->3::{1} suggestions available for {0}: ||3->INF::{1} suggestions available for {0}:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[0->1::Nincs javaslat erre: {0}.||1->2::{1} javaslat érhető el erre: {0}: ||2->3::{1} javaslat érhető el erre: {0}: ||3->INF::{1} javaslat érhető el erre: {0}:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text describing what number of suggestions are available for a specific query. First string for 0 results, then 1/singular, 2/dual, 3 or more/plural. Example: [3]5D; suggestions available for [SearchTerm]5D;. {0} is a placeholder for a query the user has searched for. {1} is a placeholder for number of suggestions returned for a query the user searched for. (ICU){PlaceHolder="{0}"} (ICU){PlaceHolder="{1}"} (ICU){PlaceHolder="{0}"} (ICU){PlaceHolder="{1}"} (ICU){PlaceHolder="{0}"} (ICU){PlaceHolder="{1}"} (ICU){PlaceHolder="{0}"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_sb_grouped_search_suggestions_unnamed_group" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unnamed group]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Névtelen csoport]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to use in the odd case that a group doesn't have a name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_sb_search_box_clear_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear the search box]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A keresőmező tartalmának törlése]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title / tooltip for a button whose action is to clear the search input field.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_sb_search_box_submit_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Keresés]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title / tooltip for a button whose action is to submit the search form.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_sb_search_box_view_all_results_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Press enter to view all results]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Az Enter billentyűt megnyomva az összes találatot megnézheti]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown in the View All Results plugin. It tells the user to press enter to view the full result list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";autosuggest_zero_term_group_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Recent searches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Legutóbbi keresések]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria-label for the suggestions displayed before a query has been entered.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

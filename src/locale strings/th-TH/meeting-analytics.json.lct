@@ -1,0 +1,741 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="meeting-analytics.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="th-TH" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";aria_attendance_report_participant_detail_updated" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Participant detail for {{participantDisplayName}} is updated.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[รายละเอียดผู้เข้าร่วมของ {{participantDisplayName}} ได้รับการอัปเดตแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement when participant detail for {{participantDisplayName}} is updated]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";aria_attendance_report_participant_regular_meeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Participant name {{displayName}}, duration {{duration}}, join time {{joinTime}}, leave time {{leaveTime}}, role {{role}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ชื่อผู้เข้าร่วม {{displayName}}, ระยะเวลา {{duration}}, เวลาเข้าร่วม {{joinTime}}, เวลาออก {{leaveTime}}, บทบาท {{role}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement of a participant for the regular meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";aria_attendance_report_participant_webinar_postMeeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Participant name {{displayName}}, status {{registeredStatus}}, duration {{duration}}, join time {{joinTime}}, leave time {{leaveTime}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ชื่อผู้เข้าร่วม {{displayName}}, สถานะ {{registeredStatus}}, ระยะเวลา {{duration}}, เวลาเข้าร่วม {{joinTime}}, เวลาออก {{leaveTime}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement of a participant for the webinar post-meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";aria_attendance_report_participant_webinar_preMeeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Participant name {{displayName}}, status {{registeredStatus}}, registered time {{registeredTime}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ชื่อผู้เข้าร่วม {{displayName}}, สถานะ {{registeredStatus}}, เวลาที่ลงทะเบียน {{registeredTime}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement of a participant for the webinar pre-meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_displayName" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ชื่อ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_download_file" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download Attendance Report]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ดาวน์โหลดรายงานการเข้าร่วม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the download action file button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_duration" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Duration]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ระยะเวลา]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report duration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_emailAddress" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Email address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ที่อยู่อีเมล]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report email address]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_joinTime" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Join time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เวลาเข้าร่วม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report join time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_leaveTime" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Leave time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เวลาออก]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report leave time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_list_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[participants]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ผู้เข้าร่วม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header for attendance report participant list]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_list_item_table_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[attendance report list item table]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ตารางรายการรายงานการเข้าร่วม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Table name for attendance list items]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_no_data" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attendance info isn't available yet. Check again later]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ยังไม่มีข้อมูลการเข้าร่วม ตรวจสอบอีกครั้งในภายหลัง]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[No data available to show. Please check again related meeting is finished.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report no data page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_registeredId" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Register id]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ID ลงทะเบียน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report register id]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_registeredStatus" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Status]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สถานะ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report status]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_registeredStatus_canceled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Canceled]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ยกเลิกแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the attendance report status canceled]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_registeredStatus_processing" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Processing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[กำลังประมวลผล]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the attendance report status processing]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_registeredStatus_registered" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Registered]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ลงทะเบียนแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the attendance report report status registered]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_registeredTime" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Register time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เวลาลงทะเบียน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report register time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_role" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Role]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[บทบาท]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the title of attendance report role]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_attendeeCount" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attended]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เข้าร่วมแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary attendee count]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_attendeeCountRedacted" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Redacted]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[แก้ไขแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary redacted attendee count]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_averageAttendeeDuration" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Average attendance time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เวลาการเข้าร่วมโดยเฉลี่ย]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary average attendance time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_cancelledAttendees" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancelled registration]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ยกเลิกการลงทะเบียนแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary cancelled attendees]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_registerPageViews" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Viewed registration page]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[หน้าลงทะเบียนที่ดูแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary registration page views]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_registeredAttendees" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Registered]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ลงทะเบียนแล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary registered attendees]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_startTime" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start and end time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เวลาเริ่มต้นและสิ้นสุด]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary start and end time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_startTime_value" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{startTime}} - {{endTime}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{startTime}} - {{endTime}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement of a meeting start time and end time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_title_attendance" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attendance]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[การเข้าร่วม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary title attendance]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_title_summary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Summary]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สรุป]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_title_time" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เวลา]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary title time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_summary_totalEventTime" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting duration]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ระยะเวลาการประชุม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the attendance report summary meeting duration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_webinar_user_address" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Address]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ที่อยู่]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's address]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_webinar_user_city" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[City]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เมือง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's city]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_webinar_user_country" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Country/Region]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ประเทศ/ภูมิภาค]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's country]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_webinar_user_industry" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Industry]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[อุตสาหกรรม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's industry]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_webinar_user_job_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Job title]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ตำแหน่งงาน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's job title]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_webinar_user_organization" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Organization/Company]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[องค์กร/บริษัท]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's organization or company]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_webinar_user_post_code" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[ZIP/Post code]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[รหัสไปรษณีย์]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's ZIP code or post code]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";attendance_report_webinar_user_state" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[State]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[สถานะ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[One field of registration form, user's state]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_learn_more_link_accessibility_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about Dynamics 365 Marketing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เรียนรู้เพิ่มเติมเกี่ยวกับ Dynamics 365 Marketing]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility text for Learn more link to provide information about Dynamics cusomer journay]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_learn_more_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เรียนรู้เพิ่มเติม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of a Learn more link to provide information about Dynamics cusomer journay]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_org_selection_dialog_close" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ปิดกล่องโต้ตอบ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics org selection dialog close button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_org_selection_dialog_confirm_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เริ่มต้นใช้งาน]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Open Marketing in a new tab]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics org selection dialog confirmation button text, which will take users to selected dynamics instance]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_org_selection_dialog_header_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Follow up with participants in Dynamics 365 Marketing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ติดตามผู้เข้าร่วมใน Dynamics 365 Marketing]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Go to Dynamics 365 Marketing to create and send messages]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics org selection dialog header text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_org_selection_dialog_intro_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Engage participants using personalized emails, surveys, and more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ดึงดูดผู้เข้าร่วมโดยใช้อีเมล แบบสํารวจ และอื่น ๆ ที่ปรับให้เหมาะกับแต่ละส่วนบุคคล]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We’ve got a ready-to-use email template and customer journey ready for you.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics org selection dialog introduction text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_org_selection_dialog_selection_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select your Dynamics organization]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือกองค์กร Dynamics ของคุณ]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Select the Dynamics 365 organization you want to use for this webinar]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics org selection label written before selection element]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_org_selection_dialog_set_default_org_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save this organization as default]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[บันทึกองค์กรนี้เป็นค่าเริ่มต้น]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Set this Dynamics 365 org as my default]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics org selection checkbox text to set the selected org as default]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_org_selection_selected_org_annoucement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{orgName}} is selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือก {{orgName}} แล้ว]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria annoucement when a dynamics organization is selected. {{orgName}} is the selected organizations's name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_promo_offer_dialog_cancel_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ยกเลิก]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics marketing promo offer dialog cancel/close button text.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_promo_offer_dialog_confirm_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เริ่มต้นใช้งาน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics marketing promo offer dialog confirmation button text.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_promo_offer_dialog_content_first_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We’ll add 6 months of Dynamics 365 Marketing to your subscription at no charge, so you can continue the conversation with participants through personalized and automated emails.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เราจะเพิ่ม Dynamics 365 Marketing เป็นเวลา 6 เดือนในการสมัครใช้งานของคุณโดยไม่มีค่าใช้จ่าย เพื่อให้คุณสามารถสนทนากับผู้เข้าร่วมต่อไปได้ผ่านทางอีเมลที่ปรับแต่งและอีเมลอัตโนมัติ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Short intro text for the Dynamics marketing promo offer dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_promo_offer_dialog_content_second_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[After 6 months, you can continue using Dynamics 365 Marketing by contacting your admin to purchase a license.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[หลังจากผ่านไป 6 เดือน คุณสามารถใช้ Dynamics 365 Marketing ต่อไปได้โดยติดต่อผู้ดูแลระบบของคุณเพื่อซื้อสิทธิการใช้งาน]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Introduction text for the Dynamics marketing promo offer dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_promo_offer_dialog_header_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Follow up with participants in Dynamics 365 Marketing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ติดตามผู้เข้าร่วมใน Dynamics 365 Marketing]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Dynamics promo offer dialog header text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_promo_offer_learn_more_link_accessibility_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about this offer]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เรียนรู้เพิ่มเติมเกี่ยวกับข้อเสนอนี้]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Accessibility text for Learn more link to provide information about Dynamics promo offer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_promo_offer_learn_more_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เรียนรู้เพิ่มเติม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of a Learn more link to provide information about Dynamics promo offer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";d365_user_consent_registration_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong. Try again]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[มีบางอย่างผิดพลาด โปรดลองอีกครั้ง]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown in the Dynamics org selection dialog when there is an user consent registration error]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";follow_up_with_webinar_participants_in_d365" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Follow up with participants]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ติดตามผลกับผู้เข้าร่วม]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the Link in webinar attendance tab to open Dynamics org selection dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_analytics_select_the_meeting_by_time" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select the meeting by time]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[เลือกการประชุมตามเวลา]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content text for the dropdown of the meeting analytics toolbar]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

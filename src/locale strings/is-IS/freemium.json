@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Þú hefur náð hámarksfjölda meðlima fyrir stofnunina/fyrirtækið þitt. Sendu skilaboð til eins af stjórnendunum til að uppfæra og bæta fleirum við.} =1 {Þú hefur náð hámarksfjölda meðlima fyrir stofnunina/fyrirtækið þitt. Biddu <0></0> um að uppfæra til að þú getir boðið fleira fólki.} one {Þú hefur náð hámarksfjölda meðlima fyrir stofnunina/fyrirtækið þitt. Biddu einhvern af <0></0> um að uppfæra til að þú getir boðið fleira fólki.} other {Þú hefur náð hámarksfjölda meðlima fyrir stofnunina/fyrirtækið þitt. Biddu einhvern af <0></0> um að uppfæra til að þú getir boðið fleira fólki.}}"
+}

@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} em {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Sem sugestões.||1->2::{0} sugestão disponível: ||2->3::{0} sugestões disponíveis: ||3->INF::{0} sugestões disponíveis:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Sem sugestões para {0}.||1->2::{1} sugestão disponível para {0}: ||2->3::{1} sugestões disponíveis para {0}: ||3->INF::{1} sugestões disponíveis para {0}: ",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grupo sem nome",
+  "autosuggest_sb_search_box_clear_button_label": "Limpar a caixa de pesquisa",
+  "autosuggest_sb_search_box_submit_button_label": "Procurar",
+  "autosuggest_sb_search_box_view_all_results_label": "Prima Enter para ver todos os resultados",
+  "autosuggest_people_group_heading": "Pessoas",
+  "autosuggest_chats_group_heading": "Conversas em grupo",
+  "autosuggest_zero_term_group_aria_label": "Pesquisas recentes"
+}

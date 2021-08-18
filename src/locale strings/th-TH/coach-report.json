@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "ไม่มีรายงานโค้ชการประชุมที่พร้อมใช้งาน",
+  "coach_report_no_data_too_short": "เปิดใช้งานโค้ชการประชุมให้มากกว่า 1 นาทีเพื่อเข้าถึงรายงานของคุณ",
+  "coach_report_no_data_too_long": "ขออภัย โค้ชการประชุมไม่สนับสนุนการประชุมที่นานกว่า 2 ชั่วโมง",
+  "coach_report_title": "ข้อมูลเชิงลึกของโค้ชการประชุมของคุณ",
+  "coach_report_private_label": "ส่วนตัว",
+  "coach_report_settings": "การตั้งค่า",
+  "coach_report_subtitle": "* รายงานโค้ชของคุณจะมองเห็นได้เฉพาะคุณเท่านั้น",
+  "coach_report_chart_title": "คำแนะนำจากการประชุมของคุณ",
+  "coach_report_card_checkbox": "บันทึกและข้ามหน้าจอนี้สำหรับเซสชันในอนาคตเสมอ",
+  "coach_report_save_button": "บันทึก",
+  "coach_report_delete_button": "ลบ",
+  "coach_report_save_button_tooltip": "ค้นหาในภายหลังบนหน้าการประชุม",
+  "coach_report_feedback_before_submit": "รายการนี้มีประโยชน์หรือไม่",
+  "coach_report_feedback_after_submit": "ขอบคุณสำหรับคำติชม",
+  "coach_report_feedback_yes_button": "ใช่",
+  "coach_report_feedback_no_button": "ไม่ใช่",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} จาก {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "ก่อนหน้า",
+  "coach_report_next_critique_button": "ถัดไป"
+}

@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "ПОДОБРЕНА РЕАЛНОСТ",
+  "indicator_mobile_long": "МОБИЛНА ПОДОБРЕНА РЕАЛНОСТ",
+  "toolbar_arrow": "Стрелка за место",
+  "toolbar_ink": "Белешки",
+  "toolbar_color_picker": "Избери боја",
+  "toolbar_color_yellow": "Жолта",
+  "toolbar_color_blue": "Сина",
+  "toolbar_color_gray": "Сива",
+  "toolbar_color_green": "Зелена",
+  "toolbar_color_red": "Црвена",
+  "toolbar_insert_file": "Вметни датотека",
+  "toolbar_undo": "Врати",
+  "toolbar_erase_all_current_session": "Избриши ги сите од тековната сесија на уредување",
+  "toolbar_erase_all": "Избриши ги сите",
+  "toolbar_start_editing": "Започни со уредување",
+  "toolbar_stop_editing": "Престани со уредување"
+}

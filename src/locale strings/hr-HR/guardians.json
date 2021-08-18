@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Učitavanje nadređenog popisa",
+  "guardians_table": "Nadređeni popis za {{classTeam}}",
+  "students": "Polaznici",
+  "guardians": "Roditelji / Skrbnici",
+  "chatButton": "Gumb za čavrljanje",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# više roditelja ili skrbnika. Proširite da biste otvorili popis} one {# više roditelja ili skrbnika. Proširite da biste otvorili popis} few {# više roditelja ili skrbnika. Proširite da biste otvorili popis} other{# više roditelja ili skrbnika. Proširite da biste otvorili popis} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, otvara karticu profila",
+  "guardians_user_unknown_label": "Nepoznati korisnik",
+  "guardians_status_unknown_label": "Nepoznato",
+  "guardians_overflow_members": "Dodatni roditelji ili skrbnici djeteta {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Započnite razgovor sa skrbnikom {studentName}} one {Započnite razgovor sa skrbnicima {studentName}} few {Započnite razgovor sa skrbnicima {studentName}} other{Započnite razgovor sa skrbnicima {studentName}}}",
+  "guardians_chat_button_disabled_title": "Administrator je onemogućio vanjski pristup",
+  "guardians_chat_button_disabled_alt_title": "Zamolite svog administratora da doda kontaktne podatke skrbnika kako bi čavrljanje bilo dostupno",
+  "empty_state_title": "Roditelji i skrbnici nisu dodani",
+  "empty_state_subtitle": "Zamolite IT administratora da ih doda kako biste ih mogli brzo kontaktirati. <0></0>",
+  "empty_state_link": "Vidi više",
+  "error_state_title": "Nešto nije u redu. Vratite se kasnije.",
+  "not_owner_error_state_title": "Samo vlasnici predmetnih timova mogu vidjeti informacije o roditeljima i skrbnicima. Zatražite od vlasnika tima da vam dodijeli pristup.",
+  "retry_button_title": "Pokušajte ponovo",
+  "transient_error_state_title": "Nešto nije u redu. Pokušajte ponovo.",
+  "notification_banner_content": "Pojavio se problem pri učitavanju dodatnih informacija o roditelju i skrbniku. Pokušajte ponovo kasnije."
+}

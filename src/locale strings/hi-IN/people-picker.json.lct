@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="people-picker.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="hi-IN" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";peoplePicker_collapseGroupNameButtonContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Collapse group name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[समूह नाम सक्षिप्त करें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Collapse group name entrypoint button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_dlGetMembersError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something happened, and we weren't able to add the group.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[कुछ हुआ और हम समूह को जोड़ने में सक्षम नहीं थे.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when selecting a group failed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_dlTooManyMembers" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We weren't able to add {{dlName}} ({{dlMemberCount}}). You can only start a chat with {{maxSize}} people or less.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम {{dlName}} ({{dlMemberCount}}) जोड़ने में असमर्थ थे. आप केवल {{maxSize}} या इससे कम लोगों के साथ चैट प्रारंभ कर सकते हैं.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when selecting a large size group. {{dlName}} is the name of the distribution list (DL). {{dlMemberCount}} is the count of DL member. {{maxSize}} is the maximum size allowed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_federationWarning" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chatting with enterprise or school accounts is not available yet. Learn more.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[एंटरप्राइज़ या विद्यालय खातों के साथ चैट करना अभी तक उपलब्ध नहीं है. अधिक जानें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to be shown when TFL user searches for an AAD user and the federation support is not there yet.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_focusSelectedUser" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{username}}. Use backspace or delete to remove. Use left or right keys for other chat recipients.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{username}}. निकालने के लिए बैकस्पेस या डिलीट का उपयोग करें. अन्य चैट प्राप्तकर्ताओं के लिए बाईं या दाईं कुंजी का उपयोग करें.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Hint that user can navigate through and edit recipient list, {{username}} is a placeholder for the name of the recipient to be announced]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_loadingMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[लोड हो रहा है...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when the dropdown is loading results.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_newAddGroupNameButtonContent" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add group name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[समूह का नाम जोड़ें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[New add group name entrypoint button text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_noResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't find any matches.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[हम कोई मेल नहीं मिला.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[No results message when the dropdown is empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_resultsUpdationAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results updated. Use the up and down arrow key to navigate, and enter to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[खोज परिणाम अद्यतित किए गए. नेविगेट करने के लिए ऊपर या नीचे कुंजी का उपयोग करें, चयन करने के लिए इंटर कुंजी का उपयोग करें.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Search results updated. Use the up and down arrow key to navigate, and enter to select. {{username}}, {{description}}, 1 of {{resultCount}}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when the search result count differs from the previous result count.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_search_externally_btn_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search {{email}} externally]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[बाहरी रूप से {{email}} खोजें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for search externally (action) button used to start conversation with {{email}} from a different tenant.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_tflToLinePlaceholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter name, email or phone number]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[नाम, ईमेल या फ़ोन नंबर दर्ज करें]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Enter name or email]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Recipient line placeholder text for TFL]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_tflTwoWaySmsRemoveAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[निकालें]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[TFL 2-way SMS participant close button aria label.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_userAdditionAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{username}} selected from the list.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[सूची से {{username}} चयनित.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when user {{username}} gets added to the people picker.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_userHighlightedAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{username}}, {{description}}, {{index}} of {{resultCount}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{username}}, {{description}}, {{index}} का {{resultCount}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when user {{username}} with description {{description}} is highlighted in the people picker. {{index}} is the index of the user out of {{resultCount}} results in the people picker.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";peoplePicker_userRemovalAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{username}} removed from the list.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{username}} सूची से निकाला गया.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label when user {{username}} gets removed from the people picker.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

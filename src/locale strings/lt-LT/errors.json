@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Oi! Įvyko klaida!",
+  "default_app_title": "Oi, kažkas ne taip! (Programos klaidos)",
+  "default_network_error_description": "Oi, tinklo problema!",
+  "default_network_error_title": "Oi, tinklo problema!",
+  "default_unknown_description": "Oi! Įvyko klaida!",
+  "default_unknown_title": "Oi! Įvyko klaida!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Oi, kažkas ne taip! (pagrindinės klaidos)",
+  "default_core_error_title": "Klaidos kodas: pagrindinės klaidos",
+  "default_fetch_description": "Oi, kažkas ne taip! (CDL gavimo klaidos)",
+  "default_fetch_title": "Klaidos kodas: CDL gavimo klaidos",
+  "default_service_description": "Oi, kažkas ne taip! (CDL tarnybos klaidos)",
+  "default_service_title": "Klaidos kodas: CDL tarnybos klaidos",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

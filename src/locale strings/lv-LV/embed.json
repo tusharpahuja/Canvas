@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Pievienot personas",
+  "embed_go_back_button": "Atgriezties",
+  "embed_provide_feedback": "Sniedziet atsauksmes:",
+  "embed_go_to": "Doties uz sadaļu {{title}}",
+  "embed_open_inside": "Atvērt iekšpusē",
+  "embed_participants_in_chat": "Dalībnieki ({{membersCount}})",
+  "embed_pop_out_chat": "Atvērt tērzēšanu jaunā logā",
+  "embed_pop_in_back": "Atgriezieties galvenajā logā",
+  "embed_error_page_message": "Diemžēl ir radusies problēma",
+  "embed_error_page_try_again_button": "Mēģināt vēlreiz",
+  "embed_chats": "Microsoft Teams tērzēšana",
+  "embed_chat": "Microsoft Teams tērzēšana"
+}

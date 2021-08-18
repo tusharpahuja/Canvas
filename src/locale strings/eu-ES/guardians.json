@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Gurasoen zerrenda kargatzen",
+  "guardians_table": "{{classTeam}} taldearen zerrenda nagusia",
+  "students": "Ikasleak",
+  "guardians": "Gurasoak / Tutoreak",
+  "chatButton": "Txataren botoia",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# guraso edo tutore gehiago. Zabaldu, zerrenda irekitzeko} one {# guraso edo tutore gehiago. Zabaldu, zerrenda irekitzeko} other{# guraso edo tutore gehiago. Zabaldu, zerrenda irekitzeko} }",
+  "guardians_student_label": "{{studentName}}, egoera {{status}}, txartel pertsonala irekitzen du",
+  "guardians_user_unknown_label": "Erabiltzaile ezezaguna",
+  "guardians_status_unknown_label": "Ezezaguna",
+  "guardians_overflow_members": "{{studentName}}(r)en guraso edo tutore gehigarriak: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Hasi txat bat {studentName}(r)en tutorearekin} one {Hasi txat bat {studentName}(r)en tutoreekin} other{Hasi txat bat {studentName}(r)en tutoreekin}}",
+  "guardians_chat_button_disabled_title": "Administratzaileak desgaitu egin du kanpoko sarbidea",
+  "guardians_chat_button_disabled_alt_title": "Txata erabilgarri egon dadin, eskatu administratzaileari tutorearen harremanetarako informazioa gehitzeko",
+  "empty_state_title": "Gurasoak eta tutoreak ez dira gehitu",
+  "empty_state_subtitle": "Eskatu IKT saileko administratzaileari pertsona hori gehitzeko, hemendik harekin bizkor harremanetan jartzeko. <0></0>",
+  "empty_state_link": "Ikusi gehiago",
+  "error_state_title": "Arazoren bat izan da. Itzuli geroago.",
+  "not_owner_error_state_title": "Gelako taldeen jabeek soilik ikus dezakete guraso eta tutoreei buruzko informazioa. Eskatu taldearen jabeari sarbidea emateko.",
+  "retry_button_title": "Saiatu berriro",
+  "transient_error_state_title": "Arazoren bat izan da. Saiatu berriro.",
+  "notification_banner_content": "Arazo bat izan da guraso eta tutoreen inguruko informazio gehiago kargatzean. Saiatu berriro geroago."
+}

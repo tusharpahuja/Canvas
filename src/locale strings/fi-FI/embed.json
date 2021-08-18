@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Lisää henkilöitä",
+  "embed_go_back_button": "Siirry takaisin",
+  "embed_provide_feedback": "Anna palautetta:",
+  "embed_go_to": "Siirry osoitteeseen {{title}}",
+  "embed_open_inside": "Avaa sisäpuoli",
+  "embed_participants_in_chat": "Osallistujat ({{membersCount}})",
+  "embed_pop_out_chat": "Avaa keskustelu ponnahdusikkunassa",
+  "embed_pop_in_back": "Palaa takaisin pääikkunaan",
+  "embed_error_page_message": "Pahoittelut – tapahtui virhe",
+  "embed_error_page_try_again_button": "Yritä uudelleen",
+  "embed_chats": "Microsoft Teams -keskustelut",
+  "embed_chat": "Microsoft Teams -keskustelu"
+}

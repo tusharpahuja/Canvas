@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL strujanja",
+  "stream_url_placeholder": "Unesite URL strujanja",
+  "stream_key_label": "Ključ strujanja",
+  "stream_key_placeholder": "Unesite ključ strujanja",
+  "start_streaming_button_text": "Pokretanje strujanja",
+  "stop_streaming_button_text": "Zaustavljanje strujanja",
+  "custom_streaming_config_page_description": "Prilagođeno strujanje vaš je alat za strujanje sastanaka u aplikaciji Teams na javne platforme, koje omogućuje RTMP",
+  "custom_streaming_config_page_first_greeting": "Dobro došli u prilagođeno strujanje!",
+  "custom_streaming_config_page_second_greeting": "Drago nam je da ste ovdje",
+  "custom_streaming_error_meeting_limit_reached": "Ovaj se sastanak ne može strujati u trenutnim postavkama. Ograničite sudionike na manje od 1000.",
+  "custom_streaming_error_permission_denied": "Nemate dozvole za strujanje. Molimo da se obratite se IT administratoru ili organizatoru radi strujanja ovog sadržaja",
+  "custom_streaming_error_outdated_client": "Aplikaciji Teams potrebna su ažuriranja za nastavak. Ponovno pokrenite aplikaciju, da biste bili sigurni da imate najnovije značajke.",
+  "custom_streaming_error_unknown": "Došlo je do pogreške, molimo da pokušate ponovno.",
+  "custom_streaming_error_unsupported_platform": "Ova značajka još nije podržana u pregledniku. Pokušajte ponovno s verzije aplikacije Teams.",
+  "custom_streaming_tab_title": "Prilagođeno strujanje"
+}

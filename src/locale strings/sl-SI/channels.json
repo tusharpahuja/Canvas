@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Za: {user1}} =1{Za: {user1} in 1 drugo osebo} one {Za: {user1} in # drugih oseb} two {Za: {user1} in # drugih oseb} few {Za: {user1} in # drugih oseb} other{Za: {user1} in # drugih oseb}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Za: {user1}, {user2}} =1{Za: {user1}, {user2} in 1 drugo osebo} one {Za: {user1}, {user2} in # drugo osebo} two {Za: {user1}, {user2} in # drugi osebi} few {Za: {user1}, {user2} in # drugih oseb} other{Za: {user1}, {user2} in # drugih oseb}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Za: {user1}, {user2}, {user3}} =1{Za: {user1}, {user2}, {user3} in 1 drugo osebo} one {Za: {user1}, {user2}, {user3} in # drugih oseb} two {Za: {user1}, {user2}, {user3} in # drugi osebi} few {Za: {user1}, {user2}, {user3} in # drugih oseb} other{Za: {user1}, {user2}, {user3} in # drugih oseb}}",
+  "new_message_label": "Novo",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} odgovori {user1}} =1{{repliesCount} odgovori {user1} in 1 druga oseba} one {{repliesCount} odgovori {user1}, in # drugi} two {{repliesCount} odgovori {user1}, in # drugi} few {{repliesCount} odgovori {user1}, in # drugi} other{{repliesCount} odgovori {user1}, in # drugi}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} odgovori {user1}, {user2}} =1{{repliesCount} odgovori {user1}, {user2}, in 1 drugih} one {{repliesCount} odgovori {user1}, {user2}, in # drugih} two {{repliesCount} odgovori {user1}, {user2}, in # drugih} few {{repliesCount} odgovori {user1}, {user2}, in # drugih} other{{repliesCount} odgovori {user1}, {user2}, in # drugih}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} odgovori {user1}, {user2}, {user3}} =1{{repliesCount} odgovori {user1}, {user2}, {user3}, in 1 drugih} one {{repliesCount} odgovori {user1}, {user2}, {user3} in # drugih} two {{repliesCount} odgovori {user1}, {user2}, {user3} in # drugih} few {{repliesCount} odgovori {user1}, {user2}, {user3} in # drugih} other{{repliesCount} odgovori {user1}, {user2}, {user3} in # drugih}}",
+  "tmp_view_chat_button_text": "Ogled odgovorov",
+  "tmp_go_to_channel_button_text": "Odpri kanal"
+}

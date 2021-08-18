@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Няма наличен отчет за Треньор на събрания",
+  "coach_report_no_data_too_short": "Включете треньора на събранието за повече от 1 минута, за да получите достъп до отчета си",
+  "coach_report_no_data_too_long": "Съжаляваме, треньорът на събранието не поддържа събрания, по-дълги от 2 часа",
+  "coach_report_title": "Прозрения за вашия Треньор за събрания",
+  "coach_report_private_label": "Личен",
+  "coach_report_settings": "Настройки",
+  "coach_report_subtitle": "* Отчетът на вашия Треньор е видим само за вас.",
+  "coach_report_chart_title": "Предложения от вашето събрание",
+  "coach_report_card_checkbox": "Винаги записвайте и пропускайте този екран за бъдещи сесии",
+  "coach_report_save_button": "Записване",
+  "coach_report_delete_button": "Изтриване",
+  "coach_report_save_button_tooltip": "Намерете по-късно на страницата на събранието",
+  "coach_report_feedback_before_submit": "Полезно ли е това?",
+  "coach_report_feedback_after_submit": "Благодарим ви за обратната връзка",
+  "coach_report_feedback_yes_button": "Да",
+  "coach_report_feedback_no_button": "Не",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} от {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Назад",
+  "coach_report_next_critique_button": "Напред"
+}

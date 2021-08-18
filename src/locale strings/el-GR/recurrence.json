@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Συμβαίνει καθημερινά} =2{Συμβαίνει κάθε δεύτερη ημέρα} one {Συμβαίνει κάθε # ημέρες} other{Συμβαίνει κάθε # ημέρες}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Συμβαίνει κάθε {days}} =2{Συμβαίνει κάθε δεύτερη {days}} one {Συμβαίνει κάθε # εβδομάδες, ημέρα {days}} other{Συμβαίνει κάθε # εβδομάδες, ημέρα {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Συμβαίνει κάθε μήνα, ημέρα {day}} =2{Συμβαίνει κάθε δεύτερο μήνα, ημέρα {day}} one {Εμφανίζεται κάθε # μήνες, ημέρα {day}} other{Εμφανίζεται κάθε # μήνες, ημέρα {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Συμβαίνει κάθε μήνα στις {weekInMonthIndex} {weekday}} =2{Συμβαίνει κάθε δεύτερο μήνα, {weekInMonthIndex} εβδομάδα, ημέρα {weekday}} one {Συμβαίνει κάθε # μήνες, στις {weekInMonthIndex} {weekday}} other{Συμβαίνει κάθε # μήνες, στις {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Πραγματοποιείται κάθε {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Πραγματοποιείται κάθε {{dayOfTheWeekIndex}} {{dayOfTheWeek}} του μήνα {{month}}"
+}

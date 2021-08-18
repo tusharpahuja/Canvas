@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Keluar",
+  "me_control_sign_out_button_aria_label": "Keluar dari Microsoft",
+  "me_control_my_microsoft_account_button_text": "Akun Microsoft saya",
+  "me_control_my_microsoft_account_button_aria_label": "Akun Microsoft saya",
+  "me_control_change_picture_aria_label": "Ubah foto profil",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Menu profil",
+  "app_bar_activity_app_name": "Aktivitas",
+  "app_bar_activity_app_arialabel": "Aktivitas",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# aktivitas baru} other{# aktivitas baru}}",
+  "app_bar_activity_app_tooltip": "Aktivitas",
+  "app_bar_chat_app_name": "Obrolan",
+  "app_bar_chat_app_arialabel": "Obrolan",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# obrolan dengan pesan baru} other{# obrolan dengan pesan baru}}",
+  "app_bar_chat_app_tooltip": "Obrolan",
+  "app_bar_calendar_app_name": "Kalender",
+  "app_bar_calendar_app_arialabel": "Kalender",
+  "app_bar_calendar_app_tooltip": "Kalender",
+  "app_bar_calls_app_name": "Panggilan",
+  "app_bar_calls_app_arialabel": "Panggilan",
+  "app_bar_calls_app_tooltip": "Panggilan"
+}

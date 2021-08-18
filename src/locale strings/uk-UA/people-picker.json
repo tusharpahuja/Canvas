@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Щось трапилося, і нам не вдалося додати групу.",
+  "peoplePicker_dlTooManyMembers": "Не вдалося додати {{dlName}} ({{dlMemberCount}}). Ви можете тільки розпочати чат з {{maxSize}} людьми або менше.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Натисніть клавішу Backspace або Delete, щоб вилучити. Скористайтеся клавішами зі стрілками вправо або вліво, щоб перейти до інших одержувачів у чаті.",
+  "peoplePicker_loadingMessage": "Завантаження…",
+  "peoplePicker_newAddGroupNameButtonContent": "Додайте ім’я групи",
+  "peoplePicker_collapseGroupNameButtonContent": "Згорнути ім'я групи",
+  "peoplePicker_federationWarning": "Чат із корпоративними або навчальним обліковими записами ще недоступні. Дізнатися більше.",
+  "peoplePicker_noResults": "Не вдалося знайти жодних збігів.",
+  "peoplePicker_resultsUpdationAriaLabel": "Результати пошуку оновлено. Скористайтеся клавішами зі стрілками вгору або вниз, щоб переходити між пунктами. Натисніть клавішу Enter, щоб вибрати пункт.",
+  "peoplePicker_search_externally_btn_text": "Пошук {{email}} у зовнішніх розташуваннях",
+  "peoplePicker_tflToLinePlaceholder": "Введіть ім’я, адресу електронної пошти або телефон",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Вилучити",
+  "peoplePicker_userAdditionAriaLabel": "Користувача {{username}} вибрано зі списку.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} із {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Користувача {{username}} вилучено зі списку."
+}

@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Adres URL strumienia",
+  "stream_url_placeholder": "Wprowadź adres URL strumienia",
+  "stream_key_label": "Stream key",
+  "stream_key_placeholder": "Wprowadź Stream key",
+  "start_streaming_button_text": "Rozpocznij przesyłanie strumieniowe",
+  "stop_streaming_button_text": "Zatrzymaj przesyłanie strumieniowe",
+  "custom_streaming_config_page_description": "Niestandardowe przesyłanie strumieniowe to narzędzie służące do przesyłania strumieniowego spotkania aplikacji Teams do platform publicznych obsługiwanych przez protokół RTMP",
+  "custom_streaming_config_page_first_greeting": "Niestandardowe przesyłanie strumieniowe — Zapraszamy!",
+  "custom_streaming_config_page_second_greeting": "Cieszymy się, że jesteś z nami",
+  "custom_streaming_error_meeting_limit_reached": "Nie można przesłać strumieniowo tego spotkania przy jego bieżących ustawieniach. Ogranicz liczbę uczestników poniżej 1000.",
+  "custom_streaming_error_permission_denied": "Nie masz uprawnień do przesyłania strumieniowego. Aby przesyłać strumieniowo tę zawartość, skontaktuj się z administratorem IT lub organizatorem.",
+  "custom_streaming_error_outdated_client": "Aby kontynuować, wymagane są aktualizacje aplikacji Teams. Uruchom ponownie aplikację, aby upewnić się, że masz najnowsze funkcje.",
+  "custom_streaming_error_unknown": "Wystąpił problem. Spróbuj ponownie.",
+  "custom_streaming_error_unsupported_platform": "Ta funkcja nie jest jeszcze obsługiwana w przeglądarce. Spróbuj ponownie przy użyciu wersji klasycznej aplikacji Teams.",
+  "custom_streaming_tab_title": "Niestandardowe przesyłanie strumieniowe"
+}

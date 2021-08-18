@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Report Coach della riunione non disponibile",
+  "coach_report_no_data_too_short": "Attiva Meeting Coach per più di 1 minuto per accedere al report",
+  "coach_report_no_data_too_long": "Meeting Coach non supporta le riunioni più lunghe di 2 ore",
+  "coach_report_title": "Dati analitici del Coach della riunione",
+  "coach_report_private_label": "Privato",
+  "coach_report_settings": "Impostazioni",
+  "coach_report_subtitle": "* Tu soltanto puoi visualizzare il report del Coach.",
+  "coach_report_chart_title": "Suggerimenti dalla tua riunione",
+  "coach_report_card_checkbox": "Salva sempre e ignora la schermata per le sessioni future",
+  "coach_report_save_button": "Salva",
+  "coach_report_delete_button": "Elimina",
+  "coach_report_save_button_tooltip": "Lo troverai in seguito sulla pagina della riunione",
+  "coach_report_feedback_before_submit": "È stato utile?",
+  "coach_report_feedback_after_submit": "Grazie per il feedback",
+  "coach_report_feedback_yes_button": "Sì",
+  "coach_report_feedback_no_button": "No",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} di {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Indietro",
+  "coach_report_next_critique_button": "Avanti"
+}

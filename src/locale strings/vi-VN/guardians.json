@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Đang tải Danh sách cha mẹ",
+  "guardians_table": "Danh sách cha mẹ cho {{classTeam}}",
+  "students": "Học viên",
+  "guardians": "Cha mẹ / Người giám hộ",
+  "chatButton": "Nút trò chuyện",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# xem thêm cha mẹ hoặc người giám hộ. Bung rộng để mở danh sách} other{# xem thêm cha mẹ hoặc người giám hộ. Bung rộng để mở danh sách} }",
+  "guardians_student_label": "{{studentName}}, trạng thái {{status}}, mở thẻ hồ sơ",
+  "guardians_user_unknown_label": "Người dùng không xác định",
+  "guardians_status_unknown_label": "Không xác định",
+  "guardians_overflow_members": "Cha mẹ hoặc người giám hộ khác của {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Bắt đầu trò chuyện với người giám hộ của {studentName}} other{Bắt đầu trò chuyện với những người giám hộ của {studentName}}}",
+  "guardians_chat_button_disabled_title": "Người quản trị đã tắt quyền truy nhập bên ngoài",
+  "guardians_chat_button_disabled_alt_title": "Yêu cầu người quản trị thêm thông tin liên hệ của người giám hộ để có thể trò chuyện",
+  "empty_state_title": "Cha mẹ và người giám hộ chưa được thêm vào",
+  "empty_state_subtitle": "Yêu cầu Người quản trị CNTT của bạn thêm chúng để bạn có thể nhanh chóng liên hệ với họ từ đây. <0> </0>",
+  "empty_state_link": "Xem thêm",
+  "error_state_title": "Đã xảy ra lỗi. Vui lòng kiểm tra lại sau.",
+  "not_owner_error_state_title": "Chỉ chủ sở hữu nhóm lớp mới có thể xem thông tin của phụ huynh và người giám hộ. Yêu cầu chủ sở hữu nhóm cấp cho bạn quyền truy nhập.",
+  "retry_button_title": "Hãy thử lại",
+  "transient_error_state_title": "Đã xảy ra lỗi. Vui lòng thử lại.",
+  "notification_banner_content": "Đã xảy ra sự cố khi tải thêm thông tin về cha mẹ và người giám hộ. Vui lòng thử lại sau."
+}

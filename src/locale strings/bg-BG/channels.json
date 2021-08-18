@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{До: {user1}} =1{До: {user1} и още 1} one {До: {user1} и още #} other{До: {user1} и още #}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{До: {user1}, {user2}} =1{До: {user1}, {user2} и още 1} one {До: {user1}, {user2} и още #} other{До: {user1}, {user2} и още #}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{До: {user1}, {user2}, {user3}} =1{До: {user1}, {user2}, {user3} и още 1} one {До: {user1}, {user2}, {user3} и още #} other{До: {user1}, {user2}, {user3} и още #}}",
+  "new_message_label": "Ново",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} отговора от {user1}} =1{{repliesCount} отговора от {user1} и 1 друг} one {{repliesCount} отговора от {user1} и # други} other{{repliesCount} отговора от {user1} и # други}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} отговора от {user1}, {user2}} =1{{repliesCount} отговора от {user1}, {user2} и 1 друг} one {{repliesCount} отговора от {user1}, {user2} и # други} other{{repliesCount} отговора от {user1}, {user2} и # други}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} отговора от {user1}, {user2}, {user3}} =1{{repliesCount} отговора от {user1}, {user2}, {user3} и 1 друг} one {{repliesCount} отговора от {user1}, {user2}, {user3} и # други} other{{repliesCount} отговора от {user1}, {user2}, {user3} и # други}}",
+  "tmp_view_chat_button_text": "Преглед на отговорите",
+  "tmp_go_to_channel_button_text": "Към канала"
+}

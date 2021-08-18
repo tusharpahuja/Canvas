@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "A carregar a lista principal",
+  "guardians_table": "Lista de encarregados de educação para {{classTeam}}",
+  "students": "Alunos",
+  "guardians": "Pais / Tutores",
+  "chatButton": "Botão de conversa",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# mais encarregado de educação ou tutor. Expandir para abrir lista} one {# mais encarregados de educação ou tutores. Expandir para abrir lista} other{# mais encarregados de educação ou tutores. Expandir para abrir lista} }",
+  "guardians_student_label": "{{studentName}}, estado {{status}}, abre cartão de perfil",
+  "guardians_user_unknown_label": "Utilizador desconhecido",
+  "guardians_status_unknown_label": "Desconhecido",
+  "guardians_overflow_members": "Pais ou encarregados de educação adicionais de {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Iniciar uma conversa com o encarregado de educação de {studentName}} one {Iniciar uma conversa com os encarregados de educação de {studentName}} other{Iniciar uma conversa com os encarregados de educação de {studentName}}}",
+  "guardians_chat_button_disabled_title": "Acesso externo desativado pelo Administrador",
+  "guardians_chat_button_disabled_alt_title": "Peça ao seu administrador que adicione informações de contacto do encarregado de educação paran que o chat fique disponível",
+  "empty_state_title": "Os pais e os tutores ainda não foram adicionados",
+  "empty_state_subtitle": "Pergunte ao seu Administrador de TI para os adicionar para que possa contatá-los rapidamente a partir daqui. <0></0>",
+  "empty_state_link": "Ver mais",
+  "error_state_title": "Ocorreu um erro. Verifique novamente mais tarde.",
+  "not_owner_error_state_title": "Apenas os proprietários da equipa de turmas podem ver as informações principais e do guardião. Peça ao proprietário da equipa que lhe conceda acesso.",
+  "retry_button_title": "Repetir",
+  "transient_error_state_title": "Ocorreu um erro. Tente novamente.",
+  "notification_banner_content": "Houve um problema ao carregar mais informações de pais e tutores. Tente novamente mais tarde."
+}

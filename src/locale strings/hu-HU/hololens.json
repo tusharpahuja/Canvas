@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBIL AR",
+  "toolbar_arrow": "Nyíl elhelyezése",
+  "toolbar_ink": "Szabadkézi mód",
+  "toolbar_color_picker": "Szín kiválasztása",
+  "toolbar_color_yellow": "Sárga",
+  "toolbar_color_blue": "Kék",
+  "toolbar_color_gray": "Szürke",
+  "toolbar_color_green": "Zöld",
+  "toolbar_color_red": "Piros",
+  "toolbar_insert_file": "Fájl beszúrása",
+  "toolbar_undo": "Visszavonás",
+  "toolbar_erase_all_current_session": "Az összes törlése az aktuális szerkesztési munkamenetből",
+  "toolbar_erase_all": "Az összes törlése",
+  "toolbar_start_editing": "Szerkesztés megkezdése",
+  "toolbar_stop_editing": "Szerkesztés leállítása"
+}

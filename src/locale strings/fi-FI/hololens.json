@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBIILILAITTEEN AR",
+  "toolbar_arrow": "Aseta nuoli",
+  "toolbar_ink": "Käsinkirjoitus",
+  "toolbar_color_picker": "Valitse väri",
+  "toolbar_color_yellow": "Keltainen",
+  "toolbar_color_blue": "Sininen",
+  "toolbar_color_gray": "Harmaa",
+  "toolbar_color_green": "Vihreä",
+  "toolbar_color_red": "Punainen",
+  "toolbar_insert_file": "Lisää tiedosto",
+  "toolbar_undo": "Kumoa",
+  "toolbar_erase_all_current_session": "Poista kaikki nykyisestä muokkausistunnosta",
+  "toolbar_erase_all": "Poista kaikki",
+  "toolbar_start_editing": "Aloita muokkaaminen",
+  "toolbar_stop_editing": "Lopeta muokkaus"
+}

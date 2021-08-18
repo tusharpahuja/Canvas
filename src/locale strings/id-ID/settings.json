@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistem",
+  "general_settings_system_auto_start_toggle": "Mulai Teams secara otomatis",
+  "notification_settings_details_message_preview_header_text": "Pratinjau pesan",
+  "notification_settings_edit_chat_button_aria_label": "Edit pemberitahuan obrolan",
+  "notification_settings_details_chat_messages_text": "Pesan",
+  "notification_settings_warning_windows_tfw": "Periksa kembali pengaturan pemberitahuan Windows Anda untuk memastikan Anda dapat menerima pemberitahuan Teams. <0></0>",
+  "settings_loader_text": "Memuat konten...",
+  "dropdown_settings_selected_text": "{{value}} dipilih",
+  "read_receipts_title": "Tanda terima baca",
+  "read_receipts_description": "Memungkinkan orang tahu bahwa Anda telah melihat pesan mereka dan Anda tahu saat mereka melihat pesan Anda. Tutup dan buka kembali jendela obrolan agar pengaturan dapat diterapkan di obrolan tersebut.",
+  "read_receipts_label": "Tanda terima baca"
+}

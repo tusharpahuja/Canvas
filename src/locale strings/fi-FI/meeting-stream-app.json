@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Streamin URL-osoite",
+  "stream_url_placeholder": "Anna Streamin URL-osoite",
+  "stream_key_label": "Stream-avain",
+  "stream_key_placeholder": "Anna Stream-avain",
+  "start_streaming_button_text": "Aloita suoratoisto",
+  "stop_streaming_button_text": "Lopeta suoratoisto",
+  "custom_streaming_config_page_description": "Mukautettu suoratoisto on työkalu, jonka avulla voit suoratoistaa Teams-kokouksen julkisiin ympäristöihin RTMP:n tarjoamana",
+  "custom_streaming_config_page_first_greeting": "Tervetuloa Mukautettuun suoratoistoon!",
+  "custom_streaming_config_page_second_greeting": "Mukavaa, että olet täällä",
+  "custom_streaming_error_meeting_limit_reached": "Tätä kokousta ei voi suoratoistaa sen nykyisillä asetuksilla. Rajoita osallistujien määrä alle tuhanteen.",
+  "custom_streaming_error_permission_denied": "Sinulla ei ole suoratoiston oikeuksia. Ota yhteyttä IT-järjestelmänvalvojaan tai järjestäjään, jotta voit suoratoistaa tämän sisällön",
+  "custom_streaming_error_outdated_client": "Teams tarvitsee päivityksiä, jotta se voi jatkaa. Käynnistä sovellus uudelleen varmistaaksesi, että sinulla on uusimmat ominaisuudet.",
+  "custom_streaming_error_unknown": "Tapahtui virhe, yritä uudelleen.",
+  "custom_streaming_error_unsupported_platform": "Tätä ominaisuutta ei vielä tueta selaimessa. Yritä uudelleen Teamsin työpöytäversiosta.",
+  "custom_streaming_tab_title": "Mukautettu suoratoisto"
+}

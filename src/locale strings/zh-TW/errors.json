@@ -1,0 +1,18 @@
+{
+  "default_app_description": "糟糕，發生錯誤!",
+  "default_app_title": "糟糕，出問題了！(應用程式錯誤)",
+  "default_network_error_description": "糟糕，網路問題！",
+  "default_network_error_title": "糟糕，網路問題！",
+  "default_unknown_description": "糟糕，發生錯誤!",
+  "default_unknown_title": "糟糕，發生錯誤!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "糟糕，出問題了！(核心錯誤)",
+  "default_core_error_title": "錯誤碼: 核心錯誤",
+  "default_fetch_description": "糟糕，出問題了！(CDL 擷取錯誤)",
+  "default_fetch_title": "錯誤碼: CDL 擷取錯誤",
+  "default_service_description": "糟糕，出問題了！(CDL 服務錯誤)",
+  "default_service_title": "錯誤碼: CDL 服務錯誤",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

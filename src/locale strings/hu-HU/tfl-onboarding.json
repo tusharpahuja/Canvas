@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Másik fiók használata",
+  "tflFre_Learn_More_Link_caption": "Ki láthatja ezt?",
+  "tflFre_OK_Button_caption": "Indulás",
+  "tflFre_dialog_Aria": "Üdvözli a Teams! Hogyan szeretne megjelenni a Teams felületén? Mások ezeket az információkat használva kereshetik Önt.",
+  "tflFre_header": "Üdvözöljük!",
+  "tflFre_phone_and_email_flyout": "Telefonszámának és e-mail-címének kezeléséhez keresse fel a Microsoft-fiókját.",
+  "tflFre_who_can_see_this_flyout": "A neve és a Microsoft-fiókjához tartozó fiókkép mások számára is látható a Teamsben. Emellett a felhasználók a telefonszáma és az e-mail-címe alapján megkereshetik Önt a Teamsben.",
+  "tflFre_learn_more_link_text": "További információ",
+  "tflFre_sync_contacts_checkbox": "Szinkronizálom a Skype és az Outlook névjegyeimet, hogy megtaláljam az ismerőseimet a Teamsben.",
+  "tflFre_people_Can_Search_For_You_Using": "A felhasználók kereshetik Önt a következők segítségével:",
+  "tflFre_loading_spinner_text": "Betöltés folyamatban...",
+  "tflFre_stamping_error_dialog_header": "Nem sikerült frissíteni a Profilját",
+  "tflFre_stamping_error_dialog_body": "Nem sikerült frissíteni az Ön profiladatait. Válassza a „Másik fiók használata“ lehetőséget a kijelentkezéshez és másik fiók használatához. Válassza az „Újra“ lehetőséget a profil frissítésének újrapróbálásához.",
+  "tflFre_error_dialog_retry_button": "Ismét",
+  "tflFre_error_dialog_sign_out_button": "Másik fiók használata",
+  "tflFre_fetch_error_dialog_header": "Nem sikerült beolvasni a Profilját",
+  "tflFre_fetch_error_dialog_body": "Nem sikerült beolvasni az Ön profiladatait. Válassza a „Másik fiók használata“ lehetőséget a kijelentkezéshez és másik fiók használatához. Válassza az „Újra“ lehetőséget a profil beolvasásának újrapróbálásához.",
+  "tflFre_welcome_edit_header": "Üdvözli a Teams",
+  "tflFre_welcome_edit_second_header": "Hogyan szeretne megjelenni?",
+  "tflFre_phone_field_header": "Telefonszám",
+  "tflFre_email_field_header": "E-mail-cím"
+}

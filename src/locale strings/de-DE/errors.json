@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Leider ist etwas schief gegangen!",
+  "default_app_title": "Leider ist etwas schief gegangen. (App-Fehler)",
+  "default_network_error_description": "Hoppla, Netzwerkproblem!",
+  "default_network_error_title": "Hoppla, Netzwerkproblem!",
+  "default_unknown_description": "Leider ist etwas schief gegangen!",
+  "default_unknown_title": "Leider ist etwas schief gegangen!",
+  "default_authentication_title": "Leider konnten Sie nicht angemeldet werden",
+  "default_authentication_description": "Es ist etwas schiefgelaufen.",
+  "default_core_error_description": "Leider ist etwas schief gegangen! (Kernfehler)",
+  "default_core_error_title": "Fehlercode : Kernfehler",
+  "default_fetch_description": "Leider ist etwas schief gegangen! (CDL-Abruffehler)",
+  "default_fetch_title": "Fehlercode: CDL-Abruffehler",
+  "default_service_description": "Leider ist etwas schief gegangen! (CDL-Dienstfehler)",
+  "default_service_title": "Fehlercode: CDL-Dienstfehler",
+  "error_forbidden_text": "Es tut uns leid. Es trat ein Problem mit der Lizenz Ihrer Organisation auf",
+  "error_nonetwork_text": "Es tut uns leid. Es wurde kein Netzwerk gefunden. Versuchen Sie es erneut, wenn die Verbindung wieder hergestellt ist."
+}

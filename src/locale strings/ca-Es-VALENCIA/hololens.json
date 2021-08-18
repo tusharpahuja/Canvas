@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILE AR",
+  "toolbar_arrow": "Col·loca la fletxa",
+  "toolbar_ink": "Traç",
+  "toolbar_color_picker": "Tria un color",
+  "toolbar_color_yellow": "Groc",
+  "toolbar_color_blue": "Blau",
+  "toolbar_color_gray": "Gris",
+  "toolbar_color_green": "Verd",
+  "toolbar_color_red": "Roig",
+  "toolbar_insert_file": "Insereix un fitxer",
+  "toolbar_undo": "Desfés",
+  "toolbar_erase_all_current_session": "Esborra-ho tot de la sessió d'edició actual",
+  "toolbar_erase_all": "Esborra-ho tot",
+  "toolbar_start_editing": "Comença a editar",
+  "toolbar_stop_editing": "Deixa d'editar"
+}

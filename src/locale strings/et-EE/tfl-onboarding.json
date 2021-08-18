@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Kasuta teist kontot",
+  "tflFre_Learn_More_Link_caption": "Kes saavad seda vaadata?",
+  "tflFre_OK_Button_caption": "Hakkame pihta!",
+  "tflFre_dialog_Aria": "Tere tulemast kasutama rakendust Teams! Kuidas soovid end Teamsis kuvada? Inimesed saavad sind selle teabe abil otsida.",
+  "tflFre_header": "Tere!",
+  "tflFre_phone_and_email_flyout": "Oma telefoninumbri ja meili haldamiseks külasta Microsofti kontot.",
+  "tflFre_who_can_see_this_flyout": "Teised näevad Teamsis sinu nime ja Microsofti konto pilti. Inimesed saavad sind Teamsis otsida ka telefoninumbri ja meiliaadressi järgi.",
+  "tflFre_learn_more_link_text": "Lisateave",
+  "tflFre_sync_contacts_checkbox": "Teamsis mulle tuttavate inimeste otsimiseks sünkrooni minu Skype‘i ja Outlooki kontaktid.",
+  "tflFre_people_Can_Search_For_You_Using": "Inimesed saavad sind otsida, kasutades järgmist teavet:",
+  "tflFre_loading_spinner_text": "Laadimine...",
+  "tflFre_stamping_error_dialog_header": "Profiili ei saanud värskendada",
+  "tflFre_stamping_error_dialog_body": "Me ei saanud profiiliteavet värskendada. Välja logimiseks ja teise konto kasutamiseks vali „Kasuta teist kontot“. Profiili värskendamise uueks katseks vali „Proovi uuesti“",
+  "tflFre_error_dialog_retry_button": "Proovi uuesti",
+  "tflFre_error_dialog_sign_out_button": "Kasuta teist kontot",
+  "tflFre_fetch_error_dialog_header": "Profiili ei saanud tuua",
+  "tflFre_fetch_error_dialog_body": "Me ei saanud profiiliteavet tuua. Välja logimiseks ja teise konto kasutamiseks vali „Kasuta teist kontot“. Profiili toomise uueks katseks vali „Proovi uuesti“",
+  "tflFre_welcome_edit_header": "Tere tulemast kasutama Teamsi!",
+  "tflFre_welcome_edit_second_header": "Kuidas soovid kuvada?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "Meil"
+}

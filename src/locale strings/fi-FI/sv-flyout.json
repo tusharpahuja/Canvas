@@ -1,0 +1,9 @@
+{
+  "value_prop": "Muodosta yhteys kavereihin, perheenjäseniin ja työtovereihin",
+  "initializing_message": "Odota hetki, asioita valmistellaan käyttöä varten…",
+  "open_teams_on_web": "Avaa Teamsin verkkoversio",
+  "error_message_header": "Tapahtui ongelma",
+  "setup_error_message": "Asennuksessa oli ongelma",
+  "troubleshoot_issue": "Ongelman vianmääritys",
+  "retry_flyout_launch": "Yritä uudelleen"
+}

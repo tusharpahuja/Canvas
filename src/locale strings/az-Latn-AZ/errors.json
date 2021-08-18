@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Ups, səhv baş verdi!",
+  "default_app_title": "Ups, səhv baş verdi! (Proqram xətaları)",
+  "default_network_error_description": "Ups, şəbəkə problemi!",
+  "default_network_error_title": "Ups, şəbəkə problemi!",
+  "default_unknown_description": "Ups, səhv baş verdi!",
+  "default_unknown_title": "Ups, səhv baş verdi!",
+  "default_authentication_title": "Ups, sizi daxil edə bilmədik",
+  "default_authentication_description": "səhv baş verdi.",
+  "default_core_error_description": "Ups, səhv baş verdi! (Əsas xətalar)",
+  "default_core_error_title": "Xəta Kodu: Əsas xətalar",
+  "default_fetch_description": "Ups, səhv baş verdi! (CDL gətirilmə xətaları)",
+  "default_fetch_title": "Xəta Kodu: CDL gətirilmə xətaları",
+  "default_service_description": "Ups, səhv baş verdi! (CDL xidmət xətaları)",
+  "default_service_title": "Xəta Kodu: CDL xidmət xətaları",
+  "error_forbidden_text": "Təəssüf edirik. Təşkilatınızın lisenziyası ilə bağlı problem tapdıq",
+  "error_nonetwork_text": "Təəssüf edirik. Heç bir şəbəkə tapılmadı. Yenidən qoşulduqda yenidən cəhd edin."
+}

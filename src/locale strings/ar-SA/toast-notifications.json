@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} قام بذكرك",
+  "toast_messaging_reaction": "{{sender}} وصل إلى رسالتك",
+  "toast_messaging_default_group_topic": "غير معروف",
+  "toast_messaging_default_user_given_name": "غير معروف",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "إرسال",
+  "toast_messaging_quickreply_placeholder_text": "أرسل رداً سريعاً",
+  "toast_messaging_activity_text": "الدردشة مع {{participants}}",
+  "toast_messaging_activity_text_with_count": "الدردشة مع {{participants}} +{{count}}"
+}

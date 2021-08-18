@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Hleður...",
+  "lobby_screen_exit_message": "Fara úr biðstofunni",
+  "calling_join_button_audio": "Tengjast símtali með hljóði",
+  "calling_join_button_video": "Tengjast símtali með mynd",
+  "calling_screen_meeting_id": "Auðkenni fundar: {{conferenceId}}",
+  "meeting_room_present_content": "Kynna",
+  "meeting_room_connected_device": "Tengt tæki",
+  "meeting_room_content_camera": "Efnismyndavél",
+  "meeting_room_cortana_button_title": "Cortana"
+}

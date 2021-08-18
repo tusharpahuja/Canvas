@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} {1}-ში",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::შემოთავაზებები არ არის.||1->2::ხელმისაწვდომია {0} შემოთავაზება: ||2->3::ხელმისაწვდომია {0} შემოთავაზება: ||3->INF::ხელმისაწვდომია {0} შემოთავაზება: ",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::{0}-ისთვის შემოთავაზებები არ არის.||1->2::{0}-ისთვის ხელმისაწვდომია {1} შემოთავაზება: ||2->3::{0}-ისთვის ხელმისაწვდომია {1} შემოთავაზება: ||3->INF::{0}-ისთვის ხელმისაწვდომია {1} შემოთავაზება:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "უსახელო ჯგუფი",
+  "autosuggest_sb_search_box_clear_button_label": "გაასუფთავეთ ძიების ველი",
+  "autosuggest_sb_search_box_submit_button_label": "ძიება",
+  "autosuggest_sb_search_box_view_all_results_label": "ყველა შედეგის სანახავად დააჭირეთ შეყვანის ღილაკს",
+  "autosuggest_people_group_heading": "ხალხი",
+  "autosuggest_chats_group_heading": "ჯგუფური საუბრები",
+  "autosuggest_zero_term_group_aria_label": "ბოლოდროინდელი ძიებები"
+}

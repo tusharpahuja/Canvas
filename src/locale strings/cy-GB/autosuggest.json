@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} yn {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Dim awgrymiadau.||1->2::{0} awgrym ar gael: ||2->3::{0} awgrym ar gael: ||3->INF::{0} awgrym ar gael:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Dim awgrymiadau ar gyfer {0}.||1->2::{1} awgrym ar gael ar gyfer {0}: ||2->3::{1} awgrym ar gael ar gyfer {0}: ||3->INF::{1} awgrym ar gael ar gyfer {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Grŵp heb enw",
+  "autosuggest_sb_search_box_clear_button_label": "Clirio’r blwch chwilio",
+  "autosuggest_sb_search_box_submit_button_label": "Chwilio",
+  "autosuggest_sb_search_box_view_all_results_label": "Pwyswch enter i weld pob canlyniad",
+  "autosuggest_people_group_heading": "Pobl",
+  "autosuggest_chats_group_heading": "Sgyrsiau grŵp",
+  "autosuggest_zero_term_group_aria_label": "Chwiliadau diweddar"
+}

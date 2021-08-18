@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "השתמש בחשבון אחר",
+  "tflFre_Learn_More_Link_caption": "מי יכול לראות זאת",
+  "tflFre_OK_Button_caption": "קדימה",
+  "tflFre_dialog_Aria": "ברוך הבא ל- Teams. כיצד ברצונך להופיע ב- Teams? אנשים יכולים לחפש אותך באמצעות מידע זה",
+  "tflFre_header": "ברוך הבא",
+  "tflFre_phone_and_email_flyout": "בקר בחשבון Microsoft שלך כדי לנהל את מספר הטלפון והדואר האלקטרוני שלך.",
+  "tflFre_who_can_see_this_flyout": "שמך ותמונת חשבון Microsoft שלך יהיו גלויים לאנשים אחרים ב- Teams. אנשים יכולים לחפש אותך ב- Teams גם באמצעות מספר הטלפון וכתובת הדואר האלקטרוני שלך.",
+  "tflFre_learn_more_link_text": "מידע נוסף",
+  "tflFre_sync_contacts_checkbox": "סנכרן את אנשי הקשר שלי ב- Skype וב- Outlook כדי למצוא אנשים שאני מכיר ב- Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "אנשים יכולים לחפש אותך באמצעות:",
+  "tflFre_loading_spinner_text": "טוען...",
+  "tflFre_stamping_error_dialog_header": "עדכון הפרופיל שלך נכשל",
+  "tflFre_stamping_error_dialog_body": "לא הצלחנו לעדכן את נתוני הפרופיל שלך. בחר \"השתמש בחשבון אחר\" כדי להתנתק ולהשתמש בחשבון אחר. בחר \"נסה שנית\" כדי לנסות שוב לעדכן את הפרופיל שלך",
+  "tflFre_error_dialog_retry_button": "נסה שנית",
+  "tflFre_error_dialog_sign_out_button": "השתמש בחשבון אחר",
+  "tflFre_fetch_error_dialog_header": "הבאת הפרופיל שלך נכשלה",
+  "tflFre_fetch_error_dialog_body": "לא הצלחנו להביא את נתוני הפרופיל שלך. בחר \"השתמש בחשבון אחר\" כדי להתנתק ולהשתמש בחשבון אחר. בחר \"נסה שנית\" כדי לנסות שוב להביא את הפרופיל שלך",
+  "tflFre_welcome_edit_header": "ברוך הבא ל- Teams",
+  "tflFre_welcome_edit_second_header": "כיצד אתה מעדיף להופיע?",
+  "tflFre_phone_field_header": "טלפון",
+  "tflFre_email_field_header": "דואר אלקטרוני"
+}

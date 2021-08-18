@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL adresa protoka",
+  "stream_url_placeholder": "Unesite URL adresu toka",
+  "stream_key_label": "Ključ za strimovanje",
+  "stream_key_placeholder": "Unesite ključ toka",
+  "start_streaming_button_text": "Započni strimovanje",
+  "stop_streaming_button_text": "Prekini strimovanje",
+  "custom_streaming_config_page_description": "Prilagođeno strimovanje je vaša alatka za strimovanje Teams sastanka na javne platforme koje koristi RTMP",
+  "custom_streaming_config_page_first_greeting": "Dobro došli u prilagođeni striming!",
+  "custom_streaming_config_page_second_greeting": "Drago nam je što ste sa nama",
+  "custom_streaming_error_meeting_limit_reached": "Nije moguće strimovati ovaj sastanak u trenutnim postavkama. Ograničite učesnike na manje od 1000.",
+  "custom_streaming_error_permission_denied": "Nemate dozvole za striming. Molimo kontaktirajte IT administratora ili organizatora da biste mogli da strimujete ovaj sadržaj",
+  "custom_streaming_error_outdated_client": "Usluzi Teams su potrebne ispravke da bi nastavio. Ponovo pokrenite aplikaciju da biste se uverili da imate najnovije funkcije.",
+  "custom_streaming_error_unknown": "Došlo je do greške, pokušajte ponovo.",
+  "custom_streaming_error_unsupported_platform": "Ova funkcija još uvek nije podržana u pregledaču. Pokušajte ponovo iz verzije usluge Teams za računare.",
+  "custom_streaming_tab_title": "Prilagođeno strimovanje"
+}

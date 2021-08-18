@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Įvyko klaida ir nepavyko įtraukti grupės.",
+  "peoplePicker_dlTooManyMembers": "Nepavyko įtraukti tiek siuntimo sąrašo {{dlName}} narių: ({{dlMemberCount}}). Galite pradėti pokalbį tik su tiek ar mažiau žmonių: {{maxSize}}.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Norėdami pašalinti, naudokite klavišus „Backspace“ arba „Delete“. Kitiems pokalbio gavėjams pasiekti naudokite klavišus kairėn arba dešinėn.",
+  "peoplePicker_loadingMessage": "Įkeliama...",
+  "peoplePicker_newAddGroupNameButtonContent": "Įtraukti grupės pavadinimą",
+  "peoplePicker_collapseGroupNameButtonContent": "Sutraukti grupės pavadinimą",
+  "peoplePicker_federationWarning": "Pokalbis su įmonės arba švietimo įstaigos paskyromis dar nepasiekiami. Sužinokite daugiau.",
+  "peoplePicker_noResults": "Atitikčių nerasta.",
+  "peoplePicker_resultsUpdationAriaLabel": "Ieškos rezultatai atnaujinti. Naršykite naudodamiesi rodyklės klavišu aukštyn ir žemyn, pasirinkite klavišu „Enter“.",
+  "peoplePicker_search_externally_btn_text": "Ieškoti {{email}} išorėje",
+  "peoplePicker_tflToLinePlaceholder": "Įveskite vardą, el. pašto adresą arba telefono numerį",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Pašalinti",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} pasirinktas iš sąrašo.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}} {{index}} iš {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} pašalintas iš sąrašo."
+}

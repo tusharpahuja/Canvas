@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Відбувається щодня} =2{Відбувається через день} one {Відбувається кожного #-го дня} few {Відбувається кожного #-го дня} many {Відбувається кожного #-го дня} other{Відбувається кожного #-го дня}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Відбувається в кожен {days}} =2{Відбувається через {days}} one {Відбувається кожного #-го тижня у {days}} few {Відбувається кожного #-го тижня у {days}} many {Відбувається кожного #-го тижня у {days}} other{Відбувається кожного #-го тижня у {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Відбувається щомісяця на {day}-й день} =2{Відбувається через місяць на {day}-й день} one {Відбувається кожного #-го місяця на {day}-й день} few {Відбувається кожного #-го місяця на {day}-й день} many {Відбувається кожного #-го місяця на {day}-й день} other{Відбувається кожного #-го місяця на {day}-й день}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Відбувається щомісяця у {weekInMonthIndex} {weekday}} =2{Відбувається через місяць у {weekInMonthIndex} {weekday}} one {Відбувається кожного #-го місяця у {weekInMonthIndex} {weekday}} few {Відбувається кожного #-го місяця у {weekInMonthIndex} {weekday}} many {Відбувається кожного #-го місяця у {weekInMonthIndex} {weekday}} other{Відбувається кожного #-го місяця у {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Проводиться кожного {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Проводиться кожен {{month}} на {{dayOfTheWeekIndex}}-й тиждень у такий день: {{dayOfTheWeek}}"
+}

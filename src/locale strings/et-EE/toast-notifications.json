@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} mainis sind",
+  "toast_messaging_reaction": "{{sender}} reageeris su sõnumile",
+  "toast_messaging_default_group_topic": "Teadmata",
+  "toast_messaging_default_user_given_name": "Teadmata",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Saada",
+  "toast_messaging_quickreply_placeholder_text": "Saada kiirvastus",
+  "toast_messaging_activity_text": "Vestle kasutajatega {{participants}}",
+  "toast_messaging_activity_text_with_count": "Vestlus kasutajaga {{participants}} ja veel {{count}} inimesega"
+}

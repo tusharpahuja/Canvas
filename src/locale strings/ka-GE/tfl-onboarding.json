@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "სხვა ანგარიშის გამოყენება",
+  "tflFre_Learn_More_Link_caption": "ვის შეუძლია ამის ნახვა",
+  "tflFre_OK_Button_caption": "დავიწყოთ",
+  "tflFre_dialog_Aria": "მოგესალმებათ Teams. როგორ გსურთ, გამოჩნდეთ Teams-ზე? ადამიანები თქვენს მოძიებას ამ ინფორმაციის გამოყენებით შეძლებენ",
+  "tflFre_header": "მოგესალმებით",
+  "tflFre_phone_and_email_flyout": "მოინახულეთ თქვენი Microsoft-ის ანგარიში და იქიდან მართეთ თქვენი ტელეფონის ნომერი და ელფოსტა.",
+  "tflFre_who_can_see_this_flyout": "თქვენი სახელი და Microsoft-ის ანგარიშის სურათი ხილვადი იქნება Teams-ის სხვა მონაწილეებისთვის. ადამიანები ასევე შეძლებენ თქვენს მოძიებას Teams-ზე, თქვენი ტელეფონის ნომრისა და ელფოსტის გამოყენებით.",
+  "tflFre_learn_more_link_text": "შეიტყვეთ მეტი",
+  "tflFre_sync_contacts_checkbox": "დაასინქრონეთ ჩემი Skype-ისა და Outlook-ის კონტაქტები, Teams-ში ჩემთვის ნაცნობი ადამიანების მოსაძებნად.",
+  "tflFre_people_Can_Search_For_You_Using": "ადამიანები შეძლებენ თქვენს მოძებნას. ამისთვის, მათ შეუძლიათ, გამოიყენონ:",
+  "tflFre_loading_spinner_text": "იტვირთება...",
+  "tflFre_stamping_error_dialog_header": "თქვენი პროფილის განახლება ვერ მოხერხდა",
+  "tflFre_stamping_error_dialog_body": "თქვენი პროფილი ვერ განახლდა. გასასვლელად და სხვა ანგარიშის გამოსაყენებლად აირჩიეთ „სხვა ანგარიშის გამოყენება“. იმისთვის, რომ ხელახლა სცადოთ პროფილის განახლება, აირჩიეთ „ხელახლა ცდა“",
+  "tflFre_error_dialog_retry_button": "ხელახლა ცდა",
+  "tflFre_error_dialog_sign_out_button": "სხვა ანგარიშის გამოყენება",
+  "tflFre_fetch_error_dialog_header": "თქვენი პროფილის ინფორმაციის მიღება ვერ მოხერხდა",
+  "tflFre_fetch_error_dialog_body": "თქვენი პროფილის ინფორმაციის მიღება ვერ მოხერხდა. გასასვლელად და სხვა ანგარიშის გამოსაყენებლად აირჩიეთ „სხვა ანგარიშის გამოყენება“. იმისთვის, რომ ხელახლა სცადოთ პროფილის ინფორმაციის მიღება, აირჩიეთ „ხელახლა ცდა“",
+  "tflFre_welcome_edit_header": "მოგესალმებათ Teams",
+  "tflFre_welcome_edit_second_header": "როგორ გსურთ, რომ გამოჩნდეთ?",
+  "tflFre_phone_field_header": "ტელეფონი",
+  "tflFre_email_field_header": "ელფოსტა"
+}

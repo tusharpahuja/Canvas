@@ -1,0 +1,18 @@
+{
+  "default_app_description": "糟糕，出错了!",
+  "default_app_title": "糟糕，出错了! (应用错误)",
+  "default_network_error_description": "糟糕，网络问题!",
+  "default_network_error_title": "糟糕，网络问题!",
+  "default_unknown_description": "糟糕，出错了!",
+  "default_unknown_title": "糟糕，出错了!",
+  "default_authentication_title": "很抱歉，无法使你登录",
+  "default_authentication_description": "出现问题。",
+  "default_core_error_description": "糟糕，出现问题! (核心错误)",
+  "default_core_error_title": "错误代码: 核心错误",
+  "default_fetch_description": "糟糕，出现问题! (CDL 提取错误)",
+  "default_fetch_title": "错误代码: CDL 提取错误",
+  "default_service_description": "糟糕，出现问题! (CDL 服务错误)",
+  "default_service_title": "错误代码: CDL 服务错误",
+  "error_forbidden_text": "很抱歉。我们发现你组织的许可证有问题",
+  "error_nonetwork_text": "很抱歉。找不到网络。请在重新连接后重试。"
+}

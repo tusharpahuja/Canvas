@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} sa {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Walang mga suhestyon.||1->2::{0} suhestyon ang available: ||2->3::{0} (na) suhestyon ang available: ||3->INF::{0} (na) suhestyon ang available:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Walang mga suhestiyon para sa {0}.||1->2::{1}suhestiyon ang available para sa {0}: ||2->3::{1} (na) suhestiyon ang available para sa {0}: ||3->INF::{1} (na) suhestiyon ang available para sa {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Walang pangalang grupo",
+  "autosuggest_sb_search_box_clear_button_label": "I-clear ang search box",
+  "autosuggest_sb_search_box_submit_button_label": "Maghanap",
+  "autosuggest_sb_search_box_view_all_results_label": "Pindutin ang enter para tingnan ang lahat ng resulta",
+  "autosuggest_people_group_heading": "Mga Tao",
+  "autosuggest_chats_group_heading": "Mga panggrupong chat",
+  "autosuggest_zero_term_group_aria_label": "Mga kamakailang paghahanap"
+}

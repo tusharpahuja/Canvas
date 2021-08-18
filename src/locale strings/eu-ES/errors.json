@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Arazoren bat izan da.",
+  "default_app_title": "Arazoren bat izan da! (Aplikazio-erroreak)",
+  "default_network_error_description": "Sarearen arazoa.",
+  "default_network_error_title": "Sarearen arazoa.",
+  "default_unknown_description": "Arazoren bat izan da.",
+  "default_unknown_title": "Arazoren bat izan da.",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Arazoren bat izan da! (Oinarrizko erroreak)",
+  "default_core_error_title": "Errore-kodea: oinarrizko erroreak",
+  "default_fetch_description": "Arazoren bat izan da! (CDL eskuratzeko ekintzaren erroreak)",
+  "default_fetch_title": "Errore-kodea: CDL eskuratzeko ekintzaren erroreak",
+  "default_service_description": "Arazoren bat izan da! (CDL zerbitzuaren erroreak)",
+  "default_service_title": "Errore-kodea: CDL zerbitzuaren erroreak",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

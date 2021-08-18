@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Taip",
+  "instant_answers_reaction_yes_aria_label": "Ar ši informacija buvo naudinga? – Taip",
+  "instant_answers_reaction_no": "Ne",
+  "instant_answers_reaction_no_aria_label": "Ar ši informacija buvo naudinga? – Ne",
+  "instant_answers_header_text": "Dėkojame už atsiliepimą!",
+  "instant_answers_header_subtext": "Pagal jūsų atsiliepimus, čia rasite šiek tiek informacijos, kuri galbūt bus naudinga:",
+  "instant_answers_footer_text": "Ar ši informacija buvo naudinga?",
+  "include_screenshot_text": "Pridėti ekrano nuotrauką",
+  "customer_feedback_dialog_email_label": "Jūsų el. pašto adresas (pasirinktinai)",
+  "customer_feedback_dialog_email_placeholder": "Įtraukti el. pašto adresą",
+  "customer_feedback_dialog_email_aria_label": "Jūsų el. pašto adresas (pasirenkamas)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Paspaudus „Pateikti“, jūsų atsiliepimai bus naudojami tobulinant „Microsoft“ produktus ir paslaugas. IT administratorius galės rinkti šiuos duomenis. Atsižvelgdami į jūsų atsiliepimus, galime pateikti papildomos informacijos, kuri padės jums išspręsti palaikymo problemą.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Privatumo nuostatos.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Uždaryti atsiliepimų dialogo langą",
+  "customer_feedback_dialog_adhoc_window_title": "Parašykite atsiliepimą"
+}

@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Atsijungti",
+  "me_control_sign_out_button_aria_label": "Atsijungti nuo „Microsoft“",
+  "me_control_my_microsoft_account_button_text": "Mano „Microsoft“ paskyra",
+  "me_control_my_microsoft_account_button_aria_label": "Mano „Microsoft“ paskyra",
+  "me_control_change_picture_aria_label": "Keisti profilio nuotrauką",
+  "me_control_trigger_aria_label": "Profilis",
+  "me_control_menu_aria_label": "Profilio meniu",
+  "app_bar_activity_app_name": "Veikla",
+  "app_bar_activity_app_arialabel": "Veikla",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# nauja veikla} one {Naujų veiklų: #} few {Naujų veiklų: #} many {Naujų veiklų: #} other{Naujų veiklų: #}}",
+  "app_bar_activity_app_tooltip": "Veikla",
+  "app_bar_chat_app_name": "Pokalbis",
+  "app_bar_chat_app_arialabel": "Pokalbis",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# pokalbis su naujais pranešimais} one {Pokalbių su naujais pranešimais: #} few {Pokalbių su naujais pranešimais: #} many {Pokalbių su naujais pranešimais: #} other{Pokalbių su naujais pranešimais: #}}",
+  "app_bar_chat_app_tooltip": "Pokalbis",
+  "app_bar_calendar_app_name": "Kalendorius",
+  "app_bar_calendar_app_arialabel": "Kalendorius",
+  "app_bar_calendar_app_tooltip": "Kalendorius",
+  "app_bar_calls_app_name": "Skambučiai",
+  "app_bar_calls_app_arialabel": "Skambučiai",
+  "app_bar_calls_app_tooltip": "Skambučiai"
+}

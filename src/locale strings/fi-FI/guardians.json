@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Ladataan vanhempien luetteloa",
+  "guardians_table": "Pääluettelo kohteelle {{classTeam}}",
+  "students": "Opiskelijat",
+  "guardians": "Vanhemmat / Huoltajat",
+  "chatButton": "Keskustelupainike",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# vanhempi tai huoltaja enemmän. Laajenna avoimeen luetteloon} one {# vanhempaa tai huoltajaa enemmän. Laajenna avoimeen luetteloon} other{# vanhempaa tai huoltajaa enemmän. Laajenna avoimeen luetteloon} }",
+  "guardians_student_label": "{{studentName}}, tila {{status}}, avaa profiilikortin",
+  "guardians_user_unknown_label": "Tuntematon käyttäjä",
+  "guardians_status_unknown_label": "Tuntematon",
+  "guardians_overflow_members": "Opiskelijan {{studentName}} muu vanhempi tai huoltaja: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Aloita keskustelu opiskelijan {studentName} huoltajan kanssa} one {Aloita keskustelu opiskelijan {studentName} huoltajien kanssa} other{Aloita keskustelu opiskelijan {studentName} huoltajien kanssa}}",
+  "guardians_chat_button_disabled_title": "Järjestelmänvalvoja on poistanut käytöstä ulkoisen käytön",
+  "guardians_chat_button_disabled_alt_title": "Pyydä järjestelmänvalvojaa lisäämään huoltajan yhteystiedot, jotta keskustelun saa käyttöön",
+  "empty_state_title": "Vanhempia ja huoltajia ei ole lisätty",
+  "empty_state_subtitle": "Pyydä IT-järjestelmänvalvojaasi lisäämään heidät, jotta voit ottaa heihin nopeasti yhteyttä täältä. <0></0>",
+  "empty_state_link": "Lisätietoja",
+  "error_state_title": "Jokin meni vikaan. Yritä myöhemmin uudelleen.",
+  "not_owner_error_state_title": "Vain luokan tiimin omistajat voivat tarkastella vanhempien ja huoltajien tietoja. Pyydä tiimin omistajaa myöntämään sinulle käyttöoikeus.",
+  "retry_button_title": "Yritä uudelleen",
+  "transient_error_state_title": "Jokin meni vikaan. Yritä uudelleen.",
+  "notification_banner_content": "Virhe ladattaessa vanhemman ja huoltajan lisätietoja. Yritä myöhemmin uudelleen."
+}

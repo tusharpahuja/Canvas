@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Streamovací URL",
+  "stream_url_placeholder": "Zadat streamovací URL",
+  "stream_key_label": "Streamovací klíč",
+  "stream_key_placeholder": "Zadat streamovací klíč",
+  "start_streaming_button_text": "Spustit streamování",
+  "stop_streaming_button_text": "Zastavit streamování",
+  "custom_streaming_config_page_description": "Vlastní streamování je nástroj na streamování schůzek v Teams do veřejných platforem s protokolem RTMP",
+  "custom_streaming_config_page_first_greeting": "Vítá vás Vlastní streamování.",
+  "custom_streaming_config_page_second_greeting": "Jsme rádi, že jste tady.",
+  "custom_streaming_error_meeting_limit_reached": "Tuto schůzku nejde za současného nastavení streamovat. Omezte prosím počet účastníků na maximálně 1000.",
+  "custom_streaming_error_permission_denied": "Nemáte oprávnění na streamování. Obraťte se na svého správce IT nebo na organizátora, abyste tento obsah mohli streamovat",
+  "custom_streaming_error_outdated_client": "Abyste mohli pokračovat, je potřeba aktualizovat Teams. Restartujte aplikaci, abyste si zajistili, že budete mít ty nejnovější funkce.",
+  "custom_streaming_error_unknown": "Došlo k chybě. Zkuste to prosím znovu.",
+  "custom_streaming_error_unsupported_platform": "Prohlížeč tuto funkci zatím nepodporuje. Zkuste to znovu v desktopové verzi Teams.",
+  "custom_streaming_tab_title": "Vlastní streamování"
+}

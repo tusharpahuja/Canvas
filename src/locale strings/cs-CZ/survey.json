@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ano",
+  "instant_answers_reaction_yes_aria_label": "Byly tyto informace užitečné? -- Ano",
+  "instant_answers_reaction_no": "Ne",
+  "instant_answers_reaction_no_aria_label": "Byly tyto informace užitečné? -- Ne",
+  "instant_answers_header_text": "Děkujeme za váš názor!",
+  "instant_answers_header_subtext": "Přinášíme vám několik informací, které by vám na základě vaší zpětné vazby mohly připadat užitečné:",
+  "instant_answers_footer_text": "Byly tyto informace užitečné?",
+  "include_screenshot_text": "Přidat snímek obrazovky",
+  "customer_feedback_dialog_email_label": "Vaše e-mailová adresa (volitelné)",
+  "customer_feedback_dialog_email_placeholder": "Přidat e-mailovou adresu",
+  "customer_feedback_dialog_email_aria_label": "Vaše e-mailová adresa (volitelné)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Po stisknutí tlačítka pro odeslání se váš názor a připomínky použijí k vylepšení produktů a služeb Microsoftu. Váš správce IT bude moct uvedená data shromažďovat. Na základě vašeho názoru můžeme poskytnout další informace, které vám pomohou s problémem se službami.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Prohlášení o zásadách ochrany osobních údajů.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Zavřít dialog zpětné vazby",
+  "customer_feedback_dialog_adhoc_window_title": "Odeslat zpětnou vazbu"
+}

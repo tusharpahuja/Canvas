@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Nota annan reikning",
+  "tflFre_Learn_More_Link_caption": "Hver getur séð þetta",
+  "tflFre_OK_Button_caption": "Hefjumst handa",
+  "tflFre_dialog_Aria": "Velkomin(n) í Teams. Hvernig viltu sjást í Teams? Fólk getur leitað að þér með þessum upplýsingum",
+  "tflFre_header": "Velkomin(n)",
+  "tflFre_phone_and_email_flyout": "Farðu á Microsoft-reikninginn þinn til að hafa umsjón með símanúmerinu þínu og tölvupósti.",
+  "tflFre_who_can_see_this_flyout": "Nafnið þitt og mynd Microsoft-reiknings verða sýnileg öðrum í Teams. Fólk getur einnig leitað að þér í Teams með því að nota símanúmerið þitt og netfang.",
+  "tflFre_learn_more_link_text": "Frekari upplýsingar",
+  "tflFre_sync_contacts_checkbox": "Samstilltu Skype- og Outlook-tengiliðina mína til að finna fólk sem ég þekki í Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Fólk getur leitað að þér með:",
+  "tflFre_loading_spinner_text": "Hleður...",
+  "tflFre_stamping_error_dialog_header": "Ekki tókst að uppfæra notandaupplýsingarnar",
+  "tflFre_stamping_error_dialog_body": "Ekki tókst að uppfæra notandaupplýsingarnar þínar. Veldu „Nota annan reikning“ til að skrá þig út og notast við annan reikning. Veldu „Reyna aftur“ til að reyna aftur að uppfæra notandaupplýsingarnar",
+  "tflFre_error_dialog_retry_button": "Reyna aftur",
+  "tflFre_error_dialog_sign_out_button": "Nota annan reikning",
+  "tflFre_fetch_error_dialog_header": "Ekki tókst að sækja notandaupplýsingar þínar",
+  "tflFre_fetch_error_dialog_body": "Ekki tókst að sækja notandaupplýsingarnar þínar. Veldu „Nota annan reikning“ til að skrá þig út og notast við annan reikning. Veldu „Reyna aftur“ til að reyna aftur að sækja notandaupplýsingarnar",
+  "tflFre_welcome_edit_header": "Velkomin(n) í Teams",
+  "tflFre_welcome_edit_second_header": "Hvernig viltu birtast?",
+  "tflFre_phone_field_header": "Sími",
+  "tflFre_email_field_header": "Tölvupóstur"
+}

@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Kime: {user1}} =1{Kime: {user1} ve 1 kişi daha} one {Kime: {user1} ve # kişi daha} other{Kime: {user1} ve # kişi daha}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Kime: {user1}, {user2}} =1{Kime: {user1}, {user2} ve 1 kişi daha} one {Kime: {user1}, {user2} ve # kişi daha} other{Kime: {user1}, {user2} ve # kişi daha}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Kime: {user1}, {user2} {user3}} =1{Kime: {user1}, {user2}, {user3} ve 1 kişi daha} one {Kime: {user1}, {user2}, {user3} ve # kişi daha} other{Kime: {user1}, {user2}, {user3} ve # kişi daha}}",
+  "new_message_label": "Yeni",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{user1} tarafından gönderilen {repliesCount} yanıt} =1{{user1} ve diğer 1 kişiden {repliesCount} yanıt} one {{user1} ve diğer # kişiden {repliesCount} yanıt} other{{user1} ve diğer # kişiden {repliesCount} yanıt}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{user1}, {user2} tarafından gönderilen {repliesCount} yanıt} =1{{user1}, {user2} ve diğer 1 kişiden {repliesCount} yanıt} one {{user1}, {user2} ve diğer # kişiden {repliesCount} yanıt} other{{user1}, {user2} ve diğer # kişiden {repliesCount} yanıt}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{user1}, {user2}, {user3} tarafından gönderilen {repliesCount} yanıt} =1{{user1}, {user2}, {user3} ve diğer 1 kişiden {repliesCount} yanıt} one {{user1}, {user2}, {user3} ve diğer # kişiden {repliesCount} yanıt} other{{user1}, {user2}, {user3} ve diğer # kişiden {repliesCount} yanıt}}",
+  "tmp_view_chat_button_text": "Yanıtları görüntüle",
+  "tmp_go_to_channel_button_text": "Kanala git"
+}

@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Finn stad kvar dag} =2{Finn stad annankvar dag} one {Finn stad kvar # dag} other{Finn stad kvar # dag}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Vert halde kvar {days}} =2{Vert halde annankvar {days}} one {Finn stad kvar # veker på {days}} other{Finn stad kvar # veker på {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Vert halde {day} kvar månad} =2{Finn stad annankvar månad på dag {day}} one {Finn stad kvar # månad på dag {day}} other{Finn stad kvar # månad på dag {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Skjer kvar månad på {weekInMonthIndex} {weekday}} =2{Finn stad {weekInMonthIndex}{weekday} annankvar månad} one {Finn stad kvar # månad på {weekInMonthIndex} {weekday}} other{Finn stad kvar # månad på {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Skjer kvar {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Skjer kvar {{dayOfTheWeekIndex}} {{dayOfTheWeek}} i {{month}}"
+}

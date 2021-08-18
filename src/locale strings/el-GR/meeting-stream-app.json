@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Διεύθυνση URL ροής",
+  "stream_url_placeholder": "Εισαγωγή διεύθυνσης URL ροής",
+  "stream_key_label": "Κλειδί ροής",
+  "stream_key_placeholder": "Εισαγωγή κλειδιού ροής",
+  "start_streaming_button_text": "Εκκίνηση ροής",
+  "stop_streaming_button_text": "Διακοπή ροής",
+  "custom_streaming_config_page_description": "Η Προσαρμοσμένη ροή δεδομένων είναι το εργαλείο σας για τη ροή δεδομένων των συσκέψεων του Teams σε δημόσιες πλατφόρμες που υποστηρίζονται από το RTMP",
+  "custom_streaming_config_page_first_greeting": "Καλώς ορίσατε στην Προσαρμοσμένη ροή!",
+  "custom_streaming_config_page_second_greeting": "Χαιρόμαστε που είστε εδώ",
+  "custom_streaming_error_meeting_limit_reached": "Δεν είναι δυνατή η ροή δεδομένων αυτής της σύσκεψης με τις τρέχουσες ρυθμίσεις της. Περιορίστε τους συμμετέχοντες σε λιγότερους από 1000.",
+  "custom_streaming_error_permission_denied": "Δεν έχετε δικαιώματα ροής δεδομένων. Επικοινωνήστε με το διαχειριστή IT ή τον διοργανωτή για να κάνετε ροή δεδομένων αυτού του περιεχομένου",
+  "custom_streaming_error_outdated_client": "Το Teams χρειάζεται ενημερώσεις για να συνεχίσει. Επανεκκινήστε την εφαρμογή σας για να βεβαιωθείτε ότι έχετε τις πιο πρόσφατες δυνατότητες.",
+  "custom_streaming_error_unknown": "Παρουσιάστηκε κάποιο πρόβλημα, προσπαθήστε ξανά.",
+  "custom_streaming_error_unsupported_platform": "Αυτή η δυνατότητα δεν υποστηρίζεται ακόμη στο πρόγραμμα περιήγησης. Δοκιμάστε ξανά από την έκδοση υπολογιστή του Teams.",
+  "custom_streaming_tab_title": "Προσαρμοσμένη ροή"
+}

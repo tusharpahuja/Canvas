@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="chat-list.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="es-ES" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Los resultados del filtro se actualizaron. # elementos en la lista de resultados. Use la tecla TAB y las teclas de dirección para desplazarse, presione para seleccionar.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf#Plural.=0" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. We didn't find any matches.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Los resultados del filtro se actualizaron. No se encontraron coincidencias.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # item in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Los resultados del filtro se actualizaron. # elemento en la lista de resultados. Use la tecla TAB y las teclas de dirección para desplazarse, presione para seleccionar.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Los resultados del filtro se actualizaron. # elementos en la lista de resultados. Use la tecla TAB y las teclas de dirección para desplazarse, presione para seleccionar.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_aria_announce_filter_result_update_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{number, plural, =0 {Filter results updated. We didn't find any matches.} =1 {Filter results updated. # item in the results list. Use tab and arrow keys to navigate, enter to select.} other {Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{number, plural, =0 {Filter results updated. We didn't find any matches.} =1 {Filter results updated. # item in the results list. Use tab and arrow keys to navigate, enter to select.} other {Filter results updated. # items in the results list. Use tab and arrow keys to navigate, enter to select.}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria announcement used to update the user with number of results in the list after user filters chatlist. It provides feedback how to navigate the results list if the list is not empty.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_contacts_sync_banner_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sincronizar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title to show for button in sync contacts banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_contacts_sync_banner_main_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connect with more people by syncing your device contacts.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Conéctate con más usuarios sincronizando los contactos de tu dispositivo.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Main text shown in the contact sync banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_draft_chat_preview" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{chatType}}. {{chatTitle}}. {{actionStartConversation}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{chatType}}. {{chatTitle}}. {{actionStartConversation}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Preview for draft chat where {{chatType}} is the chat type  {{chatTitle}} is the chat title  {{actionStartConversation}} is text that says to start new conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_filter_by_name_min_num_of_characters" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Type at least {{number}} characters to begin.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Escriba al menos {{number}} caracteres para iniciar.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria description to inform user that they need to type at least {{number}} characters to begin filter the chatlist.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_flyout_empty_state_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get Started]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Comenzar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to be shown when user lands on chat tab after FRE is completed if chat and contacts are empty]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_flyout_empty_state_desc" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sync your contacts to connect with more people on Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sincronice sus contactos para conectarse con más personas en Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Detaied Text content to be shown when user lands on chat tab after FRE is completed if chat and contacts are empty]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_flyout_empty_state_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Find people you know]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Busque personas que conozca]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text content to be shown when user lands on chat tab after FRE is completed if chat and contacts are empty]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_invite_link_loading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Cargando]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for input to load share link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_invite_to_teams_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invite to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Invitar a Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the button at the bottom of the chat list that displays share link dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_left_rail_search_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search by name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Buscar por nombre]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for input to search for chats/contacts in the chat list.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_messagePreview" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{chatType}}. {{chatTitle}}. {{lastMessage}}. {{arrivalTimeOrDateLabel}}. {{newMessage}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{chatType}}. {{chatTitle}}. {{lastMessage}}. {{arrivalTimeOrDateLabel}}. {{newMessage}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{chatType}}. {{chatTitle}}. {{lastMessage}}. {{arrivalTimeOrDateLabel}}. {{newMessage}}. {{actionOpenChat}}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Preview message template for aria-label where {{chatType}} is the chat type  {{chatTitle}} is the chat title  {{lastMessage}} is the last message in the chat  {{arrivalTimeOrDateLabel}} is the date or time when the last message arrived  {{newMessage}} is text that says there is new message in the chat, empty otherwise]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_messagePreview_action_start_new_conversation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're starting a new conversation.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Está iniciando una nueva conversación.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria-label. A preview of draft chat created by the user without any previous conversation.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_messagePreview_date" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[On {{date}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[En {{date}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(last message). On mm/dd {{date}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_messagePreview_last_Message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last message: {{message}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Último mensaje: {{message}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A part of aria-label, last message {{message}} preview announcement.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_messagePreview_new_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Nuevo mensaje]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A part of aria-label, it will inform user that the preview message in the chatlist is a New message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_messagePreview_time" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[At {{time}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[A las {{time}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[At hh:mm am/pm {{time}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_messagePreview_with_presence" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{chatType}}. {{chatTitle}}, {{presenceStatus}}. {{lastMessage}}. {{arrivalTimeOrDateLabel}}. {{newMessage}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{chatType}}. {{chatTitle}}, {{presenceStatus}}. {{lastMessage}}. {{arrivalTimeOrDateLabel}}. {{newMessage}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[{{chatType}}. {{chatTitle}}, {{presenceStatus}}. {{lastMessage}}. {{arrivalTimeOrDateLabel}}. {{newMessage}}. {{actionOpenChat}}.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Preview message template for aria-label where {{chatType}} is the chat type  {{chatTitle}} is the chat title  {{presenceStatus}} is users presence (availability) status in teams  {{lastMessage}} is the last message in the chat  {{arrivalTimeOrDateLabel}} is the date or time when the last message arrived  {{newMessage}} is text that says there is new message in the chat, empty otherwise]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_more_options_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Más opciones]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[title to show for button for more options]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_search_icon" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Buscar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Search icon to open chatlist search bar where user can search by name or group]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_share_link_dialog_close_icon" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close icon]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Icono Cerrar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the close icon in the dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_share_link_dialog_copy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Copiar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the copy button in the share link dialog for copy action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_share_link_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invite to Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Invitar a Microsoft Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header text for the share link dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_start_a_new_conversation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start a new private conversation here.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Inicie una nueva conversación privada aquí.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text content to be shown when there is not yet any conversation in the list]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatList_suggestedContacts_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Suggested contacts]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Contactos sugeridos]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[People we found]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Section for suggested contacts in chat list]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";chatRail_region_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chats]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Chats]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String related to screen reader. Goes into aria-label of region which cover chat list.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

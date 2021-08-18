@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Si è verificato un problema.",
+  "default_app_title": "Si è verificato un errore. (Errori di app)",
+  "default_network_error_description": "Si è verificato un problema di rete.",
+  "default_network_error_title": "Si è verificato un problema di rete.",
+  "default_unknown_description": "Si è verificato un problema.",
+  "default_unknown_title": "Si è verificato un problema.",
+  "default_authentication_title": "Impossibile eseguire l\\'accesso a",
+  "default_authentication_description": "si è verificato un errore.",
+  "default_core_error_description": "Si è verificato un errore. (Errori di base)",
+  "default_core_error_title": "Codice di errore: errori di base",
+  "default_fetch_description": "Si è verificato un errore. (Errori di recupero di CDL)",
+  "default_fetch_title": "Codice di errore: errori di recupero di CDL",
+  "default_service_description": "Si è verificato un errore. (Errori del servizio CDL)",
+  "default_service_title": "Codice di errore: errori del servizio CDL",
+  "error_forbidden_text": "Spiacenti. È stato rilevato un problema con la licenza dell'organizzazione",
+  "error_nonetwork_text": "Spiacenti. Nessuna rete trovata. Riprovare una volta ottenuta la connessione."
+}

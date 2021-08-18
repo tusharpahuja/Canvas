@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Dodajanje oseb",
+  "embed_go_back_button": "Nazaj",
+  "embed_provide_feedback": "Navedite povratne informacije:",
+  "embed_go_to": "Obiščite {{title}}",
+  "embed_open_inside": "Odpri znotraj",
+  "embed_participants_in_chat": "Udeleženci ({{membersCount}})",
+  "embed_pop_out_chat": "Novo okno za klepet",
+  "embed_pop_in_back": "Znova odprite glavno okno",
+  "embed_error_page_message": "Na žalost smo naleteli na težavo",
+  "embed_error_page_try_again_button": "Poskusi znova",
+  "embed_chats": "Klepeti Microsoft Teams",
+  "embed_chat": "Klepet Microsoft Teams"
+}

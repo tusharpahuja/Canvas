@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Nešto se dogodilo, pa nismo mogli da dodamo grupu.",
+  "peoplePicker_dlTooManyMembers": "Nismo mogli da dodamo {{dlName}} ({{dlMemberCount}}). Možete da započnete ćaskanje samo sa ovoliko osoba ili manje: {{maxSize}}.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Koristite taster Backspace ili Delete da biste uklonili. Za ostale primaoce ćaskanja koristite tastere sa strelicom nalevo ili nadesno.",
+  "peoplePicker_loadingMessage": "Učitava se...",
+  "peoplePicker_newAddGroupNameButtonContent": "Dodaj ime grupe",
+  "peoplePicker_collapseGroupNameButtonContent": "Skupi ime grupe",
+  "peoplePicker_federationWarning": "Ćaskanje putem poslovnih ili školskih naloga još nije dostupno. Saznajte više.",
+  "peoplePicker_noResults": "Nismo pronašli nijedno podudaranje.",
+  "peoplePicker_resultsUpdationAriaLabel": "Rezultati pretrage su ažurirani. Koristite tastere sa strelicom nagore i nadole za kretanje i pritisnite Enter da biste izabrali.",
+  "peoplePicker_search_externally_btn_text": "Pretražite {{email}} spolja",
+  "peoplePicker_tflToLinePlaceholder": "Unesite ime, adresu e-pošte ili broj telefona",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Ukloni",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} je izabran/a sa liste.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} od {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} je uklonjen/a sa liste."
+}

@@ -1,0 +1,6 @@
+{
+  "auth_prompt_title_sign_in": "تسجيل الدخول إلى Microsoft Teams",
+  "auth_prompt_title_acquire_token": "أدخل كلمة المرور لـ Microsoft Teams",
+  "systray_menu_item_label_open": "Open",
+  "systray_menu_item_label_quit": "Quit"
+}

@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "AR SELULER",
+  "toolbar_arrow": "Tempatkan panah",
+  "toolbar_ink": "Tinta",
+  "toolbar_color_picker": "Pilih warna",
+  "toolbar_color_yellow": "Kuning",
+  "toolbar_color_blue": "Biru",
+  "toolbar_color_gray": "Abu-abu",
+  "toolbar_color_green": "Hijau",
+  "toolbar_color_red": "Merah",
+  "toolbar_insert_file": "Sisipkan file",
+  "toolbar_undo": "Batalkan",
+  "toolbar_erase_all_current_session": "Hapus semua anotasi dari sesi pengeditan ini",
+  "toolbar_erase_all": "Hapus semua",
+  "toolbar_start_editing": "Mulai mengedit",
+  "toolbar_stop_editing": "Hentikan pengeditan"
+}

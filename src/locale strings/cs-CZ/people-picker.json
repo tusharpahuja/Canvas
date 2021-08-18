@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Došlo k nějaké chybě a nepodařilo se nám přidat skupinu.",
+  "peoplePicker_dlTooManyMembers": "Nepodařilo se nám přidat seznam {{dlName}} ({{dlMemberCount}}). Maximální počet lidí, se kterými můžete začít chatovat, je {{maxSize}}.",
+  "peoplePicker_focusSelectedUser": "{{username}}. K odebrání použijte klávesu Backspace nebo Delete. Pro další příjemce chatu použijte klávesy se šipkami doleva a doprava.",
+  "peoplePicker_loadingMessage": "Načítání...",
+  "peoplePicker_newAddGroupNameButtonContent": "Přidat název skupiny",
+  "peoplePicker_collapseGroupNameButtonContent": "Sbalit název skupiny",
+  "peoplePicker_federationWarning": "Chaty s podnikovými nebo školními účty nejsou zatím k dispozici. Další informace.",
+  "peoplePicker_noResults": "Nepovedlo se nám najít žádné shody.",
+  "peoplePicker_resultsUpdationAriaLabel": "Výsledky hledání se aktualizovaly. K procházení použijte klávesu se šipkou nahoru a dolů. K výběru použijte klávesu Enter.",
+  "peoplePicker_search_externally_btn_text": "Hledat adresu {{email}} externě",
+  "peoplePicker_tflToLinePlaceholder": "Zadejte jméno, e-mail nebo telefonní číslo.",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Odebrat",
+  "peoplePicker_userAdditionAriaLabel": "{{username}} byl(a) vybrána ze seznamu.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} z {{resultCount}}",
+  "peoplePicker_userRemovalAriaLabel": "{{username}} byl(a) odebrán(a) ze seznamu."
+}

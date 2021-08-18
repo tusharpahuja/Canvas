@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{ถึง: {user1}} =1{ถึง: {user1} และอีก1คน} other{ถึง: {user1} และอีก # คน}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{ถึง: {user1}, {user2}} =1{ถึง: {user1}, {user2} และอีก 1 คน} other{ถึง: {user1}, {user2} และอีก # คน}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{ถึง: {user1}, {user2}, {user3}} =1{ถึง: {user1}, {user2}, {user3} และอีก 1 คน} other{ถึง: {user1}, {user2}, {user3} และอีก # คน}}",
+  "new_message_label": "สร้างใหม่",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{การตอบกลับ {repliesCount} รายการจาก {user1}} =1{การตอบกลับ {repliesCount} รายการจาก {user1} และอีก 1 คน} other{การตอบกลับ {repliesCount} รายการจาก {user1} และอีก # คน}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{การตอบกลับ {repliesCount} รายการจาก {user1}, {user2}} =1{การตอบกลับ {repliesCount} รายการจาก {user1}, {user2} และอีก 1 คน} other{การตอบกลับ {repliesCount} รายการจาก {user1}, {user2} และอีก # คน}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{การตอบกลับ {repliesCount} รายการจาก {user1}, {user2}, {user3}} =1{การตอบกลับ {repliesCount} รายการจาก {user1}, {user2}, {user3} และอีก 1 คน} other{การตอบกลับ {repliesCount} รายการจาก {user1}, {user2}, {user3} และอีก # คน}}",
+  "tmp_view_chat_button_text": "ดูการตอบกลับ",
+  "tmp_go_to_channel_button_text": "ไปยังแชนเนล"
+}

@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Φόρτωση λίστας γονέων",
+  "guardians_table": "Γονική λίστα για την ομάδα {{classTeam}}",
+  "students": "Μαθητές",
+  "guardians": "Γονείς/κηδεμόνες",
+  "chatButton": "Κουμπί συνομιλίας",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# περισσότερος γονέας ή κηδεμόνας. Ανάπτυξη για άνοιγμα της λίστας} one {# περισσότεροι γονείς ή κηδεμόνες. Ανάπτυξη για άνοιγμα της λίστας} other{# περισσότεροι γονείς ή κηδεμόνες. Ανάπτυξη για άνοιγμα της λίστας} }",
+  "guardians_student_label": "{{studentName}}, κατάσταση {{status}}, ανοίγει την κάρτα προφίλ",
+  "guardians_user_unknown_label": "Άγνωστος χρήστης",
+  "guardians_status_unknown_label": "Άγνωστος",
+  "guardians_overflow_members": "Πρόσθετοι γονείς ή κηδεμόνες του/της {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Ξεκινήστε μια συνομιλία με τον κηδεμόνα του/της {studentName}} one {Ξεκινήστε μια συνομιλία με τους κηδεμόνες του/της {studentName}} other{Ξεκινήστε μια συνομιλία με τους κηδεμόνες του/της {studentName}}}",
+  "guardians_chat_button_disabled_title": "Η εξωτερική πρόσβαση απενεργοποιήθηκε από τον διαχειριστή",
+  "guardians_chat_button_disabled_alt_title": "Ζητήστε από τον διαχειριστή σας να προσθέσει πληροφορίες επικοινωνίας κηδεμόνα για να καταστήσετε διαθέσιμη τη συνομιλία",
+  "empty_state_title": "Δεν έχουν προστεθεί γονείς και κηδεμόνες",
+  "empty_state_subtitle": "Ζητήστε από τον διαχειριστή IT να τους προσθέσει, ώστε να μπορείτε να επικοινωνήσετε γρήγορα μαζί τους από εδώ. <0></0>",
+  "empty_state_link": "Εμφάνιση περισσότερων",
+  "error_state_title": "Παρουσιάστηκε κάποιο πρόβλημα. Ελέγξτε ξανά αργότερα.",
+  "not_owner_error_state_title": "Μόνο οι κάτοχοι της ομάδας τάξης μπορούν να βλέπουν τα στοιχεία του γονέα και κηδεμόνα. Ζητήστε από τον κάτοχο της ομάδας να σας παρέχει πρόσβαση.",
+  "retry_button_title": "Επανάληψη",
+  "transient_error_state_title": "Παρουσιάστηκε πρόβλημα. Προσπαθήστε ξανά.",
+  "notification_banner_content": "Παρουσιάστηκε πρόβλημα κατά τη φόρτωση περισσότερων πληροφοριών γονέα και κηδεμόνα. Δοκιμάστε ξανά αργότερα."
+}

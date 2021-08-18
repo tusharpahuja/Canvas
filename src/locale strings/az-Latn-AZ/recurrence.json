@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Hər gün baş verir} =2{Hər bir gündən bir baş verir} one {Hər # gündən bir baş verir} other{Hər # gündən bir baş verir}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Hər {days} baş verir} =2{Hər {days} gündən bir baş verir} one {Hər # həftədən bir {days} baş verir} other{Hər # həftədən bir {days} baş verir}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Hər ayın {day} baş verir} =2{Hər bir aydan bir {day} gün baş verir} one {Hər # aydan bir {day} baş verir} other{Hər # aydan bir {day} baş verir}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Hər ay {weekInMonthIndex} {weekday} baş verir} =2{Hər bir aydan bir {weekInMonthIndex}{weekday} baş verir} one {Hər # aydan bir {weekInMonthIndex} {weekday} baş verir} other{Hər # aydan bir {weekInMonthIndex} {weekday} baş verir}}",
+  "meeting_recurrence_pattern_yearly": "Hər {{date}} baş verir",
+  "meeting_recurrence_pattern_relativeyearly": "{{month}} ayının hər {{dayOfTheWeekIndex}} {{dayOfTheWeek}} baş verir"
+}

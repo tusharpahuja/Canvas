@@ -1,0 +1,11 @@
+{
+  "home_page_message": "טוען...",
+  "lobby_screen_exit_message": "יציאה מהלובי",
+  "calling_join_button_audio": "הצטרף לשיחה עם שמע",
+  "calling_join_button_video": "הצטרף לשיחה עם וידאו",
+  "calling_screen_meeting_id": "מזהה פגישה: {{conferenceId}}",
+  "meeting_room_present_content": "הצג",
+  "meeting_room_connected_device": "מכשיר מחובר",
+  "meeting_room_content_camera": "מצלמת תוכן",
+  "meeting_room_cortana_button_title": "Cortana"
+}

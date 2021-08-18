@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} u {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Nema predloga.||1->2::{0} predlog je dostupan: ||2->3::{0} predloga su dostupna: ||3->INF::{0} predloga je dostupno:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Nema predloga za {0}.||1->2::{1} predlog je dostupan za {0}: ||2->3::{1} predloga su dostupna za {0}: ||3->INF::{1} predloga je dostupno za {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Neimenovana grupa",
+  "autosuggest_sb_search_box_clear_button_label": "Obriši polje za pretragu",
+  "autosuggest_sb_search_box_submit_button_label": "Pretraga",
+  "autosuggest_sb_search_box_view_all_results_label": "Pritisnite taster Enter da biste prikazali sve rezultate",
+  "autosuggest_people_group_heading": "Osobe",
+  "autosuggest_chats_group_heading": "Grupna ćaskanja",
+  "autosuggest_zero_term_group_aria_label": "Nedavne pretrage"
+}

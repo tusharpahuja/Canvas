@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "串流 URL",
+  "stream_url_placeholder": "輸入串流 URL",
+  "stream_key_label": "串流金鑰",
+  "stream_key_placeholder": "輸入串流金鑰",
+  "start_streaming_button_text": "開始資料流",
+  "stop_streaming_button_text": "停止資料流",
+  "custom_streaming_config_page_description": "自訂串流是用來將 Teams 會議傳輸給由 RTMP 提供之公開平台的工具",
+  "custom_streaming_config_page_first_greeting": "歡迎使用自訂串流!",
+  "custom_streaming_config_page_second_greeting": "很高興您在這裡",
+  "custom_streaming_error_meeting_limit_reached": "無法在目前的設定中串流此會議。請將出席者限制在 1000 位以下。",
+  "custom_streaming_error_permission_denied": "您沒有串流權限。請連絡您的 IT 系統管理員或召集人以串流此內容",
+  "custom_streaming_error_outdated_client": "Teams 需要更新才能繼續。請重新啟動您的應用程式，以確保您擁有最新的功能。",
+  "custom_streaming_error_unknown": "發生錯誤，請再試一次。",
+  "custom_streaming_error_unsupported_platform": "瀏覽器尚未支援此功能。請使用 Teams 桌上型電腦版本重試。",
+  "custom_streaming_tab_title": "自訂串流"
+}

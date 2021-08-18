@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Cerrar sesión",
+  "me_control_sign_out_button_aria_label": "Cerrar sesión de Microsoft",
+  "me_control_my_microsoft_account_button_text": "Mi cuenta de Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Mi cuenta de Microsoft",
+  "me_control_change_picture_aria_label": "Cambia foto del perfil",
+  "me_control_trigger_aria_label": "Perfil",
+  "me_control_menu_aria_label": "Menú de perfil",
+  "app_bar_activity_app_name": "Actividad",
+  "app_bar_activity_app_arialabel": "Actividad",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# actividad nueva} one {# actividades nuevas} other{# actividades nuevas}}",
+  "app_bar_activity_app_tooltip": "Actividad",
+  "app_bar_chat_app_name": "Chat",
+  "app_bar_chat_app_arialabel": "Chat",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# chat con mensajes nuevos} one {# chats con mensajes nuevos} other{# chats con mensajes nuevos}}",
+  "app_bar_chat_app_tooltip": "Chat",
+  "app_bar_calendar_app_name": "Calendario",
+  "app_bar_calendar_app_arialabel": "Calendario",
+  "app_bar_calendar_app_tooltip": "Calendario",
+  "app_bar_calls_app_name": "Llamadas",
+  "app_bar_calls_app_arialabel": "Llamadas",
+  "app_bar_calls_app_tooltip": "Llamadas"
+}

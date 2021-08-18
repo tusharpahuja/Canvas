@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "ΚΙΝΗΤH ΣΥΣΚΕΥH AR",
+  "toolbar_arrow": "Τοποθέτηση βέλους",
+  "toolbar_ink": "Γραφή",
+  "toolbar_color_picker": "Επιλογή χρώματος",
+  "toolbar_color_yellow": "Κίτρινο",
+  "toolbar_color_blue": "Μπλε",
+  "toolbar_color_gray": "Γκρι",
+  "toolbar_color_green": "Πράσινο",
+  "toolbar_color_red": "Κόκκινο",
+  "toolbar_insert_file": "Εισαγωγή αρχείου",
+  "toolbar_undo": "Αναίρεση",
+  "toolbar_erase_all_current_session": "Διαγραφή όλων από την τρέχουσα περίοδο λειτουργίας επεξεργασίας",
+  "toolbar_erase_all": "Διαγραφή όλων",
+  "toolbar_start_editing": "Έναρξη επεξεργασίας",
+  "toolbar_stop_editing": "Διακοπή επεξεργασίας"
+}

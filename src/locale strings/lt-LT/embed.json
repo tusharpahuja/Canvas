@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Įtraukti žmonių",
+  "embed_go_back_button": "Grįžti",
+  "embed_provide_feedback": "Pateikite savo atsiliepimą:",
+  "embed_go_to": "Eiti į {{title}}",
+  "embed_open_inside": "Atidaryti viduje",
+  "embed_participants_in_chat": "Dalyviai ({{membersCount}})",
+  "embed_pop_out_chat": "Atidaryti pokalbį naujame lange",
+  "embed_pop_in_back": "Grįžti į pagrindinį langą",
+  "embed_error_page_message": "Atsiprašome, kilo problema",
+  "embed_error_page_try_again_button": "Bandykite dar kartą",
+  "embed_chats": "„Microsoft Teams“ pokalbiai",
+  "embed_chat": "„Microsoft Teams“ pokalbis"
+}

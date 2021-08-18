@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Bruke en annen konto",
+  "tflFre_Learn_More_Link_caption": "Hvem kan se dette",
+  "tflFre_OK_Button_caption": "La oss komme i gang",
+  "tflFre_dialog_Aria": "Velkommen til Teams. Hvordan vil du vises på Teams? Folk kan bruke denne informasjonen for å søke etter deg.",
+  "tflFre_header": "Velkommen",
+  "tflFre_phone_and_email_flyout": "Gå til Microsoft-kontoen din for å administrere telefonnummeret og e-postadressen.",
+  "tflFre_who_can_see_this_flyout": "Navnet ditt og Microsoft-kontobildet ditt vil være synlig for andre på Teams. De kan også søke etter deg på Teams ved å bruke telefonnummeret og e-post.",
+  "tflFre_learn_more_link_text": "Finn ut mer",
+  "tflFre_sync_contacts_checkbox": "Synkroniser Skype- og Outlook-kontaktene dine for å finne personer jeg kjenner på Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Andre kan søke etter deg ved å bruke:",
+  "tflFre_loading_spinner_text": "Laster inn...",
+  "tflFre_stamping_error_dialog_header": "Kan ikke oppdatere profilen",
+  "tflFre_stamping_error_dialog_body": "Vi kunne ikke oppdatere profilinformasjonen din. Velg «Bruk en annen konto» for å logge av og bruke en annen konto. Velg «Prøv på nytt» for å prøve å oppdatere profilen din på nytt",
+  "tflFre_error_dialog_retry_button": "Prøv på nytt",
+  "tflFre_error_dialog_sign_out_button": "Bruke en annen konto",
+  "tflFre_fetch_error_dialog_header": "Kan ikke hente profilen",
+  "tflFre_fetch_error_dialog_body": "Vi kunne ikke hente profilinformasjonen din. Velg «Bruk en annen konto» for å logge av og bruke en annen konto. Velg «Prøv på nytt» for å prøve å hente profilen din på nytt",
+  "tflFre_welcome_edit_header": "Velkommen til Teams",
+  "tflFre_welcome_edit_second_header": "Hvordan vil du vises?",
+  "tflFre_phone_field_header": "Telefon",
+  "tflFre_email_field_header": "E-post"
+}

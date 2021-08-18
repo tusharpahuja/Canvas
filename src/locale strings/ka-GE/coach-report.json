@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "ონლაინ-კრების Coach ანგარიში არ არის ხელმისაწვდომი",
+  "coach_report_no_data_too_short": "ჩართეთ ონლაინ-კრებების მწვრთნელი 1 წუთზე მეტი დროით, რათა მიიღოთ წვდომა თქვენს ანგარიშზე",
+  "coach_report_no_data_too_long": "სამწუხაროდ, ონლაინ-კრების მწვრთნელი მხარს არ უჭერს 2 საათზე ხანგრძლივ ონლაინ-კრებებს",
+  "coach_report_title": "თქვენი ონლაინ-კრების მწვრთნელის მიმოხილვები",
+  "coach_report_private_label": "პირადი",
+  "coach_report_settings": "პარამეტრები",
+  "coach_report_subtitle": "* თქვენი Coach ანგარიში მხოლოდ თქვენთვის არის ხილული",
+  "coach_report_chart_title": "შემოთავაზებები თქვენი ონლაინ-კრებიდან",
+  "coach_report_card_checkbox": "მომავალი სესიებისთვის ყოველთვის შეინახეთ და გამოტოვეთ ეს ეკრანი",
+  "coach_report_save_button": "შენახვა",
+  "coach_report_delete_button": "წაშლა",
+  "coach_report_save_button_tooltip": "იპოვეთ მოგვიანებით ონლაინ-კრების გვერდზე",
+  "coach_report_feedback_before_submit": "ეს სასარგებლოა?",
+  "coach_report_feedback_after_submit": "გმადლობთ გამოხმაურებისთვის",
+  "coach_report_feedback_yes_button": "დიახ",
+  "coach_report_feedback_no_button": "არა",
+  "coach_report_critique_navigation_text": "{{critiqueTotalCount}} / {{critiqueCurrentCount}}-დან",
+  "coach_report_previous_critique_button": "წინა",
+  "coach_report_next_critique_button": "შემდეგი"
+}

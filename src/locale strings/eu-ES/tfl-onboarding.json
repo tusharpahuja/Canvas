@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Erabili beste kontu bat",
+  "tflFre_Learn_More_Link_caption": "Nork ikus dezake hau?",
+  "tflFre_OK_Button_caption": "Has gaitezen",
+  "tflFre_dialog_Aria": "Ongi etorri Teams-era. Nola gustatuko litzaizuke Teams-en agertzea? Jendeak informazio hori erabiliz bila zaitzake",
+  "tflFre_header": "Ongi etorri",
+  "tflFre_phone_and_email_flyout": "Bisitatu Microsoft kontua telefono-zenbakia edo mezu elektronikoa kudeatzeko.",
+  "tflFre_who_can_see_this_flyout": "Teams-eko beste guztiek ikusi ahal izango dituzte zure izena eta Microsoft kontuaren irudia. Jendeak bilatu ere egin zaitzake Teams-en, telefono-zenbakia edo helbide elektronikoa erabilita.",
+  "tflFre_learn_more_link_text": "Informazio gehiago",
+  "tflFre_sync_contacts_checkbox": "Sinkronizatu Skype eta Outlook-eko kontaktuak, ezagutzen dudan jendea Teams-en aurkitzeko.",
+  "tflFre_people_Can_Search_For_You_Using": "Jendeak hau erabilita bila zaitzake:",
+  "tflFre_loading_spinner_text": "Kargatzen...",
+  "tflFre_stamping_error_dialog_header": "Ezin izan da eguneratu zure profila",
+  "tflFre_stamping_error_dialog_body": "Ezin izan dugu eguneratu zure profileko informazioa. Hautatu \"Erabili beste kontu bat\" saioa amaitu eta beste kontu bat erabiltzeko. Hautatu \"Saiatu Berriro\" berriro saiatzeko profila eguneratzen",
+  "tflFre_error_dialog_retry_button": "Saiatu berriro",
+  "tflFre_error_dialog_sign_out_button": "Erabili beste kontu bat",
+  "tflFre_fetch_error_dialog_header": "Ezin izan da eskuratu zure profila",
+  "tflFre_fetch_error_dialog_body": "Ezin izan ditugu eskuratu zure profileko informazioa. Hautatu \"Erabili beste kontu bat\" saioa amaitu eta beste kontu bat erabiltzeko. Hautatu \"Saiatu berriro\" berriro saiatzeko profila eskuratzen",
+  "tflFre_welcome_edit_header": "Ongi etorri Teams-era",
+  "tflFre_welcome_edit_second_header": "Nola agertu nahiko zenuke?",
+  "tflFre_phone_field_header": "Telefonoa",
+  "tflFre_email_field_header": "Helbide elektronikoa"
+}

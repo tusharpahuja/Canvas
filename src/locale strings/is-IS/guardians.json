@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Hleður foreldralista",
+  "guardians_table": "Yfirlisti fyrir {{classTeam}}",
+  "students": "Nemendur",
+  "guardians": "Foreldrar / forráðamenn",
+  "chatButton": "Spjallhnappur",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# foreldri eða forráðamaður í viðbót. Stækka til að opna lista} one {# foreldrar eða forráðamenn í viðbót. Stækka til að opna lista} other{# foreldrar eða forráðamenn í viðbót. Stækka til að opna lista} }",
+  "guardians_student_label": "{{studentName}}, staða {{status}}, opnar notandaspjald",
+  "guardians_user_unknown_label": "Óþekktur notandi",
+  "guardians_status_unknown_label": "Óþekkt",
+  "guardians_overflow_members": "Fleiri foreldrar eða forráðamenn {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Byrjaðu að spjalla við forráðamann {studentName}} one {Byrjaðu að spjalla við forráðamenn {studentName}} other{Byrjaðu að spjalla við forráðamenn {studentName}}}",
+  "guardians_chat_button_disabled_title": "Utanaðkomandi aðgangur gerður óvirkur af stjórnanda",
+  "guardians_chat_button_disabled_alt_title": "Biddu stjórnanda þinn um að bæta við upplýsingum um forráðamann til að auðvelda þér að spjalla",
+  "empty_state_title": "Foreldrum og forráðamönnum hefur ekki verið bætt við",
+  "empty_state_subtitle": "Biddu kerfisstjóra um að bæta þeim við til að hægt sé að hafa samband við þá hér. <0></0>",
+  "empty_state_link": "Sjá meira",
+  "error_state_title": "Eitthvað fór úrskeiðis. Reyndu aftur seinna.",
+  "not_owner_error_state_title": "Aðeins eigendur bekkjarteymis geta séð upplýsingar foreldra og forráðamanna. Biddu eiganda teymisins að veita þér aðgangsheimild.",
+  "retry_button_title": "Reyna aftur",
+  "transient_error_state_title": "Eitthvað fór úrskeiðis. Reyndu aftur.",
+  "notification_banner_content": "Vandamál kom upp við að hlaða meiri upplýsingum um foreldra og forráðamenn. Reyndu aftur síðar."
+}

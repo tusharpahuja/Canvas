@@ -1,0 +1,11 @@
+{
+  "home_page_message": "読み込み中...",
+  "lobby_screen_exit_message": "ロビーから退出",
+  "calling_join_button_audio": "オーディオを使用して通話に参加",
+  "calling_join_button_video": "ビデオを使用して通話に参加",
+  "calling_screen_meeting_id": "会議 ID: {{conferenceId}}",
+  "meeting_room_present_content": "提示",
+  "meeting_room_connected_device": "接続しているデバイス",
+  "meeting_room_content_camera": "コンテンツ カメラ",
+  "meeting_room_cortana_button_title": "Cortana"
+}

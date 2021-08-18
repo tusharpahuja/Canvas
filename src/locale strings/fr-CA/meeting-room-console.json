@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Le chargement est en cours... Merci de patienter.",
+  "lobby_screen_exit_message": "Quitter la salle d’attente",
+  "calling_join_button_audio": "Rejoindre l'appel avec l'audio",
+  "calling_join_button_video": "Participer à un appel avec vidéo",
+  "calling_screen_meeting_id": "Identifiant de réunion : {{conferenceId}}",
+  "meeting_room_present_content": "Présenter",
+  "meeting_room_connected_device": "Appareil connecté",
+  "meeting_room_content_camera": "Caméra de contenu",
+  "meeting_room_cortana_button_title": "Cortana"
+}

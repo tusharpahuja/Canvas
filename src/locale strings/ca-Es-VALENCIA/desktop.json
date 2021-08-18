@@ -1,0 +1,6 @@
+{
+  "auth_prompt_title_sign_in": "Inicieu la sessió al Microsoft Teams",
+  "auth_prompt_title_acquire_token": "Introduïu la contrasenya del Microsoft Teams",
+  "systray_menu_item_label_open": "Open",
+  "systray_menu_item_label_quit": "Quit"
+}

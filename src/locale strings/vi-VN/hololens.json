@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "AR DÀNH CHO DI ĐỘNG",
+  "toolbar_arrow": "Đặt mũi tên",
+  "toolbar_ink": "Mực",
+  "toolbar_color_picker": "Chọn một màu",
+  "toolbar_color_yellow": "Vàng",
+  "toolbar_color_blue": "Xanh da trời",
+  "toolbar_color_gray": "Xám",
+  "toolbar_color_green": "Xanh lá",
+  "toolbar_color_red": "Đỏ",
+  "toolbar_insert_file": "Chèn tệp",
+  "toolbar_undo": "Hoàn tác",
+  "toolbar_erase_all_current_session": "Xóa tất cả khỏi phiên chỉnh sửa hiện tại",
+  "toolbar_erase_all": "Xóa tất cả",
+  "toolbar_start_editing": "Bắt đầu chỉnh sửa",
+  "toolbar_stop_editing": "Dừng chỉnh sửa"
+}

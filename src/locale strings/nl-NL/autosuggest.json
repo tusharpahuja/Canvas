@@ -1,0 +1,12 @@
+{
+  "autosuggest_sb_grouped_search_suggestions_num_suggestions_in_group": "{0} in {1}",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available": "0->1::Geen suggesties.||1->2::{0} suggestie beschikbaar: ||2->3::{0} suggesties beschikbaar: ||3->INF::{0} suggesties beschikbaar:",
+  "autosuggest_sb_grouped_search_suggestions_suggestions_available_for_query_intervals": "0->1::Geen suggesties voor {0}.||1->2::{1} suggestie beschikbaar voor {0}: ||2->3::{1} suggesties beschikbaar voor {0}: ||3->INF::{1} suggesties beschikbaar voor {0}:",
+  "autosuggest_sb_grouped_search_suggestions_unnamed_group": "Naamloze groep",
+  "autosuggest_sb_search_box_clear_button_label": "Zoekvak wissen",
+  "autosuggest_sb_search_box_submit_button_label": "Zoeken",
+  "autosuggest_sb_search_box_view_all_results_label": "Druk op Enter om alle resultaten weer te geven",
+  "autosuggest_people_group_heading": "Personen",
+  "autosuggest_chats_group_heading": "Groepchats",
+  "autosuggest_zero_term_group_aria_label": "Recente zoekopdrachten"
+}

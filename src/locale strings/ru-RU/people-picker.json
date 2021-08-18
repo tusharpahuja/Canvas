@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Произошла ошибка, и нам не удалось добавить группу.",
+  "peoplePicker_dlTooManyMembers": "Не удалось добавить {{dlName}} ({{dlMemberCount}}). Количество людей для начала общения в чате не может превышать {{maxSize}} человек.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Чтобы удалить, нажмите клавишу BACKSPACE или DELETE. Для перехода между получателями чата используйте клавиши СТРЕЛКА ВЛЕВО и СТРЕЛКА ВПРАВО.",
+  "peoplePicker_loadingMessage": "Загрузка...",
+  "peoplePicker_newAddGroupNameButtonContent": "Добавить имя группы",
+  "peoplePicker_collapseGroupNameButtonContent": "Свернуть имя группы",
+  "peoplePicker_federationWarning": "Чат с корпоративными или учебными учетными записями пока недоступен. Подробнее.",
+  "peoplePicker_noResults": "Совпадения не найдены.",
+  "peoplePicker_resultsUpdationAriaLabel": "Результаты поиска обновлены. Для навигации используйте клавиши СТРЕЛКА ВВЕРХ и СТРЕЛКА ВНИЗ, для выбора нажмите клавишу ВВОД.",
+  "peoplePicker_search_externally_btn_text": "Внешний поиск {{email}}",
+  "peoplePicker_tflToLinePlaceholder": "Введите имя, адрес электронной почты или номер телефона",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Удалить",
+  "peoplePicker_userAdditionAriaLabel": "Пользователь {{username}} выбран из списка.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} из {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Пользователь {{username}} удален из списка."
+}

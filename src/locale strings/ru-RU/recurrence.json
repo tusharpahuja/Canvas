@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Происходит ежедневно} =2{Происходит через день} one {Происходит через каждые # дн.} few {Происходит через каждые # дн.} many {Происходит через каждые # дн.} other{Происходит через каждые # дн.}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Происходит кажд. {days}} =2{Происходит через ({days})} one {Происходит через каждые # нед. в {days}} few {Происходит через каждые # нед. в {days}} many {Происходит через каждые # нед. в {days}} other{Происходит через каждые # нед. в {days}}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Происходит ежемесячно в {day}} =2{Происходит через каждые два месяца в {day}} one {Происходит через каждые # мес. в {day}} few {Происходит через каждые # мес. в {day}} many {Происходит через каждые # мес. в {day}} other{Происходит через каждые # мес. в {day}}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Происходит ежемесячно в {weekInMonthIndex} {weekday}} =2{Происходит через каждые два месяца в {weekInMonthIndex} {weekday}} one {Происходит через каждые # мес. в {weekInMonthIndex} {weekday}} few {Происходит через каждые # мес. в {weekInMonthIndex} {weekday}} many {Происходит через каждые # мес. в {weekInMonthIndex} {weekday}} other{Происходит через каждые # мес. в {weekInMonthIndex} {weekday}}}",
+  "meeting_recurrence_pattern_yearly": "Происходит каждое {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Происходит кажд. {{dayOfTheWeekIndex}} {{dayOfTheWeek}} месяца {{month}}"
+}

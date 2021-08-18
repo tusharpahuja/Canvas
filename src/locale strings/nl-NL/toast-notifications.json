@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} heeft jou vermeld",
+  "toast_messaging_reaction": "{{sender}} heeft gereageerd op je bericht",
+  "toast_messaging_default_group_topic": "Onbekend",
+  "toast_messaging_default_user_given_name": "Onbekend",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Verzenden",
+  "toast_messaging_quickreply_placeholder_text": "Een snel antwoord verzenden",
+  "toast_messaging_activity_text": "Chatten met {{participants}}",
+  "toast_messaging_activity_text_with_count": "Chatten met {{participants}} +{{count}}"
+}

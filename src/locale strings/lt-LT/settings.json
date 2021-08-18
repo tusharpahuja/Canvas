@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Sistema",
+  "general_settings_system_auto_start_toggle": "Paleisti „Teams“ automatiškai",
+  "notification_settings_details_message_preview_header_text": "Pranešimo peržiūra",
+  "notification_settings_edit_chat_button_aria_label": "Keisti pokalbių pranešimus",
+  "notification_settings_details_chat_messages_text": "Pranešimai",
+  "notification_settings_warning_windows_tfw": "Dar kartą patikrinkite „Windows“ pranešimų parametrus ir įsitikinkite, kad galite gauti „Teams“ pranešimus. <0></0>",
+  "settings_loader_text": "Įkeliamas turinys...",
+  "dropdown_settings_selected_text": "Pasirinkta {{value}}",
+  "read_receipts_title": "Perskaitymo pažymos",
+  "read_receipts_description": "Tegul žmonės žino, kada matėte jų pranešimus ir žinokite, kada jie peržiūrėjo jūsų. Uždarykite ir iš naujo atidarykite bet kurį pokalbio langą, kad įsigaliotų šie pokalbiai.",
+  "read_receipts_label": "Perskaitymo pažymos"
+}

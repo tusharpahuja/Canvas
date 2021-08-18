@@ -1,0 +1,8 @@
+{
+  "meeting_recurrence_pattern_daily_mf": "{interval, plural, =1{Ponovi se vsak dan} =2{Ponovi se vsak drugi dan} one {Ponovi se vsakih toliko dni: #} two {Ponovi se vsakih toliko dni: #} few {Ponovi se vsakih toliko dni: #} other{Ponovi se vsakih toliko dni: #}}",
+  "meeting_recurrence_pattern_weekly_mf": "{interval, plural, =1{Ponovi se vsak {days}} =2{Ponovi se vsak drugi {days}} one {Ponovi se na {days} vsakih toliko tednov: #} two {Ponovi se na {days} vsakih toliko tednov: #} few {Ponovi se na {days} vsakih toliko tednov: #} other{Ponovi se na {days} vsakih toliko tednov: #}}",
+  "meeting_recurrence_pattern_monthly_mf": "{interval, plural, =1{Ponovi se vsak mesec na dan {day}} =2{Ponovi se vsak drug mesec na dan {day}} one {Ponovi se na dan {day} vsakih toliko mesecev: #} two {Ponovi se na dan {day} vsakih toliko mesecev: #} few {Ponovi se na dan {day} vsakih toliko mesecev: #} other{Ponovi se na dan {day} vsakih toliko mesecev: #}}",
+  "meeting_recurrence_pattern_relativemonthly_mf": "{interval, plural, =1{Ponovi se vsak mesec na {weekInMonthIndex} {weekday}} =2{Vsak drugi mesec na {weekInMonthIndex} {weekday}} one {Ponovi se na {weekInMonthIndex} {weekday} vsakih toliko mesecev: #} two {Ponovi se na {weekInMonthIndex} {weekday} vsakih toliko mesecev: #} few {Ponovi se na {weekInMonthIndex} {weekday} vsakih toliko mesecev: #} other{Ponovi se na {weekInMonthIndex} {weekday} vsakih toliko mesecev: #}}",
+  "meeting_recurrence_pattern_yearly": "Ponovi se vsak {{date}}",
+  "meeting_recurrence_pattern_relativeyearly": "Ponovi se vsak {{dayOfTheWeekIndex}} {{dayOfTheWeek}} {{month}}"
+}

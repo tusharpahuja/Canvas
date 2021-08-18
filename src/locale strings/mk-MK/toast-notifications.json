@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "{{sender}} ве спомна",
+  "toast_messaging_reaction": "{{sender}} реагираше на вашата порака",
+  "toast_messaging_default_group_topic": "Непознат",
+  "toast_messaging_default_user_given_name": "Непознат",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Испрати",
+  "toast_messaging_quickreply_placeholder_text": "Испрати брз одговор",
+  "toast_messaging_activity_text": "Разговор со {{participants}}",
+  "toast_messaging_activity_text_with_count": "Разговор со {{participants}} +{{count}}"
+}

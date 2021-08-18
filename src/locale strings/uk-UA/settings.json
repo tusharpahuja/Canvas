@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "Система",
+  "general_settings_system_auto_start_toggle": "Увімкнути автозапуск Teams",
+  "notification_settings_details_message_preview_header_text": "Попередній перегляд повідомлення",
+  "notification_settings_edit_chat_button_aria_label": "Редагування сповіщень у чаті",
+  "notification_settings_details_chat_messages_text": "Повідомлення",
+  "notification_settings_warning_windows_tfw": "Перевірте параметри сповіщень Windows і переконайтеся, що ви можете отримувати сповіщення Teams. <0></0>",
+  "settings_loader_text": "Завантаження вмісту...",
+  "dropdown_settings_selected_text": "вибрано {{value}}",
+  "read_receipts_title": "Сповіщення про прочитання",
+  "read_receipts_description": "Дозвольте користувачам знати, коли ви переглянули їхні повідомлення, та дізнавайтеся, коли вони переглянули ваші. Закрийте та повторно відкрийте будь-який чат, щоб зміни набули сили в цих чатах.",
+  "read_receipts_label": "Сповіщення про прочитання"
+}

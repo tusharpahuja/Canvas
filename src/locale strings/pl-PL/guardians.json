@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Ładowanie listy nadrzędnej",
+  "guardians_table": "Lista nadrzędna dla {{classTeam}}",
+  "students": "Uczniowie",
+  "guardians": "Rodzice/opiekunowie",
+  "chatButton": "Przycisk czatu",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# więcej rodzic lub opiekun. Rozwiń, aby otworzyć listę} one {# więcej rodziców lub opiekunów. Rozwiń, aby otworzyć listę} few {# więcej rodziców lub opiekunów. Rozwiń, aby otworzyć listę} many {# więcej rodziców lub opiekunów. Rozwiń, aby otworzyć listę} other{# więcej rodziców lub opiekunów. Rozwiń, aby otworzyć listę} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, otwieranie karty profilu",
+  "guardians_user_unknown_label": "Nieznany użytkownik",
+  "guardians_status_unknown_label": "Nieznany",
+  "guardians_overflow_members": "Dodatkowi rodzice lub opiekunowie użytkownika {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Rozpocznij czat z opiekunem użytkownika {studentName}} one {Rozpocznij czat z opiekunami użytkownika {studentName}} few {Rozpocznij czat z opiekunami użytkownika {studentName}} many {Rozpocznij czat z opiekunami użytkownika {studentName}} other{Rozpocznij czat z opiekunami użytkownika {studentName}}}",
+  "guardians_chat_button_disabled_title": "Dostęp zewnętrzny wyłączony przez administratora",
+  "guardians_chat_button_disabled_alt_title": "Poproś administratora o dodanie informacji kontaktowych opiekuna w celu udostępnienia czatu",
+  "empty_state_title": "Nie dodano rodziców i opiekunów",
+  "empty_state_subtitle": "Poproś administratora IT o ich dodanie, aby móc szybko kontaktować się z nimi z tego miejsca. <0></0>",
+  "empty_state_link": "Zobacz więcej",
+  "error_state_title": "Coś poszło nie tak. Sprawdź ponownie później.",
+  "not_owner_error_state_title": "Tylko właściciele zespołu klasowego mogą wyświetlać informacje o rodzicach i opiekunach. Poproś właściciela zespołu o udzielenie dostępu.",
+  "retry_button_title": "Spróbuj ponownie",
+  "transient_error_state_title": "Wystąpił problem. Spróbuj ponownie.",
+  "notification_banner_content": "Wystąpił problem podczas ładowania dodatkowych informacji dotyczących rodzica i opiekuna. Spróbuj ponownie później."
+}

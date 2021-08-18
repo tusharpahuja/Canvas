@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Utiliser un autre compte",
+  "tflFre_Learn_More_Link_caption": "Qui peut voir ceci",
+  "tflFre_OK_Button_caption": "C'est parti",
+  "tflFre_dialog_Aria": "Bienvenue dans Teams. Comment voulez-vous apparaître dans Teams? Les utilisateurs peuvent vous rechercher à l’aide de ces informations",
+  "tflFre_header": "Bienvenue",
+  "tflFre_phone_and_email_flyout": "Consultez votre compte Microsoft pour gérer votre numéro de téléphone et votre courriel.",
+  "tflFre_who_can_see_this_flyout": "Votre nom et l'image de votre compte Microsoft seront visibles pour les autres personnes sur Teams. Les gens peuvent également vous rechercher sur Teams en utilisant votre numéro de téléphone et votre courriel.",
+  "tflFre_learn_more_link_text": "En savoir plus",
+  "tflFre_sync_contacts_checkbox": "Synchroniser mes contacts Skype et Outlook pour trouver les personnes que je connais dans Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Les utilisateurs peuvent vous retrouver à l'aide de :",
+  "tflFre_loading_spinner_text": "Le chargement est en cours...",
+  "tflFre_stamping_error_dialog_header": "Échec de la mise à jour de votre profil",
+  "tflFre_stamping_error_dialog_body": "Impossible de mettre à jour les informations de votre profil. Sélectionnez « Utiliser un autre compte » pour vous déconnecter et utiliser un autre compte. Sélectionnez «Réessayer » pour réessayer de mettre à jour votre profil",
+  "tflFre_error_dialog_retry_button": "Réessayer",
+  "tflFre_error_dialog_sign_out_button": "Utiliser un autre compte",
+  "tflFre_fetch_error_dialog_header": "Nous n’avons pas pu récupérer votre profil",
+  "tflFre_fetch_error_dialog_body": "Nous n’avons pas pu récupérer les informations de votre profil. Sélectionnez « Utiliser un autre compte » pour vous déconnecter et utiliser un autre compte. Sélectionnez « Réessayer » pour réessayer de récupérer votre profil",
+  "tflFre_welcome_edit_header": "Bienvenue dans Teams",
+  "tflFre_welcome_edit_second_header": "Comment voulez-vous apparaître ?",
+  "tflFre_phone_field_header": "Téléphone",
+  "tflFre_email_field_header": "Courriel"
+}

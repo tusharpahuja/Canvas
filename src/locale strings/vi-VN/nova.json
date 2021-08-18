@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Đăng xuất",
+  "me_control_sign_out_button_aria_label": "Đăng xuất khỏi Microsoft",
+  "me_control_my_microsoft_account_button_text": "Tài khoản Microsoft của tôi",
+  "me_control_my_microsoft_account_button_aria_label": "Tài khoản Microsoft của tôi",
+  "me_control_change_picture_aria_label": "Thay đổi ảnh hồ sơ",
+  "me_control_trigger_aria_label": "Hồ sơ",
+  "me_control_menu_aria_label": "Menu Hồ sơ",
+  "app_bar_activity_app_name": "Hoạt động",
+  "app_bar_activity_app_arialabel": "Hoạt động",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# hoạt động mới} other{# các hoạt động mới}}",
+  "app_bar_activity_app_tooltip": "Hoạt động",
+  "app_bar_chat_app_name": "Trò chuyện",
+  "app_bar_chat_app_arialabel": "Trò chuyện",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# cuộc trò chuyện có tin nhắn mới} other{# các cuộc trò chuyện có tin nhắn mới}}",
+  "app_bar_chat_app_tooltip": "Trò chuyện",
+  "app_bar_calendar_app_name": "Lịch Outlook",
+  "app_bar_calendar_app_arialabel": "Lịch Outlook",
+  "app_bar_calendar_app_tooltip": "Lịch Outlook",
+  "app_bar_calls_app_name": "Các Cuộc gọi",
+  "app_bar_calls_app_arialabel": "Các Cuộc gọi",
+  "app_bar_calls_app_tooltip": "Các Cuộc gọi"
+}

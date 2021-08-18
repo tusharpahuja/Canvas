@@ -1,0 +1,12 @@
+{
+  "toast_messaging_mention": "Oseba {{sender}} vas je omenila",
+  "toast_messaging_reaction": "Oseba {{sender}} se je odzvala na vaše sporočilo",
+  "toast_messaging_default_group_topic": "Neznano",
+  "toast_messaging_default_user_given_name": "Neznano",
+  "toast_messaging_group_topic": "{{participants}}",
+  "toast_messaging_group_topic_with_count": "{{participants}} +{{count}}",
+  "toast_messaging_quickreply_button_text": "Pošlji",
+  "toast_messaging_quickreply_placeholder_text": "Pošlji hiter odgovor",
+  "toast_messaging_activity_text": "Klepetajte z osebo {{participants}}",
+  "toast_messaging_activity_text_with_count": "Klepet z osebo {{participants}} +{{count}}"
+}

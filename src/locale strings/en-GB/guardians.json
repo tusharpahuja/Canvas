@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Loading Parent list",
+  "guardians_table": "Parent list for {{classTeam}}",
+  "students": "Students",
+  "guardians": "Parents / Guardians",
+  "chatButton": "Chat button",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# more parent or guardian. Expand to open list} one {# more parents or guardians. Expand to open list} other{# more parents or guardians. Expand to open list} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, opens profile card",
+  "guardians_user_unknown_label": "Unknown user",
+  "guardians_status_unknown_label": "Unknown",
+  "guardians_overflow_members": "Additional parents or guardians of {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Start a chat with the guardian of {studentName}} one {Start a chat with the guardians of {studentName}} other{Start a chat with the guardians of {studentName}}}",
+  "guardians_chat_button_disabled_title": "External access disabled by Admin",
+  "guardians_chat_button_disabled_alt_title": "Ask your admin to add guardian contact information to make chat available",
+  "empty_state_title": "Parents and guardians haven't been added",
+  "empty_state_subtitle": "Ask your IT Admin to add them so you can quickly contact them from here. <0></0>",
+  "empty_state_link": "See more",
+  "error_state_title": "Something went wrong. Please check back later.",
+  "not_owner_error_state_title": "Only class team owners can see parent and guardian info. Ask the team owner to give you access.",
+  "retry_button_title": "Retry",
+  "transient_error_state_title": "Something went wrong. Please try again.",
+  "notification_banner_content": "There was a problem loading more parent and guardian info. Please try again later."
+}

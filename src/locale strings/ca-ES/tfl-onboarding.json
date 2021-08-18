@@ -1,0 +1,23 @@
+{
+  "tflFre_Cancel_button_caption": "Vull fer servir un altre compte",
+  "tflFre_Learn_More_Link_caption": "Qui pot veure això",
+  "tflFre_OK_Button_caption": "Som-hi",
+  "tflFre_dialog_Aria": "Us donem la benvinguda al Teams. Com us voleu mostrar al Teams? Els usuaris poden cercar-vos amb aquesta informació.",
+  "tflFre_header": "Us donem la benvinguda",
+  "tflFre_phone_and_email_flyout": "Visiteu el vostre compte de Microsoft per administrar el vostre número de telèfon i la vostra adreça electrònica.",
+  "tflFre_who_can_see_this_flyout": "Els altres usuaris del Teams podran veure el vostre nom i la vostra imatge del compte de Microsoft. També us podran trobar fent cerques al Teams amb el vostre número de telèfon o la vostra adreça electrònica.",
+  "tflFre_learn_more_link_text": "Més informació",
+  "tflFre_sync_contacts_checkbox": "Sincronitza els meus contactes de l'Skype i l'Outlook per trobar persones que conec al Teams.",
+  "tflFre_people_Can_Search_For_You_Using": "Els usuaris poden cercar-vos amb:",
+  "tflFre_loading_spinner_text": "S'està carregant...",
+  "tflFre_stamping_error_dialog_header": "No s'ha pogut actualitzar el vostre perfil",
+  "tflFre_stamping_error_dialog_body": "No hem pogut actualitzar la informació del vostre perfil. Seleccioneu \"Feu servir un altre compte\" per tancar la sessió i utilitzar un altre compte. Seleccioneu \"Torneu-ho a provar\" per tornar a provar d'actualitzar el vostre perfil.",
+  "tflFre_error_dialog_retry_button": "Torneu-ho a provar",
+  "tflFre_error_dialog_sign_out_button": "Vull fer servir un altre compte",
+  "tflFre_fetch_error_dialog_header": "No s'ha pogut obtenir el vostre perfil",
+  "tflFre_fetch_error_dialog_body": "No hem pogut obtenir la informació del vostre perfil. Seleccioneu \"Feu servir un altre compte\" per tancar la sessió i utilitzar un altre compte. Seleccioneu \"Torneu-ho a provar\" per tornar a provar d'obtenir el vostre perfil.",
+  "tflFre_welcome_edit_header": "Us donem la benvinguda al Teams",
+  "tflFre_welcome_edit_second_header": "Com voleu aparèixer?",
+  "tflFre_phone_field_header": "Telèfon",
+  "tflFre_email_field_header": "Correu"
+}

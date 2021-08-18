@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Выйти",
+  "me_control_sign_out_button_aria_label": "Выйти из учетной записи Майкрософт",
+  "me_control_my_microsoft_account_button_text": "Моя учетная запись Майкрософт",
+  "me_control_my_microsoft_account_button_aria_label": "Моя учетная запись Майкрософт",
+  "me_control_change_picture_aria_label": "Изменить фотографию профиля",
+  "me_control_trigger_aria_label": "Профиль",
+  "me_control_menu_aria_label": "Меню профиля пользователя",
+  "app_bar_activity_app_name": "Действие",
+  "app_bar_activity_app_arialabel": "Действие",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# новое действие} one {Новых действий: #} few {Новых действий: #} many {Новых действий: #} other{Новых действий: #}}",
+  "app_bar_activity_app_tooltip": "Действие",
+  "app_bar_chat_app_name": "Чат",
+  "app_bar_chat_app_arialabel": "Чат",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# чат с непрочитанными сообщениями} one {Чатов с непрочитанными сообщениями: #} few {Чатов с непрочитанными сообщениями: #} many {Чатов с непрочитанными сообщениями: #} other{Чатов с непрочитанными сообщениями: #}}",
+  "app_bar_chat_app_tooltip": "Чат",
+  "app_bar_calendar_app_name": "Календарь",
+  "app_bar_calendar_app_arialabel": "Календарь",
+  "app_bar_calendar_app_tooltip": "Календарь",
+  "app_bar_calls_app_name": "Звонки",
+  "app_bar_calls_app_arialabel": "Звонки",
+  "app_bar_calls_app_tooltip": "Звонки"
+}

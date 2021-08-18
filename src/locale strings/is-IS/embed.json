@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "Bæta við fólki",
+  "embed_go_back_button": "Fara til baka",
+  "embed_provide_feedback": "Sendu okkur ábendingu:",
+  "embed_go_to": "Opna {{title}}",
+  "embed_open_inside": "Opna innan",
+  "embed_participants_in_chat": "Þátttakendur ({{membersCount}})",
+  "embed_pop_out_chat": "Spjall í sprettiglugga",
+  "embed_pop_in_back": "Fella aftur inn í aðalgluggann",
+  "embed_error_page_message": "Því miður kom upp vandamál",
+  "embed_error_page_try_again_button": "Reyna aftur",
+  "embed_chats": "Microsoft Teams-spjöll",
+  "embed_chat": "Microsoft Teams-spjall"
+}

@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Per a: {user1}} =1{Per a: {user1} i 1 persona més} one {Per a: {user1} i # persones més} other{Per a: {user1} i # persones més}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Per a: {user1} i {user2}} =1{Per a: {user1}, {user2} i 1 persona més} one {Per a: {user1}, {user2} i # persones més} other{Per a: {user1}, {user2} i # persones més}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Per a: {user1}, {user2} i {user3}} =1{Per a: {user1}, {user2}, {user3} i 1 persona més} one {Per a: {user1}, {user2}, {user3} i # persones més} other{Per a: {user1}, {user2}, {user3} i # persones més}}",
+  "new_message_label": "Nou",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} respostes de {user1}} =1{{repliesCount} respostes de {user1} i 1 usuari més} one {{repliesCount} respostes de {user1} i # usuaris més} other{{repliesCount} respostes de {user1} i # usuaris més}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} respostes de {user1}, {user2}} =1{{repliesCount} respostes de {user1}, {user2} i 1 usuari més} one {{repliesCount} respostes de {user1}, {user2} i # usuaris més} other{{repliesCount} respostes de {user1}, {user2} i # usuaris més}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} respostes de {user1}, {user2}, {user3}} =1{{repliesCount} respostes de {user1}, {user2}, {user3} i 1 usuari més} one {{repliesCount} respostes de {user1}, {user2}, {user3} i # usuaris més} other{{repliesCount} respostes de {user1}, {user2}, {user3} i # usuaris més}}",
+  "tmp_view_chat_button_text": "Visualitza les respostes",
+  "tmp_go_to_channel_button_text": "Ves al canal"
+}

@@ -1,0 +1,3 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {Bạn đã đạt đến giới hạn thành viên cho tổ chức của mình. Để nâng cấp và thêm nhiều người hơn, hãy gửi tin nhắn cho một trong các quản trị viên của bạn.} =1 {Bạn đã đạt đến giới hạn thành viên cho tổ chức của mình. Yêu cầu <0></0> nâng hạng để bạn có thể mời nhiều người hơn.} other {Bạn đã đạt đến giới hạn thành viên cho tổ chức của mình. Yêu cầu bất kỳ <0></0> nào của bạn nâng hạng để bạn có thể mời nhiều người hơn.}}"
+}

@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "May nangyari, at hindi namin nadagdag ang grupo.",
+  "peoplePicker_dlTooManyMembers": "Hindi namin naidagdag ang {{dlName}} ({{dlMemberCount}}). Maaari ka lang magsimula ng chat sa {{maxSize}} (na) tao o mas kaunti.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Gamitin ang backspace o delete para tanggalin. Gamitin ang mga kaliwa o kanang key para sa iba pang tumanggap ng chat.",
+  "peoplePicker_loadingMessage": "Naglo-load...",
+  "peoplePicker_newAddGroupNameButtonContent": "Magdagdag ng pangalan ng grupo",
+  "peoplePicker_collapseGroupNameButtonContent": "Paliitin ang pangalan ng grupo",
+  "peoplePicker_federationWarning": "Ang pakikipag-chat sa enterprise o paaralan na account ay hindi pa magagamit. Alamin pa.",
+  "peoplePicker_noResults": "Wala kaming mahanap na anumang tugma.",
+  "peoplePicker_resultsUpdationAriaLabel": "Na-update ang mga resulta ng paghahanap. Gamitin ang pataas at pababang arrow key para mag-navigate, at enter para pumili.",
+  "peoplePicker_search_externally_btn_text": "Hanapin ang {{email}} sa labas",
+  "peoplePicker_tflToLinePlaceholder": "Magpasok ng pangalan, email o numero ng telepono",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Alisin",
+  "peoplePicker_userAdditionAriaLabel": "Pumili si {{username}} sa listahan.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}}, {{index}} ng {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Tinanggal si {{username}} sa listahan."
+}

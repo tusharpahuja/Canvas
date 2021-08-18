@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Učitavanje nadređene liste",
+  "guardians_table": "Nadređena lista za {{classTeam}}",
+  "students": "Učenici",
+  "guardians": "Roditelji/staratelji",
+  "chatButton": "Dugme „Ćaskaj“",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# više roditelj ili staratelj. Proširite da biste otvorili listu} one {# više roditelja ili staratelja. Proširite da biste otvorili listu} few {# više roditelja ili staratelja. Proširite da biste otvorili listu} other{# više roditelja ili staratelja. Proširite da biste otvorili listu} }",
+  "guardians_student_label": "{{studentName}}, status {{status}}, otvara karticu profila",
+  "guardians_user_unknown_label": "Nepoznati korisnik",
+  "guardians_status_unknown_label": "Nepoznato",
+  "guardians_overflow_members": "Dodatni roditelji ili staratelji za {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Započnite ćaskanje sa starateljem studenta {studentName}} one {Započnite ćaskanje sa starateljima studenta {studentName}} few {Započnite ćaskanje sa starateljima studenta {studentName}} other{Započnite ćaskanje sa starateljima studenta {studentName}}}",
+  "guardians_chat_button_disabled_title": "Administrator je onemogućio spoljni pristup",
+  "guardians_chat_button_disabled_alt_title": "Zamolite svog administratora da doda kontakt podatke staratelja kako bi ćaskanje bilo dostupno",
+  "empty_state_title": "Roditelji i staratelji nisu dodati",
+  "empty_state_subtitle": "Tražite od IT administratora da ih doda kako biste mogli brzo da ih kontaktirate odavde. <0></0>",
+  "empty_state_link": "Prikaži više",
+  "error_state_title": "Nešto nije u redu. Proverite kasnije.",
+  "not_owner_error_state_title": "Samo vlasnici tima razreda mogu da vide informacije o roditelju i staratelju. Tražite od vlasnika tima da vam dodeli pristup.",
+  "retry_button_title": "Pokušaj ponovo",
+  "transient_error_state_title": "Došlo je do greške. Pokušajte ponovo.",
+  "notification_banner_content": "Došlo je do problema pri učitavanju dodatnih podataka o roditelju i staratelju. Pokušajte ponovo kasnije."
+}

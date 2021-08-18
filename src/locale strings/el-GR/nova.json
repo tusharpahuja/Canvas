@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Αποσύνδεση",
+  "me_control_sign_out_button_aria_label": "Αποσύνδεση από τον λογαριασμό Microsoft",
+  "me_control_my_microsoft_account_button_text": "Ο Λογαριασμός Microsoft μου",
+  "me_control_my_microsoft_account_button_aria_label": "Ο Λογαριασμός Microsoft μου",
+  "me_control_change_picture_aria_label": "Αλλαγή φωτογραφίας προφίλ",
+  "me_control_trigger_aria_label": "Προφίλ",
+  "me_control_menu_aria_label": "Μενού προφίλ",
+  "app_bar_activity_app_name": "Δραστηριότητα",
+  "app_bar_activity_app_arialabel": "Δραστηριότητα",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# νέα δραστηριότητα} one {# νέες δραστηριότητες} other{# νέες δραστηριότητες}}",
+  "app_bar_activity_app_tooltip": "Δραστηριότητα",
+  "app_bar_chat_app_name": "Συνομιλία",
+  "app_bar_chat_app_arialabel": "Συνομιλία",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# συνομιλία με νέα μηνύματα} one {# συνομιλίες με νέα μηνύματα} other{# συνομιλίες με νέα μηνύματα}}",
+  "app_bar_chat_app_tooltip": "Συνομιλία",
+  "app_bar_calendar_app_name": "Ημερολόγιο",
+  "app_bar_calendar_app_arialabel": "Ημερολόγιο",
+  "app_bar_calendar_app_tooltip": "Ημερολόγιο",
+  "app_bar_calls_app_name": "Κλήσεις",
+  "app_bar_calls_app_arialabel": "Κλήσεις",
+  "app_bar_calls_app_tooltip": "Κλήσεις"
+}

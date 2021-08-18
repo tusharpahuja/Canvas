@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Skrá út",
+  "me_control_sign_out_button_aria_label": "Skrá út úr Microsoft",
+  "me_control_my_microsoft_account_button_text": "Microsoft-reikningurinn minn",
+  "me_control_my_microsoft_account_button_aria_label": "Microsoft-reikningurinn minn",
+  "me_control_change_picture_aria_label": "Breyta notandamynd",
+  "me_control_trigger_aria_label": "Notandaupplýsingar",
+  "me_control_menu_aria_label": "Valmynd notandaupplýsinga",
+  "app_bar_activity_app_name": "Aðgerðir",
+  "app_bar_activity_app_arialabel": "Aðgerðir",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# ný aðgerð} one {# nýjar aðgerðir} other{# nýjar aðgerðir}}",
+  "app_bar_activity_app_tooltip": "Aðgerðir",
+  "app_bar_chat_app_name": "Spjall",
+  "app_bar_chat_app_arialabel": "Spjall",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{Ný skilaboð í # spjalli} one {Ný skilaboð í # spjöllum} other{Ný skilaboð í # spjöllum}}",
+  "app_bar_chat_app_tooltip": "Spjall",
+  "app_bar_calendar_app_name": "Dagbók",
+  "app_bar_calendar_app_arialabel": "Dagbók",
+  "app_bar_calendar_app_tooltip": "Dagbók",
+  "app_bar_calls_app_name": "Símtöl",
+  "app_bar_calls_app_arialabel": "Símtöl",
+  "app_bar_calls_app_tooltip": "Símtöl"
+}

@@ -1,0 +1,20 @@
+{
+  "indicator_hololens_short": "HL",
+  "indicator_hololens_long": "HOLOLENS",
+  "indicator_mobile_short": "AR",
+  "indicator_mobile_long": "MOBILIOJI AR",
+  "toolbar_arrow": "Padėti rodyklę",
+  "toolbar_ink": "Rankraštis",
+  "toolbar_color_picker": "Pasirinkti spalvą",
+  "toolbar_color_yellow": "Geltona",
+  "toolbar_color_blue": "Mėlyna",
+  "toolbar_color_gray": "Pilka",
+  "toolbar_color_green": "Žalia",
+  "toolbar_color_red": "Raudona",
+  "toolbar_insert_file": "Įterpti failą",
+  "toolbar_undo": "Anuliuoti",
+  "toolbar_erase_all_current_session": "Ištrinti viską iš esamo redagavimo seanso",
+  "toolbar_erase_all": "Ištrinti viską",
+  "toolbar_start_editing": "Pradėti redaguoti",
+  "toolbar_stop_editing": "Stabdyti redagavimą"
+}

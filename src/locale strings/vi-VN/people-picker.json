@@ -1,0 +1,17 @@
+{
+  "peoplePicker_dlGetMembersError": "Đã xảy ra sự cố và chúng tôi không thể thêm nhóm.",
+  "peoplePicker_dlTooManyMembers": "Chúng tôi không thể thêm {{dlName}} ({{dlMemberCount}}). Bạn chỉ có thể bắt đầu trò chuyện với {{maxSize}} người trở xuống.",
+  "peoplePicker_focusSelectedUser": "{{username}}. Sử dụng phím backspace (xóa lùi) hoặc phím delete để loại bỏ. Sử dụng các phím mũi tên trái hoặc phải để chọn những người nhận trò chuyện khác.",
+  "peoplePicker_loadingMessage": "Đang tải...",
+  "peoplePicker_newAddGroupNameButtonContent": "Thêm tên nhóm",
+  "peoplePicker_collapseGroupNameButtonContent": "Thu gọn Tên nhóm",
+  "peoplePicker_federationWarning": "Trò chuyện bằng tài khoản cơ quan hoặc trường học chưa khả dụng. Tìm hiểu thêm.",
+  "peoplePicker_noResults": "Chúng tôi không tìm thấy kết quả khớp nào.",
+  "peoplePicker_resultsUpdationAriaLabel": "Đã cập nhật kết quả tìm kiếm. Sử dụng phím mũi tên lên và xuống để dẫn hướng, rồi nhấn enter để chọn.",
+  "peoplePicker_search_externally_btn_text": "Tìm kiếm {{email}} bên ngoài",
+  "peoplePicker_tflToLinePlaceholder": "Nhập tên, email hoặc số điện thoại",
+  "peoplePicker_tflTwoWaySmsRemoveAriaLabel": "Loại bỏ",
+  "peoplePicker_userAdditionAriaLabel": "Đã chọn {{username}} từ danh sách.",
+  "peoplePicker_userHighlightedAriaLabel": "{{username}}, {{description}} {{index}} trên {{resultCount}}.",
+  "peoplePicker_userRemovalAriaLabel": "Đã loại bỏ {{username}} khỏi danh sách."
+}

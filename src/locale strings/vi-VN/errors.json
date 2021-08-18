@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Rất tiếc, đã xảy ra lỗi!",
+  "default_app_title": "Rất tiếc, đã xảy ra sự cố! (Lỗi ứng dụng)",
+  "default_network_error_description": "Rất tiếc, đã xảy ra sự cố mạng!",
+  "default_network_error_title": "Rất tiếc, đã xảy ra sự cố mạng!",
+  "default_unknown_description": "Rất tiếc, đã xảy ra lỗi!",
+  "default_unknown_title": "Rất tiếc, đã xảy ra lỗi!",
+  "default_authentication_title": "Oops, We couldn't sign you in",
+  "default_authentication_description": "something went wrong.",
+  "default_core_error_description": "Rất tiếc, đã xảy ra sự cố! (Lỗi lõi)",
+  "default_core_error_title": "Mã lỗi: Lỗi lõi",
+  "default_fetch_description": "Rất tiếc, đã xảy ra sự cố! (Lỗi tải CDL)",
+  "default_fetch_title": "Mã lỗi: Lỗi tải CDL",
+  "default_service_description": "Rất tiếc, đã xảy ra sự cố! (Lỗi dịch vụ CDL)",
+  "default_service_title": "Mã lỗi: Lỗi dịch vụ CDL",
+  "error_forbidden_text": "We're sorry. We found an issue with your organization's license",
+  "error_nonetwork_text": "We're sorry. No network was found. Please try again when you get reconnected."
+}

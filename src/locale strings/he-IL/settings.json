@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "מערכת",
+  "general_settings_system_auto_start_toggle": "הפעל את Teams באופן אוטומטי",
+  "notification_settings_details_message_preview_header_text": "תצוגה מקדימה של הודעה",
+  "notification_settings_edit_chat_button_aria_label": "עריכת התראות צ'אט",
+  "notification_settings_details_chat_messages_text": "הודעות",
+  "notification_settings_warning_windows_tfw": "בדוק היטב את הגדרות ההתראות של Windows כדי לוודא שיש לך אפשרות לקבל התראות של Teams.‏ <0></0>",
+  "settings_loader_text": "טוען תוכן...",
+  "dropdown_settings_selected_text": "{{value}} נבחר",
+  "read_receipts_title": "אישורי קריאה",
+  "read_receipts_description": "יידע אנשים מתי ראית את ההודעות שלהם ודע מתי הם ראו את ההודעות שלך. סגור ופתח מחדש את כל חלונות הצ\\'אט כדי שההגדרה תיכנס לתוקף בצ\\'אטים אלה.",
+  "read_receipts_label": "אישורי קריאה"
+}

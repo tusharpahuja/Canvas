@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Ya",
+  "instant_answers_reaction_yes_aria_label": "Apakah informasi ini membantu? -- Ya",
+  "instant_answers_reaction_no": "Tidak",
+  "instant_answers_reaction_no_aria_label": "Apakah informasi ini membantu? -- Tidak",
+  "instant_answers_header_text": "Terima kasih atas umpan balik Anda!",
+  "instant_answers_header_subtext": "Berdasarkan umpan balik Anda, berikut adalah beberapa informasi yang mungkin bermanfaat bagi Anda:",
+  "instant_answers_footer_text": "Apakah informasi ini membantu?",
+  "include_screenshot_text": "Sertakan cuplikan layar",
+  "customer_feedback_dialog_email_label": "Alamat email Anda (opsional)",
+  "customer_feedback_dialog_email_placeholder": "Tambahkan alamat email",
+  "customer_feedback_dialog_email_aria_label": "Alamat email Anda (opsional)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Dengan menekan kirim, umpan balik Anda akan digunakan untuk menyempurnakan produk dan layanan Microsoft. Admin TI Anda akan dapat mengumpulkan data ini. Berdasarkan umpan balik tersebut, kami dapat memberikan informasi tambahan untuk membantu Anda mengatasi masalah dukungan.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Pernyataan Privasi.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Tutup dialog umpan balik",
+  "customer_feedback_dialog_adhoc_window_title": "Berikan umpan balik"
+}

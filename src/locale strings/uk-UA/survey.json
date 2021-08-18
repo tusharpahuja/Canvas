@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Так",
+  "instant_answers_reaction_yes_aria_label": "Чи стали ці відомості в пригоді? – Так.",
+  "instant_answers_reaction_no": "Ні",
+  "instant_answers_reaction_no_aria_label": "Чи стали ці відомості в пригоді? – Ні.",
+  "instant_answers_header_text": "Дякуємо за відгук!",
+  "instant_answers_header_subtext": "Ось певні відомості, що можуть стати вам у пригоді, виходячи з вашого відгуку:",
+  "instant_answers_footer_text": "Чи стали ці відомості в пригоді?",
+  "include_screenshot_text": "Включити знімок екрана",
+  "customer_feedback_dialog_email_label": "Ваша адреса електронної пошти (необов’язково)",
+  "customer_feedback_dialog_email_placeholder": "Додати адресу електронної пошти",
+  "customer_feedback_dialog_email_aria_label": "Ваша адреса електронної пошти (необов’язково)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Після натиснення кнопки \"Надіслати\", ваш відгук буде використовуватися для покращення продуктів і служб Microsoft. Ваш ІТ-адміністратор зможе зібрати ці дані. На основі вашого відгуку ми можемо надати додаткову інформацію, щоб допомогти вам усунути проблему з підтримкою.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Декларація про конфіденційність.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Закрити діалогове вікно відгуку",
+  "customer_feedback_dialog_adhoc_window_title": "Надіслати відгук"
+}

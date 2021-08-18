@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="share-to-teams.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="et-EE" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";account_mismatch" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need to switch to the {{email}} account in Teams to share.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ühiskasutusse andmiseks peate lülituma Teamsi kontole {{email}}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[User logged in Teams client does not match user in Outlook. Need to switch to the {email} account in Teams to share.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";account_mismatch_generic" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need to switch accounts in Teams to share.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sisu ühiskasutusse andmiseks tuleb sul Teamsis kontot vahetada.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[User logged in Teams client does not match user in Outlook. Need to switch account in Teams to share.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";assign_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Assign]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Määra]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to submit an assignment to be assigned]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download the desktop app for a faster Share to Teams experience.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kiiremaks Teamsi kaudu jagamiseks laadi alla töölauarakendus.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String for Teams desktop app upsell]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_banner" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download the desktop app for a faster experience.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kiiremaks kasutuskogemuseks laadi alla töölauarakendus.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String for Teams desktop app upsell banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_download_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download desktop app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laadi alla töölauarakendus]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action to download desktop app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_download_now_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Laadi kohe alla]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action to download desktop app now]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_sent_page" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For a faster experience,]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kiiremaks kasutuskogemuseks]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[String for Teams desktop app upsell on confirmation page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_sent_page_download" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[download the desktop app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[laadi alla töölauarakendus]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link on confirmation page to download desktop]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";desktop_upsell_skip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue without downloading]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jätka ilma allalaadimata]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link to Continue without downloading]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_action_create_assignment" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create an assignment]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Loo ülesanne]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Share action text to select when the user wants to create an assignment for a class]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_action_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[I want to]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Soovin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Form label to indicate what share action the user wants to perform]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_action_make_announcement" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to a channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jaga kanalisse]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Make an announcement]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Share action text to select when the user wants to share to a channel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_action_share" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to person, group, or channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jaga inimese, rühma või kanaliga]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Share action text to select when the user wants to share to a person, group, or channel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_assignment_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not share the assignment. Try sharing it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Me ei saanud ülesannet jagada. Proovi seda uuesti jagada.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error when sharing assignment fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_attachment_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Include attachments]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kaasa manused]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Checkbox for user to choose whether to include email attachments in the share. This shows only when it's sharing an email.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_attachment_size_limit_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attachments are too large to share.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Manused on jagamiseks liiga mahukad.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Notification message to indicate that attachments are too large, so they are not allowed to be shared.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jaga]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text to submit content to be shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_close_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sule]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button to close the pop-up window after the user has completed the action of sharing]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_permission_deny_tooltip_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have permission to grant access to these files:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sul pole õigust anda juurdepääsu neile failidele:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown inside tooltip when sender doesn't have access to extend permissions to cloud files]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_recipients_permission_deny" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot grant access to recipients.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Adressaatidele ei saa juurdepääsu anda.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sender do not have permission to extend access for cloud files to recipients]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_recipients_permission_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[(Cannot verify permissions. Recipients might not have access.)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[(Õigusi ei saa kontrollida. Adressaatidel ei pruugi olla juurdepääsu.)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when check access MT call fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_recipients_permission_grant" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[(Will grant access to the recipients)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[(Adressaatidele antakse juurdepääs.)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Selected recipients can be granted access for the cloudy files]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_cloud_files_show_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kuva rohkem]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show details of which cloud files can't be extended access]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_compose_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Say something about this]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Räägi selle kohta midagi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Form label to indicate where to compose a message regarding the content to be shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_compose_label_outlook" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Type a message]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sisesta sõnum]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Form label to indicate where to compose a message regarding the email to be shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_create_assignment_view" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create Assignment View]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ülesande loomise vaade]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Screen reader text for the section of the form regarding creating assignments]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_channel_sharepoint_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're still setting up this team. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Häälestame alles seda töörühma. Proovi hiljem uuesti.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error when the channel sharepoint is not provisioned yet]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not share the mail. Try sharing it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Me ei saanud meilisõnumit jagada. Proovi seda uuesti jagada.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error when sharing email fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_personal_sharepoint_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We're still setting up your OneDrive. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Häälestame alles sinu OneDrive'i. Proovi hiljem uuesti.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error when the personal sharepoint is not provisioned yet]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_preview_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't load email. Please close this window and try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Meilisõnumit ei saanud laadida. Sule see aken ja proovi uuesti.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when email preview generation fails.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_email_preview_loading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading email...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Meilisõnumi laadimine...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message shown when email preview is loading.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_could_not_get_teams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not get your teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Me ei saanud sinu töörühmi tuua]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when the experience is unable to fetch teams]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_could_not_get_teams_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Proovi hiljem uuesti.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error to indicate that the user should try again later]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_could_not_get_url" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Couldn't get URL]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[URL-i ei saanud tuua]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when the experience is unable to get the url the user intended to share]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_could_not_get_url_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[While it's being fixed, try copying the URL from your browser and paste in Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kuni seda lahendatakse, proovi kopeerida oma brauserist URL ja kleepida see Teamsi.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error to indicate that the user should mitigate the error by taking the link they were trying to share and pasting into their desired teams chat through the web or desktop client]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_default" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was an error sharing your link to Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sinu lingi jagamisel Microsofti Teamsi ilmnes tõrge]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when a fatal error occurs and we are unable to display a more descriptive error message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_default_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Proovi uuesti.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error to indicate that the user should try again]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_itp_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to Teams is not able to run due to Safari's cross-site tracking privacy setting. To disable this setting, go to Safari > Preferences > Privacy and turn off "Prevent cross-site tracking".]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teamsi jagamist ei saa Safari saitidevahelise jälgimise privaatsussätte tõttu käivitada. Selle sätte keelamiseks ava Safari > Preferences (Eelistused) > Privacy (Privaatsus) ja lülita välja valik "Prevent cross-site tracking" (Väldi saitidevahelist jälgimist).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when authentication is blocked by ITP]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_itp_tertiary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about this setting and how it affects your web browsing in Safari.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Loe lisateavet selle sätte kohta ja selle kohta, kuidas see mõjutab veebisirvimist Safaris.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error for a learn more link with details]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_login" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This account does not support Share to Teams.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[See konto ei toeta jagamist Teamsi.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Looks like you're not set up to share to Teams]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed on an error page when a fatal error occurs and we are unable login the user due to their account not being supported]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_login_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You will need to sign in using your work or school account instead (if you have that kind of account). If you are not sure, or if you need help, contact your Microsoft 365 or Teams administrator.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Selle asemel pead sisse logima oma töö- või koolikontoga (kui sul on seda tüüpi konto). Kui sa pole kindel või vajad abi, pöördu oma Microsoft 365 või Teamsi administraatori poole.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[You will need to sign in using your work or school account instead (if you have that kind of account). If you are not sure, or if you need help, contact your Office 365 or Teams administrator.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed under the above error to detail steps the user should take to log in to the correct account. This experience only supports work or school accounts]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_error_unsupported_browser_secondary" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To share to Teams on the web you will need the latest version of Microsoft Edge, Chrome, or Firefox.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Selleks et jagada Teamsi veebirakendusse, vajad Microsoft Edge’i, Chrome’i või FIrefoxi uusimat versiooni.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[To share to Teams on the web you'll need the latest version of Microsoft Edge, Chrome, or Firefox.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed when the user visits the share experience using a web browser that are not supported, suggesting the alternatives that are supported]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_generic_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We could not share the link. Try sharing it again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Me ei saanud linki jagada. Proovi seda uuesti jagada.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[We couldn't share the link. Try sharing it again.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic error when sharing fails]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_go_to_teams" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Ava Teams]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button action text when the user wants to go to the main teams client]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_message_size_limit" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need to shorten your message to send it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Saatmiseks pead sõnumit lühendama.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Warning message to indicate that the message content is too long and needs to be shortened]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_page_disabled" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to Teams is temporarily disabled. We apologize for the inconvenience.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teamsile jagamine on ajutiselt keelatud. Palume ebamugavuste pärast vabandust.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displayed when Share to Teams is temporarily disabled]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_page_tab_to_search" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tab to start searching]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Tabeldusklahv otsingu käivitamiseks]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is announced on page load for accessiblilty to let user know to press tab key to start searching]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_success" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your link has been shared.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sinu linki jagati.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Your link has been shared]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message when the share action is completed successfully and the content is a link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_success_assignment" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your assignment has been created.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sinu ülesanne on loodud]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message when the share action is completed successfully and the content is an assignment]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_success_email" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your email is on its way to Teams!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sinu meilisõnum on teel Teamsi!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message when API call to share email is successful]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_suggestion_label_email_recipients" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Participants from email]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Osalejad meilist]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The label for the suggested share recipients from the source email participants]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_suggestion_label_frequently_used" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Frequently shared to]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sageli jagatud]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The lable for the recipients who are frequently shared to]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_suggestion_label_recent_locations" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Recent locations]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Viimatised asukohad]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The lable for the suggested recent locations]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to Microsoft Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jaga Microsoft Teamsis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the experience]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_to_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Jaga rakenduses]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Form label to indicate to whom the content should be shared]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_to_teams_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share to Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teamsis jagamine]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The title for Share to Teams window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_user_profile_dialog_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[User profile and options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kasutajaprofiil ja suvandid]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the pop-up dialog that shows a popup the current user's profile]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_user_profile_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[User Profile Menu]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kasutajaprofiili menüü]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for a button that shows a popup with the current user's profile]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_warning_multiple_chat_disabled_users_removed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{usersCount}} users are not enabled for chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{usersCount}} kasutajat pole vestluse jaoks õigust.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Users selected in search box are chat disabled and thus removed, {usersCount} is the number of removed users.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_warning_single_chat_disabled_user_removed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{userName}} is not enabled for chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kasutajal {{userName}} pole vestluse jaoks õigust.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Users selected in search box are chat disabled and thus removed, {userName} is the name of the removed user.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";third_party_notice" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Third Party Notice]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Kolmanda osapoole teatis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A link to a text file with licenses for all third party software used in the experience]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";thread_access_denied_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You are no longer a member of that channel or chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Sa pole enam selle kanali või tekstvestluse liige.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error when use is no longer a member of that channel or chat]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

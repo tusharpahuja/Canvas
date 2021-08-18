@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "S'està carregant la llista principal",
+  "guardians_table": "Llista principal per a {{classTeam}}",
+  "students": "Alumnes",
+  "guardians": "Pares o tutors",
+  "chatButton": "Botó de xat",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# pare o tutor més. Expandeix per obrir la llista} one {# pares o tutors més. Expandeix per obrir la llista} other{# pares o tutors més. Expandeix per obrir la llista} }",
+  "guardians_student_label": "{{studentName}}, estat {{status}}, obre la targeta de perfil",
+  "guardians_user_unknown_label": "Usuari desconegut",
+  "guardians_status_unknown_label": "Desconegut",
+  "guardians_overflow_members": "Pares o tutors addicionals de l’alumne {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Inicia un xat amb el tutor de: {studentName}} one {Inicia un xat amb els tutors de: {studentName}} other{Inicia un xat amb els tutors de: {studentName}}}",
+  "guardians_chat_button_disabled_title": "L'administrador ha inhabilitat l'accés extern",
+  "guardians_chat_button_disabled_alt_title": "Demaneu a l'administrador que afegeixi la informació de contacte dels tutors perquè el xat estigui disponible",
+  "empty_state_title": "No s'han afegit pares ni tutors",
+  "empty_state_subtitle": "Demaneu a l'administrador de TI que els afegeixi perquè pugueu contactar-hi ràpidament des d'aquí. <0></0>",
+  "empty_state_link": "Mostra'n més",
+  "error_state_title": "S'ha produït un error. Torneu-ho a provar més tard.",
+  "not_owner_error_state_title": "Només els propietaris d'equip de classe poden veure la informació sobre els pares i tutors. Demaneu al propietari de l'equip que us proporcioni l'accés corresponent.",
+  "retry_button_title": "Torna-ho a provar",
+  "transient_error_state_title": "S'ha produït un error. Torneu-ho a provar.",
+  "notification_banner_content": "S'ha produït un problema en carregar més informació de pares i tutors. Torneu-ho a provar més tard."
+}

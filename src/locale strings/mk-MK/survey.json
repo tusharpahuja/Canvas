@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Да",
+  "instant_answers_reaction_yes_aria_label": "Дали овие информации се корисни? ‒ Да",
+  "instant_answers_reaction_no": "Не",
+  "instant_answers_reaction_no_aria_label": "Дали овие информации се корисни? ‒ Не",
+  "instant_answers_header_text": "Ви благодариме за повратните информации!",
+  "instant_answers_header_subtext": "Врз основа на повратните информации, еве неколку информации што може да ви помогнат:",
+  "instant_answers_footer_text": "Дали овие информации се корисни?",
+  "include_screenshot_text": "Вклучи слика од екранот",
+  "customer_feedback_dialog_email_label": "Вашата адреса на е-пошта (изборно)",
+  "customer_feedback_dialog_email_placeholder": "Додај адреса на е-пошта",
+  "customer_feedback_dialog_email_aria_label": "Вашата адреса на е-пошта (изборно)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Со притискање на Поднеси, вашите повратни информации ќе се користат за подобрување на производите и услугите на Microsoft. Вашиот администратор за ИТ ќе може да ги собире овие податоци. Врз основа на вашите повратни информации, може да обезбедиме дополнителни информации за да ви помогнеме во проблемот со вашата поддршка.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Изјава за заштита на личните податоци.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Затвори го дијалогот за повратни информации",
+  "customer_feedback_dialog_adhoc_window_title": "Испратете повратни информации"
+}

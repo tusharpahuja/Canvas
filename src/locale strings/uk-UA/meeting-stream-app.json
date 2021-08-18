@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "URL-адреса потоку",
+  "stream_url_placeholder": "Введіть URL-адресу потоку",
+  "stream_key_label": "Ключ потоку",
+  "stream_key_placeholder": "Введіть ключ потоку",
+  "start_streaming_button_text": "Почати потокову передачу",
+  "stop_streaming_button_text": "Зупинити потокову передачу",
+  "custom_streaming_config_page_description": "Спеціальне потокове передавання – це інструмент для потокового передавання нарад Teams на загальнодоступні платформи на RTMP",
+  "custom_streaming_config_page_first_greeting": "Вас вітає спеціальне потокове передавання!",
+  "custom_streaming_config_page_second_greeting": "Ми раді, що ви з нами",
+  "custom_streaming_error_meeting_limit_reached": "Цю нараду не можна передавати потоком у поточних параметрах. Обмежте кількість учасників 1000.",
+  "custom_streaming_error_permission_denied": "У вас немає дозволів на потокове передавання. Зверніться до ІТ-адміністратора або організатора, щоб передати цей вміст",
+  "custom_streaming_error_outdated_client": "Teams потрібні оновлення, щоб продовжити. Перезапустіть програму, щоб переконатися, що ви маєте найновіші функції.",
+  "custom_streaming_error_unknown": "Сталася помилка. Спробуйте ще раз.",
+  "custom_streaming_error_unsupported_platform": "Ця функція ще не підтримується в браузері. Спробуйте ще раз з використанням класичної версії Teams.",
+  "custom_streaming_tab_title": "Налаштувати потокову передачу"
+}

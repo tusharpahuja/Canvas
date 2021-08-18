@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "正在加载父母列表",
+  "guardians_table": "{{classTeam}} 的父列表",
+  "students": "学生",
+  "guardians": "家长 / 监护人",
+  "chatButton": "聊天按钮",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# 更多家长或监护人。展开以打开列表} other{# 更多家长或监护人。展开以打开列表} }",
+  "guardians_student_label": "{{studentName}}，状态 {{status}}，打开个人资料卡片",
+  "guardians_user_unknown_label": "未知用户",
+  "guardians_status_unknown_label": "未知",
+  "guardians_overflow_members": "{{studentName}} 的其他家长或监护人: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{与 {studentName} 的监护人发起聊天} other{与 {studentName} 的监护人发起聊天}}",
+  "guardians_chat_button_disabled_title": "管理员已禁用外部访问",
+  "guardians_chat_button_disabled_alt_title": "请管理员添加监护人联系人信息，以便可以进行聊天",
+  "empty_state_title": "尚未添加家长和监护人",
+  "empty_state_subtitle": "请 IT 管理员添加它们，以便你可以从此处快速联系他们。<0></0>",
+  "empty_state_link": "查看更多信息",
+  "error_state_title": "出现错误。请稍后再查。",
+  "not_owner_error_state_title": "只有课堂团队所有者能看到家长和监护人信息。询问团队所有者授予访问权限。",
+  "retry_button_title": "重试",
+  "transient_error_state_title": "出错了。请重试。",
+  "notification_banner_content": "加载更多家长和监护人信息时出现问题。请稍后重试。"
+}

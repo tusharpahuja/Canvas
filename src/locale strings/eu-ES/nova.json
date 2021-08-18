@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Amaitu saioa",
+  "me_control_sign_out_button_aria_label": "Amaitu Microsoft-eko saioa",
+  "me_control_my_microsoft_account_button_text": "Nire Microsoft kontua",
+  "me_control_my_microsoft_account_button_aria_label": "Nire Microsoft kontua",
+  "me_control_change_picture_aria_label": "Aldatu profileko argazkia",
+  "me_control_trigger_aria_label": "Profila",
+  "me_control_menu_aria_label": "Profilaren menua",
+  "app_bar_activity_app_name": "Jarduera",
+  "app_bar_activity_app_arialabel": "Jarduera",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# jarduera berri} one {# jarduera berri} other{# jarduera berri}}",
+  "app_bar_activity_app_tooltip": "Jarduera",
+  "app_bar_chat_app_name": "Txata",
+  "app_bar_chat_app_arialabel": "Txata",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{Mezu berriak daude # txatetan} one {Mezu berriak daude # txatetan} other{Mezu berriak daude # txatetan}}",
+  "app_bar_chat_app_tooltip": "Txata",
+  "app_bar_calendar_app_name": "Egutegia",
+  "app_bar_calendar_app_arialabel": "Egutegia",
+  "app_bar_calendar_app_tooltip": "Egutegia",
+  "app_bar_calls_app_name": "Deiak",
+  "app_bar_calls_app_arialabel": "Deiak",
+  "app_bar_calls_app_tooltip": "Deiak"
+}

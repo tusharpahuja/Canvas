@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{Kam: {user1}} =1{Kam: {user1} ir dar 1 kitas} one {Kam: {user1} ir # kiti} few {Kam: {user1} ir # kiti} many {Kam: {user1} ir # kiti} other{Kam: {user1} ir # kiti}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{Kam: {user1}, {user2}} =1{Kam: {user1}, {user2} ir 1 kitas} one {Kam: {user1}, {user2} ir # kiti} few {Kam: {user1}, {user2} ir # kiti} many {Kam: {user1}, {user2} ir # kiti} other{Kam: {user1}, {user2} ir # kiti}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{Kam: {user1}, {user2}, {user3}} =1{Kam: {user1}, {user2}, {user3} ir 1 kitas} one {Kam: {user1}, {user2}, {user3} ir # kiti} few {Kam: {user1}, {user2}, {user3} ir # kiti} many {Kam: {user1}, {user2}, {user3} ir # kiti} other{Kam: {user1}, {user2}, {user3} ir # kiti}}",
+  "new_message_label": "Nauja",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{{repliesCount} atsakymai (-ų) iš {user1}} =1{{repliesCount} atsakymai (-ų) iš {user1} ir dar 1} one {{repliesCount} atsakymai (-ų) iš {user1} ir # kitų} few {{repliesCount} atsakymai (-ų) iš {user1} ir # kitų} many {{repliesCount} atsakymai (-ų) iš {user1} ir # kitų} other{{repliesCount} atsakymai (-ų) iš {user1} ir # kitų}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{{repliesCount} atsakymai (-ų) iš {user1}, {user2}} =1{{repliesCount} atsakymai (-ų) iš {user1}, {user2} ir dar 1} one {{repliesCount} atsakymai (-ų) iš {user1}, {user2} ir # kitų} few {{repliesCount} atsakymai (-ų) iš {user1}, {user2} ir # kitų} many {{repliesCount} atsakymai (-ų) iš {user1}, {user2} ir # kitų} other{{repliesCount} atsakymai (-ų) iš {user1}, {user2} ir # kitų}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{{repliesCount} atsakymai (-ų) iš {user1}, {user2}, {user3}} =1{{repliesCount} atsakymai (-ų) iš {user1}, {user2}, {user3} ir dar 1} one {{repliesCount} atsakymai (-ų) iš {user1}, {user2}, {user3} ir # kitų} few {{repliesCount} atsakymai (-ų) iš {user1}, {user2}, {user3} ir # kitų} many {{repliesCount} atsakymai (-ų) iš {user1}, {user2}, {user3} ir # kitų} other{{repliesCount} atsakymai (-ų) iš {user1}, {user2}, {user3} ir # kitų}}",
+  "tmp_view_chat_button_text": "Rodyti atsakymus",
+  "tmp_go_to_channel_button_text": "Eiti į kanalą"
+}

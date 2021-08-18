@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "Wrthi’n llwytho’r Rhestr Rhieni",
+  "guardians_table": "Rhestr rhieni ar gyfer {{classTeam}}",
+  "students": "Myfyrwyr",
+  "guardians": "Rhieni / Gwarcheidwaid",
+  "chatButton": "Botwm sgwrsio",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# rhiant warcheidwad yn fwy. Ehangu i agor y rhestr} zero {# yn fwy o rieni neu warcheidwad. Ehangu i agor y rhestr} one {# yn fwy o rieni neu warcheidwad. Ehangu i agor y rhestr} two {# yn fwy o rieni neu warcheidwad. Ehangu i agor y rhestr} few {# yn fwy o rieni neu warcheidwad. Ehangu i agor y rhestr} many {# yn fwy o rieni neu warcheidwad. Ehangu i agor y rhestr} other{# yn fwy o rieni neu warcheidwad. Ehangu i agor y rhestr} }",
+  "guardians_student_label": "{{studentName}}, statws {{status}}, yn agor cerdyn proffil",
+  "guardians_user_unknown_label": "Defnyddiwr anhysbys",
+  "guardians_status_unknown_label": "Anhysbys",
+  "guardians_overflow_members": "Rhieni ychwanegol neu warcheidwaid {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{Dechrau sgwrs gyda gwarcheidwad {studentName}} zero {Dechrau sgwrs gyda gwarcheidwaid {studentName}} one {Dechrau sgwrs gyda gwarcheidwaid {studentName}} two {Dechrau sgwrs gyda gwarcheidwaid {studentName}} few {Dechrau sgwrs gyda gwarcheidwaid {studentName}} many {Dechrau sgwrs gyda gwarcheidwaid {studentName}} other{Dechrau sgwrs gyda gwarcheidwaid {studentName}}}",
+  "guardians_chat_button_disabled_title": "Mynediad allanol wedi'i analluogi gan Weinyddwr",
+  "guardians_chat_button_disabled_alt_title": "Gofynnwch i'ch gweinyddwr ychwanegu gwybodaeth gyswllt y gwarcheidwad er mwyn gwneud sgwrs ar gael",
+  "empty_state_title": "Nid yw rhieni a gwarcheidwaid wedi cael eu hychwanegu",
+  "empty_state_subtitle": "Gofynnwch i'ch Gweinyddwr TG eu hychwanegu fel y gallwch gysylltu â nhw'n gyflym oddi yma. <0></0>",
+  "empty_state_link": "Gweld rhagor",
+  "error_state_title": "Aeth rhywbeth o'i le. Dewch yn ôl yn nes ymlaen.",
+  "not_owner_error_state_title": "Dim ond perchnogion tîm dosbarth all weld gwybodaeth am rieni a gwarcheidwaid. Gofynnwch i berchennog y tîm roi mynediad i chi.",
+  "retry_button_title": "Ailgynnig",
+  "transient_error_state_title": "Aeth rhywbeth o'i le. Rhowch gynnig arall arni.",
+  "notification_banner_content": "Roedd problem wrth lwytho rhagor o wybodaeth am rieni a gwarcheidwaid. Rhowch gynnig arall arni’n nes ymlaen."
+}

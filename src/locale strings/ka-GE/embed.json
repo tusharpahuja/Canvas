@@ -1,0 +1,14 @@
+{
+  "embed_add_people": "ხალხის დამატება",
+  "embed_go_back_button": "უკან",
+  "embed_provide_feedback": "გამოაგზავნეთ თქვენი გამოხმაურება:",
+  "embed_go_to": "{{title}}-ზე გადასვლა",
+  "embed_open_inside": "შიგნით გახსნა",
+  "embed_participants_in_chat": "მონაწილეები ({{membersCount}})",
+  "embed_pop_out_chat": "საუბრის ამოღება",
+  "embed_pop_in_back": "მთავარი ფანჯარაში ჩასმა",
+  "embed_error_page_message": "სამწუხაროდ, დაფიქსირდა შეცდომა",
+  "embed_error_page_try_again_button": "სცადეთ ხელახლა",
+  "embed_chats": "Microsoft Teams ჩატები",
+  "embed_chat": "Microsoft Teams ჩატი"
+}

@@ -1,0 +1,18 @@
+{
+  "default_app_description": "Obs, noe gikk galt!",
+  "default_app_title": "Obs, noe gikk galt! (App-feil)",
+  "default_network_error_description": "Obs, nettverksproblem!",
+  "default_network_error_title": "Obs, nettverksproblem!",
+  "default_unknown_description": "Obs, noe gikk galt!",
+  "default_unknown_title": "Obs, noe gikk galt!",
+  "default_authentication_title": "Vi kan ikke logge deg på.",
+  "default_authentication_description": "noe gikk galt.",
+  "default_core_error_description": "Obs, noe gikk galt! (Kjernefeil)",
+  "default_core_error_title": "Feilkode: Kjernefeil",
+  "default_fetch_description": "Obs, noe gikk galt! (CDL-hentefeil)",
+  "default_fetch_title": "Feilkode: CDL-hentefeil",
+  "default_service_description": "Obs, noe gikk galt! (CDL-tjenestefeil)",
+  "default_service_title": "Feilkode: CDL-tjenestefeil",
+  "error_forbidden_text": "Vi beklager. Vi fant et problem med organisasjonens lisens",
+  "error_nonetwork_text": "Vi beklager. Finner ikke nettverk. Prøv på nytt når du blir koblet til igjen."
+}

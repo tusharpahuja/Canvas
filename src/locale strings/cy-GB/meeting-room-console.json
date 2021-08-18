@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Wrthi'n llwytho...",
+  "lobby_screen_exit_message": "Gadael y Cyntedd",
+  "calling_join_button_audio": "Ymuno â galwad gyda sain",
+  "calling_join_button_video": "Ymuno â galwad gyda fideo",
+  "calling_screen_meeting_id": "ID y cyfarfod: {{conferenceId}}",
+  "meeting_room_present_content": "Cyflwyno",
+  "meeting_room_connected_device": "Dyfais wedi cysylltu",
+  "meeting_room_content_camera": "Camera cynnwys",
+  "meeting_room_cortana_button_title": "Cortana"
+}

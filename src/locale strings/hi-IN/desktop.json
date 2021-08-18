@@ -1,0 +1,6 @@
+{
+  "auth_prompt_title_sign_in": "Microsoft Teams में साइन इन करें",
+  "auth_prompt_title_acquire_token": "Microsoft Teams में पासवर्ड दर्ज करें",
+  "systray_menu_item_label_open": "Open",
+  "systray_menu_item_label_quit": "Quit"
+}

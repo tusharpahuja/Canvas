@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "Walang available na Ulat sa Coach ng Meeting",
+  "coach_report_no_data_too_short": "I-on ang Meeting Coach nang mahigit sa 1 minuto para ma-access ang iyong ulat",
+  "coach_report_no_data_too_long": "Pasensya na, hindi sinusuportahan ng Meeting Coach ang mga pulong na mas mahaba sa 2 oras",
+  "coach_report_title": "Iyong Mga Insight sa Coach ng Meeting",
+  "coach_report_private_label": "Pribado",
+  "coach_report_settings": "Mga Setting",
+  "coach_report_subtitle": "* Ikaw lang ang nakakakita ng iyong ulat sa Coach.",
+  "coach_report_chart_title": "Mga suhestiyon mula sa iyong pagpupulong",
+  "coach_report_card_checkbox": "Palaging i-save at laktawan ang screen na ito para sa mga sesyon sa hinaharap",
+  "coach_report_save_button": "I-save",
+  "coach_report_delete_button": "I-delete",
+  "coach_report_save_button_tooltip": "Hanapin ito sa ibang pagkakataon sa page ng pulong",
+  "coach_report_feedback_before_submit": "Nakakatulong ba ito?",
+  "coach_report_feedback_after_submit": "Salamat sa feedback",
+  "coach_report_feedback_yes_button": "Oo",
+  "coach_report_feedback_no_button": "Hindi",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} ng {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "Nakaraan",
+  "coach_report_next_critique_button": "Susunod"
+}

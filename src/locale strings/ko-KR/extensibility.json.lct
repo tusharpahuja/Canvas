@@ -1,0 +1,3102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="extensibility.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Settings Name="@SettingsPath@\Skype\MicrosoftTeamsModularPackages\MicrosoftTeamsModularPackages.lsconfig" Type="Config" />
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";Platform_app_configuration_dialog_load_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong when loading tab configuration dialog, please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭 구성 대화 상자를 불러오는 중 문제가 발생했습니다. 나중에 다시 시도하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown to user when loading tab configuration dialog fail without app definition or tab data]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";adaptive_card_tab_login_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign In]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[로그인]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Log In]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button content for log in button on adaptive card tab auth page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_attribution_header_actions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가 옵션]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[title for more options menu in message cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_based_link_install_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{appName}} wants to show a preview of this link. By using the app you agree to its <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}}에서 이 링크의 미리 보기를 표시하려고 합니다. 앱을 사용하려면 <0></0> 및 <1></1>에 동의하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text to get permission to show a link preview. appName: name of the app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_add_button_add" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Install the app to appropriate scope depending on the context]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_aria_label_close_dialog" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[대화 상자 닫기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for close dialog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_basic_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send me messages and notifications.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ 나 에게 메시지 및 알림을 보냅니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[second basic permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_basic_full_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that I provide to it.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[ 내가  제공한  메시지 및 데이터 수신.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[first basic permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_bot" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bots]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[봇]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for bots]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_bot_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat with the app to ask questions and find info]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱과 채팅하여 질문하고 정보를 찾을 수 있습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of bots capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_connector" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Notifications]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[알림]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for connectors]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_connector_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get notifications from the app in a channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채널의 앱에서 알림 받기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of connectors]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_message_extension" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[메시지]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for message extensions]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_message_extension_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Insert content from the app directly into messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱의 콘텐츠를 메시지에 직접 삽입합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of message extension]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_personal_app" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Personal app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[개인 앱]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for personal apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_personal_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Keep track of important content and info]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[중요 콘텐츠와 정보를 추적]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of personal apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tabs]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[section title for Tabs]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_capability_tab_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use in a tab at the top of a chat or channel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채팅 또는 채널 상단의 탭에서 사용합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[description of tabs cabability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_chat_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages and notifications in a chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채팅에서 메시지와 알림을 보냅니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_chat_galleryTabs_bots_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that chat members provide to it in a chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채널에서 채팅 구성원이 올린 메시지와 데이터를 수신합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[First chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_created_by" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Created by: <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[만든 사람: <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[developer of the app. <0></0> is the link to developer's website]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_full_screen_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Render personal apps and dialogues without a Teams-provided header.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[  Teams-제공 헤더없이 개인 앱 및 대화 렌더링.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[fullscreen permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_chat_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access this chat's information such as chat name and roster (including chat member's names and email addresses) - and use this to contact them​.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채팅 이름, 명단(채팅 구성원 이름 및 전자 메일 주소 포함) 등 이 채팅의 정보에 액세스하고, 이 정보를 사용하여 연락합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The chat identity permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access my profile information such as my name, email address, company name and preferred language.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이름, 전자 메일 주소, 회사 이름 및 기본 언어 등 내 프로필 정보에 액세스합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[first team permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_identity_team_and_chat_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Access information from this team or chat such as team or chat name, channel list and roster (including team or chat member's names and email addresses) - and use this to contact them​.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[팀, 채팅 이름, 채널 목록, 명단(팀 또는 채팅 구성원의 이름과 전자 메일 주소 포함) 등 이 팀이나 채팅의 정보에 액세스하고, 이 정보를 사용하여 연락합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The team and chat identity permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permission_message_send_organization" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages to anyone in your Teams organization.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Teams 조직의 모든 사람에게 메시지를 보냅니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[permission string indicating ability to send messages to anyone in the user's Teams organization]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permission_teams_access" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Maintain access to the team's data.​]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[팀의 데이터에 대한 액세스를 유지 관리합니다.​]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Resource specific permission: Maintain access to the team's data.​]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_permissions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Permissions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[권한]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Permissions section content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_split_button_instruction_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[to open menu, press Alt + Arrow Down]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[메뉴를 열려면 Alt+아래쪽 화살표를 누르세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[message for using triggering the split button using keyboard shortcut]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_split_button_role_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[splitbutton]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[분할 단추]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[message to be added for aria-roledescription property]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_team_and_chat_bots_connectors_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send messages and notifications in a channel or chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채널 또는 채팅의 메시지와 알림을 보냅니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Second team and chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_team_and_chat_full_permission" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive messages and data that team or chat members provide to it in a channel or chat.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채널 또는 채팅에서 팀  또는 채팅 구성원이 올린 메시지와 데이터를 수신합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[First team and chat permission string]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using {{appName}}, you agree to the <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 {{appName}}을(를) 사용하면 <0></0> 및 <1></1>에 동의하는 것입니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[terms of privacy of the app. {{appName}} is the name of the app. <0></0> is the link to the privacy statement. <1></1> is the link to the terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[개인정보취급방침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_terms_and_privacy_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[사용 약관]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_details_version" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version {{appVersion}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[버전 {{appVersion}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{{appVersion}} is the version of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_app_carousel_get_card_position" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Card {{index}} out of {{size}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[카드 {{size}} 중 {{index}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[For screen reader announce the position of the current card. {{index}} is index of the focused carousel card. {{size}} means how many cards we have]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_app_information_dialog_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{name}}, developer: {{developerName}},  description: {{longDescription}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}}, 개발자: {{developerName}}, 설명: {{longDescription}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[app information dialog aria label to be read by screen reader name - app name, developerName- app developer name and longDescription- app description]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_basicPermission_what_app_can_do" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Here's what this app can do:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 앱의 기능:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the website banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_developer" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Created by ]A;{{developerName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[만든 사람 ]A;{{developerName}}]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Created by {{developerName}}]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[developer of the app. {{developerName}} is the name of the developer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_icons_send" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[보내기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Send message to the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_imreceive" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Receive instant messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[인스턴트 메시지 받기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show Receive instant permission messages]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_imsend" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Send instant messages]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[인스턴트 메신저 보내기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show Send instant permission messages]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_presence" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Available]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[대화 가능]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[presence of the bot, which is always available]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy statement]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[개인정보취급방침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_quickMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Message {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[메시지 {{appName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message the app from app profile card object]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains # scenes]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains 1 scene]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[1개 장면 포함]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains # scenes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[# 장면 포함]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_scene_count_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{sceneCount,plural, =1 {Contains 1 scene} other {Contains # scenes}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{sceneCount,plural, =1 {Contains 1 scene} other {Contains # scenes}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[scenes in the app. {{sceneCount}} is the count of the scenes{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_terms_of_use" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Services agreement]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[서비스 계약]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[link to terms of use]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";app_profile_card_toggleChat_on" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채팅]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Chat with the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";botcards_o365_actionCard_title_required_interpolation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{title}} (Required)]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{title}} (필수)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Suffix interpolation used in title or placeholder for O365 actionable card if the input field is required]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_chat_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채팅]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of chat action pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_files_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[파일]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of files pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";built_in_photos_tab" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Photos]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[사진]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for name of photos pre defined tab in a conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";cancel_location_bing_map" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[닫기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for close action button at location map dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appPrivacyPolicyLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[개인정보처리방침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app Privacy policy in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appPublishedByLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Published by {{publisher}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{publisher}}에서 게시함]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app publisher {{publisher}} in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appTermsOfUseLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[사용 약관]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app Terms of Use in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appVersionLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version {{version}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[버전 {{version}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the app version {{version}} in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_appWebsiteLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Website]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[웹 사이트]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label to show the Website in the About tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_aboutTab_tabPrivacyMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using this tab, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 탭을 사용하면 개발자의 <0></0> 및 <1></1>에 동의하는 것입니다.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[By using this tab, you agree to the developer's license terms and privacy statement.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for the tab License terms and Privacy statement.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[1개의 결과를 사용할 수 있습니다. 위쪽 및 아래쪽 화살표 키를 사용하여 이동하고 Enter 키를 눌러 선택하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# results are available, use up and down arrow keys to navigate. Press the Enter key to select.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[#개의 결과를 사용할 수 있습니다. 위쪽 및 아래쪽 화살표 키를 사용하여 이동하고 Enter 키를 눌러 선택하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available. (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_aria_label.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{resultCount, plural, =1{1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.} other{# results are available, use up and down arrow keys to navigate. Press the Enter key to select.} }]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{resultCount, plural, =1{1 result is available, use up and down arrow keys to navigate. Press the Enter key to select.} other{# results are available, use up and down arrow keys to navigate. Press the Enter key to select.} }]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label indicating how to navigate through the search results, {{resultCount}} indicating how many results are available.{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_failed_login" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign in to {{name}} to see options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{name}}에 로그인하여 옵션을 확인하세요]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown asking the user to authenticate with the bot before using. {{name}} is the name of the bot.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_failed_ratelimit" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sorry, things got busy. Try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[죄송합니다. 다른 작업이 진행 중입니다. 나중에 다시 시도하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when loading results from bot failed due to the bot being busy.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_loading" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading options...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[옵션 로드 중...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when results are being fetched from the bot.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_dynamic_search_loading_failed" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to show options right now]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[지금 옵션을 표시할 수 없음]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed in dropdown when loading results from bot failed.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_adaptive_card_image_expand_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enlarge this image]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 이미지 확대]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for image expand icon on adaptive card images]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_cancel_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[취소]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog cancel action button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We need to ask for additional permissions. You should only need to do this once for {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가 사용 권한을 요청해야 합니다. {{appName}}에 대해 이 작업을 한 번만 수행하면 됩니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog content. {{appName}} is name of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_continue_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[계속]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[platform app auth consent dialog continue action button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_auth_consent_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Almost there!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[거의 완료되었습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for platform app auth consent]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_channel_tab_window_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{teamName}} / {{channelName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{teamName}} / {{channelName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Window title for tabs in channel. {{teamName}} is the name of the team that tab belongs to, {{channelName}} is the channel name inside the team where the tab is located ]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_close_subentity_conversation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[닫기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the subentity conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_copy_to_clipboard_tooltip" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copied to clipboard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[클립보드에 복사됨]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip shown to customer when they click copy tab link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem reaching this app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 앱에 연결하는 동안 문제가 발생했습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for extensibility platform]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_cancel_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[cancel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[취소]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Force delete dialog cancel button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can permanently delete this tab; however, it may not delete the data in this app. If you require the data of this app to be permanently deleted, then you should avoid this step.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 탭을 영구적으로 삭제할 수 있으나 이 앱의 데이터는 삭제되지 않을 수 있습니다. 이 앱의 데이터를 영구적으로 삭제하려면 이 단계를 건너뛰세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Platform force delete tab dialog content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was a problem removing this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 탭을 제거하는 데 문제가 있습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Platform force delete tab dialog header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_force_delete_dialog_remove_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[yes, remove tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[예, 탭을 제거합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Force delete dialog remove button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_get_bots" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get bots]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[봇 가져오기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in at-mentions to navigate to app store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_messageExtension_consent_message_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clicking <0></0> will add <1></1> to this chat. By using this app you agree to its <2></2> and <3></3>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[<0></0>단추를 클릭하면 이 채팅에 <1></1> 앱이 추가됩니다. 이 앱을 사용하면 <2></2> 및 <3></3>에 동의하게 됩니다.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Clicking {{installButtonTitle}} will add {{appName}} to this chat. By using this app you agree to its <0></0> and <1></1>.]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicked on card action that is blocked. <0></0> is the label of install button from bot. <1></1> is the name of the app. <2></2> is the link to the privacy settings of the app. <3></3> is the terms of conditions of the app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_platform_app_information_dialog_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App information]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱 정보]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[app information dialog button aria label to be read by screen reader]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_create_scene_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create your own scene]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[나만의 장면 만들기]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Create your scene]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text of the ink to app studio to create a scene]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[개인 정보 취급 방침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_search_no_results_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't find any matches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[일치하는 항목을 찾을 수 없음]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for scene picker search if no results]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_search_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search scenes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[장면 검색]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for scene picker search (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By using {{sceneName}} scene, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 {{sceneName}} 장면을 사용하면 개발자의 <0></0> 및 <1></1>에 동의하는 것입니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[terms of privacy of the app. {{sceneName}} is the name of the scene. <0></0> is the link to the privacy statement. <1></1> is the link to the terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_scene_picker_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[사용 약관]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_shareDeepLink_copyInstructions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Press Ctrl + C to get a link to this item that you can share with your teammates.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[팀 구성원들과 공유할 수 있는 이 항목의 링크를 받으려면 <Ctrl+C>를 누르세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text that describes how to copy the deep link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_shareDeepLink_dialogTitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy a link to "{{deepLinkLabel}} in {{deepLinkTabName}}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[“{{deepLinkTabName}}의 {{deepLinkLabel}}“에 대한 링크 복사]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the share deep link dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_no_matches" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We didn't find any matches]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[일치하는 항목을 찾을 수 없습니다]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message when no matches in store search]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_placeholder_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[검색]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for store search bar (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_results_subtitle" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{totalItemsCount}} results]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{totalItemsCount}}개 결과]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The amount of items. {{totalItemsCount}} is the number of items]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_search_results_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results for "{{keyword}}"]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA["{{keyword}}" 검색 결과]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message for search results. {{keyword}} is the search keyword]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_store_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Store]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[스토어]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for store (object)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start conversation]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[대화 시작]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label on the button to start the conversation in a tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Whatever you post here will also show up in the main channel.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[여기에 게시하는 모든 것은 기본 채널에도 표시됩니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title shown when no coversation exist for a tab entity]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_init_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Added a new tab at the top of this channel. Here's a link.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 채널 상단에 새 탭이 추가되었습니다. 여기에 링크가 있습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when the conversation about the tab is started]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_tab_start_conversation_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go ahead and start talking!]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[계속하여 대화를 시작하세요!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title shown when no coversation exist for a tab entity]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_websiteTab_closeWebsiteBanner" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[닫기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Close the website banner]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_websiteTab_goToWebsiteLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[try opening it in a browser]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[브라우저에서 열어보세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Try opening the website tab in a browser]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ext_website_tab_banner" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You’re viewing content from {{url}} —make sure you trust this site before using it. If the site isn't loading properly,]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{url}}에서 콘텐츠를 보고 있기 때문에 이 사이트를 사용하기 전에 신뢰할 수 있는지 확인하세요. 사이트가 제대로 로드되지 않는 경우]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[You’re viewing content from {{url}}—make sure you trust this site before using it. If the site isn't loading properly,]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner to be used in the website tab. {{url}} is the url loaded in the tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_noResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We didn't find any matches.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[일치하는 항목을 찾을 수 없습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown in any of the fun stuff pickers when zero results returned, text is also read by screen readers]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[검색]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text for search text box in Message Extension flyout (action)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";extensibility_flyout_search_resultsUpdatedText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search results updated, {{numResults}} available, use tab and arrow keys to navigate and enter to select]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[검색 결과 업데이트됨, {{numResults}}개 사용 가능, 탭과 화살표 키를 사용하여 탐색하고 입력하여 선택]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text read by screen readers during searching when results are available. {{numResults}}: number of results.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_allow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Allow]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[허용]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button title to allow bot file upload]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_decline" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Decline]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[거절]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button title to decline bot file upload]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";file_consent_card_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{appName}} needs permission to upload this file to your OneDrive]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}} 님에게 OneDrive 프로그램을이 파일을 업로드할 수 있는 권한이 있어야 합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title to show for file consent card. {{appName}} is the name of the app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";hosted_web_content_loading_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading {{appName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}} 로드 중]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced to user when loading hosted web content. {{appName}} is current hosted app name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_body_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check out other popular apps published by your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[조직에서 게시한 다른 인기 앱 확인]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notificaitons page body text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_settings_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[notification settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[변경해 보세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page notification settings button content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_settings_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You can change your notification preferences from]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[다음에서 알림 기본 설정을 변경할 수 있습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page view in the store notification settings text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_bottom_view_in_store_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View in Store]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[저장소에서 보기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page view in store button content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";lob_notifications_header_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your org has published a new app:]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[조직에서 새 앱을 게시했습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[lob notifications page header text content]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_learn_more_hyperlink" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[자세한 정보]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Hyperlink to learn more]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staged_app_delete_app_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete submission]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[제출 삭제]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in more options menu list for a staged app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staged_app_submission_deleted" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submission deleted]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[전송 삭제됨]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown confirming that a staged app submission by a user was deleted]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your IT admin for approval and check the status of your submissions. Once approved, the app will be published to your org’s app catalog.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[IT 관리자에게 승인을 위해 앱을 제출하고 제출 상태를 확인하세요. 승인되면 앱이 조직의 앱 카탈로그에 게시됩니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for user owned staged apps page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_noSearchResults" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We can't find any matches for '{{searchString}}']]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA['{{searchString}}'와(과) 일치하는 항목을 찾을 수 없습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text to show when there are no matching staged apps for the user's search. {{searchString}} is the term the user searched for.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_noStagedApps" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is the place to submit an app and check the status of your submissions. Once approved by your IT admin, your app will be featured under Apps > Tenant > Built for your organization.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이곳에서 앱을 제출하고 제출 상태를 확인할 수 있습니다. IT 관리자가 승인하면 앱은 앱 > 테넌트 > 조직용으로 구축됨 아래에 앱이 표시됩니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text shown when a user has no staged apps to be displayed]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_search_placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Find]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[찾기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Placeholder text in search box for staged apps]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_app" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing app name and small image url]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_datetime" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last updated]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[마지막 업데이트 날짜]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing the last updated datetime]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_status" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submission status]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[제출 상태]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing review/submission status]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_header_version" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Version]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[버전]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Staging table header for column containing app version]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More Options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가 옵션]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label for the MenuButton trigger in the staged apps table]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_approved" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Approved]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[승인됨]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app has been approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_pending" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pending]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[보류 중]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app is yet to be approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_rejected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rejected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[거부됨]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app has been rejected by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_unknown" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unknown]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[알 수 없는]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when a staged app's review status is unknown]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_status_upgradepending" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upgrade Pending]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[보류 중인 업그레이드]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Review status when an upgrade to a staged app is waiting to be approved by tenant admin]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_table_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Staged Apps Table]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[단계적 앱 테이블]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria-label of the table in staging apps component]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_staging_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app for your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[조직에 앱 제출]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for user owned staged apps page]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_submit_to_app_catalog_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your IT admin for approval and check the status of your submissions. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[승인을 위해 IT 관리자에게 앱을 제출하고 제출 상태를 확인할 수 있습니다. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for submit to app catalog button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_submit_to_app_catalog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit an app to your org]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱 제출]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for submit to app catalog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_custom_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload an app package (.zip file) for yourself or a team. This is a great way to test an app as it’s being developed. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[자신 또는 팀을 위한 앱 패키지(.zip 파일)를 업로드합니다. 이 방법은 개발되는 앱을 테스트하는 좋은 방법입니다. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for upload a custom app button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_custom_app_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload a custom app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[사용자 지정 앱 업로드]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for upload a custom app button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_tenant_app_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[As an admin, you can upload an app without approval from others. <0></0>]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[관리자는 다른 사용자의 승인 없이 앱을 업로드할 수 있습니다. <0></0>]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for upload an app to the organization button, <0></0> is the learn more hyperlink]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";manage_apps_upload_tenant_app_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Upload an app to your org's app catalog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱 카탈로그에 앱 업로드]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for upload an app to the organization button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";meeting_apps_flyout_optimized_for_meetings_section_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Optimized for meetings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[모임에 최적화됨]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Section header in meeting apps flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_action_commands" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Action Commands]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[작업 명령]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description for the action commands menu in message extension flyout.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_auth_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need to <0></0> to use this app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 앱을 사용하려면 <0></0> 해야 합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text for auth flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";message_extension_config_description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need to <0></0> this app to use all of its features.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 기능을 모두 사용하려면 이 앱을 <0></0> 해야 합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Description text for config flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";messages_composeExtensionUnpinFailureBannerMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong when unpinning {{appName}}, please try again later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}}을(를) 고정 해제하는 도중에 문제가 발생했습니다. 나중에 다시 시도하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Banner message shown when a compose extension app fails to be unpinned. {{appName}} is the app name that's being unpinned.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_about_link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[About]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[약]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Link to open app about dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_back_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Back]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[뒤로]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Exit the app configuration and go back to previous window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_close_dialog" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close configuration dialog]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[구성 대화 상자 닫기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for close configuration dialog button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_app_configuration_save_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[저장]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Save the app configuration]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_apps_flyout_suggested_apps_section_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Suggested]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추천]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Section header in platform apps flyout]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_configuration_more_actions" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More tab configuration actions]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가 탭 구성 작업]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for tab configuration more actions menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_more_options" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More options]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가 옵션]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Tooltip for more options]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_reload_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Reload tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭 새로 고침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for reload tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_remove_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[제거]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rename]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이름 바꾸기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for rename tab menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rename {{displayName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}} 이름 바꾸기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for app rename dialog. {{displayName}} is tab's current name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_rename_input_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tab name]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭 이름]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for app rename input]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_start_presenting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start presenting {{appTitle}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appTitle}} 발표 시작]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Start presenting]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for start presenting button along with {{appTitle}}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";platform_tab_update_settings_action_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Settings]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[설정]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for update tab settings menu item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The {{displayName}} tab will be permanently removed.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}} 탭은 영구적으로 제거됩니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove tab dialog. {{displayName}} is the current tab name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_remove_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[제거]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove button at remove tab dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_removing_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Removing]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[제거 중]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Content for remove button at removing status]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Want to remove this tab?]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 탭을 제거하시겠습니까?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for platform app remove tab dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";remove_tab_with_listeners_dialog_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Remove {{displayName}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{displayName}} 제거]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for removing tab with listeners dialog. {{displayName}} is the current tab name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";saving_tab_configuration_footer_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Setting up your {{tabName}} tab ...]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{tabName}} 탭을 설정하는 중...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Footer message shown after user clicks save button. {{tabName}} is current tab name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";share_location_bing_map" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share location]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[위치 공유]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text for share location action button at location map dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Store Banner]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[배너 저장]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the store banner carousel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_button_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[VIEW DETAILS]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[상세 정보 보기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Button text displayed in the store banner carousel for featured apps. Click triggers app details dialog.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_pause_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pause]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[일시 중지]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Pause store banner carousel auto play]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_banner_carousel_play_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Play]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[재생]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(Action) Auto play store banner caoursel one by one]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_bot_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bot]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[봇]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Bot]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_certified_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Certified]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[인증]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Certified]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_connector_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[커넥터]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Connector]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_groupchat_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Group Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[그룹 채팅]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter groupChat (object)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_meeting_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[모임]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Meeting]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_messageextension_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Messaging]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채팅]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter messaging]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_personal_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Personal]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[개인]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Personal]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_capabilities_filter_tab_option" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter Tab]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter ({{filterAmount}})]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[({{filterAmount}}) 필터링]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store filter (object).{{filterAmount}} is the number of filters]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter_capabilities" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App features]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱 기능]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[Capabilities]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Store capabilities filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_filter_clear" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[지우기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Clear all capabilities]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_item_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[store item button]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[저장소 항목 단추]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[aria label for store item button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_manage_apps_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Manage your apps]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱 관리]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the button to go to the manage apps section]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_provider_powerapps_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Apps]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[Power Apps]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the Power Apps provider section in Store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_provider_team_templates_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Team Templates]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[팀 서식 파일]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for the Team Templates provider section in Store]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";store_see_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See more]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[더 보기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[See more button on left rail]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_configuration_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Configured tab successfully]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭 구성 성공]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced after configuring tab successfully]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_framework_save_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't save your tab settings. Please try again.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭 설정을 저장할 수 없습니다. 다시 시도하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error text shown to the user whenever we fail to save their tab settings (on both new tab creation and when editing an existing tab's properties).]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_post_to_channel_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Post to the channel about this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 탭에 관한 정보를 채널에 게시]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for post the tab to channel checkbox]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_post_to_chat_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Post to the chat about this tab]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 탭에 관한 채팅을 채널에 게시]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for post the tab to chat checkbox]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_remove_fail_error_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't remove your tab. Please try later.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭을 제거할 수 없습니다. 나중에 다시 시도하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when removing tab fail.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_remove_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Removed tab successfully]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[탭 제거 성공]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The message announced after removing tab successfully]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_rename_duplicate_name_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You already have a tab with that name. Try a different one.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 이름의 탭이 이미 있습니다. 다른 이름을 사용하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for app rename input name is duplicated with existing ones]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tab_rename_empty_name_error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Name is required]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이름이 필요합니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message for app rename input name is empty]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_chat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chat]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[채팅]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Chat action placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_files" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Files]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[파일]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Files placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_meeting_notes" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Meeting Notes]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[모임 메모]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Meeting notes placeholder tab used for rename appt]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tabs_placeholder_list_whiteboard" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Whiteboard]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[화이트보드]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Whiteboard placeholder tab used for rename app]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_location_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Location]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[위치]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Noun: Header title for the Location app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.few" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'few'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!bs-Cyrl-BA,!bs-Latn-BA,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!gd-GB,!hr,!hr-HR,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ro,!ro-RO,!ru,!ru-RU,!sk,!sk-SK,!sl,!sl-SI,!sr,!sr-Cyrl,!sr-Cyrl-BA,!sr-Cyrl-RS,!sr-Latn-RS,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.many" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'many'.]5D; (ICU){Locked=!ar,!ar-SA,!be-BY,!cs,!cs-CZ,!cy,!cy-GB,!ga-IE,!he,!he-IL,!lt,!lt-LT,!mt-MT,!pl,!pl-PL,!ru,!ru-RU,!sk,!sk-SK,!tt,!tt-RU,!uk,!uk-UA}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.one" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'one'.]5D; (ICU){Locked=qps-ploca,id,id-ID,ig-NG,ja,ja-JP,km-KH,ko,ko-KR,lo-LA,ms,ms-BN,ms-MY,th,th-TH,vi,vi-VN,wo-SN,yo-NG,zh-CN,zh-Hans,zh-Hant,zh-HK,zh-TW}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.two" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'two'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!ga-IE,!gd-GB,!he,!he-IL,!iu-Latn-CA,!sl,!sl-SI}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#ExpandedPlural.0.zero" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[# more people]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"} [Add language specific translation for the plural selector 'zero'.]5D; (ICU){Locked=!ar,!ar-SA,!cy,!cy-GB,!lv,!lv-LV}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#Plural.=1" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1 more person]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[1명 더 있음]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf#Plural.other" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[# more people]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[#명의 사용자 더 보기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count (ICU){PlaceHolder="#"}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_persona_set_more_personas_button_aria_label_mf.icu.content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{morePersonasCount,plural, =1 {1 more person} other {# more people}}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{morePersonasCount,plural, =1 {1 more person} other {# more people}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for the more personas button in adaptive card persona set. {{morePersonasCount}} is the number of the extra people count{Locked} Parent string for ICU MessageFormat.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_safe_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Safe]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[안전]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Noun: Header test for the Safe (like in safe-box) app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_tasks_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tasks]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[작업]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header test for the Tasks app item shared into conversation]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_adaptive_card_unsupported_media_element" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Media playback is currently not supported in Adaptive Cards in Teams]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[현재 Teams의 적응형 카드에서 미디어 재생이 지원되지 않습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed as fallback element for media elements in adaptive cards]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Done]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[완료]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message shown on successful card action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_unsupported_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This card action is not supported by {{appName}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{appName}}에서 이 카드 작업을 지원하지 않습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action which is not supported by the app. {{appName}} is the name of app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_action_unsupported_noapp" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This action can't be performed since the app does not exist or has been uninstalled.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱이 없거나 제거되었으므로 이 작업을 수행할 수 없습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action which is not supported because app does not exist or uninstalled.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_blocked_by_policy_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This bot is disabled. Contact your IT admin for more information.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 봇을 사용할 수 없습니다. 자세한 내용은 IT 관리자에게 문의하세요.]]></Val>
+          </Tgt>
+          <Prev Cat="Text">
+            <Val><![CDATA[The card action is blocked because app has been blocked by your administrator]]></Val>
+          </Prev>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicked on card action that is blocked]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_app_blocked_by_user_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This card action is disabled because you've blocked {{appName}}.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 카드 작업은 {{appName}}이(가) 차단되었기 때문에 사용할 수 없습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when user clicks on card action buttons when bot is blocked by user. {{appName}} is the name of app.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_action_success_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Success]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[성공]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Success message shown on successful card action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_header_app_install_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱 다운로드]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of the card header install app action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_link_actions_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is a card action with a link]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[링크를 가진 카드 작업입니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text to append to the title of an open url/ sign in button or tap action]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_card_refresh_button_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Refresh]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[새로 고침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the refresh button in card]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_jit_install_failure_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong. Make sure you've successfully added the app.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[문제가 발생했습니다. 앱이 성공적으로 추가되었는지 확인하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message displayed when the user does not install the app needed for the action to execute]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_task_module_close_button_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[닫기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title for the close button in task module dialog header]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_unsupported_card_action_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Return to the main window to perform this action.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[주 창으로 돌아가서 이 작업을 수행하세요.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when the user clicks on a card action that is not supported in multi window]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";tmp_unsupported_task_module_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unsupported task module content]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[지원되지 않는 작업 모듈 콘텐츠]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Message to show when task module content is unsupported]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ubar_add_apps_btn_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add an app]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[앱 추가]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Add an app button on Ubar overflow menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";ubar_overflow_menu_name" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[더 보기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More button on Ubar overflow menu]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";unable_to_save_tab_configuration_footer_message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to save {{tabName}} tab configuration.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{tabName}} 탭 구성을 저장할 수 없습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Error message shown when save tab call fail. {{tabName}} is current tab name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_add_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_add_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add {{app}} to use these filter effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{app}}을(를) 추가하여 이 필터 효과 사용]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for add app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_privacy_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[privacy policy]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[개인 정보 취급 방침]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to privacy statement showing on video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_terms_and_privacy" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By adding this app, you agree to the developer's <0></0> and <1></1>.]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[이 앱을 추가하면 개발자의 <0></0> 및 <1></1>에 동의하는 것입니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Terms and privacy description of video app showing on installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_app_installation_dialog_terms_link_text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms of use]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[사용 약관]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text of the link to terms of use statement showing on video app installation dialog]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_av_filters_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{filterName}} from {{app}}]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{app}}의 {{filterName}}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Filter name announced in screen reader and tooltip. {{filterName}} is name of filter, {{app}} is name of app that contributed the filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_av_filters_button_aria_label_is_selected" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{{filterName}} from {{app}} is selected]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[{{app}}의 {{filterName}}이(가) 선택되었습니다.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Filter name announced in screen reader when it is selected. {{filterName}} is name of filter, {{app}} is name of app that contributed the filter]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_clear_customization_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear All Effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[모든 효과 지우기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for clear button that clears both bacakground filter and customized video effects]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_clear_customization_button_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[지우기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Label for clear button that clears both bacakground filter and customized video effects]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_hide_customization_panel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hide video effects customization panel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[비디오 효과 사용자 지정 패널 숨기기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for video effects customization button when customization panel is open]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_effects_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[더 보기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text shown in video effect quick picker to navigate video effect side panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_av_filters_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filters]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[필터]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of A/V filters panel in accordion showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_backgrounds_title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Backgrounds]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[배경]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Title of backgrounds panel in accordion showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Video effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[비디오 효과]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header text showing on video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_more_button" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[더 보기]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More Button text showing on two accordion panels inside of video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_more_view_panel_more_button_aria_label" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More Effects]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[추가 효과]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[More Button text showing on two accordion panels inside of video effects more view panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";video_effects_show_customization_panel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show video effects customization panel]]></Val>
+          <Tgt Cat="Text" Stat="Loc" Orig="New">
+            <Val><![CDATA[비디오 효과 사용자 지정 패널 표시]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Aria label for video effects customization button when customization panel is hidden]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

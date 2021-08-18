@@ -1,0 +1,23 @@
+{
+  "guardians_table_loading_label": "กำลังโหลดรายการแม่",
+  "guardians_table": "รายชื่อผู้ปกครองสำหรับ {{classTeam}}",
+  "students": "นักเรียน",
+  "guardians": "พ่อแม่ / ผู้ปกครอง",
+  "chatButton": "ปุ่มแชท",
+  "guardians_overflow_button_mf": "{numberOfAdditionalGuardians, plural, =1{# พ่อแม่หรือผู้ปกครองเพิ่ม ขยายเพื่อเปิดรายการ} other{# พ่อแม่หรือผู้ปกครองเพิ่ม ขยายเพื่อเปิดรายการ} }",
+  "guardians_student_label": "{{studentName}} สถานะ {{status}} เปิดบัตรโปรไฟล์",
+  "guardians_user_unknown_label": "ผู้ใช้ที่ไม่รู้จัก",
+  "guardians_status_unknown_label": "ไม่รู้จัก",
+  "guardians_overflow_members": "พ่อแม่หรือผู้ปกครองเพิ่มเติมของ {{studentName}}: {{guardianName}}",
+  "guardians_chat_button_title_mf": "{numberOfGuardians, plural, =1{เริ่มแชทกับผู้ปกครองของ {studentName}} other{เริ่มแชทกับผู้ปกครองของ {studentName}}}",
+  "guardians_chat_button_disabled_title": "การเข้าถึงภายนอกถูกปิดใช้งานโดยผู้ดูแลระบบ",
+  "guardians_chat_button_disabled_alt_title": "ขอให้ผู้ดูแลระบบเพิ่มข้อมูลติดต่อของผู้ปกครองเพื่อให้สามารถแชทได้",
+  "empty_state_title": "ยังไม่ได้เพิ่มพ่อแม่และผู้ปกครอง",
+  "empty_state_subtitle": "ขอให้ผู้ดูแลระบบ IT ของคุณเพิ่มพวกเขาเพื่อให้คุณสามารถติดต่อพวกเขาได้อย่างรวดเร็วจากที่นี่ <0></0>",
+  "empty_state_link": "ดูเพิ่มเติม",
+  "error_state_title": "มีบางอย่างผิดพลาด โปรดกลับมาตรวจสอบในภายหลัง",
+  "not_owner_error_state_title": "เฉพาะเจ้าของทีมชั้นเรียนเท่านั้นที่สามารถดูพ่อแม่และผู้ปกครองได้ ขอให้เจ้าของทีมมอบสิทธิ์การเข้าถึงให้แก่คุณ",
+  "retry_button_title": "ลองอีกครั้ง",
+  "transient_error_state_title": "มีบางอย่างผิดพลาด โปรดลองอีกครั้ง",
+  "notification_banner_content": "มีปัญหาในการโหลดข้อมูลพ่อแม่และผู้ปกครองเพิ่มเติม โปรดลองอีกครั้งในภายหลัง"
+}

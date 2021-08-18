@@ -1,0 +1,4 @@
+{
+  "invite_email_error_member_limit_member_text_mf": "{adminCount, plural, =0 {You've hit the member limit for your org. To upgrade and add more people, send a message to one of your admins.} =1 {You've hit the member limit for your org. Ask <0></0> to upgrade so you can invite more people.} other {You've hit the member limit for your org. Ask any of your <0></0> to upgrade so you can invite more people.}}",
+  "_invite_email_error_member_limit_member_text_mf.comment": "Error for member when hitting member limit for tenant"
+}

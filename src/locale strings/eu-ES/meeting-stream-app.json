@@ -1,0 +1,17 @@
+{
+  "stream_url_label": "Zuzeneko igorpenaren URLa",
+  "stream_url_placeholder": "Idatzi zuzeneko igorpenaren URLa",
+  "stream_key_label": "Zuzeneko igorpenaren gakoa",
+  "stream_key_placeholder": "Idatzi zuzeneko igorpenaren gakoa",
+  "start_streaming_button_text": "Hasi zuzenean erreproduzitzen",
+  "stop_streaming_button_text": "Utzi zuzenean erreproduzitzeari",
+  "custom_streaming_config_page_description": "Transmisio pertsonalizatua da Teams-en bilera RTMP teknologia duten plataforma publikoetara transmititzeko tresna",
+  "custom_streaming_config_page_first_greeting": "Ongi etorri zuzeneko igorpen pertsonalizatura!",
+  "custom_streaming_config_page_second_greeting": "Pozten gara hemen zaudelako",
+  "custom_streaming_error_meeting_limit_reached": "Bilera hau ezin da uneko ezarpenekin zuzenean transmititu. Murriztu parte-hartzaileen kopurua 1000 baino gutxiagora.",
+  "custom_streaming_error_permission_denied": "Ez duzu transmisio-baimenik. Jarri harremanetan IKT administratzailearekin edo antolatzailearekin eduki hau transmititzeko",
+  "custom_streaming_error_outdated_client": "Teams-ek eguneratu behar da jarraitzeko. Berrabiarazi aplikazioa azken funtzioak dituela ziurtatzeko.",
+  "custom_streaming_error_unknown": "Arazoren bat izan da. Saiatu berriro.",
+  "custom_streaming_error_unsupported_platform": "Funtzio hau oraindik ez da bateragarria arakatzailearekin. Saiatu berriro Teams-en mahaigaineko bertsiotik.",
+  "custom_streaming_tab_title": "Zuzeneko igorpen pertsonalizatua"
+}

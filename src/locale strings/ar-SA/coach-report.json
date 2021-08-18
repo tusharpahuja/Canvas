@@ -1,0 +1,21 @@
+{
+  "coach_report_no_data": "غير متوفر أي تقارير لمدرب الاجتماع",
+  "coach_report_no_data_too_short": "قم بتشغيل \"مدرب الاجتماعات\" لأكثر من دقيقة واحدة للوصول إلى التقرير",
+  "coach_report_no_data_too_long": "عذرًا، لا يدعم \"مدرب الاجتماعات\" الاجتماعات التي تزيد مدتها عن ساعتين",
+  "coach_report_title": "نتائج تحليلات مدرب الاجتماع",
+  "coach_report_private_label": "خاص",
+  "coach_report_settings": "الإعدادات",
+  "coach_report_subtitle": "* تقرير المدرب الخاص بك مرئي فقط لك.",
+  "coach_report_chart_title": "اقتراحات من اجتماعك",
+  "coach_report_card_checkbox": "حفظ وتخطي هذه الشاشة في الجلسات المستقبلية دائماً",
+  "coach_report_save_button": "حفظ",
+  "coach_report_delete_button": "حذف",
+  "coach_report_save_button_tooltip": "يمكنك العثور عليه لاحقاً على صفحة الاجتماع",
+  "coach_report_feedback_before_submit": "هل كانت هذه المعلومات مفيدة؟",
+  "coach_report_feedback_after_submit": "شكراً لتقديم الملاحظات",
+  "coach_report_feedback_yes_button": "نعم",
+  "coach_report_feedback_no_button": "لا",
+  "coach_report_critique_navigation_text": "{{critiqueCurrentCount}} من {{critiqueTotalCount}}",
+  "coach_report_previous_critique_button": "السابق",
+  "coach_report_next_critique_button": "التالي"
+}

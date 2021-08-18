@@ -1,0 +1,11 @@
+{
+  "home_page_message": "Yüklənir...",
+  "lobby_screen_exit_message": "Lobbidən Çıx",
+  "calling_join_button_audio": "Zəngə audio ilə qoşul",
+  "calling_join_button_video": "Zəngə video ilə qoşul",
+  "calling_screen_meeting_id": "Toplantı ID-si: {{conferenceId}}",
+  "meeting_room_present_content": "Təqdim et",
+  "meeting_room_connected_device": "Qoşulmuş cihaz",
+  "meeting_room_content_camera": "Məzmun kamerası",
+  "meeting_room_cortana_button_title": "Cortana"
+}

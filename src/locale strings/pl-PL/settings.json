@@ -1,0 +1,13 @@
+{
+  "general_settings_system_title": "System",
+  "general_settings_system_auto_start_toggle": "Uruchom automatycznie aplikację Teams",
+  "notification_settings_details_message_preview_header_text": "Podgląd wiadomości",
+  "notification_settings_edit_chat_button_aria_label": "Edytuj powiadomienia czatu",
+  "notification_settings_details_chat_messages_text": "Wiadomości",
+  "notification_settings_warning_windows_tfw": "Dokładnie sprawdź ustawienia powiadomień systemu Windows, aby upewnić się, że możesz otrzymywać powiadomienia aplikacji Teams. <0></0>",
+  "settings_loader_text": "Trwa ładowanie zawartości...",
+  "dropdown_settings_selected_text": "Wybrano {{value}}",
+  "read_receipts_title": "Potwierdzenia przeczytania",
+  "read_receipts_description": "Daj innym poznać, kiedy przeczytasz ich wiadomości, i wiedz, kiedy oni przeczytają Twoje. Aby zastosować ustawienie, zamknij i otwórz ponownie dane okna czatu.",
+  "read_receipts_label": "Potwierdzenia przeczytania"
+}

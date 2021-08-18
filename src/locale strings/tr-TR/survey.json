@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Evet",
+  "instant_answers_reaction_yes_aria_label": "Bu bilgi yardımcı oldu mu? -- Evet",
+  "instant_answers_reaction_no": "Hayır",
+  "instant_answers_reaction_no_aria_label": "Bu bilgi yardımcı oldu mu? -- Hayır",
+  "instant_answers_header_text": "Geri bildiriminiz için teşekkürler!",
+  "instant_answers_header_subtext": "Görüşlerinizi temel alarak, size yardımcı olabilecek bazı bilgileri aşağıda paylaşıyoruz:",
+  "instant_answers_footer_text": "Bu bilgi yardımcı oldu mu?",
+  "include_screenshot_text": "Ekran görüntüsü ekle",
+  "customer_feedback_dialog_email_label": "E-posta adresiniz (isteğe bağlı)",
+  "customer_feedback_dialog_email_placeholder": "E-posta adresi ekleyin",
+  "customer_feedback_dialog_email_aria_label": "E-posta adresiniz (isteğe bağlı)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Gönder düğmesine bastığınızda geri bildiriminiz Microsoft ürünlerini ve hizmetlerini iyileştirmek için kullanılacaktır. BT yöneticiniz bu verileri toplayabilecektir. Geri bildiriminize dayanarak destek sorununuz konusunda size yardımcı olacak ek bilgiler sağlayabiliriz.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Gizlilik Bildirimi.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Geri bildirim iletişim kutusunu kapat",
+  "customer_feedback_dialog_adhoc_window_title": "Geri bildirim gönder"
+}

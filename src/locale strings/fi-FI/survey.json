@@ -1,0 +1,17 @@
+{
+  "instant_answers_reaction_yes": "Kyllä",
+  "instant_answers_reaction_yes_aria_label": "Oliko näistä tiedoista hyötyä? – Kyllä",
+  "instant_answers_reaction_no": "Ei",
+  "instant_answers_reaction_no_aria_label": "Oliko näistä tiedoista hyötyä? – Ei",
+  "instant_answers_header_text": "Kiitos palautteestasi!",
+  "instant_answers_header_subtext": "Tässä on tietoja, joista saattaa palautteesi perusteella olla sinulle hyötyä:",
+  "instant_answers_footer_text": "Oliko näistä tiedoista hyötyä?",
+  "include_screenshot_text": "Sisällytä näyttökuva",
+  "customer_feedback_dialog_email_label": "Sähköpostiosoitteesi (valinnainen)",
+  "customer_feedback_dialog_email_placeholder": "Lisää sähköpostiosoite",
+  "customer_feedback_dialog_email_aria_label": "Sähköpostiosoitteesi (valinnainen)",
+  "customer_feedback_dialog_disclaimer_ia_enabled": "Kun painat Lähetä, palautettasi käytetään parantamaan Microsoftin tuotteita ja palveluita. IT-järjestelmänvalvojasi voi kerätä näitä tietoja. Palautteen perusteella voimme antaa lisätietoja tukiongelman ratkaisemiseksi.",
+  "customer_feedback_dialog_disclaimer_privacy_text": "Tietosuojatiedot.",
+  "customer_feedback_dialog_close_button_text_aria_label": "Sulje palautteen valintaikkuna",
+  "customer_feedback_dialog_adhoc_window_title": "Anna palautetta"
+}

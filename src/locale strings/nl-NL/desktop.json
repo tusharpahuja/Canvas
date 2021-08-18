@@ -1,0 +1,6 @@
+{
+  "auth_prompt_title_sign_in": "Aanmelden bij Microsoft Teams",
+  "auth_prompt_title_acquire_token": "Wachtwoord invoeren voor Microsoft Teams",
+  "systray_menu_item_label_open": "Open",
+  "systray_menu_item_label_quit": "Quit"
+}

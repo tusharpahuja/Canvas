@@ -1,0 +1,23 @@
+{
+  "me_control_sign_out_button_text": "Deconectați-vă",
+  "me_control_sign_out_button_aria_label": "Deconectați-vă de la Microsoft",
+  "me_control_my_microsoft_account_button_text": "Contul meu Microsoft",
+  "me_control_my_microsoft_account_button_aria_label": "Contul meu Microsoft",
+  "me_control_change_picture_aria_label": "Modificare fotografie de profil",
+  "me_control_trigger_aria_label": "Profil",
+  "me_control_menu_aria_label": "Meniu profil",
+  "app_bar_activity_app_name": "Activitate",
+  "app_bar_activity_app_arialabel": "Activitate",
+  "app_bar_aria_my_activity_badge_mf": "{num, plural, =1{# activitate nouă} one {# activități noi} few {# activități noi} other{# activități noi}}",
+  "app_bar_activity_app_tooltip": "Activitate",
+  "app_bar_chat_app_name": "Chat",
+  "app_bar_chat_app_arialabel": "Chat",
+  "app_bar_aria_chats_badge_mf": "{num, plural, =1{# chat cu mesaje noi} one {# chaturi cu mesaje noi} few {# chaturi cu mesaje noi} other{# chaturi cu mesaje noi}}",
+  "app_bar_chat_app_tooltip": "Chat",
+  "app_bar_calendar_app_name": "Calendar",
+  "app_bar_calendar_app_arialabel": "Calendar",
+  "app_bar_calendar_app_tooltip": "Calendar",
+  "app_bar_calls_app_name": "Apeluri",
+  "app_bar_calls_app_arialabel": "Apeluri",
+  "app_bar_calls_app_tooltip": "Apeluri"
+}

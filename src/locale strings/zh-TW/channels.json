@@ -1,0 +1,11 @@
+{
+  "email_sub_header_1_users_mf": "{otherUsersCount, plural, =0{收件者: {user1}} =1{收件者: {user1} 還有其他 1 人} other{收件者: {user1} 還有其他 # 人}}",
+  "email_sub_header_2_users_mf": "{otherUsersCount, plural, =0{收件者: {user1}、{user2}} =1{收件者: {user1}、{user2} 還有其他 1 人} other{收件者: {user1}、{user2} 還有其他 # 人}}",
+  "email_sub_header_3_users_mf": "{otherUsersCount, plural, =0{收件者: {user1}、{user2}、{user3}} =1{收件者: {user1}、{user2}、{user3} 還有其他 1 人} other{收件者: {user1}、{user2}、{user3} 還有其他 # 人}}",
+  "new_message_label": "新增",
+  "response_summary_1_users_mf": "{otherUsersCount, plural, =0{來自 {user1} 的 {repliesCount} 個回覆} =1{來自 {user1} 和其他 1 人的 {repliesCount} 個回覆} other{來自 {user1} 和其他 # 人的 {repliesCount} 個回覆}}",
+  "response_summary_2_users_mf": "{otherUsersCount, plural, =0{來自 {user1} 的 {repliesCount} 個回覆，{user2}} =1{來自 {user1}、{user2} 和其他 1 人的 {repliesCount} 個回覆} other{來自 {user1}、{user2} 和其他 # 人的 {repliesCount} 個回覆}}",
+  "response_summary_3_users_mf": "{otherUsersCount, plural, =0{來自 {user1}、{user2}、{user3} 的 {repliesCount} 個回覆} =1{來自 {user1}、{user2}、{user3} 和其他 1 人的 {repliesCount} 個回覆} other{來自 {user1}、{user2}、{user3} 和其他 # 人的 {repliesCount} 個回覆}}",
+  "tmp_view_chat_button_text": "檢視回覆",
+  "tmp_go_to_channel_button_text": "移至頻道"
+}
