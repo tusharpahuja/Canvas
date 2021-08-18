@@ -1,5 +1,7 @@
 # HTML Canvas - Measure dynamic content
 
+Refer file `/src/App.tsx` which uses HTML Canvas to measure width of text in different languages.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
